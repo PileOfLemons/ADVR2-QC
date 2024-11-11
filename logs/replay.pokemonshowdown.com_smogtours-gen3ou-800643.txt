@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TRXXJEH vs. doh5604 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TRXXJEH and doh5604! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800643">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729448173
+|gametype|singles
+|player|p1|TRXXJEH|policeman-gen4|
+|player|p2|doh5604|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729448173
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|turn|1
+|inactive|doh5604 has 270 seconds left.
+|
+|t:|1729448231
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|75/100
+|move|p2a: Hariyama|Brick Break|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729448243
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1729448245
+|switch|p1a: Breloom|Breloom, M|100/100|[from] Baton Pass
+|move|p2a: Hariyama|Knock Off|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|99/100
+|-enditem|p1a: Breloom|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|3
+|inactive|doh5604 has 270 seconds left.
+|inactive|doh5604 has 240 seconds left.
+|inactive|doh5604 has 210 seconds left.
+|
+|t:|1729448342
+|move|p1a: Breloom|Spore|p2a: Hariyama
+|-status|p2a: Hariyama|slp|[from] move: Spore
+|cant|p2a: Hariyama|slp
+|
+|upkeep
+|turn|4
+|inactive|doh5604 has 210 seconds left.
+|inactive|TRXXJEH has 270 seconds left.
+|
+|t:|1729448378
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|5
+|inactive|TRXXJEH has 270 seconds left.
+|inactive|doh5604 has 210 seconds left.
+|inactive|doh5604 has 180 seconds left.
+|
+|t:|1729448420
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|TRXXJEH has 270 seconds left.
+|inactive|TRXXJEH has 240 seconds left.
+|inactive|TRXXJEH has 210 seconds left.
+|
+|t:|1729448491
+|move|p2a: Flygon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|inactive|TRXXJEH has 180 seconds left.
+|
+|t:|1729448533
+|switch|p1a: Breloom|Breloom, M|99/100|[from] Baton Pass
+|
+|upkeep
+|turn|7
+|inactive|doh5604 has 180 seconds left.
+|
+|t:|1729448561
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Breloom|Stun Spore|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|8
+|inactive|TRXXJEH has 180 seconds left.
+|inactive|doh5604 has 180 seconds left.
+|inactive|TRXXJEH has 150 seconds left.
+|inactive|doh5604 has 150 seconds left.
+|
+|t:|1729448607
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Starmie|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|16/100
+|move|p1a: Breloom|Focus Punch||[still]
+|cant|p1a: Breloom|Focus Punch|Focus Punch
+|
+|upkeep
+|turn|9
+|
+|t:|1729448613
+|-curestatus|p2a: Starmie|par|[from] ability: Natural Cure
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Breloom|Hidden Power|p2a: Jirachi
+|-damage|p2a: Jirachi|81/100
+|
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729448624
+|move|p1a: Breloom|Stun Spore|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|move|p2a: Jirachi|Body Slam|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|inactive|TRXXJEH has 150 seconds left.
+|
+|t:|1729448659
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|-heal|p2a: Jirachi|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729448682
+|move|p1a: Dugtrio|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Dugtrio
+|-damage|p1a: Dugtrio|71/100
+|
+|-heal|p2a: Jirachi|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729448688
+|move|p1a: Dugtrio|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1729448691
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Arena Trap|[from] ability: Trace|[of] p1a: Dugtrio
+|
+|upkeep
+|turn|13
+|
+|t:|1729448700
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|5/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|55/100
+|
+|-heal|p2a: Porygon2|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729448705
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|18/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|68/100
+|
+|-heal|p2a: Porygon2|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729448708
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|25/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|75/100
+|
+|-heal|p2a: Porygon2|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729448712
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|37/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|87/100
+|
+|-heal|p2a: Porygon2|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729448715
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|50/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|99/100
+|
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729448719
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|57/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1729448722
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|52/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1729448725
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|55/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1729448728
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|56/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|22
+|
+|t:|1729448730
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|58/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|23
+|
+|t:|1729448732
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|55/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1729448735
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|52/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1729448739
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|52/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|26
+|
+|t:|1729448741
+|move|p1a: Dugtrio|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|52/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|27
+|
+|t:|1729448744
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|72/100
+|-damage|p1a: Dugtrio|59/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|28
+|
+|t:|1729448753
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|86/100
+|-damage|p1a: Dugtrio|53/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|29
+|
+|t:|1729448768
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|85/100
+|-damage|p1a: Dugtrio|46/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|30
+|
+|t:|1729448771
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|86/100
+|-damage|p1a: Dugtrio|40/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|31
+|
+|t:|1729448775
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|86/100
+|-damage|p1a: Dugtrio|34/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1729448778
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|86/100
+|-damage|p1a: Dugtrio|28/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|33
+|
+|t:|1729448782
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|85/100
+|-damage|p1a: Dugtrio|21/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|34
+|
+|t:|1729448785
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|86/100
+|-damage|p1a: Dugtrio|15/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|35
+|
+|t:|1729448788
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|87/100
+|-damage|p1a: Dugtrio|9/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|36
+|
+|t:|1729448791
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-damage|p2a: Porygon2|84/100
+|-damage|p1a: Dugtrio|1/100|[from] Recoil|[of] p2a: Porygon2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|37
+|
+|t:|1729448795
+|move|p1a: Dugtrio|Struggle|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|71/100
+|-damage|p1a: Dugtrio|0 fnt|[from] Recoil|[of] p2a: Porygon2
+|faint|p1a: Dugtrio
+|inactive|TRXXJEH has 270 seconds left.
+|
+|t:|1729448840
+|switch|p1a: Zapdos|Zapdos|82/100
+|
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|78/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|c|☆doh5604|oops i totally forgot i cant move after the opposing mon is ko'd
+|
+|t:|1729448851
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|63/100
+|move|p2a: Porygon2|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|-heal|p1a: Zapdos|69/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|84/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729448860
+|move|p1a: Zapdos|Thunderbolt|p2a: Porygon2
+|-damage|p2a: Porygon2|33/100
+|move|p2a: Porygon2|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|15/100
+|
+|-heal|p1a: Zapdos|21/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|39/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729448866
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-heal|p1a: Zapdos|27/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|TRXXJEH has 270 seconds left.
+|
+|t:|1729448893
+|move|p2a: Flygon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1729448905
+|switch|p1a: Jolteon|Jolteon, M|82/100
+|
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|doh5604 has 270 seconds left.
+|
+|t:|1729448941
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|63/100
+|move|p2a: Flygon|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-heal|p1a: Jolteon|69/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|doh5604 has 270 seconds left.
+|
+|t:|1729448946
+|switch|p2a: Porygon2|Porygon2|39/100
+|-ability|p2a: Porygon2|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|move|p1a: Jolteon|Hidden Power|p2a: Porygon2
+|-damage|p2a: Porygon2|20/100
+|
+|-heal|p1a: Jolteon|75/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|26/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729448950
+|move|p1a: Jolteon|Thunderbolt|p2a: Porygon2
+|-heal|p2a: Porygon2|51/100|[from] ability: Volt Absorb|[of] p1a: Jolteon
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729448965
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|90/100
+|
+|-heal|p1a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|doh5604 has 270 seconds left.
+|
+|t:|1729448991
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729448995
+|move|p1a: Jirachi|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|86/100
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729449006
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Jirachi|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|move|p2a: Tyranitar|Focus Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|74/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729449019
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Jirachi|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|64/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729449029
+|move|p2a: Flygon|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1729449041
+|switch|p1a: Jolteon|Jolteon, M|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|75/100|[from] Sandstorm
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|-heal|p2a: Flygon|70/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729449060
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|57/100
+|move|p2a: Flygon|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|50/100|[from] Sandstorm
+|-heal|p1a: Jolteon|57/100|[from] item: Leftovers
+|-heal|p2a: Flygon|76/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729449064
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|32/100
+|move|p2a: Flygon|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|25/100|[from] Sandstorm
+|-heal|p1a: Jolteon|32/100|[from] item: Leftovers
+|-heal|p2a: Flygon|82/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729449068
+|move|p1a: Jolteon|Hidden Power|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1729449078
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|25/100|[from] Sandstorm
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p1a: Jolteon|32/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|TRXXJEH has 270 seconds left.
+|
+|t:|1729449130
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|79/100
+|-status|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729449140
+|cant|p1a: Tyranitar|frz
+|move|p2a: Porygon2|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729449152
+|cant|p1a: Tyranitar|frz
+|move|p2a: Porygon2|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-enditem|p1a: Tyranitar|Salac Berry|[eat]
+|-boost|p1a: Tyranitar|spe|1|[from] item: Salac Berry
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729449155
+|cant|p1a: Tyranitar|frz
+|move|p2a: Porygon2|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729449157
+|switch|p1a: Jolteon|Jolteon, M|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|25/100|[from] Sandstorm
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p1a: Jolteon|32/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729449160
+|move|p1a: Jolteon|Hidden Power|p2a: Porygon2
+|-damage|p2a: Porygon2|80/100
+|move|p2a: Porygon2|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|doh5604
+|c|☆doh5604|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800643">
+{"id":"smogtours-gen3ou-800643","format":"[Gen 3] OU","players":["TRXXJEH","doh5604"],"uploadtime":1729449160,"views":104,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

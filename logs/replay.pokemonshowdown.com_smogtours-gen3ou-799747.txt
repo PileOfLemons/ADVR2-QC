@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: legoerofeggos vs. ManiacalDolphin - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between legoerofeggos and ManiacalDolphin! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799747">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729293091
+|gametype|singles
+|player|p1|legoerofeggos|101|
+|player|p2|ManiacalDolphin|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729293091
+|start
+|switch|p1a: Hariyama|Hariyama, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆legoerofeggos|glhf
+|inactive|ManiacalDolphin has 270 seconds left.
+|c|☆ManiacalDolphin|you to
+|
+|t:|1729293145
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729293164
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Hariyama
+|-sidestart|p1: legoerofeggos|Spikes
+|move|p1a: Hariyama|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|legoerofeggos has 270 seconds left.
+|
+|t:|1729293190
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hariyama|Knock Off|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729293202
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|move|p1a: Hariyama|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729293212
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729293218
+|move|p2a: Jirachi|Body Slam|p1a: Hariyama
+|-damage|p1a: Hariyama|82/100
+|move|p1a: Hariyama|Knock Off|p2a: Jirachi
+|-damage|p2a: Jirachi|99/100
+|-enditem|p2a: Jirachi|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Hariyama|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729293227
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Jirachi|Body Slam|p1a: Celebi
+|-damage|p1a: Celebi|75/100
+|-status|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|69/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729293243
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|cant|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|69/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729293262
+|-activate|p1a: Celebi|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Celebi|[from]Pursuit
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|7/100 par
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Hariyama|Hariyama, F|82/100
+|-damage|p1a: Hariyama|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|63/100|[from] Sandstorm
+|-heal|p1a: Hariyama|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729293279
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Hariyama|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|63/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729293289
+|move|p2a: Gengar|Thunderbolt|p1a: Hariyama
+|-damage|p1a: Hariyama|38/100
+|move|p1a: Hariyama|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|95/100
+|-enditem|p2a: Gengar|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|89/100|[from] Sandstorm
+|-damage|p1a: Hariyama|32/100|[from] Sandstorm
+|-heal|p1a: Hariyama|38/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729293310
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|83/100|[from] Sandstorm
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729293320
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Gengar|Taunt|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|76/100|[from] Sandstorm
+|-heal|p1a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729293333
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|97/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729293344
+|switch|p1a: Ramón|Salamence, M|100/100
+|-ability|p1a: Ramón|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Earthquake|p1a: Ramón
+|-immune|p1a: Ramón
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|94/100|[from] Sandstorm
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|-heal|p1a: Ramón|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729293347
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Ramón|Toxic|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|94/100|[from] Sandstorm
+|-heal|p1a: Ramón|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729293354
+|move|p2a: Flygon|Rock Slide|p1a: Ramón
+|-supereffective|p1a: Ramón
+|-damage|p1a: Ramón|82/100
+|cant|p1a: Ramón|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|76/100|[from] Sandstorm
+|-heal|p1a: Ramón|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729293359
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Ramón|Wish|p1a: Ramón
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|76/100|[from] Sandstorm
+|-heal|p1a: Ramón|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|legoerofeggos has 270 seconds left.
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293421
+|switch|p1a: Jirachi|Jirachi|89/100
+|-damage|p1a: Jirachi|76/100|[from] Spikes
+|move|p2a: Tyranitar|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Ramón
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293431
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|75/100
+|-unboost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293443
+|switch|p1a: Hariyama|Hariyama, F|38/100
+|-damage|p1a: Hariyama|25/100|[from] Spikes
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-heal|p1a: Hariyama|75/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|69/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|legoerofeggos has 240 seconds left.
+|inactive|legoerofeggos has 210 seconds left.
+|
+|t:|1729293503
+|switch|p1a: Celebi|Celebi|7/100
+|-damage|p1a: Celebi|0 fnt|[from] Spikes
+|faint|p1a: Celebi
+|
+|t:|1729293505
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729293512
+|move|p2a: Moltres|Protect|p2a: Moltres
+|-singleturn|p2a: Moltres|Protect
+|move|p1a: Starmie|Surf|p2a: Moltres
+|-activate|p2a: Moltres|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|legoerofeggos has 210 seconds left.
+|
+|t:|1729293522
+|switch|p2a: Gengar|Gengar, M|76/100
+|move|p1a: Starmie|Surf|p2a: Gengar
+|-damage|p2a: Gengar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Gengar|29/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|legoerofeggos has 210 seconds left.
+|
+|t:|1729293553
+|move|p1a: Starmie|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1729293559
+|switch|p2a: Jirachi|Jirachi|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729293565
+|move|p1a: Starmie|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|98/100
+|-sideend|p1: legoerofeggos|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Jirachi|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|65/100
+|-status|p1a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|59/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|legoerofeggos has 210 seconds left.
+|
+|t:|1729293572
+|move|p2a: Jirachi|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|43/100 par
+|move|p1a: Starmie|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|37/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729293577
+|-curestatus|p1a: Starmie|par|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|81/100
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729293582
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729293591
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|93/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729293599
+|switch|p1a: Hariyama|Hariyama, F|75/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Hariyama
+|-damage|p1a: Hariyama|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|38/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|44/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293609
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|98/100
+|-enditem|p2a: Moltres|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|91/100|[from] Sandstorm
+|-damage|p1a: Hariyama|38/100|[from] Sandstorm
+|-heal|p1a: Hariyama|44/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293639
+|switch|p1a: Ramón|Salamence, M|82/100
+|-ability|p1a: Ramón|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|move|p2a: Moltres|Fire Blast|p1a: Ramón
+|-resisted|p1a: Ramón
+|-damage|p1a: Ramón|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|85/100|[from] Sandstorm
+|-damage|p1a: Ramón|44/100|[from] Sandstorm
+|-heal|p1a: Ramón|50/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729293651
+|move|p2a: Moltres|Will-O-Wisp|p1a: Ramón
+|-status|p1a: Ramón|brn
+|move|p1a: Ramón|Wish|p1a: Ramón
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|79/100|[from] Sandstorm
+|-damage|p1a: Ramón|44/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|38/100 brn|[from] brn
+|upkeep
+|turn|34
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293664
+|move|p2a: Moltres|Fire Blast|p1a: Ramón
+|-resisted|p1a: Ramón
+|-damage|p1a: Ramón|7/100 brn
+|move|p1a: Ramón|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|-heal|p1a: Ramón|57/100 brn|[from] move: Wish|[wisher] Ramón
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|73/100 tox|[from] Sandstorm
+|-damage|p1a: Ramón|51/100 brn|[from] Sandstorm
+|-damage|p2a: Moltres|67/100 tox|[from] psn
+|-heal|p1a: Ramón|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|45/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1729293675
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Ramón|Wish|p1a: Ramón
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|39/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|32/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1729293683
+|move|p1a: Ramón|Protect|p1a: Ramón
+|-singleturn|p1a: Ramón|Protect
+|move|p2a: Flygon|Rock Slide|p1a: Ramón
+|-activate|p1a: Ramón|Protect
+|
+|-heal|p1a: Ramón|82/100 brn|[from] move: Wish|[wisher] Ramón
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|76/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|70/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1729293688
+|switch|p2a: Jirachi|Jirachi|98/100 par
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1729293693
+|move|p1a: Jirachi|Fire Punch|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|75/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|77/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|39
+|inactive|legoerofeggos has 270 seconds left.
+|
+|t:|1729293715
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|64/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1729293721
+|switch|p1a: Hariyama|Hariyama, F|44/100
+|switch|p2a: Moltres|Moltres|67/100 tox
+|
+|-heal|p1a: Hariyama|94/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Moltres|100/100 tox|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100 tox|[from] Sandstorm
+|-damage|p1a: Hariyama|87/100|[from] Sandstorm
+|-damage|p2a: Moltres|88/100 tox|[from] psn
+|-heal|p1a: Hariyama|94/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|legoerofeggos has 240 seconds left.
+|inactive|legoerofeggos has 210 seconds left.
+|
+|t:|1729293784
+|switch|p1a: Jirachi|Jirachi|64/100 brn
+|move|p2a: Moltres|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1729293786
+|switch|p1a: Starmie|Starmie|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|37/100|[from] Sandstorm
+|-damage|p2a: Moltres|82/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|-damage|p2a: Moltres|69/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729293798
+|switch|p2a: Jirachi|Jirachi|75/100 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|87/100|[from] Sandstorm
+|-heal|p1a: Starmie|93/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729293803
+|move|p1a: Starmie|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|87/100|[from] Sandstorm
+|-heal|p1a: Starmie|93/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|legoerofeggos has 240 seconds left.
+|
+|t:|1729293809
+|switch|p1a: Sofía|Marowak, F|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|45
+|
+|t:|1729293822
+|switch|p1a: Hariyama|Hariyama, F|94/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|87/100|[from] Sandstorm
+|-heal|p1a: Hariyama|94/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729293828
+|move|p2a: Flygon|Toxic|p1a: Hariyama
+|-status|p1a: Hariyama|tox
+|move|p1a: Hariyama|Knock Off|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|96/100
+|-enditem|p2a: Flygon|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|87/100 tox|[from] Sandstorm
+|-heal|p1a: Hariyama|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|87/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1729293835
+|switch|p1a: Starmie|Starmie|93/100
+|move|p2a: Flygon|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|68/100|[from] Sandstorm
+|-heal|p1a: Starmie|74/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729293844
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Starmie|Surf|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|68/100|[from] Sandstorm
+|-heal|p1a: Starmie|74/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729293849
+|move|p1a: Starmie|Surf|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|23/100
+|move|p2a: Flygon|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|68/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|68/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1729293858
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Ramón|Salamence, M|70/100 brn
+|-ability|p1a: Ramón|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Protect||[still]
+|-fail|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|64/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|58/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1729293862
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Ramón|Wish|p1a: Ramón
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|52/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|45/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1729293873
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Ramón|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-heal|p1a: Ramón|95/100 brn|[from] move: Wish|[wisher] Ramón
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|89/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|83/100 brn|[from] brn
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1729293883
+|move|p1a: Ramón|Protect|p1a: Ramón
+|-singleturn|p1a: Ramón|Protect
+|move|p2a: Tyranitar|Ice Beam|p1a: Ramón
+|-activate|p1a: Ramón|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramón|77/100 brn|[from] Sandstorm
+|-heal|p1a: Ramón|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Ramón|70/100 brn|[from] brn
+|-heal|p2a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1729293889
+|switch|p1a: Hariyama|Hariyama, F|87/100 tox
+|move|p2a: Tyranitar|Ice Beam|p1a: Hariyama
+|-damage|p1a: Hariyama|55/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|49/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 tox|[from] psn
+|-heal|p1a: Hariyama|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|49/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1729293908
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|move|p2a: Tyranitar|Ice Beam|p1a: Hariyama
+|-damage|p1a: Hariyama|14/100 tox
+|move|p1a: Hariyama|Focus Punch||[still]
+|cant|p1a: Hariyama|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|8/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|57/100 tox|[from] psn
+|-heal|p1a: Hariyama|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|2/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1729293933
+|move|p2a: Tyranitar|Ice Beam|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|t:|1729293937
+|switch|p1a: Starmie|Starmie|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|62/100|[from] Sandstorm
+|-heal|p1a: Starmie|68/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|32/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1729293945
+|move|p1a: Starmie|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729293948
+|switch|p2a: Jirachi|Jirachi|52/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|62/100|[from] Sandstorm
+|-heal|p1a: Starmie|68/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729293958
+|switch|p1a: Sofía|Marowak, F|100/100
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|59
+|
+|t:|1729293964
+|-singleturn|p1a: Sofía|move: Focus Punch
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Sofía|Focus Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|60
+|
+|t:|1729293971
+|move|p1a: Sofía|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1729293977
+|switch|p2a: Moltres|Moltres|69/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|63/100 tox|[from] Sandstorm
+|-damage|p2a: Moltres|57/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|t:|1729293980
+|move|p2a: Moltres|Hidden Power|p1a: Sofía
+|-supereffective|p1a: Sofía
+|-damage|p1a: Sofía|21/100
+|move|p1a: Sofía|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1729293985
+|switch|p2a: Flygon|Flygon, M|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|62
+|
+|t:|1729293992
+|move|p2a: Flygon|Earthquake|p1a: Sofía
+|-damage|p1a: Sofía|0 fnt
+|faint|p1a: Sofía
+|
+|t:|1729293994
+|switch|p1a: Starmie|Starmie|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|62/100|[from] Sandstorm
+|-heal|p1a: Starmie|68/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729293999
+|move|p1a: Starmie|Surf|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|win|legoerofeggos
+|c|☆legoerofeggos|gg
+|c|☆ManiacalDolphin|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799747">
+{"id":"smogtours-gen3ou-799747","format":"[Gen 3] OU","players":["legoerofeggos","ManiacalDolphin"],"uploadtime":1729293999,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

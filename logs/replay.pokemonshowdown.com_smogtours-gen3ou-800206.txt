@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: erfder vs. TefoShark - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between erfder and TefoShark! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800206">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729385239
+|gametype|singles
+|player|p1|erfder|lisia-masters|
+|player|p2|TefoShark|acetrainer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729385239
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1729385250
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: TefoShark|Spikes
+|move|p2a: Tyranitar|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1729385254
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Tyranitar|Flamethrower|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1729385259
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Tyranitar|Flamethrower|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|74/100|[from] Sandstorm
+|-heal|p1a: Starmie|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729385265
+|move|p1a: Starmie|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|6/100
+|move|p2a: Tyranitar|Crunch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729385279
+|switch|p1a: Celebi|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|12/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729385284
+|move|p1a: Celebi|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729385287
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729385293
+|move|p2a: Dugtrio|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|26/100
+|move|p1a: Celebi|Hidden Power|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1729385297
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|20/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|26/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729385301
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Gengar|Ice Punch|p1a: Umbreon
+|-damage|p1a: Umbreon|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Umbreon|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729385307
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Umbreon|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|44/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|82/100|[from] Sandstorm
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729385312
+|move|p1a: Umbreon|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|cant|p2a: Forretress|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|82/100|[from] Sandstorm
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729385317
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Forretress|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|64/100|[from] Sandstorm
+|-heal|p1a: Umbreon|71/100|[from] item: Leftovers
+|-end|p2a: Forretress|move: Taunt|[silent]
+|upkeep
+|turn|11
+|
+|t:|1729385324
+|switch|p1a: Skarmory|Skarmory, F|25/100
+|move|p2a: Forretress|Spikes|p1a: Skarmory
+|-sidestart|p1: erfder|Spikes
+|
+|-heal|p1a: Skarmory|75/100|[from] move: Wish|[wisher] Umbreon
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1729385327
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: TefoShark|Spikes
+|move|p2a: Forretress|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|72/100
+|-sideend|p2: TefoShark|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1729385336
+|switch|p1a: Umbreon|Umbreon, F|71/100
+|-damage|p1a: Umbreon|58/100|[from] Spikes
+|move|p2a: Forretress|Spikes|p1a: Umbreon
+|-sidestart|p1: erfder|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|52/100|[from] Sandstorm
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729385343
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Forretress|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|34/100|[from] Sandstorm
+|-heal|p1a: Umbreon|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729385346
+|move|p1a: Umbreon|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|cant|p2a: Forretress|move: Taunt|Spikes
+|
+|-heal|p1a: Umbreon|90/100|[from] move: Wish|[wisher] Umbreon
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Umbreon|84/100|[from] Sandstorm
+|-heal|p1a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729385352
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Umbreon|84/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729385357
+|switch|p1a: Celebi|Celebi|26/100
+|-damage|p1a: Celebi|10/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1729385374
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729385378
+|move|p1a: Aerodactyl|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|move|p2a: Blissey|Thunder Wave|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729385385
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|cant|p1a: Aerodactyl|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729385392
+|move|p2a: Blissey|Seismic Toss|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|67/100 par
+|move|p1a: Aerodactyl|Rock Slide|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|39/100|[from] Sandstorm
+|-heal|p2a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729385399
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|95/100
+|cant|p1a: Aerodactyl|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729385401
+|switch|p1a: Skarmory|Skarmory, F|72/100
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729385409
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Skarmory|Thief|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|98/100
+|-enditem|p2a: Forretress|Leftovers|[silent]|[from] move: Thief|[of] p1a: Skarmory
+|-item|p1a: Skarmory|Leftovers|[from] move: Thief|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729385419
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|84/100|[from] Spikes
+|move|p2a: Forretress|Spikes|p1a: Kangaskhan
+|-sidestart|p1: erfder|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|78/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729385425
+|move|p1a: Kangaskhan|Yawn|p2a: Forretress
+|-start|p2a: Forretress|move: Yawn|[of] p1a: Kangaskhan
+|move|p2a: Forretress|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|62/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729385431
+|switch|p1a: Umbreon|Umbreon, F|90/100
+|-damage|p1a: Umbreon|65/100|[from] Spikes
+|switch|p2a: Gengar|Gengar, M|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|37/100|[from] Sandstorm
+|-damage|p1a: Umbreon|59/100|[from] Sandstorm
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|65/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729385440
+|move|p2a: Gengar|Explosion|p1a: Umbreon
+|-damage|p1a: Umbreon|12/100
+|faint|p2a: Gengar
+|
+|t:|1729385446
+|switch|p2a: Blissey|Blissey, F|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-damage|p1a: Umbreon|6/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|12/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729385453
+|move|p2a: Blissey|Seismic Toss|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|t:|1729385464
+|switch|p1a: Skarmory|Skarmory, F|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729385484
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: TefoShark|Spikes
+|move|p2a: Blissey|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729385491
+|switch|p2a: Forretress|Forretress, M|98/100
+|-damage|p2a: Forretress|86/100|[from] Spikes
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729385502
+|switch|p1a: Kangaskhan|Kangaskhan, F|68/100
+|-damage|p1a: Kangaskhan|43/100|[from] Spikes
+|move|p2a: Forretress|Rapid Spin|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|41/100
+|-sideend|p2: TefoShark|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|35/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|41/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729385512
+|move|p1a: Kangaskhan|Yawn|p2a: Forretress
+|-start|p2a: Forretress|move: Yawn|[of] p1a: Kangaskhan
+|move|p2a: Forretress|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|20/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|26/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729385520
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Kangaskhan|Rest|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|slp|[from] move: Rest
+|-heal|p1a: Kangaskhan|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|94/100 slp|[from] Sandstorm
+|-heal|p1a: Kangaskhan|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729385535
+|cant|p1a: Kangaskhan|slp
+|move|p2a: Swampert|Ice Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|79/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|72/100 slp|[from] Sandstorm
+|-heal|p1a: Kangaskhan|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729385541
+|-curestatus|p1a: Kangaskhan|slp|[msg]
+|move|p1a: Kangaskhan|Dizzy Punch|p2a: Swampert
+|-damage|p2a: Swampert|83/100
+|move|p2a: Swampert|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|49/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|55/100|[from] item: Leftovers
+|-heal|p2a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729385547
+|move|p1a: Kangaskhan|Dizzy Punch|p2a: Swampert
+|-damage|p2a: Swampert|72/100
+|-start|p2a: Swampert|confusion
+|-activate|p2a: Swampert|confusion
+|move|p2a: Swampert|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|22/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|28/100|[from] item: Leftovers
+|-heal|p2a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729385557
+|move|p1a: Kangaskhan|Rest|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|slp|[from] move: Rest
+|-heal|p1a: Kangaskhan|100/100 slp|[silent]
+|-activate|p2a: Swampert|confusion
+|move|p2a: Swampert|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|75/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|69/100 slp|[from] Sandstorm
+|-heal|p1a: Kangaskhan|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|85/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729385563
+|cant|p1a: Kangaskhan|slp
+|-activate|p2a: Swampert|confusion
+|-damage|p2a: Swampert|77/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|69/100 slp|[from] Sandstorm
+|-heal|p1a: Kangaskhan|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729385572
+|-curestatus|p1a: Kangaskhan|slp|[msg]
+|move|p1a: Kangaskhan|Yawn|p2a: Swampert
+|-start|p2a: Swampert|move: Yawn|[of] p1a: Kangaskhan
+|-end|p2a: Swampert|confusion
+|move|p2a: Swampert|Ice Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|48/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|54/100|[from] item: Leftovers
+|-heal|p2a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729385581
+|switch|p1a: Skarmory|Skarmory, F|66/100 par
+|switch|p2a: Blissey|Blissey, F|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729385590
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: TefoShark|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729385598
+|switch|p1a: Aerodactyl|Aerodactyl, M|67/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|34/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729385604
+|move|p2a: Blissey|Seismic Toss|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|1/100 par
+|move|p1a: Aerodactyl|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-enditem|p1a: Aerodactyl|Liechi Berry|[eat]
+|-boost|p1a: Aerodactyl|atk|1|[from] item: Liechi Berry
+|upkeep
+|turn|44
+|
+|t:|1729385611
+|move|p2a: Blissey|Seismic Toss|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|t:|1729385613
+|switch|p1a: Kangaskhan|Kangaskhan, F|54/100
+|-damage|p1a: Kangaskhan|29/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|23/100|[from] Sandstorm
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|29/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729385619
+|switch|p2a: Forretress|Forretress, M|86/100
+|-damage|p2a: Forretress|73/100|[from] Spikes
+|move|p1a: Kangaskhan|Yawn|p2a: Forretress
+|-start|p2a: Forretress|move: Yawn|[of] p1a: Kangaskhan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|23/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|29/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729385622
+|switch|p2a: Swampert|Swampert, M|89/100
+|-damage|p2a: Swampert|77/100|[from] Spikes
+|move|p1a: Kangaskhan|Dizzy Punch|p2a: Swampert
+|-damage|p2a: Swampert|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|23/100|[from] Sandstorm
+|-heal|p1a: Kangaskhan|29/100|[from] item: Leftovers
+|-heal|p2a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729385627
+|move|p1a: Kangaskhan|Yawn|p2a: Swampert
+|-start|p2a: Swampert|move: Yawn|[of] p1a: Kangaskhan
+|move|p2a: Swampert|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kangaskhan|0 fnt|[from] Sandstorm
+|faint|p1a: Kangaskhan
+|-heal|p2a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729385629
+|switch|p1a: Skarmory|Skarmory, F|48/100 par
+|turn|48
+|
+|t:|1729385634
+|switch|p2a: Forretress|Forretress, M|73/100
+|-damage|p2a: Forretress|61/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: TefoShark|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729385637
+|move|p2a: Forretress|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100 par
+|-sideend|p2: TefoShark|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|move|p1a: Skarmory|Roar|p2a: Forretress
+|drag|p2a: Blissey|Blissey, F|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729385640
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|29/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: TefoShark|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729385643
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729385645
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|11/100 par
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729385647
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729385650
+|cant|p1a: Skarmory|par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|win|TefoShark
+|c|☆erfder|Gg
+|c|☆TefoShark|gg wp
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800206">
+{"id":"smogtours-gen3ou-800206","format":"[Gen 3] OU","players":["erfder","TefoShark"],"uploadtime":1729385650,"views":79,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

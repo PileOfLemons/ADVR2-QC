@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Dridri457 vs. tsukinomiko - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Dridri457 and tsukinomiko! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799687">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729282943
+|gametype|singles
+|player|p1|Dridri457|#dridri457|
+|player|p2|tsukinomiko|bellelba|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729282943
+|start
+|switch|p1a: Tyranibro|Tyranitar, M|100/100
+|switch|p2a: RX-0 Unicorn|Metagross, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranibro
+|turn|1
+|
+|t:|1729282951
+|switch|p1a: Skabrory|Skarmory, M|100/100
+|move|p2a: RX-0 Unicorn|Earthquake|p1a: Skabrory
+|-immune|p1a: Skabrory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1729282975
+|switch|p2a: Panopticon|Claydol|100/100
+|move|p1a: Skabrory|Spikes|p2a: Panopticon
+|-sidestart|p2: tsukinomiko|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1729282984
+|switch|p2a: Despotar|Tyranitar, M|100/100
+|-damage|p2a: Despotar|88/100|[from] Spikes
+|move|p1a: Skabrory|Drill Peck|p2a: Despotar
+|-resisted|p2a: Despotar
+|-damage|p2a: Despotar|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1729282996
+|move|p1a: Skabrory|Protect|p1a: Skabrory
+|-singleturn|p1a: Skabrory|Protect
+|move|p2a: Despotar|Fire Blast|p1a: Skabrory
+|-activate|p1a: Skabrory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1729283010
+|switch|p1a: Flybro|Flygon, M|100/100
+|move|p2a: Despotar|Fire Blast|p1a: Flybro
+|-resisted|p1a: Flybro
+|-damage|p1a: Flybro|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flybro|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729283022
+|switch|p2a: Panopticon|Claydol|100/100
+|move|p1a: Flybro|Protect||[still]
+|-fail|p1a: Flybro
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flybro|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729283041
+|switch|p2a: Oishi|Snorlax, F, shiny|100/100
+|-damage|p2a: Oishi|88/100|[from] Spikes
+|move|p1a: Flybro|Toxic|p2a: Oishi
+|-immune|p2a: Oishi|[from] ability: Immunity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oishi|82/100|[from] Sandstorm
+|-heal|p1a: Flybro|99/100|[from] item: Leftovers
+|-heal|p2a: Oishi|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729283064
+|move|p1a: Flybro|Earthquake|p2a: Oishi
+|-damage|p2a: Oishi|58/100
+|move|p2a: Oishi|Curse|p2a: Oishi
+|-unboost|p2a: Oishi|spe|1
+|-boost|p2a: Oishi|atk|1
+|-boost|p2a: Oishi|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oishi|51/100|[from] Sandstorm
+|-heal|p1a: Flybro|100/100|[from] item: Leftovers
+|-heal|p2a: Oishi|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729283071
+|switch|p1a: brogar|Gengar, M|100/100
+|move|p2a: Oishi|Body Slam|p1a: brogar
+|-immune|p1a: brogar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|95/100|[from] Sandstorm
+|-damage|p2a: Oishi|51/100|[from] Sandstorm
+|-heal|p1a: brogar|100/100|[from] item: Leftovers
+|-heal|p2a: Oishi|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|tsukinomiko has 270 seconds left.
+|inactive|tsukinomiko has 240 seconds left.
+|
+|t:|1729283133
+|switch|p2a: Panopticon|Claydol|100/100
+|move|p1a: brogar|Will-O-Wisp|p2a: Panopticon
+|-status|p2a: Panopticon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|95/100|[from] Sandstorm
+|-heal|p1a: brogar|100/100|[from] item: Leftovers
+|-damage|p2a: Panopticon|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1729283146
+|switch|p1a: Skabrory|Skarmory, M|100/100
+|switch|p2a: RX-0 Unicorn|Metagross, shiny|100/100
+|-damage|p2a: RX-0 Unicorn|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1729283152
+|move|p1a: Skabrory|Protect|p1a: Skabrory
+|-singleturn|p1a: Skabrory|Protect
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Skabrory
+|-activate|p1a: Skabrory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1729283178
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Skabrory
+|-resisted|p1a: Skabrory
+|-damage|p1a: Skabrory|69/100
+|move|p1a: Skabrory|Roar|p2a: RX-0 Unicorn
+|drag|p2a: Despotar|Tyranitar, M|79/100
+|-damage|p2a: Despotar|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skabrory|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283187
+|move|p1a: Skabrory|Protect|p1a: Skabrory
+|-singleturn|p1a: Skabrory|Protect
+|move|p2a: Despotar|Crunch|p1a: Skabrory
+|-activate|p1a: Skabrory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skabrory|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729283195
+|-activate|p1a: Skabrory|move: Pursuit
+|move|p2a: Despotar|Pursuit|p1a: Skabrory|[from]Pursuit
+|-resisted|p1a: Skabrory
+|-crit|p1a: Skabrory
+|-damage|p1a: Skabrory|45/100
+|switch|p1a: Brossey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|94/100|[from] Sandstorm
+|-heal|p1a: Brossey|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283212
+|switch|p2a: Oishi|Snorlax, F, shiny|58/100
+|-damage|p2a: Oishi|45/100|[from] Spikes
+|move|p1a: Brossey|Seismic Toss|p2a: Oishi
+|-damage|p2a: Oishi|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|94/100|[from] Sandstorm
+|-damage|p2a: Oishi|18/100|[from] Sandstorm
+|-heal|p1a: Brossey|100/100|[from] item: Leftovers
+|-heal|p2a: Oishi|24/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283232
+|-singleturn|p2a: Oishi|move: Focus Punch
+|switch|p1a: Skabrory|Skarmory, M|45/100
+|move|p2a: Oishi|Focus Punch|p1a: Skabrory
+|-damage|p1a: Skabrory|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oishi|18/100|[from] Sandstorm
+|-heal|p1a: Skabrory|17/100|[from] item: Leftovers
+|-heal|p2a: Oishi|24/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283245
+|move|p1a: Skabrory|Protect|p1a: Skabrory
+|-singleturn|p1a: Skabrory|Protect
+|move|p2a: Oishi|Body Slam|p1a: Skabrory
+|-activate|p1a: Skabrory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oishi|18/100|[from] Sandstorm
+|-heal|p1a: Skabrory|23/100|[from] item: Leftovers
+|-heal|p2a: Oishi|24/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283256
+|switch|p2a: Despotar|Tyranitar, M|67/100
+|-damage|p2a: Despotar|54/100|[from] Spikes
+|move|p1a: Skabrory|Drill Peck|p2a: Despotar
+|-resisted|p2a: Despotar
+|-damage|p2a: Despotar|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skabrory|29/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|tsukinomiko has 270 seconds left.
+|
+|t:|1729283261
+|move|p1a: Skabrory|Protect|p1a: Skabrory
+|-singleturn|p1a: Skabrory|Protect
+|move|p2a: Despotar|Fire Blast|p1a: Skabrory
+|-activate|p1a: Skabrory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skabrory|35/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729283267
+|switch|p1a: Brossey|Blissey, F|100/100
+|move|p2a: Despotar|Fire Blast|p1a: Brossey
+|-damage|p1a: Brossey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|81/100|[from] Sandstorm
+|-heal|p1a: Brossey|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729283284
+|switch|p2a: Panopticon|Claydol|88/100 brn
+|move|p1a: Brossey|Seismic Toss|p2a: Panopticon
+|-damage|p2a: Panopticon|54/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|81/100|[from] Sandstorm
+|-heal|p2a: Panopticon|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Panopticon|48/100 brn|[from] brn
+|-heal|p1a: Brossey|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|tsukinomiko has 270 seconds left.
+|inactive|Dridri457 has 270 seconds left.
+|
+|t:|1729283347
+|move|p2a: Panopticon|Rapid Spin|p1a: Brossey
+|-damage|p1a: Brossey|84/100
+|-sideend|p2: tsukinomiko|Spikes|[from] move: Rapid Spin|[of] p2a: Panopticon
+|move|p1a: Brossey|Ice Beam|p2a: Panopticon
+|-supereffective|p2a: Panopticon
+|-crit|p2a: Panopticon
+|-damage|p2a: Panopticon|0 fnt
+|faint|p2a: Panopticon
+|
+|t:|1729283355
+|switch|p2a: RX-0 Unicorn|Metagross, shiny|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|78/100|[from] Sandstorm
+|-heal|p1a: Brossey|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Dridri457 has 240 seconds left.
+|inactive|Dridri457 has 210 seconds left.
+|inactive|Dridri457 has 180 seconds left.
+|inactive|Dridri457 has 150 seconds left.
+|
+|t:|1729283471
+|switch|p1a: Zapbro|Zapdos|100/100
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Zapbro
+|-resisted|p1a: Zapbro
+|-damage|p1a: Zapbro|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapbro|44/100|[from] Sandstorm
+|-heal|p1a: Zapbro|50/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Dridri457 has 150 seconds left.
+|inactive|tsukinomiko has 240 seconds left.
+|inactive|tsukinomiko has 210 seconds left.
+|
+|t:|1729283547
+|move|p1a: Zapbro|Thunderbolt|p2a: RX-0 Unicorn
+|-damage|p2a: RX-0 Unicorn|32/100
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Zapbro
+|-resisted|p1a: Zapbro
+|-damage|p1a: Zapbro|0 fnt
+|faint|p1a: Zapbro
+|
+|t:|1729283567
+|switch|p1a: Skabrory|Skarmory, M|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skabrory|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729283572
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Skabrory
+|-resisted|p1a: Skabrory
+|-crit|p1a: Skabrory
+|-damage|p1a: Skabrory|0 fnt
+|-boost|p2a: RX-0 Unicorn|atk|1
+|faint|p1a: Skabrory
+|c|☆Dridri457|^^
+|c|☆tsukinomiko|mb
+|c|☆Dridri457|all that to have a spikes and it's dead^^
+|
+|t:|1729283588
+|switch|p1a: Flybro|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|inactive|tsukinomiko has 210 seconds left.
+|
+|t:|1729283602
+|switch|p2a: Oishi|Snorlax, F, shiny|24/100
+|move|p1a: Flybro|Earthquake|p2a: Oishi
+|-damage|p2a: Oishi|0 fnt
+|faint|p2a: Oishi
+|
+|t:|1729283606
+|switch|p2a: Ame-no-Habakiri|Suicune, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ame-no-Habakiri|94/100|[from] Sandstorm
+|-heal|p2a: Ame-no-Habakiri|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Dridri457 has 150 seconds left.
+|inactive|tsukinomiko has 210 seconds left.
+|
+|t:|1729283641
+|switch|p2a: RX-0 Unicorn|Metagross, shiny|32/100
+|move|p1a: Flybro|Toxic|p2a: RX-0 Unicorn
+|-immune|p2a: RX-0 Unicorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|inactive|tsukinomiko has 210 seconds left.
+|
+|t:|1729283672
+|move|p1a: Flybro|Toxic|p2a: RX-0 Unicorn
+|-immune|p2a: RX-0 Unicorn
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Flybro
+|-damage|p1a: Flybro|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flybro|32/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729283691
+|switch|p2a: Despotar|Tyranitar, M|45/100
+|move|p1a: Flybro|Earthquake|p2a: Despotar
+|-supereffective|p2a: Despotar
+|-damage|p2a: Despotar|0 fnt
+|faint|p2a: Despotar
+|
+|t:|1729283695
+|switch|p2a: Ame-no-Habakiri|Suicune, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ame-no-Habakiri|94/100|[from] Sandstorm
+|-heal|p2a: Ame-no-Habakiri|100/100|[from] item: Leftovers
+|-heal|p1a: Flybro|38/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729283703
+|switch|p1a: Brossey|Blissey, F|84/100
+|move|p2a: Ame-no-Habakiri|Ice Beam|p1a: Brossey
+|-damage|p1a: Brossey|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ame-no-Habakiri|94/100|[from] Sandstorm
+|-damage|p1a: Brossey|67/100|[from] Sandstorm
+|-heal|p2a: Ame-no-Habakiri|100/100|[from] item: Leftovers
+|-heal|p1a: Brossey|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729283717
+|switch|p2a: RX-0 Unicorn|Metagross, shiny|32/100
+|move|p1a: Brossey|Seismic Toss|p2a: RX-0 Unicorn
+|-damage|p2a: RX-0 Unicorn|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brossey|67/100|[from] Sandstorm
+|-heal|p1a: Brossey|73/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729283724
+|switch|p1a: Flybro|Flygon, M|38/100
+|move|p2a: RX-0 Unicorn|Meteor Mash|p1a: Flybro
+|-damage|p1a: Flybro|0 fnt
+|faint|p1a: Flybro
+|
+|t:|1729283729
+|switch|p1a: brogar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|95/100|[from] Sandstorm
+|-heal|p1a: brogar|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|tsukinomiko has 210 seconds left.
+|inactive|tsukinomiko has 180 seconds left.
+|inactive|tsukinomiko has 150 seconds left.
+|inactive|tsukinomiko has 120 seconds left.
+|inactive|tsukinomiko has 90 seconds left.
+|
+|t:|1729283875
+|move|p1a: brogar|Thunderbolt|p2a: RX-0 Unicorn
+|-damage|p2a: RX-0 Unicorn|0 fnt
+|faint|p2a: RX-0 Unicorn
+|
+|t:|1729283878
+|switch|p2a: Ame-no-Habakiri|Suicune, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|95/100|[from] Sandstorm
+|-damage|p2a: Ame-no-Habakiri|94/100|[from] Sandstorm
+|-heal|p1a: brogar|100/100|[from] item: Leftovers
+|-heal|p2a: Ame-no-Habakiri|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729283886
+|move|p1a: brogar|Taunt|p2a: Ame-no-Habakiri
+|-start|p2a: Ame-no-Habakiri|move: Taunt
+|cant|p2a: Ame-no-Habakiri|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|95/100|[from] Sandstorm
+|-damage|p2a: Ame-no-Habakiri|94/100|[from] Sandstorm
+|-heal|p1a: brogar|100/100|[from] item: Leftovers
+|-heal|p2a: Ame-no-Habakiri|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Dridri457 has 180 seconds left.
+|
+|t:|1729283895
+|move|p1a: brogar|Thunderbolt|p2a: Ame-no-Habakiri
+|-supereffective|p2a: Ame-no-Habakiri
+|-damage|p2a: Ame-no-Habakiri|51/100
+|move|p2a: Ame-no-Habakiri|Hydro Pump|p1a: brogar
+|-damage|p1a: brogar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: brogar|31/100|[from] Sandstorm
+|-damage|p2a: Ame-no-Habakiri|45/100|[from] Sandstorm
+|-heal|p1a: brogar|36/100|[from] item: Leftovers
+|-heal|p2a: Ame-no-Habakiri|51/100|[from] item: Leftovers
+|-end|p2a: Ame-no-Habakiri|move: Taunt|[silent]
+|upkeep
+|turn|37
+|inactive|Dridri457 has 180 seconds left.
+|
+|t:|1729283906
+|move|p1a: brogar|Explosion|p2a: Ame-no-Habakiri
+|-damage|p2a: Ame-no-Habakiri|0 fnt
+|faint|p1a: brogar
+|faint|p2a: Ame-no-Habakiri
+|
+|t:|1729283912
+|switch|p1a: Tyranibro|Tyranitar, M|100/100
+|switch|p2a: Tiamat|Salamence, M|100/100
+|-ability|p2a: Tiamat|Intimidate|boost
+|-unboost|p1a: Tyranibro|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tiamat|94/100|[from] Sandstorm
+|-heal|p2a: Tiamat|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729283919
+|move|p2a: Tiamat|Dragon Dance|p2a: Tiamat
+|-boost|p2a: Tiamat|atk|1
+|-boost|p2a: Tiamat|spe|1
+|move|p1a: Tyranibro|Rock Slide|p2a: Tiamat
+|-supereffective|p2a: Tiamat
+|-damage|p2a: Tiamat|0 fnt
+|faint|p2a: Tiamat
+|
+|win|Dridri457
+|c|☆Dridri457|gg
+|c|☆tsukinomiko|is that band
+|c|☆Dridri457|yes
+|c|☆tsukinomiko|fck 
+|c|☆Dridri457|it was nice matchs
+|c|☆tsukinomiko|ok
+|c|☆tsukinomiko|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799687">
+{"id":"smogtours-gen3ou-799687","format":"[Gen 3] OU","players":["Dridri457","tsukinomiko"],"uploadtime":1729283919,"views":116,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

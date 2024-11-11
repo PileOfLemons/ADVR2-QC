@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: wavyish vs. mint yerb - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between wavyish and mint yerb! Format: [Gen 3] OU; Date: Nov 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804490">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730660966
+|gametype|singles
+|player|p1|wavyish|akari|
+|player|p2|mint yerb|flannery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730660966
+|start
+|switch|p1a: wasian|Breloom, M|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|c|☆mint yerb|good luck! 
+|c|☆wavyish|u2!
+|inactive|mint yerb has 270 seconds left.
+|inactive|wavyish has 270 seconds left.
+|
+|t:|1730661026
+|switch|p1a: back goin brazy|Metagross|100/100
+|move|p2a: Gengar|Hidden Power|p1a: back goin brazy
+|-resisted|p1a: back goin brazy
+|-damage|p1a: back goin brazy|94/100
+|
+|-heal|p1a: back goin brazy|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730661044
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: back goin brazy|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|60/100
+|
+|-heal|p1a: back goin brazy|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730661059
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: back goin brazy|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-activate|p2a: Gengar|move: Destiny Bond
+|faint|p1a: back goin brazy
+|-hint|Previously chosen switches continue in Gen 2-4 after a Pursuit target faints.
+|switch|p2a: Charizard|Charizard, F|100/100
+|
+|t:|1730661068
+|switch|p1a: shaboing|Zapdos|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1730661072
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: shaboing|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|70/100
+|
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730661082
+|move|p1a: shaboing|Baton Pass|p1a: shaboing
+|
+|t:|1730661083
+|switch|p1a: heavy on my heart|Swampert, F|100/100|[from] Baton Pass
+|move|p2a: Snorlax|Body Slam|p1a: heavy on my heart
+|-damage|p1a: heavy on my heart|62/100
+|
+|-heal|p1a: heavy on my heart|69/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730661094
+|move|p1a: heavy on my heart|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|46/100
+|move|p2a: Snorlax|Hidden Power|p1a: heavy on my heart
+|-supereffective|p1a: heavy on my heart
+|-damage|p1a: heavy on my heart|0 fnt
+|faint|p1a: heavy on my heart
+|
+|t:|1730661098
+|switch|p1a: wasian|Breloom, M|100/100
+|
+|-heal|p2a: Snorlax|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730661105
+|move|p1a: wasian|Sky Uppercut|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|t:|1730661112
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1730661128
+|move|p1a: wasian|Mach Punch|p2a: Dugtrio
+|-damage|p2a: Dugtrio|44/100
+|move|p2a: Dugtrio|Hidden Power|p1a: wasian
+|-supereffective|p1a: wasian
+|-damage|p1a: wasian|0 fnt
+|faint|p1a: wasian
+|
+|t:|1730661136
+|switch|p1a: shaboing|Zapdos|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1730661140
+|move|p2a: Dugtrio|Rock Slide|p1a: shaboing
+|-supereffective|p1a: shaboing
+|-damage|p1a: shaboing|48/100
+|cant|p1a: shaboing|flinch
+|
+|-heal|p1a: shaboing|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730661145
+|move|p2a: Dugtrio|Rock Slide|p1a: shaboing|[miss]
+|-miss|p2a: Dugtrio|p1a: shaboing
+|move|p1a: shaboing|Hidden Power|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1730661180
+|switch|p2a: Medicham|Medicham, M|100/100
+|
+|-heal|p1a: shaboing|61/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1730661189
+|move|p2a: Medicham|Bulk Up|p2a: Medicham
+|-boost|p2a: Medicham|atk|1
+|-boost|p2a: Medicham|def|1
+|move|p1a: shaboing|Thunderbolt|p2a: Medicham
+|-damage|p2a: Medicham|5/100
+|
+|-enditem|p2a: Medicham|Salac Berry|[eat]
+|-boost|p2a: Medicham|spe|1|[from] item: Salac Berry
+|-heal|p1a: shaboing|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730661196
+|move|p2a: Medicham|Reversal|p1a: shaboing
+|-resisted|p1a: shaboing
+|-damage|p1a: shaboing|0 fnt
+|faint|p1a: shaboing
+|
+|t:|1730661199
+|switch|p1a: persimmon|Charizard, F|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1730661202
+|move|p2a: Medicham|Hidden Power|p1a: persimmon
+|-supereffective|p1a: persimmon
+|-damage|p1a: persimmon|0 fnt
+|faint|p1a: persimmon
+|
+|t:|1730661204
+|switch|p1a: yea dat|Snorlax, M|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1730661208
+|move|p2a: Medicham|Reversal|p1a: yea dat
+|-supereffective|p1a: yea dat
+|-damage|p1a: yea dat|0 fnt
+|faint|p1a: yea dat
+|
+|win|mint yerb
+|player|p1|
+|player|p1|wavyish|akari|
+|c|☆mint yerb|gg
+|c|☆wavyish|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804490">
+{"id":"smogtours-gen3ou-804490","format":"[Gen 3] OU","players":["wavyish","mint yerb"],"uploadtime":1730661208,"views":111,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

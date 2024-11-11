@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: xlimexheep vs. WalterFartwelWhite - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between xlimexheep and WalterFartwelWhite! Format: [Gen 3] OU; Date: Oct 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2214833867">
+|j|☆xlimexheep
+|j|☆WalterFartwelWhite
+|t:|1727933804
+|gametype|singles
+|player|p1|xlimexheep|schoolkidf|
+|player|p2|WalterFartwelWhite|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727933804
+|start
+|switch|p1a: metayucky|Metagross, shiny|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: metayucky|unboost|[from] ability: Clear Body|[of] p1a: metayucky
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WalterFartwelWhite)
+|
+|t:|1727933813
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: drunkafff|Snorlax, F, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1727933817
+|move|p2a: Skarmory|Spikes|p1a: drunkafff
+|-sidestart|p1: xlimexheep|Spikes
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1727933820
+|move|p2a: Skarmory|Spikes|p1a: drunkafff
+|-sidestart|p1: xlimexheep|Spikes
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1727933822
+|move|p1a: drunkafff|Return|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100
+|move|p2a: Skarmory|Roar|p1a: drunkafff
+|drag|p1a: metayucky|Metagross, shiny|100/100
+|-damage|p1a: metayucky|84/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727933826
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: metayucky|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727933832
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: metayucky|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|87/100
+|
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727933851
+|switch|p1a: doll|Claydol|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: doll
+|-supereffective|p1a: doll
+|-damage|p1a: doll|35/100
+|
+|-heal|p1a: doll|41/100|[from] item: Leftovers
+|-heal|p2a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727933866
+|move|p1a: doll|Rapid Spin|p2a: Swampert
+|-damage|p2a: Swampert|96/100
+|-sideend|p1: xlimexheep|Spikes|[from] move: Rapid Spin|[of] p1a: doll
+|move|p2a: Swampert|Hydro Pump|p1a: doll
+|-supereffective|p1a: doll
+|-damage|p1a: doll|0 fnt
+|faint|p1a: doll
+|
+|t:|1727933870
+|switch|p1a: ms. freeze|Regice, shiny|100/100
+|
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1727933885
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: ms. freeze|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|93/100
+|
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1727933890
+|move|p2a: Jirachi|Fire Punch|p1a: ms. freeze
+|-supereffective|p1a: ms. freeze
+|-damage|p1a: ms. freeze|82/100
+|-status|p1a: ms. freeze|brn
+|move|p1a: ms. freeze|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-heal|p1a: ms. freeze|88/100 brn|[from] item: Leftovers
+|-damage|p1a: ms. freeze|76/100 brn|[from] brn
+|-heal|p2a: Jirachi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1727933895
+|switch|p1a: drunkafff|Snorlax, F, shiny|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|upkeep
+|turn|12
+|
+|t:|1727933898
+|switch|p2a: Skarmory|Skarmory, F|78/100
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|13
+|
+|t:|1727933902
+|move|p2a: Skarmory|Spikes|p1a: drunkafff
+|-sidestart|p1: xlimexheep|Spikes
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1727933904
+|move|p1a: drunkafff|Return|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100
+|move|p2a: Skarmory|Roar|p1a: drunkafff
+|drag|p1a: ms. freeze|Regice, shiny|76/100 brn
+|-damage|p1a: ms. freeze|64/100 brn|[from] Spikes
+|
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|-heal|p1a: ms. freeze|70/100 brn|[from] item: Leftovers
+|-damage|p1a: ms. freeze|57/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1727933910
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: ms. freeze|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|-heal|p1a: ms. freeze|63/100 brn|[from] item: Leftovers
+|-damage|p1a: ms. freeze|51/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1727933914
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|move|p1a: ms. freeze|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100 par
+|
+|-heal|p1a: ms. freeze|57/100 brn|[from] item: Leftovers
+|-damage|p1a: ms. freeze|45/100 brn|[from] brn
+|-heal|p2a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1727933922
+|switch|p1a: drunkafff|Snorlax, F, shiny|100/100
+|-damage|p1a: drunkafff|88/100|[from] Spikes
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727933926
+|switch|p2a: Skarmory|Skarmory, F|78/100
+|move|p1a: drunkafff|Rest|p1a: drunkafff
+|-status|p1a: drunkafff|slp|[from] move: Rest
+|-heal|p1a: drunkafff|100/100 slp|[silent]
+|-enditem|p1a: drunkafff|Chesto Berry|[eat]
+|-curestatus|p1a: drunkafff|slp|[msg]
+|
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727933930
+|move|p2a: Skarmory|Spikes|p1a: drunkafff
+|-sidestart|p1: xlimexheep|Spikes
+|move|p1a: drunkafff|Covet|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100
+|-item|p1a: drunkafff|Leftovers|[from] move: Covet|[of] p2a: Skarmory
+|
+|upkeep
+|turn|20
+|
+|t:|1727933935
+|move|p2a: Skarmory|Spikes|p1a: drunkafff
+|-sidestart|p1: xlimexheep|Spikes
+|move|p1a: drunkafff|Return|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100
+|
+|upkeep
+|turn|21
+|
+|t:|1727933939
+|switch|p2a: Jirachi|Jirachi|97/100 par
+|move|p1a: drunkafff|Return|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|78/100 par
+|
+|-heal|p2a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727933941
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727933946
+|switch|p2a: Skarmory|Skarmory, F|59/100
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|24
+|
+|t:|1727933948
+|move|p1a: drunkafff|Return|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|move|p2a: Skarmory|Roar|p1a: drunkafff
+|drag|p1a: orblor|Forretress, F|100/100
+|-damage|p1a: orblor|76/100|[from] Spikes
+|
+|-heal|p1a: orblor|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727933952
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: orblor|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-heal|p1a: orblor|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1727933960
+|switch|p1a: drunkafff|Snorlax, F, shiny|100/100
+|-damage|p1a: drunkafff|76/100|[from] Spikes
+|move|p2a: Gengar|Taunt|p1a: drunkafff
+|-start|p1a: drunkafff|move: Taunt
+|
+|-heal|p1a: drunkafff|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1727933967
+|switch|p1a: metayucky|Metagross, shiny|84/100
+|-damage|p1a: metayucky|59/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: metayucky|[miss]
+|-miss|p2a: Gengar|p1a: metayucky
+|
+|upkeep
+|turn|28
+|
+|t:|1727933974
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: metayucky|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|73/100
+|-boost|p1a: metayucky|atk|1
+|
+|-heal|p2a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1727933981
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: metayucky|Meteor Mash|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-heal|p2a: Swampert|86/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1727933983
+|move|p1a: metayucky|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|44/100
+|move|p2a: Swampert|Earthquake|p1a: metayucky
+|-supereffective|p1a: metayucky
+|-damage|p1a: metayucky|9/100
+|
+|-heal|p2a: Swampert|50/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1727933989
+|switch|p1a: orblor|Forretress, F|88/100
+|-damage|p1a: orblor|63/100|[from] Spikes
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-heal|p2a: Swampert|56/100|[from] item: Leftovers
+|-heal|p1a: orblor|69/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1727933996
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: gendarrrr|Gengar, F, shiny|100/100
+|
+|upkeep
+|turn|33
+|
+|t:|1727934003
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: gendarrrr|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: gendarrrr|94/100|[from] Sandstorm
+|-heal|p1a: gendarrrr|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|83/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1727934008
+|move|p1a: gendarrrr|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|move|p2a: Tyranitar|Pursuit|p1a: gendarrrr
+|-supereffective|p1a: gendarrrr
+|-damage|p1a: gendarrrr|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: gendarrrr|49/100|[from] Sandstorm
+|-heal|p1a: gendarrrr|56/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|89/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1727934013
+|move|p1a: gendarrrr|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|move|p2a: Tyranitar|Crunch|p1a: gendarrrr
+|-supereffective|p1a: gendarrrr
+|-damage|p1a: gendarrrr|0 fnt
+|faint|p1a: gendarrrr
+|
+|t:|1727934017
+|switch|p1a: drunkafff|Snorlax, F, shiny|82/100
+|-damage|p1a: drunkafff|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: drunkafff|51/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|72/100|[from] item: Leftovers
+|-end|p2a: Tyranitar|move: Taunt|[silent]
+|-heal|p1a: drunkafff|57/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1727934021
+|move|p1a: drunkafff|Curse|p1a: drunkafff
+|-unboost|p1a: drunkafff|spe|1
+|-boost|p1a: drunkafff|atk|1
+|-boost|p1a: drunkafff|def|1
+|move|p2a: Tyranitar|Roar|p1a: drunkafff
+|drag|p1a: orblor|Forretress, F|69/100
+|-damage|p1a: orblor|45/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|-heal|p1a: orblor|51/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1727934025
+|move|p2a: Tyranitar|Fire Blast|p1a: orblor|[miss]
+|-miss|p2a: Tyranitar|p1a: orblor
+|move|p1a: orblor|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|51/100|[from] item: Leftovers
+|-heal|p1a: orblor|57/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727934028
+|move|p2a: Tyranitar|Fire Blast|p1a: orblor
+|-supereffective|p1a: orblor
+|-damage|p1a: orblor|0 fnt
+|faint|p1a: orblor
+|
+|t:|1727934031
+|switch|p1a: metayucky|Metagross, shiny|9/100
+|-damage|p1a: metayucky|0 fnt|[from] Spikes
+|faint|p1a: metayucky
+|
+|t:|1727934033
+|switch|p1a: drunkafff|Snorlax, F, shiny|57/100
+|-damage|p1a: drunkafff|32/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: drunkafff|26/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|32/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1727934037
+|move|p1a: drunkafff|Return|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|38/100
+|move|p2a: Tyranitar|Roar|p1a: drunkafff
+|drag|p1a: ms. freeze|Regice, shiny|45/100 brn
+|-damage|p1a: ms. freeze|20/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ms. freeze|14/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|44/100|[from] item: Leftovers
+|-heal|p1a: ms. freeze|20/100 brn|[from] item: Leftovers
+|-damage|p1a: ms. freeze|7/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1727934044
+|switch|p2a: Jirachi|Jirachi|90/100 par
+|move|p1a: ms. freeze|Explosion|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|77/100 par
+|faint|p1a: ms. freeze
+|
+|t:|1727934046
+|switch|p1a: drunkafff|Snorlax, F, shiny|32/100
+|-damage|p1a: drunkafff|7/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: drunkafff|1/100|[from] Sandstorm
+|-heal|p1a: drunkafff|7/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1727934051
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: drunkafff|atk|1
+|move|p1a: drunkafff|Rest|p1a: drunkafff
+|-status|p1a: drunkafff|slp|[from] move: Rest
+|-heal|p1a: drunkafff|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|94/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1727934055
+|move|p2a: Salamence|Brick Break|p1a: drunkafff
+|-supereffective|p1a: drunkafff
+|-damage|p1a: drunkafff|67/100 slp
+|cant|p1a: drunkafff|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|61/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1727934057
+|move|p2a: Salamence|Hidden Power|p1a: drunkafff
+|-damage|p1a: drunkafff|54/100 slp
+|cant|p1a: drunkafff|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|48/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1727934060
+|move|p2a: Salamence|Brick Break|p1a: drunkafff
+|-supereffective|p1a: drunkafff
+|-damage|p1a: drunkafff|21/100 slp
+|-curestatus|p1a: drunkafff|slp|[msg]
+|move|p1a: drunkafff|Rest|p1a: drunkafff
+|-status|p1a: drunkafff|slp|[from] move: Rest
+|-heal|p1a: drunkafff|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|94/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1727934064
+|move|p2a: Salamence|Brick Break|p1a: drunkafff
+|-supereffective|p1a: drunkafff
+|-damage|p1a: drunkafff|64/100 slp
+|cant|p1a: drunkafff|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|58/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1727934066
+|move|p2a: Salamence|Brick Break|p1a: drunkafff
+|-supereffective|p1a: drunkafff
+|-damage|p1a: drunkafff|30/100 slp
+|cant|p1a: drunkafff|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: drunkafff|24/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: drunkafff|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1727934068
+|move|p2a: Salamence|Brick Break|p1a: drunkafff
+|-supereffective|p1a: drunkafff
+|-damage|p1a: drunkafff|0 fnt
+|faint|p1a: drunkafff
+|
+|win|WalterFartwelWhite
+|c|☆xlimexheep|gg
+|c|☆WalterFartwelWhite|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2214833867">
+{"id":"gen3ou-2214833867","format":"[Gen 3] OU","players":["xlimexheep","WalterFartwelWhite"],"uploadtime":1727934074,"views":114,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

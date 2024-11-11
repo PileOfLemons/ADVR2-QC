@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ratdogrefurnished vs. clarissen - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ratdogrefurnished and clarissen! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794775">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728083780
+|gametype|singles
+|player|p1|ratdogrefurnished|pokemaniac-gen3rs|
+|player|p2|clarissen|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728083780
+|start
+|switch|p1a: The Brain|Forretress, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1728083799
+|switch|p1a: The Arm|Suicune|100/100
+|move|p2a: Tyranitar|Taunt|p1a: The Arm
+|-start|p1a: The Arm|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728083814
+|switch|p1a: The Brain|Forretress, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1728083818
+|move|p2a: Skarmory|Taunt|p1a: The Brain
+|-start|p1a: The Brain|move: Taunt
+|cant|p1a: The Brain|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728083852
+|move|p2a: Skarmory|Spikes|p1a: The Brain
+|-sidestart|p1: ratdogrefurnished|Spikes
+|move|p1a: The Brain|Zap Cannon|p2a: Skarmory|[miss]
+|-miss|p1a: The Brain|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: The Brain|move: Taunt|[silent]
+|upkeep
+|turn|5
+|
+|t:|1728083861
+|move|p2a: Skarmory|Taunt|p1a: The Brain
+|-start|p1a: The Brain|move: Taunt
+|cant|p1a: The Brain|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1728083872
+|switch|p1a: The Soul|Skarmory, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: The Soul
+|-sidestart|p1: ratdogrefurnished|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1728083877
+|switch|p1a: The Brain|Forretress, M|100/100
+|-damage|p1a: The Brain|84/100|[from] Spikes
+|move|p2a: Skarmory|Taunt|p1a: The Brain
+|-start|p1a: The Brain|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Brain|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728083883
+|move|p2a: Skarmory|Spikes|p1a: The Brain
+|-sidestart|p1: ratdogrefurnished|Spikes
+|move|p1a: The Brain|Zap Cannon|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|-status|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Brain|96/100|[from] item: Leftovers
+|-end|p1a: The Brain|move: Taunt|[silent]
+|-heal|p2a: Skarmory|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728083914
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: The Brain|Spikes|p2a: Moltres
+|-sidestart|p2: clarissen|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: The Brain|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728083923
+|move|p2a: Moltres|Will-O-Wisp|p1a: The Brain
+|-status|p1a: The Brain|brn
+|move|p1a: The Brain|Explosion|p2a: Moltres
+|-damage|p2a: Moltres|36/100
+|faint|p1a: The Brain
+|
+|t:|1728083927
+|switch|p1a: Come Tuesday|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|29/100|[from] Sandstorm
+|-heal|p2a: Moltres|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728083942
+|move|p2a: Moltres|Hidden Power|p1a: Come Tuesday
+|-supereffective|p1a: Come Tuesday
+|-damage|p1a: Come Tuesday|53/100
+|move|p1a: Come Tuesday|Rapid Spin|p2a: Moltres
+|-damage|p2a: Moltres|31/100
+|-sideend|p1: ratdogrefurnished|Spikes|[from] move: Rapid Spin|[of] p1a: Come Tuesday
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|25/100|[from] Sandstorm
+|-heal|p2a: Moltres|31/100|[from] item: Leftovers
+|-heal|p1a: Come Tuesday|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728083949
+|move|p2a: Moltres|Overheat|p1a: Come Tuesday
+|-damage|p1a: Come Tuesday|0 fnt
+|-unboost|p2a: Moltres|spa|2
+|faint|p1a: Come Tuesday
+|
+|t:|1728083953
+|switch|p1a: The Arm|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|25/100|[from] Sandstorm
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|31/100|[from] item: Leftovers
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728083969
+|switch|p2a: Skarmory|Skarmory, F|73/100 par
+|move|p1a: The Arm|Calm Mind|p1a: The Arm
+|-boost|p1a: The Arm|spa|1
+|-boost|p1a: The Arm|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728083972
+|move|p1a: The Arm|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|32/100 par
+|move|p2a: Skarmory|Roar|p1a: The Arm
+|drag|p1a: The Soul|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728083980
+|switch|p1a: The Arm|Suicune|100/100
+|move|p2a: Skarmory|Spikes|p1a: The Arm
+|-sidestart|p1: ratdogrefurnished|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728083990
+|move|p2a: Skarmory|Taunt|p1a: The Arm
+|-start|p1a: The Arm|move: Taunt
+|cant|p1a: The Arm|move: Taunt|Roar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728084010
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Spikes
+|move|p1a: The Arm|Surf|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|-end|p1a: The Arm|move: Taunt|[silent]
+|upkeep
+|turn|18
+|
+|t:|1728084015
+|move|p2a: Celebi|Leech Seed|p1a: The Arm
+|-start|p1a: The Arm|move: Leech Seed
+|move|p1a: The Arm|Roar|p2a: Celebi
+|drag|p2a: Moltres|Moltres|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|25/100|[from] Sandstorm
+|-damage|p1a: The Arm|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|31/100|[from] item: Leftovers
+|-heal|p1a: The Arm|100/100|[from] item: Leftovers
+|-damage|p1a: The Arm|88/100|[from] Leech Seed|[of] p2a: Moltres
+|-heal|p2a: Moltres|47/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1728084027
+|switch|p2a: Celebi|Celebi|76/100
+|-damage|p2a: Celebi|63/100|[from] Spikes
+|switch|p1a: The Belly|Blissey, F|100/100
+|-damage|p1a: The Belly|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-damage|p1a: The Belly|82/100|[from] Sandstorm
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|-heal|p1a: The Belly|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728084032
+|switch|p1a: The Fingers|Dugtrio, F|100/100
+|-damage|p1a: The Fingers|88/100|[from] Spikes
+|move|p2a: Celebi|Leech Seed|p1a: The Fingers
+|-start|p1a: The Fingers|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-damage|p1a: The Fingers|76/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|64/100|[silent]
+|-heal|p2a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728084036
+|move|p1a: The Fingers|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1728084058
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Fingers|64/100|[from] Leech Seed|[of] p2a: Swampert
+|-heal|p2a: Swampert|95/100|[silent]
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728084064
+|-singleturn|p2a: Swampert|move: Focus Punch
+|switch|p1a: The Arm|Suicune|88/100
+|-damage|p1a: The Arm|76/100|[from] Spikes
+|move|p2a: Swampert|Focus Punch|p1a: The Arm
+|-damage|p1a: The Arm|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|48/100|[from] Sandstorm
+|-heal|p1a: The Arm|54/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728084097
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: The Arm|Calm Mind|p1a: The Arm
+|-boost|p1a: The Arm|spa|1
+|-boost|p1a: The Arm|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|48/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: The Arm|54/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728084116
+|move|p2a: Jirachi|Thunderbolt|p1a: The Arm
+|-supereffective|p1a: The Arm
+|-damage|p1a: The Arm|32/100
+|-status|p1a: The Arm|par
+|move|p1a: The Arm|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|25/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|62/100|[from] item: Leftovers
+|-heal|p1a: The Arm|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728084122
+|move|p2a: Jirachi|Thunderbolt|p1a: The Arm
+|-supereffective|p1a: The Arm
+|-damage|p1a: The Arm|8/100 par
+|cant|p1a: The Arm|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Arm|2/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: The Arm|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆clarissen|mb
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728084128
+|switch|p1a: The Fingers|Dugtrio, F|64/100
+|-damage|p1a: The Fingers|51/100|[from] Spikes
+|move|p2a: Jirachi|Thunderbolt|p1a: The Fingers
+|-immune|p1a: The Fingers
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728084132
+|move|p1a: The Fingers|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728084140
+|switch|p2a: Moltres|Moltres|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|41/100|[from] Sandstorm
+|-heal|p2a: Moltres|47/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728084150
+|switch|p1a: The Arm|Suicune|8/100 par
+|-damage|p1a: The Arm|0 fnt|[from] Spikes
+|faint|p1a: The Arm
+|
+|t:|1728084151
+|switch|p1a: The Belly|Blissey, F|88/100
+|-damage|p1a: The Belly|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|41/100|[from] Sandstorm
+|-damage|p1a: The Belly|69/100|[from] Sandstorm
+|-heal|p2a: Moltres|47/100|[from] item: Leftovers
+|-heal|p1a: The Belly|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728084169
+|switch|p2a: Skarmory|Skarmory, F|50/100 par
+|move|p1a: The Belly|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|20/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|69/100|[from] Sandstorm
+|-heal|p1a: The Belly|76/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728084174
+|move|p1a: The Belly|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|inactive|clarissen has 270 seconds left.
+|
+|t:|1728084205
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|69/100|[from] Sandstorm
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|-heal|p1a: The Belly|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728084209
+|-singleturn|p2a: Swampert|move: Focus Punch
+|switch|p1a: The Soul|Skarmory, F|100/100
+|move|p2a: Swampert|Focus Punch|p1a: The Soul
+|-damage|p1a: The Soul|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|79/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728084217
+|switch|p2a: Moltres|Moltres|47/100
+|move|p1a: The Soul|Drill Peck|p2a: Moltres
+|-damage|p2a: Moltres|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|15/100|[from] Sandstorm
+|-heal|p2a: Moltres|21/100|[from] item: Leftovers
+|-heal|p1a: The Soul|85/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728084222
+|move|p1a: The Soul|Protect|p1a: The Soul
+|-singleturn|p1a: The Soul|Protect
+|move|p2a: Moltres|Overheat|p1a: The Soul
+|-activate|p1a: The Soul|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|15/100|[from] Sandstorm
+|-heal|p2a: Moltres|21/100|[from] item: Leftovers
+|-heal|p1a: The Soul|91/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728084227
+|switch|p1a: The Belly|Blissey, F|76/100
+|-damage|p1a: The Belly|63/100|[from] Spikes
+|move|p2a: Moltres|Will-O-Wisp|p1a: The Belly
+|-status|p1a: The Belly|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|15/100|[from] Sandstorm
+|-damage|p1a: The Belly|57/100 brn|[from] Sandstorm
+|-heal|p2a: Moltres|21/100|[from] item: Leftovers
+|-heal|p1a: The Belly|63/100 brn|[from] item: Leftovers
+|-damage|p1a: The Belly|51/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1728084242
+|move|p2a: Moltres|Overheat|p1a: The Belly
+|-damage|p1a: The Belly|18/100 brn
+|-unboost|p2a: Moltres|spa|2
+|move|p1a: The Belly|Soft-Boiled|p1a: The Belly
+|-heal|p1a: The Belly|68/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|15/100|[from] Sandstorm
+|-damage|p1a: The Belly|62/100 brn|[from] Sandstorm
+|-heal|p2a: Moltres|21/100|[from] item: Leftovers
+|-heal|p1a: The Belly|68/100 brn|[from] item: Leftovers
+|-damage|p1a: The Belly|56/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1728084250
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|move|p1a: The Belly|Soft-Boiled|p1a: The Belly
+|-heal|p1a: The Belly|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|94/100 brn|[from] Sandstorm
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|-heal|p1a: The Belly|100/100 brn|[from] item: Leftovers
+|-damage|p1a: The Belly|88/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1728084257
+|-singleturn|p2a: Swampert|move: Focus Punch
+|move|p1a: The Belly|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|69/100
+|move|p2a: Swampert|Focus Punch||[still]
+|cant|p2a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|82/100 brn|[from] Sandstorm
+|-heal|p2a: Swampert|76/100|[from] item: Leftovers
+|-heal|p1a: The Belly|88/100 brn|[from] item: Leftovers
+|-damage|p1a: The Belly|76/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1728084261
+|-curestatus|p1a: The Belly|brn|[from] ability: Natural Cure
+|switch|p1a: The Soul|Skarmory, F|91/100
+|move|p2a: Swampert|Earthquake|p1a: The Soul
+|-immune|p1a: The Soul
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|97/100|[from] item: Leftovers
+|-heal|p2a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728084269
+|move|p1a: The Soul|Spikes|p2a: Swampert
+|-sidestart|p2: clarissen|Spikes
+|move|p2a: Swampert|Hydro Pump|p1a: The Soul|[miss]
+|-miss|p2a: Swampert|p1a: The Soul
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728084277
+|switch|p2a: Moltres|Moltres|21/100
+|move|p1a: The Soul|Drill Peck|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1728084289
+|switch|p2a: Swampert|Swampert, M|88/100
+|-damage|p2a: Swampert|72/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728084292
+|move|p1a: The Soul|Spikes|p2a: Swampert
+|-sidestart|p2: clarissen|Spikes
+|move|p2a: Swampert|Hydro Pump|p1a: The Soul|[miss]
+|-miss|p2a: Swampert|p1a: The Soul
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728084299
+|move|p1a: The Soul|Protect|p1a: The Soul
+|-singleturn|p1a: The Soul|Protect
+|move|p2a: Swampert|Hydro Pump|p1a: The Soul
+|-activate|p1a: The Soul|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728084306
+|-singleturn|p2a: Swampert|move: Focus Punch
+|move|p2a: Swampert|Focus Punch|p1a: The Soul
+|-damage|p1a: The Soul|72/100
+|move|p1a: The Soul|Roar|p2a: Swampert
+|drag|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p1a: The Soul|78/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728084318
+|move|p1a: The Soul|Protect|p1a: The Soul
+|-singleturn|p1a: The Soul|Protect
+|move|p2a: Tyranitar|Rock Slide|p1a: The Soul|[miss]
+|-miss|p2a: Tyranitar|p1a: The Soul
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|-heal|p1a: The Soul|84/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728084327
+|switch|p1a: The Fingers|Dugtrio, F|51/100
+|-damage|p1a: The Fingers|39/100|[from] Spikes
+|move|p2a: Tyranitar|Taunt|p1a: The Fingers
+|-start|p1a: The Fingers|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728084332
+|move|p1a: The Fingers|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|c|☆ratdogrefurnished|oh shit
+|c|☆clarissen|mattered haha
+|c|☆clarissen|i threw tho so
+|
+|t:|1728084348
+|switch|p2a: Swampert|Swampert, M|90/100
+|-damage|p2a: Swampert|65/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: The Fingers|move: Taunt|[silent]
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728084362
+|switch|p1a: The Belly|Blissey, F|76/100
+|-damage|p1a: The Belly|63/100|[from] Spikes
+|move|p2a: Swampert|Ice Beam|p1a: The Belly
+|-damage|p1a: The Belly|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|47/100|[from] Sandstorm
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|-heal|p1a: The Belly|53/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728084368
+|move|p2a: Swampert|Earthquake|p1a: The Belly
+|-damage|p1a: The Belly|20/100
+|move|p1a: The Belly|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Belly|14/100|[from] Sandstorm
+|-heal|p2a: Swampert|59/100|[from] item: Leftovers
+|-heal|p1a: The Belly|20/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728084372
+|move|p2a: Swampert|Earthquake|p1a: The Belly
+|-damage|p1a: The Belly|0 fnt
+|faint|p1a: The Belly
+|
+|t:|1728084375
+|switch|p1a: The Fingers|Dugtrio, F|39/100
+|-damage|p1a: The Fingers|27/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|65/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728084382
+|move|p1a: The Fingers|Screech|p2a: Swampert|[miss]
+|-miss|p1a: The Fingers|p2a: Swampert
+|move|p2a: Swampert|Ice Beam|p1a: The Fingers
+|-supereffective|p1a: The Fingers
+|-damage|p1a: The Fingers|0 fnt
+|faint|p1a: The Fingers
+|c|+ALlCE|,
+|c|+ALlCE|why
+|
+|t:|1728084389
+|switch|p1a: The Soul|Skarmory, F|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|90/100|[from] item: Leftovers
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|c|☆ratdogrefurnished|i though peck endgame was the way
+|
+|t:|1728084405
+|move|p1a: The Soul|Protect|p1a: The Soul
+|-singleturn|p1a: The Soul|Protect
+|move|p2a: Swampert|Hydro Pump|p1a: The Soul
+|-activate|p1a: The Soul|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|96/100|[from] item: Leftovers
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728084408
+|move|p1a: The Soul|Drill Peck|p2a: Swampert
+|-damage|p2a: Swampert|57/100
+|move|p2a: Swampert|Hydro Pump|p1a: The Soul
+|-crit|p1a: The Soul
+|-damage|p1a: The Soul|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|15/100|[from] item: Leftovers
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728084413
+|move|p1a: The Soul|Protect|p1a: The Soul
+|-singleturn|p1a: The Soul|Protect
+|move|p2a: Swampert|Ice Beam|p1a: The Soul
+|-activate|p1a: The Soul|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Soul|21/100|[from] item: Leftovers
+|-heal|p2a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|c|☆clarissen|well this sure was a game
+|
+|t:|1728084422
+|move|p1a: The Soul|Protect||[still]
+|-fail|p1a: The Soul
+|move|p2a: Swampert|Ice Beam|p1a: The Soul
+|-damage|p1a: The Soul|0 fnt
+|faint|p1a: The Soul
+|
+|win|clarissen
+|c|☆ratdogrefurnished|GG
+|c|☆clarissen|gg >.<
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794775">
+{"id":"smogtours-gen3ou-794775","format":"[Gen 3] OU","players":["ratdogrefurnished","clarissen"],"uploadtime":1728084422,"views":131,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

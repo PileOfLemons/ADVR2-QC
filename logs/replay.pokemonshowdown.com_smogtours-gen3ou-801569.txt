@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: swordpeaceAD vs. EhtishamEX - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between swordpeaceAD and EhtishamEX! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801569">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729788587
+|gametype|singles
+|player|p1|swordpeaceAD|ethan|
+|player|p2|EhtishamEX|az|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729788587
+|start
+|switch|p1a: Big Ungus|Wailord, F, shiny|100/100
+|switch|p2a: BBDactyl|Aerodactyl, F, shiny|100/100
+|turn|1
+|inactive|EhtishamEX has 270 seconds left.
+|inactive|swordpeaceAD has 270 seconds left.
+|inactive|EhtishamEX has 240 seconds left.
+|inactive|EhtishamEX has 210 seconds left.
+|
+|t:|1729788681
+|switch|p2a: FrostDemigod|Blissey, F|100/100
+|move|p1a: Big Ungus|Hydro Pump|p2a: FrostDemigod
+|-damage|p2a: FrostDemigod|80/100
+|
+|-heal|p2a: FrostDemigod|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729788690
+|switch|p1a: Blugtrio|Dugtrio, M, shiny|100/100
+|switch|p2a: Gegnar|Sableye, M, shiny|100/100
+|
+|upkeep
+|turn|3
+|inactive|EhtishamEX has 270 seconds left.
+|
+|t:|1729788720
+|switch|p1a: Gigacharz|Charizard, F, shiny|100/100
+|move|p2a: Gegnar|Recover||[still]
+|-fail|p2a: Gegnar|heal
+|
+|upkeep
+|turn|4
+|inactive|swordpeaceAD has 270 seconds left.
+|
+|t:|1729788742
+|-singleturn|p1a: Gigacharz|move: Focus Punch
+|switch|p2a: Milk|Starmie|100/100
+|move|p1a: Gigacharz|Focus Punch|p2a: Milk
+|-resisted|p2a: Milk
+|-damage|p2a: Milk|81/100
+|
+|-heal|p2a: Milk|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|swordpeaceAD has 270 seconds left.
+|inactive|swordpeaceAD has 240 seconds left.
+|
+|t:|1729788798
+|switch|p1a: Sigmapert|Swampert, M, shiny|100/100
+|move|p2a: Milk|Thunder Wave|p1a: Sigmapert
+|-immune|p1a: Sigmapert
+|
+|-heal|p2a: Milk|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|EhtishamEX has 240 seconds left.
+|
+|t:|1729788835
+|switch|p2a: Envoy of TDL|Skarmory, M, shiny|100/100
+|move|p1a: Sigmapert|Earthquake|p2a: Envoy of TDL
+|-immune|p2a: Envoy of TDL
+|
+|upkeep
+|turn|7
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729788871
+|switch|p1a: Green Thunder|Jolteon, M, shiny|100/100
+|move|p2a: Envoy of TDL|Spikes|p1a: Green Thunder
+|-sidestart|p1: swordpeaceAD|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1729788885
+|move|p1a: Green Thunder|Substitute|p1a: Green Thunder
+|-start|p1a: Green Thunder|Substitute
+|-damage|p1a: Green Thunder|75/100
+|move|p2a: Envoy of TDL|Toxic||[still]
+|-fail|p2a: Envoy of TDL
+|
+|-heal|p1a: Green Thunder|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729788891
+|move|p1a: Green Thunder|Thunderbolt|p2a: Envoy of TDL
+|-supereffective|p2a: Envoy of TDL
+|-damage|p2a: Envoy of TDL|21/100
+|move|p2a: Envoy of TDL|Roar|p1a: Green Thunder
+|drag|p1a: Tyranno|Tyranitar, M, shiny|100/100
+|-damage|p1a: Tyranno|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranno
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Envoy of TDL|27/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|swordpeaceAD has 180 seconds left.
+|inactive|EhtishamEX has 210 seconds left.
+|inactive|swordpeaceAD has 150 seconds left.
+|
+|t:|1729788953
+|move|p1a: Tyranno|Dragon Dance|p1a: Tyranno
+|-boost|p1a: Tyranno|atk|1
+|-boost|p1a: Tyranno|spe|1
+|move|p2a: Envoy of TDL|Roar|p1a: Tyranno
+|drag|p1a: Green Thunder|Jolteon, M, shiny|82/100
+|-damage|p1a: Green Thunder|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|63/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|69/100|[from] item: Leftovers
+|-heal|p2a: Envoy of TDL|33/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|swordpeaceAD has 150 seconds left.
+|inactive|EhtishamEX has 180 seconds left.
+|
+|t:|1729788987
+|switch|p2a: FrostDemigod|Blissey, F|86/100
+|move|p1a: Green Thunder|Thunderbolt|p2a: FrostDemigod
+|-damage|p2a: FrostDemigod|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|63/100|[from] Sandstorm
+|-damage|p2a: FrostDemigod|64/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|69/100|[from] item: Leftovers
+|-heal|p2a: FrostDemigod|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|swordpeaceAD has 150 seconds left.
+|inactive|EhtishamEX has 180 seconds left.
+|
+|t:|1729789017
+|move|p1a: Green Thunder|Baton Pass|p1a: Green Thunder
+|inactive|swordpeaceAD has 120 seconds left.
+|
+|t:|1729789047
+|switch|p1a: Blugtrio|Dugtrio, M, shiny|100/100|[from] Baton Pass
+|-damage|p1a: Blugtrio|88/100|[from] Spikes
+|move|p2a: FrostDemigod|Ice Beam|p1a: Blugtrio
+|-supereffective|p1a: Blugtrio
+|-damage|p1a: Blugtrio|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: FrostDemigod|64/100|[from] Sandstorm
+|-heal|p2a: FrostDemigod|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729789069
+|move|p1a: Blugtrio|Beat Up|p2a: FrostDemigod
+|-damage|p2a: FrostDemigod|60/100
+|-damage|p2a: FrostDemigod|47/100
+|-damage|p2a: FrostDemigod|35/100
+|-damage|p2a: FrostDemigod|27/100
+|-damage|p2a: FrostDemigod|18/100
+|-damage|p2a: FrostDemigod|2/100
+|-hitcount|p2a: FrostDemigod|6
+|move|p2a: FrostDemigod|Ice Beam|p1a: Blugtrio
+|-supereffective|p1a: Blugtrio
+|-damage|p1a: Blugtrio|0 fnt
+|faint|p1a: Blugtrio
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729789103
+|switch|p1a: Big Ungus|Wailord, F, shiny|100/100
+|-damage|p1a: Big Ungus|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Big Ungus|82/100|[from] Sandstorm
+|-damage|p2a: FrostDemigod|0 fnt|[from] Sandstorm
+|faint|p2a: FrostDemigod
+|upkeep
+|inactive|EhtishamEX has 150 seconds left.
+|
+|t:|1729789155
+|switch|p2a: Cinderachi|Jirachi, shiny|100/100
+|turn|14
+|
+|t:|1729789176
+|move|p2a: Cinderachi|Body Slam|p1a: Big Ungus
+|-damage|p1a: Big Ungus|48/100
+|move|p1a: Big Ungus|Hydro Pump|p2a: Cinderachi
+|-damage|p2a: Cinderachi|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Big Ungus|42/100|[from] Sandstorm
+|-heal|p2a: Cinderachi|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|swordpeaceAD has 60 seconds left.
+|
+|t:|1729789192
+|switch|p1a: Tyranno|Tyranitar, M, shiny|88/100
+|-damage|p1a: Tyranno|76/100|[from] Spikes
+|move|p2a: Cinderachi|Hidden Power|p1a: Tyranno
+|-supereffective|p1a: Tyranno
+|-crit|p1a: Tyranno
+|-damage|p1a: Tyranno|0 fnt
+|faint|p1a: Tyranno
+|inactive|swordpeaceAD has 60 seconds left.
+|
+|t:|1729789202
+|switch|p1a: Gigacharz|Charizard, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gigacharz|94/100|[from] Sandstorm
+|-heal|p2a: Cinderachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|swordpeaceAD has 60 seconds left.
+|inactive|EhtishamEX has 150 seconds left.
+|
+|t:|1729789225
+|switch|p2a: Milk|Starmie|94/100
+|move|p1a: Gigacharz|Hidden Power|p2a: Milk
+|-supereffective|p2a: Milk
+|-damage|p2a: Milk|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milk|34/100|[from] Sandstorm
+|-damage|p1a: Gigacharz|88/100|[from] Sandstorm
+|-heal|p2a: Milk|41/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|EhtishamEX has 120 seconds left.
+|
+|t:|1729789276
+|switch|p1a: Big Ungus|Wailord, F, shiny|42/100
+|-damage|p1a: Big Ungus|29/100|[from] Spikes
+|move|p2a: Milk|Thunder Wave|p1a: Big Ungus
+|-status|p1a: Big Ungus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milk|34/100|[from] Sandstorm
+|-damage|p1a: Big Ungus|23/100 par|[from] Sandstorm
+|-heal|p2a: Milk|41/100|[from] item: Leftovers
+|-enditem|p1a: Big Ungus|Salac Berry|[eat]
+|-boost|p1a: Big Ungus|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|18
+|inactive|swordpeaceAD has 30 seconds left.
+|inactive|swordpeaceAD has 20 seconds left.
+|
+|t:|1729789302
+|move|p2a: Milk|Surf|p1a: Big Ungus
+|-resisted|p1a: Big Ungus
+|-damage|p1a: Big Ungus|0 fnt
+|faint|p1a: Big Ungus
+|inactive|swordpeaceAD has 25 seconds left this turn.
+|
+|t:|1729789307
+|switch|p1a: Green Thunder|Jolteon, M, shiny|69/100
+|-damage|p1a: Green Thunder|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|50/100|[from] Sandstorm
+|-damage|p2a: Milk|34/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|57/100|[from] item: Leftovers
+|-heal|p2a: Milk|41/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|swordpeaceAD has 30 seconds left.
+|inactive|EhtishamEX has 120 seconds left.
+|
+|t:|1729789327
+|switch|p2a: Envoy of TDL|Skarmory, M, shiny|33/100
+|move|p1a: Green Thunder|Thunderbolt|p2a: Envoy of TDL
+|-supereffective|p2a: Envoy of TDL
+|-damage|p2a: Envoy of TDL|0 fnt
+|faint|p2a: Envoy of TDL
+|inactive|swordpeaceAD has 30 seconds left this turn.
+|inactive|EhtishamEX has 90 seconds left.
+|
+|t:|1729789375
+|switch|p2a: Cinderachi|Jirachi, shiny|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|50/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|57/100|[from] item: Leftovers
+|-heal|p2a: Cinderachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|swordpeaceAD has 30 seconds left.
+|
+|t:|1729789392
+|move|p1a: Green Thunder|Baton Pass|p1a: Green Thunder
+|inactive|swordpeaceAD has 30 seconds left this turn.
+|
+|t:|1729789401
+|switch|p1a: Sigmapert|Swampert, M, shiny|100/100|[from] Baton Pass
+|-damage|p1a: Sigmapert|88/100|[from] Spikes
+|move|p2a: Cinderachi|Body Slam|p1a: Sigmapert
+|-damage|p1a: Sigmapert|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Cinderachi|74/100|[from] item: Leftovers
+|-heal|p1a: Sigmapert|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|swordpeaceAD has 30 seconds left.
+|inactive|EhtishamEX has 90 seconds left.
+|
+|t:|1729789412
+|move|p2a: Cinderachi|Hidden Power|p1a: Sigmapert
+|-supereffective|p1a: Sigmapert
+|-damage|p1a: Sigmapert|0 fnt
+|faint|p1a: Sigmapert
+|inactive|swordpeaceAD has 30 seconds left this turn.
+|
+|t:|1729789418
+|switch|p1a: Gigacharz|Charizard, F, shiny|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gigacharz|82/100|[from] Sandstorm
+|-heal|p2a: Cinderachi|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|swordpeaceAD has 30 seconds left.
+|inactive|EhtishamEX has 90 seconds left.
+|inactive|EhtishamEX has 60 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729789493
+|switch|p2a: BBDactyl|Aerodactyl, F, shiny|100/100
+|move|p1a: Gigacharz|Fire Blast|p2a: BBDactyl
+|-resisted|p2a: BBDactyl
+|-damage|p2a: BBDactyl|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gigacharz|76/100|[from] Sandstorm
+|upkeep
+|turn|23
+|inactive|swordpeaceAD has 30 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729789507
+|move|p2a: BBDactyl|Double-Edge|p1a: Gigacharz
+|-damage|p1a: Gigacharz|0 fnt
+|faint|p1a: Gigacharz
+|inactive|swordpeaceAD has 30 seconds left this turn.
+|
+|t:|1729789510
+|switch|p1a: Green Thunder|Jolteon, M, shiny|57/100
+|-damage|p1a: Green Thunder|44/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|38/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|44/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729789515
+|move|p1a: Green Thunder|Thunderbolt|p2a: BBDactyl
+|-supereffective|p2a: BBDactyl
+|-crit|p2a: BBDactyl
+|-damage|p2a: BBDactyl|0 fnt
+|faint|p2a: BBDactyl
+|
+|t:|1729789525
+|switch|p2a: Cinderachi|Jirachi, shiny|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|38/100|[from] Sandstorm
+|-heal|p1a: Green Thunder|44/100|[from] item: Leftovers
+|-heal|p2a: Cinderachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729789530
+|move|p1a: Green Thunder|Thunderbolt|p2a: Cinderachi
+|-damage|p2a: Cinderachi|47/100
+|move|p2a: Cinderachi|Body Slam|p1a: Green Thunder
+|-damage|p1a: Green Thunder|7/100
+|-status|p1a: Green Thunder|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Green Thunder|1/100 par|[from] Sandstorm
+|-heal|p2a: Cinderachi|53/100|[from] item: Leftovers
+|-heal|p1a: Green Thunder|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|EhtishamEX has 60 seconds left.
+|
+|t:|1729789537
+|move|p2a: Cinderachi|Dynamic Punch|p1a: Green Thunder
+|-damage|p1a: Green Thunder|0 fnt
+|faint|p1a: Green Thunder
+|
+|win|EhtishamEX
+|player|p1|
+|c|☆EhtishamEX|gg
+|player|p2|
+|player|p1|swordpeaceAD|ethan|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801569">
+{"id":"smogtours-gen3ou-801569","format":"[Gen 3] OU","players":["swordpeaceAD","EhtishamEX"],"uploadtime":1729789537,"views":83,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

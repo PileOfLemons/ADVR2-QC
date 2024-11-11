@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: pkLeech vs. JoaF - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between pkLeech and JoaF! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800743">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729454616
+|gametype|singles
+|player|p1|pkLeech|pokemonbreeder-gen4|
+|player|p2|JoaF|turo-ai|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729454616
+|start
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|c|☆pkLeech|gl hf
+|c|☆JoaF|u2
+|
+|t:|1729454626
+|move|p2a: Zapdos|Thunderbolt|p1a: Medicham
+|-damage|p1a: Medicham|17/100
+|move|p1a: Medicham|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|29/100
+|
+|-heal|p2a: Zapdos|35/100|[from] item: Leftovers
+|-heal|p1a: Medicham|23/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729454638
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Snorlax
+|-damage|p1a: Snorlax|89/100
+|
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729454649
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1729454660
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|89/100|[from] Sandstorm
+|-heal|p1a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729454665
+|move|p2a: Tyranitar|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|72/100
+|move|p1a: Snorlax|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|65/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|36/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729454681
+|move|p2a: Tyranitar|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|47/100
+|move|p1a: Snorlax|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|JoaF has 270 seconds left.
+|
+|t:|1729454714
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|41/100|[from] Sandstorm
+|-heal|p1a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|pkLeech has 270 seconds left.
+|inactive|pkLeech has 240 seconds left.
+|
+|t:|1729454791
+|move|p2a: Dugtrio|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|12/100
+|move|p1a: Snorlax|Return|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|JoaF has 270 seconds left.
+|c|☆pkLeech|adamant dugtrio, pretty cool
+|
+|t:|1729454830
+|switch|p2a: Zapdos|Zapdos|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|35/100|[from] Sandstorm
+|-damage|p1a: Snorlax|6/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|12/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|pkLeech has 210 seconds left.
+|c|☆JoaF|eh
+|c|☆JoaF|sometimes lol
+|c|☆JoaF|you clearly looking at calc too much
+|c|☆JoaF|relax a lil my firne
+|inactive|pkLeech has 180 seconds left.
+|c|☆pkLeech|ahah
+|c|☆JoaF|friend**
+|c|☆JoaF|haha
+|c|☆JoaF|jk
+|inactive|pkLeech has 150 seconds left.
+|
+|t:|1729454928
+|switch|p1a: Medicham|Medicham, F|23/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|c|☆pkLeech|I've been diagnosed with tryhard
+|
+|t:|1729454950
+|switch|p1a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|35/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆JoaF|happens to the best of us
+|
+|t:|1729454966
+|move|p2a: Zapdos|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|58/100
+|move|p1a: Magneton|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|35/100 par|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|pkLeech has 120 seconds left.
+|
+|t:|1729454983
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Magneton|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|70/100|[from] Sandstorm
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|JoaF has 270 seconds left.
+|
+|t:|1729454990
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|move|p2a: Celebi|Hidden Power|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Houndoom|79/100|[from] Sandstorm
+|-damage|p2a: Celebi|70/100|[from] Sandstorm
+|-heal|p1a: Houndoom|85/100|[from] item: Leftovers
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|JoaF has 270 seconds left.
+|c|☆JoaF|bro early bird?
+|c|☆pkLeech|lol wrong ability
+|c|☆JoaF|guy is trying to flex on me
+|c|☆pkLeech|lmfao
+|
+|t:|1729455021
+|switch|p2a: Zapdos|Zapdos|42/100 par
+|move|p1a: Houndoom|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1729455024
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Houndoom|79/100|[from] Sandstorm
+|-damage|p2a: Kingdra|95/100|[from] Sandstorm
+|-heal|p1a: Houndoom|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729455029
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1729455040
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|69/100
+|move|p1a: Milotic|Hypnosis|p2a: Kingdra|[miss]
+|-miss|p1a: Milotic|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Milotic|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729455045
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|46/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729455050
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|70/100
+|move|p1a: Milotic|Hypnosis|p2a: Kingdra|[miss]
+|-miss|p1a: Milotic|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729455054
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|45/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|95/100
+|
+|-weather|none
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729455060
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|68/100
+|move|p1a: Milotic|Hypnosis|p2a: Kingdra
+|-status|p2a: Kingdra|slp|[from] move: Hypnosis
+|-enditem|p2a: Kingdra|Lum Berry|[eat]
+|-curestatus|p2a: Kingdra|slp|[msg]
+|
+|-heal|p1a: Milotic|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729455065
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|94/100
+|
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729455073
+|move|p2a: Kingdra|Hidden Power|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|71/100
+|move|p1a: Milotic|Hypnosis|p2a: Kingdra
+|-status|p2a: Kingdra|slp|[from] move: Hypnosis
+|
+|-heal|p1a: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729455082
+|switch|p2a: Celebi|Celebi|76/100
+|switch|p1a: Snorlax|Snorlax, M|12/100
+|
+|-heal|p2a: Celebi|82/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|18/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729455091
+|switch|p1a: Houndoom|Houndoom, F|85/100
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|-heal|p1a: Houndoom|91/100|[from] item: Leftovers
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|pkLeech has 210 seconds left.
+|
+|t:|1729455108
+|move|p1a: Houndoom|Fire Blast|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|21/100
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1729455113
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Baton Pass
+|
+|-heal|p1a: Houndoom|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|pkLeech has 210 seconds left.
+|
+|t:|1729455138
+|move|p2a: Jirachi|Water Pulse|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|33/100
+|move|p1a: Houndoom|Fire Blast|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|30/100
+|
+|-heal|p2a: Jirachi|36/100|[from] item: Leftovers
+|-heal|p1a: Houndoom|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆pkLeech|wow
+|c|☆pkLeech|I thought I was the water pulse jirachi guy
+|c|☆JoaF|nah been running it
+|inactive|pkLeech has 180 seconds left.
+|c|☆JoaF|or trying
+|
+|t:|1729455197
+|move|p2a: Jirachi|Water Pulse|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|t:|1729455200
+|switch|p1a: Flygon|Flygon, M|100/100
+|
+|-heal|p2a: Jirachi|43/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729455203
+|move|p1a: Flygon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|c|☆pkLeech|I love it
+|c|☆JoaF|grr
+|c|☆JoaF|speed tie
+|
+|t:|1729455215
+|switch|p2a: Kingdra|Kingdra, F|95/100 slp
+|
+|upkeep
+|turn|26
+|c|☆pkLeech|yeah thought so
+|inactive|pkLeech has 180 seconds left.
+|
+|t:|1729455221
+|move|p1a: Flygon|Earthquake|p2a: Kingdra
+|-damage|p2a: Kingdra|50/100 slp
+|cant|p2a: Kingdra|slp
+|
+|upkeep
+|turn|27
+|inactive|pkLeech has 180 seconds left.
+|
+|t:|1729455236
+|move|p1a: Flygon|Substitute|p1a: Flygon
+|-start|p1a: Flygon|Substitute
+|-damage|p1a: Flygon|76/100
+|cant|p2a: Kingdra|slp
+|
+|-heal|p1a: Flygon|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729455242
+|move|p1a: Flygon|Earthquake|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|t:|1729455245
+|switch|p2a: Celebi|Celebi|21/100
+|
+|-heal|p1a: Flygon|88/100|[from] item: Leftovers
+|-heal|p2a: Celebi|27/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆pkLeech|you  had ice punch?
+|
+|t:|1729455248
+|move|p1a: Flygon|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|win|pkLeech
+|c|☆JoaF|yer
+|c|☆JoaF|gg
+|c|☆pkLeech|scary
+|c|☆JoaF|fun set
+|c|☆pkLeech|I think I had a chance with mag in case but 
+|c|☆JoaF|yeah
+|c|☆pkLeech|would have been tough lol
+|c|☆JoaF|hmm lemme see actually
+|c|☆JoaF|psychic was a roll
+|c|☆JoaF|in your favor tho
+|player|p2|
+|c|☆pkLeech|scary stuff
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800743">
+{"id":"smogtours-gen3ou-800743","format":"[Gen 3] OU","players":["pkLeech","JoaF"],"uploadtime":1729455248,"views":105,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

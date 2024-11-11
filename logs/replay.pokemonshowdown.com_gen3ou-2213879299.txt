@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: beignet2 vs. berkyderky - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between beignet2 and berkyderky! Format: [Gen 3] OU; Date: Oct 1, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2213879299">
+|j|☆beignet2
+|j|☆berkyderky
+|t:|1727820222
+|gametype|singles
+|player|p1|beignet2|blue-gen3two|
+|player|p2|berkyderky|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727820222
+|start
+|switch|p1a: this is insane|Breloom, F|100/100
+|switch|p2a: Shenron|Salamence, M, shiny|100/100
+|-ability|p2a: Shenron|Intimidate|boost
+|-unboost|p1a: this is insane|atk|1
+|turn|1
+|
+|t:|1727820252
+|switch|p1a: The Protagonist|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: The Protagonist
+|move|p2a: Shenron|Fire Blast|p1a: The Protagonist
+|-resisted|p1a: The Protagonist
+|-damage|p1a: The Protagonist|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: The Protagonist|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1727820281
+|switch|p1a: this is insane|Breloom, F|100/100
+|move|p2a: Shenron|Brick Break|p1a: this is insane
+|-damage|p1a: this is insane|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-damage|p1a: this is insane|60/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: this is insane|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1727820294
+|move|p2a: Shenron|Dragon Claw|p1a: this is insane
+|-damage|p1a: this is insane|0 fnt
+|faint|p1a: this is insane
+|
+|t:|1727820300
+|switch|p1a: 2|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-damage|p1a: 2|94/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: 2|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1727820308
+|switch|p2a: Sheer mass|Blissey, F|100/100
+|move|p1a: 2|Agility|p1a: 2
+|-boost|p1a: 2|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 2|94/100|[from] Sandstorm
+|-damage|p2a: Sheer mass|94/100|[from] Sandstorm
+|-heal|p1a: 2|100/100|[from] item: Leftovers
+|-heal|p2a: Sheer mass|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727820315
+|move|p1a: 2|Baton Pass|p1a: 2
+|
+|t:|1727820317
+|switch|p1a: Spin+Knock|Armaldo, M|100/100|[from] Baton Pass
+|move|p2a: Sheer mass|Sing|p1a: Spin+Knock
+|-status|p1a: Spin+Knock|slp|[from] move: Sing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sheer mass|94/100|[from] Sandstorm
+|-heal|p2a: Sheer mass|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727820325
+|switch|p2a: The Meta|Metagross|100/100
+|cant|p1a: Spin+Knock|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1727820330
+|switch|p1a: Golden Boy|Charizard, M|100/100
+|move|p2a: The Meta|Meteor Mash|p1a: Golden Boy
+|-resisted|p1a: Golden Boy
+|-damage|p1a: Golden Boy|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golden Boy|59/100|[from] Sandstorm
+|-heal|p1a: Golden Boy|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727820370
+|switch|p2a: Shenron|Salamence, M, shiny|100/100
+|-ability|p2a: Shenron|Intimidate|boost
+|-unboost|p1a: Golden Boy|atk|1
+|move|p1a: Golden Boy|Substitute|p1a: Golden Boy
+|-start|p1a: Golden Boy|Substitute
+|-damage|p1a: Golden Boy|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-damage|p1a: Golden Boy|34/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: Golden Boy|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1727820376
+|move|p2a: Shenron|Dragon Claw|p1a: Golden Boy
+|-end|p1a: Golden Boy|Substitute
+|move|p1a: Golden Boy|Fire Blast|p2a: Shenron|[miss]
+|-miss|p1a: Golden Boy|p2a: Shenron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-damage|p1a: Golden Boy|34/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: Golden Boy|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1727820383
+|switch|p1a: Spin+Knock|Armaldo, M|100/100 slp
+|move|p2a: Shenron|Dragon Claw|p1a: Spin+Knock
+|-damage|p1a: Spin+Knock|49/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|94/100|[from] Sandstorm
+|-heal|p2a: Shenron|100/100|[from] item: Leftovers
+|-heal|p1a: Spin+Knock|55/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1727820391
+|move|p2a: Shenron|Dragon Claw|p1a: Spin+Knock
+|-damage|p1a: Spin+Knock|9/100 slp
+|-curestatus|p1a: Spin+Knock|slp|[msg]
+|move|p1a: Spin+Knock|Rock Blast|p2a: Shenron
+|-supereffective|p2a: Shenron
+|-damage|p2a: Shenron|63/100
+|-supereffective|p2a: Shenron
+|-damage|p2a: Shenron|27/100
+|-hitcount|p2a: Shenron|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|21/100|[from] Sandstorm
+|-heal|p2a: Shenron|27/100|[from] item: Leftovers
+|-heal|p1a: Spin+Knock|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1727820408
+|switch|p1a: 2|Zapdos|100/100
+|move|p2a: Shenron|Dragon Claw|p1a: 2
+|-crit|p1a: 2
+|-damage|p1a: 2|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|21/100|[from] Sandstorm
+|-damage|p1a: 2|10/100|[from] Sandstorm
+|-heal|p2a: Shenron|27/100|[from] item: Leftovers
+|-heal|p1a: 2|16/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1727820422
+|move|p2a: Shenron|Dragon Claw|p1a: 2
+|-damage|p1a: 2|0 fnt
+|faint|p1a: 2
+|
+|t:|1727820427
+|switch|p1a: Clever Nickname|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clever Nickname|94/100|[from] Sandstorm
+|-damage|p2a: Shenron|21/100|[from] Sandstorm
+|-heal|p1a: Clever Nickname|100/100|[from] item: Leftovers
+|-heal|p2a: Shenron|27/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1727820435
+|switch|p2a: Gree|Claydol|100/100
+|move|p1a: Clever Nickname|Thunderbolt|p2a: Gree
+|-immune|p2a: Gree
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clever Nickname|94/100|[from] Sandstorm
+|-heal|p1a: Clever Nickname|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727820447
+|switch|p1a: Spin+Knock|Armaldo, M|15/100
+|move|p2a: Gree|Earthquake|p1a: Spin+Knock
+|-damage|p1a: Spin+Knock|0 fnt
+|faint|p1a: Spin+Knock
+|
+|t:|1727820452
+|switch|p1a: The Protagonist|Tyranitar, F|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: The Protagonist|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727820455
+|move|p2a: Gree|Earthquake|p1a: The Protagonist
+|-supereffective|p1a: The Protagonist
+|-damage|p1a: The Protagonist|37/100
+|move|p1a: The Protagonist|Crunch|p2a: Gree
+|-supereffective|p2a: Gree
+|-crit|p2a: Gree
+|-damage|p2a: Gree|0 fnt
+|faint|p2a: Gree
+|
+|t:|1727820462
+|switch|p2a: Shenron|Salamence, M, shiny|27/100
+|-ability|p2a: Shenron|Intimidate|boost
+|-unboost|p1a: The Protagonist|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shenron|21/100|[from] Sandstorm
+|-heal|p2a: Shenron|27/100|[from] item: Leftovers
+|-heal|p1a: The Protagonist|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1727820466
+|switch|p1a: Clever Nickname|Gengar, F|100/100
+|move|p2a: Shenron|Dragon Claw|p1a: Clever Nickname
+|-damage|p1a: Clever Nickname|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clever Nickname|30/100|[from] Sandstorm
+|-damage|p2a: Shenron|21/100|[from] Sandstorm
+|-heal|p1a: Clever Nickname|37/100|[from] item: Leftovers
+|-heal|p2a: Shenron|27/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727820483
+|switch|p2a: Sheer mass|Blissey, F|100/100
+|move|p1a: Clever Nickname|Thunderbolt|p2a: Sheer mass
+|-damage|p2a: Sheer mass|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clever Nickname|30/100|[from] Sandstorm
+|-damage|p2a: Sheer mass|80/100|[from] Sandstorm
+|-heal|p1a: Clever Nickname|37/100|[from] item: Leftovers
+|-heal|p2a: Sheer mass|86/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727820489
+|switch|p1a: Golden Boy|Charizard, M|40/100
+|move|p2a: Sheer mass|Thunderbolt|p1a: Golden Boy
+|-supereffective|p1a: Golden Boy
+|-damage|p1a: Golden Boy|0 fnt
+|faint|p1a: Golden Boy
+|
+|t:|1727820495
+|switch|p1a: Clever Nickname|Gengar, F|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clever Nickname|30/100|[from] Sandstorm
+|-damage|p2a: Sheer mass|80/100|[from] Sandstorm
+|-heal|p1a: Clever Nickname|37/100|[from] item: Leftovers
+|-heal|p2a: Sheer mass|86/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1727820500
+|move|p1a: Clever Nickname|Explosion|p2a: Sheer mass
+|-damage|p2a: Sheer mass|15/100
+|faint|p1a: Clever Nickname
+|
+|t:|1727820502
+|switch|p1a: The Protagonist|Tyranitar, F|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sheer mass|9/100|[from] Sandstorm
+|-heal|p1a: The Protagonist|49/100|[from] item: Leftovers
+|-heal|p2a: Sheer mass|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727820506
+|move|p1a: The Protagonist|Crunch|p2a: Sheer mass
+|-damage|p2a: Sheer mass|1/100
+|move|p2a: Sheer mass|Thunderbolt|p1a: The Protagonist
+|-damage|p1a: The Protagonist|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sheer mass|0 fnt|[from] Sandstorm
+|faint|p2a: Sheer mass
+|-heal|p1a: The Protagonist|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1727820511
+|switch|p2a: Shenron|Salamence, M, shiny|27/100
+|-ability|p2a: Shenron|Intimidate|boost
+|-unboost|p1a: The Protagonist|atk|1
+|turn|22
+|
+|t:|1727820513
+|move|p2a: Shenron|Brick Break|p1a: The Protagonist
+|-supereffective|p1a: The Protagonist
+|-damage|p1a: The Protagonist|0 fnt
+|faint|p1a: The Protagonist
+|
+|win|berkyderky
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2213879299">
+{"id":"gen3ou-2213879299","format":"[Gen 3] OU","players":["beignet2","berkyderky"],"uploadtime":1727820516,"views":159,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

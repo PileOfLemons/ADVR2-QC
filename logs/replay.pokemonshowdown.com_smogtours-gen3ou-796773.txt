@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: DuxIncorporated vs. Dimiswooner - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between DuxIncorporated and Dimiswooner! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796773">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728509203
+|gametype|singles
+|player|p1|DuxIncorporated|n|
+|player|p2|Dimiswooner|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728509203
+|start
+|switch|p1a: Ground Allergic|Jolteon, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|inactive|Dimiswooner has 270 seconds left.
+|
+|t:|1728509252
+|move|p1a: Ground Allergic|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|70/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728509263
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|2
+|
+|t:|1728509272
+|move|p1a: Ground Allergic|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|70/100
+|move|p2a: Jirachi|Body Slam|p1a: Ground Allergic
+|-damage|p1a: Ground Allergic|62/100
+|
+|-heal|p1a: Ground Allergic|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728509278
+|switch|p1a: Freaky Lil Guy|Gengar, F|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Freaky Lil Guy
+|-immune|p1a: Freaky Lil Guy
+|
+|-heal|p2a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728509299
+|move|p1a: Freaky Lil Guy|Destiny Bond|p1a: Freaky Lil Guy
+|-singlemove|p1a: Freaky Lil Guy|Destiny Bond
+|move|p2a: Jirachi|Fire Punch|p1a: Freaky Lil Guy
+|-damage|p1a: Freaky Lil Guy|79/100
+|-status|p1a: Freaky Lil Guy|brn
+|
+|-heal|p1a: Freaky Lil Guy|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Freaky Lil Guy|72/100 brn|[from] brn
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728509315
+|move|p1a: Freaky Lil Guy|Will-O-Wisp|p2a: Jirachi|[miss]
+|-miss|p1a: Freaky Lil Guy|p2a: Jirachi
+|move|p2a: Jirachi|Fire Punch|p1a: Freaky Lil Guy
+|-damage|p1a: Freaky Lil Guy|51/100 brn
+|
+|-heal|p1a: Freaky Lil Guy|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Freaky Lil Guy|45/100 brn|[from] brn
+|-heal|p2a: Jirachi|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728509332
+|switch|p1a: Keter Class|Claydol|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728509348
+|switch|p2a: Zapdos|Zapdos|70/100
+|move|p1a: Keter Class|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728509353
+|move|p2a: Zapdos|Hidden Power|p1a: Keter Class
+|-supereffective|p1a: Keter Class
+|-damage|p1a: Keter Class|64/100
+|move|p1a: Keter Class|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|
+|-heal|p2a: Zapdos|65/100|[from] item: Leftovers
+|-heal|p1a: Keter Class|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728509364
+|switch|p1a: I'm backkk|Blissey, F|100/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728509374
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: I'm backkk|94/100|[from] Sandstorm
+|-heal|p1a: I'm backkk|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728509379
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: I'm backkk|Heal Bell|p1a: I'm backkk
+|-activate|p1a: I'm backkk|move: Heal Bell
+|-curestatus|p1: Freaky Lil Guy|brn|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: I'm backkk|94/100|[from] Sandstorm
+|-heal|p1a: I'm backkk|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728509394
+|switch|p1a: Freaky Lil Guy|Gengar, F|45/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Freaky Lil Guy|39/100|[from] Sandstorm
+|-heal|p1a: Freaky Lil Guy|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728509401
+|move|p2a: Tyranitar|Rock Slide|p1a: Freaky Lil Guy
+|-damage|p1a: Freaky Lil Guy|0 fnt
+|faint|p1a: Freaky Lil Guy
+|
+|t:|1728509406
+|switch|p1a: I Must Scream|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1728509410
+|move|p2a: Tyranitar|Earthquake|p1a: I Must Scream
+|-supereffective|p1a: I Must Scream
+|-damage|p1a: I Must Scream|12/100
+|move|p1a: I Must Scream|Meteor Mash|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|Dimiswooner has 270 seconds left.
+|
+|t:|1728509464
+|switch|p2a: Swampert|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1728509476
+|move|p2a: Swampert|Surf|p1a: I Must Scream
+|-damage|p1a: I Must Scream|0 fnt
+|faint|p1a: I Must Scream
+|
+|t:|1728509489
+|switch|p1a: Ground Allergic|Jolteon, F|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ground Allergic|62/100|[from] Sandstorm
+|-heal|p1a: Ground Allergic|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Dimiswooner has 240 seconds left.
+|inactive|Dimiswooner has 210 seconds left.
+|
+|t:|1728509553
+|switch|p1a: Keter Class|Claydol|71/100
+|move|p2a: Swampert|Surf|p1a: Keter Class
+|-supereffective|p1a: Keter Class
+|-damage|p1a: Keter Class|0 fnt
+|faint|p1a: Keter Class
+|
+|t:|1728509564
+|switch|p1a: UK Resident|Kingdra, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: UK Resident|95/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|Dimiswooner has 210 seconds left.
+|
+|t:|1728509593
+|move|p1a: UK Resident|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: UK Resident|89/100|[from] Sandstorm
+|-damage|p2a: Swampert|69/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1728509604
+|move|p1a: UK Resident|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-end|p2a: Swampert|Substitute
+|move|p2a: Swampert|Surf|p1a: UK Resident
+|-resisted|p1a: UK Resident
+|-damage|p1a: UK Resident|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: UK Resident|72/100|[from] Sandstorm
+|-damage|p2a: Swampert|57/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1728509624
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: UK Resident|Hidden Power|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: UK Resident|66/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1728509632
+|switch|p1a: Ground Allergic|Jolteon, F|68/100
+|move|p2a: Metagross|Earthquake|p1a: Ground Allergic
+|-supereffective|p1a: Ground Allergic
+|-damage|p1a: Ground Allergic|0 fnt
+|faint|p1a: Ground Allergic
+|
+|t:|1728509638
+|switch|p1a: I'm backkk|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: I'm backkk|94/100|[from] Sandstorm
+|-heal|p1a: I'm backkk|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728509661
+|move|p2a: Metagross|Earthquake|p1a: I'm backkk
+|-damage|p1a: I'm backkk|41/100
+|move|p1a: I'm backkk|Calm Mind|p1a: I'm backkk
+|-boost|p1a: I'm backkk|spa|1
+|-boost|p1a: I'm backkk|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: I'm backkk|35/100|[from] Sandstorm
+|-heal|p1a: I'm backkk|41/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728509672
+|move|p2a: Metagross|Earthquake|p1a: I'm backkk
+|-damage|p1a: I'm backkk|0 fnt
+|faint|p1a: I'm backkk
+|
+|t:|1728509674
+|switch|p1a: UK Resident|Kingdra, F|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: UK Resident|60/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1728509677
+|move|p1a: UK Resident|Surf|p2a: Metagross
+|-damage|p2a: Metagross|29/100
+|move|p2a: Metagross|Earthquake|p1a: UK Resident
+|-damage|p1a: UK Resident|0 fnt
+|faint|p1a: UK Resident
+|
+|win|Dimiswooner
+|c|☆DuxIncorporated|gg 
+|c|☆Dimiswooner|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796773">
+{"id":"smogtours-gen3ou-796773","format":"[Gen 3] OU","players":["DuxIncorporated","Dimiswooner"],"uploadtime":1728509677,"views":94,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

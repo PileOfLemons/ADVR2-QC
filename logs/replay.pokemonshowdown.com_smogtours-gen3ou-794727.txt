@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TheLargestLad vs. Dr4gonl0rd - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TheLargestLad and Dr4gonl0rd! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794727">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728076136
+|gametype|singles
+|player|p1|TheLargestLad|2|
+|player|p2|Dr4gonl0rd|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728076136
+|start
+|switch|p1a: Soil Enthusiast|Tyranitar, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆Dr4gonl0rd|Good luck
+|c|☆TheLargestLad|you too lad
+|inactive|TheLargestLad has 270 seconds left.
+|inactive|TheLargestLad has 240 seconds left.
+|
+|t:|1728076211
+|move|p1a: Soil Enthusiast|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|move|p2a: Tyranitar|Earthquake|p1a: Soil Enthusiast
+|-supereffective|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Soil Enthusiast|64/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Dr4gonl0rd has 270 seconds left.
+|
+|t:|1728076253
+|switch|p1a: My Beloved|Cradily, M, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1728076260
+|switch|p1a: Tricurious|Magneton|100/100
+|move|p2a: Skarmory|Toxic|p1a: Tricurious|[miss]
+|-miss|p2a: Skarmory|p1a: Tricurious
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1728076267
+|move|p1a: Tricurious|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|inactive|Dr4gonl0rd has 270 seconds left.
+|
+|t:|1728076279
+|switch|p2a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1728076288
+|switch|p1a: My Beloved|Cradily, M, shiny|100/100
+|move|p2a: Flygon|Toxic|p1a: My Beloved
+|-status|p1a: My Beloved|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: My Beloved|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1728076305
+|move|p2a: Flygon|Rock Slide|p1a: My Beloved
+|-damage|p1a: My Beloved|78/100 tox
+|move|p1a: My Beloved|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|-heal|p1a: My Beloved|84/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|72/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1728076320
+|switch|p2a: Tyranitar|Tyranitar, M|64/100
+|switch|p1a: The Brain|Forretress, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728076330
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: The Brain|Spikes|p2a: Moltres
+|-sidestart|p2: Dr4gonl0rd|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728076338
+|switch|p1a: Elfish|Blissey, F|100/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Elfish
+|-status|p1a: Elfish|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Elfish|94/100 brn|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Elfish|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Elfish|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1728076349
+|switch|p2a: Tyranitar|Tyranitar, M|71/100
+|-damage|p2a: Tyranitar|58/100|[from] Spikes
+|move|p1a: Elfish|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|82/100 brn|[from] Sandstorm
+|-heal|p1a: Elfish|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Elfish|76/100 brn|[from] brn
+|-heal|p2a: Tyranitar|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728076361
+|-curestatus|p1a: Elfish|brn|[from] ability: Natural Cure
+|switch|p1a: My Beloved|Cradily, M, shiny|72/100 tox
+|move|p2a: Tyranitar|Earthquake|p1a: My Beloved
+|-damage|p1a: My Beloved|49/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|56/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|49/100 tox|[from] psn
+|-heal|p2a: Tyranitar|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728076367
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|99/100 tox
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|100/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|88/100 tox|[from] psn
+|-heal|p2a: Tyranitar|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728076371
+|move|p1a: My Beloved|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100 par
+|move|p2a: Tyranitar|Ice Beam|p1a: My Beloved
+|-supereffective|p1a: My Beloved
+|-damage|p1a: My Beloved|53/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|59/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|41/100 tox|[from] psn
+|-heal|p2a: Tyranitar|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728076382
+|switch|p1a: Bigweld|Metagross|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728076389
+|switch|p1a: Elfish|Blissey, F|76/100
+|move|p2a: Moltres|Fire Blast|p1a: Elfish
+|-damage|p1a: Elfish|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Elfish|43/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Elfish|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728076401
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|93/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Elfish|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728076408
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|76/100
+|-status|p1a: Elfish|par
+|cant|p1a: Elfish|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|70/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Elfish|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728076418
+|-curestatus|p1a: Elfish|par|[from] ability: Natural Cure
+|switch|p1a: Soil Enthusiast|Tyranitar, M|64/100
+|move|p2a: Jirachi|Body Slam|p1a: Soil Enthusiast
+|-resisted|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|56/100
+|-status|p1a: Soil Enthusiast|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Soil Enthusiast|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728076428
+|switch|p2a: Flygon|Flygon, F|94/100 tox
+|cant|p1a: Soil Enthusiast|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|-heal|p1a: Soil Enthusiast|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728076434
+|move|p2a: Flygon|Earthquake|p1a: Soil Enthusiast
+|-supereffective|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|18/100 par
+|move|p1a: Soil Enthusiast|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1728076452
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Soil Enthusiast|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728076455
+|move|p2a: Moltres|Hidden Power|p1a: Soil Enthusiast
+|-supereffective|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|0 fnt
+|faint|p1a: Soil Enthusiast
+|
+|t:|1728076462
+|switch|p1a: Elfish|Blissey, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Elfish|70/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Elfish|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728076470
+|switch|p2a: Tyranitar|Tyranitar, M|51/100 par
+|-damage|p2a: Tyranitar|39/100 par|[from] Spikes
+|move|p1a: Elfish|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|70/100|[from] Sandstorm
+|-heal|p1a: Elfish|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728076477
+|move|p1a: Elfish|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728076488
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|70/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Elfish|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728076504
+|switch|p1a: My Beloved|Cradily, M, shiny|41/100 tox
+|move|p2a: Jirachi|Body Slam|p1a: My Beloved
+|-resisted|p1a: My Beloved
+|-damage|p1a: My Beloved|31/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: My Beloved|37/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|31/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1728076517
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|81/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: My Beloved|87/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|75/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1728076526
+|move|p2a: Moltres|Protect|p2a: Moltres
+|-singleturn|p2a: Moltres|Protect
+|move|p1a: My Beloved|Toxic|p2a: Moltres
+|-activate|p2a: Moltres|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: My Beloved|81/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|62/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1728076533
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|switch|p1a: Elfish|Blissey, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|70/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Elfish|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728076541
+|move|p2a: Jirachi|Fire Punch|p1a: Elfish
+|-damage|p1a: Elfish|69/100
+|-status|p1a: Elfish|brn
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|94/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Elfish|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Elfish|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1728076550
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|68/100 brn
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|61/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Elfish|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Elfish|55/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1728076559
+|-curestatus|p1a: Elfish|brn|[from] ability: Natural Cure
+|switch|p1a: Tricurious|Magneton|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Tricurious
+|-resisted|p1a: Tricurious
+|-damage|p1a: Tricurious|85/100
+|-status|p1a: Tricurious|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728076567
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Tricurious|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728076572
+|move|p2a: Jirachi|Fire Punch|p1a: Tricurious
+|-supereffective|p1a: Tricurious
+|-damage|p1a: Tricurious|15/100 par
+|cant|p1a: Tricurious|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728076580
+|move|p2a: Jirachi|Fire Punch|p1a: Tricurious
+|-supereffective|p1a: Tricurious
+|-damage|p1a: Tricurious|0 fnt
+|faint|p1a: Tricurious
+|
+|t:|1728076591
+|switch|p1a: Elfish|Blissey, F|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|49/100|[from] Sandstorm
+|-heal|p1a: Elfish|55/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728076598
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|33/100
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|76/100|[from] Sandstorm
+|-heal|p1a: Elfish|83/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728076603
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|60/100
+|-status|p1a: Elfish|par
+|cant|p1a: Elfish|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|54/100 par|[from] Sandstorm
+|-heal|p1a: Elfish|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728076611
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|39/100 par
+|move|p1a: Elfish|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|33/100 par|[from] Sandstorm
+|-heal|p1a: Elfish|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728076618
+|-curestatus|p1a: Elfish|par|[from] ability: Natural Cure
+|switch|p1a: My Beloved|Cradily, M, shiny|62/100 tox
+|move|p2a: Jirachi|Body Slam|p1a: My Beloved
+|-resisted|p1a: My Beloved
+|-damage|p1a: My Beloved|53/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|59/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|53/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1728076628
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|100/100 tox
+|move|p2a: Jirachi|Fire Punch|p1a: My Beloved
+|-damage|p1a: My Beloved|90/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|96/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|83/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1728076643
+|switch|p1a: Elfish|Blissey, F|39/100
+|move|p2a: Jirachi|Fire Punch|p1a: Elfish
+|-damage|p1a: Elfish|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|26/100|[from] Sandstorm
+|-heal|p1a: Elfish|32/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728076653
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|82/100
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|59/100
+|-status|p1a: Elfish|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|53/100 par|[from] Sandstorm
+|-heal|p1a: Elfish|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728076663
+|move|p2a: Jirachi|Body Slam|p1a: Elfish
+|-damage|p1a: Elfish|37/100 par
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|31/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|82/100 par|[from] item: Leftovers
+|-heal|p1a: Elfish|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728076684
+|-curestatus|p1a: Elfish|par|[from] ability: Natural Cure
+|switch|p1a: My Beloved|Cradily, M, shiny|83/100 tox
+|move|p2a: Jirachi|Body Slam|p1a: My Beloved
+|-resisted|p1a: My Beloved
+|-damage|p1a: My Beloved|75/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|81/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|75/100 tox|[from] psn
+|-heal|p2a: Jirachi|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728076690
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: My Beloved|Earthquake|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: My Beloved|81/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|69/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1728076700
+|move|p2a: Moltres|Protect|p2a: Moltres
+|-singleturn|p2a: Moltres|Protect
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-damage|p1a: My Beloved|82/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1728076712
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: My Beloved|Toxic|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: My Beloved|88/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|64/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1728076739
+|switch|p1a: The Brain|Forretress, F|100/100
+|move|p2a: Gengar|Thunderbolt|p1a: The Brain
+|-damage|p1a: The Brain|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: The Brain|79/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728076751
+|move|p2a: Gengar|Will-O-Wisp|p1a: The Brain
+|-status|p1a: The Brain|brn
+|move|p1a: The Brain|Spikes|p2a: Gengar
+|-sidestart|p2: Dr4gonl0rd|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: The Brain|85/100 brn|[from] item: Leftovers
+|-damage|p1a: The Brain|73/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1728076757
+|move|p2a: Gengar|Taunt|p1a: The Brain
+|-start|p1a: The Brain|move: Taunt
+|cant|p1a: The Brain|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: The Brain|79/100 brn|[from] item: Leftovers
+|-damage|p1a: The Brain|66/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1728076766
+|move|p2a: Gengar|Thunderbolt|p1a: The Brain
+|-crit|p1a: The Brain
+|-damage|p1a: The Brain|11/100 brn
+|move|p1a: The Brain|Hidden Power|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|91/100|[from] Sandstorm
+|-heal|p2a: Gengar|97/100|[from] item: Leftovers
+|-heal|p1a: The Brain|17/100 brn|[from] item: Leftovers
+|-damage|p1a: The Brain|5/100 brn|[from] brn
+|-end|p1a: The Brain|move: Taunt|[silent]
+|upkeep
+|turn|50
+|
+|t:|1728076778
+|move|p2a: Gengar|Ice Punch|p1a: The Brain
+|-resisted|p1a: The Brain
+|-damage|p1a: The Brain|0 fnt
+|faint|p1a: The Brain
+|
+|t:|1728076792
+|switch|p1a: Bigweld|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|91/100|[from] Sandstorm
+|-heal|p2a: Gengar|97/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728076800
+|move|p2a: Gengar|Will-O-Wisp|p1a: Bigweld
+|-status|p1a: Bigweld|brn
+|-enditem|p1a: Bigweld|Lum Berry|[eat]
+|-curestatus|p1a: Bigweld|brn|[msg]
+|move|p1a: Bigweld|Agility|p1a: Bigweld
+|-boost|p1a: Bigweld|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|91/100|[from] Sandstorm
+|-heal|p2a: Gengar|97/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728076811
+|move|p1a: Bigweld|Meteor Mash|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-boost|p1a: Bigweld|atk|1
+|faint|p2a: Gengar
+|
+|t:|1728076816
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728076840
+|move|p1a: Bigweld|Meteor Mash|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|50/100
+|move|p2a: Moltres|Fire Blast|p1a: Bigweld
+|-supereffective|p1a: Bigweld
+|-damage|p1a: Bigweld|0 fnt
+|faint|p1a: Bigweld
+|
+|t:|1728076843
+|switch|p1a: Elfish|Blissey, F|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|43/100|[from] Sandstorm
+|-damage|p1a: Elfish|31/100|[from] Sandstorm
+|-heal|p2a: Moltres|50/100|[from] item: Leftovers
+|-heal|p1a: Elfish|37/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728076855
+|move|p2a: Moltres|Fire Blast|p1a: Elfish
+|-damage|p1a: Elfish|13/100
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|43/100|[from] Sandstorm
+|-damage|p1a: Elfish|56/100|[from] Sandstorm
+|-heal|p2a: Moltres|50/100|[from] item: Leftovers
+|-heal|p1a: Elfish|63/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728076865
+|switch|p2a: Jirachi|Jirachi|88/100 par
+|-damage|p2a: Jirachi|71/100 par|[from] Spikes
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|94/100|[from] Sandstorm
+|-heal|p1a: Elfish|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728076874
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|53/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|94/100|[from] Sandstorm
+|-heal|p1a: Elfish|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728076884
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|34/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|84/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|94/100|[from] Sandstorm
+|-heal|p1a: Elfish|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728076894
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|66/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Elfish
+|-damage|p1a: Elfish|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|87/100|[from] Sandstorm
+|-heal|p1a: Elfish|93/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728076901
+|switch|p1a: My Beloved|Cradily, M, shiny|64/100 tox
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|70/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|64/100 tox|[from] psn
+|-heal|p2a: Jirachi|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728076910
+|switch|p2a: Moltres|Moltres|50/100
+|move|p1a: My Beloved|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|-heal|p2a: Moltres|99/100 tox|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|93/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|93/100 tox|[from] psn
+|-heal|p1a: My Beloved|70/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|58/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|t:|1728076916
+|move|p2a: Moltres|Fire Blast|p1a: My Beloved
+|-damage|p1a: My Beloved|23/100 tox
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|73/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|87/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|81/100 tox|[from] psn
+|-heal|p1a: My Beloved|79/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|60/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1728076924
+|switch|p1a: Elfish|Blissey, F|93/100
+|move|p2a: Moltres|Fire Blast|p1a: Elfish
+|-damage|p1a: Elfish|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|75/100 tox|[from] Sandstorm
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p2a: Moltres|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|62/100 tox|[from] psn
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728076932
+|switch|p2a: Jirachi|Jirachi|78/100 par
+|-damage|p2a: Jirachi|61/100 par|[from] Spikes
+|move|p1a: Elfish|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|53/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728076938
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|34/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728076946
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|16/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|66/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728076952
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|47/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728076957
+|switch|p1a: My Beloved|Cradily, M, shiny|60/100 tox
+|move|p2a: Jirachi|Fire Punch|p1a: My Beloved
+|-damage|p1a: My Beloved|50/100 tox
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|56/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|50/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1728076968
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|99/100 tox
+|move|p2a: Jirachi|Body Slam|p1a: My Beloved
+|-resisted|p1a: My Beloved
+|-damage|p1a: My Beloved|91/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|98/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|85/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|t:|1728076979
+|move|p1a: My Beloved|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Beloved|91/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|73/100 tox|[from] psn
+|-heal|p2a: Jirachi|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728076986
+|switch|p1a: Elfish|Blissey, F|68/100
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728076991
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|57/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728076996
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|38/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728077003
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728077009
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728077018
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|7/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728077026
+|cant|p2a: Jirachi|par
+|move|p1a: Elfish|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728077032
+|switch|p2a: Moltres|Moltres|62/100 tox
+|
+|-heal|p2a: Moltres|100/100 tox|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100 tox|[from] Sandstorm
+|-damage|p1a: Elfish|62/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|94/100 tox|[from] psn
+|-heal|p1a: Elfish|68/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728077036
+|move|p2a: Moltres|Will-O-Wisp|p1a: Elfish
+|-status|p1a: Elfish|brn
+|move|p1a: Elfish|Soft-Boiled|p1a: Elfish
+|-heal|p1a: Elfish|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|88/100 tox|[from] Sandstorm
+|-damage|p1a: Elfish|94/100 brn|[from] Sandstorm
+|-heal|p2a: Moltres|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|82/100 tox|[from] psn
+|-heal|p1a: Elfish|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Elfish|88/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|t:|1728077043
+|-curestatus|p1a: Elfish|brn|[from] ability: Natural Cure
+|switch|p1a: My Beloved|Cradily, M, shiny|73/100 tox
+|move|p2a: Moltres|Fire Blast|p1a: My Beloved
+|-damage|p1a: My Beloved|36/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|76/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|63/100 tox|[from] psn
+|-heal|p1a: My Beloved|42/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|36/100 tox|[from] psn
+|upkeep
+|turn|79
+|
+|t:|1728077051
+|move|p2a: Moltres|Fire Blast|p1a: My Beloved|[miss]
+|-miss|p2a: Moltres|p1a: My Beloved
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|86/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|57/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|38/100 tox|[from] psn
+|-heal|p1a: My Beloved|92/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|79/100 tox|[from] psn
+|upkeep
+|turn|80
+|
+|t:|1728077054
+|move|p2a: Moltres|Fire Blast|p1a: My Beloved|[miss]
+|-miss|p2a: Moltres|p1a: My Beloved
+|move|p1a: My Beloved|Stockpile|p1a: My Beloved
+|-start|p1a: My Beloved|stockpile1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|32/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|7/100 tox|[from] psn
+|-heal|p1a: My Beloved|86/100 tox|[from] item: Leftovers
+|-damage|p1a: My Beloved|67/100 tox|[from] psn
+|upkeep
+|turn|81
+|
+|t:|1728077057
+|move|p2a: Moltres|Will-O-Wisp||[still]
+|-fail|p2a: Moltres
+|move|p1a: My Beloved|Recover|p1a: My Beloved
+|-heal|p1a: My Beloved|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|1/100 tox|[from] Sandstorm
+|-heal|p2a: Moltres|7/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|0 fnt|[from] psn
+|faint|p2a: Moltres
+|
+|win|TheLargestLad
+|upkeep
+|c|☆Dr4gonl0rd|gg
+|c|☆TheLargestLad|gg
+|player|p1|
+|player|p2|
+|player|p1|TheLargestLad|2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794727">
+{"id":"smogtours-gen3ou-794727","format":"[Gen 3] OU","players":["TheLargestLad","Dr4gonl0rd"],"uploadtime":1728077057,"views":151,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

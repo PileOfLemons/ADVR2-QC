@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: CazabichosPablo vs. DarthTyros - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between CazabichosPablo and DarthTyros! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798229">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728842901
+|gametype|singles
+|player|p1|CazabichosPablo|102|
+|player|p2|DarthTyros|#advpliv|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728842901
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: T-00|Tyranitar, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: T-00|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: T-00
+|turn|1
+|
+|t:|1728842914
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: T-00|Ice Beam|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|58/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728842922
+|switch|p2a: AncientDragon|Salamence, M|100/100
+|-ability|p2a: AncientDragon|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: AncientDragon|94/100|[from] Sandstorm
+|-heal|p2a: AncientDragon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728842934
+|switch|p2a: SCP-079|Metagross|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: SCP-079
+|-resisted|p2a: SCP-079
+|-damage|p2a: SCP-079|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SCP-079|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728842938
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: SCP-079|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SCP-079|99/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728842942
+|switch|p2a: T-00|Tyranitar, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: T-00
+|-sidestart|p2: DarthTyros|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728842945
+|move|p2a: T-00|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|36/100
+|move|p1a: Skarmory|Roar|p2a: T-00
+|drag|p2a: SU-35|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728842952
+|move|p2a: SU-35|Spikes|p1a: Skarmory
+|-sidestart|p1: CazabichosPablo|Spikes
+|move|p1a: Skarmory|Spikes|p2a: SU-35
+|-sidestart|p2: DarthTyros|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728842954
+|move|p2a: SU-35|Spikes|p1a: Skarmory
+|-sidestart|p1: CazabichosPablo|Spikes
+|move|p1a: Skarmory|Spikes|p2a: SU-35
+|-sidestart|p2: DarthTyros|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728842957
+|move|p2a: SU-35|Roar|p1a: Skarmory
+|drag|p1a: Claydol|Claydol|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728842960
+|move|p1a: Claydol|Rapid Spin|p2a: SU-35
+|-resisted|p2a: SU-35
+|-damage|p2a: SU-35|99/100
+|-sideend|p1: CazabichosPablo|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: SU-35|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|64/100 tox|[from] psn
+|-heal|p2a: SU-35|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728842962
+|switch|p1a: Magcargoat|Magcargo, F|100/100
+|move|p2a: SU-35|Spikes|p1a: Magcargoat
+|-sidestart|p1: CazabichosPablo|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|c|☆DarthTyros|a fucking snail?
+|
+|t:|1728842977
+|switch|p2a: T-00|Tyranitar, M|100/100
+|-damage|p2a: T-00|76/100|[from] Spikes
+|move|p1a: Magcargoat|Toxic|p2a: T-00
+|-status|p2a: T-00|tox
+|-enditem|p2a: T-00|Lum Berry|[eat]
+|-curestatus|p2a: T-00|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|c|☆CazabichosPablo|the goat
+|
+|t:|1728842983
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: T-00|atk|1
+|move|p2a: T-00|Brick Break|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728842989
+|move|p1a: Salamence|Brick Break|p2a: T-00
+|-supereffective|p2a: T-00
+|-damage|p2a: T-00|0 fnt
+|faint|p2a: T-00
+|
+|t:|1728842992
+|switch|p2a: Eclipso|Starmie|100/100
+|-damage|p2a: Eclipso|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728842996
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Eclipso|Rapid Spin|p1a: Celebi
+|-damage|p1a: Celebi|86/100
+|-sideend|p2: DarthTyros|Spikes|[from] move: Rapid Spin|[of] p2a: Eclipso
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-damage|p1a: Celebi|80/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|86/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728843001
+|switch|p2a: SU-35|Skarmory, F|100/100
+|move|p1a: Celebi|Leech Seed|p2a: SU-35
+|-start|p2a: SU-35|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|80/100|[from] Sandstorm
+|-heal|p1a: Celebi|86/100|[from] item: Leftovers
+|-damage|p2a: SU-35|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|96/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1728843007
+|switch|p1a: Claydol|Claydol|64/100 tox
+|move|p2a: SU-35|Spikes|p1a: Claydol
+|-sidestart|p1: CazabichosPablo|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|64/100 tox|[from] psn
+|-heal|p2a: SU-35|94/100|[from] item: Leftovers
+|-damage|p2a: SU-35|82/100|[from] Leech Seed|[of] p1a: Claydol
+|-heal|p1a: Claydol|77/100 tox|[silent]
+|upkeep
+|turn|18
+|
+|t:|1728843017
+|switch|p2a: AncientDragon|Salamence, M|100/100
+|-ability|p2a: AncientDragon|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|move|p1a: Claydol|Rapid Spin|p2a: AncientDragon
+|-damage|p2a: AncientDragon|96/100
+|-sideend|p1: CazabichosPablo|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: AncientDragon|90/100|[from] Sandstorm
+|-heal|p2a: AncientDragon|96/100|[from] item: Leftovers
+|-heal|p1a: Claydol|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|71/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1728843028
+|move|p2a: AncientDragon|Dragon Claw|p1a: Claydol
+|-damage|p1a: Claydol|37/100 tox
+|move|p1a: Claydol|Explosion|p2a: AncientDragon
+|-damage|p2a: AncientDragon|0 fnt
+|faint|p1a: Claydol
+|faint|p2a: AncientDragon
+|
+|t:|1728843038
+|switch|p2a: SU-35|Skarmory, F|82/100
+|switch|p1a: Salamence|Salamence, M|91/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: SU-35|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|-heal|p2a: SU-35|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728843042
+|move|p1a: Salamence|Fire Blast|p2a: SU-35
+|-supereffective|p2a: SU-35
+|-damage|p2a: SU-35|13/100
+|-status|p2a: SU-35|brn
+|move|p2a: SU-35|Spikes|p1a: Salamence
+|-sidestart|p1: CazabichosPablo|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|-heal|p2a: SU-35|19/100 brn|[from] item: Leftovers
+|-damage|p2a: SU-35|7/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1728843047
+|move|p1a: Salamence|Brick Break|p2a: SU-35
+|-damage|p2a: SU-35|0 fnt
+|faint|p2a: SU-35
+|
+|t:|1728843049
+|switch|p2a: Eclipso|Starmie|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728843060
+|switch|p1a: Magcargoat|Magcargo, F|100/100
+|-damage|p1a: Magcargoat|88/100|[from] Spikes
+|move|p2a: Eclipso|Ice Beam|p1a: Magcargoat
+|-resisted|p1a: Magcargoat
+|-damage|p1a: Magcargoat|68/100
+|-status|p1a: Magcargoat|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Magcargoat|75/100 frz|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728843075
+|move|p2a: Eclipso|Hydro Pump|p1a: Magcargoat
+|-supereffective|p1a: Magcargoat
+|-damage|p1a: Magcargoat|0 fnt
+|faint|p1a: Magcargoat
+|
+|t:|1728843078
+|switch|p1a: Celebi|Celebi|96/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728843084
+|switch|p2a: MTT|Registeel|100/100
+|move|p1a: Celebi|Leech Seed|p2a: MTT
+|-start|p2a: MTT|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|-damage|p2a: MTT|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|95/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1728843087
+|switch|p1a: Skarmory|Skarmory, M|53/100
+|move|p2a: MTT|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: MTT|94/100|[from] item: Leftovers
+|-damage|p2a: MTT|82/100|[from] Leech Seed|[of] p1a: Skarmory
+|-heal|p1a: Skarmory|67/100 par|[silent]
+|-heal|p1a: Skarmory|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728843091
+|switch|p2a: Eclipso|Starmie|76/100
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728843095
+|move|p2a: Eclipso|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|28/100 par
+|move|p1a: Skarmory|Toxic|p2a: Eclipso
+|-status|p2a: Eclipso|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|70/100 tox|[from] Sandstorm
+|-heal|p2a: Eclipso|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Eclipso|70/100 tox|[from] psn
+|-heal|p1a: Skarmory|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728843102
+|switch|p1a: Celebi|Celebi|95/100
+|-damage|p1a: Celebi|83/100|[from] Spikes
+|move|p2a: Eclipso|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|63/100 tox|[from] Sandstorm
+|-damage|p1a: Celebi|66/100|[from] Sandstorm
+|-heal|p2a: Eclipso|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Eclipso|57/100 tox|[from] psn
+|-heal|p1a: Celebi|72/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728843106
+|-curestatus|p2a: Eclipso|tox|[from] ability: Natural Cure
+|switch|p2a: MTT|Registeel|82/100
+|move|p1a: Celebi|Leech Seed|p2a: MTT
+|-start|p2a: MTT|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|66/100|[from] Sandstorm
+|-heal|p1a: Celebi|72/100|[from] item: Leftovers
+|-heal|p2a: MTT|88/100|[from] item: Leftovers
+|-damage|p2a: MTT|75/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|83/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1728843108
+|switch|p1a: Skarmory|Skarmory, M|34/100 par
+|move|p2a: MTT|Thunder Wave|p1a: Skarmory
+|-fail|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: MTT|82/100|[from] item: Leftovers
+|-damage|p2a: MTT|69/100|[from] Leech Seed|[of] p1a: Skarmory
+|-heal|p1a: Skarmory|47/100 par|[silent]
+|-heal|p1a: Skarmory|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728843112
+|switch|p2a: Eclipso|Starmie|57/100
+|move|p1a: Skarmory|Spikes|p2a: Eclipso
+|-sidestart|p2: DarthTyros|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728843116
+|cant|p1a: Skarmory|par
+|move|p2a: Eclipso|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|33/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728843119
+|cant|p1a: Skarmory|par
+|move|p2a: Eclipso|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|15/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728843122
+|switch|p1a: Celebi|Celebi|83/100
+|-damage|p1a: Celebi|71/100|[from] Spikes
+|move|p2a: Eclipso|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-damage|p1a: Celebi|19/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Celebi|25/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728843125
+|move|p2a: Eclipso|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1728843128
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728843132
+|move|p2a: Eclipso|Hydro Pump|p1a: Tyranitar|[miss]
+|-miss|p2a: Eclipso|p1a: Tyranitar
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728843134
+|move|p2a: Eclipso|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eclipso|51/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|23/100|[from] item: Leftovers
+|-heal|p2a: Eclipso|57/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728843137
+|move|p1a: Tyranitar|Hidden Power|p2a: Eclipso
+|-supereffective|p2a: Eclipso
+|-damage|p2a: Eclipso|0 fnt
+|faint|p2a: Eclipso
+|
+|t:|1728843140
+|switch|p2a: MTT|Registeel|69/100
+|-damage|p2a: MTT|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|29/100|[from] item: Leftovers
+|-heal|p2a: MTT|63/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728843142
+|move|p1a: Tyranitar|Earthquake|p2a: MTT
+|-supereffective|p2a: MTT
+|-damage|p2a: MTT|0 fnt
+|faint|p2a: MTT
+|
+|t:|1728843144
+|switch|p2a: SCP-079|Metagross|99/100
+|-damage|p2a: SCP-079|86/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|35/100|[from] item: Leftovers
+|-heal|p2a: SCP-079|92/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728843146
+|move|p1a: Tyranitar|Earthquake|p2a: SCP-079
+|-supereffective|p2a: SCP-079
+|-damage|p2a: SCP-079|0 fnt
+|faint|p2a: SCP-079
+|
+|win|CazabichosPablo
+|c|☆CazabichosPablo|gg
+|c|☆DarthTyros|fuck you too game
+|c|☆DarthTyros|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798229">
+{"id":"smogtours-gen3ou-798229","format":"[Gen 3] OU","players":["CazabichosPablo","DarthTyros"],"uploadtime":1728843146,"views":198,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

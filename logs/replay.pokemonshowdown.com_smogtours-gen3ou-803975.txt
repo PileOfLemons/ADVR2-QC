@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: MeEsSm vs. Skarpherim© - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between MeEsSm and Skarpherim©! Format: [Gen 3] OU; Date: Nov 2, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803975">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730565832
+|gametype|singles
+|player|p1|MeEsSm|#roaplxyorknewyanma|
+|player|p2|Skarpherim©|lucas-gen4pt|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730565832
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to ☆!<\/strong><br />Only users of rank ☆ and higher can talk.<\/div>
+|c|☆Skarpherim©|/log Skarpherim© made the replay of this battle unlisted.
+|
+|t:|1730565847
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: Skarpherim©|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1730565864
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Forretress|Spikes|p1a: Misdreavus
+|-sidestart|p1: MeEsSm|Spikes
+|
+|upkeep
+|turn|3
+|inactive|Skarpherim© has 270 seconds left.
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730565928
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Skarpherim© has 240 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730565964
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730565985
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Spikes
+|move|p1a: Zapdos|Hidden Power|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Forretress|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Skarpherim© has 210 seconds left.
+|
+|t:|1730566005
+|move|p1a: Zapdos|Thunderbolt|p2a: Forretress
+|-damage|p2a: Forretress|48/100
+|move|p2a: Forretress|Rapid Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|95/100
+|-sideend|p2: Skarpherim©|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Forretress|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 210 seconds left.
+|
+|t:|1730566015
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 210 seconds left.
+|
+|t:|1730566045
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730566054
+|switch|p2a: Forretress|Forretress, M|54/100
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: Skarpherim©|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730566068
+|move|p2a: Forretress|Hidden Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/100
+|move|p1a: Skarmory|Roar|p2a: Forretress
+|drag|p2a: Tyranitar|Tyranitar, F|94/100
+|-damage|p2a: Tyranitar|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730566085
+|switch|p1a: Zapdos|Zapdos|95/100
+|switch|p2a: Forretress|Forretress, M|61/100
+|-damage|p2a: Forretress|48/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Forretress|54/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730566092
+|switch|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|74/100|[from] Spikes
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|drag|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Skarpherim© has 210 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 180 seconds left.
+|
+|t:|1730566135
+|switch|p2a: Blissey|Blissey, F|74/100
+|-damage|p2a: Blissey|62/100|[from] Spikes
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|drag|p2a: Forretress|Forretress, M|54/100
+|-damage|p2a: Forretress|42/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Forretress|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Skarpherim© has 180 seconds left.
+|
+|t:|1730566155
+|switch|p2a: Blissey|Blissey, F|62/100
+|-damage|p2a: Blissey|49/100|[from] Spikes
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|drag|p2a: Forretress|Forretress, M|48/100
+|-damage|p2a: Forretress|36/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Forretress|42/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730566168
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Skarpherim© has 150 seconds left.
+|inactive|Skarpherim© has 120 seconds left.
+|inactive|Skarpherim© has 90 seconds left.
+|
+|t:|1730566286
+|switch|p2a: Blissey|Blissey, F|49/100
+|-damage|p2a: Blissey|37/100|[from] Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-damage|p2a: Blissey|16/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Blissey|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566302
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|73/100
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|drag|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730566316
+|switch|p2a: Blissey|Blissey, F|73/100
+|-damage|p2a: Blissey|60/100|[from] Spikes
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|drag|p2a: Dugtrio|Dugtrio, M|88/100
+|-damage|p2a: Dugtrio|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|89/100|[from] Sandstorm
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566346
+|move|p2a: Dugtrio|Hidden Power|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|81/100
+|move|p1a: Zapdos|Roar|p2a: Dugtrio
+|drag|p2a: Blissey|Blissey, F|60/100
+|-damage|p2a: Blissey|48/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|75/100|[from] Sandstorm
+|-damage|p2a: Blissey|42/100|[from] Sandstorm
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p2a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566362
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|42/100|[from] Sandstorm
+|-heal|p2a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566373
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: Skarpherim©|Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|92/100|[from] Sandstorm
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Skarpherim© has 60 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566387
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Dugtrio|Dugtrio, M|76/100
+|-damage|p2a: Dugtrio|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566399
+|switch|p2a: Forretress|Forretress, M|42/100
+|-damage|p2a: Forretress|25/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: Skarpherim©|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p2a: Forretress|32/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1730566408
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Forretress|Hidden Power|p1a: Misdreavus
+|-resisted|p1a: Misdreavus
+|-damage|p1a: Misdreavus|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|75/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|81/100|[from] item: Leftovers
+|-heal|p2a: Forretress|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566443
+|move|p1a: Misdreavus|Thunderbolt|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|t:|1730566447
+|switch|p2a: Tyranitar|Tyranitar, F|82/100
+|-damage|p2a: Tyranitar|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|75/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|81/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566454
+|-activate|p1a: Misdreavus|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Misdreavus|[from]Pursuit
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|18/100
+|switch|p1a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Skarpherim© has 60 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566471
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566486
+|move|p1a: Flygon|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|move|p2a: Flygon|Toxic|p1a: Flygon
+|-status|p1a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flygon|94/100 tox|[from] psn
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|inactive|Skarpherim© has 60 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 30 seconds left.
+|
+|t:|1730566524
+|switch|p1a: Skarmory|Skarmory, F|83/100
+|switch|p2a: Blissey|Blissey, F|98/100
+|-damage|p2a: Blissey|73/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 30 seconds left.
+|
+|t:|1730566535
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566547
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Flygon|tox|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566565
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566573
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|-status|p2a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|86/100 frz|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100 frz|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566585
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Zapdos|Zapdos|81/100
+|cant|p2a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|75/100|[from] Sandstorm
+|-damage|p2a: Blissey|86/100 frz|[from] Sandstorm
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100 frz|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730566592
+|cant|p2a: Blissey|frz
+|move|p1a: Zapdos|Roar|p2a: Blissey
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure
+|drag|p2a: Flygon|Flygon, F|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|75/100|[from] Sandstorm
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Skarpherim© has 60 seconds left.
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730566608
+|move|p2a: Flygon|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|move|p1a: Zapdos|Roar|p2a: Flygon
+|drag|p2a: Blissey|Blissey, F|92/100
+|-damage|p2a: Blissey|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|75/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|61/100|[from] Sandstorm
+|-heal|p1a: Zapdos|81/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|75/100 tox|[from] psn
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566623
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730566632
+|cant|p1a: Zapdos|slp
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|74/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|68/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1730566637
+|cant|p1a: Zapdos|slp
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|47/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|41/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|47/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1730566645
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|74/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|68/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Skarpherim© has 90 seconds left.
+|inactive|Skarpherim© has 60 seconds left.
+|inactive|Skarpherim© has 30 seconds left.
+|
+|t:|1730566711
+|switch|p2a: Tyranitar|Tyranitar, F|69/100
+|-damage|p2a: Tyranitar|44/100|[from] Spikes
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|68/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Tyranitar|50/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1730566719
+|-activate|p1a: Zapdos|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Zapdos|[from]Pursuit
+|-damage|p1a: Zapdos|50/100 slp
+|switch|p1a: Flygon|Flygon, F|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|Skarpherim© has 30 seconds left.
+|
+|t:|1730566746
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Flygon|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|44
+|inactive|Skarpherim© has 30 seconds left.
+|
+|t:|1730566774
+|switch|p1a: Skarmory|Skarmory, F|89/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1730566785
+|switch|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1730566797
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1730566808
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-fail|p1a: Blissey|tox
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1730566819
+|switch|p1a: Zapdos|Zapdos|50/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Flygon|tox|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|44/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1730566833
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|44/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1730566839
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|18/100|[from] Sandstorm
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p1a: Zapdos|24/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1730566845
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|76/100|[from] Spikes
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566868
+|cant|p1a: Zapdos|slp
+|move|p2a: Milotic|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|57/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1730566880
+|switch|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Spikes
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1730566888
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|Skarpherim© has 60 seconds left.
+|
+|t:|1730566897
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1730566905
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|71/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100|[from] Sandstorm
+|-heal|p2a: Milotic|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1730566917
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|60/100|[from] Sandstorm
+|-damage|p1a: Blissey|54/100|[from] Sandstorm
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1730566925
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|60/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1730566931
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1730566941
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|move|p1a: Blissey|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|60/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1730566951
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|35/100|[from] Sandstorm
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|41/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1730566960
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|9/100|[from] Sandstorm
+|-damage|p1a: Blissey|51/100|[from] Sandstorm
+|-heal|p2a: Milotic|16/100|[from] item: Leftovers
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1730566966
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|65/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|34/100|[from] Sandstorm
+|-damage|p1a: Blissey|51/100|[from] Sandstorm
+|-heal|p2a: Milotic|40/100|[from] item: Leftovers
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1730566972
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|34/100|[from] Sandstorm
+|-damage|p1a: Blissey|92/100|[from] Sandstorm
+|-heal|p2a: Milotic|40/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1730566980
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|90/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|58/100|[from] Sandstorm
+|-damage|p1a: Blissey|92/100|[from] Sandstorm
+|-heal|p2a: Milotic|64/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1730566989
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|33/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Milotic|39/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1730566994
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|89/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1730566999
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|32/100|[from] Sandstorm
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p2a: Milotic|38/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1730567005
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|56/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|6/100|[from] Sandstorm
+|-damage|p1a: Blissey|50/100|[from] Sandstorm
+|-heal|p2a: Milotic|12/100|[from] item: Leftovers
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1730567010
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|62/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|56/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|62/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1730567019
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1730567022
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|44/100|[from] Sandstorm
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Milotic|50/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1730567025
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|99/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|68/100|[from] Sandstorm
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Milotic|74/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1730567029
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|42/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Milotic|49/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1730567043
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|17/100|[from] Sandstorm
+|-damage|p1a: Blissey|55/100|[from] Sandstorm
+|-heal|p2a: Milotic|23/100|[from] item: Leftovers
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1730567058
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|73/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|67/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1730567064
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|41/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Milotic|48/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1730567067
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|97/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|66/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1730567071
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|40/100|[from] Sandstorm
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|47/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1730567083
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|-status|p1a: Blissey|frz
+|-curestatus|p1a: Blissey|frz|[msg]
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|15/100|[from] Sandstorm
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-heal|p2a: Milotic|21/100|[from] item: Leftovers
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1730567091
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|71/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|65/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|71/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1730567101
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Milotic|46/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1730567113
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|95/100
+|move|p1a: Blissey|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|80/100|[from] Sandstorm
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Milotic|86/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1730567122
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|move|p1a: Blissey|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1730567131
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|move|p1a: Blissey|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|45/100|[from] Sandstorm
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-heal|p2a: Milotic|51/100|[from] item: Leftovers
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1730567139
+|move|p2a: Milotic|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|45/100|[from] Sandstorm
+|-damage|p1a: Blissey|91/100|[from] Sandstorm
+|-heal|p2a: Milotic|51/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1730567144
+|switch|p1a: Zapdos|Zapdos|63/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|57/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1730567152
+|move|p1a: Zapdos|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|43/100
+|move|p2a: Milotic|Mirror Coat|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1730567165
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|82/100|[from] Sandstorm
+|-damage|p2a: Milotic|37/100|[from] Sandstorm
+|-heal|p1a: Raikou|88/100|[from] item: Leftovers
+|-heal|p2a: Milotic|43/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1730567183
+|switch|p2a: Flygon|Flygon, F|94/100
+|move|p1a: Raikou|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|82/100|[from] Sandstorm
+|-heal|p1a: Raikou|88/100|[from] item: Leftovers
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567219
+|switch|p1a: Skarmory|Skarmory, F|95/100
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1730567234
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|78/100
+|move|p1a: Skarmory|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1730567241
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|72/100
+|move|p1a: Skarmory|Toxic|p2a: Flygon
+|-fail|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567250
+|switch|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|61/100|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Milotic|Milotic, M|43/100
+|-damage|p2a: Milotic|18/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|12/100|[from] Sandstorm
+|-heal|p2a: Milotic|18/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1730567258
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|68/100
+|move|p1a: Skarmory|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|62/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|62/100 tox|[from] psn
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1730567268
+|switch|p1a: Blissey|Blissey, F|98/100
+|-damage|p1a: Blissey|85/100|[from] Spikes
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 tox|[from] psn
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1730567285
+|switch|p2a: Blissey|Blissey, F|61/100
+|-damage|p2a: Blissey|36/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1730567294
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|86/100
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Flygon|Flygon, F|88/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1730567304
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|89/100
+|move|p1a: Skarmory|Roar|p2a: Flygon
+|drag|p2a: Tyranitar|Tyranitar, F|57/100
+|-damage|p2a: Tyranitar|32/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1730567315
+|move|p1a: Skarmory|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|46/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|38/100 tox|[from] psn
+|upkeep
+|turn|100
+|
+|t:|1730567327
+|switch|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|61/100|[from] Spikes
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1730567332
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Milotic|tox|[silent]
+|-curestatus|p2: Flygon|tox|[silent]
+|-curestatus|p2: Tyranitar|tox|[silent]
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Tyranitar|Tyranitar, F|38/100
+|-damage|p2a: Tyranitar|13/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|19/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1730567346
+|-activate|p1a: Skarmory|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Skarmory|[from]Pursuit
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|41/100
+|switch|p1a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|25/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1730567358
+|switch|p2a: Flygon|Flygon, F|88/100
+|move|p1a: Flygon|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|upkeep
+|turn|104
+|
+|t:|1730567375
+|switch|p1a: Skarmory|Skarmory, F|41/100
+|switch|p2a: Milotic|Milotic, M|88/100
+|-damage|p2a: Milotic|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|47/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1730567383
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|53/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1730567396
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|17/100
+|move|p1a: Skarmory|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|57/100 tox|[from] psn
+|-heal|p1a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1730567403
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1730567413
+|switch|p2a: Blissey|Blissey, F|61/100
+|-damage|p2a: Blissey|36/100|[from] Spikes
+|switch|p1a: Blissey|Blissey, F|85/100
+|-damage|p1a: Blissey|73/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1730567436
+|switch|p1a: Misdreavus|Misdreavus, M|18/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|12/100|[from] Sandstorm
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|18/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567472
+|switch|p2a: Flygon|Flygon, F|88/100 tox
+|move|p1a: Misdreavus|Rest|p1a: Misdreavus
+|-status|p1a: Misdreavus|slp|[from] move: Rest
+|-heal|p1a: Misdreavus|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-heal|p2a: Flygon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|111
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567493
+|switch|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|61/100|[from] Spikes
+|switch|p1a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567501
+|move|p1a: Flygon|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|33/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1730567509
+|move|p1a: Flygon|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2a: Blissey|tox|[silent]
+|-curestatus|p2: Flygon|tox|[silent]
+|-curestatus|p2: Milotic|tox|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1730567529
+|switch|p1a: Misdreavus|Misdreavus, M|100/100 slp
+|move|p2a: Blissey|Toxic||[still]
+|-fail|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|77/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1730567535
+|switch|p2a: Milotic|Milotic, M|88/100
+|-damage|p2a: Milotic|63/100|[from] Spikes
+|cant|p1a: Misdreavus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1730567550
+|switch|p1a: Blissey|Blissey, F|73/100
+|-damage|p1a: Blissey|60/100|[from] Spikes
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1730567557
+|switch|p2a: Tyranitar|Tyranitar, F|25/100
+|-damage|p2a: Tyranitar|0 fnt|[from] Spikes
+|faint|p2a: Tyranitar
+|
+|t:|1730567559
+|switch|p2a: Dugtrio|Dugtrio, M|59/100
+|-damage|p2a: Dugtrio|35/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1730567568
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1730567579
+|switch|p1a: Misdreavus|Misdreavus, M|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|119
+|inactive|Skarpherim© has 270 seconds left.
+|
+|t:|1730567624
+|switch|p2a: Flygon|Flygon, F|88/100
+|cant|p1a: Misdreavus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-heal|p2a: Flygon|94/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|120
+|c|☆MeEsSm|need 2 pee
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567656
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|-curestatus|p1a: Misdreavus|slp|[msg]
+|move|p1a: Misdreavus|Mean Look|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100|[from] Sandstorm
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|100/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1730567676
+|switch|p2a: Dugtrio|Dugtrio, M|35/100
+|-damage|p2a: Dugtrio|10/100|[from] Spikes
+|move|p1a: Misdreavus|Mean Look|p2a: Dugtrio
+|-activate|p2a: Dugtrio|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1730567687
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Dugtrio|Aerial Ace|p1a: Flygon
+|-damage|p1a: Flygon|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|86/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567719
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Flygon|Protect||[still]
+|-fail|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|92/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567751
+|switch|p1a: Skarmory|Skarmory, F|29/100
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730567765
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730567781
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|18/100
+|move|p1a: Skarmory|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1730567796
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|30/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1730567808
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|76/100 tox|[from] psn
+|-heal|p1a: Skarmory|36/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567818
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|58/100|[from] Spikes
+|move|p1a: Skarmory|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|52/100 tox|[from] Sandstorm
+|-heal|p1a: Skarmory|42/100|[from] item: Leftovers
+|-heal|p2a: Blissey|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|52/100 tox|[from] psn
+|upkeep
+|turn|130
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730567826
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|131
+|
+|t:|1730567835
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Flygon|Flygon, F|76/100 tox
+|move|p1a: Misdreavus|Mean Look|p2a: Flygon
+|-activate|p2a: Flygon|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100|[from] Sandstorm
+|-heal|p2a: Flygon|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|76/100 tox|[from] psn
+|-heal|p1a: Misdreavus|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567869
+|move|p2a: Flygon|Toxic|p1a: Misdreavus
+|-status|p1a: Misdreavus|tox
+|move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+|-start|p1a: Misdreavus|perish3|[silent]
+|-start|p2a: Flygon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 tox|[from] Sandstorm
+|-heal|p2a: Flygon|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|70/100 tox|[from] psn
+|-heal|p1a: Misdreavus|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Misdreavus|94/100 tox|[from] psn
+|-start|p2a: Flygon|perish3
+|-start|p1a: Misdreavus|perish3
+|upkeep
+|turn|133
+|
+|t:|1730567886
+|move|p2a: Flygon|Hidden Power|p1a: Misdreavus
+|-damage|p1a: Misdreavus|68/100 tox
+|move|p1a: Misdreavus|Rest|p1a: Misdreavus
+|-status|p1a: Misdreavus|slp|[from] move: Rest
+|-heal|p1a: Misdreavus|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 slp|[from] Sandstorm
+|-heal|p2a: Flygon|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|58/100 tox|[from] psn
+|-heal|p1a: Misdreavus|100/100 slp|[from] item: Leftovers
+|-start|p2a: Flygon|perish2
+|-start|p1a: Misdreavus|perish2
+|upkeep
+|turn|134
+|
+|t:|1730567893
+|move|p2a: Flygon|Hidden Power|p1a: Misdreavus
+|-damage|p1a: Misdreavus|74/100 slp
+|cant|p1a: Misdreavus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|68/100 slp|[from] Sandstorm
+|-heal|p2a: Flygon|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|40/100 tox|[from] psn
+|-heal|p1a: Misdreavus|74/100 slp|[from] item: Leftovers
+|-start|p2a: Flygon|perish1
+|-start|p1a: Misdreavus|perish1
+|upkeep
+|turn|135
+|inactive|Skarpherim© has 240 seconds left.
+|
+|t:|1730567928
+|switch|p1a: Skarmory|Skarmory, F|42/100
+|move|p2a: Flygon|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|16/100 tox|[from] psn
+|-heal|p1a: Skarmory|35/100|[from] item: Leftovers
+|-start|p2a: Flygon|perish0
+|upkeep
+|faint|p2a: Flygon
+|
+|t:|1730567936
+|switch|p2a: Milotic|Milotic, M|63/100
+|-damage|p2a: Milotic|38/100|[from] Spikes
+|turn|136
+|inactive|Skarpherim© has 210 seconds left.
+|
+|t:|1730567963
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|82/100|[from] Sandstorm
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730567994
+|switch|p1a: Flygon|Flygon, F|92/100
+|move|p2a: Milotic|Surf|p1a: Flygon
+|-damage|p1a: Flygon|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|82/100|[from] Sandstorm
+|-heal|p1a: Flygon|53/100|[from] item: Leftovers
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1730568004
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|move|p2a: Milotic|Ice Beam|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|t:|1730568014
+|switch|p1a: Raikou|Raikou|88/100
+|-damage|p1a: Raikou|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|69/100|[from] Sandstorm
+|-damage|p2a: Milotic|82/100 tox|[from] Sandstorm
+|-heal|p1a: Raikou|76/100|[from] item: Leftovers
+|-heal|p2a: Milotic|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|82/100 tox|[from] psn
+|upkeep
+|turn|139
+|inactive|Skarpherim© has 210 seconds left.
+|
+|t:|1730568038
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|51/100
+|move|p2a: Milotic|Surf|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|45/100|[from] Sandstorm
+|-damage|p2a: Milotic|76/100 tox|[from] Sandstorm
+|-heal|p1a: Raikou|51/100|[from] item: Leftovers
+|-heal|p2a: Milotic|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|70/100 tox|[from] psn
+|upkeep
+|turn|140
+|inactive|MeEsSm has 270 seconds left.
+|
+|t:|1730568048
+|switch|p2a: Blissey|Blissey, F|88/100
+|-damage|p2a: Blissey|63/100|[from] Spikes
+|move|p1a: Raikou|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|45/100|[from] Sandstorm
+|-damage|p2a: Blissey|40/100|[from] Sandstorm
+|-heal|p1a: Raikou|51/100|[from] item: Leftovers
+|-heal|p2a: Blissey|46/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1730568058
+|switch|p1a: Misdreavus|Misdreavus, M|74/100 slp
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Milotic|tox|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|68/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|40/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|46/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1730568074
+|switch|p2a: Milotic|Milotic, M|70/100
+|-damage|p2a: Milotic|45/100|[from] Spikes
+|cant|p1a: Misdreavus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|68/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|inactive|MeEsSm has 270 seconds left.
+|inactive|Skarpherim© has 210 seconds left.
+|inactive|Skarpherim© has 180 seconds left.
+|
+|t:|1730568146
+|-curestatus|p1a: Misdreavus|slp|[msg]
+|move|p1a: Misdreavus|Mean Look|p2a: Milotic
+|-activate|p2a: Milotic|trapped
+|move|p2a: Milotic|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|37/100|[from] Sandstorm
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|43/100|[from] item: Leftovers
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|inactive|Skarpherim© has 150 seconds left.
+|
+|t:|1730568166
+|move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+|-start|p1a: Misdreavus|perish3|[silent]
+|-start|p2a: Milotic|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Milotic|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|3/100|[from] Sandstorm
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|9/100|[from] item: Leftovers
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|-start|p1a: Misdreavus|perish3
+|-start|p2a: Milotic|perish3
+|upkeep
+|turn|145
+|inactive|Skarpherim© has 150 seconds left.
+|
+|t:|1730568181
+|move|p1a: Misdreavus|Rest|p1a: Misdreavus
+|-status|p1a: Misdreavus|slp|[from] move: Rest
+|-heal|p1a: Misdreavus|100/100 slp|[silent]
+|move|p2a: Milotic|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|67/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|61/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|67/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|-start|p1a: Misdreavus|perish2
+|-start|p2a: Milotic|perish2
+|upkeep
+|turn|146
+|inactive|Skarpherim© has 150 seconds left.
+|
+|t:|1730568190
+|cant|p1a: Misdreavus|slp
+|move|p2a: Milotic|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|33/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|27/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|33/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|-start|p1a: Misdreavus|perish1
+|-start|p2a: Milotic|perish1
+|upkeep
+|turn|147
+|inactive|Skarpherim© has 150 seconds left.
+|
+|t:|1730568206
+|switch|p1a: Skarmory|Skarmory, F|41/100
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|39/100|[from] Sandstorm
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|12/100|[from] item: Leftovers
+|-start|p2a: Milotic|perish0
+|upkeep
+|faint|p2a: Milotic
+|
+|t:|1730568209
+|switch|p2a: Blissey|Blissey, F|46/100
+|-damage|p2a: Blissey|21/100|[from] Spikes
+|turn|148
+|
+|t:|1730568220
+|switch|p1a: Misdreavus|Misdreavus, M|33/100 slp
+|move|p2a: Blissey|Seismic Toss|p1a: Misdreavus
+|-immune|p1a: Misdreavus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|27/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|15/100|[from] Sandstorm
+|-heal|p1a: Misdreavus|33/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|21/100|[from] item: Leftovers
+|upkeep
+|turn|149
+|-message|Skarpherim© forfeited.
+|
+|win|MeEsSm
+|c|☆Skarpherim©|gg
+|c|☆MeEsSm|brb
+|c|☆MeEsSm|gg
+|player|p2|
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803975">
+{"id":"smogtours-gen3ou-803975","format":"[Gen 3] OU","players":["MeEsSm","Skarpherim\u00a9"],"uploadtime":1730568226,"views":50,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

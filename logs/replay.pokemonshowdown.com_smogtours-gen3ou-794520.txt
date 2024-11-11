@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: reshiram660 vs. violet river - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between reshiram660 and violet river! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794520">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728031123
+|gametype|singles
+|player|p1|reshiram660|2|
+|player|p2|violet river|sonia-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728031123
+|start
+|switch|p1a: Reuma|Zapdos|100/100
+|switch|p2a: sharp fangs|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: sharp fangs
+|turn|1
+|c|☆violet river|hfhf
+|
+|t:|1728031151
+|-singleturn|p2a: sharp fangs|move: Focus Punch
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: sharp fangs|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728031163
+|move|p1a: Skarmory|Spikes|p2a: sharp fangs
+|-sidestart|p2: violet river|Spikes
+|move|p2a: sharp fangs|Dragon Dance|p2a: sharp fangs
+|-boost|p2a: sharp fangs|atk|1
+|-boost|p2a: sharp fangs|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728031171
+|-singleturn|p2a: sharp fangs|move: Focus Punch
+|move|p1a: Skarmory|Toxic|p2a: sharp fangs
+|-status|p2a: sharp fangs|tox
+|move|p2a: sharp fangs|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: sharp fangs|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|10/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728031176
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: sharp fangs|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sharp fangs|100/100 tox|[from] item: Leftovers
+|-damage|p2a: sharp fangs|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|16/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728031182
+|-singleturn|p2a: sharp fangs|move: Focus Punch
+|move|p1a: Skarmory|Spikes|p2a: sharp fangs
+|-sidestart|p2: violet river|Spikes
+|move|p2a: sharp fangs|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728031196
+|switch|p1a: Ydra|Milotic, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|94/100|[from] Sandstorm
+|-heal|p2a: sharp fangs|94/100 tox|[from] item: Leftovers
+|-damage|p2a: sharp fangs|76/100 tox|[from] psn
+|-heal|p1a: Ydra|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728031199
+|switch|p2a: execution fantasy|Starmie|100/100
+|-damage|p2a: execution fantasy|84/100|[from] Spikes
+|move|p1a: Ydra|Surf|p2a: execution fantasy
+|-resisted|p2a: execution fantasy
+|-damage|p2a: execution fantasy|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|54/100|[from] Sandstorm
+|-damage|p1a: Ydra|94/100|[from] Sandstorm
+|-heal|p2a: execution fantasy|60/100|[from] item: Leftovers
+|-heal|p1a: Ydra|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728031207
+|move|p2a: execution fantasy|Rapid Spin|p1a: Ydra
+|-damage|p1a: Ydra|98/100
+|-sideend|p2: violet river|Spikes|[from] move: Rapid Spin|[of] p2a: execution fantasy
+|move|p1a: Ydra|Toxic|p2a: execution fantasy
+|-status|p2a: execution fantasy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|54/100 tox|[from] Sandstorm
+|-damage|p1a: Ydra|92/100|[from] Sandstorm
+|-heal|p2a: execution fantasy|60/100 tox|[from] item: Leftovers
+|-damage|p2a: execution fantasy|54/100 tox|[from] psn
+|-heal|p1a: Ydra|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728031214
+|-curestatus|p2a: execution fantasy|tox|[from] ability: Natural Cure
+|switch|p2a: sweet lemonade!|Jirachi|100/100
+|move|p1a: Ydra|Surf|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|92/100|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|86/100|[from] item: Leftovers
+|-heal|p1a: Ydra|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728031220
+|move|p2a: sweet lemonade!|Body Slam|p1a: Ydra
+|-damage|p1a: Ydra|80/100
+|-status|p1a: Ydra|par
+|move|p1a: Ydra|Surf|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|74/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|69/100|[from] item: Leftovers
+|-heal|p1a: Ydra|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728031227
+|move|p2a: sweet lemonade!|Wish|p2a: sweet lemonade!
+|move|p1a: Ydra|Surf|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|74/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|53/100|[from] item: Leftovers
+|-heal|p1a: Ydra|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728031230
+|move|p2a: sweet lemonade!|Body Slam|p1a: Ydra
+|-damage|p1a: Ydra|67/100 par
+|move|p1a: Ydra|Ice Beam|p2a: sweet lemonade!
+|-resisted|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|45/100
+|
+|-heal|p2a: sweet lemonade!|95/100|[from] move: Wish|[wisher] sweet lemonade!
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|61/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|100/100|[from] item: Leftovers
+|-heal|p1a: Ydra|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728031246
+|move|p2a: sweet lemonade!|Wish|p2a: sweet lemonade!
+|move|p1a: Ydra|Ice Beam|p2a: sweet lemonade!
+|-resisted|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|61/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|99/100|[from] item: Leftovers
+|-heal|p1a: Ydra|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728031249
+|switch|p2a: execution fantasy|Starmie|54/100
+|cant|p1a: Ydra|par
+|
+|-heal|p2a: execution fantasy|100/100|[from] move: Wish|[wisher] sweet lemonade!
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|94/100|[from] Sandstorm
+|-damage|p1a: Ydra|61/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|100/100|[from] item: Leftovers
+|-heal|p1a: Ydra|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728031254
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|36/100 par
+|move|p1a: Ydra|Recover|p1a: Ydra
+|-heal|p1a: Ydra|86/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|94/100|[from] Sandstorm
+|-damage|p1a: Ydra|80/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|100/100|[from] item: Leftovers
+|-heal|p1a: Ydra|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728031279
+|switch|p2a: sulphur god|Skarmory, M|100/100
+|move|p1a: Ydra|Ice Beam|p2a: sulphur god
+|-damage|p2a: sulphur god|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|80/100 par|[from] Sandstorm
+|-heal|p2a: sulphur god|82/100|[from] item: Leftovers
+|-heal|p1a: Ydra|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728031289
+|move|p2a: sulphur god|Spikes|p1a: Ydra
+|-sidestart|p1: reshiram660|Spikes
+|move|p1a: Ydra|Ice Beam|p2a: sulphur god
+|-damage|p2a: sulphur god|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|80/100 par|[from] Sandstorm
+|-heal|p2a: sulphur god|64/100|[from] item: Leftovers
+|-heal|p1a: Ydra|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728031294
+|move|p2a: sulphur god|Spikes|p1a: Ydra
+|-sidestart|p1: reshiram660|Spikes
+|move|p1a: Ydra|Ice Beam|p2a: sulphur god
+|-damage|p2a: sulphur god|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|80/100 par|[from] Sandstorm
+|-heal|p2a: sulphur god|46/100|[from] item: Leftovers
+|-heal|p1a: Ydra|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728031300
+|switch|p1a: ???|Claydol|100/100
+|move|p2a: sulphur god|Spikes|p1a: ???
+|-sidestart|p1: reshiram660|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sulphur god|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728031302
+|move|p2a: sulphur god|Toxic|p1a: ???
+|-status|p1a: ???|tox
+|move|p1a: ???|Rapid Spin|p2a: sulphur god
+|-resisted|p2a: sulphur god
+|-damage|p2a: sulphur god|50/100
+|-sideend|p1: reshiram660|Spikes|[from] move: Rapid Spin|[of] p1a: ???
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sulphur god|56/100|[from] item: Leftovers
+|-damage|p1a: ???|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1728031307
+|move|p2a: sulphur god|Spikes|p1a: ???
+|-sidestart|p1: reshiram660|Spikes
+|move|p1a: ???|Explosion|p2a: sulphur god
+|-resisted|p2a: sulphur god
+|-damage|p2a: sulphur god|11/100
+|faint|p1a: ???
+|c|☆violet river|good play
+|
+|t:|1728031316
+|switch|p1a: Reuma|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sulphur god|17/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728031335
+|switch|p2a: grandest design|Swampert, M|100/100
+|move|p1a: Reuma|Thunderbolt|p2a: grandest design
+|-immune|p2a: grandest design
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728031340
+|switch|p2a: sweet lemonade!|Jirachi|99/100
+|move|p1a: Reuma|Hidden Power|p2a: sweet lemonade!
+|-resisted|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728031356
+|move|p1a: Reuma|Thunder Wave|p2a: sweet lemonade!
+|-status|p2a: sweet lemonade!|par
+|cant|p2a: sweet lemonade!|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728031362
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|70/100 par
+|move|p2a: sweet lemonade!|Refresh|p2a: sweet lemonade!
+|-curestatus|p2a: sweet lemonade!|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728031377
+|switch|p1a: Manitari|Breloom, F|100/100
+|-damage|p1a: Manitari|88/100|[from] Spikes
+|move|p2a: sweet lemonade!|Body Slam|p1a: Manitari
+|-damage|p1a: Manitari|56/100
+|-status|p1a: Manitari|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manitari|50/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|82/100|[from] item: Leftovers
+|-heal|p1a: Manitari|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728031380
+|move|p2a: sweet lemonade!|Fire Punch|p1a: Manitari
+|-supereffective|p1a: Manitari
+|-damage|p1a: Manitari|0 fnt
+|faint|p1a: Manitari
+|
+|t:|1728031387
+|switch|p1a: Ydra|Milotic, F|86/100 par
+|-damage|p1a: Ydra|73/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ydra|67/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|89/100|[from] item: Leftovers
+|-heal|p1a: Ydra|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728031393
+|switch|p2a: execution fantasy|Starmie|100/100
+|move|p1a: Ydra|Surf|p2a: execution fantasy
+|-resisted|p2a: execution fantasy
+|-damage|p2a: execution fantasy|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|68/100|[from] Sandstorm
+|-damage|p1a: Ydra|67/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|75/100|[from] item: Leftovers
+|-heal|p1a: Ydra|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728031398
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|40/100 par
+|move|p1a: Ydra|Ice Beam|p2a: execution fantasy
+|-resisted|p2a: execution fantasy
+|-damage|p2a: execution fantasy|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Ydra|34/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Ydra|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728031403
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|7/100 par
+|move|p1a: Ydra|Recover|p1a: Ydra
+|-heal|p1a: Ydra|57/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Ydra|51/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Ydra|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728031408
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|22/100 par
+|move|p1a: Ydra|Recover|p1a: Ydra
+|-heal|p1a: Ydra|72/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Ydra|66/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Ydra|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728031414
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|42/100 par
+|cant|p1a: Ydra|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Ydra|36/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Ydra|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728031416
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|10/100 par
+|cant|p1a: Ydra|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Ydra|4/100 par|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Ydra|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728031419
+|move|p2a: execution fantasy|Thunderbolt|p1a: Ydra
+|-supereffective|p1a: Ydra
+|-damage|p1a: Ydra|0 fnt
+|faint|p1a: Ydra
+|
+|t:|1728031423
+|switch|p1a: Reuma|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: execution fantasy|52/100|[from] Sandstorm
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p2a: execution fantasy|59/100|[from] item: Leftovers
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728031428
+|switch|p2a: sulphur god|Skarmory, M|17/100
+|move|p1a: Reuma|Thunder Wave|p2a: sulphur god
+|-status|p2a: sulphur god|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sulphur god|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728031433
+|switch|p2a: grandest design|Swampert, M|100/100
+|move|p1a: Reuma|Thunderbolt|p2a: grandest design
+|-immune|p2a: grandest design
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728031439
+|switch|p2a: sweet lemonade!|Jirachi|89/100
+|move|p1a: Reuma|Hidden Power|p2a: sweet lemonade!
+|-resisted|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|94/100|[from] Sandstorm
+|-heal|p1a: Reuma|100/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|87/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728031442
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|57/100
+|move|p2a: sweet lemonade!|Body Slam|p1a: Reuma
+|-damage|p1a: Reuma|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|71/100|[from] Sandstorm
+|-heal|p1a: Reuma|77/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|63/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728031445
+|move|p1a: Reuma|Thunder Wave|p2a: sweet lemonade!
+|-status|p2a: sweet lemonade!|par
+|move|p2a: sweet lemonade!|Wish|p2a: sweet lemonade!
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|71/100|[from] Sandstorm
+|-heal|p1a: Reuma|77/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728031448
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|39/100 par
+|move|p2a: sweet lemonade!|Refresh|p2a: sweet lemonade!
+|-curestatus|p2a: sweet lemonade!|par|[msg]
+|
+|-heal|p2a: sweet lemonade!|89/100|[from] move: Wish|[wisher] sweet lemonade!
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|71/100|[from] Sandstorm
+|-heal|p1a: Reuma|77/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|95/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728031452
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|62/100
+|move|p2a: sweet lemonade!|Body Slam|p1a: Reuma
+|-damage|p1a: Reuma|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|48/100|[from] Sandstorm
+|-heal|p1a: Reuma|55/100|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|68/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728031456
+|move|p1a: Reuma|Thunder Wave|p2a: sweet lemonade!
+|-status|p2a: sweet lemonade!|par
+|move|p2a: sweet lemonade!|Body Slam|p1a: Reuma
+|-damage|p1a: Reuma|29/100
+|-status|p1a: Reuma|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|23/100 par|[from] Sandstorm
+|-heal|p1a: Reuma|29/100 par|[from] item: Leftovers
+|-heal|p2a: sweet lemonade!|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728031460
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|46/100 par
+|move|p2a: sweet lemonade!|Refresh|p2a: sweet lemonade!
+|-curestatus|p2a: sweet lemonade!|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|23/100 par|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|52/100|[from] item: Leftovers
+|-heal|p1a: Reuma|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728031462
+|move|p2a: sweet lemonade!|Body Slam|p1a: Reuma
+|-damage|p1a: Reuma|5/100 par
+|move|p1a: Reuma|Thunderbolt|p2a: sweet lemonade!
+|-damage|p2a: sweet lemonade!|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuma|0 fnt|[from] Sandstorm
+|faint|p1a: Reuma
+|-heal|p2a: sweet lemonade!|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728031469
+|switch|p1a: MVP Drakos|Charizard, F|100/100
+|turn|44
+|
+|t:|1728031472
+|move|p1a: MVP Drakos|Fire Blast|p2a: sweet lemonade!|[miss]
+|-miss|p1a: MVP Drakos|p2a: sweet lemonade!
+|move|p2a: sweet lemonade!|Body Slam|p1a: MVP Drakos
+|-damage|p1a: MVP Drakos|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: MVP Drakos|66/100|[from] Sandstorm
+|-heal|p2a: sweet lemonade!|33/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728031475
+|switch|p2a: sharp fangs|Tyranitar, M|76/100 tox
+|move|p1a: MVP Drakos|Fire Blast|p2a: sharp fangs
+|-resisted|p2a: sharp fangs
+|-damage|p2a: sharp fangs|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: MVP Drakos|60/100|[from] Sandstorm
+|-heal|p2a: sharp fangs|57/100 tox|[from] item: Leftovers
+|-damage|p2a: sharp fangs|51/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1728031483
+|move|p1a: MVP Drakos|Earthquake|p2a: sharp fangs
+|-supereffective|p2a: sharp fangs
+|-damage|p2a: sharp fangs|20/100 tox
+|move|p2a: sharp fangs|Rock Slide|p1a: MVP Drakos
+|-supereffective|p1a: MVP Drakos
+|-damage|p1a: MVP Drakos|0 fnt
+|faint|p1a: MVP Drakos
+|
+|win|violet river
+|c|☆violet river|gg
+|c|☆violet river|cool team
+|player|p2|
+|c|☆reshiram660|gg thanks
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794520">
+{"id":"smogtours-gen3ou-794520","format":"[Gen 3] OU","players":["reshiram660","violet river"],"uploadtime":1728031483,"views":244,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

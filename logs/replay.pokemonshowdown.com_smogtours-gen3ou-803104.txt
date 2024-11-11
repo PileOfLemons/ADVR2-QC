@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: KTheMathematician vs. stuckkkk - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between KTheMathematician and stuckkkk! Format: [Gen 3] OU; Date: Oct 28, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803104">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730140686
+|gametype|singles
+|player|p1|KTheMathematician|169|
+|player|p2|stuckkkk|swimmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730140686
+|start
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Wants Wind to Blow|Skarmory, F|100/100
+|turn|1
+|c|☆stuckkkk|gl, hf!
+|c|☆KTheMathematician|u2
+|
+|t:|1730140703
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Wants Wind to Blow|Protect||[still]
+|-fail|p2a: Wants Wind to Blow
+|
+|upkeep
+|turn|2
+|
+|t:|1730140719
+|switch|p2a: I Felt My Size|Blissey, F|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: I Felt My Size|[miss]
+|-miss|p1a: Moltres|p2a: I Felt My Size
+|
+|upkeep
+|turn|3
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1730140750
+|switch|p1a: Regice|Regice|100/100
+|switch|p2a: The Moon|Flygon, M|100/100
+|
+|upkeep
+|turn|4
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1730140767
+|move|p2a: The Moon|Protect|p2a: The Moon
+|-singleturn|p2a: The Moon|Protect
+|move|p1a: Regice|Ice Beam|p2a: The Moon
+|-activate|p2a: The Moon|Protect
+|
+|upkeep
+|turn|5
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1730140786
+|switch|p2a: I Felt My Size|Blissey, F|100/100
+|switch|p1a: Medicham|Medicham, F|100/100
+|
+|upkeep
+|turn|6
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1730140820
+|switch|p2a: Headless Horseman|Gengar, M|100/100
+|move|p1a: Medicham|Substitute|p1a: Medicham
+|-start|p1a: Medicham|Substitute
+|-damage|p1a: Medicham|76/100
+|
+|-heal|p1a: Medicham|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730140832
+|switch|p2a: Wants Wind to Blow|Skarmory, F|100/100
+|move|p1a: Medicham|Shadow Ball|p2a: Wants Wind to Blow
+|-resisted|p2a: Wants Wind to Blow
+|-damage|p2a: Wants Wind to Blow|88/100
+|-unboost|p2a: Wants Wind to Blow|spd|1
+|
+|-heal|p1a: Medicham|88/100|[from] item: Leftovers
+|-heal|p2a: Wants Wind to Blow|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730140840
+|-singleturn|p1a: Medicham|move: Focus Punch
+|move|p2a: Wants Wind to Blow|Protect|p2a: Wants Wind to Blow
+|-singleturn|p2a: Wants Wind to Blow|Protect
+|move|p1a: Medicham|Focus Punch|p2a: Wants Wind to Blow
+|-activate|p2a: Wants Wind to Blow|Protect
+|
+|-heal|p1a: Medicham|94/100|[from] item: Leftovers
+|-heal|p2a: Wants Wind to Blow|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730140853
+|-singleturn|p1a: Medicham|move: Focus Punch
+|switch|p2a: The Glow|Zapdos|100/100
+|move|p1a: Medicham|Focus Punch|p2a: The Glow
+|-resisted|p2a: The Glow
+|-damage|p2a: The Glow|52/100
+|
+|-heal|p1a: Medicham|99/100|[from] item: Leftovers
+|-heal|p2a: The Glow|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1730140873
+|-singleturn|p1a: Medicham|move: Focus Punch
+|move|p1a: Medicham|Focus Punch|p2a: The Glow
+|-resisted|p2a: The Glow
+|-damage|p2a: The Glow|6/100
+|move|p2a: The Glow|Roar|p1a: Medicham
+|drag|p1a: Moltres|Moltres|100/100
+|
+|-heal|p2a: The Glow|12/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1730140887
+|switch|p1a: Regice|Regice|100/100
+|switch|p2a: The Moon|Flygon, M|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1730140895
+|switch|p2a: Wants Wind to Blow|Skarmory, F|99/100
+|move|p1a: Regice|Ice Beam|p2a: Wants Wind to Blow
+|-damage|p2a: Wants Wind to Blow|69/100
+|
+|-heal|p2a: Wants Wind to Blow|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730140901
+|move|p2a: Wants Wind to Blow|Spikes|p1a: Regice
+|-sidestart|p1: KTheMathematician|Spikes
+|move|p1a: Regice|Thunderbolt|p2a: Wants Wind to Blow
+|-supereffective|p2a: Wants Wind to Blow
+|-crit|p2a: Wants Wind to Blow
+|-damage|p2a: Wants Wind to Blow|0 fnt
+|faint|p2a: Wants Wind to Blow
+|
+|t:|1730140919
+|switch|p2a: I Felt My Size|Blissey, F|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1730140935
+|move|p2a: I Felt My Size|Toxic|p1a: Regice|[miss]
+|-miss|p2a: I Felt My Size|p1a: Regice
+|move|p1a: Regice|Thunder Wave|p2a: I Felt My Size
+|-status|p2a: I Felt My Size|par
+|
+|upkeep
+|turn|15
+|
+|t:|1730140956
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|cant|p2a: I Felt My Size|par
+|
+|upkeep
+|turn|16
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1730140984
+|-curestatus|p2a: I Felt My Size|par|[from] ability: Natural Cure
+|switch|p2a: The Glow|Zapdos|12/100
+|move|p1a: Skarmory|Drill Peck|p2a: The Glow
+|-resisted|p2a: The Glow
+|-damage|p2a: The Glow|1/100
+|
+|-heal|p2a: The Glow|7/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730140995
+|move|p2a: The Glow|Rest|p2a: The Glow
+|-status|p2a: The Glow|slp|[from] move: Rest
+|-heal|p2a: The Glow|100/100 slp|[silent]
+|move|p1a: Skarmory|Drill Peck|p2a: The Glow
+|-resisted|p2a: The Glow
+|-damage|p2a: The Glow|89/100 slp
+|
+|-heal|p2a: The Glow|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1730141007
+|switch|p2a: Headless Horseman|Gengar, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Headless Horseman
+|-sidestart|p2: stuckkkk|Spikes
+|
+|upkeep
+|turn|19
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1730141018
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Headless Horseman|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|upkeep
+|turn|20
+|
+|t:|1730141023
+|switch|p1a: Regice|Regice|100/100
+|-damage|p1a: Regice|88/100|[from] Spikes
+|move|p2a: Headless Horseman|Will-O-Wisp|p1a: Regice
+|-status|p1a: Regice|brn
+|
+|-heal|p1a: Regice|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Regice|82/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|stuckkkk has 240 seconds left.
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141075
+|switch|p2a: Samurai Sword|Tyranitar, M|100/100
+|-damage|p2a: Samurai Sword|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Samurai Sword
+|move|p1a: Regice|Thunder Wave|p2a: Samurai Sword
+|-status|p2a: Samurai Sword|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regice|76/100 brn|[from] Sandstorm
+|-heal|p1a: Regice|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Regice|69/100 brn|[from] brn
+|-heal|p2a: Samurai Sword|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141095
+|switch|p1a: Medicham|Medicham, F|99/100
+|-damage|p1a: Medicham|88/100|[from] Spikes
+|move|p2a: Samurai Sword|Fire Blast|p1a: Medicham|[miss]
+|-miss|p2a: Samurai Sword|p1a: Medicham
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|82/100|[from] Sandstorm
+|-heal|p1a: Medicham|88/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141109
+|switch|p2a: Headless Horseman|Gengar, M|100/100
+|move|p1a: Medicham|Brick Break|p2a: Headless Horseman
+|-immune|p2a: Headless Horseman
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Headless Horseman|95/100|[from] Sandstorm
+|-damage|p1a: Medicham|82/100|[from] Sandstorm
+|-heal|p2a: Headless Horseman|100/100|[from] item: Leftovers
+|-heal|p1a: Medicham|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1730141118
+|switch|p1a: Regice|Regice|69/100 brn
+|-damage|p1a: Regice|57/100 brn|[from] Spikes
+|move|p2a: Headless Horseman|Will-O-Wisp|p1a: Regice
+|-fail|p1a: Regice|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Headless Horseman|95/100|[from] Sandstorm
+|-damage|p1a: Regice|51/100 brn|[from] Sandstorm
+|-heal|p2a: Headless Horseman|100/100|[from] item: Leftovers
+|-heal|p1a: Regice|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Regice|45/100 brn|[from] brn
+|upkeep
+|turn|25
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141145
+|switch|p2a: Samurai Sword|Tyranitar, M|100/100 par
+|-damage|p2a: Samurai Sword|88/100 par|[from] Spikes
+|move|p1a: Regice|Explosion|p2a: Samurai Sword
+|-resisted|p2a: Samurai Sword
+|-damage|p2a: Samurai Sword|75/100 par
+|faint|p1a: Regice
+|
+|t:|1730141148
+|switch|p1a: Medicham|Medicham, F|88/100
+|-damage|p1a: Medicham|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|69/100|[from] Sandstorm
+|-heal|p1a: Medicham|76/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141158
+|move|p1a: Medicham|Substitute|p1a: Medicham
+|-start|p1a: Medicham|Substitute
+|-damage|p1a: Medicham|51/100
+|move|p2a: Samurai Sword|Crunch|p1a: Medicham
+|-end|p1a: Medicham|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|45/100|[from] Sandstorm
+|-heal|p1a: Medicham|51/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141168
+|switch|p2a: Headless Horseman|Gengar, M|100/100
+|move|p1a: Medicham|Substitute|p1a: Medicham
+|-start|p1a: Medicham|Substitute
+|-damage|p1a: Medicham|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Headless Horseman|95/100|[from] Sandstorm
+|-damage|p1a: Medicham|20/100|[from] Sandstorm
+|-heal|p2a: Headless Horseman|100/100|[from] item: Leftovers
+|-heal|p1a: Medicham|26/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141208
+|switch|p2a: The Glow|Zapdos|95/100 slp
+|move|p1a: Medicham|Shadow Ball|p2a: The Glow
+|-damage|p2a: The Glow|61/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|20/100|[from] Sandstorm
+|-damage|p2a: The Glow|54/100 slp|[from] Sandstorm
+|-heal|p1a: Medicham|26/100|[from] item: Leftovers
+|-heal|p2a: The Glow|61/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730141216
+|-singleturn|p1a: Medicham|move: Focus Punch
+|cant|p2a: The Glow|slp
+|move|p2a: The Glow|Sleep Talk|p2a: The Glow
+|move|p2a: The Glow|Rest|p2a: The Glow|[from]Sleep Talk
+|move|p1a: Medicham|Focus Punch|p2a: The Glow
+|-resisted|p2a: The Glow
+|-damage|p2a: The Glow|13/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|20/100|[from] Sandstorm
+|-damage|p2a: The Glow|6/100 slp|[from] Sandstorm
+|-heal|p1a: Medicham|26/100|[from] item: Leftovers
+|-heal|p2a: The Glow|13/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730141225
+|switch|p2a: Headless Horseman|Gengar, M|100/100
+|move|p1a: Medicham|Shadow Ball|p2a: Headless Horseman
+|-supereffective|p2a: Headless Horseman
+|-damage|p2a: Headless Horseman|0 fnt
+|faint|p2a: Headless Horseman
+|
+|t:|1730141234
+|switch|p2a: The Moon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|20/100|[from] Sandstorm
+|-heal|p1a: Medicham|26/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1730141247
+|-singleturn|p1a: Medicham|move: Focus Punch
+|move|p2a: The Moon|Earthquake|p1a: Medicham
+|-end|p1a: Medicham|Substitute
+|move|p1a: Medicham|Focus Punch|p2a: The Moon
+|-damage|p2a: The Moon|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|20/100|[from] Sandstorm
+|-heal|p1a: Medicham|26/100|[from] item: Leftovers
+|-heal|p2a: The Moon|27/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1730141259
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: The Moon|Protect||[still]
+|-fail|p2a: The Moon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: The Moon|33/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730141279
+|switch|p2a: I Felt My Size|Blissey, F|100/100
+|-damage|p2a: I Felt My Size|88/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: I Felt My Size
+|-sidestart|p2: stuckkkk|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Felt My Size|82/100|[from] Sandstorm
+|-heal|p2a: I Felt My Size|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|stuckkkk has 180 seconds left.
+|
+|t:|1730141304
+|move|p1a: Skarmory|Spikes|p2a: I Felt My Size
+|-sidestart|p2: stuckkkk|Spikes
+|move|p2a: I Felt My Size|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Felt My Size|82/100|[from] Sandstorm
+|-heal|p1a: Skarmory|76/100|[from] item: Leftovers
+|-heal|p2a: I Felt My Size|88/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|stuckkkk has 180 seconds left.
+|
+|t:|1730141312
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: I Felt My Size|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Felt My Size|82/100|[from] Sandstorm
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|-heal|p2a: I Felt My Size|88/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730141315
+|switch|p2a: Samurai Sword|Tyranitar, M|88/100 par
+|-damage|p2a: Samurai Sword|63/100 par|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Samurai Sword
+|drag|p2a: I Felt My Size|Blissey, F|88/100
+|-damage|p2a: I Felt My Size|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Felt My Size|57/100|[from] Sandstorm
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p2a: I Felt My Size|63/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730141324
+|move|p1a: Skarmory|Drill Peck|p2a: I Felt My Size
+|-damage|p2a: I Felt My Size|40/100
+|move|p2a: I Felt My Size|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Felt My Size|34/100|[from] Sandstorm
+|-heal|p1a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p2a: I Felt My Size|40/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730141330
+|move|p2a: I Felt My Size|Soft-Boiled|p2a: I Felt My Size
+|-heal|p2a: I Felt My Size|90/100
+|move|p1a: Skarmory|Roar|p2a: I Felt My Size
+|drag|p2a: The Moon|Flygon, M|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: The Moon|39/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141342
+|move|p2a: The Moon|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|move|p1a: Skarmory|Roar|p2a: The Moon
+|drag|p2a: Samurai Sword|Tyranitar, M|63/100 par
+|-damage|p2a: Samurai Sword|38/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141349
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Samurai Sword|Fire Blast|p1a: Skarmory|[miss]
+|-miss|p2a: Samurai Sword|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141368
+|switch|p1a: Moltres|Moltres|100/100
+|cant|p2a: Samurai Sword|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-heal|p2a: Samurai Sword|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141382
+|move|p2a: Samurai Sword|Crunch|p1a: Moltres
+|-damage|p1a: Moltres|53/100
+|move|p1a: Moltres|Roar|p2a: Samurai Sword
+|drag|p2a: The Glow|Zapdos|13/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|47/100|[from] Sandstorm
+|-damage|p2a: The Glow|6/100 slp|[from] Sandstorm
+|-heal|p1a: Moltres|53/100|[from] item: Leftovers
+|-heal|p2a: The Glow|13/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1730141394
+|move|p1a: Moltres|Flamethrower|p2a: The Glow
+|-damage|p2a: The Glow|0 fnt
+|faint|p2a: The Glow
+|
+|t:|1730141416
+|switch|p2a: The Moon|Flygon, M|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|47/100|[from] Sandstorm
+|-heal|p1a: Moltres|53/100|[from] item: Leftovers
+|-heal|p2a: The Moon|45/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1730141424
+|move|p1a: Moltres|Will-O-Wisp|p2a: The Moon
+|-status|p2a: The Moon|brn
+|move|p2a: The Moon|Toxic|p1a: Moltres
+|-status|p1a: Moltres|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|47/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|47/100 tox|[from] psn
+|-heal|p2a: The Moon|51/100 brn|[from] item: Leftovers
+|-damage|p2a: The Moon|38/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1730141432
+|switch|p2a: I Felt My Size|Blissey, F|90/100
+|-damage|p2a: I Felt My Size|65/100|[from] Spikes
+|move|p1a: Moltres|Roar|p2a: I Felt My Size
+|drag|p2a: Samurai Sword|Tyranitar, M|56/100 par
+|-damage|p2a: Samurai Sword|31/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|41/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|47/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|34/100 tox|[from] psn
+|-heal|p2a: Samurai Sword|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1730141446
+|move|p1a: Moltres|Hidden Power|p2a: Samurai Sword
+|-supereffective|p2a: Samurai Sword
+|-damage|p2a: Samurai Sword|0 fnt
+|faint|p2a: Samurai Sword
+|
+|t:|1730141451
+|switch|p2a: The Moon|Flygon, M|38/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|28/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|34/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|16/100 tox|[from] psn
+|-heal|p2a: The Moon|44/100 brn|[from] item: Leftovers
+|-damage|p2a: The Moon|32/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1730141457
+|move|p1a: Moltres|Hidden Power|p2a: The Moon
+|-damage|p2a: The Moon|3/100 brn
+|move|p2a: The Moon|Flamethrower|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|7/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|1/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|0 fnt|[from] psn
+|faint|p1a: Moltres
+|-heal|p2a: The Moon|9/100 brn|[from] item: Leftovers
+|-damage|p2a: The Moon|0 fnt|[from] brn
+|faint|p2a: The Moon
+|upkeep
+|
+|t:|1730141460
+|switch|p1a: Medicham|Medicham, F|26/100
+|switch|p2a: I Felt My Size|Blissey, F|65/100
+|-damage|p1a: Medicham|14/100|[from] Spikes
+|-damage|p2a: I Felt My Size|40/100|[from] Spikes
+|turn|48
+|c|☆stuckkkk|ggwp!
+|c|☆KTheMathematician|gg
+|-message|stuckkkk forfeited.
+|
+|win|KTheMathematician
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803104">
+{"id":"smogtours-gen3ou-803104","format":"[Gen 3] OU","players":["KTheMathematician","stuckkkk"],"uploadtime":1730141469,"views":52,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

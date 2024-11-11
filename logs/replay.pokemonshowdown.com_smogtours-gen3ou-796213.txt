@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ratdogrefurnished vs. ByrneBabyyyyy - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ratdogrefurnished and ByrneBabyyyyy! Format: [Gen 3] OU; Date: Oct 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796213">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728329460
+|gametype|singles
+|player|p1|ratdogrefurnished|firebreather|
+|player|p2|ByrneBabyyyyy|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728329460
+|start
+|switch|p1a: Louisiana Slots|Metagross|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Louisiana Slots|unboost|[from] ability: Clear Body|[of] p1a: Louisiana Slots
+|turn|1
+|c|☆ratdogrefurnished|Hf!
+|c|☆ByrneBabyyyyy|u2 :P
+|
+|t:|1728329483
+|move|p2a: Salamence|Fire Blast|p1a: Louisiana Slots
+|-supereffective|p1a: Louisiana Slots
+|-crit|p1a: Louisiana Slots
+|-damage|p1a: Louisiana Slots|0 fnt
+|faint|p1a: Louisiana Slots
+|inactive|ratdogrefurnished has 270 seconds left.
+|
+|t:|1728329522
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1728329527
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Aerodactyl|Earthquake|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|upkeep
+|turn|3
+|
+|t:|1728329534
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1728329539
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Skarmory|Spikes|p1a: Zapdos
+|-sidestart|p1: ratdogrefurnished|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1728329542
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Zapdos|Toxic|p2a: Regice
+|-status|p2a: Regice|tox
+|
+|-damage|p2a: Regice|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1728329549
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Regice|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regice|88/100 tox|[from] Sandstorm
+|-heal|p2a: Regice|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Regice|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1728329556
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Tyranitar|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728329571
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Tyranitar|Focus Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728329582
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728329590
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|83/100|[from] Sandstorm
+|-heal|p2a: Celebi|89/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728329597
+|move|p2a: Celebi|Leech Seed|p1a: Swampert
+|-start|p1a: Swampert|move: Leech Seed
+|move|p1a: Swampert|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|83/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|83/100 tox|[from] psn
+|-damage|p1a: Swampert|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|95/100 tox|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728329606
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|51/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728329611
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728329615
+|switch|p1a: Tyranitar|Tyranitar, F|49/100
+|-damage|p1a: Tyranitar|37/100|[from] Spikes
+|switch|p2a: Celebi|Celebi|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|89/100|[from] Sandstorm
+|-heal|p2a: Celebi|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728329628
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Rock Slide|p2a: Salamence|[miss]
+|-miss|p1a: Tyranitar|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆ByrneBabyyyyy|i def predicted HP bug there
+|inactive|ratdogrefurnished has 270 seconds left.
+|
+|t:|1728329679
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Salamence|Brick Break|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728329687
+|switch|p2a: Celebi|Celebi|95/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|60/100|[from] Sandstorm
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p2a: Celebi|66/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728329701
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos|[miss]
+|-miss|p2a: Celebi|p1a: Zapdos
+|move|p1a: Zapdos|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Zapdos|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|60/100|[from] Sandstorm
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p2a: Celebi|66/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728329707
+|switch|p1a: The Fingers|Dugtrio, M|100/100
+|-damage|p1a: The Fingers|88/100|[from] Spikes
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|ratdogrefurnished has 270 seconds left.
+|
+|t:|1728329713
+|move|p1a: The Fingers|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|28/100
+|move|p2a: Celebi|Hidden Power|p1a: The Fingers
+|-damage|p1a: The Fingers|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|22/100|[from] Sandstorm
+|-heal|p2a: Celebi|28/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728329719
+|move|p1a: The Fingers|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1728329726
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1728329729
+|switch|p1a: Tyranitar|Tyranitar, F|37/100
+|-damage|p1a: Tyranitar|24/100|[from] Spikes
+|move|p2a: Aerodactyl|Double-Edge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1728329735
+|move|p2a: Aerodactyl|Double-Edge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728329738
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1728329746
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728329759
+|switch|p1a: Zapdos|Zapdos|78/100
+|move|p2a: Claydol|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|-heal|p2a: Claydol|87/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728329767
+|switch|p1a: The Fingers|Dugtrio, M|51/100
+|-damage|p1a: The Fingers|38/100|[from] Spikes
+|switch|p2a: Regice|Regice|82/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regice|76/100 tox|[from] Sandstorm
+|-heal|p2a: Regice|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Regice|76/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1728329772
+|move|p1a: The Fingers|Earthquake|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|t:|1728329776
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1728329778
+|move|p2a: Aerodactyl|Double-Edge|p1a: The Fingers
+|-damage|p1a: The Fingers|0 fnt
+|faint|p1a: The Fingers
+|
+|t:|1728329781
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1728329785
+|switch|p2a: Skarmory|Skarmory, F|63/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728329790
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|38/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728329796
+|switch|p2a: Claydol|Claydol|87/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|68/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728329826
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|inactive|ByrneBabyyyyy has 270 seconds left.
+|
+|t:|1728329837
+|switch|p2a: Claydol|Claydol|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|74/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728329842
+|switch|p1a: Swampert|Swampert, M|88/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|move|p2a: Claydol|Explosion|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p2a: Claydol
+|faint|p1a: Swampert
+|
+|t:|1728329846
+|switch|p2a: Skarmory|Skarmory, F|38/100
+|switch|p1a: Zapdos|Zapdos|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728329854
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆ByrneBabyyyyy|that went so south so fast
+|c|☆ratdogrefurnished|zap dug is a dirty combo
+|inactive|ByrneBabyyyyy has 270 seconds left.
+|inactive|ByrneBabyyyyy has 240 seconds left.
+|inactive|ByrneBabyyyyy has 210 seconds left.
+|
+|t:|1728329948
+|move|p1a: Zapdos|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728329950
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728329954
+|move|p2a: Salamence|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|32/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Salamence
+|-damage|p2a: Salamence|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] Sandstorm
+|-damage|p1a: Zapdos|26/100|[from] Sandstorm
+|-heal|p2a: Salamence|45/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728329959
+|move|p2a: Salamence|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|c|☆ByrneBabyyyyy|gg
+|
+|t:|1728329967
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] Sandstorm
+|-heal|p2a: Salamence|45/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728329970
+|move|p1a: Aerodactyl|Double-Edge|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|ratdogrefurnished
+|c|☆ratdogrefurnished|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796213">
+{"id":"smogtours-gen3ou-796213","format":"[Gen 3] OU","players":["ratdogrefurnished","ByrneBabyyyyy"],"uploadtime":1728329970,"views":77,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

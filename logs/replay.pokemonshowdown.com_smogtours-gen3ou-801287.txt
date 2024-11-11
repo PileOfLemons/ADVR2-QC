@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: stypur vs. Blaniom - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between stypur and Blaniom! Format: [Gen 3] OU; Date: Oct 22, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801287">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729636275
+|gametype|singles
+|player|p1|stypur|swimmerf|
+|player|p2|Blaniom|clerkf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729636275
+|start
+|switch|p1a: Hariyama|Hariyama, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|c|☆Blaniom|gl
+|c|☆stypur|u2
+|
+|t:|1729636287
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Hariyama|Knock Off|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1729636295
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|99/100
+|-enditem|p2a: Forretress|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|3
+|
+|t:|1729636303
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Forretress|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|
+|-heal|p1a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729636312
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p1a: Jirachi|80/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729636317
+|switch|p1a: Hariyama|Hariyama, F|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Hariyama
+|-status|p1a: Hariyama|par
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729636324
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|switch|p2a: Forretress|Forretress, F|99/100
+|move|p1a: Hariyama|Focus Punch|p2a: Forretress
+|-damage|p2a: Forretress|28/100
+|
+|upkeep
+|turn|7
+|
+|t:|1729636331
+|switch|p1a: Jirachi|Jirachi|80/100
+|move|p2a: Forretress|Spikes|p1a: Jirachi
+|-sidestart|p1: stypur|Spikes
+|
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729636335
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Jirachi|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|71/100
+|
+|-heal|p2a: Charizard|77/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729636339
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Charizard|Fire Blast|p1a: Starmie|[miss]
+|-miss|p2a: Charizard|p1a: Starmie
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|-heal|p2a: Charizard|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729636344
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: stypur|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729636348
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|83/100
+|
+|-heal|p1a: Celebi|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729636351
+|move|p2a: Zapdos|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|move|p1a: Celebi|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-heal|p1a: Celebi|96/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100 tox|[silent]
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1729636357
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Hariyama|Hariyama, F|100/100 par
+|switch|p2a: Charizard|Charizard, M|83/100
+|
+|-heal|p2a: Charizard|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729636360
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Charizard|Substitute|p2a: Charizard
+|-start|p2a: Charizard|Substitute
+|-damage|p2a: Charizard|64/100
+|
+|-heal|p2a: Charizard|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729636363
+|move|p1a: Starmie|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-end|p2a: Charizard|Substitute
+|move|p2a: Charizard|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|46/100
+|
+|-heal|p1a: Starmie|52/100|[from] item: Leftovers
+|-heal|p2a: Charizard|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729636367
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Starmie|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729636373
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Zapdos|Zapdos|88/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729636378
+|switch|p1a: Celebi|Celebi|94/100
+|move|p2a: Zapdos|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-heal|p1a: Celebi|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1729636383
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Celebi|Leech Seed|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|-heal|p1a: Celebi|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1729636391
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Blissey
+|-start|p2a: Blissey|move: Leech Seed
+|
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|76/100 tox|[from] psn
+|-damage|p2a: Blissey|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|98/100 tox|[silent]
+|upkeep
+|turn|21
+|
+|t:|1729636415
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Hariyama|Hariyama, F|100/100 par
+|switch|p2a: Forretress|Forretress, F|28/100
+|
+|upkeep
+|turn|22
+|
+|t:|1729636420
+|move|p2a: Forretress|Spikes|p1a: Hariyama
+|-sidestart|p1: stypur|Spikes
+|cant|p1a: Hariyama|par
+|
+|upkeep
+|turn|23
+|
+|t:|1729636426
+|switch|p1a: Jirachi|Jirachi|92/100
+|-damage|p1a: Jirachi|80/100|[from] Spikes
+|move|p2a: Forretress|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|51/100
+|
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729636432
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729636442
+|switch|p1a: Hariyama|Hariyama, F|100/100 par
+|-damage|p1a: Hariyama|88/100 par|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Hariyama|100/100 par|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|26
+|
+|t:|1729636451
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Hariyama|Knock Off|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|upkeep
+|turn|27
+|
+|t:|1729636457
+|move|p2a: Zapdos|Thunderbolt|p1a: Hariyama
+|-damage|p1a: Hariyama|53/100 par
+|move|p1a: Hariyama|Brick Break|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|
+|-heal|p2a: Zapdos|78/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729636462
+|move|p2a: Zapdos|Thunderbolt|p1a: Hariyama
+|-crit|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|t:|1729636472
+|switch|p1a: Jirachi|Jirachi|63/100
+|-damage|p1a: Jirachi|51/100|[from] Spikes
+|
+|-heal|p2a: Zapdos|84/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729636478
+|switch|p2a: Charizard|Charizard, M|76/100
+|move|p1a: Jirachi|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|43/100
+|-status|p2a: Charizard|par
+|
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p2a: Charizard|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729636485
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Charizard|Fire Blast|p1a: Starmie|[miss]
+|-miss|p2a: Charizard|p1a: Starmie
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|-heal|p2a: Charizard|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729636492
+|switch|p2a: Blissey|Blissey, F|94/100
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|-sideend|p1: stypur|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729636500
+|switch|p1a: Celebi|Celebi|98/100
+|move|p2a: Blissey|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729636507
+|switch|p2a: Zapdos|Zapdos|84/100
+|move|p1a: Celebi|Leech Seed|p2a: Zapdos|[miss]
+|-miss|p1a: Celebi|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729636516
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|63/100
+|move|p2a: Zapdos|Protect||[still]
+|-fail|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|96/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729636521
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|47/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729636530
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|97/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729636537
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|74/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729636541
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jirachi|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|83/100
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Blissey|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729636548
+|switch|p1a: Marowak|Marowak, F|100/100
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729636562
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Marowak|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|41/100
+|
+|-heal|p2a: Suicune|48/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729636568
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|86/100
+|
+|-heal|p1a: Starmie|92/100|[from] item: Leftovers
+|-heal|p2a: Suicune|54/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729636574
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Starmie|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729636579
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Zapdos|Toxic|p1a: Celebi|[miss]
+|-miss|p2a: Zapdos|p1a: Celebi
+|
+|upkeep
+|turn|44
+|
+|t:|1729636583
+|switch|p1a: Marowak|Marowak, F|100/100
+|move|p2a: Zapdos|Toxic|p1a: Marowak|[miss]
+|-miss|p2a: Zapdos|p1a: Marowak
+|
+|upkeep
+|turn|45
+|
+|t:|1729636590
+|switch|p2a: Forretress|Forretress, F|28/100
+|move|p1a: Marowak|Rock Slide|p2a: Forretress
+|-damage|p2a: Forretress|5/100
+|
+|upkeep
+|turn|46
+|
+|t:|1729636596
+|switch|p2a: Charizard|Charizard, M|55/100
+|move|p1a: Marowak|Rock Slide|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|t:|1729636601
+|switch|p2a: Suicune|Suicune|54/100
+|
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729636606
+|switch|p1a: Starmie|Starmie|98/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|66/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729636609
+|move|p1a: Starmie|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|cant|p2a: Suicune|par
+|
+|-heal|p2a: Suicune|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729636614
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|30/100
+|
+|-heal|p1a: Celebi|36/100|[from] item: Leftovers
+|-heal|p2a: Suicune|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729636618
+|move|p1a: Celebi|Leech Seed|p2a: Suicune
+|-start|p2a: Suicune|move: Leech Seed
+|move|p2a: Suicune|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1729636629
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Suicune|atk|1
+|
+|-heal|p2a: Suicune|85/100 par|[from] item: Leftovers
+|-damage|p2a: Suicune|72/100 par|[from] Leech Seed|[of] p1a: Salamence
+|upkeep
+|turn|51
+|
+|t:|1729636641
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|77/100
+|
+|-heal|p1a: Starmie|84/100|[from] item: Leftovers
+|-heal|p2a: Suicune|78/100 par|[from] item: Leftovers
+|-damage|p2a: Suicune|66/100 par|[from] Leech Seed|[of] p1a: Starmie
+|-heal|p1a: Starmie|99/100|[silent]
+|upkeep
+|turn|52
+|
+|t:|1729636653
+|switch|p2a: Blissey|Blissey, F|95/100
+|move|p1a: Starmie|Surf|p2a: Blissey
+|-damage|p2a: Blissey|83/100
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729636656
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729636661
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729636667
+|switch|p1a: Marowak|Marowak, F|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Marowak
+|-damage|p1a: Marowak|63/100
+|
+|upkeep
+|turn|56
+|
+|t:|1729636674
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Forretress|Forretress, F|5/100
+|move|p1a: Marowak|Earthquake|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|t:|1729636680
+|switch|p2a: Suicune|Suicune|66/100
+|
+|-heal|p2a: Suicune|72/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729636687
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|78/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729636692
+|move|p1a: Starmie|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729636697
+|move|p1a: Starmie|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100 par
+|move|p2a: Suicune|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|41/100
+|
+|-heal|p1a: Starmie|47/100|[from] item: Leftovers
+|-heal|p2a: Suicune|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729636701
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|97/100
+|cant|p2a: Suicune|par
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729636720
+|switch|p1a: Jirachi|Jirachi|100/100
+|cant|p2a: Suicune|par
+|
+|-heal|p2a: Suicune|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729636723
+|move|p1a: Jirachi|Body Slam|p2a: Suicune
+|-damage|p2a: Suicune|83/100 par
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729636726
+|move|p1a: Jirachi|Body Slam|p2a: Suicune
+|-damage|p2a: Suicune|75/100 par
+|move|p2a: Suicune|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|12/100
+|
+|-heal|p1a: Jirachi|18/100|[from] item: Leftovers
+|-heal|p2a: Suicune|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729636729
+|move|p1a: Jirachi|Body Slam|p2a: Suicune
+|-damage|p2a: Suicune|66/100 par
+|move|p2a: Suicune|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1729636732
+|switch|p1a: Marowak|Marowak, F|63/100
+|
+|-heal|p2a: Suicune|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729636735
+|move|p1a: Marowak|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|19/100 par
+|cant|p2a: Suicune|par
+|
+|-heal|p2a: Suicune|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729636750
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Marowak|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729636755
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729636758
+|-singleturn|p1a: Marowak|move: Focus Punch
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: Marowak|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729636761
+|switch|p2a: Suicune|Suicune|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|19/100|[from] Sandstorm
+|-heal|p2a: Suicune|25/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729636764
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729636780
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Salamence|53/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729636798
+|move|p2a: Zapdos|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|move|p1a: Salamence|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 tox|[from] Sandstorm
+|-damage|p1a: Salamence|53/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|-heal|p1a: Salamence|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|53/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|t:|1729636807
+|move|p2a: Zapdos|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|14/100 tox
+|move|p1a: Salamence|Wish|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100 tox|[from] Sandstorm
+|-damage|p1a: Salamence|8/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|82/100 tox|[from] psn
+|-heal|p1a: Salamence|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|2/100 tox|[from] psn
+|upkeep
+|turn|72
+|
+|t:|1729636814
+|move|p1a: Salamence|Protect|p1a: Salamence
+|-singleturn|p1a: Salamence|Protect
+|move|p2a: Zapdos|Toxic|p1a: Salamence
+|-activate|p1a: Salamence|Protect
+|
+|-heal|p1a: Salamence|52/100 tox|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|75/100 tox|[from] Sandstorm
+|-damage|p1a: Salamence|46/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|63/100 tox|[from] psn
+|-heal|p1a: Salamence|52/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|33/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|t:|1729636826
+|move|p2a: Zapdos|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1729636836
+|switch|p1a: Marowak|Marowak, F|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|57/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|38/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|t:|1729636842
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Zapdos|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|32/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Zapdos|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|7/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|t:|1729636849
+|move|p1a: Starmie|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1729636851
+|switch|p2a: Suicune|Suicune|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|88/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|19/100|[from] Sandstorm
+|-heal|p1a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|82/100 tox|[from] psn
+|-heal|p2a: Suicune|25/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729636854
+|move|p1a: Starmie|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|19/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|63/100 tox|[from] psn
+|-heal|p2a: Suicune|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729636863
+|move|p1a: Starmie|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|18/100 par
+|move|p2a: Suicune|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|20/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|14/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|12/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|0 fnt|[from] psn
+|faint|p1a: Starmie
+|-heal|p2a: Suicune|18/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1729636865
+|switch|p1a: Marowak|Marowak, F|63/100
+|turn|78
+|
+|t:|1729636868
+|move|p1a: Marowak|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|win|stypur
+|c|☆stypur|gg
+|c|☆Blaniom|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801287">
+{"id":"smogtours-gen3ou-801287","format":"[Gen 3] OU","players":["stypur","Blaniom"],"uploadtime":1729636868,"views":70,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

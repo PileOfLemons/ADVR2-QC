@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Void vs. LilBigBamSam - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Void and LilBigBamSam! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801533">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729760788
+|gametype|singles
+|player|p1|Void|#splxvwolfpack|
+|player|p2|LilBigBamSam|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729760788
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆LilBigBamSam|gl hf
+|c|☆Void|u2
+|
+|t:|1729760804
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729760806
+|switch|p1a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Rock Slide|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729760816
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p1a: Metagross|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729760823
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Skarmory|Spikes|p1a: Zapdos
+|-sidestart|p1: Void|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729760831
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729760836
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729760838
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from] Baton Pass
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|LilBigBamSam has 270 seconds left.
+|inactive|LilBigBamSam has 240 seconds left.
+|
+|t:|1729760900
+|move|p1a: Dugtrio|Beat Up|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|-damage|p2a: Blissey|77/100
+|-damage|p2a: Blissey|60/100
+|-damage|p2a: Blissey|50/100
+|-damage|p2a: Blissey|42/100
+|-damage|p2a: Blissey|30/100
+|-hitcount|p2a: Blissey|6
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|74/100|[from] Sandstorm
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|LilBigBamSam has 240 seconds left.
+|
+|t:|1729760911
+|move|p1a: Dugtrio|Beat Up|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|-damage|p2a: Blissey|55/100
+|-damage|p2a: Blissey|39/100
+|-damage|p2a: Blissey|29/100
+|-damage|p2a: Blissey|20/100
+|-damage|p2a: Blissey|8/100
+|-hitcount|p2a: Blissey|6
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729760914
+|move|p1a: Dugtrio|Beat Up|p2a: Blissey
+|-damage|p2a: Blissey|48/100
+|-damage|p2a: Blissey|31/100
+|-damage|p2a: Blissey|16/100
+|-damage|p2a: Blissey|7/100
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-hitcount|p2a: Blissey|5
+|faint|p2a: Blissey
+|inactive|LilBigBamSam has 240 seconds left.
+|
+|t:|1729760938
+|switch|p2a: Skarmory|Skarmory, F|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729760957
+|switch|p1a: Metagross|Metagross|87/100
+|-damage|p1a: Metagross|74/100|[from] Spikes
+|move|p2a: Skarmory|Toxic|p1a: Metagross
+|-immune|p1a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Metagross|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729760969
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Skarmory|Spikes|p1a: Zapdos
+|-sidestart|p1: Void|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729760978
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729760985
+|move|p1a: Zapdos|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|59/100
+|move|p2a: Claydol|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|69/100 tox|[from] psn
+|-heal|p2a: Claydol|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729760994
+|move|p2a: Claydol|Protect|p2a: Claydol
+|-singleturn|p2a: Claydol|Protect
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729761013
+|switch|p1a: Suicune|Suicune|100/100|[from] Baton Pass
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|78/100|[from] Sandstorm
+|-heal|p1a: Suicune|84/100|[from] item: Leftovers
+|-heal|p2a: Claydol|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1729761025
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Suicune|Hydro Pump|p2a: Skarmory|[miss]
+|-miss|p1a: Suicune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|78/100|[from] Sandstorm
+|-heal|p1a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729761042
+|switch|p1a: Zapdos|Zapdos|69/100 tox
+|move|p2a: Skarmory|Roar|p1a: Zapdos
+|drag|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|78/100|[from] Sandstorm
+|-heal|p1a: Breloom|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1729761067
+|move|p1a: Breloom|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Spore
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|78/100|[from] Sandstorm
+|-heal|p1a: Breloom|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1729761087
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Breloom|Hidden Power|p2a: Moltres
+|-damage|p2a: Moltres|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|65/100|[from] Sandstorm
+|-damage|p1a: Breloom|78/100|[from] Sandstorm
+|-heal|p2a: Moltres|71/100|[from] item: Leftovers
+|-heal|p1a: Breloom|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|LilBigBamSam has 270 seconds left.
+|inactive|Void has 270 seconds left.
+|
+|t:|1729761135
+|switch|p1a: Zapdos|Zapdos|69/100 tox
+|move|p2a: Moltres|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|7/100 tox|[from] Sandstorm
+|-damage|p2a: Moltres|65/100|[from] Sandstorm
+|-heal|p1a: Zapdos|13/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|7/100 tox|[from] psn
+|-heal|p2a: Moltres|71/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1729761158
+|switch|p2a: Claydol|Claydol|71/100
+|move|p1a: Zapdos|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|1/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|-heal|p2a: Claydol|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729761167
+|switch|p1a: Suicune|Suicune|84/100
+|-damage|p1a: Suicune|67/100|[from] Spikes
+|turn|20
+|inactive|LilBigBamSam has 240 seconds left.
+|
+|t:|1729761224
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Suicune|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|50/100|[from] Sandstorm
+|-damage|p1a: Suicune|61/100|[from] Sandstorm
+|-heal|p2a: Gengar|56/100|[from] item: Leftovers
+|-heal|p1a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729761250
+|switch|p1a: Metagross|Metagross|80/100
+|-damage|p1a: Metagross|64/100|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|50/100|[from] Sandstorm
+|-heal|p2a: Gengar|56/100|[from] item: Leftovers
+|-heal|p1a: Metagross|34/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729761258
+|move|p2a: Gengar|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|2/100
+|move|p1a: Metagross|Meteor Mash|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761301
+|switch|p2a: Moltres|Moltres|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|65/100|[from] Sandstorm
+|-heal|p2a: Moltres|71/100|[from] item: Leftovers
+|-heal|p1a: Metagross|8/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729761312
+|move|p2a: Moltres|Flamethrower|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1729761315
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|78/100|[from] Sandstorm
+|-damage|p2a: Moltres|65/100|[from] Sandstorm
+|-heal|p1a: Raikou|84/100|[from] item: Leftovers
+|-heal|p2a: Moltres|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761330
+|move|p1a: Raikou|Hidden Power|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|64/100
+|move|p2a: Moltres|Roar|p1a: Raikou
+|drag|p1a: Dugtrio|Dugtrio, F|88/100
+|-damage|p1a: Dugtrio|72/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|58/100|[from] Sandstorm
+|-heal|p2a: Moltres|64/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761351
+|switch|p1a: Breloom|Breloom, M|84/100
+|-damage|p1a: Breloom|68/100|[from] Spikes
+|move|p2a: Moltres|Will-O-Wisp|p1a: Breloom|[miss]
+|-miss|p2a: Moltres|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|58/100|[from] Sandstorm
+|-damage|p1a: Breloom|62/100|[from] Sandstorm
+|-heal|p2a: Moltres|64/100|[from] item: Leftovers
+|-heal|p1a: Breloom|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761358
+|move|p2a: Moltres|Flamethrower|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|t:|1729761361
+|switch|p1a: Raikou|Raikou|84/100
+|-damage|p1a: Raikou|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|61/100|[from] Sandstorm
+|-damage|p2a: Moltres|58/100|[from] Sandstorm
+|-heal|p1a: Raikou|68/100|[from] item: Leftovers
+|-heal|p2a: Moltres|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761381
+|switch|p2a: Skarmory|Skarmory, F|100/100 slp
+|move|p1a: Raikou|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|61/100|[from] Sandstorm
+|-heal|p1a: Raikou|68/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1729761391
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Roar|p1a: Raikou
+|drag|p1a: Dugtrio|Dugtrio, F|72/100
+|-damage|p1a: Dugtrio|55/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|36/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Void has 270 seconds left.
+|
+|t:|1729761410
+|switch|p1a: Raikou|Raikou|68/100
+|-damage|p1a: Raikou|51/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Raikou
+|-sidestart|p1: Void|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|45/100|[from] Sandstorm
+|-heal|p1a: Raikou|51/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729761416
+|move|p1a: Raikou|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729761426
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|45/100|[from] Sandstorm
+|-heal|p1a: Raikou|51/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Void has 270 seconds left.
+|
+|t:|1729761444
+|switch|p1a: Suicune|Suicune|67/100
+|-damage|p1a: Suicune|42/100|[from] Spikes
+|move|p2a: Tyranitar|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1729761448
+|switch|p1a: Dugtrio|Dugtrio, F|55/100
+|-damage|p1a: Dugtrio|30/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1729761460
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|move|p2a: Tyranitar|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1729761463
+|switch|p1a: Raikou|Raikou|51/100
+|-damage|p1a: Raikou|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|20/100|[from] Sandstorm
+|-heal|p1a: Raikou|26/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|LilBigBamSam has 240 seconds left.
+|inactive|LilBigBamSam has 210 seconds left.
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1729761540
+|move|p1a: Raikou|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729761544
+|switch|p2a: Claydol|Claydol|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|20/100|[from] Sandstorm
+|-heal|p1a: Raikou|26/100|[from] item: Leftovers
+|-heal|p2a: Claydol|42/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1729761558
+|move|p1a: Raikou|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|1/100
+|move|p2a: Claydol|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-crit|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|win|LilBigBamSam
+|c|☆LilBigBamSam|gg
+|c|☆Void|gg
+|c|☆LilBigBamSam|damn
+|c|☆LilBigBamSam|close one
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801533">
+{"id":"smogtours-gen3ou-801533","format":"[Gen 3] OU","players":["Void","LilBigBamSam"],"uploadtime":1729761558,"views":112,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Texas Cloverleaf vs. cd56 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Texas Cloverleaf and cd56! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800911">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729463549
+|gametype|singles
+|player|p1|Texas Cloverleaf|#texascloverleaf|
+|player|p2|cd56|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729463549
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|turn|1
+|
+|t:|1729463563
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|84/100
+|
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729463577
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Salamence|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729463583
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salamence|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729463594
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729463603
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: cd56|Spikes
+|move|p2a: Tyranitar|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|65/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729463609
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729463621
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729463625
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Tyranitar|Focus Punch|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|-heal|p1a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729463628
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Swampert|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|move|p2a: Tyranitar|Focus Punch|p1a: Swampert
+|-damage|p1a: Swampert|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729463641
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Spikes
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729463651
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|54/100|[from] Sandstorm
+|-damage|p2a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Salamence|60/100|[from] item: Leftovers
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729463668
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|move|p1a: Salamence|Fire Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Salamence|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|54/100|[from] Sandstorm
+|-heal|p1a: Salamence|60/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729463674
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Salamence|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Salamence|54/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Salamence|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729463680
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Tyranitar|[miss]
+|-miss|p2a: Gengar|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729463689
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|13/100
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|cd56 has 270 seconds left.
+|
+|t:|1729463723
+|switch|p2a: Gengar|Gengar, M|13/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|cd56 has 270 seconds left.
+|
+|t:|1729463742
+|switch|p2a: Tyranitar|Tyranitar, F|94/100
+|-damage|p2a: Tyranitar|82/100|[from] Spikes
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|cd56 has 270 seconds left.
+|
+|t:|1729463754
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|45/100
+|move|p1a: Tyranitar|Roar|p2a: Tyranitar
+|drag|p2a: Metagross|Metagross|94/100
+|-damage|p2a: Metagross|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|88/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|cd56 has 270 seconds left.
+|
+|t:|1729463762
+|switch|p1a: Skarmory|Skarmory, M|71/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|51/100
+|-boost|p2a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|57/100|[from] item: Leftovers
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729463770
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|63/100|[from] item: Leftovers
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729463779
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: cd56|Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|38/100|[from] item: Leftovers
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729463784
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory|[miss]
+|-miss|p2a: Metagross|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729463787
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory|[miss]
+|-miss|p2a: Metagross|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|drag|p2a: Gengar|Gengar, M|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729463793
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729463800
+|switch|p1a: Tyranitar|Tyranitar, M|51/100
+|move|p2a: Gengar|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|34/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729463803
+|move|p2a: Gengar|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|3/100
+|faint|p2a: Gengar
+|
+|t:|1729463813
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|9/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729463838
+|move|p2a: Salamence|Dragon Claw|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|inactive|Texas Cloverleaf has 270 seconds left.
+|
+|t:|1729463867
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729463887
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|72/100|[from] Spikes
+|move|p1a: Gengar|Will-O-Wisp|p2a: Tyranitar|[miss]
+|-miss|p1a: Gengar|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729463893
+|switch|p2a: Celebi|Celebi|88/100
+|-damage|p2a: Celebi|72/100|[from] Spikes
+|move|p1a: Gengar|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|65/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|59/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1729463902
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100 brn|[from] Sandstorm
+|-heal|p2a: Celebi|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|88/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1729463911
+|move|p2a: Celebi|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|59/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|52/100 brn|[from] Sandstorm
+|-heal|p2a: Celebi|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|46/100 brn|[from] brn
+|-damage|p1a: Jirachi|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|59/100 brn|[silent]
+|upkeep
+|turn|32
+|
+|t:|1729463921
+|-curestatus|p2a: Celebi|brn|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, F|78/100
+|-damage|p2a: Tyranitar|61/100|[from] Spikes
+|switch|p1a: Salamence|Salamence, M|60/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|54/100|[from] Sandstorm
+|-heal|p1a: Salamence|60/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|67/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729463927
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Brick Break|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|85/100|[from] Sandstorm
+|-damage|p1a: Salamence|54/100|[from] Sandstorm
+|-heal|p2a: Salamence|91/100|[from] item: Leftovers
+|-heal|p1a: Salamence|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729463936
+|move|p2a: Salamence|Dragon Claw|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|c|☆Texas Cloverleaf|hm you went for it
+|c|☆cd56|are you +spe
+|c|☆Texas Cloverleaf|how fortunate that you won the speed tie
+|
+|t:|1729463959
+|switch|p1a: Jirachi|Jirachi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|85/100|[from] Sandstorm
+|-heal|p2a: Salamence|91/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆cd56|i am +speed
+|c|☆Texas Cloverleaf|i'm 328 too
+|c|☆cd56|gotcha
+|
+|t:|1729463987
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100
+|move|p1a: Jirachi|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|85/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|85/100 tox|[from] psn
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729463998
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|84/100|[from] Spikes
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|47/100|[from] item: Leftovers
+|-heal|p2a: Metagross|90/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729464007
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Metagross|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|53/100|[from] item: Leftovers
+|-heal|p2a: Metagross|96/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729464014
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Metagross|Meteor Mash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729464025
+|switch|p2a: Salamence|Salamence, F|85/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|91/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|79/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|79/100 tox|[from] psn
+|-heal|p1a: Jirachi|98/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729464033
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|84/100|[from] Spikes
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|90/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729464036
+|switch|p1a: Skarmory|Skarmory, M|56/100
+|move|p2a: Metagross|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p2a: Metagross|96/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729464044
+|switch|p2a: Skarmory|Skarmory, F|96/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: cd56|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729464048
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Gengar
+|-sidestart|p1: Texas Cloverleaf|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729464063
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|47/100
+|move|p2a: Skarmory|Roar|p1a: Gengar
+|drag|p1a: Swampert|Swampert, F|60/100
+|-damage|p1a: Swampert|47/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|53/100|[from] item: Leftovers
+|-heal|p1a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729464071
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Gengar
+|-sidestart|p1: Texas Cloverleaf|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729464075
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729464083
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|13/100
+|-status|p2a: Skarmory|par
+|move|p2a: Skarmory|Spikes|p1a: Gengar
+|-sidestart|p1: Texas Cloverleaf|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729464097
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729464101
+|switch|p2a: Celebi|Celebi|59/100
+|-damage|p2a: Celebi|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|27/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|34/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729464116
+|move|p1a: Gengar|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|84/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|77/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|71/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1729464122
+|switch|p1a: Skarmory|Skarmory, M|68/100
+|move|p2a: Celebi|Psychic|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|65/100 brn|[from] Sandstorm
+|-heal|p2a: Celebi|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|59/100 brn|[from] brn
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729464128
+|move|p2a: Celebi|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|move|p1a: Skarmory|Roar|p2a: Celebi
+|-curestatus|p2a: Celebi|brn|[from] ability: Natural Cure
+|drag|p2a: Tyranitar|Tyranitar, F|67/100
+|-damage|p2a: Tyranitar|42/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|53/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|52/100|[silent]
+|-heal|p2a: Tyranitar|59/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729464136
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|21/100
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Celebi|Celebi|59/100
+|-damage|p2a: Celebi|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|27/100|[from] Sandstorm
+|-heal|p2a: Celebi|34/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|27/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|15/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|44/100|[silent]
+|upkeep
+|turn|53
+|
+|t:|1729464143
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|75/100|[from] Spikes
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|88/100|[from] Sandstorm
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729464147
+|move|p2a: Celebi|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|88/100|[from] Sandstorm
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|75/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|55
+|
+|t:|1729464159
+|move|p2a: Celebi|Leech Seed||[still]
+|-fail|p2a: Celebi
+|move|p1a: Jirachi|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|71/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|64/100|[from] Sandstorm
+|-heal|p2a: Celebi|71/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|83/100|[silent]
+|upkeep
+|turn|56
+|
+|t:|1729464168
+|switch|p2a: Metagross|Metagross|96/100
+|-damage|p2a: Metagross|71/100|[from] Spikes
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100|[from] Leech Seed|[of] p2a: Metagross
+|-heal|p2a: Metagross|86/100|[silent]
+|-heal|p2a: Metagross|92/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729464174
+|switch|p1a: Swampert|Swampert, F|54/100
+|-damage|p1a: Swampert|29/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Swampert|[miss]
+|-miss|p2a: Metagross|p1a: Swampert
+|
+|-heal|p1a: Swampert|79/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|98/100|[from] item: Leftovers
+|-heal|p1a: Swampert|85/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729464186
+|switch|p2a: Celebi|Celebi|83/100
+|-damage|p2a: Celebi|58/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|52/100|[from] Sandstorm
+|-heal|p2a: Celebi|58/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|21/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729464193
+|move|p2a: Celebi|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|move|p1a: Skarmory|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|52/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|52/100 tox|[from] psn
+|-heal|p1a: Skarmory|27/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|15/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|62/100 tox|[silent]
+|upkeep
+|turn|60
+|
+|t:|1729464198
+|switch|p1a: Jirachi|Jirachi|82/100
+|-damage|p1a: Jirachi|57/100|[from] Spikes
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|88/100 tox|[from] psn
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729464205
+|move|p2a: Celebi|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|82/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|69/100 tox|[from] psn
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|82/100 tox|[silent]
+|upkeep
+|turn|62
+|
+|t:|1729464210
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, F|59/100
+|-damage|p2a: Tyranitar|34/100|[from] Spikes
+|move|p1a: Jirachi|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|27/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jirachi|88/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|40/100|[silent]
+|-heal|p2a: Tyranitar|46/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729464224
+|switch|p1a: Swampert|Swampert, F|85/100
+|-damage|p1a: Swampert|60/100|[from] Spikes
+|move|p2a: Tyranitar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|52/100|[from] item: Leftovers
+|-heal|p1a: Swampert|33/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729464233
+|move|p2a: Tyranitar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|4/100
+|move|p1a: Swampert|Hydro Pump|p2a: Tyranitar|[miss]
+|-miss|p1a: Swampert|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|58/100|[from] item: Leftovers
+|-heal|p1a: Swampert|10/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|c|☆Texas Cloverleaf|lol ok
+|c|☆Texas Cloverleaf|gg
+|inactive|Texas Cloverleaf disconnected and has 300 seconds to reconnect!
+|player|p1|
+|c|+lTPHl|gone
+|c|☆cd56|ig i win
+|inactive|Texas Cloverleaf has 270 seconds to reconnect!
+|inactive|Texas Cloverleaf has 240 seconds to reconnect!
+|inactive|Texas Cloverleaf has 210 seconds to reconnect!
+|inactive|Texas Cloverleaf has 180 seconds to reconnect!
+|inactive|Texas Cloverleaf has 150 seconds to reconnect!
+|inactive|Texas Cloverleaf has 120 seconds to reconnect!
+|inactive|Texas Cloverleaf has 90 seconds to reconnect!
+|inactive|Texas Cloverleaf has 60 seconds to reconnect!
+|inactive|Texas Cloverleaf has 30 seconds to reconnect!
+|inactive|Texas Cloverleaf has 20 seconds to reconnect!
+|inactive|Texas Cloverleaf has 15 seconds to reconnect!
+|inactive|Texas Cloverleaf has 10 seconds to reconnect!
+|inactive|Texas Cloverleaf has 5 seconds to reconnect!
+|-message|Texas Cloverleaf lost due to inactivity.
+|
+|win|cd56
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800911">
+{"id":"smogtours-gen3ou-800911","format":"[Gen 3] OU","players":["Texas Cloverleaf","cd56"],"uploadtime":1729464538,"views":88,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: xhoshi vs. oopsalldeoxys - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between xhoshi and oopsalldeoxys! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798697">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728930777
+|gametype|singles
+|player|p1|xhoshi|170|
+|player|p2|oopsalldeoxys|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728930777
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Pain|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pain
+|turn|1
+|c|☆xhoshi|bruh 3 same leads
+|c|☆oopsalldeoxys|lol
+|
+|t:|1728930807
+|switch|p2a: Passion|Swampert, M, shiny|100/100
+|switch|p1a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|c|☆oopsalldeoxys|classic
+|c|☆xhoshi|XD
+|
+|t:|1728930831
+|switch|p2a: Last Valentines|Skarmory, F, shiny|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Last Valentines|[miss]
+|-miss|p1a: Swampert|p2a: Last Valentines
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1728930835
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Last Valentines|Spikes|p1a: Magneton
+|-sidestart|p1: xhoshi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1728930838
+|move|p1a: Magneton|Thunderbolt|p2a: Last Valentines
+|-supereffective|p2a: Last Valentines
+|-damage|p2a: Last Valentines|7/100
+|move|p2a: Last Valentines|Roar|p1a: Magneton
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Valentines|13/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728930855
+|switch|p2a: Passion|Swampert, M, shiny|100/100
+|move|p1a: Tyranitar|Brick Break|p2a: Passion
+|-damage|p2a: Passion|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Passion|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|oopsalldeoxys has 270 seconds left.
+|
+|t:|1728930907
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|switch|p2a: Last Valentines|Skarmory, F, shiny|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|-heal|p2a: Last Valentines|19/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728930916
+|move|p1a: Swampert|Ice Beam|p2a: Last Valentines
+|-damage|p2a: Last Valentines|0 fnt
+|faint|p2a: Last Valentines
+|
+|t:|1728930920
+|switch|p2a: Reason|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728930925
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Reason|Hidden Power|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|oopsalldeoxys has 270 seconds left.
+|
+|t:|1728930931
+|move|p2a: Reason|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|move|p1a: Celebi|Leech Seed|p2a: Reason|[miss]
+|-miss|p1a: Celebi|p2a: Reason
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|73/100 tox|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|73/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|oopsalldeoxys has 270 seconds left.
+|
+|t:|1728930950
+|move|p2a: Reason|Protect|p2a: Reason
+|-singleturn|p2a: Reason|Protect
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728930971
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728930977
+|switch|p2a: Passion|Swampert, M, shiny|87/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Passion
+|-damage|p2a: Passion|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Passion|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|oopsalldeoxys has 270 seconds left.
+|
+|t:|1728931010
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|88/100|[from] Spikes
+|switch|p2a: I Must Apologise|Blissey, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|94/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728931018
+|move|p1a: Magneton|Thunder Wave|p2a: I Must Apologise
+|-status|p2a: I Must Apologise|par
+|cant|p2a: I Must Apologise|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728931022
+|switch|p1a: Celebi|Celebi|73/100
+|-damage|p1a: Celebi|60/100|[from] Spikes
+|move|p2a: I Must Apologise|Fire Blast|p1a: Celebi|[miss]
+|-miss|p2a: I Must Apologise|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|54/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|60/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728931029
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: I Must Apologise|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|47/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|53/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728931037
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: I Must Apologise|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100 tox|[from] Sandstorm
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728931042
+|-curestatus|p2a: I Must Apologise|par|[from] ability: Natural Cure
+|switch|p2a: Reason|Zapdos|100/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|88/100 tox|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1728931051
+|switch|p2a: Passion|Swampert, M, shiny|66/100
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728931067
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Magneton|Magneton|88/100|[from] Baton Pass
+|-damage|p1a: Magneton|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728931075
+|switch|p2a: I Must Apologise|Blissey, F, shiny|100/100
+|move|p1a: Magneton|Hidden Power|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|85/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728931079
+|switch|p1a: Celebi|Celebi|82/100
+|-damage|p1a: Celebi|70/100|[from] Spikes
+|move|p2a: I Must Apologise|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|18/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|85/100|[from] Sandstorm
+|-heal|p1a: Celebi|24/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|91/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728931087
+|switch|p2a: Passion|Swampert, M, shiny|72/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|68/100|[from] Sandstorm
+|-heal|p1a: Celebi|74/100|[from] item: Leftovers
+|-heal|p2a: Passion|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728931093
+|move|p1a: Celebi|Leech Seed|p2a: Passion
+|-start|p2a: Passion|move: Leech Seed
+|move|p2a: Passion|Roar|p1a: Celebi
+|drag|p1a: Magneton|Magneton|76/100
+|-damage|p1a: Magneton|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|85/100|[from] item: Leftovers
+|-damage|p2a: Passion|72/100|[from] Leech Seed|[of] p1a: Magneton
+|-heal|p1a: Magneton|84/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1728931108
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|switch|p2a: I Must Apologise|Blissey, F, shiny|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|85/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|91/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728931122
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|switch|p2a: Reason|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728931128
+|switch|p1a: Celebi|Celebi|74/100
+|-damage|p1a: Celebi|62/100|[from] Spikes
+|move|p2a: Reason|Toxic|p1a: Celebi|[miss]
+|-miss|p2a: Reason|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|56/100|[from] Sandstorm
+|-heal|p2a: Reason|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|62/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728931136
+|switch|p2a: Passion|Swampert, M, shiny|72/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Passion|79/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728931159
+|move|p1a: Celebi|Leech Seed|p2a: Passion
+|-start|p2a: Passion|move: Leech Seed
+|move|p2a: Passion|Roar|p1a: Celebi
+|drag|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|85/100|[from] item: Leftovers
+|-damage|p2a: Passion|72/100|[from] Leech Seed|[of] p1a: Aerodactyl
+|upkeep
+|turn|28
+|
+|t:|1728931164
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Passion|Hydro Pump|p1a: Celebi|[miss]
+|-miss|p2a: Passion|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|-heal|p2a: Passion|79/100|[from] item: Leftovers
+|-damage|p2a: Passion|66/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1728931172
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Passion|Roar|p1a: Celebi
+|drag|p1a: Magneton|Magneton|84/100
+|-damage|p1a: Magneton|71/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|72/100|[from] item: Leftovers
+|-damage|p2a: Passion|60/100|[from] Leech Seed|[of] p1a: Magneton
+|-heal|p1a: Magneton|92/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1728931175
+|switch|p2a: I Must Apologise|Blissey, F, shiny|91/100
+|move|p1a: Magneton|Hidden Power|p2a: I Must Apologise
+|-crit|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|65/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|71/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728931178
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: I Must Apologise|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100 tox|[from] Sandstorm
+|-damage|p2a: I Must Apologise|65/100|[from] Sandstorm
+|-heal|p1a: Celebi|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|-heal|p2a: I Must Apologise|71/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728931182
+|move|p1a: Celebi|Leech Seed|p2a: I Must Apologise
+|-start|p2a: I Must Apologise|move: Leech Seed
+|move|p2a: I Must Apologise|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|45/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|39/100 tox|[from] Sandstorm
+|-damage|p2a: I Must Apologise|65/100|[from] Sandstorm
+|-heal|p1a: Celebi|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|32/100 tox|[from] psn
+|-heal|p2a: I Must Apologise|71/100|[from] item: Leftovers
+|-damage|p2a: I Must Apologise|59/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|52/100 tox|[silent]
+|upkeep
+|turn|33
+|
+|t:|1728931187
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100 tox
+|move|p2a: I Must Apologise|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|58/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|51/100 tox|[from] Sandstorm
+|-damage|p2a: I Must Apologise|53/100|[from] Sandstorm
+|-heal|p1a: Celebi|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|39/100 tox|[from] psn
+|-heal|p2a: I Must Apologise|59/100|[from] item: Leftovers
+|-damage|p2a: I Must Apologise|47/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|59/100 tox|[silent]
+|upkeep
+|turn|34
+|
+|t:|1728931195
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: I Must Apologise|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|40/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|47/100|[from] item: Leftovers
+|-damage|p2a: I Must Apologise|34/100|[from] Leech Seed|[of] p1a: Tyranitar
+|-heal|p1a: Tyranitar|87/100|[silent]
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728931213
+|switch|p2a: Reason|Zapdos|100/100
+|move|p1a: Tyranitar|Brick Break|p2a: Reason
+|-resisted|p2a: Reason
+|-crit|p2a: Reason
+|-damage|p2a: Reason|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|67/100|[from] Sandstorm
+|-heal|p2a: Reason|74/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728931220
+|move|p2a: Reason|Protect|p2a: Reason
+|-singleturn|p2a: Reason|Protect
+|move|p1a: Tyranitar|Ice Beam|p2a: Reason
+|-activate|p2a: Reason|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|67/100|[from] Sandstorm
+|-heal|p2a: Reason|74/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728931236
+|switch|p2a: Pain|Tyranitar, M, shiny|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Pain
+|-resisted|p2a: Pain
+|-damage|p2a: Pain|86/100
+|-unboost|p2a: Pain|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pain|92/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|oopsalldeoxys has 270 seconds left.
+|inactive|oopsalldeoxys has 240 seconds left.
+|inactive|oopsalldeoxys has 210 seconds left.
+|
+|t:|1728931335
+|move|p2a: Pain|Dragon Dance|p2a: Pain
+|-boost|p2a: Pain|atk|1
+|-boost|p2a: Pain|spe|1
+|move|p1a: Tyranitar|Brick Break|p2a: Pain
+|-supereffective|p2a: Pain
+|-damage|p2a: Pain|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pain|27/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728931349
+|move|p2a: Pain|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|move|p1a: Tyranitar|Brick Break|p2a: Pain
+|-supereffective|p2a: Pain
+|-damage|p2a: Pain|0 fnt
+|faint|p2a: Pain
+|inactive|oopsalldeoxys has 210 seconds left.
+|
+|t:|1728931366
+|switch|p2a: Just for Me|Gengar, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|15/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728931374
+|move|p2a: Just for Me|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728931403
+|switch|p1a: Magneton|Magneton|92/100
+|-damage|p1a: Magneton|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728931409
+|switch|p2a: I Must Apologise|Blissey, F, shiny|34/100
+|move|p1a: Magneton|Thunderbolt|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|8/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|15/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728931414
+|move|p1a: Magneton|Thunderbolt|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|0 fnt
+|faint|p2a: I Must Apologise
+|
+|t:|1728931424
+|switch|p2a: Reason|Zapdos|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|67/100|[from] Sandstorm
+|-heal|p2a: Reason|74/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728931434
+|switch|p1a: Celebi|Celebi|59/100
+|-damage|p1a: Celebi|47/100|[from] Spikes
+|move|p2a: Reason|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|67/100|[from] Sandstorm
+|-damage|p1a: Celebi|23/100|[from] Sandstorm
+|-heal|p2a: Reason|74/100|[from] item: Leftovers
+|-heal|p1a: Celebi|29/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|oopsalldeoxys has 240 seconds left.
+|
+|t:|1728931443
+|switch|p2a: Just for Me|Gengar, F, shiny|100/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728931453
+|move|p2a: Just for Me|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|move|p1a: Celebi|Leech Seed|p2a: Just for Me
+|-start|p2a: Just for Me|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-damage|p1a: Celebi|73/100 brn|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|-damage|p2a: Just for Me|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|82/100 brn|[silent]
+|-heal|p1a: Celebi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|75/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1728931462
+|move|p2a: Just for Me|Taunt|p1a: Celebi
+|-start|p1a: Celebi|move: Taunt
+|cant|p1a: Celebi|move: Taunt|Swords Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|82/100|[from] Sandstorm
+|-damage|p1a: Celebi|69/100 brn|[from] Sandstorm
+|-heal|p2a: Just for Me|88/100|[from] item: Leftovers
+|-damage|p2a: Just for Me|76/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|78/100 brn|[silent]
+|-heal|p1a: Celebi|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|72/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1728931469
+|switch|p2a: Passion|Swampert, M, shiny|60/100
+|move|p1a: Celebi|Struggle|p2a: Passion
+|-damage|p2a: Passion|56/100
+|-damage|p1a: Celebi|71/100 brn|[from] Recoil|[of] p2a: Passion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|65/100 brn|[from] Sandstorm
+|-heal|p1a: Celebi|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|59/100 brn|[from] brn
+|-end|p1a: Celebi|move: Taunt|[silent]
+|-heal|p2a: Passion|62/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728931478
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100 brn
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|60/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|54/100 brn|[from] Sandstorm
+|-heal|p1a: Celebi|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|48/100 brn|[from] brn
+|-heal|p2a: Passion|68/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728931483
+|-curestatus|p1a: Celebi|brn|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|94/100
+|-damage|p1a: Swampert|82/100|[from] Spikes
+|move|p2a: Passion|Roar|p1a: Swampert
+|drag|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|75/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728931487
+|switch|p1a: Swampert|Swampert, F|82/100
+|-damage|p1a: Swampert|70/100|[from] Spikes
+|move|p2a: Passion|Hydro Pump|p1a: Swampert|[miss]
+|-miss|p2a: Passion|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|-heal|p2a: Passion|81/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|oopsalldeoxys has 270 seconds left.
+|
+|t:|1728931515
+|switch|p2a: Reason|Zapdos|74/100
+|move|p1a: Swampert|Hydro Pump|p2a: Reason
+|-damage|p2a: Reason|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|12/100|[from] Sandstorm
+|-heal|p2a: Reason|18/100|[from] item: Leftovers
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728931521
+|switch|p2a: Just for Me|Gengar, F, shiny|76/100
+|switch|p1a: Celebi|Celebi|48/100
+|-damage|p1a: Celebi|36/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|70/100|[from] Sandstorm
+|-damage|p1a: Celebi|29/100|[from] Sandstorm
+|-heal|p2a: Just for Me|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|36/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728931528
+|switch|p1a: Magneton|Magneton|80/100
+|-damage|p1a: Magneton|67/100|[from] Spikes
+|move|p2a: Just for Me|Ice Punch|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|70/100|[from] Sandstorm
+|-heal|p2a: Just for Me|76/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|oopsalldeoxys has 270 seconds left.
+|inactive|oopsalldeoxys has 240 seconds left.
+|
+|t:|1728931591
+|move|p2a: Just for Me|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|26/100
+|move|p1a: Magneton|Thunderbolt|p2a: Just for Me
+|-damage|p2a: Just for Me|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|7/100|[from] Sandstorm
+|-heal|p2a: Just for Me|13/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|oopsalldeoxys has 240 seconds left.
+|
+|t:|1728931609
+|move|p2a: Just for Me|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|2/100
+|-status|p1a: Magneton|par
+|move|p1a: Magneton|Thunderbolt|p2a: Just for Me
+|-damage|p2a: Just for Me|0 fnt
+|faint|p2a: Just for Me
+|
+|t:|1728931619
+|switch|p2a: Passion|Swampert, M, shiny|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Passion|87/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728931623
+|move|p2a: Passion|Ice Beam|p1a: Magneton
+|-resisted|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1728931630
+|switch|p1a: Celebi|Celebi|36/100
+|-damage|p1a: Celebi|23/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|17/100|[from] Sandstorm
+|-heal|p1a: Celebi|23/100|[from] item: Leftovers
+|-heal|p2a: Passion|93/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728931633
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|73/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|30/100|[from] Sandstorm
+|-heal|p1a: Celebi|36/100|[from] item: Leftovers
+|-heal|p2a: Passion|99/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728931637
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|86/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: Passion|100/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728931640
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|98/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|51/100|[from] Sandstorm
+|-heal|p1a: Celebi|58/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728931643
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728931648
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728931650
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|59/100|[from] Sandstorm
+|-heal|p1a: Celebi|65/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728931652
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|58/100|[from] Sandstorm
+|-heal|p1a: Celebi|64/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728931659
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Celebi|64/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728931666
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Passion|Roar|p1a: Celebi
+|drag|p1a: Swampert|Swampert, F|82/100
+|-damage|p1a: Swampert|70/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728931670
+|move|p1a: Swampert|Hydro Pump|p2a: Passion
+|-damage|p2a: Passion|52/100
+|move|p2a: Passion|Hydro Pump|p1a: Swampert
+|-damage|p1a: Swampert|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|25/100|[from] item: Leftovers
+|-heal|p2a: Passion|59/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728931682
+|move|p1a: Swampert|Hydro Pump|p2a: Passion
+|-damage|p2a: Passion|0 fnt
+|faint|p2a: Passion
+|
+|t:|1728931684
+|switch|p2a: Reason|Zapdos|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|12/100|[from] Sandstorm
+|-heal|p2a: Reason|18/100|[from] item: Leftovers
+|-heal|p1a: Swampert|31/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728931686
+|move|p2a: Reason|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|c|☆oopsalldeoxys|gg
+|
+|t:|1728931689
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|12/100|[from] Sandstorm
+|-heal|p2a: Reason|18/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|c|☆xhoshi|gg
+|
+|t:|1728931695
+|move|p1a: Aerodactyl|Double-Edge|p2a: Reason
+|-damage|p2a: Reason|0 fnt
+|faint|p2a: Reason
+|
+|win|xhoshi
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798697">
+{"id":"smogtours-gen3ou-798697","format":"[Gen 3] OU","players":["xhoshi","oopsalldeoxys"],"uploadtime":1728931695,"views":114,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

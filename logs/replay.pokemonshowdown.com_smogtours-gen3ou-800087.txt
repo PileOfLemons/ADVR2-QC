@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: EpiclyEpicGamerW vs. BDICAP - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between EpiclyEpicGamerW and BDICAP! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800087">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729369186
+|gametype|singles
+|player|p1|EpiclyEpicGamerW|red-masters|
+|player|p2|BDICAP|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729369186
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1729369197
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729369205
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|move|p1a: Skarmory|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729369211
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|82/100 tox|[from] psn
+|-heal|p1a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729369214
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|move|p1a: Skarmory|Spikes|p2a: Milotic
+|-sidestart|p2: BDICAP|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729369219
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100
+|move|p1a: Skarmory|Spikes|p2a: Milotic
+|-sidestart|p2: BDICAP|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729369226
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729369231
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|move|p1a: Skarmory|Toxic|p2a: Milotic|[miss]
+|-miss|p1a: Skarmory|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729369236
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729369242
+|switch|p1a: Blissey|Blissey, F, shiny|100/100
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729369247
+|move|p2a: Milotic|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Toxic|p2a: Milotic|[miss]
+|-miss|p1a: Blissey|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1729369258
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|68/100 tox
+|move|p1a: Blissey|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|76/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|62/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|76/100 tox|[from] psn
+|-heal|p1a: Blissey|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|56/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1729369273
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|49/100
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729369281
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729369283
+|move|p2a: Milotic|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|33/100
+|move|p1a: Skarmory|Spikes|p2a: Milotic
+|-sidestart|p2: BDICAP|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729369289
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Refresh||[still]
+|-fail|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729369296
+|switch|p1a: Blissey|Blissey, F, shiny|56/100
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|37/100|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729369302
+|move|p2a: Milotic|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|87/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|87/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1729369308
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Blissey|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|80/100 tox|[from] Sandstorm
+|-damage|p2a: Claydol|95/100 tox|[from] psn
+|-heal|p1a: Blissey|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1729369314
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Claydol|Rapid Spin|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|95/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|89/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|BDICAP has 270 seconds left.
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369384
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|67/100
+|-status|p2a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|95/100|[from] Sandstorm
+|-damage|p2a: Blissey|61/100 frz|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|67/100 frz|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729369399
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure
+|switch|p2a: Claydol|Claydol|89/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|89/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1729369409
+|move|p2a: Claydol|Refresh|p2a: Claydol
+|-curestatus|p2a: Claydol|tox|[msg]
+|move|p1a: Tyranitar|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|44/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369419
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Claydol|Rapid Spin|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|95/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|BDICAP has 240 seconds left.
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369467
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|move|p1a: Gengar|Ice Punch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|95/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369490
+|move|p1a: Gengar|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|58/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369505
+|switch|p1a: Skarmory|Skarmory, F|45/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|34/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|51/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369522
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Milotic|Milotic, F|76/100
+|-damage|p2a: Milotic|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|45/100|[from] Sandstorm
+|-heal|p2a: Milotic|51/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|22/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729369528
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|28/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369545
+|switch|p1a: Blissey|Blissey, F, shiny|74/100
+|move|p2a: Milotic|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|68/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|68/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1729369553
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|55/100 tox
+|move|p1a: Blissey|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|49/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|-heal|p1a: Blissey|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|43/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1729369556
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-damage|p1a: Blissey|87/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1729369564
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Milotic|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Starmie|77/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369583
+|move|p1a: Starmie|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|55/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|77/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729369604
+|move|p1a: Starmie|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|63/100
+|move|p2a: Milotic|Toxic|p1a: Starmie|[miss]
+|-miss|p2a: Milotic|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-damage|p2a: Milotic|57/100|[from] Sandstorm
+|-heal|p1a: Starmie|77/100|[from] item: Leftovers
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729369610
+|switch|p1a: Skarmory|Skarmory, F|28/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|34/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729369618
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Milotic|Refresh||[still]
+|-fail|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|40/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729369624
+|switch|p1a: Blissey|Blissey, F, shiny|74/100
+|move|p2a: Milotic|Surf|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|54/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729369635
+|move|p2a: Milotic|Toxic|p1a: Blissey|[miss]
+|-miss|p2a: Milotic|p1a: Blissey
+|move|p1a: Blissey|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|54/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369661
+|switch|p1a: Starmie|Starmie|77/100
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Starmie|77/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369667
+|move|p1a: Starmie|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|52/100
+|-status|p2a: Milotic|par
+|move|p2a: Milotic|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|46/100|[from] Sandstorm
+|-damage|p2a: Milotic|46/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|52/100|[from] item: Leftovers
+|-heal|p2a: Milotic|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369687
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|76/100|[from] Spikes
+|move|p1a: Starmie|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|46/100|[from] Sandstorm
+|-heal|p1a: Starmie|52/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369698
+|move|p2a: Dugtrio|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729369705
+|switch|p1a: Skarmory|Skarmory, F|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729369714
+|switch|p2a: Milotic|Milotic, F|52/100 par
+|-damage|p2a: Milotic|27/100 par|[from] Spikes
+|move|p1a: Skarmory|Toxic||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|21/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p2a: Milotic|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729369717
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|77/100 par
+|move|p1a: Skarmory|Roar|p2a: Milotic
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729369731
+|switch|p1a: Gengar|Gengar, F|64/100
+|move|p2a: Skarmory|Spikes|p1a: Gengar
+|-sidestart|p1: EpiclyEpicGamerW|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729369740
+|switch|p2a: Tyranitar|Tyranitar, F|51/100 brn
+|-damage|p2a: Tyranitar|27/100 brn|[from] Spikes
+|move|p1a: Gengar|Will-O-Wisp|p2a: Tyranitar
+|-fail|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|20/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1729369743
+|move|p1a: Gengar|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|BDICAP has 270 seconds left.
+|
+|t:|1729369773
+|switch|p2a: Blissey|Blissey, F|67/100
+|-damage|p2a: Blissey|42/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-damage|p2a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729369779
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729369790
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Blissey|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729369795
+|switch|p2a: Dugtrio|Dugtrio, M|76/100
+|-damage|p2a: Dugtrio|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|BDICAP has 240 seconds left.
+|
+|t:|1729369838
+|switch|p2a: Claydol|Claydol|50/100
+|move|p1a: Tyranitar|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369870
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|51
+|
+|t:|1729369875
+|switch|p1a: Gengar|Gengar, F|64/100
+|move|p2a: Skarmory|Spikes|p1a: Gengar
+|-sidestart|p1: EpiclyEpicGamerW|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|inactive|BDICAP has 210 seconds left.
+|
+|t:|1729369889
+|switch|p2a: Milotic|Milotic, F|77/100 par
+|-damage|p2a: Milotic|52/100 par|[from] Spikes
+|move|p1a: Gengar|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|15/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-damage|p2a: Milotic|9/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|-heal|p2a: Milotic|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729369896
+|move|p1a: Gengar|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|t:|1729369899
+|switch|p2a: Dugtrio|Dugtrio, M|51/100
+|-damage|p2a: Dugtrio|27/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729369904
+|switch|p1a: Skarmory|Skarmory, F|58/100
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729369909
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729369917
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|27/100
+|cant|p1a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|33/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729369921
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729369924
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|18/100
+|move|p1a: Skarmory|Roar|p2a: Dugtrio
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729369928
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: EpiclyEpicGamerW|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Dugtrio|Dugtrio, M|27/100
+|-damage|p2a: Dugtrio|2/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|30/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729369931
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: Dugtrio|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|36/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729369933
+|move|p2a: Dugtrio|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|13/100
+|move|p1a: Skarmory|Roar|p2a: Dugtrio
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|19/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729369937
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Tyranitar|Tyranitar, F|100/100 par
+|-damage|p1a: Tyranitar|76/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729369942
+|move|p2a: Skarmory|Drill Peck|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|74/100 par
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729369948
+|move|p1a: Tyranitar|Rock Slide|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729369954
+|switch|p2a: Dugtrio|Dugtrio, M|2/100
+|-damage|p2a: Dugtrio|0 fnt|[from] Spikes
+|faint|p2a: Dugtrio
+|
+|t:|1729369955
+|switch|p2a: Skarmory|Skarmory, M|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729369958
+|move|p1a: Tyranitar|Rock Slide|p2a: Skarmory|[miss]
+|-miss|p1a: Tyranitar|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Tyranitar
+|drag|p1a: Skarmory|Skarmory, F|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729369963
+|move|p2a: Skarmory|Drill Peck|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|15/100
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|21/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729369968
+|move|p2a: Skarmory|Drill Peck|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|12/100
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|18/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729369971
+|switch|p1a: Blissey|Blissey, F, shiny|61/100
+|-damage|p1a: Blissey|36/100|[from] Spikes
+|move|p2a: Skarmory|Drill Peck|p1a: Blissey
+|-damage|p1a: Blissey|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|4/100|[from] Sandstorm
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|10/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729369976
+|move|p2a: Skarmory|Drill Peck|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1729369981
+|switch|p1a: Gengar|Gengar, F|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|-heal|p1a: Gengar|64/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729369984
+|move|p1a: Gengar|Will-O-Wisp|p2a: Skarmory
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|37/100|[from] Sandstorm
+|-heal|p1a: Gengar|43/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|75/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1729369989
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100 brn
+|move|p2a: Skarmory|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|19/100|[from] Sandstorm
+|-heal|p1a: Gengar|25/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|18/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|t:|1729369996
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|win|EpiclyEpicGamerW
+|c|☆BDICAP|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800087">
+{"id":"smogtours-gen3ou-800087","format":"[Gen 3] OU","players":["EpiclyEpicGamerW","BDICAP"],"uploadtime":1729369996,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

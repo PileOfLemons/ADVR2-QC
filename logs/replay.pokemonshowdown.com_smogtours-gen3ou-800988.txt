@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Lady_Sundalia vs. mobjamin - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Lady_Sundalia and mobjamin! Format: [Gen 3] OU; Date: Oct 21, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800988">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729470810
+|gametype|singles
+|player|p1|Lady_Sundalia|waitress|
+|player|p2|mobjamin|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729470810
+|start
+|switch|p1a: Phone Charger|Zapdos|100/100
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|1
+|
+|t:|1729470817
+|move|p1a: Phone Charger|Thunderbolt|p2a: Medicham
+|-damage|p2a: Medicham|19/100
+|move|p2a: Medicham|Rock Slide|p1a: Phone Charger
+|-supereffective|p1a: Phone Charger
+|-crit|p1a: Phone Charger
+|-damage|p1a: Phone Charger|0 fnt
+|faint|p1a: Phone Charger
+|
+|t:|1729470834
+|switch|p1a: Dorito|Charizard, F|100/100
+|
+|-enditem|p2a: Medicham|Salac Berry|[eat]
+|-boost|p2a: Medicham|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|2
+|
+|t:|1729470838
+|switch|p1a: Water Bottle|Swampert, F|100/100
+|move|p2a: Medicham|Rock Slide|p1a: Water Bottle
+|-resisted|p1a: Water Bottle
+|-damage|p1a: Water Bottle|87/100
+|
+|-heal|p1a: Water Bottle|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729470842
+|move|p2a: Medicham|Brick Break|p1a: Water Bottle
+|-damage|p1a: Water Bottle|50/100
+|move|p1a: Water Bottle|Ice Beam|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|t:|1729470851
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|
+|-heal|p1a: Water Bottle|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729470855
+|switch|p1a: CBD|Celebi|100/100
+|move|p2a: Snorlax|Body Slam|p1a: CBD
+|-crit|p1a: CBD
+|-damage|p1a: CBD|33/100
+|
+|-heal|p1a: CBD|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729470861
+|move|p1a: CBD|Baton Pass|p1a: CBD
+|
+|t:|1729470864
+|switch|p1a: Four Earbuds|Metagross|100/100|[from] Baton Pass
+|move|p2a: Snorlax|Body Slam|p1a: Four Earbuds
+|-resisted|p1a: Four Earbuds
+|-damage|p1a: Four Earbuds|85/100
+|-status|p1a: Four Earbuds|par
+|
+|upkeep
+|turn|6
+|
+|t:|1729470867
+|move|p2a: Snorlax|Earthquake|p1a: Four Earbuds
+|-supereffective|p1a: Four Earbuds
+|-damage|p1a: Four Earbuds|37/100 par
+|move|p1a: Four Earbuds|Meteor Mash|p2a: Snorlax|[miss]
+|-miss|p1a: Four Earbuds|p2a: Snorlax
+|
+|upkeep
+|turn|7
+|
+|t:|1729470871
+|move|p2a: Snorlax|Earthquake|p1a: Four Earbuds
+|-supereffective|p1a: Four Earbuds
+|-damage|p1a: Four Earbuds|0 fnt
+|faint|p1a: Four Earbuds
+|
+|t:|1729470877
+|switch|p1a: Dorito|Charizard, F|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1729470882
+|move|p1a: Dorito|Substitute|p1a: Dorito
+|-start|p1a: Dorito|Substitute
+|-damage|p1a: Dorito|76/100
+|move|p2a: Snorlax|Body Slam|p1a: Dorito
+|-end|p1a: Dorito|Substitute
+|
+|-heal|p1a: Dorito|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729470884
+|move|p1a: Dorito|Substitute|p1a: Dorito
+|-start|p1a: Dorito|Substitute
+|-damage|p1a: Dorito|57/100
+|move|p2a: Snorlax|Body Slam|p1a: Dorito
+|-end|p1a: Dorito|Substitute
+|
+|-heal|p1a: Dorito|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729470886
+|move|p1a: Dorito|Substitute|p1a: Dorito
+|-start|p1a: Dorito|Substitute
+|-damage|p1a: Dorito|38/100
+|move|p2a: Snorlax|Body Slam|p1a: Dorito
+|-end|p1a: Dorito|Substitute
+|
+|-heal|p1a: Dorito|44/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729470887
+|move|p1a: Dorito|Substitute|p1a: Dorito
+|-start|p1a: Dorito|Substitute
+|-damage|p1a: Dorito|19/100
+|move|p2a: Snorlax|Body Slam|p1a: Dorito
+|-end|p1a: Dorito|Substitute
+|
+|-heal|p1a: Dorito|25/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729470889
+|move|p1a: Dorito|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|50/100
+|move|p2a: Snorlax|Body Slam|p1a: Dorito
+|-damage|p1a: Dorito|0 fnt
+|faint|p1a: Dorito
+|
+|t:|1729470898
+|switch|p1a: CBD|Celebi|39/100
+|
+|-heal|p1a: CBD|46/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|56/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729470900
+|move|p1a: CBD|Giga Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|44/100
+|-heal|p1a: CBD|53/100|[from] drain|[of] p2a: Snorlax
+|move|p2a: Snorlax|Shadow Ball|p1a: CBD
+|-supereffective|p1a: CBD
+|-damage|p1a: CBD|12/100
+|
+|-heal|p1a: CBD|18/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729470906
+|move|p1a: CBD|Giga Drain|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100
+|-heal|p1a: CBD|33/100|[from] drain|[of] p2a: Snorlax
+|move|p2a: Snorlax|Body Slam|p1a: CBD
+|-damage|p1a: CBD|3/100
+|-status|p1a: CBD|par
+|
+|-heal|p2a: Snorlax|32/100|[from] item: Leftovers
+|-heal|p1a: CBD|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729470908
+|move|p2a: Snorlax|Body Slam|p1a: CBD
+|-damage|p1a: CBD|0 fnt
+|faint|p1a: CBD
+|
+|t:|1729470911
+|switch|p1a: Water Bottle|Swampert, F|57/100
+|
+|-heal|p1a: Water Bottle|63/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729470913
+|move|p1a: Water Bottle|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|8/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Water Bottle
+|-damage|p1a: Water Bottle|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Water Bottle
+|
+|t:|1729470916
+|switch|p1a: Evil Slurpee|Gengar, M|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1729470919
+|move|p1a: Evil Slurpee|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|69/100
+|move|p2a: Metagross|Meteor Mash|p1a: Evil Slurpee
+|-damage|p1a: Evil Slurpee|20/100
+|
+|-heal|p1a: Evil Slurpee|26/100|[from] item: Leftovers
+|-heal|p2a: Metagross|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729470923
+|move|p1a: Evil Slurpee|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|44/100
+|move|p2a: Metagross|Meteor Mash|p1a: Evil Slurpee
+|-damage|p1a: Evil Slurpee|0 fnt
+|-boost|p2a: Metagross|atk|1
+|faint|p1a: Evil Slurpee
+|
+|win|mobjamin
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800988">
+{"id":"smogtours-gen3ou-800988","format":"[Gen 3] OU","players":["Lady_Sundalia","mobjamin"],"uploadtime":1729470923,"views":81,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

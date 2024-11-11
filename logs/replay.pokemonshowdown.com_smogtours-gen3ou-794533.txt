@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Usbreon vs. felipe01788 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Usbreon and felipe01788! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794533">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728046335
+|gametype|singles
+|player|p1|Usbreon|sailor|
+|player|p2|felipe01788|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728046335
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|1
+|c|☆Usbreon|glhf
+|c|☆felipe01788|glhf
+|
+|t:|1728046358
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1728046373
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728046385
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Usbreon has 270 seconds left.
+|
+|t:|1728046419
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728046421
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Fire Blast|p1a: Swampert|[miss]
+|-miss|p2a: Tyranitar|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|inactive|felipe01788 has 270 seconds left.
+|
+|t:|1728046448
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Surf|p2a: Salamence
+|-resisted|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|7/100|[from] Sandstorm
+|-heal|p2a: Salamence|13/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Usbreon|mb
+|inactive|felipe01788 has 270 seconds left.
+|c|☆felipe01788|ouch
+|c|☆felipe01788|np
+|inactive|felipe01788 has 240 seconds left.
+|
+|t:|1728046490
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Swampert|Surf|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728046497
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728046507
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728046521
+|move|p1a: Celebi|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|54/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728046530
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728046538
+|switch|p1a: Charizard|Charizard, F|100/100|[from] Baton Pass
+|move|p2a: Jirachi|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100 tox|[from] Sandstorm
+|-heal|p1a: Charizard|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Charizard|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1728046552
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Charizard|Flamethrower|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|88/100 tox|[from] Sandstorm
+|-heal|p1a: Charizard|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Charizard|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|felipe01788 has 270 seconds left.
+|
+|t:|1728046580
+|switch|p2a: Salamence|Salamence, M|13/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|move|p1a: Charizard|Beat Up|p2a: Salamence
+|-damage|p2a: Salamence|9/100
+|-damage|p2a: Salamence|6/100
+|-damage|p2a: Salamence|3/100
+|-damage|p2a: Salamence|0 fnt
+|-hitcount|p2a: Salamence|4
+|faint|p2a: Salamence
+|inactive|felipe01788 has 240 seconds left.
+|
+|t:|1728046609
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|76/100 tox|[from] Sandstorm
+|-heal|p1a: Charizard|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Charizard|64/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1728046614
+|move|p1a: Charizard|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|move|p2a: Tyranitar|Crunch|p1a: Charizard
+|-damage|p1a: Charizard|31/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|25/100 tox|[from] Sandstorm
+|-heal|p1a: Charizard|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Charizard|7/100 tox|[from] psn
+|-heal|p2a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728046626
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] Sandstorm
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|faint|p1a: Charizard
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728046647
+|switch|p1a: Celebi|Celebi|100/100
+|turn|15
+|
+|t:|1728046661
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728046664
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Blissey|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|felipe01788 has 270 seconds left.
+|
+|t:|1728046676
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|felipe01788 has 270 seconds left.
+|
+|t:|1728046701
+|move|p2a: Forretress|Spikes|p1a: Celebi
+|-sidestart|p1: Usbreon|Spikes
+|cant|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728046709
+|move|p2a: Forretress|Explosion|p1a: Celebi
+|-damage|p1a: Celebi|13/100 par
+|faint|p2a: Forretress
+|
+|t:|1728046721
+|switch|p2a: Tyranitar|Tyranitar, F|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|6/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|-heal|p1a: Celebi|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|felipe01788 has 240 seconds left.
+|inactive|felipe01788 has 210 seconds left.
+|
+|t:|1728046790
+|move|p2a: Tyranitar|Pursuit|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1728046801
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|felipe01788 has 210 seconds left.
+|
+|t:|1728046811
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Tyranitar|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|47/100
+|move|p1a: Swampert|Focus Punch||[still]
+|cant|p1a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|54/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|felipe01788 has 210 seconds left.
+|
+|t:|1728046821
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Tyranitar|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|11/100
+|move|p1a: Swampert|Focus Punch||[still]
+|cant|p1a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|17/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|felipe01788 has 210 seconds left.
+|
+|t:|1728046832
+|move|p1a: Swampert|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|felipe01788 has 210 seconds left.
+|
+|t:|1728046841
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|23/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728046848
+|move|p2a: Aerodactyl|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1728046851
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728046867
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Metagross|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|73/100|[from] item: Leftovers
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728046874
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Metagross|Explosion|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|24/100
+|faint|p1a: Metagross
+|c|☆felipe01788|btw
+|
+|t:|1728046882
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|30/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆felipe01788|is this bo3?
+|c|☆Usbreon|yes
+|inactive|felipe01788 has 240 seconds left.
+|c|☆felipe01788|ok ok
+|
+|t:|1728046899
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|felipe01788 has 240 seconds left.
+|
+|t:|1728046913
+|move|p1a: Tyranitar|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|48/100
+|move|p2a: Blissey|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|-enditem|p1a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p1a: Tyranitar|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|42/100|[from] Sandstorm
+|-heal|p2a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|felipe01788 has 240 seconds left.
+|
+|t:|1728046924
+|move|p1a: Tyranitar|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|inactive|felipe01788 has 240 seconds left.
+|
+|t:|1728046933
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|inactive|Usbreon has 270 seconds left.
+|
+|t:|1728046964
+|move|p2a: Aerodactyl|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|38/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Aerodactyl|[miss]
+|-miss|p1a: Tyranitar|p2a: Aerodactyl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|c|☆Usbreon|noo
+|c|☆felipe01788|oooh
+|inactive|Usbreon has 270 seconds left.
+|
+|t:|1728046981
+|move|p2a: Aerodactyl|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728046983
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728046990
+|move|p2a: Aerodactyl|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|felipe01788
+|c|☆felipe01788|damnnn
+|c|☆Usbreon|gg
+|c|☆felipe01788|very bad miss there
+|c|☆felipe01788|gg
+|player|p2|
+|player|p1|
+|player|p2|felipe01788|169|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794533">
+{"id":"smogtours-gen3ou-794533","format":"[Gen 3] OU","players":["Usbreon","felipe01788"],"uploadtime":1728046990,"views":105,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

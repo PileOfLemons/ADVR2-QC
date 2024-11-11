@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Donly Phans vs. themessiah1 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Donly Phans and themessiah1! Format: [Gen 3] OU; Date: Oct 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794308">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727981450
+|gametype|singles
+|player|p1|Donly Phans|noland-gen3|
+|player|p2|themessiah1|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727981450
+|start
+|switch|p1a: Draconian|Salamence, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Draconian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|c|☆themessiah1|have a bad game
+|c|☆Donly Phans|Bon chance
+|inactive|Donly Phans has 270 seconds left.
+|inactive|themessiah1 has 270 seconds left.
+|inactive|themessiah1 has 240 seconds left.
+|
+|t:|1727981529
+|switch|p1a: 600lb Life|Snorlax, M|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: 600lb Life
+|-damage|p1a: 600lb Life|86/100
+|
+|-heal|p1a: 600lb Life|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1727981547
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: 600lb Life|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|86/100
+|-status|p2a: Metagross|par
+|
+|-heal|p1a: 600lb Life|98/100|[from] item: Leftovers
+|-heal|p2a: Metagross|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Donly Phans has 270 seconds left.
+|
+|t:|1727981583
+|switch|p1a: Throuple|Magneton|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Throuple
+|-resisted|p1a: Throuple
+|-damage|p1a: Throuple|83/100
+|
+|-heal|p1a: Throuple|89/100|[from] item: Leftovers
+|-heal|p2a: Metagross|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Donly Phans has 270 seconds left.
+|inactive|Donly Phans has 240 seconds left.
+|
+|t:|1727981636
+|switch|p1a: Spinster|Claydol|100/100
+|move|p2a: Metagross|Earthquake|p1a: Spinster
+|-immune|p1a: Spinster
+|
+|-heal|p2a: Metagross|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727981655
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Spinster|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|46/100
+|
+|-heal|p2a: Breloom|52/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727981670
+|move|p2a: Breloom|Spore|p1a: Spinster
+|-status|p1a: Spinster|slp|[from] move: Spore
+|cant|p1a: Spinster|slp
+|
+|-heal|p2a: Breloom|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727981676
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Draconian|Salamence, M|100/100
+|-ability|p1a: Draconian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|upkeep
+|turn|8
+|inactive|Donly Phans has 210 seconds left.
+|
+|t:|1727981718
+|move|p1a: Draconian|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Draconian
+|-status|p1a: Draconian|par
+|
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Donly Phans has 180 seconds left.
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1727981741
+|switch|p2a: Suicune|Suicune|100/100
+|switch|p1a: 600lb Life|Snorlax, M|98/100
+|
+|-heal|p1a: 600lb Life|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Donly Phans has 180 seconds left.
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1727981773
+|switch|p2a: Metagross|Metagross|100/100 par
+|move|p1a: 600lb Life|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|86/100 par
+|
+|-heal|p2a: Metagross|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1727981796
+|switch|p1a: Lil Stinker|Celebi|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|64/100
+|
+|-heal|p1a: Lil Stinker|70/100|[from] item: Leftovers
+|-heal|p2a: Metagross|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1727981812
+|move|p1a: Lil Stinker|Leech Seed|p2a: Metagross|[miss]
+|-miss|p1a: Lil Stinker|p2a: Metagross
+|move|p2a: Metagross|Meteor Mash|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|30/100
+|
+|-heal|p1a: Lil Stinker|36/100|[from] item: Leftovers
+|-heal|p2a: Metagross|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Donly Phans has 150 seconds left.
+|inactive|themessiah1 has 240 seconds left.
+|
+|t:|1727981853
+|move|p1a: Lil Stinker|Recover|p1a: Lil Stinker
+|-heal|p1a: Lil Stinker|86/100
+|move|p2a: Metagross|Meteor Mash|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|46/100
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Lil Stinker|52/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Donly Phans has 120 seconds left.
+|
+|t:|1727981893
+|move|p1a: Lil Stinker|Perish Song|p1a: Lil Stinker
+|-start|p1a: Lil Stinker|perish3|[silent]
+|-start|p2a: Metagross|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Metagross|Earthquake|p1a: Lil Stinker
+|-resisted|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|34/100
+|
+|-heal|p1a: Lil Stinker|40/100|[from] item: Leftovers
+|-start|p1a: Lil Stinker|perish3
+|-start|p2a: Metagross|perish3
+|upkeep
+|turn|15
+|
+|t:|1727981908
+|switch|p1a: Throuple|Magneton|89/100
+|cant|p2a: Metagross|par
+|
+|-heal|p1a: Throuple|95/100|[from] item: Leftovers
+|-start|p2a: Metagross|perish2
+|upkeep
+|turn|16
+|
+|t:|1727981926
+|move|p1a: Throuple|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|52/100 par
+|cant|p2a: Metagross|par
+|
+|-heal|p1a: Throuple|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|58/100 par|[from] item: Leftovers
+|-start|p2a: Metagross|perish1
+|upkeep
+|turn|17
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1727981957
+|switch|p1a: Spinster|Claydol|100/100 slp
+|move|p2a: Metagross|Explosion|p1a: Spinster
+|-damage|p1a: Spinster|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Spinster
+|inactive|Donly Phans has 90 seconds left.
+|
+|t:|1727981985
+|switch|p1a: Throuple|Magneton|100/100
+|switch|p2a: Breloom|Breloom, M|58/100
+|
+|-heal|p2a: Breloom|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Donly Phans has 90 seconds left.
+|
+|t:|1727981995
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Throuple|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|19
+|inactive|Donly Phans has 90 seconds left.
+|
+|t:|1727982003
+|move|p2a: Dugtrio|Earthquake|p1a: Throuple
+|-supereffective|p1a: Throuple
+|-damage|p1a: Throuple|0 fnt
+|faint|p1a: Throuple
+|inactive|Donly Phans has 90 seconds left.
+|inactive|Donly Phans has 60 seconds left.
+|
+|t:|1727982064
+|switch|p1a: Lil Stinker|Celebi|40/100
+|
+|-heal|p1a: Lil Stinker|46/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1727982072
+|switch|p2a: Breloom|Breloom, M|64/100
+|move|p1a: Lil Stinker|Recover|p1a: Lil Stinker
+|-heal|p1a: Lil Stinker|96/100
+|
+|-heal|p2a: Breloom|71/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1727982089
+|switch|p1a: Draconian|Salamence, M|100/100 par
+|-ability|p1a: Draconian|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Spore||[still]
+|-fail|p2a: Breloom
+|
+|-heal|p2a: Breloom|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727982119
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Draconian|Hidden Power|p2a: Suicune
+|-damage|p2a: Suicune|54/100
+|
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Donly Phans has 30 seconds left.
+|inactive|themessiah1 has 210 seconds left.
+|inactive|Donly Phans has 20 seconds left.
+|inactive|Donly Phans has 15 seconds left.
+|
+|t:|1727982149
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Draconian|Hidden Power|p2a: Suicune
+|-damage|p2a: Suicune|8/100
+|
+|-heal|p2a: Suicune|14/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Donly Phans has 25 seconds left this turn.
+|inactive|Donly Phans has 20 seconds left.
+|inactive|Donly Phans has 15 seconds left.
+|
+|t:|1727982162
+|switch|p1a: 600lb Life|Snorlax, M|100/100
+|move|p2a: Suicune|Ice Beam|p1a: 600lb Life
+|-damage|p1a: 600lb Life|75/100
+|
+|-heal|p2a: Suicune|20/100|[from] item: Leftovers
+|-heal|p1a: 600lb Life|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Donly Phans has 25 seconds left this turn.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982168
+|move|p2a: Suicune|Hydro Pump|p1a: 600lb Life|[miss]
+|-miss|p2a: Suicune|p1a: 600lb Life
+|move|p1a: 600lb Life|Body Slam|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|inactive|Donly Phans has 25 seconds left this turn.
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1727982211
+|switch|p2a: Breloom|Breloom, M|77/100
+|
+|-heal|p2a: Breloom|83/100|[from] item: Leftovers
+|-heal|p1a: 600lb Life|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982219
+|switch|p2a: Zapdos|Zapdos|76/100
+|switch|p1a: Draconian|Salamence, M|100/100 par
+|-ability|p1a: Draconian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Donly Phans has 30 seconds left.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982241
+|move|p2a: Zapdos|Hidden Power|p1a: Draconian
+|-supereffective|p1a: Draconian
+|-damage|p1a: Draconian|0 fnt
+|faint|p1a: Draconian
+|inactive|Donly Phans has 25 seconds left this turn.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982251
+|switch|p1a: 600lb Life|Snorlax, M|88/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-heal|p1a: 600lb Life|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Donly Phans has 30 seconds left this turn.
+|
+|t:|1727982260
+|move|p2a: Zapdos|Thunderbolt|p1a: 600lb Life
+|-damage|p1a: 600lb Life|65/100
+|-status|p1a: 600lb Life|par
+|move|p1a: 600lb Life|Curse|p1a: 600lb Life
+|-unboost|p1a: 600lb Life|spe|1
+|-boost|p1a: 600lb Life|atk|1
+|-boost|p1a: 600lb Life|def|1
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|-heal|p1a: 600lb Life|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982274
+|move|p2a: Zapdos|Thunderbolt|p1a: 600lb Life
+|-damage|p1a: 600lb Life|45/100 par
+|move|p1a: 600lb Life|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|
+|-heal|p2a: Zapdos|29/100|[from] item: Leftovers
+|-heal|p1a: 600lb Life|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Donly Phans has 30 seconds left.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982290
+|move|p2a: Zapdos|Thunderbolt|p1a: 600lb Life
+|-damage|p1a: 600lb Life|24/100 par
+|move|p1a: 600lb Life|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|inactive|Donly Phans has 25 seconds left this turn.
+|
+|t:|1727982298
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|-heal|p1a: 600lb Life|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982304
+|move|p2a: Dugtrio|Earthquake|p1a: 600lb Life
+|-damage|p1a: 600lb Life|0 fnt
+|faint|p1a: 600lb Life
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982316
+|switch|p1a: Lil Stinker|Celebi|100/100
+|
+|upkeep
+|turn|32
+|inactive|Donly Phans has 30 seconds left.
+|inactive|themessiah1 has 240 seconds left.
+|
+|t:|1727982351
+|move|p2a: Dugtrio|Earthquake|p1a: Lil Stinker
+|-resisted|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|82/100
+|move|p1a: Lil Stinker|Perish Song|p1a: Lil Stinker
+|-start|p1a: Lil Stinker|perish3|[silent]
+|-start|p2a: Dugtrio|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1a: Lil Stinker|88/100|[from] item: Leftovers
+|-start|p2a: Dugtrio|perish3
+|-start|p1a: Lil Stinker|perish3
+|upkeep
+|turn|33
+|c|☆themessiah1|wut
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982371
+|switch|p2a: Breloom|Breloom, M|83/100
+|move|p1a: Lil Stinker|Perish Song|p1a: Lil Stinker
+|-start|p2a: Breloom|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Breloom|89/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|94/100|[from] item: Leftovers
+|-start|p2a: Breloom|perish3
+|-start|p1a: Lil Stinker|perish2
+|upkeep
+|turn|34
+|inactive|Donly Phans has 30 seconds left.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982387
+|move|p2a: Breloom|Spore|p1a: Lil Stinker
+|-status|p1a: Lil Stinker|slp|[from] move: Spore
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p2a: Breloom|95/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|99/100 slp|[from] item: Leftovers
+|-start|p2a: Breloom|perish2
+|-start|p1a: Lil Stinker|perish1
+|upkeep
+|turn|35
+|inactive|Donly Phans has 30 seconds left this turn.
+|inactive|themessiah1 has 240 seconds left.
+|
+|t:|1727982396
+|switch|p2a: Raikou|Raikou|100/100
+|-curestatus|p1a: Lil Stinker|slp|[from] ability: Natural Cure
+|switch|p1a: "Too Offensive"|Suicune|100/100
+|
+|upkeep
+|turn|36
+|inactive|Donly Phans has 30 seconds left.
+|inactive|Donly Phans has 20 seconds left.
+|inactive|Donly Phans has 15 seconds left.
+|
+|t:|1727982424
+|move|p2a: Raikou|Thunderbolt|p1a: "Too Offensive"
+|-supereffective|p1a: "Too Offensive"
+|-damage|p1a: "Too Offensive"|35/100
+|move|p1a: "Too Offensive"|Surf|p2a: Raikou
+|-damage|p2a: Raikou|67/100
+|
+|-heal|p2a: Raikou|73/100|[from] item: Leftovers
+|-heal|p1a: "Too Offensive"|41/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Donly Phans has 25 seconds left this turn.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982434
+|switch|p1a: Lil Stinker|Celebi|99/100
+|move|p2a: Raikou|Thunderbolt|p1a: Lil Stinker
+|-resisted|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|83/100
+|
+|-heal|p2a: Raikou|79/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|89/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|Donly Phans has 30 seconds left this turn.
+|inactive|Donly Phans has 20 seconds left.
+|
+|t:|1727982446
+|switch|p2a: Breloom|Breloom, M|95/100
+|move|p1a: Lil Stinker|Hidden Power|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|69/100
+|
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|95/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Donly Phans has 30 seconds left this turn.
+|
+|t:|1727982454
+|move|p2a: Breloom|Spore|p1a: Lil Stinker
+|-status|p1a: Lil Stinker|slp|[from] move: Spore
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p2a: Breloom|81/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982465
+|-curestatus|p1a: Lil Stinker|slp|[from] ability: Natural Cure
+|switch|p1a: "Too Offensive"|Suicune|41/100
+|move|p2a: Breloom|Hidden Power|p1a: "Too Offensive"
+|-damage|p1a: "Too Offensive"|27/100
+|
+|-heal|p2a: Breloom|87/100|[from] item: Leftovers
+|-heal|p1a: "Too Offensive"|33/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Donly Phans has 30 seconds left.
+|
+|t:|1727982475
+|move|p2a: Breloom|Spore|p1a: "Too Offensive"
+|-status|p1a: "Too Offensive"|slp|[from] move: Spore
+|cant|p1a: "Too Offensive"|slp
+|
+|-heal|p2a: Breloom|93/100|[from] item: Leftovers
+|-heal|p1a: "Too Offensive"|39/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1727982482
+|-singleturn|p2a: Breloom|move: Focus Punch
+|cant|p1a: "Too Offensive"|slp
+|move|p2a: Breloom|Focus Punch|p1a: "Too Offensive"
+|-crit|p1a: "Too Offensive"
+|-damage|p1a: "Too Offensive"|0 fnt
+|faint|p1a: "Too Offensive"
+|
+|t:|1727982487
+|switch|p1a: Lil Stinker|Celebi|100/100
+|
+|-heal|p2a: Breloom|99/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1727982491
+|move|p2a: Breloom|Spore|p1a: Lil Stinker
+|-status|p1a: Lil Stinker|slp|[from] move: Spore
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p2a: Breloom|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1727982496
+|move|p2a: Breloom|Hidden Power|p1a: Lil Stinker
+|-supereffective|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|66/100 slp
+|-curestatus|p1a: Lil Stinker|slp|[msg]
+|move|p1a: Lil Stinker|Recover|p1a: Lil Stinker
+|-heal|p1a: Lil Stinker|100/100
+|
+|upkeep
+|turn|45
+|
+|t:|1727982504
+|move|p2a: Breloom|Spore|p1a: Lil Stinker
+|-status|p1a: Lil Stinker|slp|[from] move: Spore
+|cant|p1a: Lil Stinker|slp
+|
+|upkeep
+|turn|46
+|
+|t:|1727982525
+|move|p2a: Breloom|Hidden Power|p1a: Lil Stinker
+|-supereffective|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|69/100 slp
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p1a: Lil Stinker|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1727982530
+|move|p2a: Breloom|Hidden Power|p1a: Lil Stinker
+|-supereffective|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|43/100 slp
+|-curestatus|p1a: Lil Stinker|slp|[msg]
+|move|p1a: Lil Stinker|Hidden Power|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|75/100
+|
+|-heal|p2a: Breloom|81/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|50/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|c|☆themessiah1|i think you lost
+|
+|t:|1727982537
+|move|p2a: Breloom|Spore|p1a: Lil Stinker
+|-status|p1a: Lil Stinker|slp|[from] move: Spore
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p2a: Breloom|87/100|[from] item: Leftovers
+|-heal|p1a: Lil Stinker|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1727982545
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|cant|p1a: Lil Stinker|slp
+|
+|-heal|p1a: Lil Stinker|62/100 slp|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|Donly Phans has 90 seconds left.
+|c|☆Donly Phans|Indeed
+|inactive|themessiah1 has 270 seconds left.
+|inactive|themessiah1 has 240 seconds left.
+|inactive|themessiah1 has 210 seconds left.
+|inactive|themessiah1 has 180 seconds left.
+|inactive|themessiah1 has 150 seconds left.
+|inactive|themessiah1 has 120 seconds left.
+|inactive|themessiah1 has 90 seconds left.
+|
+|t:|1727982783
+|move|p2a: Dugtrio|Hidden Power|p1a: Lil Stinker
+|-supereffective|p1a: Lil Stinker
+|-damage|p1a: Lil Stinker|0 fnt
+|faint|p1a: Lil Stinker
+|
+|win|themessiah1
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794308">
+{"id":"smogtours-gen3ou-794308","format":"[Gen 3] OU","players":["Donly Phans","themessiah1"],"uploadtime":1727982783,"views":132,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

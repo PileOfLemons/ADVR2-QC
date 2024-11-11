@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: EtymonLegomenon vs. 5darkelves - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between EtymonLegomenon and 5darkelves! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798369">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728850360
+|gametype|singles
+|player|p1|EtymonLegomenon|juan|
+|player|p2|5darkelves|medium|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728850360
+|start
+|switch|p1a: RaptorialHassle|Zapdos|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1728850373
+|move|p2a: Zapdos|Thunderbolt|p1a: RaptorialHassle
+|-damage|p1a: RaptorialHassle|44/100
+|move|p1a: RaptorialHassle|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: RaptorialHassle|50/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728850381
+|move|p1a: RaptorialHassle|Baton Pass|p1a: RaptorialHassle
+|
+|t:|1728850385
+|switch|p1a: MyNameIsMud|Swampert, F|100/100|[from] Baton Pass
+|move|p2a: Zapdos|Thunderbolt|p1a: MyNameIsMud
+|-immune|p1a: MyNameIsMud
+|
+|upkeep
+|turn|3
+|
+|t:|1728850406
+|move|p1a: MyNameIsMud|Protect|p1a: MyNameIsMud
+|-singleturn|p1a: MyNameIsMud|Protect
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100 par
+|
+|-heal|p2a: Zapdos|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728850411
+|move|p1a: MyNameIsMud|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|move|p2a: Zapdos|Hidden Power|p1a: MyNameIsMud
+|-supereffective|p1a: MyNameIsMud
+|-damage|p1a: MyNameIsMud|6/100
+|
+|-heal|p1a: MyNameIsMud|12/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728850420
+|move|p1a: MyNameIsMud|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100 par
+|move|p2a: Zapdos|Hidden Power|p1a: MyNameIsMud
+|-supereffective|p1a: MyNameIsMud
+|-damage|p1a: MyNameIsMud|0 fnt
+|faint|p1a: MyNameIsMud
+|
+|t:|1728850426
+|switch|p1a: RaptorialHassle|Zapdos|50/100
+|
+|-heal|p1a: RaptorialHassle|57/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728850433
+|move|p1a: RaptorialHassle|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|9/100 par
+|move|p2a: Zapdos|Thunderbolt|p1a: RaptorialHassle
+|-damage|p1a: RaptorialHassle|7/100
+|-status|p1a: RaptorialHassle|par
+|
+|-heal|p2a: Zapdos|15/100 par|[from] item: Leftovers
+|-heal|p1a: RaptorialHassle|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728850439
+|move|p1a: RaptorialHassle|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728850445
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: RaptorialHassle|7/100 par|[from] Sandstorm
+|-heal|p1a: RaptorialHassle|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728850449
+|move|p2a: Tyranitar|Pursuit|p1a: RaptorialHassle
+|-damage|p1a: RaptorialHassle|0 fnt
+|faint|p1a: RaptorialHassle
+|
+|t:|1728850455
+|switch|p1a: AstroturfPunchline|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AstroturfPunchline|94/100|[from] Sandstorm
+|-heal|p1a: AstroturfPunchline|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728850469
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: AstroturfPunchline|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AstroturfPunchline|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 par|[from] Sandstorm
+|-heal|p1a: AstroturfPunchline|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728850482
+|switch|p1a: ChrisFarleyMouth|Blissey, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 par|[from] Sandstorm
+|-heal|p1a: ChrisFarleyMouth|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728850491
+|move|p1a: ChrisFarleyMouth|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|74/100 par
+|move|p2a: Suicune|Surf|p1a: ChrisFarleyMouth
+|-damage|p1a: ChrisFarleyMouth|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|75/100|[from] Sandstorm
+|-damage|p2a: Suicune|68/100 par|[from] Sandstorm
+|-heal|p1a: ChrisFarleyMouth|81/100|[from] item: Leftovers
+|-heal|p2a: Suicune|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728850499
+|switch|p1a: RealCondorHours|Skarmory, M|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|68/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728850505
+|move|p2a: Suicune|Surf|p1a: RealCondorHours
+|-damage|p1a: RealCondorHours|48/100
+|move|p1a: RealCondorHours|Roar|p2a: Suicune
+|drag|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: RealCondorHours|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728850513
+|move|p2a: Metagross|Rock Slide|p1a: RealCondorHours
+|-damage|p1a: RealCondorHours|21/100
+|move|p1a: RealCondorHours|Spikes|p2a: Metagross
+|-sidestart|p2: 5darkelves|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: RealCondorHours|27/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728850519
+|move|p1a: RealCondorHours|Protect|p1a: RealCondorHours
+|-singleturn|p1a: RealCondorHours|Protect
+|move|p2a: Metagross|Rock Slide|p1a: RealCondorHours
+|-activate|p1a: RealCondorHours|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: RealCondorHours|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728850534
+|switch|p1a: AstroturfPunchline|Starmie|100/100
+|move|p2a: Metagross|Rock Slide|p1a: AstroturfPunchline
+|-damage|p1a: AstroturfPunchline|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AstroturfPunchline|41/100|[from] Sandstorm
+|-heal|p1a: AstroturfPunchline|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728850541
+|move|p1a: AstroturfPunchline|Surf|p2a: Metagross
+|-damage|p2a: Metagross|61/100
+|move|p2a: Metagross|Rock Slide|p1a: AstroturfPunchline
+|-damage|p1a: AstroturfPunchline|0 fnt
+|faint|p1a: AstroturfPunchline
+|
+|t:|1728850545
+|switch|p1a: SandyLastWeek|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1728850553
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: SandyLastWeek|Earthquake|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728850557
+|switch|p1a: ChrisFarleyMouth|Blissey, F|81/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: ChrisFarleyMouth
+|-status|p1a: ChrisFarleyMouth|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: ChrisFarleyMouth|75/100 brn|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|81/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|69/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1728850570
+|switch|p2a: Suicune|Suicune|74/100 par
+|-damage|p2a: Suicune|61/100 par|[from] Spikes
+|move|p1a: ChrisFarleyMouth|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|26/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|63/100 brn|[from] Sandstorm
+|-damage|p2a: Suicune|20/100 par|[from] Sandstorm
+|-heal|p1a: ChrisFarleyMouth|69/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|56/100 brn|[from] brn
+|-heal|p2a: Suicune|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728850573
+|move|p1a: ChrisFarleyMouth|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1728850585
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|50/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|56/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|44/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1728850598
+|move|p2a: Tyranitar|Hidden Power|p1a: ChrisFarleyMouth
+|-damage|p1a: ChrisFarleyMouth|35/100 brn
+|move|p1a: ChrisFarleyMouth|Soft-Boiled|p1a: ChrisFarleyMouth
+|-heal|p1a: ChrisFarleyMouth|85/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|79/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|85/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|72/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1728850607
+|move|p2a: Tyranitar|Rock Slide|p1a: ChrisFarleyMouth
+|-damage|p1a: ChrisFarleyMouth|44/100 brn
+|move|p1a: ChrisFarleyMouth|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|37/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|86/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|44/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|31/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1728850613
+|move|p2a: Tyranitar|Rock Slide|p1a: ChrisFarleyMouth
+|-damage|p1a: ChrisFarleyMouth|1/100 brn
+|move|p1a: ChrisFarleyMouth|Soft-Boiled|p1a: ChrisFarleyMouth
+|-heal|p1a: ChrisFarleyMouth|51/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|45/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|92/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|51/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|39/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1728850617
+|move|p2a: Tyranitar|Rock Slide|p1a: ChrisFarleyMouth|[miss]
+|-miss|p2a: Tyranitar|p1a: ChrisFarleyMouth
+|move|p1a: ChrisFarleyMouth|Soft-Boiled|p1a: ChrisFarleyMouth
+|-heal|p1a: ChrisFarleyMouth|89/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|83/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|98/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|89/100 brn|[from] item: Leftovers
+|-damage|p1a: ChrisFarleyMouth|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1728850627
+|-curestatus|p1a: ChrisFarleyMouth|brn|[from] ability: Natural Cure
+|switch|p1a: SandyLastWeek|Tyranitar, F|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: SandyLastWeek
+|-damage|p1a: SandyLastWeek|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728850636
+|move|p1a: SandyLastWeek|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|19/100
+|move|p2a: Tyranitar|Hidden Power|p1a: SandyLastWeek
+|-supereffective|p1a: SandyLastWeek
+|-damage|p1a: SandyLastWeek|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|25/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728850644
+|switch|p1a: RealCondorHours|Skarmory, M|33/100
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: RealCondorHours|39/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728850651
+|move|p2a: Moltres|Flamethrower|p1a: RealCondorHours
+|-supereffective|p1a: RealCondorHours
+|-damage|p1a: RealCondorHours|0 fnt
+|faint|p1a: RealCondorHours
+|
+|t:|1728850654
+|switch|p1a: ChrisFarleyMouth|Blissey, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: ChrisFarleyMouth|70/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|76/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728850658
+|switch|p2a: Tyranitar|Tyranitar, M|25/100
+|-damage|p2a: Tyranitar|12/100|[from] Spikes
+|move|p1a: ChrisFarleyMouth|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728850662
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100|[from] Sandstorm
+|-damage|p1a: ChrisFarleyMouth|70/100|[from] Sandstorm
+|-heal|p2a: Breloom|88/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728850666
+|move|p2a: Breloom|Spore|p1a: ChrisFarleyMouth
+|-status|p1a: ChrisFarleyMouth|slp|[from] move: Spore
+|cant|p1a: ChrisFarleyMouth|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100|[from] Sandstorm
+|-damage|p1a: ChrisFarleyMouth|70/100 slp|[from] Sandstorm
+|-heal|p2a: Breloom|88/100|[from] item: Leftovers
+|-heal|p1a: ChrisFarleyMouth|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728850671
+|-singleturn|p2a: Breloom|move: Focus Punch
+|-curestatus|p1a: ChrisFarleyMouth|slp|[msg]
+|move|p1a: ChrisFarleyMouth|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|t:|1728850678
+|switch|p2a: Metagross|Metagross|61/100
+|-damage|p2a: Metagross|49/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: ChrisFarleyMouth|70/100|[from] Sandstorm
+|-heal|p1a: ChrisFarleyMouth|76/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆EtymonLegomenon|My Bad.
+|c|☆EtymonLegomenon|I Apologize.
+|c|☆5darkelves|its fine
+|
+|t:|1728850693
+|move|p2a: Metagross|Meteor Mash|p1a: ChrisFarleyMouth
+|-damage|p1a: ChrisFarleyMouth|0 fnt
+|faint|p1a: ChrisFarleyMouth
+|
+|t:|1728850695
+|switch|p1a: SandyLastWeek|Tyranitar, F|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1728850703
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: SandyLastWeek|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1728850708
+|switch|p2a: Metagross|Metagross|49/100
+|-damage|p2a: Metagross|36/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1728850711
+|move|p1a: SandyLastWeek|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|win|EtymonLegomenon
+|c|☆EtymonLegomenon|My Bad.
+|c|☆5darkelves|gg
+|c|☆EtymonLegomenon|I Apologize.
+|c|☆EtymonLegomenon|Good Game. Well Played.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798369">
+{"id":"smogtours-gen3ou-798369","format":"[Gen 3] OU","players":["EtymonLegomenon","5darkelves"],"uploadtime":1728850711,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

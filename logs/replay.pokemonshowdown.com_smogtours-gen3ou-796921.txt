@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Klird vs. Lady_Sundalia - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Klird and Lady_Sundalia! Format: [Gen 3] OU; Date: Oct 10, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796921">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728579706
+|gametype|singles
+|player|p1|Klird|265|
+|player|p2|Lady_Sundalia|waitress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728579706
+|start
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|switch|p2a: Tyranocif|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆Klird|gl hf
+|c|☆Lady_Sundalia|u 2
+|
+|t:|1728579732
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Métalosse|Metagross, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1728579743
+|switch|p2a: Airmure|Skarmory, F, shiny|100/100
+|move|p1a: Skarmory|Spikes|p2a: Airmure
+|-sidestart|p2: Lady_Sundalia|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1728579749
+|move|p1a: Skarmory|Taunt|p2a: Airmure
+|-start|p2a: Airmure|move: Taunt
+|cant|p2a: Airmure|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1728579766
+|switch|p2a: Leuphorie|Blissey, F, shiny|100/100
+|-damage|p2a: Leuphorie|88/100|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Leuphorie
+|drag|p2a: Ludicolo|Ludicolo, M, shiny|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|82/100|[from] Sandstorm
+|-heal|p2a: Ludicolo|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728579775
+|switch|p2a: Leuphorie|Blissey, F, shiny|88/100
+|-damage|p2a: Leuphorie|76/100|[from] Spikes
+|move|p1a: Skarmory|Drill Peck|p2a: Leuphorie
+|-crit|p2a: Leuphorie
+|-damage|p2a: Leuphorie|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|24/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|30/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728579791
+|move|p1a: Skarmory|Taunt|p2a: Leuphorie
+|-start|p2a: Leuphorie|move: Taunt
+|cant|p2a: Leuphorie|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|24/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728579797
+|switch|p2a: Kaorine|Claydol|100/100
+|move|p1a: Skarmory|Roar|p2a: Kaorine
+|drag|p2a: Leuphorie|Blissey, F, shiny|30/100
+|-damage|p2a: Leuphorie|17/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|11/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|17/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728579805
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|67/100
+|move|p1a: Skarmory|Roar|p2a: Leuphorie
+|drag|p2a: Kaorine|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1728579811
+|move|p2a: Kaorine|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100
+|-sideend|p2: Lady_Sundalia|Spikes|[from] move: Rapid Spin|[of] p2a: Kaorine
+|move|p1a: Skarmory|Drill Peck|p2a: Kaorine
+|-damage|p2a: Kaorine|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kaorine|83/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728579817
+|move|p2a: Kaorine|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|86/100
+|move|p1a: Skarmory|Spikes|p2a: Kaorine
+|-sidestart|p2: Lady_Sundalia|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kaorine|89/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728579822
+|move|p2a: Kaorine|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|91/100
+|-sideend|p2: Lady_Sundalia|Spikes|[from] move: Rapid Spin|[of] p2a: Kaorine
+|move|p1a: Skarmory|Drill Peck|p2a: Kaorine
+|-damage|p2a: Kaorine|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kaorine|71/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728579827
+|switch|p2a: Tyranocif|Tyranitar, F, shiny|100/100
+|move|p1a: Skarmory|Spikes|p2a: Tyranocif
+|-sidestart|p2: Lady_Sundalia|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Klird has 270 seconds left.
+|
+|t:|1728579874
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Tyranocif|Flamethrower|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Klird has 240 seconds left.
+|
+|t:|1728579909
+|switch|p2a: Ludicolo|Ludicolo, M, shiny|88/100
+|-damage|p2a: Ludicolo|76/100|[from] Spikes
+|switch|p1a: Andrea Pirlo|Blissey, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|70/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Ludicolo|76/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Klird has 240 seconds left.
+|
+|t:|1728579924
+|switch|p2a: Leuphorie|Blissey, F, shiny|67/100
+|-damage|p2a: Leuphorie|55/100|[from] Spikes
+|move|p1a: Andrea Pirlo|Toxic|p2a: Leuphorie
+|-status|p2a: Leuphorie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|49/100 tox|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|-heal|p2a: Leuphorie|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Leuphorie|49/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1728579929
+|move|p1a: Andrea Pirlo|Snatch|p1a: Andrea Pirlo
+|-singleturn|p1a: Andrea Pirlo|Snatch
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-activate|p1a: Andrea Pirlo|move: Snatch|[of] p2a: Leuphorie
+|move|p1a: Andrea Pirlo|Soft-Boiled||[from]Snatch|[still]
+|-fail|p1a: Andrea Pirlo|heal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|42/100 tox|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|-heal|p2a: Leuphorie|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Leuphorie|36/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1728579942
+|-curestatus|p2a: Leuphorie|tox|[from] ability: Natural Cure
+|switch|p2a: Airmure|Skarmory, F, shiny|100/100
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Airmure|62/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728579948
+|move|p2a: Airmure|Protect|p2a: Airmure
+|-singleturn|p2a: Airmure|Protect
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-activate|p2a: Airmure|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Airmure|68/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728579955
+|move|p2a: Airmure|Spikes|p1a: Andrea Pirlo
+|-sidestart|p1: Klird|Spikes
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Airmure|29/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728579961
+|move|p2a: Airmure|Protect|p2a: Airmure
+|-singleturn|p2a: Airmure|Protect
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-activate|p2a: Airmure|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Airmure|35/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728579975
+|switch|p2a: Kaorine|Claydol|71/100
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Kaorine
+|-damage|p2a: Kaorine|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|94/100|[from] Sandstorm
+|-heal|p2a: Kaorine|55/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Klird has 270 seconds left.
+|
+|t:|1728579981
+|switch|p1a: Genaro|Gengar, F, shiny|100/100
+|move|p2a: Kaorine|Rapid Spin|p1a: Genaro
+|-immune|p1a: Genaro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Genaro|94/100|[from] Sandstorm
+|-heal|p1a: Genaro|100/100|[from] item: Leftovers
+|-heal|p2a: Kaorine|61/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728579987
+|switch|p2a: Tyranocif|Tyranitar, F, shiny|100/100
+|-damage|p2a: Tyranocif|88/100|[from] Spikes
+|move|p1a: Genaro|Giga Drain|p2a: Tyranocif
+|-supereffective|p2a: Tyranocif
+|-damage|p2a: Tyranocif|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Genaro|94/100|[from] Sandstorm
+|-heal|p1a: Genaro|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Klird has 270 seconds left.
+|
+|t:|1728580027
+|move|p1a: Genaro|Giga Drain|p2a: Tyranocif
+|-supereffective|p2a: Tyranocif
+|-damage|p2a: Tyranocif|37/100
+|move|p2a: Tyranocif|Crunch|p1a: Genaro
+|-supereffective|p1a: Genaro
+|-damage|p1a: Genaro|0 fnt
+|faint|p1a: Genaro
+|inactive|Klird has 240 seconds left.
+|
+|t:|1728580050
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|43/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728580056
+|move|p1a: Tyranitar|Earthquake|p2a: Tyranocif
+|-supereffective|p2a: Tyranocif
+|-damage|p2a: Tyranocif|0 fnt
+|faint|p2a: Tyranocif
+|
+|t:|1728580065
+|switch|p2a: Airmure|Skarmory, F, shiny|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Airmure|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728580070
+|move|p1a: Tyranitar|Taunt|p2a: Airmure
+|-start|p2a: Airmure|move: Taunt
+|cant|p2a: Airmure|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728580095
+|switch|p2a: Ludicolo|Ludicolo, M, shiny|76/100
+|-damage|p2a: Ludicolo|64/100|[from] Spikes
+|move|p1a: Tyranitar|Earthquake|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|35/100|[from] Sandstorm
+|-heal|p2a: Ludicolo|41/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Klird has 240 seconds left.
+|
+|t:|1728580119
+|move|p1a: Tyranitar|Rock Slide|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|t:|1728580123
+|switch|p2a: Airmure|Skarmory, F, shiny|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|53/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728580126
+|move|p2a: Airmure|Protect|p2a: Airmure
+|-singleturn|p2a: Airmure|Protect
+|move|p1a: Tyranitar|Taunt|p2a: Airmure
+|-activate|p2a: Airmure|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|59/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728580142
+|move|p1a: Tyranitar|Taunt|p2a: Airmure
+|-start|p2a: Airmure|move: Taunt
+|cant|p2a: Airmure|move: Taunt|Toxic
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|65/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728580148
+|switch|p2a: Kaorine|Claydol|61/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kaorine|68/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728580156
+|move|p1a: Tyranitar|Rock Slide|p2a: Kaorine
+|-resisted|p2a: Kaorine
+|-damage|p2a: Kaorine|41/100
+|cant|p2a: Kaorine|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kaorine|47/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728580162
+|move|p1a: Tyranitar|Rock Slide|p2a: Kaorine|[miss]
+|-miss|p1a: Tyranitar|p2a: Kaorine
+|move|p2a: Kaorine|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|52/100|[from] item: Leftovers
+|-heal|p2a: Kaorine|53/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Klird has 270 seconds left.
+|
+|t:|1728580168
+|move|p1a: Tyranitar|Rock Slide|p2a: Kaorine
+|-resisted|p2a: Kaorine
+|-damage|p2a: Kaorine|26/100
+|move|p2a: Kaorine|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|inactive|Klird has 270 seconds left.
+|
+|t:|1728580177
+|switch|p1a: Neymar|Starmie|100/100
+|-damage|p1a: Neymar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Neymar|82/100|[from] Sandstorm
+|-heal|p1a: Neymar|88/100|[from] item: Leftovers
+|-heal|p2a: Kaorine|32/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728580185
+|move|p1a: Neymar|Hydro Pump|p2a: Kaorine
+|-supereffective|p2a: Kaorine
+|-damage|p2a: Kaorine|0 fnt
+|faint|p2a: Kaorine
+|
+|t:|1728580186
+|switch|p2a: Leuphorie|Blissey, F, shiny|36/100
+|-damage|p2a: Leuphorie|24/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Neymar|82/100|[from] Sandstorm
+|-damage|p2a: Leuphorie|18/100|[from] Sandstorm
+|-heal|p1a: Neymar|88/100|[from] item: Leftovers
+|-heal|p2a: Leuphorie|24/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728580192
+|switch|p1a: Andrea Pirlo|Blissey, F, shiny|100/100
+|-damage|p1a: Andrea Pirlo|88/100|[from] Spikes
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|68/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|82/100|[from] Sandstorm
+|-heal|p1a: Andrea Pirlo|88/100|[from] item: Leftovers
+|-heal|p2a: Leuphorie|74/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728580199
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Leuphorie
+|-damage|p2a: Leuphorie|64/100
+|move|p2a: Leuphorie|Thunder Wave|p1a: Andrea Pirlo
+|-status|p1a: Andrea Pirlo|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|58/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|82/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|64/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728580204
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|100/100
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Leuphorie
+|-damage|p2a: Leuphorie|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|85/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|82/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|92/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728580213
+|switch|p2a: Airmure|Skarmory, F, shiny|65/100
+|cant|p1a: Andrea Pirlo|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|82/100 par|[from] Sandstorm
+|-heal|p2a: Airmure|71/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728580219
+|move|p2a: Airmure|Spikes|p1a: Andrea Pirlo
+|-sidestart|p1: Klird|Spikes
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|82/100 par|[from] Sandstorm
+|-heal|p2a: Airmure|36/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728580231
+|-curestatus|p1a: Andrea Pirlo|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Airmure|Spikes|p1a: Skarmory
+|-sidestart|p1: Klird|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|42/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728580240
+|move|p1a: Skarmory|Spikes|p2a: Airmure
+|-sidestart|p2: Lady_Sundalia|Spikes
+|move|p2a: Airmure|Roar|p1a: Skarmory
+|drag|p1a: Swampert|Swampert, M|92/100
+|-damage|p1a: Swampert|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Airmure|48/100|[from] item: Leftovers
+|-heal|p1a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728580247
+|move|p1a: Swampert|Hydro Pump|p2a: Airmure
+|-damage|p2a: Airmure|1/100
+|move|p2a: Airmure|Roar|p1a: Swampert
+|drag|p1a: Andrea Pirlo|Blissey, F, shiny|88/100
+|-damage|p1a: Andrea Pirlo|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|57/100|[from] Sandstorm
+|-heal|p2a: Airmure|7/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|63/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728580255
+|move|p2a: Airmure|Toxic|p1a: Andrea Pirlo
+|-status|p1a: Andrea Pirlo|tox
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|0 fnt
+|faint|p2a: Airmure
+|
+|t:|1728580257
+|switch|p2a: Métalosse|Metagross, shiny|100/100
+|-damage|p2a: Métalosse|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|57/100 tox|[from] Sandstorm
+|-heal|p2a: Métalosse|90/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Andrea Pirlo|57/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1728580261
+|-curestatus|p1a: Andrea Pirlo|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Métalosse|Agility|p2a: Métalosse
+|-boost|p2a: Métalosse|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|96/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728580267
+|move|p2a: Métalosse|Meteor Mash|p1a: Skarmory|[miss]
+|-miss|p2a: Métalosse|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Métalosse
+|drag|p2a: Leuphorie|Blissey, F, shiny|92/100
+|-damage|p2a: Leuphorie|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728580270
+|move|p1a: Skarmory|Spikes|p2a: Leuphorie
+|-sidestart|p2: Lady_Sundalia|Spikes
+|move|p2a: Leuphorie|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728580274
+|switch|p2a: Métalosse|Metagross, shiny|96/100
+|-damage|p2a: Métalosse|71/100|[from] Spikes
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|77/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728580279
+|move|p2a: Métalosse|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|78/100 par
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|84/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728580283
+|move|p2a: Métalosse|Meteor Mash|p1a: Skarmory|[miss]
+|-miss|p2a: Métalosse|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Métalosse
+|drag|p2a: Leuphorie|Blissey, F, shiny|75/100
+|-damage|p2a: Leuphorie|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|44/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|50/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728580290
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|99/100
+|move|p1a: Skarmory|Roar|p2a: Leuphorie
+|drag|p2a: Métalosse|Metagross, shiny|84/100
+|-damage|p2a: Métalosse|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|65/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728580297
+|move|p2a: Métalosse|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|74/100 par
+|move|p1a: Skarmory|Roar|p2a: Métalosse
+|drag|p2a: Leuphorie|Blissey, F, shiny|99/100
+|-damage|p2a: Leuphorie|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728580307
+|move|p2a: Leuphorie|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|50/100 par
+|move|p1a: Skarmory|Roar|p2a: Leuphorie
+|drag|p2a: Métalosse|Metagross, shiny|65/100
+|-damage|p2a: Métalosse|40/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|46/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728580314
+|move|p2a: Métalosse|Rock Slide|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|12/100 par
+|cant|p1a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|52/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|18/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728580325
+|move|p2a: Métalosse|Meteor Mash|p1a: Skarmory|[miss]
+|-miss|p2a: Métalosse|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Métalosse
+|drag|p2a: Leuphorie|Blissey, F, shiny|75/100
+|-damage|p2a: Leuphorie|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|44/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|50/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728580331
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|99/100
+|move|p1a: Skarmory|Drill Peck|p2a: Leuphorie
+|-damage|p2a: Leuphorie|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|71/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|78/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728580339
+|move|p2a: Leuphorie|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728580361
+|switch|p1a: Neymar|Starmie|88/100
+|-damage|p1a: Neymar|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Neymar|57/100|[from] Sandstorm
+|-damage|p2a: Leuphorie|71/100|[from] Sandstorm
+|-heal|p1a: Neymar|63/100|[from] item: Leftovers
+|-heal|p2a: Leuphorie|78/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728580365
+|move|p1a: Neymar|Rapid Spin|p2a: Leuphorie
+|-damage|p2a: Leuphorie|75/100
+|-sideend|p1: Klird|Spikes|[from] move: Rapid Spin|[of] p1a: Neymar
+|move|p2a: Leuphorie|Thunder Wave|p1a: Neymar
+|-status|p1a: Neymar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-damage|p1a: Neymar|57/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|-heal|p1a: Neymar|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728580370
+|-curestatus|p1a: Neymar|par|[from] ability: Natural Cure
+|switch|p1a: Andrea Pirlo|Blissey, F, shiny|57/100
+|move|p2a: Leuphorie|Seismic Toss|p1a: Andrea Pirlo
+|-damage|p1a: Andrea Pirlo|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Andrea Pirlo|36/100|[from] Sandstorm
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|42/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728580375
+|move|p1a: Andrea Pirlo|Soft-Boiled|p1a: Andrea Pirlo
+|-heal|p1a: Andrea Pirlo|92/100
+|move|p2a: Leuphorie|Thunder Wave|p1a: Andrea Pirlo
+|-status|p1a: Andrea Pirlo|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|69/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|85/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|75/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728580379
+|move|p2a: Leuphorie|Seismic Toss|p1a: Andrea Pirlo
+|-damage|p1a: Andrea Pirlo|76/100 par
+|move|p1a: Andrea Pirlo|Flamethrower|p2a: Leuphorie
+|-damage|p2a: Leuphorie|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|59/100|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|70/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|66/100|[from] item: Leftovers
+|-heal|p1a: Andrea Pirlo|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728580386
+|move|p2a: Leuphorie|Seismic Toss|p1a: Andrea Pirlo
+|-damage|p1a: Andrea Pirlo|61/100 par
+|move|p1a: Andrea Pirlo|Toxic|p2a: Leuphorie
+|-status|p2a: Leuphorie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|59/100 tox|[from] Sandstorm
+|-damage|p1a: Andrea Pirlo|55/100 par|[from] Sandstorm
+|-heal|p2a: Leuphorie|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Leuphorie|59/100 tox|[from] psn
+|-heal|p1a: Andrea Pirlo|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728580393
+|-curestatus|p1a: Andrea Pirlo|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|73/100
+|move|p2a: Leuphorie|Soft-Boiled|p2a: Leuphorie
+|-heal|p2a: Leuphorie|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Leuphorie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Leuphorie|88/100 tox|[from] psn
+|-heal|p1a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728580400
+|move|p2a: Leuphorie|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|53/100
+|move|p1a: Swampert|Earthquake|p2a: Leuphorie
+|-damage|p2a: Leuphorie|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|45/100 tox|[from] Sandstorm
+|-heal|p2a: Leuphorie|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Leuphorie|33/100 tox|[from] psn
+|-heal|p1a: Swampert|59/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728580406
+|move|p2a: Leuphorie|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|33/100
+|move|p1a: Swampert|Earthquake|p2a: Leuphorie
+|-damage|p2a: Leuphorie|0 fnt
+|faint|p2a: Leuphorie
+|
+|t:|1728580408
+|switch|p2a: Métalosse|Metagross, shiny|52/100
+|-damage|p2a: Métalosse|28/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Métalosse|34/100|[from] item: Leftovers
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728580417
+|move|p2a: Métalosse|Agility|p2a: Métalosse
+|-boost|p2a: Métalosse|spe|2
+|move|p1a: Swampert|Earthquake|p2a: Métalosse
+|-supereffective|p2a: Métalosse
+|-damage|p2a: Métalosse|0 fnt
+|faint|p2a: Métalosse
+|
+|win|Klird
+|c|☆Klird|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796921">
+{"id":"smogtours-gen3ou-796921","format":"[Gen 3] OU","players":["Klird","Lady_Sundalia"],"uploadtime":1728580417,"views":134,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

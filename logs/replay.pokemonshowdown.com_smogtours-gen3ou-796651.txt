@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Vholtninja vs. DMONDThrice - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Vholtninja and DMONDThrice! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796651">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728490847
+|gametype|singles
+|player|p1|Vholtninja|serena-masters2|
+|player|p2|DMONDThrice|volkner|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728490847
+|start
+|switch|p1a: killer queen|Salamence, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: killer queen|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|c|☆DMONDThrice|glhf
+|c|☆Vholtninja|u2
+|
+|t:|1728490859
+|move|p1a: killer queen|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|move|p2a: Zapdos|Toxic|p1a: killer queen
+|-status|p1a: killer queen|tox
+|
+|-damage|p1a: killer queen|94/100 tox|[from] psn
+|-heal|p2a: Zapdos|77/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728490867
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: killer queen|Refresh|p1a: killer queen
+|-curestatus|p1a: killer queen|tox|[msg]
+|
+|-heal|p1a: killer queen|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728490879
+|switch|p2a: Zapdos|Zapdos|77/100
+|move|p1a: killer queen|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|49/100
+|
+|-heal|p2a: Zapdos|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728490893
+|move|p1a: killer queen|Dragon Claw|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728490902
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1728490911
+|switch|p1a: under pressure|Skarmory, M|100/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1728490915
+|move|p1a: under pressure|Spikes|p2a: Blissey
+|-sidestart|p2: DMONDThrice|Spikes
+|move|p2a: Blissey|Thunderbolt|p1a: under pressure
+|-supereffective|p1a: under pressure
+|-damage|p1a: under pressure|34/100
+|
+|-heal|p1a: under pressure|40/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728490923
+|switch|p1a: whoWants2Live4ever|Metagross|100/100
+|move|p2a: Blissey|Thunderbolt|p1a: whoWants2Live4ever
+|-damage|p1a: whoWants2Live4ever|61/100
+|
+|-heal|p1a: whoWants2Live4ever|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728490933
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: whoWants2Live4ever|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|-heal|p1a: whoWants2Live4ever|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728490939
+|switch|p1a: under pressure|Skarmory, M|40/100
+|move|p2a: Skarmory|Spikes|p1a: under pressure
+|-sidestart|p1: Vholtninja|Spikes
+|
+|-heal|p1a: under pressure|46/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728490948
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: under pressure|Spikes|p2a: Jirachi
+|-sidestart|p2: DMONDThrice|Spikes
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: under pressure|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728490954
+|move|p1a: under pressure|Protect|p1a: under pressure
+|-singleturn|p1a: under pressure|Protect
+|move|p2a: Jirachi|Thunder|p1a: under pressure
+|-activate|p1a: under pressure|Protect
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: under pressure|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728490959
+|switch|p1a: somebody to love|Tyranitar, M|100/100
+|-damage|p1a: somebody to love|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: somebody to love
+|move|p2a: Jirachi|Thunder|p1a: somebody to love
+|-damage|p1a: somebody to love|64/100
+|-status|p1a: somebody to love|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: somebody to love|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728490972
+|switch|p2a: Skarmory|Skarmory, F|92/100
+|move|p1a: somebody to love|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|-heal|p1a: somebody to love|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728490979
+|switch|p2a: Flygon|Flygon, F|100/100
+|switch|p1a: under pressure|Skarmory, M|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: under pressure|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728490986
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|move|p1a: under pressure|Spikes|p2a: Jirachi
+|-sidestart|p2: DMONDThrice|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: under pressure|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728490993
+|move|p1a: under pressure|Protect|p1a: under pressure
+|-singleturn|p1a: under pressure|Protect
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: under pressure|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728490999
+|switch|p2a: Skarmory|Skarmory, F|46/100
+|switch|p1a: somebody to love|Tyranitar, M|76/100 par
+|-damage|p1a: somebody to love|64/100 par|[from] Spikes
+|
+|-heal|p2a: Skarmory|96/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: somebody to love|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728491011
+|switch|p1a: killer queen|Salamence, M|100/100
+|-ability|p1a: killer queen|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Spikes|p1a: killer queen
+|-sidestart|p1: Vholtninja|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: killer queen|94/100|[from] Sandstorm
+|-heal|p1a: killer queen|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728491024
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|move|p1a: killer queen|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: killer queen|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-heal|p1a: killer queen|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728491035
+|move|p1a: killer queen|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|9/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: killer queen|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-heal|p1a: killer queen|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728491040
+|move|p1a: killer queen|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|15/100
+|move|p2a: Blissey|Ice Beam|p1a: killer queen
+|-supereffective|p1a: killer queen
+|-damage|p1a: killer queen|0 fnt
+|faint|p1a: killer queen
+|
+|t:|1728491045
+|switch|p1a: whoWants2Live4ever|Metagross|73/100
+|-damage|p1a: whoWants2Live4ever|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|9/100|[from] Sandstorm
+|-heal|p1a: whoWants2Live4ever|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|15/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728491059
+|move|p1a: whoWants2Live4ever|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1728491064
+|switch|p2a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: whoWants2Live4ever|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728491070
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: whoWants2Live4ever|unboost|[from] ability: Clear Body|[of] p1a: whoWants2Live4ever
+|switch|p1a: under pressure|Skarmory, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: under pressure|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728491078
+|move|p2a: Salamence|Fire Blast|p1a: under pressure
+|-supereffective|p1a: under pressure
+|-damage|p1a: under pressure|13/100
+|move|p1a: under pressure|Roar|p2a: Salamence
+|drag|p2a: Jirachi|Jirachi|96/100
+|-damage|p2a: Jirachi|71/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|-heal|p1a: under pressure|19/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728491092
+|switch|p2a: Flygon|Flygon, F|100/100
+|switch|p1a: radio ga ga|Blissey, F|100/100
+|-damage|p1a: radio ga ga|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|78/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728491098
+|switch|p1a: somebody to love|Tyranitar, M|70/100 par
+|-damage|p1a: somebody to love|53/100 par|[from] Spikes
+|move|p2a: Flygon|Toxic||[still]
+|-fail|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: somebody to love|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728491108
+|move|p2a: Flygon|Earthquake|p1a: somebody to love
+|-supereffective|p1a: somebody to love
+|-damage|p1a: somebody to love|4/100 par
+|cant|p1a: somebody to love|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: somebody to love|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728491114
+|move|p2a: Flygon|Rock Slide|p1a: somebody to love
+|-damage|p1a: somebody to love|0 fnt
+|faint|p1a: somebody to love
+|
+|t:|1728491117
+|switch|p1a: dont stop me now|Starmie|100/100
+|-damage|p1a: dont stop me now|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|78/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728491124
+|switch|p2a: Jirachi|Jirachi|77/100
+|-damage|p2a: Jirachi|52/100|[from] Spikes
+|move|p1a: dont stop me now|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|-sideend|p1: Vholtninja|Spikes|[from] move: Rapid Spin|[of] p1a: dont stop me now
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|78/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|84/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728491133
+|move|p1a: dont stop me now|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|30/100
+|move|p2a: Jirachi|Thunder|p1a: dont stop me now|[miss]
+|-miss|p2a: Jirachi|p1a: dont stop me now
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|78/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|84/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|36/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728491139
+|move|p1a: dont stop me now|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|9/100
+|move|p2a: Jirachi|Thunder|p1a: dont stop me now
+|-supereffective|p1a: dont stop me now
+|-damage|p1a: dont stop me now|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|18/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|24/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|15/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728491144
+|move|p1a: dont stop me now|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728491148
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|18/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|24/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728491152
+|move|p1a: dont stop me now|Recover|p1a: dont stop me now
+|-heal|p1a: dont stop me now|74/100
+|move|p2a: Skarmory|Drill Peck|p1a: dont stop me now
+|-damage|p1a: dont stop me now|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|39/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|45/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728491158
+|move|p1a: dont stop me now|Recover|p1a: dont stop me now
+|-heal|p1a: dont stop me now|95/100
+|move|p2a: Skarmory|Roar|p1a: dont stop me now
+|drag|p1a: whoWants2Live4ever|Metagross|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: whoWants2Live4ever|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728491162
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: whoWants2Live4ever|Meteor Mash|p2a: Flygon
+|-damage|p2a: Flygon|54/100
+|-boost|p1a: whoWants2Live4ever|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|60/100|[from] item: Leftovers
+|-heal|p1a: whoWants2Live4ever|81/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728491168
+|move|p1a: whoWants2Live4ever|Protect|p1a: whoWants2Live4ever
+|-singleturn|p1a: whoWants2Live4ever|Protect
+|move|p2a: Flygon|Earthquake|p1a: whoWants2Live4ever
+|-activate|p1a: whoWants2Live4ever|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|66/100|[from] item: Leftovers
+|-heal|p1a: whoWants2Live4ever|87/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728491175
+|switch|p1a: under pressure|Skarmory, M|19/100
+|move|p2a: Flygon|Earthquake|p1a: under pressure
+|-immune|p1a: under pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|72/100|[from] item: Leftovers
+|-heal|p1a: under pressure|25/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728491178
+|move|p2a: Flygon|Rock Slide|p1a: under pressure|[miss]
+|-miss|p2a: Flygon|p1a: under pressure
+|move|p1a: under pressure|Roar|p2a: Flygon
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: under pressure|31/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728491183
+|switch|p1a: dont stop me now|Starmie|95/100
+|move|p2a: Skarmory|Spikes|p1a: dont stop me now
+|-sidestart|p1: Vholtninja|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|89/100|[from] Sandstorm
+|-heal|p1a: dont stop me now|95/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728491186
+|move|p1a: dont stop me now|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|move|p2a: Skarmory|Toxic|p1a: dont stop me now
+|-status|p1a: dont stop me now|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|89/100 tox|[from] Sandstorm
+|-heal|p1a: dont stop me now|95/100 tox|[from] item: Leftovers
+|-damage|p1a: dont stop me now|89/100 tox|[from] psn
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728491194
+|move|p1a: dont stop me now|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100
+|-sideend|p1: Vholtninja|Spikes|[from] move: Rapid Spin|[of] p1a: dont stop me now
+|move|p2a: Skarmory|Spikes|p1a: dont stop me now
+|-sidestart|p1: Vholtninja|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|83/100 tox|[from] Sandstorm
+|-heal|p1a: dont stop me now|89/100 tox|[from] item: Leftovers
+|-damage|p1a: dont stop me now|77/100 tox|[from] psn
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728491197
+|move|p1a: dont stop me now|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|move|p2a: Skarmory|Drill Peck|p1a: dont stop me now
+|-damage|p1a: dont stop me now|50/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dont stop me now|43/100 tox|[from] Sandstorm
+|-heal|p1a: dont stop me now|50/100 tox|[from] item: Leftovers
+|-damage|p1a: dont stop me now|31/100 tox|[from] psn
+|-heal|p2a: Skarmory|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728491202
+|-curestatus|p1a: dont stop me now|tox|[from] ability: Natural Cure
+|switch|p1a: under pressure|Skarmory, M|31/100
+|move|p2a: Skarmory|Spikes|p1a: under pressure
+|-sidestart|p1: Vholtninja|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: under pressure|37/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728491209
+|move|p1a: under pressure|Roar|p2a: Skarmory
+|drag|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: under pressure|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: under pressure|43/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728491216
+|move|p2a: Salamence|Dragon Claw|p1a: under pressure
+|-resisted|p1a: under pressure
+|-damage|p1a: under pressure|24/100
+|move|p1a: under pressure|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|94/100 tox|[from] psn
+|-heal|p1a: under pressure|30/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728491223
+|switch|p2a: Flygon|Flygon, F|72/100
+|move|p1a: under pressure|Protect||[still]
+|-fail|p1a: under pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|79/100|[from] item: Leftovers
+|-heal|p1a: under pressure|36/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728491226
+|move|p2a: Flygon|Rock Slide|p1a: under pressure
+|-damage|p1a: under pressure|23/100
+|move|p1a: under pressure|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|79/100 tox|[from] psn
+|-heal|p1a: under pressure|29/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728491234
+|switch|p2a: Salamence|Salamence, M|94/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: under pressure|atk|1
+|move|p1a: under pressure|Roar|p2a: Salamence
+|drag|p2a: Flygon|Flygon, F|79/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|79/100 tox|[from] psn
+|-heal|p1a: under pressure|35/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728491242
+|move|p2a: Flygon|Rock Slide|p1a: under pressure
+|-damage|p1a: under pressure|22/100
+|move|p1a: under pressure|Roar|p2a: Flygon
+|drag|p2a: Salamence|Salamence, M|94/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: under pressure|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|88/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|88/100 tox|[from] psn
+|-heal|p1a: under pressure|28/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728491248
+|move|p1a: under pressure|Protect|p1a: under pressure
+|-singleturn|p1a: under pressure|Protect
+|move|p2a: Salamence|Fire Blast|p1a: under pressure
+|-activate|p1a: under pressure|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|82/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|76/100 tox|[from] psn
+|-heal|p1a: under pressure|34/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728491255
+|switch|p1a: dont stop me now|Starmie|31/100
+|-damage|p1a: dont stop me now|14/100|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: dont stop me now
+|-resisted|p1a: dont stop me now
+|-damage|p1a: dont stop me now|0 fnt
+|faint|p1a: dont stop me now
+|
+|t:|1728491257
+|switch|p1a: radio ga ga|Blissey, F|84/100
+|-damage|p1a: radio ga ga|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100 tox|[from] Sandstorm
+|-damage|p1a: radio ga ga|61/100|[from] Sandstorm
+|-heal|p2a: Salamence|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|58/100 tox|[from] psn
+|-heal|p1a: radio ga ga|67/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728491263
+|switch|p2a: Skarmory|Skarmory, F|91/100 par
+|move|p1a: radio ga ga|Soft-Boiled|p1a: radio ga ga
+|-heal|p1a: radio ga ga|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728491270
+|move|p1a: radio ga ga|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728491274
+|move|p1a: radio ga ga|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100 par
+|move|p2a: Skarmory|Toxic|p1a: radio ga ga|[miss]
+|-miss|p2a: Skarmory|p1a: radio ga ga
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728491278
+|move|p1a: radio ga ga|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|28/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728491285
+|move|p1a: radio ga ga|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|4/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728491288
+|move|p1a: radio ga ga|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728491291
+|switch|p2a: Salamence|Salamence, M|58/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: radio ga ga|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|52/100 tox|[from] Sandstorm
+|-damage|p1a: radio ga ga|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|52/100 tox|[from] psn
+|-heal|p1a: radio ga ga|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728491297
+|move|p2a: Salamence|Brick Break|p1a: radio ga ga
+|-supereffective|p1a: radio ga ga
+|-damage|p1a: radio ga ga|59/100
+|move|p1a: radio ga ga|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1728491301
+|switch|p2a: Flygon|Flygon, F|79/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: radio ga ga|53/100|[from] Sandstorm
+|-heal|p2a: Flygon|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|79/100 tox|[from] psn
+|-heal|p1a: radio ga ga|59/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728491304
+|move|p2a: Flygon|Earthquake|p1a: radio ga ga
+|-damage|p1a: radio ga ga|29/100
+|move|p1a: radio ga ga|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|win|Vholtninja
+|c|☆Vholtninja|gg
+|c|☆DMONDThrice|ggs!
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796651">
+{"id":"smogtours-gen3ou-796651","format":"[Gen 3] OU","players":["Vholtninja","DMONDThrice"],"uploadtime":1728491304,"views":73,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

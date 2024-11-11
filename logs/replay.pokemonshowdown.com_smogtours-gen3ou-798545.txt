@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TheComanderXD vs. knexhawk2 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TheComanderXD and knexhawk2! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798545">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728865902
+|gametype|singles
+|player|p1|TheComanderXD|red|
+|player|p2|knexhawk2|benga|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728865902
+|start
+|switch|p1a: Aqua|Suicune|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Aqua|atk|1
+|turn|1
+|
+|t:|1728865912
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Aqua|Calm Mind|p1a: Aqua
+|-boost|p1a: Aqua|spa|1
+|-boost|p1a: Aqua|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1728865929
+|switch|p1a: Sapphire|Metagross|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Sapphire
+|-resisted|p1a: Sapphire
+|-damage|p1a: Sapphire|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728865936
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Sapphire|Meteor Mash|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|68/100
+|-boost|p1a: Sapphire|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1728865943
+|move|p2a: Magneton|Thunderbolt|p1a: Sapphire
+|-damage|p1a: Sapphire|20/100
+|move|p1a: Sapphire|Meteor Mash|p2a: Magneton|[miss]
+|-miss|p1a: Sapphire|p2a: Magneton
+|
+|upkeep
+|turn|5
+|
+|t:|1728865949
+|move|p2a: Magneton|Thunderbolt|p1a: Sapphire
+|-damage|p1a: Sapphire|0 fnt
+|faint|p1a: Sapphire
+|
+|t:|1728865967
+|switch|p1a: Electric|Magneton|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1728865971
+|move|p2a: Magneton|Thunder Wave|p1a: Electric
+|-status|p1a: Electric|par
+|move|p1a: Electric|Hidden Power|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1728865995
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1728866022
+|switch|p1a: Royal|Salamence, M|100/100
+|-ability|p1a: Royal|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Earthquake|p1a: Royal
+|-immune|p1a: Royal
+|
+|upkeep
+|turn|8
+|
+|t:|1728866033
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Royal|atk|1
+|move|p1a: Royal|Dragon Claw|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|3/100
+|
+|upkeep
+|turn|9
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1728866052
+|switch|p1a: Aqua|Suicune|100/100
+|move|p2a: Salamence|Rock Slide|p1a: Aqua
+|-crit|p1a: Aqua
+|-damage|p1a: Aqua|34/100
+|
+|-heal|p1a: Aqua|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1728866063
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Aqua|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|t:|1728866067
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|
+|-heal|p1a: Aqua|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|TheComanderXD has 270 seconds left.
+|inactive|TheComanderXD has 240 seconds left.
+|
+|t:|1728866142
+|switch|p1a: Azure|Snorlax, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Azure
+|-damage|p1a: Azure|65/100
+|
+|-heal|p1a: Azure|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728866151
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Azure|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|83/100
+|
+|-heal|p1a: Azure|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|TheComanderXD has 210 seconds left.
+|
+|t:|1728866185
+|move|p2a: Metagross|Meteor Mash|p1a: Azure|[miss]
+|-miss|p2a: Metagross|p1a: Azure
+|move|p1a: Azure|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|27/100
+|
+|-heal|p1a: Azure|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728866214
+|switch|p1a: Electric|Magneton|100/100 par
+|move|p2a: Metagross|Explosion|p1a: Electric
+|-resisted|p1a: Electric
+|-damage|p1a: Electric|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Electric
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728866246
+|switch|p2a: Salamence|Salamence, M|3/100
+|switch|p1a: Royal|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Royal|atk|1
+|-ability|p1a: Royal|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|
+|upkeep
+|turn|15
+|inactive|TheComanderXD has 150 seconds left.
+|
+|t:|1728866282
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|switch|p1a: Azure|Snorlax, M|84/100
+|
+|-heal|p1a: Azure|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728866296
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|move|p1a: Azure|Self-Destruct|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p1a: Azure
+|faint|p2a: Houndoom
+|
+|t:|1728866312
+|switch|p2a: Salamence|Salamence, M|3/100
+|switch|p1a: Cerulean|Heracross, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Cerulean|atk|1
+|
+|upkeep
+|turn|17
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728866364
+|switch|p1a: Aqua|Suicune|46/100
+|move|p2a: Salamence|Hidden Power|p1a: Aqua
+|-crit|p1a: Aqua
+|-damage|p1a: Aqua|0 fnt
+|faint|p1a: Aqua
+|inactive|TheComanderXD has 90 seconds left.
+|
+|t:|1728866391
+|switch|p1a: Royal|Salamence, M|100/100
+|-ability|p1a: Royal|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|
+|upkeep
+|turn|18
+|inactive|knexhawk2 has 270 seconds left.
+|inactive|knexhawk2 has 240 seconds left.
+|
+|t:|1728866457
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Royal|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|64/100
+|
+|-heal|p2a: Snorlax|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|TheComanderXD has 90 seconds left.
+|inactive|knexhawk2 has 240 seconds left.
+|inactive|TheComanderXD has 60 seconds left.
+|inactive|knexhawk2 has 210 seconds left.
+|
+|t:|1728866501
+|switch|p1a: Cerulean|Heracross, F|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Cerulean
+|-damage|p1a: Cerulean|40/100
+|
+|-heal|p2a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|TheComanderXD has 60 seconds left.
+|inactive|knexhawk2 has 210 seconds left.
+|
+|t:|1728866521
+|move|p1a: Cerulean|Megahorn|p2a: Snorlax
+|-damage|p2a: Snorlax|13/100
+|move|p2a: Snorlax|Body Slam|p1a: Cerulean
+|-damage|p1a: Cerulean|0 fnt
+|faint|p1a: Cerulean
+|
+|t:|1728866526
+|switch|p1a: Royal|Salamence, M|100/100
+|-ability|p1a: Royal|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|
+|-heal|p2a: Snorlax|19/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728866534
+|move|p1a: Royal|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|t:|1728866535
+|switch|p2a: Salamence|Salamence, M|3/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Royal|atk|1
+|
+|upkeep
+|turn|22
+|
+|t:|1728866540
+|move|p2a: Salamence|Rock Slide|p1a: Royal|[miss]
+|-miss|p2a: Salamence|p1a: Royal
+|move|p1a: Royal|Dragon Claw|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|TheComanderXD
+|c|☆TheComanderXD|sorry
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798545">
+{"id":"smogtours-gen3ou-798545","format":"[Gen 3] OU","players":["TheComanderXD","knexhawk2"],"uploadtime":1728866540,"views":151,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

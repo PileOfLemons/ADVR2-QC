@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: luckii_girl vs. Girls See Ghosts - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between luckii_girl and Girls See Ghosts! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796678">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728495099
+|gametype|singles
+|player|p1|luckii_girl|caitlin|
+|player|p2|Girls See Ghosts|phoebe-gen6|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728495099
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: BeWhereverUAre|Flygon, F|100/100
+|turn|1
+|c|☆Girls See Ghosts|glhf
+|inactive|luckii_girl has 270 seconds left.
+|inactive|Girls See Ghosts has 270 seconds left.
+|
+|t:|1728495135
+|move|p2a: BeWhereverUAre|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|2/100
+|move|p1a: Celebi|Substitute|p1a: Celebi
+|-fail|p1a: Celebi|move: Substitute|[weak]
+|
+|-heal|p1a: Celebi|8/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728495144
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: BeWhereverUAre|Hidden Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728495154
+|switch|p2a: Topaz|Magneton|100/100
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|4
+|
+|t:|1728495161
+|move|p2a: Topaz|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728495167
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1728495177
+|switch|p2a: BeWhereverUAre|Flygon, F|100/100
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|76/100
+|
+|upkeep
+|turn|6
+|
+|t:|1728495182
+|move|p1a: Aerodactyl|Double-Edge|p2a: BeWhereverUAre
+|-damage|p2a: BeWhereverUAre|54/100
+|move|p2a: BeWhereverUAre|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1728495191
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: BeWhereverUAre|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|85/100
+|
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728495202
+|switch|p2a: I'm Still Here|Milotic, M|100/100
+|move|p1a: Swampert|Toxic|p2a: I'm Still Here
+|-status|p2a: I'm Still Here|tox
+|
+|-damage|p2a: I'm Still Here|94/100 tox|[from] psn
+|-heal|p1a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728495223
+|move|p2a: I'm Still Here|Refresh|p2a: I'm Still Here
+|-curestatus|p2a: I'm Still Here|tox|[msg]
+|move|p1a: Swampert|Earthquake|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|64/100
+|
+|-heal|p2a: I'm Still Here|70/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728495230
+|move|p2a: I'm Still Here|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Toxic|p2a: I'm Still Here|[miss]
+|-miss|p1a: Swampert|p2a: I'm Still Here
+|
+|-heal|p2a: I'm Still Here|76/100|[from] item: Leftovers
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1728495240
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728495248
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495272
+|switch|p2a: Familiar|Tyranitar, M|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Familiar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728495285
+|move|p2a: Familiar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|move|p1a: Blissey|Thunder Wave|p2a: Familiar
+|-status|p2a: Familiar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|68/100|[from] Sandstorm
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728495295
+|switch|p2a: Escapism|Skarmory, M|100/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: luckii_girl|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|68/100|[from] Sandstorm
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728495307
+|switch|p2a: Aquamarine|Celebi|100/100
+|switch|p1a: Celebi|Celebi|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|2/100|[from] Sandstorm
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|8/100|[from] item: Leftovers
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728495312
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728495321
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495334
+|switch|p2a: Escapism|Skarmory, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1728495337
+|move|p2a: Escapism|Spikes|p1a: Swampert
+|-sidestart|p1: luckii_girl|Spikes
+|move|p1a: Swampert|Surf|p2a: Escapism
+|-damage|p2a: Escapism|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Escapism|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728495348
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Escapism|Protect||[still]
+|-fail|p2a: Escapism
+|
+|-sideend|p1: luckii_girl|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p2a: Escapism|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728495363
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Aquamarine
+|-supereffective|p2a: Aquamarine
+|-damage|p2a: Aquamarine|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100|[from] Sandstorm
+|-damage|p2a: Aquamarine|53/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|59/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728495390
+|switch|p1a: Blissey|Blissey, F|74/100
+|-damage|p1a: Blissey|62/100|[from] Spikes
+|move|p2a: Aquamarine|Recover|p2a: Aquamarine
+|-heal|p2a: Aquamarine|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|56/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|luckii_girl has 270 seconds left.
+|
+|t:|1728495406
+|move|p2a: Aquamarine|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Aquamarine
+|upkeep
+|turn|22
+|inactive|luckii_girl has 270 seconds left.
+|
+|t:|1728495425
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495432
+|switch|p2a: Escapism|Skarmory, M|83/100|[from] Baton Pass
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: luckii_girl|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Escapism|89/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100|[from] Leech Seed|[of] p2a: Escapism
+|-heal|p2a: Escapism|100/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1728495438
+|move|p2a: Escapism|Drill Peck|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|move|p1a: Blissey|Thunder Wave|p2a: Escapism
+|-status|p2a: Escapism|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|-damage|p1a: Blissey|43/100|[from] Leech Seed|[of] p2a: Escapism
+|upkeep
+|turn|24
+|
+|t:|1728495442
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100
+|cant|p2a: Escapism|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-damage|p1a: Blissey|80/100|[from] Leech Seed|[of] p2a: Escapism
+|upkeep
+|turn|25
+|
+|t:|1728495452
+|switch|p1a: Starmie|Starmie|76/100
+|-damage|p1a: Starmie|64/100|[from] Spikes
+|move|p2a: Escapism|Drill Peck|p1a: Starmie
+|-damage|p1a: Starmie|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|23/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1728495465
+|switch|p2a: Familiar|Tyranitar, M|100/100 par
+|move|p1a: Starmie|Thunderbolt|p2a: Familiar
+|-damage|p2a: Familiar|78/100 par
+|
+|-sideend|p1: luckii_girl|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|17/100|[from] Sandstorm
+|-heal|p2a: Familiar|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728495471
+|move|p1a: Starmie|Hydro Pump|p2a: Familiar
+|-supereffective|p2a: Familiar
+|-damage|p2a: Familiar|0 fnt
+|faint|p2a: Familiar
+|
+|t:|1728495478
+|switch|p2a: I'm Still Here|Milotic, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|11/100|[from] Sandstorm
+|-damage|p2a: I'm Still Here|70/100|[from] Sandstorm
+|-heal|p2a: I'm Still Here|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728495482
+|move|p1a: Starmie|Thunderbolt|p2a: I'm Still Here
+|-supereffective|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|33/100
+|-status|p2a: I'm Still Here|par
+|move|p2a: I'm Still Here|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|5/100 tox|[from] Sandstorm
+|-damage|p2a: I'm Still Here|27/100 par|[from] Sandstorm
+|-damage|p1a: Starmie|0 fnt|[from] psn
+|faint|p1a: Starmie
+|-heal|p2a: I'm Still Here|33/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1728495506
+|switch|p1a: Aerodactyl|Aerodactyl, F|76/100
+|turn|29
+|
+|t:|1728495516
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|51/100
+|cant|p2a: I'm Still Here|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|27/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728495520
+|move|p1a: Aerodactyl|Double-Edge|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|14/100 par
+|move|p2a: I'm Still Here|Recover|p2a: I'm Still Here
+|-heal|p2a: I'm Still Here|64/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|58/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728495527
+|move|p1a: Aerodactyl|Rock Slide|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|47/100 par
+|cant|p2a: I'm Still Here|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|40/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728495531
+|move|p1a: Aerodactyl|Rock Slide|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|30/100 par
+|cant|p2a: I'm Still Here|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|23/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728495536
+|move|p1a: Aerodactyl|Rock Slide|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|14/100 par
+|move|p2a: I'm Still Here|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|8/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728495544
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|26/100
+|move|p2a: I'm Still Here|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|8/100 par|[from] Sandstorm
+|-heal|p2a: I'm Still Here|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728495555
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|1/100
+|move|p2a: I'm Still Here|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I'm Still Here|8/100 par|[from] Sandstorm
+|-enditem|p1a: Aerodactyl|Liechi Berry|[eat]
+|-boost|p1a: Aerodactyl|atk|1|[from] item: Liechi Berry
+|-heal|p2a: I'm Still Here|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728495566
+|move|p1a: Aerodactyl|Double-Edge|p2a: I'm Still Here
+|-damage|p2a: I'm Still Here|0 fnt
+|faint|p2a: I'm Still Here
+|
+|t:|1728495569
+|switch|p2a: Escapism|Skarmory, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1728495573
+|move|p1a: Aerodactyl|Rock Slide|p2a: Escapism
+|-damage|p2a: Escapism|63/100 par
+|cant|p2a: Escapism|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Escapism|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728495577
+|move|p1a: Aerodactyl|Rock Slide|p2a: Escapism
+|-damage|p2a: Escapism|29/100 par
+|cant|p2a: Escapism|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Escapism|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728495589
+|move|p1a: Aerodactyl|Rock Slide|p2a: Escapism
+|-damage|p2a: Escapism|0 fnt
+|faint|p2a: Escapism
+|
+|t:|1728495606
+|switch|p2a: Aquamarine|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|luckii_girl has 270 seconds left.
+|inactive|luckii_girl has 240 seconds left.
+|
+|t:|1728495691
+|switch|p1a: Blissey|Blissey, F|80/100
+|-damage|p1a: Blissey|68/100|[from] Spikes
+|move|p2a: Aquamarine|Hidden Power|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728495704
+|move|p2a: Aquamarine|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Thunder Wave|p2a: Aquamarine
+|-status|p2a: Aquamarine|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Aquamarine|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-damage|p1a: Blissey|38/100|[from] Leech Seed|[of] p2a: Aquamarine
+|-heal|p2a: Aquamarine|100/100 par|[silent]
+|upkeep
+|turn|42
+|
+|t:|1728495710
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|88/100
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495716
+|-curestatus|p2a: Aquamarine|par|[from] ability: Natural Cure
+|switch|p2a: BeWhereverUAre|Flygon, F|54/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100|[from] Leech Seed|[of] p2a: BeWhereverUAre
+|-heal|p2a: BeWhereverUAre|83/100|[silent]
+|upkeep
+|turn|43
+|
+|t:|1728495736
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Blissey|Counter|p2a: Aquamarine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|-damage|p1a: Blissey|63/100|[from] Leech Seed|[of] p2a: Aquamarine
+|upkeep
+|turn|44
+|
+|t:|1728495751
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495759
+|switch|p2a: BeWhereverUAre|Flygon, F|83/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728495766
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Swampert|Toxic|p2a: Aquamarine
+|-status|p2a: Aquamarine|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100 tox|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Aquamarine|94/100 tox|[from] psn
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|luckii_girl has 210 seconds left.
+|
+|t:|1728495801
+|move|p2a: Aquamarine|Leech Seed|p1a: Swampert
+|-start|p1a: Swampert|move: Leech Seed
+|move|p1a: Swampert|Earthquake|p2a: Aquamarine
+|-resisted|p2a: Aquamarine
+|-damage|p2a: Aquamarine|80/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|74/100 tox|[from] Sandstorm
+|-heal|p2a: Aquamarine|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Aquamarine|68/100 tox|[from] psn
+|-damage|p1a: Swampert|88/100|[from] Leech Seed|[of] p2a: Aquamarine
+|-heal|p2a: Aquamarine|80/100 tox|[silent]
+|upkeep
+|turn|47
+|
+|t:|1728495806
+|switch|p1a: Blissey|Blissey, F|63/100
+|-damage|p1a: Blissey|51/100|[from] Spikes
+|move|p2a: Aquamarine|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|74/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|35/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Aquamarine|62/100 tox|[from] psn
+|-heal|p1a: Blissey|41/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728495815
+|-curestatus|p2a: Aquamarine|tox|[from] ability: Natural Cure
+|switch|p2a: Topaz|Magneton|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728495820
+|switch|p2a: Aquamarine|Celebi|62/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: luckii_girl|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|55/100|[from] Sandstorm
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|62/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728495825
+|move|p2a: Aquamarine|Recover|p2a: Aquamarine
+|-heal|p2a: Aquamarine|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: Aquamarine
+|-status|p2a: Aquamarine|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-damage|p2a: Aquamarine|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|-heal|p2a: Aquamarine|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|luckii_girl has 240 seconds left.
+|
+|t:|1728495850
+|switch|p1a: Celebi|Celebi|8/100
+|-damage|p1a: Celebi|0 fnt|[from] Spikes
+|faint|p1a: Celebi
+|
+|t:|1728495853
+|switch|p1a: Swampert|Swampert, M|88/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100 par|[from] Sandstorm
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|-heal|p2a: Aquamarine|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728495869
+|move|p1a: Swampert|Surf|p2a: Aquamarine
+|-resisted|p2a: Aquamarine
+|-damage|p2a: Aquamarine|91/100 par
+|move|p2a: Aquamarine|Leech Seed|p1a: Swampert
+|-start|p1a: Swampert|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|85/100 par|[from] Sandstorm
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|-damage|p1a: Swampert|76/100|[from] Leech Seed|[of] p2a: Aquamarine
+|-heal|p2a: Aquamarine|97/100 par|[silent]
+|-heal|p2a: Aquamarine|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728495875
+|switch|p1a: Blissey|Blissey, F|91/100
+|-damage|p1a: Blissey|79/100|[from] Spikes
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495878
+|-curestatus|p2a: Aquamarine|par|[from] ability: Natural Cure
+|switch|p2a: BeWhereverUAre|Flygon, F|83/100|[from] Baton Pass
+|
+|-sideend|p1: luckii_girl|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|luckii_girl has 240 seconds left.
+|
+|t:|1728495893
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Blissey|Counter|p2a: Aquamarine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|73/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728495904
+|move|p2a: Aquamarine|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: luckii_girl|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|73/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-damage|p1a: Blissey|66/100|[from] Leech Seed|[of] p2a: Aquamarine
+|upkeep
+|turn|56
+|
+|t:|1728495910
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495912
+|switch|p2a: BeWhereverUAre|Flygon, F|83/100|[from] Baton Pass
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: BeWhereverUAre
+|-heal|p2a: BeWhereverUAre|100/100|[silent]
+|upkeep
+|turn|57
+|
+|t:|1728495919
+|switch|p2a: Aquamarine|Celebi|100/100
+|move|p1a: Blissey|Counter|p2a: Aquamarine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100|[from] Leech Seed|[of] p2a: Aquamarine
+|upkeep
+|turn|58
+|
+|t:|1728495927
+|switch|p1a: Swampert|Swampert, M|76/100
+|-damage|p1a: Swampert|63/100|[from] Spikes
+|move|p2a: Aquamarine|Baton Pass|p2a: Aquamarine
+|
+|t:|1728495931
+|switch|p2a: BeWhereverUAre|Flygon, F|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728495939
+|move|p2a: BeWhereverUAre|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|7/100
+|move|p1a: Swampert|Toxic|p2a: BeWhereverUAre
+|-status|p2a: BeWhereverUAre|tox
+|
+|-sideend|p1: luckii_girl|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BeWhereverUAre|95/100 tox|[from] psn
+|-heal|p1a: Swampert|14/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728495947
+|move|p2a: BeWhereverUAre|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|c|☆luckii_girl|gg
+|c|☆Girls See Ghosts|gg
+|
+|t:|1728495966
+|switch|p1a: Blissey|Blissey, F|76/100
+|-damage|p1a: Blissey|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|57/100|[from] Sandstorm
+|-damage|p2a: BeWhereverUAre|83/100 tox|[from] psn
+|-heal|p1a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728495974
+|move|p2a: BeWhereverUAre|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|10/100
+|move|p1a: Blissey|Thunder Wave|p2a: BeWhereverUAre
+|-immune|p2a: BeWhereverUAre
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|4/100|[from] Sandstorm
+|-damage|p2a: BeWhereverUAre|65/100 tox|[from] psn
+|-heal|p1a: Blissey|10/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728495984
+|move|p2a: BeWhereverUAre|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728495986
+|switch|p1a: Aerodactyl|Aerodactyl, F|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BeWhereverUAre|41/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1728496007
+|move|p1a: Aerodactyl|Double-Edge|p2a: BeWhereverUAre
+|-damage|p2a: BeWhereverUAre|0 fnt
+|faint|p2a: BeWhereverUAre
+|
+|t:|1728496009
+|switch|p2a: Topaz|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|64
+|
+|t:|1728496014
+|move|p1a: Aerodactyl|Earthquake|p2a: Topaz
+|-supereffective|p2a: Topaz
+|-damage|p2a: Topaz|0 fnt
+|faint|p2a: Topaz
+|
+|t:|1728496016
+|switch|p2a: Aquamarine|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquamarine|94/100|[from] Sandstorm
+|-heal|p2a: Aquamarine|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|c|☆luckii_girl|flinch.......
+|
+|t:|1728496025
+|move|p1a: Aerodactyl|Rock Slide|p2a: Aquamarine
+|-damage|p2a: Aquamarine|73/100
+|move|p2a: Aquamarine|Hidden Power|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|Girls See Ghosts
+|c|☆luckii_girl|lol
+|c|☆luckii_girl|gg
+|c|☆Girls See Ghosts|phew
+|c|☆Girls See Ghosts|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796678">
+{"id":"smogtours-gen3ou-796678","format":"[Gen 3] OU","players":["luckii_girl","Girls See Ghosts"],"uploadtime":1728496025,"views":90,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

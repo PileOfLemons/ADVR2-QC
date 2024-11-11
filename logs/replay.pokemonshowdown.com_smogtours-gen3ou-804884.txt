@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Sheik vs. kaboom64 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Sheik and kaboom64! Format: [Gen 3] OU; Date: Nov 5, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804884">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|badge|p2|bronze|gen9lc|100-3
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.<\/a><\/div>
+|t:|1730823785
+|gametype|singles
+|player|p1|Sheik|#roaplxyorknewyanma|
+|player|p2|kaboom64|#advpliv|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730823785
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|c|☆Sheik|/log Sheik made the replay of this battle unlisted.
+|
+|t:|1730823800
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Skarmory|Spikes|p1a: Magneton
+|-sidestart|p1: Sheik|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1730823804
+|move|p1a: Magneton|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1730823822
+|switch|p2a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1730823839
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|move|p2a: Moltres|Flamethrower|p1a: Snorlax
+|-damage|p1a: Snorlax|58/100
+|
+|-heal|p1a: Snorlax|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730823845
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Snorlax|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|34/100
+|
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730823858
+|move|p2a: Gengar|Will-O-Wisp|p1a: Snorlax|[miss]
+|-miss|p2a: Gengar|p1a: Snorlax
+|move|p1a: Snorlax|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730823863
+|switch|p2a: Flygon|Flygon, M|100/100
+|
+|-heal|p1a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730823876
+|move|p2a: Flygon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|43/100
+|move|p1a: Snorlax|Body Slam|p2a: Flygon
+|-damage|p2a: Flygon|50/100
+|
+|-heal|p2a: Flygon|56/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730823883
+|move|p2a: Flygon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|12/100
+|move|p1a: Snorlax|Body Slam|p2a: Flygon
+|-damage|p2a: Flygon|9/100
+|
+|-heal|p2a: Flygon|15/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|18/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730823888
+|move|p2a: Flygon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|t:|1730823889
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|
+|-heal|p2a: Flygon|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730823905
+|switch|p2a: Articuno|Articuno|100/100
+|move|p1a: Salamence|Hidden Power|p2a: Articuno
+|-damage|p2a: Articuno|64/100
+|
+|-heal|p2a: Articuno|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730823918
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|switch|p2a: Flygon|Flygon, M|21/100
+|
+|-heal|p2a: Flygon|27/100|[from] item: Leftovers
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|kaboom64 has 270 seconds left.
+|
+|t:|1730823945
+|move|p2a: Flygon|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|c|☆Sheik|Jaja
+|c|☆Sheik|Q opinws churielix
+|
+|t:|1730823964
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|
+|-heal|p2a: Flygon|33/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|+Churielix|mucha skill
+|c|+Churielix|falta l2p
+|inactive|kaboom64 has 270 seconds left.
+|
+|t:|1730823988
+|switch|p2a: Articuno|Articuno|70/100
+|move|p1a: Salamence|Hidden Power|p2a: Articuno
+|-damage|p2a: Articuno|34/100
+|
+|-heal|p2a: Articuno|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|kaboom64 has 270 seconds left.
+|
+|t:|1730824004
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|88/100|[from] Spikes
+|move|p2a: Articuno|Ice Beam|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|62/100
+|
+|-heal|p2a: Articuno|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|kaboom64 has 240 seconds left.
+|
+|t:|1730824040
+|move|p1a: Magneton|Toxic|p2a: Articuno
+|-status|p2a: Articuno|tox
+|move|p2a: Articuno|Ice Beam|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|36/100
+|-status|p1a: Magneton|frz
+|
+|-heal|p2a: Articuno|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Articuno|46/100 tox|[from] psn
+|upkeep
+|turn|15
+|c|☆Sheik|Lolazo
+|inactive|kaboom64 has 240 seconds left.
+|
+|t:|1730824048
+|-curestatus|p1a: Magneton|frz|[msg]
+|move|p1a: Magneton|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|inactive|kaboom64 has 240 seconds left.
+|c|+Churielix|bueno eso a era justo
+|c|+Churielix|ya
+|
+|t:|1730824064
+|switch|p2a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1730824075
+|move|p2a: Moltres|Flamethrower|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1730824078
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Spikes
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730824091
+|move|p2a: Moltres|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|54/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|kaboom64 has 240 seconds left.
+|
+|t:|1730824115
+|switch|p2a: Flygon|Flygon, M|33/100
+|move|p1a: Suicune|Surf|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1730824117
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730824126
+|move|p1a: Suicune|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|45/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|27/100
+|
+|-heal|p1a: Suicune|33/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730824130
+|move|p1a: Suicune|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1730824132
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-heal|p1a: Suicune|40/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730824134
+|move|p2a: Moltres|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|14/100
+|move|p1a: Suicune|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|Sheik
+|c|☆kaboom64|gg
+|player|p2|
+|c|☆Sheik|gg
+|player|p1|
+|player|p2|kaboom64|#advpliv|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804884">
+{"id":"smogtours-gen3ou-804884","format":"[Gen 3] OU","players":["Sheik","kaboom64"],"uploadtime":1730824134,"views":33,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

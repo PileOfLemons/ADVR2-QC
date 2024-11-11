@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: RetiredBohrier vs. kalarse - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between RetiredBohrier and kalarse! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800374">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729434169
+|gametype|singles
+|player|p1|RetiredBohrier|265|
+|player|p2|kalarse|fantina|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729434169
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Forry|Forretress, F|100/100
+|turn|1
+|c|☆kalarse|glhf!!
+|c|☆RetiredBohrier|glhf
+|
+|t:|1729434185
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|93/100
+|-status|p2a: Swampert|brn
+|
+|-heal|p2a: Swampert|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|87/100 brn|[from] brn
+|upkeep
+|turn|2
+|c|☆RetiredBohrier|btw we've been playing for 53 minutes already
+|c|☆kalarse|ikr
+|c|☆RetiredBohrier|that's insane
+|
+|t:|1729434194
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Swampert|Refresh|p2a: Swampert
+|-curestatus|p2a: Swampert|brn|[msg]
+|
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|+adorluigi|g3?
+|c|☆RetiredBohrier|fsr in my top 5 longest set of all time
+|c|☆RetiredBohrier|yeah
+|c|☆kalarse|been a while since the last time i played gen3 for that long
+|
+|t:|1729434212
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Skarmory|Spikes|p2a: Magneton
+|-sidestart|p2: kalarse|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1729434222
+|move|p2a: Magneton|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|move|p1a: Skarmory|Roar|p2a: Magneton
+|drag|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆RetiredBohrier|Oh lmao 
+|c|☆RetiredBohrier|That is one weak mafgneton
+|
+|t:|1729434236
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Skarmory|Spikes|p2a: Suicune
+|-sidestart|p2: kalarse|Spikes
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729434247
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1729434250
+|switch|p1a: Suicune|Suicune|100/100
+|
+|upkeep
+|turn|7
+|c|☆RetiredBohrier|I have ptsd now
+|
+|t:|1729434259
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|84/100
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: MyDog|Arcanine, F|100/100
+|-damage|p2a: MyDog|84/100|[from] Spikes
+|-ability|p2a: MyDog|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|-heal|p2a: MyDog|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆RetiredBohrier|oh I see
+|c|+adorluigi|awe hell naw
+|
+|t:|1729434280
+|switch|p2a: Forry|Forretress, F|100/100
+|-damage|p2a: Forry|84/100|[from] Spikes
+|move|p1a: Suicune|Surf|p2a: Forry
+|-damage|p2a: Forry|44/100
+|
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|-heal|p2a: Forry|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆RetiredBohrier|the last is gengar btw
+|c|☆RetiredBohrier|ador I'm betting 60 rupees that last is gengar
+|c|+adorluigi|:sob:
+|
+|t:|1729434299
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Forry|Explosion|p1a: Suicune
+|-damage|p1a: Suicune|36/100
+|faint|p2a: Forry
+|
+|t:|1729434310
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|84/100|[from] Spikes
+|
+|-heal|p1a: Suicune|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆RetiredBohrier|cune took that like a champ
+|
+|t:|1729434327
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Magneton|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729434336
+|switch|p2a: Swampert|Swampert, F|93/100
+|-damage|p2a: Swampert|76/100|[from] Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|51/100
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729434347
+|switch|p1a: Suicune|Suicune|42/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-heal|p1a: Suicune|48/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆RetiredBohrier|See?
+|
+|t:|1729434356
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Gengar|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729434362
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|move|p1a: Blissey|Ice Beam|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|+adorluigi|LOL
+|
+|t:|1729434372
+|switch|p2a: MyDog|Arcanine, F|90/100
+|-damage|p2a: MyDog|73/100|[from] Spikes
+|-ability|p2a: MyDog|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Ice Beam|p2a: MyDog
+|-resisted|p2a: MyDog
+|-damage|p2a: MyDog|61/100
+|
+|-heal|p2a: MyDog|67/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆RetiredBohrier|(this is his g1 team)
+|c|+adorluigi|cheater
+|
+|t:|1729434385
+|move|p2a: MyDog|Howl|p2a: MyDog
+|-boost|p2a: MyDog|atk|1
+|move|p1a: Blissey|Seismic Toss|p2a: MyDog
+|-damage|p2a: MyDog|41/100
+|
+|-heal|p2a: MyDog|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|+adorluigi|wtf
+|c|☆RetiredBohrier|damn that guy is howling
+|c|☆RetiredBohrier|in 2024
+|c|☆RetiredBohrier|dont you know that noise pollution is a thing dude 
+|
+|t:|1729434410
+|move|p2a: MyDog|Hidden Power|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|move|p1a: Blissey|Seismic Toss|p2a: MyDog
+|-damage|p2a: MyDog|21/100
+|
+|-heal|p2a: MyDog|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆kalarse|my 2009 team doin work (?)
+|
+|t:|1729434424
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: MyDog|Hidden Power|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|83/100
+|
+|-heal|p2a: MyDog|34/100|[from] item: Leftovers
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆RetiredBohrier|2009 wow
+|c|☆RetiredBohrier|I was born in 2007
+|c|☆kalarse|it pains me to read that hahaha
+|inactive|kalarse has 270 seconds left.
+|c|☆RetiredBohrier|U people are so old
+|
+|t:|1729434459
+|switch|p2a: Gengar|Gengar, F|82/100
+|move|p1a: Claydol|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-heal|p2a: Gengar|88/100|[from] item: Leftovers
+|-heal|p1a: Claydol|95/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434470
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|63/100
+|move|p1a: Claydol|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|69/100|[from] item: Leftovers
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆RetiredBohrier|Ador is not old 
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434479
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|84/100|[from] Spikes
+|move|p1a: Claydol|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|68/100
+|-unboost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆RetiredBohrier|ador how old are u
+|c|+adorluigi|I just turned 13
+|c|☆RetiredBohrier|no how old are you
+|
+|t:|1729434491
+|switch|p1a: Suicune|Suicune|48/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|54/100|[from] item: Leftovers
+|-heal|p2a: Suicune|80/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|+adorluigi|I think im 21
+|
+|t:|1729434500
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|36/100
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: Swampert|Swampert, F|58/100
+|-damage|p2a: Swampert|41/100|[from] Spikes
+|
+|-heal|p1a: Suicune|42/100|[from] item: Leftovers
+|-heal|p2a: Swampert|47/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆RetiredBohrier|Bro is thinking his age 
+|
+|t:|1729434512
+|switch|p2a: Magneton|Magneton|84/100
+|-damage|p2a: Magneton|67/100|[from] Spikes
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|t:|1729434520
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Magneton|Substitute|p2a: Magneton
+|-start|p2a: Magneton|Substitute
+|-damage|p2a: Magneton|43/100
+|
+|upkeep
+|turn|26
+|
+|t:|1729434528
+|move|p1a: Dugtrio|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-end|p2a: Magneton|Substitute
+|move|p2a: Magneton|Hidden Power|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1729434531
+|switch|p1a: Blissey|Blissey, F|43/100
+|
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆RetiredBohrier|Magneton is stronk
+|
+|t:|1729434543
+|switch|p2a: Gengar|Gengar, F|69/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100
+|
+|-heal|p2a: Gengar|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆RetiredBohrier|I might actually lose this
+|
+|t:|1729434557
+|switch|p2a: Suicune|Suicune|80/100
+|-damage|p2a: Suicune|64/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|55/100
+|
+|-heal|p2a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729434565
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-heal|p2a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729434572
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729434579
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|78/100
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: Gengar|Gengar, F|75/100
+|
+|-heal|p2a: Gengar|81/100|[from] item: Leftovers
+|-heal|p1a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729434588
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|56/100
+|
+|-heal|p2a: Gengar|63/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729434596
+|-singleturn|p2a: Gengar|move: Focus Punch
+|move|p1a: Blissey|Ice Beam|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|move|p2a: Gengar|Focus Punch|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|38/100
+|
+|-heal|p2a: Gengar|69/100|[from] item: Leftovers
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729434609
+|-singleturn|p2a: Gengar|move: Focus Punch
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Gengar|Focus Punch|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|83/100
+|
+|-heal|p2a: Gengar|75/100|[from] item: Leftovers
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆RetiredBohrier|Bro has every antiblissey tech in the world
+|c|☆RetiredBohrier|except the good ones
+|c|☆RetiredBohrier|(watch me lose this)
+|c|☆kalarse|sorry
+|c|☆kalarse|2006 were horrible years
+|
+|t:|1729434635
+|switch|p2a: MyDog|Arcanine, F|34/100
+|-damage|p2a: MyDog|17/100|[from] Spikes
+|-ability|p2a: MyDog|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|move|p1a: Claydol|Psychic|p2a: MyDog
+|-damage|p2a: MyDog|0 fnt
+|faint|p2a: MyDog
+|c|☆RetiredBohrier|2006 we're the years where sub blocked rapid spin
+|inactive|kalarse has 270 seconds left.
+|c|☆RetiredBohrier|Were*
+|c|+adorluigi|wtf...
+|
+|t:|1729434652
+|switch|p2a: Magneton|Magneton|43/100
+|-damage|p2a: Magneton|26/100|[from] Spikes
+|
+|-heal|p1a: Claydol|95/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434658
+|move|p2a: Magneton|Substitute|p2a: Magneton
+|-start|p2a: Magneton|Substitute
+|-damage|p2a: Magneton|1/100
+|move|p1a: Claydol|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-end|p2a: Magneton|Substitute
+|
+|-enditem|p2a: Magneton|Salac Berry|[eat]
+|-boost|p2a: Magneton|spe|1|[from] item: Salac Berry
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆RetiredBohrier|Ikr
+|c|☆RetiredBohrier|Insane stuff
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434671
+|move|p2a: Magneton|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|54/100
+|move|p1a: Claydol|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434686
+|switch|p2a: Suicune|Suicune|74/100
+|-damage|p2a: Suicune|57/100|[from] Spikes
+|
+|-heal|p2a: Suicune|63/100|[from] item: Leftovers
+|-heal|p1a: Claydol|60/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|c|☆RetiredBohrier|Watch this swampert clap my cheeks
+|c|☆RetiredBohrier|AGAIN
+|
+|t:|1729434693
+|switch|p1a: Suicune|Suicune|84/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|73/100
+|
+|-heal|p1a: Suicune|79/100|[from] item: Leftovers
+|-heal|p2a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434703
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|85/100|[from] item: Leftovers
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729434712
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|77/100
+|
+|-heal|p1a: Suicune|83/100|[from] item: Leftovers
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729434723
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|75/100
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: Swampert|Swampert, F|47/100
+|-damage|p2a: Swampert|31/100|[from] Spikes
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|-heal|p2a: Swampert|37/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|c|☆RetiredBohrier|Holy hell 
+|c|☆kalarse|i think i lost tho
+|c|☆RetiredBohrier|I might actually win 
+|inactive|kalarse has 270 seconds left.
+|c|☆kalarse|didn't bring my anti suicune tech :P
+|c|☆RetiredBohrier|(there is no anti suicune tech)
+|c|☆RetiredBohrier|(except crying)
+|
+|t:|1729434759
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|60/100
+|
+|-heal|p1a: Suicune|66/100|[from] item: Leftovers
+|-heal|p2a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434768
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Suicune|Surf|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-heal|p1a: Suicune|72/100|[from] item: Leftovers
+|-heal|p2a: Swampert|49/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729434777
+|move|p1a: Suicune|Surf|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729434781
+|switch|p2a: Gengar|Gengar, F|75/100
+|
+|-heal|p2a: Gengar|81/100|[from] item: Leftovers
+|-heal|p1a: Suicune|78/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|c|☆kalarse|just freeze
+|
+|t:|1729434794
+|move|p2a: Gengar|Ice Punch|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|75/100
+|move|p1a: Suicune|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|c|☆kalarse|too funny to happen tho
+|c|☆kalarse|gg
+|inactive|kalarse has 270 seconds left.
+|c|☆RetiredBohrier|U got 10 crits or something in game 1 man u ain't getting no freeze
+|c|☆RetiredBohrier|Gg
+|
+|t:|1729434815
+|switch|p2a: Suicune|Suicune|82/100
+|-damage|p2a: Suicune|65/100|[from] Spikes
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|c|☆RetiredBohrier|U can play it out
+|c|☆RetiredBohrier|U have a cune too
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434822
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|43/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|87/100|[from] item: Leftovers
+|-heal|p2a: Suicune|49/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434834
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|32/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|93/100|[from] item: Leftovers
+|-heal|p2a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|c|☆RetiredBohrier|Oh wait
+|c|☆RetiredBohrier|It's stalk
+|c|☆RetiredBohrier|I remember now
+|c|+adorluigi|xd
+|inactive|kalarse has 270 seconds left.
+|c|☆RetiredBohrier|I thought it was roar
+|c|☆RetiredBohrier|Yeah ggg
+|c|☆RetiredBohrier|Gg*
+|
+|t:|1729434854
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|24/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434863
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Calm Mind|p2a: Suicune|[from]Sleep Talk
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|c|☆RetiredBohrier|Well we gotta do the Ole pp stall
+|inactive|kalarse has 270 seconds left.
+|c|☆kalarse|i'd have to get insane luck to clutch it out
+|
+|t:|1729434877
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Surf|p1a: Suicune|[from]Sleep Talk
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|92/100
+|
+|-heal|p1a: Suicune|98/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|c|☆RetiredBohrier|Nah u can 
+|inactive|kalarse has 270 seconds left.
+|
+|t:|1729434887
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|85/100 slp
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729434897
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729434906
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729434918
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|80/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|89/100
+|
+|-heal|p1a: Suicune|95/100|[from] item: Leftovers
+|-heal|p2a: Suicune|86/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆kalarse|lets go gambling
+|c|☆RetiredBohrier|Ikr
+|c|☆RetiredBohrier|Love gambling
+|
+|t:|1729434927
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|75/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|85/100
+|
+|-heal|p1a: Suicune|91/100|[from] item: Leftovers
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|c|☆kalarse|aw dang it
+|
+|t:|1729434936
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|70/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|79/100
+|
+|-heal|p1a: Suicune|85/100|[from] item: Leftovers
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|c|☆RetiredBohrier|yeah u can't win 
+|c|☆RetiredBohrier|only 3 surfs left
+|
+|t:|1729434947
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|65/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|75/100
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|c|☆RetiredBohrier|ggwp
+|c|☆kalarse|gg, was fun
+|c|☆RetiredBohrier|yeah
+|
+|t:|1729434956
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|61/100
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|70/100
+|
+|-heal|p1a: Suicune|76/100|[from] item: Leftovers
+|-heal|p2a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|c|☆RetiredBohrier|ur 2-2 now?
+|c|☆RetiredBohrier|or 3-1?
+|c|☆kalarse|2-2
+|
+|t:|1729434968
+|switch|p1a: Claydol|Claydol|60/100
+|move|p2a: Suicune|Surf|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|c|☆RetiredBohrier|ah ok
+|
+|t:|1729434975
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-heal|p2a: Suicune|73/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729434981
+|move|p1a: Jirachi|Toxic|p2a: Suicune|[miss]
+|-miss|p1a: Jirachi|p2a: Suicune
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|61
+|c|☆RetiredBohrier|I will toxic stall you 
+|
+|t:|1729434988
+|switch|p1a: Blissey|Blissey, F|44/100
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Rest|p2a: Suicune|[from]Sleep Talk
+|
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|c|☆RetiredBohrier|so please forfeit 
+|c|☆kalarse|understandable
+|c|☆RetiredBohrier|let's make this shorter
+|c|☆kalarse|yeah
+|c|☆kalarse|if i were younger i would've played the long game
+|c|☆kalarse|too old for this hjahahaha
+|c|☆RetiredBohrier|I was gonna boom 
+|-message|kalarse forfeited.
+|
+|win|RetiredBohrier
+|c|☆RetiredBohrier|But then I miscounted
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800374">
+{"id":"smogtours-gen3ou-800374","format":"[Gen 3] OU","players":["RetiredBohrier","kalarse"],"uploadtime":1729435016,"views":101,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

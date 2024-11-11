@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: mcgowin vs. zacynthius - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between mcgowin and zacynthius! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799609">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729276561
+|gametype|singles
+|player|p1|mcgowin|169|
+|player|p2|zacynthius|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729276561
+|start
+|switch|p1a: Breloom|Breloom, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|1
+|c|☆zacynthius|glhf!
+|c|☆mcgowin|glhf :)
+|inactive|zacynthius has 270 seconds left.
+|
+|t:|1729276609
+|switch|p1a: Sal|Salamence, F|100/100
+|-ability|p1a: Sal|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Fire Blast|p1a: Sal|[miss]
+|-miss|p2a: Salamence|p1a: Sal
+|
+|upkeep
+|turn|2
+|
+|t:|1729276635
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Sal|Dragon Claw|p2a: Swampert
+|-damage|p2a: Swampert|63/100
+|
+|-heal|p2a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729276652
+|move|p1a: Sal|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729276659
+|switch|p2a: Celebi|Celebi|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729276671
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1729276682
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1729276684
+|switch|p2a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|76/100
+|
+|upkeep
+|turn|6
+|
+|t:|1729276694
+|move|p2a: Metagross|Meteor Mash|p1a: Metagross|[miss]
+|-miss|p2a: Metagross|p1a: Metagross
+|move|p1a: Metagross|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|11/100
+|
+|upkeep
+|turn|7
+|
+|t:|1729276703
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Metagross|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|8
+|
+|t:|1729276707
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729276712
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|57/100
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729276731
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|38/100
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729276736
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|44/100
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos|[miss]
+|-miss|p1a: Metagross|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|-heal|p1a: Metagross|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729276753
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|1/100
+|move|p1a: Metagross|Meteor Mash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|16/100
+|
+|-heal|p2a: Zapdos|23/100|[from] item: Leftovers
+|-heal|p1a: Metagross|7/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729276767
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1729276769
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-heal|p2a: Zapdos|29/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729276776
+|switch|p2a: Metagross|Metagross|11/100
+|move|p1a: Starmie|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|inactive|zacynthius has 270 seconds left.
+|
+|t:|1729276809
+|switch|p2a: Celebi|Celebi|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1729276817
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729276831
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|66/100|[from] Sandstorm
+|-heal|p2a: Celebi|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729276837
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|42/100|[from] Sandstorm
+|-heal|p2a: Celebi|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729276842
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|6/100
+|-heal|p2a: Celebi|94/100|[from] drain|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|63/100|[from] Sandstorm
+|-heal|p2a: Celebi|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729276850
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|49/100
+|-unboost|p2a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|43/100|[from] Sandstorm
+|-heal|p2a: Celebi|49/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729276856
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Celebi|51/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|t:|1729276863
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|45/100|[from] Sandstorm
+|-heal|p2a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729276871
+|move|p1a: Scizor|Endure|p1a: Scizor
+|-singleturn|p1a: Scizor|move: Endure
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1729276875
+|switch|p2a: Salamence|Salamence, M|100/100|[from] Baton Pass
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1729276890
+|switch|p1a: Sal|Salamence, F|100/100
+|-ability|p1a: Sal|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Dragon Claw|p1a: Sal
+|-supereffective|p1a: Sal
+|-damage|p1a: Sal|0 fnt
+|faint|p1a: Sal
+|
+|t:|1729276895
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Salamence|88/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729276901
+|move|p1a: Starmie|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|32/100
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729276905
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|26/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1729276920
+|move|p1a: Scizor|Endure|p1a: Scizor
+|-singleturn|p1a: Scizor|move: Endure
+|move|p2a: Salamence|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-activate|p1a: Scizor|move: Endure
+|-damage|p1a: Scizor|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|20/100|[from] Sandstorm
+|-enditem|p1a: Scizor|Salac Berry|[eat]
+|-boost|p1a: Scizor|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|25
+|
+|t:|1729276927
+|move|p1a: Scizor|Reversal|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729276934
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1729276938
+|move|p1a: Scizor|Reversal|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1729276941
+|switch|p2a: Zapdos|Zapdos|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|23/100|[from] Sandstorm
+|-heal|p2a: Zapdos|29/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729276946
+|move|p1a: Scizor|Reversal|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1729276949
+|switch|p2a: Celebi|Celebi|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|45/100|[from] Sandstorm
+|-heal|p2a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729276954
+|move|p1a: Scizor|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|win|mcgowin
+|c|☆mcgowin|gg
+|c|☆zacynthius|GG
+|c|☆mcgowin|crazy game
+|c|☆zacynthius|yeah that starmie scared me lol
+|c|☆mcgowin|i was terrified the mence had me
+|c|☆mcgowin|i'm lucky the ice beam did so much
+|c|☆zacynthius|you ready for game 2?
+|c|☆mcgowin|yes
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799609">
+{"id":"smogtours-gen3ou-799609","format":"[Gen 3] OU","players":["mcgowin","zacynthius"],"uploadtime":1729276954,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: CostcoCustomer vs. rezzo64 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between CostcoCustomer and rezzo64! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799499">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729258523
+|gametype|singles
+|player|p1|CostcoCustomer|mina|
+|player|p2|rezzo64|worker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729258523
+|start
+|switch|p1a: Zados|Zapdos|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|
+|t:|1729258541
+|switch|p2a: Snorlax|Snorlax, F, shiny|100/100
+|move|p1a: Zados|Baton Pass|p1a: Zados
+|
+|t:|1729258550
+|switch|p1a: Tyrantar|Tyranitar, M|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyrantar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729258558
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Tyrantar|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729258565
+|switch|p1a: Sucune|Suicune, shiny|100/100
+|move|p2a: Swampert|Toxic|p1a: Sucune
+|-status|p1a: Sucune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sucune|94/100 tox|[from] Sandstorm
+|-heal|p1a: Sucune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sucune|94/100 tox|[from] psn
+|-heal|p2a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729258576
+|switch|p2a: Snorlax|Snorlax, F, shiny|100/100
+|move|p1a: Sucune|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sucune|88/100 tox|[from] Sandstorm
+|-damage|p2a: Snorlax|75/100|[from] Sandstorm
+|-heal|p1a: Sucune|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Sucune|82/100 tox|[from] psn
+|-heal|p2a: Snorlax|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729258588
+|switch|p1a: Jrachi|Jirachi|100/100
+|move|p2a: Snorlax|Earthquake|p1a: Jrachi
+|-supereffective|p1a: Jrachi
+|-damage|p1a: Jrachi|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|75/100|[from] Sandstorm
+|-heal|p1a: Jrachi|53/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729258600
+|switch|p1a: Zados|Zapdos|100/100
+|move|p2a: Snorlax|Earthquake|p1a: Zados
+|-immune|p1a: Zados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zados|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|75/100|[from] Sandstorm
+|-heal|p1a: Zados|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729258608
+|move|p1a: Zados|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|54/100
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Earthquake|p1a: Zados
+|-immune|p1a: Zados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zados|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|48/100 par|[from] Sandstorm
+|-heal|p1a: Zados|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729258623
+|move|p1a: Zados|Baton Pass|p1a: Zados
+|
+|t:|1729258627
+|switch|p1a: Jrachi|Jirachi|53/100|[from] Baton Pass
+|move|p2a: Snorlax|Body Slam|p1a: Jrachi
+|-resisted|p1a: Jrachi
+|-damage|p1a: Jrachi|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|48/100 par|[from] Sandstorm
+|-heal|p1a: Jrachi|42/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729258637
+|move|p1a: Jrachi|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100 par
+|move|p2a: Snorlax|Earthquake|p1a: Jrachi
+|-supereffective|p1a: Jrachi
+|-damage|p1a: Jrachi|0 fnt
+|faint|p1a: Jrachi
+|
+|t:|1729258647
+|switch|p1a: Dutrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|20/100 par|[from] Sandstorm
+|-heal|p2a: Snorlax|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729258651
+|move|p1a: Dutrio|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|inactive|rezzo64 has 270 seconds left.
+|inactive|rezzo64 has 240 seconds left.
+|
+|t:|1729258726
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729258732
+|switch|p1a: Sucune|Suicune, shiny|82/100 tox
+|switch|p2a: Forretress|Forretress, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sucune|76/100 tox|[from] Sandstorm
+|-heal|p1a: Sucune|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Sucune|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1729258739
+|move|p1a: Sucune|Surf|p2a: Forretress
+|-damage|p2a: Forretress|70/100
+|move|p2a: Forretress|Spikes|p1a: Sucune
+|-sidestart|p1: CostcoCustomer|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sucune|70/100 tox|[from] Sandstorm
+|-heal|p1a: Sucune|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Sucune|63/100 tox|[from] psn
+|-heal|p2a: Forretress|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|rezzo64 has 240 seconds left.
+|
+|t:|1729258766
+|move|p1a: Sucune|Rest|p1a: Sucune
+|-status|p1a: Sucune|slp|[from] move: Rest
+|-heal|p1a: Sucune|100/100 slp|[silent]
+|move|p2a: Forretress|Spikes|p1a: Sucune
+|-sidestart|p1: CostcoCustomer|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sucune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Sucune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729258781
+|switch|p1a: Zados|Zapdos|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zados|94/100|[from] Sandstorm
+|-heal|p1a: Zados|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729258801
+|move|p1a: Zados|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|53/100
+|move|p2a: Metagross|Explosion|p1a: Zados
+|-damage|p1a: Zados|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Zados
+|
+|t:|1729258814
+|switch|p1a: Clayol|Claydol|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|inactive|rezzo64 has 210 seconds left.
+|inactive|rezzo64 has 180 seconds left.
+|
+|t:|1729258873
+|switch|p2a: Forretress|Forretress, M, shiny|82/100
+|move|p1a: Clayol|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|81/100
+|-sideend|p1: CostcoCustomer|Spikes|[from] move: Rapid Spin|[of] p1a: Clayol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|rezzo64 has 180 seconds left.
+|
+|t:|1729258881
+|switch|p1a: Dutrio|Dugtrio, M|100/100
+|move|p2a: Forretress|Hidden Power|p1a: Dutrio
+|-damage|p1a: Dutrio|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729258889
+|move|p1a: Dutrio|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|56/100
+|move|p2a: Forretress|Hidden Power|p1a: Dutrio
+|-damage|p1a: Dutrio|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729258893
+|move|p1a: Dutrio|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|21/100
+|move|p2a: Forretress|Hidden Power|p1a: Dutrio
+|-damage|p1a: Dutrio|0 fnt
+|faint|p1a: Dutrio
+|
+|t:|1729258898
+|switch|p1a: Tyrantar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729258915
+|-singleturn|p1a: Tyrantar|move: Focus Punch
+|switch|p2a: Swampert|Swampert, F|97/100
+|move|p1a: Tyrantar|Focus Punch|p2a: Swampert
+|-damage|p2a: Swampert|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|rezzo64 has 180 seconds left.
+|
+|t:|1729258942
+|switch|p2a: Moltres|Moltres|100/100
+|switch|p1a: Sucune|Suicune, shiny|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Sucune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Sucune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729258948
+|move|p2a: Moltres|Hidden Power|p1a: Sucune
+|-supereffective|p1a: Sucune
+|-crit|p1a: Sucune
+|-damage|p1a: Sucune|20/100 slp
+|cant|p1a: Sucune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Sucune|14/100 slp|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Sucune|20/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729258953
+|move|p2a: Moltres|Hidden Power|p1a: Sucune
+|-supereffective|p1a: Sucune
+|-damage|p1a: Sucune|0 fnt
+|faint|p1a: Sucune
+|c|☆CostcoCustomer|gg
+|
+|t:|1729258957
+|switch|p1a: Tyrantar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|rezzo64 has 210 seconds left.
+|
+|t:|1729258992
+|switch|p2a: Forretress|Forretress, M, shiny|27/100
+|move|p1a: Tyrantar|Rock Slide|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|t:|1729258997
+|switch|p2a: Swampert|Swampert, F|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729259004
+|switch|p1a: Clayol|Claydol|100/100
+|move|p2a: Swampert|Surf|p1a: Clayol
+|-supereffective|p1a: Clayol
+|-damage|p1a: Clayol|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clayol|54/100|[from] item: Leftovers
+|-heal|p2a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729259016
+|switch|p1a: Tyrantar|Tyranitar, M|100/100
+|move|p2a: Swampert|Surf|p1a: Tyrantar
+|-supereffective|p1a: Tyrantar
+|-damage|p1a: Tyrantar|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|79/100|[from] item: Leftovers
+|-heal|p1a: Tyrantar|61/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729259021
+|move|p2a: Swampert|Surf|p1a: Tyrantar
+|-supereffective|p1a: Tyrantar
+|-damage|p1a: Tyrantar|13/100
+|move|p1a: Tyrantar|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|-heal|p1a: Tyrantar|20/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729259026
+|move|p2a: Swampert|Surf|p1a: Tyrantar
+|-supereffective|p1a: Tyrantar
+|-damage|p1a: Tyrantar|0 fnt
+|faint|p1a: Tyrantar
+|
+|t:|1729259030
+|switch|p1a: Clayol|Claydol|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clayol|60/100|[from] item: Leftovers
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆rezzo64|ggs
+|
+|t:|1729259034
+|move|p1a: Clayol|Psychic|p2a: Swampert
+|-damage|p2a: Swampert|55/100
+|move|p2a: Swampert|Surf|p1a: Clayol
+|-supereffective|p1a: Clayol
+|-damage|p1a: Clayol|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clayol|16/100|[from] item: Leftovers
+|-heal|p2a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆CostcoCustomer|no boom
+|
+|t:|1729259042
+|move|p1a: Clayol|Psychic|p2a: Swampert
+|-damage|p2a: Swampert|41/100
+|move|p2a: Swampert|Surf|p1a: Clayol
+|-supereffective|p1a: Clayol
+|-damage|p1a: Clayol|0 fnt
+|faint|p1a: Clayol
+|
+|win|rezzo64
+|c|☆rezzo64|o
+|c|☆CostcoCustomer|was trying to bait a switch
+|c|☆CostcoCustomer|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799499">
+{"id":"smogtours-gen3ou-799499","format":"[Gen 3] OU","players":["CostcoCustomer","rezzo64"],"uploadtime":1729259042,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

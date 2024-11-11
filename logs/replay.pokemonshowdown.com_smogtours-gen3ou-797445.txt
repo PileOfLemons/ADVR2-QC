@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: shadowinger vs. Ramsus776 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between shadowinger and Ramsus776! Format: [Gen 3] OU; Date: Oct 12, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-797445">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728744854
+|gametype|singles
+|player|p1|shadowinger|102|
+|player|p2|Ramsus776|burgh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728744854
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Yammers|Hariyama, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1728744883
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Yammers|Knock Off|p1a: Metagross
+|-damage|p1a: Metagross|98/100
+|-enditem|p1a: Metagross|Lum Berry|[from] move: Knock Off|[of] p2a: Yammers
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|94/100|[from] Sandstorm
+|-heal|p2a: Yammers|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728744893
+|switch|p2a: Millie|Milotic, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Millie|[miss]
+|-miss|p1a: Metagross|p2a: Millie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millie|94/100|[from] Sandstorm
+|-heal|p2a: Millie|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728744901
+|move|p1a: Metagross|Explosion|p2a: Millie
+|-damage|p2a: Millie|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Millie
+|
+|t:|1728744911
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Yammers|Hariyama, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Yammers|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Yammers|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728744924
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Yammers|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|97/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Yammers
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|91/100|[from] Sandstorm
+|-damage|p2a: Yammers|94/100|[from] Sandstorm
+|-heal|p2a: Yammers|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728744930
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728744939
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100|[from] Baton Pass
+|move|p2a: Yammers|Whirlwind|p1a: Aerodactyl
+|drag|p1a: Celebi|Celebi|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|84/100|[from] Sandstorm
+|-damage|p2a: Yammers|94/100|[from] Sandstorm
+|-heal|p2a: Yammers|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728744958
+|switch|p2a: Spinny Funny|Forretress, M|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Spinny Funny
+|-start|p2a: Spinny Funny|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-damage|p2a: Spinny Funny|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|89/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1728744973
+|switch|p1a: Magneton|Magneton|100/100
+|switch|p2a: Alcachofa|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1728744977
+|move|p1a: Magneton|Thunder Wave|p2a: Alcachofa
+|-status|p2a: Alcachofa|par
+|move|p2a: Alcachofa|Fire Blast|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1728744997
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1728745007
+|switch|p2a: Yammers|Hariyama, F|100/100
+|move|p1a: Tyranitar|Brick Break|p2a: Yammers
+|-damage|p2a: Yammers|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|77/100|[from] Sandstorm
+|-heal|p2a: Yammers|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728745016
+|switch|p1a: Celebi|Celebi|89/100
+|move|p2a: Yammers|Cross Chop|p1a: Celebi|[miss]
+|-miss|p2a: Yammers|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|83/100|[from] Sandstorm
+|-damage|p2a: Yammers|77/100|[from] Sandstorm
+|-heal|p2a: Yammers|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728745027
+|switch|p2a: Tu mom|Blissey, F|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Tu mom
+|-start|p2a: Tu mom|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|77/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|-damage|p2a: Tu mom|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|99/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728745039
+|switch|p2a: Yammers|Hariyama, F|83/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|93/100|[from] Sandstorm
+|-damage|p2a: Yammers|77/100|[from] Sandstorm
+|-heal|p2a: Yammers|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728745045
+|move|p1a: Celebi|Leech Seed|p2a: Yammers
+|-start|p2a: Yammers|move: Leech Seed
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|drag|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|77/100|[from] Sandstorm
+|-heal|p2a: Yammers|83/100|[from] item: Leftovers
+|-damage|p2a: Yammers|71/100|[from] Leech Seed|[of] p1a: Aerodactyl
+|upkeep
+|turn|14
+|
+|t:|1728745051
+|move|p1a: Aerodactyl|Double-Edge|p2a: Yammers
+|-damage|p2a: Yammers|44/100
+|move|p2a: Yammers|Knock Off|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|98/100
+|-enditem|p1a: Aerodactyl|Liechi Berry|[from] move: Knock Off|[of] p2a: Yammers
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|37/100|[from] Sandstorm
+|-heal|p2a: Yammers|44/100|[from] item: Leftovers
+|-damage|p2a: Yammers|31/100|[from] Leech Seed|[of] p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|100/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1728745083
+|move|p1a: Aerodactyl|Double-Edge|p2a: Yammers
+|-damage|p2a: Yammers|4/100
+|move|p2a: Yammers|Rest|p2a: Yammers
+|-status|p2a: Yammers|slp|[from] move: Rest
+|-heal|p2a: Yammers|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|94/100 slp|[from] Sandstorm
+|-heal|p2a: Yammers|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Yammers|88/100 slp|[from] Leech Seed|[of] p1a: Aerodactyl
+|upkeep
+|turn|16
+|
+|t:|1728745104
+|switch|p1a: Celebi|Celebi|93/100
+|switch|p2a: Tu mom|Blissey, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|86/100|[from] Sandstorm
+|-damage|p2a: Tu mom|82/100|[from] Sandstorm
+|-heal|p2a: Tu mom|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728745108
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Tu mom|Aromatherapy|p2a: Tu mom
+|-cureteam|p2a: Tu mom|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|80/100|[from] Sandstorm
+|-damage|p2a: Tu mom|82/100|[from] Sandstorm
+|-heal|p2a: Tu mom|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728745113
+|switch|p2a: Yammers|Hariyama, F|88/100
+|move|p1a: Celebi|Leech Seed|p2a: Yammers
+|-start|p2a: Yammers|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|74/100|[from] Sandstorm
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|-damage|p2a: Yammers|76/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|88/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1728745127
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|70/100|[from] Sandstorm
+|-heal|p2a: Yammers|76/100|[from] item: Leftovers
+|-damage|p2a: Yammers|64/100|[from] Leech Seed|[of] p1a: Tyranitar
+|upkeep
+|turn|20
+|
+|t:|1728745134
+|switch|p1a: Celebi|Celebi|88/100
+|move|p2a: Yammers|Cross Chop|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|67/100|[from] Sandstorm
+|-damage|p2a: Yammers|57/100|[from] Sandstorm
+|-heal|p2a: Yammers|64/100|[from] item: Leftovers
+|-damage|p2a: Yammers|51/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|80/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1728745141
+|switch|p2a: Alcachofa|Tyranitar, M|100/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1728745157
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Alcachofa|Crunch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728745175
+|move|p1a: Tyranitar|Brick Break|p2a: Alcachofa
+|-supereffective|p2a: Alcachofa
+|-damage|p2a: Alcachofa|35/100
+|move|p2a: Alcachofa|Roar|p1a: Tyranitar
+|drag|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Alcachofa|41/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Ramsus776 has 270 seconds left.
+|
+|t:|1728745203
+|switch|p2a: Tu mom|Blissey, F|88/100
+|move|p1a: Aerodactyl|Earthquake|p2a: Tu mom
+|-damage|p2a: Tu mom|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|54/100|[from] Sandstorm
+|-heal|p2a: Tu mom|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Ramsus776 has 270 seconds left.
+|
+|t:|1728745211
+|switch|p1a: Celebi|Celebi|94/100
+|move|p2a: Tu mom|Soft-Boiled|p2a: Tu mom
+|-heal|p2a: Tu mom|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|88/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Ramsus776 has 270 seconds left.
+|
+|t:|1728745222
+|switch|p2a: Spinny Funny|Forretress, M|88/100
+|move|p1a: Celebi|Leech Seed|p2a: Spinny Funny
+|-start|p2a: Spinny Funny|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p2a: Spinny Funny|94/100|[from] item: Leftovers
+|-damage|p2a: Spinny Funny|82/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|93/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1728745237
+|switch|p1a: Tyranitar|Tyranitar, F|91/100
+|move|p2a: Spinny Funny|Spikes|p1a: Tyranitar
+|-sidestart|p1: shadowinger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|98/100|[from] item: Leftovers
+|-heal|p2a: Spinny Funny|88/100|[from] item: Leftovers
+|-damage|p2a: Spinny Funny|76/100|[from] Leech Seed|[of] p1a: Tyranitar
+|-heal|p1a: Tyranitar|100/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1728745256
+|switch|p1a: Celebi|Celebi|93/100
+|-damage|p1a: Celebi|80/100|[from] Spikes
+|switch|p2a: Yammers|Hariyama, F|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|74/100|[from] Sandstorm
+|-damage|p2a: Yammers|45/100|[from] Sandstorm
+|-heal|p2a: Yammers|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728745262
+|move|p1a: Celebi|Leech Seed|p2a: Yammers
+|-start|p2a: Yammers|move: Leech Seed
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|drag|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|45/100|[from] Sandstorm
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|-heal|p2a: Yammers|51/100|[from] item: Leftovers
+|-damage|p2a: Yammers|39/100|[from] Leech Seed|[of] p1a: Swampert
+|-heal|p1a: Swampert|100/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1728745271
+|switch|p2a: Boo|Gengar, M|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Boo
+|-damage|p2a: Boo|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boo|31/100|[from] Sandstorm
+|-heal|p2a: Boo|37/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728745280
+|switch|p2a: Tu mom|Blissey, F|100/100
+|switch|p1a: Celebi|Celebi|74/100
+|-damage|p1a: Celebi|62/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|56/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728745285
+|switch|p2a: Boo|Gengar, M|37/100
+|move|p1a: Celebi|Leech Seed|p2a: Boo
+|-start|p2a: Boo|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boo|31/100|[from] Sandstorm
+|-damage|p1a: Celebi|50/100|[from] Sandstorm
+|-heal|p2a: Boo|37/100|[from] item: Leftovers
+|-damage|p2a: Boo|25/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|59/100|[silent]
+|upkeep
+|turn|33
+|
+|t:|1728745290
+|move|p2a: Boo|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boo|19/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100 brn|[from] Sandstorm
+|-heal|p2a: Boo|25/100|[from] item: Leftovers
+|-damage|p2a: Boo|13/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100 brn|[silent]
+|-damage|p1a: Celebi|88/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1728745298
+|move|p2a: Boo|Explosion|p1a: Celebi
+|-damage|p1a: Celebi|36/100 brn
+|faint|p2a: Boo
+|
+|t:|1728745310
+|switch|p2a: Spinny Funny|Forretress, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|30/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|17/100 brn|[from] brn
+|-heal|p2a: Spinny Funny|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728745313
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|67/100 brn
+|move|p2a: Spinny Funny|Spikes|p1a: Celebi
+|-sidestart|p1: shadowinger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|61/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|49/100 brn|[from] brn
+|-heal|p2a: Spinny Funny|88/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728745316
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|99/100 brn
+|move|p2a: Spinny Funny|Spikes|p1a: Celebi
+|-sidestart|p1: shadowinger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|93/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|80/100 brn|[from] brn
+|-heal|p2a: Spinny Funny|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728745323
+|switch|p2a: Yammers|Hariyama, F|39/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|74/100 brn|[from] Sandstorm
+|-damage|p2a: Yammers|33/100|[from] Sandstorm
+|-damage|p1a: Celebi|62/100 brn|[from] brn
+|-heal|p2a: Yammers|39/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728745327
+|move|p1a: Celebi|Leech Seed|p2a: Yammers
+|-start|p2a: Yammers|move: Leech Seed
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|-curestatus|p1a: Celebi|brn|[from] ability: Natural Cure
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|33/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p2a: Yammers|39/100|[from] item: Leftovers
+|-damage|p2a: Yammers|27/100|[from] Leech Seed|[of] p1a: Tyranitar
+|-heal|p1a: Tyranitar|96/100|[silent]
+|upkeep
+|turn|39
+|
+|t:|1728745332
+|move|p1a: Tyranitar|Ice Beam|p2a: Yammers
+|-damage|p2a: Yammers|14/100
+|move|p2a: Yammers|Rest|p2a: Yammers
+|-status|p2a: Yammers|slp|[from] move: Rest
+|-heal|p2a: Yammers|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|94/100 slp|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Yammers|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Yammers|88/100 slp|[from] Leech Seed|[of] p1a: Tyranitar
+|upkeep
+|turn|40
+|inactive|shadowinger has 270 seconds left.
+|
+|t:|1728745370
+|switch|p1a: Celebi|Celebi|62/100
+|-damage|p1a: Celebi|37/100|[from] Spikes
+|switch|p2a: Tu mom|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|30/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728745376
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|80/100
+|move|p2a: Tu mom|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|50/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728745379
+|move|p1a: Celebi|Leech Seed|p2a: Tu mom
+|-start|p2a: Tu mom|move: Leech Seed
+|move|p2a: Tu mom|Aromatherapy|p2a: Tu mom
+|-cureteam|p2a: Tu mom|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|43/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|-damage|p2a: Tu mom|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|65/100|[silent]
+|upkeep
+|turn|43
+|
+|t:|1728745383
+|switch|p2a: Alcachofa|Tyranitar, M|41/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|59/100|[from] Sandstorm
+|-heal|p2a: Alcachofa|48/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728745400
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728745402
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|-damage|p1a: Tyranitar|75/100|[from] Spikes
+|move|p2a: Alcachofa|Crunch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|-unboost|p1a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Alcachofa|54/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|67/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728745417
+|move|p1a: Tyranitar|Brick Break|p2a: Alcachofa
+|-supereffective|p2a: Alcachofa
+|-damage|p2a: Alcachofa|0 fnt
+|faint|p2a: Alcachofa
+|
+|t:|1728745420
+|switch|p2a: Yammers|Hariyama, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|73/100|[from] item: Leftovers
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728745427
+|switch|p1a: Celebi|Celebi|59/100
+|-damage|p1a: Celebi|34/100|[from] Spikes
+|move|p2a: Yammers|Cross Chop|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|14/100|[from] Sandstorm
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728745443
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|64/100
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|drag|p1a: Tyranitar|Tyranitar, F|73/100
+|-damage|p1a: Tyranitar|48/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|54/100|[from] item: Leftovers
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728745463
+|move|p1a: Tyranitar|Ice Beam|p2a: Yammers
+|-damage|p2a: Yammers|76/100
+|move|p2a: Yammers|Whirlwind|p1a: Tyranitar
+|drag|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|70/100|[from] Sandstorm
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|-heal|p2a: Yammers|76/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728745469
+|move|p1a: Swampert|Hydro Pump|p2a: Yammers
+|-damage|p2a: Yammers|26/100
+|move|p2a: Yammers|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|79/100
+|-enditem|p1a: Swampert|Leftovers|[from] move: Knock Off|[of] p2a: Yammers
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|20/100|[from] Sandstorm
+|-heal|p2a: Yammers|26/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728745495
+|switch|p2a: Tu mom|Blissey, F|88/100
+|move|p1a: Swampert|Hydro Pump|p2a: Tu mom
+|-damage|p2a: Tu mom|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728745503
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Tu mom|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|50/100
+|move|p1a: Swampert|Focus Punch||[still]
+|cant|p1a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728745511
+|switch|p1a: Celebi|Celebi|64/100
+|-damage|p1a: Celebi|39/100|[from] Spikes
+|move|p2a: Tu mom|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|8/100|[from] Sandstorm
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728745520
+|switch|p2a: Yammers|Hariyama, F|26/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|52/100|[from] Sandstorm
+|-damage|p2a: Yammers|20/100|[from] Sandstorm
+|-heal|p2a: Yammers|26/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728745523
+|move|p1a: Celebi|Leech Seed|p2a: Yammers
+|-start|p2a: Yammers|move: Leech Seed
+|move|p2a: Yammers|Rest|p2a: Yammers
+|-status|p2a: Yammers|slp|[from] move: Rest
+|-heal|p2a: Yammers|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|46/100|[from] Sandstorm
+|-damage|p2a: Yammers|94/100 slp|[from] Sandstorm
+|-heal|p2a: Yammers|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Yammers|88/100 slp|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|59/100|[silent]
+|upkeep
+|turn|55
+|
+|t:|1728745526
+|switch|p2a: Tu mom|Blissey, F|69/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728745531
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Tu mom|Aromatherapy|p2a: Tu mom
+|-cureteam|p2a: Tu mom|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|88/100|[from] Sandstorm
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728745533
+|switch|p2a: Spinny Funny|Forretress, M|94/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p2a: Spinny Funny|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728745547
+|move|p1a: Celebi|Leech Seed|p2a: Spinny Funny
+|-start|p2a: Spinny Funny|move: Leech Seed
+|move|p2a: Spinny Funny|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|69/100|[from] Sandstorm
+|-damage|p2a: Spinny Funny|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|80/100|[silent]
+|upkeep
+|turn|59
+|
+|t:|1728745553
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Spinny Funny|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|86/100|[from] Sandstorm
+|-heal|p2a: Spinny Funny|94/100|[from] item: Leftovers
+|-damage|p2a: Spinny Funny|82/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|97/100|[silent]
+|upkeep
+|turn|60
+|
+|t:|1728745558
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Spinny Funny|Explosion|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|faint|p2a: Spinny Funny
+|
+|t:|1728745567
+|switch|p2a: Yammers|Hariyama, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|14/100|[from] Sandstorm
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728745576
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|64/100
+|move|p2a: Yammers|Whirlwind|p1a: Celebi
+|drag|p1a: Swampert|Swampert, F|50/100
+|-damage|p1a: Swampert|25/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|82/100|[from] Sandstorm
+|-heal|p2a: Yammers|88/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728745588
+|move|p1a: Swampert|Hydro Pump|p2a: Yammers
+|-damage|p2a: Yammers|20/100
+|move|p2a: Yammers|Cross Chop|p1a: Swampert|[miss]
+|-miss|p2a: Yammers|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|14/100|[from] Sandstorm
+|-heal|p2a: Yammers|20/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728745592
+|move|p1a: Swampert|Hydro Pump|p2a: Yammers|[miss]
+|-miss|p1a: Swampert|p2a: Yammers
+|move|p2a: Yammers|Rest|p2a: Yammers
+|-status|p2a: Yammers|slp|[from] move: Rest
+|-heal|p2a: Yammers|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|94/100 slp|[from] Sandstorm
+|-heal|p2a: Yammers|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728745603
+|move|p1a: Swampert|Hydro Pump|p2a: Yammers
+|-damage|p2a: Yammers|34/100 slp
+|cant|p2a: Yammers|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yammers|28/100 slp|[from] Sandstorm
+|-heal|p2a: Yammers|34/100 slp|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728745607
+|move|p1a: Swampert|Hydro Pump|p2a: Yammers
+|-damage|p2a: Yammers|0 fnt
+|faint|p2a: Yammers
+|
+|t:|1728745609
+|switch|p2a: Tu mom|Blissey, F|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|63/100|[from] Sandstorm
+|-heal|p2a: Tu mom|69/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728745610
+|move|p1a: Swampert|Earthquake|p2a: Tu mom
+|-damage|p2a: Tu mom|35/100
+|move|p2a: Tu mom|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1728745613
+|switch|p1a: Tyranitar|Tyranitar, F|54/100
+|-damage|p1a: Tyranitar|29/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|29/100|[from] Sandstorm
+|-heal|p2a: Tu mom|35/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|35/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728745616
+|move|p2a: Tu mom|Soft-Boiled|p2a: Tu mom
+|-heal|p2a: Tu mom|85/100
+|move|p1a: Tyranitar|Brick Break|p2a: Tu mom
+|-supereffective|p2a: Tu mom
+|-damage|p2a: Tu mom|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|38/100|[from] Sandstorm
+|-heal|p2a: Tu mom|45/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728745621
+|move|p2a: Tu mom|Soft-Boiled|p2a: Tu mom
+|-heal|p2a: Tu mom|95/100
+|move|p1a: Tyranitar|Brick Break|p2a: Tu mom
+|-supereffective|p2a: Tu mom
+|-damage|p2a: Tu mom|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tu mom|51/100|[from] Sandstorm
+|-heal|p2a: Tu mom|58/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|48/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728745625
+|move|p1a: Tyranitar|Brick Break|p2a: Tu mom
+|-supereffective|p2a: Tu mom
+|-damage|p2a: Tu mom|17/100
+|move|p2a: Tu mom|Counter|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728745627
+|switch|p1a: Celebi|Celebi|64/100
+|-damage|p1a: Celebi|39/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|33/100|[from] Sandstorm
+|-damage|p2a: Tu mom|10/100|[from] Sandstorm
+|-heal|p2a: Tu mom|17/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728745632
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|83/100
+|move|p2a: Tu mom|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|52/100|[from] Sandstorm
+|-damage|p2a: Tu mom|10/100|[from] Sandstorm
+|-heal|p2a: Tu mom|17/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728745634
+|move|p1a: Celebi|Leech Seed|p2a: Tu mom
+|-start|p2a: Tu mom|move: Leech Seed
+|move|p2a: Tu mom|Soft-Boiled|p2a: Tu mom
+|-heal|p2a: Tu mom|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|46/100|[from] Sandstorm
+|-damage|p2a: Tu mom|60/100|[from] Sandstorm
+|-heal|p2a: Tu mom|67/100|[from] item: Leftovers
+|-damage|p2a: Tu mom|54/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|68/100|[silent]
+|upkeep
+|turn|72
+|
+|t:|1728745638
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Tu mom|Soft-Boiled|p2a: Tu mom
+|-heal|p2a: Tu mom|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|61/100|[from] Sandstorm
+|-damage|p2a: Tu mom|94/100|[from] Sandstorm
+|-heal|p2a: Tu mom|100/100|[from] item: Leftovers
+|-damage|p2a: Tu mom|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|83/100|[silent]
+|upkeep
+|turn|73
+|
+|t:|1728745641
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Tu mom|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|52/100|[from] Sandstorm
+|-damage|p2a: Tu mom|82/100|[from] Sandstorm
+|-heal|p2a: Tu mom|88/100|[from] item: Leftovers
+|-damage|p2a: Tu mom|76/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|75/100|[silent]
+|upkeep
+|turn|74
+|-message|Ramsus776 forfeited.
+|
+|win|shadowinger
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797445">
+{"id":"smogtours-gen3ou-797445","format":"[Gen 3] OU","players":["shadowinger","Ramsus776"],"uploadtime":1728745650,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

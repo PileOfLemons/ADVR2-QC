@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: caraccident65278 vs. mint yerb - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between caraccident65278 and mint yerb! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796666">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728493602
+|gametype|singles
+|player|p1|caraccident65278|whitney|
+|player|p2|mint yerb|flannery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728493602
+|start
+|switch|p1a: Breloom|Breloom, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|1
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728493636
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: Salamence|Dragon Claw|p1a: Regice
+|-damage|p1a: Regice|78/100
+|
+|-heal|p1a: Regice|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728493665
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Regice|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Regice|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728493677
+|switch|p1a: Metagross|Metagross|100/100
+|cant|p2a: Blissey|par
+|
+|upkeep
+|turn|4
+|
+|t:|1728493684
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|70/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Metagross|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1728493709
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100
+|
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|-heal|p2a: Metagross|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1728493725
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: mint yerb|Spikes
+|
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728493751
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Charizard
+|-sidestart|p1: caraccident65278|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1728493765
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|75/100
+|move|p2a: Skarmory|Roar|p1a: Charizard
+|drag|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1728493776
+|switch|p2a: Metagross|Metagross|83/100
+|-damage|p2a: Metagross|70/100|[from] Spikes
+|move|p1a: Breloom|Spore|p2a: Metagross
+|-status|p2a: Metagross|slp|[from] move: Spore
+|
+|-heal|p2a: Metagross|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728493788
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|66/100
+|
+|-heal|p2a: Salamence|72/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728493819
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|78/100
+|
+|-heal|p2a: Salamence|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728493827
+|switch|p1a: Regice|Regice|90/100
+|-damage|p1a: Regice|78/100|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: Regice
+|-damage|p1a: Regice|57/100
+|
+|-heal|p2a: Salamence|84/100|[from] item: Leftovers
+|-heal|p1a: Regice|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|caraccident65278 has 270 seconds left.
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1728493865
+|move|p2a: Salamence|Fire Blast|p1a: Regice
+|-supereffective|p1a: Regice
+|-damage|p1a: Regice|23/100
+|move|p1a: Regice|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|
+|-heal|p1a: Regice|29/100|[from] item: Leftovers
+|-heal|p2a: Salamence|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|mint yerb has 270 seconds left.
+|
+|t:|1728493876
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Regice|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Regice|35/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|caraccident65278 has 270 seconds left.
+|inactive|mint yerb has 270 seconds left.
+|inactive|mint yerb has 240 seconds left.
+|
+|t:|1728493913
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Blissey|Sing|p1a: Metagross
+|-status|p1a: Metagross|slp|[from] move: Sing
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728493927
+|switch|p2a: Claydol|Claydol|100/100
+|cant|p1a: Metagross|slp
+|
+|upkeep
+|turn|17
+|inactive|caraccident65278 has 270 seconds left.
+|inactive|mint yerb has 240 seconds left.
+|
+|t:|1728493956
+|cant|p1a: Metagross|slp
+|move|p2a: Claydol|Rapid Spin|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|86/100 slp
+|-sideend|p2: mint yerb|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|upkeep
+|turn|18
+|inactive|mint yerb has 240 seconds left.
+|inactive|mint yerb has 210 seconds left.
+|
+|t:|1728494006
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|cant|p1a: Metagross|slp
+|
+|upkeep
+|turn|19
+|
+|t:|1728494029
+|switch|p1a: Charizard|Charizard, F|75/100
+|move|p2a: Skarmory|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-damage|p1a: Charizard|69/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|caraccident65278 has 270 seconds left.
+|inactive|mint yerb has 180 seconds left.
+|
+|t:|1728494050
+|switch|p2a: Salamence|Salamence, M|91/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|19/100 tox
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|
+|-enditem|p1a: Charizard|Salac Berry|[eat]
+|-boost|p1a: Charizard|spe|1|[from] item: Salac Berry
+|-damage|p1a: Charizard|7/100 tox|[from] psn
+|-heal|p2a: Salamence|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|mint yerb has 180 seconds left.
+|inactive|mint yerb has 150 seconds left.
+|
+|t:|1728494105
+|switch|p2a: Metagross|Metagross|76/100 slp
+|move|p1a: Charizard|Hidden Power|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|37/100 slp
+|
+|-damage|p1a: Charizard|0 fnt|[from] psn
+|faint|p1a: Charizard
+|-heal|p2a: Metagross|43/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1728494122
+|switch|p1a: Skarmory|Skarmory, F|92/100
+|turn|22
+|
+|t:|1728494126
+|switch|p2a: Salamence|Salamence, M|97/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: mint yerb|Spikes
+|
+|-heal|p1a: Skarmory|98/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728494134
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728494171
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|82/100
+|move|p1a: Skarmory|Roar|p2a: Salamence
+|drag|p2a: Metagross|Metagross|43/100 slp
+|-damage|p2a: Metagross|31/100 slp|[from] Spikes
+|
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p2a: Metagross|37/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728494181
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: mint yerb|Spikes
+|cant|p2a: Metagross|slp
+|
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|-heal|p2a: Metagross|43/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728494191
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: mint yerb|Spikes
+|cant|p2a: Metagross|slp
+|
+|-heal|p1a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p2a: Metagross|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728494202
+|switch|p1a: Kingdra|Kingdra, M|78/100
+|-damage|p1a: Kingdra|65/100|[from] Spikes
+|-curestatus|p2a: Metagross|slp|[msg]
+|move|p2a: Metagross|Meteor Mash|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|35/100
+|
+|-heal|p2a: Metagross|55/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|caraccident65278 has 270 seconds left.
+|
+|t:|1728494213
+|move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+|-weather|RainDance
+|move|p2a: Metagross|Meteor Mash|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Metagross|61/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728494225
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Kingdra|Surf|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Metagross|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728494244
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|58/100|[from] Spikes
+|move|p1a: Kingdra|Surf|p2a: Blissey
+|-damage|p2a: Blissey|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728494264
+|move|p1a: Kingdra|Surf|p2a: Blissey
+|-damage|p2a: Blissey|10/100
+|move|p2a: Blissey|Ice Beam|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|t:|1728494281
+|switch|p1a: Breloom|Breloom, M|88/100
+|-damage|p1a: Breloom|76/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|16/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728494294
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Salamence|Salamence, M|100/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|68/100 par
+|
+|-weather|none
+|-heal|p2a: Salamence|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728494303
+|switch|p1a: Metagross|Metagross|86/100 slp
+|-damage|p1a: Metagross|74/100 slp|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: Metagross|[miss]
+|-miss|p2a: Salamence|p1a: Metagross
+|
+|-heal|p2a: Salamence|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728494328
+|switch|p2a: Blissey|Blissey, F|16/100
+|-damage|p2a: Blissey|0 fnt|[from] Spikes
+|faint|p2a: Blissey
+|
+|t:|1728494330
+|switch|p2a: Metagross|Metagross|67/100
+|-damage|p2a: Metagross|42/100|[from] Spikes
+|
+|-heal|p2a: Metagross|48/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728494341
+|switch|p1a: Skarmory|Skarmory, F|99/100
+|move|p2a: Metagross|Protect||[still]
+|-fail|p2a: Metagross
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|54/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728494350
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-heal|p2a: Metagross|61/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728494360
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|81/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p1a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|mint yerb has 180 seconds left.
+|
+|t:|1728494367
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Regice|Regice|35/100
+|-damage|p1a: Regice|23/100|[from] Spikes
+|
+|-heal|p1a: Regice|29/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|mint yerb has 180 seconds left.
+|
+|t:|1728494400
+|move|p2a: Skarmory|Spikes|p1a: Regice
+|-sidestart|p1: caraccident65278|Spikes
+|move|p1a: Regice|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|46/100
+|
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p1a: Regice|35/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728494415
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Regice|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p1a: Regice|41/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|mint yerb has 150 seconds left.
+|
+|t:|1728494446
+|move|p2a: Skarmory|Spikes|p1a: Regice
+|-sidestart|p1: caraccident65278|Spikes
+|move|p1a: Regice|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728494464
+|switch|p2a: Metagross|Metagross|61/100
+|-damage|p2a: Metagross|36/100|[from] Spikes
+|
+|-heal|p2a: Metagross|42/100|[from] item: Leftovers
+|-heal|p1a: Regice|47/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728494476
+|switch|p1a: Skarmory|Skarmory, F|87/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|67/100
+|
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|-heal|p2a: Metagross|48/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728494484
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Protect||[still]
+|-fail|p2a: Metagross
+|
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|-heal|p2a: Metagross|54/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728494493
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-heal|p1a: Skarmory|85/100|[from] item: Leftovers
+|-heal|p2a: Metagross|60/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728494499
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|64/100
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|drag|p2a: Claydol|Claydol|100/100
+|
+|-heal|p1a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|mint yerb has 150 seconds left.
+|
+|t:|1728494514
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|68/100
+|-sideend|p2: mint yerb|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728494521
+|switch|p2a: Salamence|Salamence, M|80/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: mint yerb|Spikes
+|
+|-heal|p1a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p2a: Salamence|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728494531
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory|[miss]
+|-miss|p2a: Salamence|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|-heal|p2a: Salamence|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728494552
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: mint yerb|Spikes
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|11/100
+|
+|-heal|p1a: Skarmory|17/100|[from] item: Leftovers
+|-heal|p2a: Salamence|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728494559
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|23/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728494564
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory|[miss]
+|-miss|p2a: Salamence|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Salamence
+|drag|p2a: Metagross|Metagross|60/100
+|-damage|p2a: Metagross|43/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|29/100|[from] item: Leftovers
+|-heal|p2a: Metagross|50/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728494571
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|35/100|[from] item: Leftovers
+|-heal|p2a: Metagross|56/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728494578
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: mint yerb|Spikes
+|
+|-heal|p1a: Skarmory|41/100|[from] item: Leftovers
+|-heal|p2a: Metagross|62/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728494586
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|23/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|drag|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆caraccident65278|can it roar the last one already
+|c|☆caraccident65278|ah
+|
+|t:|1728494609
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|2/100
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Claydol|Claydol|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|8/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728494615
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|14/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728494621
+|switch|p1a: Metagross|Metagross|74/100 slp
+|-damage|p1a: Metagross|49/100 slp|[from] Spikes
+|move|p2a: Claydol|Rapid Spin|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|47/100 slp
+|-sideend|p2: mint yerb|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1728494636
+|-curestatus|p1a: Metagross|slp|[msg]
+|move|p1a: Metagross|Explosion|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Claydol
+|
+|t:|1728494647
+|switch|p1a: Regice|Regice|47/100
+|switch|p2a: Metagross|Metagross|62/100
+|-damage|p1a: Regice|22/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regice|16/100|[from] Sandstorm
+|-heal|p2a: Metagross|68/100|[from] item: Leftovers
+|-heal|p1a: Regice|22/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728494657
+|switch|p1a: Skarmory|Skarmory, F|14/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728494663
+|switch|p1a: Breloom|Breloom, M|76/100
+|-damage|p1a: Breloom|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|45/100|[from] Sandstorm
+|-heal|p2a: Metagross|74/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728494673
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Salamence|Salamence, M|100/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|69/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|39/100|[from] Sandstorm
+|-damage|p2a: Salamence|63/100 par|[from] Sandstorm
+|-heal|p2a: Salamence|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|c|☆caraccident65278|gg
+|
+|t:|1728494689
+|move|p1a: Breloom|Hidden Power|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|13/100 par
+|cant|p2a: Salamence|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|33/100|[from] Sandstorm
+|-damage|p2a: Salamence|7/100 par|[from] Sandstorm
+|-heal|p2a: Salamence|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728494701
+|switch|p2a: Metagross|Metagross|74/100
+|move|p1a: Breloom|Hidden Power|p2a: Metagross
+|-damage|p2a: Metagross|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|27/100|[from] Sandstorm
+|-heal|p2a: Metagross|70/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728494739
+|switch|p2a: Salamence|Salamence, M|13/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Spore||[still]
+|-fail|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|20/100|[from] Sandstorm
+|-damage|p2a: Salamence|7/100 par|[from] Sandstorm
+|-heal|p2a: Salamence|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|inactive|mint yerb has 210 seconds left.
+|
+|t:|1728494766
+|move|p1a: Breloom|Hidden Power|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1728494768
+|switch|p2a: Tyranitar|Tyranitar, F|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|14/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|inactive|mint yerb has 210 seconds left.
+|
+|t:|1728494774
+|switch|p1a: Regice|Regice|22/100
+|-damage|p1a: Regice|0 fnt|[from] Spikes
+|faint|p1a: Regice
+|c|☆mint yerb|gg
+|c|☆caraccident65278|that wasnt smart lol
+|c|☆caraccident65278|gg
+|
+|t:|1728494787
+|switch|p1a: Breloom|Breloom, M|14/100
+|-damage|p1a: Breloom|0 fnt|[from] Spikes
+|faint|p1a: Breloom
+|
+|win|mint yerb
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796666">
+{"id":"smogtours-gen3ou-796666","format":"[Gen 3] OU","players":["caraccident65278","mint yerb"],"uploadtime":1728494787,"views":110,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

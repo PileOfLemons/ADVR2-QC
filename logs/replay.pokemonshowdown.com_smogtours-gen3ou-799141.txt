@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Hummusfan vs. Halbert Simpson - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Hummusfan and Halbert Simpson! Format: [Gen 3] OU; Date: Oct 16, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799141">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729105868
+|gametype|singles
+|player|p1|Hummusfan|chuck|
+|player|p2|Halbert Simpson|bugcatcher-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729105868
+|start
+|switch|p1a: Sneezy|Salamence, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Sneezy|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆Hummusfan|gl hf
+|inactive|Halbert Simpson has 270 seconds left.
+|inactive|Halbert Simpson has 240 seconds left.
+|
+|t:|1729105939
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sneezy|Brick Break|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|81/100|[from] Sandstorm
+|-heal|p2a: Zapdos|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729105965
+|switch|p1a: Grumpy|Grumpig, M|100/100
+|switch|p2a: One Spike Michael|Forretress, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Halbert Simpson has 270 seconds left.
+|inactive|Halbert Simpson has 240 seconds left.
+|
+|t:|1729106022
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Grumpy|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|88/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729106041
+|-activate|p1a: Grumpy|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Grumpy|[from]Pursuit
+|-supereffective|p1a: Grumpy
+|-damage|p1a: Grumpy|39/100
+|switch|p1a: Sleepy|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Halbert Simpson has 240 seconds left.
+|inactive|Halbert Simpson has 210 seconds left.
+|
+|t:|1729106086
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Sleepy|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1729106096
+|switch|p1a: Dopey|Forretress, M|100/100
+|move|p2a: Swampert|Refresh|p2a: Swampert
+|-curestatus|p2a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Halbert Simpson has 210 seconds left.
+|
+|t:|1729106113
+|switch|p2a: Gligar's Purpose|Gligar, M|100/100
+|move|p1a: Dopey|Spikes|p2a: Gligar's Purpose
+|-sidestart|p2: Halbert Simpson|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|inactive|Halbert Simpson has 210 seconds left.
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106140
+|switch|p1a: Happy|Celebi|100/100
+|move|p2a: Gligar's Purpose|Thief|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|94/100
+|-enditem|p1a: Happy|Leftovers|[silent]|[from] move: Thief|[of] p2a: Gligar's Purpose
+|-item|p2a: Gligar's Purpose|Leftovers|[from] move: Thief|[of] p1a: Happy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106153
+|switch|p2a: One Spike Michael|Forretress, M|100/100
+|-damage|p2a: One Spike Michael|88/100|[from] Spikes
+|move|p1a: Happy|Leech Seed|p2a: One Spike Michael
+|-start|p2a: One Spike Michael|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|81/100|[from] Sandstorm
+|-heal|p2a: One Spike Michael|94/100|[from] item: Leftovers
+|-damage|p2a: One Spike Michael|82/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|92/100|[silent]
+|upkeep
+|turn|10
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106165
+|switch|p1a: Grumpy|Grumpig, M|39/100
+|move|p2a: One Spike Michael|Rapid Spin|p1a: Grumpy
+|-damage|p1a: Grumpy|33/100
+|-end|p2a: One Spike Michael|Leech Seed|[from] move: Rapid Spin|[of] p2a: One Spike Michael
+|-sideend|p2: Halbert Simpson|Spikes|[from] move: Rapid Spin|[of] p2a: One Spike Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|27/100|[from] Sandstorm
+|-heal|p2a: One Spike Michael|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Halbert Simpson has 210 seconds left.
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729106226
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Grumpy|Rest|p1a: Grumpy
+|-status|p1a: Grumpy|slp|[from] move: Rest
+|-heal|p1a: Grumpy|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|94/100 slp|[from] Sandstorm
+|upkeep
+|turn|12
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106250
+|switch|p1a: Happy|Celebi|92/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|86/100|[from] Sandstorm
+|upkeep
+|turn|13
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106268
+|move|p1a: Happy|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|move|p2a: Tyranitar|Crunch|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|23/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|36/100|[silent]
+|upkeep
+|turn|14
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729106284
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|86/100
+|move|p2a: Tyranitar|Crunch|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|24/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|36/100|[silent]
+|upkeep
+|turn|15
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729106294
+|switch|p2a: One Spike Michael|Forretress, M|88/100
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|80/100|[from] Sandstorm
+|-heal|p2a: One Spike Michael|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729106313
+|move|p1a: Happy|Leech Seed|p2a: One Spike Michael
+|-start|p2a: One Spike Michael|move: Leech Seed
+|move|p2a: One Spike Michael|Spikes|p1a: Happy
+|-sidestart|p1: Hummusfan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|74/100|[from] Sandstorm
+|-heal|p2a: One Spike Michael|100/100|[from] item: Leftovers
+|-damage|p2a: One Spike Michael|88/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|84/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1729106320
+|move|p1a: Happy|Heal Bell|p1a: Happy
+|-activate|p1a: Happy|move: Heal Bell
+|-curestatus|p1: Grumpy|slp|[silent]
+|move|p2a: One Spike Michael|Hidden Power|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|20/100|[from] Sandstorm
+|-heal|p2a: One Spike Michael|94/100|[from] item: Leftovers
+|-damage|p2a: One Spike Michael|82/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|31/100|[silent]
+|upkeep
+|turn|18
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729106332
+|switch|p1a: Dopey|Forretress, M|100/100
+|-damage|p1a: Dopey|88/100|[from] Spikes
+|switch|p2a: Tyranitar|Tyranitar, F|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|-heal|p1a: Dopey|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729106345
+|switch|p1a: Sleepy|Flygon, F|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Sleepy
+|-damage|p1a: Sleepy|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|68/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Halbert Simpson has 180 seconds left.
+|inactive|Halbert Simpson has 150 seconds left.
+|inactive|Halbert Simpson has 120 seconds left.
+|
+|t:|1729106427
+|switch|p2a: One Spike Michael|Forretress, M|82/100
+|move|p1a: Sleepy|Toxic|p2a: One Spike Michael
+|-immune|p2a: One Spike Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|74/100|[from] item: Leftovers
+|-heal|p2a: One Spike Michael|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729106433
+|move|p1a: Sleepy|Flamethrower|p2a: One Spike Michael
+|-supereffective|p2a: One Spike Michael
+|-damage|p2a: One Spike Michael|15/100
+|move|p2a: One Spike Michael|Counter|p1a: Sleepy
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|80/100|[from] item: Leftovers
+|-heal|p2a: One Spike Michael|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Halbert Simpson has 120 seconds left.
+|
+|t:|1729106456
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Sleepy|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|86/100|[from] item: Leftovers
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1729106482
+|switch|p1a: Dopey|Forretress, M|94/100
+|-damage|p1a: Dopey|82/100|[from] Spikes
+|move|p2a: Swampert|Refresh|p2a: Swampert
+|-curestatus|p2a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|-heal|p1a: Dopey|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Halbert Simpson has 120 seconds left.
+|
+|t:|1729106495
+|switch|p2a: One Spike Michael|Forretress, M|21/100
+|move|p1a: Dopey|Spikes|p2a: One Spike Michael
+|-sidestart|p2: Halbert Simpson|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: One Spike Michael|27/100|[from] item: Leftovers
+|-heal|p1a: Dopey|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Halbert Simpson has 120 seconds left.
+|
+|t:|1729106505
+|move|p1a: Dopey|Earthquake|p2a: One Spike Michael
+|-damage|p2a: One Spike Michael|11/100
+|move|p2a: One Spike Michael|Rapid Spin|p1a: Dopey
+|-resisted|p1a: Dopey
+|-crit|p1a: Dopey
+|-damage|p1a: Dopey|91/100
+|-sideend|p2: Halbert Simpson|Spikes|[from] move: Rapid Spin|[of] p2a: One Spike Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Dopey|97/100|[from] item: Leftovers
+|-heal|p2a: One Spike Michael|17/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Halbert Simpson has 120 seconds left.
+|inactive|Hummusfan has 270 seconds left.
+|inactive|Halbert Simpson has 90 seconds left.
+|inactive|Halbert Simpson has 60 seconds left.
+|
+|t:|1729106586
+|switch|p2a: Gligar's Purpose|Gligar, M|100/100
+|switch|p1a: Sleepy|Flygon, F|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|92/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729106601
+|switch|p2a: One Spike Michael|Forretress, M|17/100
+|move|p1a: Sleepy|Toxic|p2a: One Spike Michael
+|-immune|p2a: One Spike Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|98/100|[from] item: Leftovers
+|-heal|p2a: One Spike Michael|24/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729106608
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Sleepy|Flamethrower|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729106622
+|switch|p1a: Grumpy|Grumpig, M|94/100
+|-damage|p1a: Grumpy|82/100|[from] Spikes
+|move|p2a: Swampert|Surf|p1a: Grumpy
+|-damage|p1a: Grumpy|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|54/100|[from] Sandstorm
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Halbert Simpson has 60 seconds left.
+|
+|t:|1729106660
+|switch|p2a: One Spike Michael|Forretress, M|24/100
+|move|p1a: Grumpy|Thief|p2a: One Spike Michael
+|-resisted|p2a: One Spike Michael
+|-damage|p2a: One Spike Michael|20/100
+|-enditem|p2a: One Spike Michael|Leftovers|[silent]|[from] move: Thief|[of] p1a: Grumpy
+|-item|p1a: Grumpy|Leftovers|[from] move: Thief|[of] p2a: One Spike Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|48/100|[from] Sandstorm
+|-heal|p1a: Grumpy|54/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Halbert Simpson has 60 seconds left.
+|
+|t:|1729106675
+|switch|p2a: Tyranitar|Tyranitar, F|94/100
+|move|p1a: Grumpy|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|48/100|[from] Sandstorm
+|-heal|p1a: Grumpy|54/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729106693
+|move|p1a: Grumpy|Rest|p1a: Grumpy
+|-status|p1a: Grumpy|slp|[from] move: Rest
+|-heal|p1a: Grumpy|100/100 slp|[silent]
+|move|p2a: Tyranitar|Pursuit|p1a: Grumpy
+|-supereffective|p1a: Grumpy
+|-crit|p1a: Grumpy
+|-damage|p1a: Grumpy|53/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grumpy|47/100 slp|[from] Sandstorm
+|-heal|p1a: Grumpy|53/100 slp|[from] item: Leftovers
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729106703
+|-activate|p1a: Grumpy|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Grumpy|[from]Pursuit
+|-supereffective|p1a: Grumpy
+|-damage|p1a: Grumpy|2/100 slp
+|switch|p1a: Sleepy|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729106725
+|switch|p2a: Zapdos|Zapdos|87/100
+|move|p1a: Sleepy|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|81/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|81/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1729106739
+|switch|p1a: Dopey|Forretress, M|97/100
+|-damage|p1a: Dopey|85/100|[from] Spikes
+|move|p2a: Zapdos|Toxic|p1a: Dopey
+|-immune|p1a: Dopey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|75/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|69/100 tox|[from] psn
+|-heal|p1a: Dopey|91/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729106749
+|move|p2a: Zapdos|Thunderbolt|p1a: Dopey
+|-damage|p1a: Dopey|52/100
+|move|p1a: Dopey|Spikes|p2a: Zapdos
+|-sidestart|p2: Halbert Simpson|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|63/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|51/100 tox|[from] psn
+|-heal|p1a: Dopey|59/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729106757
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Dopey|Rapid Spin|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100 slp
+|-sideend|p1: Hummusfan|Spikes|[from] move: Rapid Spin|[of] p1a: Dopey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|85/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|91/100 slp|[from] item: Leftovers
+|-heal|p1a: Dopey|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729106767
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Toxic|p1a: Dopey|[from]Sleep Talk|[miss]
+|-miss|p2a: Zapdos|p1a: Dopey
+|move|p1a: Dopey|Spikes|p2a: Zapdos
+|-sidestart|p2: Halbert Simpson|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|85/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|91/100 slp|[from] item: Leftovers
+|-heal|p1a: Dopey|71/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Halbert Simpson has 90 seconds left.
+|
+|t:|1729106780
+|cant|p2a: Zapdos|slp
+|move|p1a: Dopey|Spikes|p2a: Zapdos
+|-sidestart|p2: Halbert Simpson|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|85/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|91/100 slp|[from] item: Leftovers
+|-heal|p1a: Dopey|77/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|Hummusfan has 270 seconds left.
+|inactive|Halbert Simpson has 90 seconds left.
+|
+|t:|1729106803
+|switch|p1a: Sleepy|Flygon, F|100/100
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Toxic|p1a: Sleepy
+|-status|p1a: Sleepy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|85/100|[from] Sandstorm
+|-damage|p1a: Sleepy|94/100 tox|[from] psn
+|-heal|p2a: Zapdos|91/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Halbert Simpson has 90 seconds left.
+|
+|t:|1729106822
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|75/100|[from] Spikes
+|move|p1a: Sleepy|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sleepy|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sleepy|88/100 tox|[from] psn
+|-heal|p2a: Tyranitar|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|75/100 tox|[from] psn
+|upkeep
+|turn|42
+|inactive|Halbert Simpson has 90 seconds left.
+|
+|t:|1729106841
+|switch|p2a: Zapdos|Zapdos|91/100
+|move|p1a: Sleepy|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Sleepy|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Sleepy|76/100 tox|[from] psn
+|-heal|p2a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729106859
+|move|p1a: Sleepy|Rest|p1a: Sleepy
+|-status|p1a: Sleepy|slp|[from] move: Rest
+|-heal|p1a: Sleepy|100/100 slp|[silent]
+|move|p2a: Zapdos|Thunderbolt|p1a: Sleepy
+|-immune|p1a: Sleepy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|64/100|[from] Sandstorm
+|-heal|p2a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|Hummusfan has 240 seconds left.
+|
+|t:|1729106890
+|switch|p1a: Happy|Celebi|31/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|25/100|[from] Sandstorm
+|-heal|p2a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729106899
+|switch|p2a: Tyranitar|Tyranitar, F|75/100 tox
+|-damage|p2a: Tyranitar|50/100 tox|[from] Spikes
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|69/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|57/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|50/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|Hummusfan has 240 seconds left.
+|
+|t:|1729106915
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|38/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|57/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|44/100 tox|[from] psn
+|upkeep
+|turn|47
+|inactive|Hummusfan has 240 seconds left.
+|
+|t:|1729106927
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|88/100
+|move|p2a: Tyranitar|Crunch|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|23/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|32/100 tox|[from] psn
+|upkeep
+|turn|48
+|inactive|Hummusfan has 240 seconds left.
+|
+|t:|1729106959
+|move|p1a: Happy|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729106965
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|17/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729106973
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|67/100
+|move|p2a: Blissey|Ice Beam|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|27/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729106981
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|77/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|71/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729106986
+|move|p1a: Happy|Leech Seed|p2a: Blissey
+|-start|p2a: Blissey|move: Leech Seed
+|move|p2a: Blissey|Ice Beam|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|17/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-damage|p2a: Blissey|63/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|37/100|[silent]
+|upkeep
+|turn|52
+|
+|t:|1729106992
+|switch|p2a: Gligar's Purpose|Gligar, M|100/100
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|81/100|[from] Sandstorm
+|upkeep
+|turn|53
+|
+|t:|1729107012
+|switch|p2a: Blissey|Blissey, F|63/100
+|-damage|p2a: Blissey|38/100|[from] Spikes
+|switch|p1a: Sneezy|Salamence, M|94/100
+|-ability|p1a: Sneezy|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|32/100|[from] Sandstorm
+|-heal|p2a: Blissey|38/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729107024
+|move|p1a: Sneezy|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729107030
+|switch|p2a: Zapdos|Zapdos|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|82/100|[from] Sandstorm
+|-damage|p2a: Zapdos|64/100|[from] Sandstorm
+|-heal|p2a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729107037
+|move|p1a: Sneezy|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|12/100
+|move|p2a: Zapdos|Toxic|p1a: Sneezy|[miss]
+|-miss|p2a: Zapdos|p1a: Sneezy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|76/100|[from] Sandstorm
+|-damage|p2a: Zapdos|6/100|[from] Sandstorm
+|-heal|p2a: Zapdos|12/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729107044
+|switch|p2a: Gligar's Purpose|Gligar, M|100/100
+|move|p1a: Sneezy|Brick Break|p2a: Gligar's Purpose
+|-resisted|p2a: Gligar's Purpose
+|-damage|p2a: Gligar's Purpose|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|70/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|95/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|Hummusfan has 270 seconds left.
+|inactive|Halbert Simpson has 150 seconds left.
+|
+|t:|1729107059
+|switch|p1a: Happy|Celebi|81/100
+|move|p2a: Gligar's Purpose|Toxic|p1a: Happy
+|-status|p1a: Happy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|75/100 tox|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|100/100|[from] item: Leftovers
+|-damage|p1a: Happy|69/100 tox|[from] psn
+|upkeep
+|turn|58
+|inactive|Hummusfan has 270 seconds left.
+|
+|t:|1729107067
+|-curestatus|p1a: Happy|tox|[from] ability: Natural Cure
+|switch|p1a: Bashful|Metagross|100/100
+|move|p2a: Gligar's Purpose|Protect||[still]
+|-fail|p2a: Gligar's Purpose
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|59
+|
+|t:|1729107075
+|move|p2a: Gligar's Purpose|Earthquake|p1a: Bashful
+|-supereffective|p1a: Bashful
+|-damage|p1a: Bashful|61/100
+|move|p1a: Bashful|Meteor Mash|p2a: Gligar's Purpose
+|-damage|p2a: Gligar's Purpose|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gligar's Purpose|64/100|[from] item: Leftovers
+|-heal|p1a: Bashful|67/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729107088
+|move|p1a: Bashful|Protect|p1a: Bashful
+|-singleturn|p1a: Bashful|Protect
+|move|p2a: Gligar's Purpose|Earthquake|p1a: Bashful
+|-activate|p1a: Bashful|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gligar's Purpose|70/100|[from] item: Leftovers
+|-heal|p1a: Bashful|73/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729107095
+|switch|p1a: Sneezy|Salamence, M|70/100
+|-ability|p1a: Sneezy|Intimidate|boost
+|-fail|p2a: Gligar's Purpose|unboost|Attack|[from] ability: Hyper Cutter|[of] p2a: Gligar's Purpose
+|move|p2a: Gligar's Purpose|Earthquake|p1a: Sneezy
+|-immune|p1a: Sneezy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|63/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|76/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729107109
+|move|p2a: Gligar's Purpose|Protect|p2a: Gligar's Purpose
+|-singleturn|p2a: Gligar's Purpose|Protect
+|move|p1a: Sneezy|Hidden Power|p2a: Gligar's Purpose
+|-activate|p2a: Gligar's Purpose|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|57/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|82/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|inactive|Halbert Simpson has 180 seconds left.
+|
+|t:|1729107116
+|switch|p1a: Happy|Celebi|69/100
+|move|p2a: Gligar's Purpose|Toxic|p1a: Happy
+|-status|p1a: Happy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|62/100 tox|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|88/100|[from] item: Leftovers
+|-damage|p1a: Happy|56/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|t:|1729107126
+|switch|p2a: Zapdos|Zapdos|12/100
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|6/100|[from] Sandstorm
+|-damage|p1a: Happy|94/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|12/100|[from] item: Leftovers
+|-damage|p1a: Happy|82/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|t:|1729107134
+|move|p1a: Happy|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|76/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 slp|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|87/100 tox|[silent]
+|-damage|p1a: Happy|69/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1729107142
+|move|p1a: Happy|Heal Bell|p1a: Happy
+|-activate|p1a: Happy|move: Heal Bell
+|-curestatus|p1a: Happy|tox|[silent]
+|-curestatus|p1: Sleepy|slp|[silent]
+|-curestatus|p1: Grumpy|slp|[silent]
+|cant|p2a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|63/100|[from] Sandstorm
+|-damage|p2a: Zapdos|82/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100 slp|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 slp|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|74/100|[silent]
+|upkeep
+|turn|67
+|
+|t:|1729107162
+|switch|p2a: Gligar's Purpose|Gligar, M|88/100
+|switch|p1a: Sleepy|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gligar's Purpose|94/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729107172
+|switch|p2a: Zapdos|Zapdos|76/100 slp
+|move|p1a: Sleepy|Toxic||[still]
+|-fail|p1a: Sleepy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729107181
+|move|p1a: Sleepy|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100 slp
+|cant|p2a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|51/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729107188
+|move|p1a: Sleepy|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|37/100 slp
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729107197
+|switch|p1a: Happy|Celebi|74/100
+|cant|p2a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p1a: Happy|68/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729107204
+|cant|p2a: Zapdos|slp
+|move|p1a: Happy|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|62/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 slp|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|74/100|[silent]
+|upkeep
+|turn|73
+|inactive|Halbert Simpson has 240 seconds left.
+|
+|t:|1729107225
+|switch|p1a: Sneezy|Salamence, M|57/100
+|-ability|p1a: Sneezy|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|switch|p2a: Gligar's Purpose|Gligar, M|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|51/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|99/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1729107236
+|move|p2a: Gligar's Purpose|Protect|p2a: Gligar's Purpose
+|-singleturn|p2a: Gligar's Purpose|Protect
+|move|p1a: Sneezy|Hidden Power|p2a: Gligar's Purpose
+|-activate|p2a: Gligar's Purpose|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|45/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|inactive|Halbert Simpson has 240 seconds left.
+|
+|t:|1729107279
+|move|p1a: Sneezy|Hidden Power|p2a: Gligar's Purpose
+|-damage|p2a: Gligar's Purpose|69/100
+|move|p2a: Gligar's Purpose|Toxic|p1a: Sneezy
+|-status|p1a: Sneezy|tox
+|-enditem|p1a: Sneezy|Lum Berry|[eat]
+|-curestatus|p1a: Sneezy|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|39/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|75/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729107292
+|move|p2a: Gligar's Purpose|Protect|p2a: Gligar's Purpose
+|-singleturn|p2a: Gligar's Purpose|Protect
+|move|p1a: Sneezy|Hidden Power|p2a: Gligar's Purpose
+|-activate|p2a: Gligar's Purpose|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|32/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|81/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729107295
+|move|p1a: Sneezy|Hidden Power|p2a: Gligar's Purpose
+|-damage|p2a: Gligar's Purpose|53/100
+|move|p2a: Gligar's Purpose|Toxic|p1a: Sneezy|[miss]
+|-miss|p2a: Gligar's Purpose|p1a: Sneezy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|26/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|59/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729107302
+|switch|p1a: Happy|Celebi|74/100
+|move|p2a: Gligar's Purpose|Protect||[still]
+|-fail|p2a: Gligar's Purpose
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|67/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|65/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1729107313
+|move|p2a: Gligar's Purpose|Thief|p1a: Happy
+|-supereffective|p1a: Happy
+|-damage|p1a: Happy|60/100
+|move|p1a: Happy|Leech Seed|p2a: Gligar's Purpose
+|-start|p2a: Gligar's Purpose|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|54/100|[from] Sandstorm
+|-heal|p2a: Gligar's Purpose|71/100|[from] item: Leftovers
+|-damage|p2a: Gligar's Purpose|59/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|64/100|[silent]
+|upkeep
+|turn|80
+|
+|t:|1729107321
+|switch|p2a: Zapdos|Zapdos|88/100 slp
+|switch|p1a: Sneezy|Salamence, M|26/100
+|-ability|p1a: Sneezy|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|20/100|[from] Sandstorm
+|-damage|p2a: Zapdos|82/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1729107331
+|switch|p2a: One Spike Michael|Forretress, M|20/100
+|-damage|p2a: One Spike Michael|0 fnt|[from] Spikes
+|faint|p2a: One Spike Michael
+|
+|t:|1729107333
+|switch|p2a: Swampert|Swampert, F|82/100
+|-damage|p2a: Swampert|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneezy|14/100|[from] Sandstorm
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1729107339
+|switch|p1a: Happy|Celebi|64/100
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|58/100|[from] Sandstorm
+|-heal|p2a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1729107346
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Happy|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|52/100|[from] Sandstorm
+|-heal|p2a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1729107356
+|switch|p2a: Zapdos|Zapdos|88/100 slp
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|82/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1729107369
+|move|p1a: Happy|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Thunderbolt|p1a: Happy
+|-resisted|p1a: Happy
+|-damage|p1a: Happy|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|-damage|p1a: Happy|72/100|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|84/100|[silent]
+|upkeep
+|turn|86
+|
+|t:|1729107393
+|switch|p1a: Dopey|Forretress, M|77/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Dopey
+|-damage|p1a: Dopey|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|63/100|[from] Leech Seed|[of] p1a: Dopey
+|-heal|p1a: Dopey|55/100|[silent]
+|-heal|p1a: Dopey|61/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1729107403
+|switch|p2a: Gligar's Purpose|Gligar, M|59/100
+|move|p1a: Dopey|Explosion|p2a: Gligar's Purpose
+|-crit|p2a: Gligar's Purpose
+|-damage|p2a: Gligar's Purpose|0 fnt
+|faint|p1a: Dopey
+|faint|p2a: Gligar's Purpose
+|
+|t:|1729107417
+|switch|p2a: Swampert|Swampert, F|76/100
+|switch|p1a: Happy|Celebi|84/100
+|-damage|p2a: Swampert|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|78/100|[from] Sandstorm
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1729107422
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Happy|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|72/100|[from] Sandstorm
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1729107425
+|switch|p2a: Zapdos|Zapdos|63/100
+|move|p1a: Happy|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Happy|65/100|[from] Sandstorm
+|-damage|p2a: Zapdos|57/100|[from] Sandstorm
+|-heal|p2a: Zapdos|63/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|51/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|77/100|[silent]
+|upkeep
+|turn|90
+|
+|t:|1729107430
+|move|p1a: Happy|Recover|p1a: Happy
+|-heal|p1a: Happy|100/100
+|move|p2a: Zapdos|Toxic|p1a: Happy|[miss]
+|-miss|p2a: Zapdos|p1a: Happy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|45/100|[from] Sandstorm
+|-damage|p1a: Happy|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|38/100|[from] Leech Seed|[of] p1a: Happy
+|-heal|p1a: Happy|100/100|[silent]
+|upkeep
+|turn|91
+|
+|t:|1729107437
+|switch|p1a: Bashful|Metagross|73/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Bashful
+|-damage|p1a: Bashful|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|32/100|[from] Sandstorm
+|-heal|p2a: Zapdos|38/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|26/100|[from] Leech Seed|[of] p1a: Bashful
+|-heal|p1a: Bashful|45/100|[silent]
+|-heal|p1a: Bashful|51/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1729107445
+|switch|p2a: Swampert|Swampert, F|63/100
+|-damage|p2a: Swampert|38/100|[from] Spikes
+|move|p1a: Bashful|Meteor Mash|p2a: Swampert|[miss]
+|-miss|p1a: Bashful|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|57/100|[from] item: Leftovers
+|-heal|p2a: Swampert|45/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1729107454
+|move|p1a: Bashful|Protect|p1a: Bashful
+|-singleturn|p1a: Bashful|Protect
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|63/100|[from] item: Leftovers
+|-heal|p2a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1729107458
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|69/100|[from] item: Leftovers
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1729107461
+|move|p1a: Bashful|Protect|p1a: Bashful
+|-singleturn|p1a: Bashful|Protect
+|move|p2a: Swampert|Surf|p1a: Bashful
+|-activate|p1a: Bashful|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|75/100|[from] item: Leftovers
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1729107465
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|37/100
+|move|p2a: Swampert|Surf|p1a: Bashful
+|-damage|p1a: Bashful|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|52/100|[from] item: Leftovers
+|-heal|p2a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1729107472
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|15/100
+|move|p2a: Swampert|Refresh||[still]
+|-fail|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|58/100|[from] item: Leftovers
+|-heal|p2a: Swampert|21/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1729107476
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|64/100|[from] item: Leftovers
+|-heal|p2a: Swampert|27/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1729107479
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|1/100
+|move|p2a: Swampert|Surf|p1a: Bashful
+|-damage|p1a: Bashful|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|25/100|[from] item: Leftovers
+|-heal|p2a: Swampert|8/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1729107484
+|move|p1a: Bashful|Protect|p1a: Bashful
+|-singleturn|p1a: Bashful|Protect
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|31/100|[from] item: Leftovers
+|-heal|p2a: Swampert|14/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1729107486
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|37/100|[from] item: Leftovers
+|-heal|p2a: Swampert|20/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1729107491
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bashful|43/100|[from] item: Leftovers
+|-heal|p2a: Swampert|26/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1729107498
+|move|p1a: Bashful|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729107500
+|switch|p2a: Zapdos|Zapdos|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|20/100|[from] Sandstorm
+|-heal|p2a: Zapdos|26/100|[from] item: Leftovers
+|-heal|p1a: Bashful|49/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1729107502
+|move|p1a: Bashful|Protect|p1a: Bashful
+|-singleturn|p1a: Bashful|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Bashful
+|-activate|p1a: Bashful|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|20/100|[from] Sandstorm
+|-heal|p2a: Zapdos|26/100|[from] item: Leftovers
+|-heal|p1a: Bashful|55/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1729107504
+|move|p2a: Zapdos|Thunderbolt|p1a: Bashful
+|-damage|p1a: Bashful|18/100
+|move|p1a: Bashful|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p1a: Bashful
+|faint|p2a: Zapdos
+|
+|win|Hummusfan
+|c|☆Hummusfan|gg
+|c|☆Halbert Simpson|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799141">
+{"id":"smogtours-gen3ou-799141","format":"[Gen 3] OU","players":["Hummusfan","Halbert Simpson"],"uploadtime":1729107504,"views":88,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

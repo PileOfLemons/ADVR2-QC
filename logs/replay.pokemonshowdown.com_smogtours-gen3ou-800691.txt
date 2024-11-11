@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: witgiz vs. lt. pickles - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between witgiz and lt. pickles! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800691">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729451868
+|gametype|singles
+|player|p1|witgiz|linebacker|
+|player|p2|lt. pickles|ltsurge|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729451868
+|start
+|switch|p1a: cheekibreekiow|Suicune|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆lt. pickles|hf
+|c|☆witgiz|u2
+|
+|t:|1729451889
+|switch|p2a: Blobbert|Blissey, F|100/100
+|move|p1a: cheekibreekiow|Calm Mind|p1a: cheekibreekiow
+|-boost|p1a: cheekibreekiow|spa|1
+|-boost|p1a: cheekibreekiow|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cheekibreekiow|94/100|[from] Sandstorm
+|-damage|p2a: Blobbert|94/100|[from] Sandstorm
+|-heal|p2a: Blobbert|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729451896
+|move|p1a: cheekibreekiow|Calm Mind|p1a: cheekibreekiow
+|-boost|p1a: cheekibreekiow|spa|1
+|-boost|p1a: cheekibreekiow|spd|1
+|move|p2a: Blobbert|Calm Mind|p2a: Blobbert
+|-boost|p2a: Blobbert|spa|1
+|-boost|p2a: Blobbert|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cheekibreekiow|88/100|[from] Sandstorm
+|-damage|p2a: Blobbert|94/100|[from] Sandstorm
+|-heal|p2a: Blobbert|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729451904
+|move|p2a: Blobbert|Thunderbolt|p1a: cheekibreekiow
+|-supereffective|p1a: cheekibreekiow
+|-damage|p1a: cheekibreekiow|56/100
+|move|p1a: cheekibreekiow|Roar|p2a: Blobbert
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cheekibreekiow|50/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1729451914
+|move|p1a: cheekibreekiow|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|4/100
+|move|p2a: Skarmory|Roar|p1a: cheekibreekiow
+|drag|p1a: 354Hamtaro|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|10/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729451941
+|switch|p1a: NoOneAtAII|Zapdos|100/100
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: NoOneAtAII|94/100|[from] Sandstorm
+|-heal|p1a: NoOneAtAII|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|lt. pickles has 270 seconds left.
+|
+|t:|1729451960
+|move|p1a: NoOneAtAII|Baton Pass|p1a: NoOneAtAII
+|
+|t:|1729451961
+|switch|p1a: tmr6|Metagross|100/100|[from] Baton Pass
+|move|p2a: Claydol|Psychic|p1a: tmr6
+|-resisted|p1a: tmr6
+|-damage|p1a: tmr6|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1729451970
+|switch|p1a: TheGoatWhisperer61|Celebi|100/100
+|move|p2a: Claydol|Earthquake|p1a: TheGoatWhisperer61
+|-resisted|p1a: TheGoatWhisperer61
+|-damage|p1a: TheGoatWhisperer61|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|77/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729451985
+|switch|p2a: Blobbert|Blissey, F|100/100
+|move|p1a: TheGoatWhisperer61|Calm Mind|p1a: TheGoatWhisperer61
+|-boost|p1a: TheGoatWhisperer61|spa|1
+|-boost|p1a: TheGoatWhisperer61|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|77/100|[from] Sandstorm
+|-damage|p2a: Blobbert|94/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|83/100|[from] item: Leftovers
+|-heal|p2a: Blobbert|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729451992
+|move|p1a: TheGoatWhisperer61|Baton Pass|p1a: TheGoatWhisperer61
+|
+|t:|1729451993
+|switch|p1a: tmr6|Metagross|95/100|[from] Baton Pass
+|move|p2a: Blobbert|Calm Mind|p2a: Blobbert
+|-boost|p2a: Blobbert|spa|1
+|-boost|p2a: Blobbert|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blobbert|94/100|[from] Sandstorm
+|-heal|p2a: Blobbert|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729452015
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: tmr6|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|lt. pickles has 270 seconds left.
+|
+|t:|1729452038
+|switch|p1a: TheGoatWhisperer61|Celebi|83/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|77/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|83/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729452042
+|move|p1a: TheGoatWhisperer61|Calm Mind|p1a: TheGoatWhisperer61
+|-boost|p1a: TheGoatWhisperer61|spa|1
+|-boost|p1a: TheGoatWhisperer61|spd|1
+|move|p2a: Jirachi|Fire Punch|p1a: TheGoatWhisperer61
+|-supereffective|p1a: TheGoatWhisperer61
+|-damage|p1a: TheGoatWhisperer61|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|55/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|61/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729452065
+|move|p1a: TheGoatWhisperer61|Baton Pass|p1a: TheGoatWhisperer61
+|
+|t:|1729452071
+|switch|p1a: NoOneAtAII|Zapdos|100/100|[from] Baton Pass
+|move|p2a: Jirachi|Toxic|p1a: NoOneAtAII
+|-status|p1a: NoOneAtAII|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: NoOneAtAII|94/100 tox|[from] Sandstorm
+|-heal|p1a: NoOneAtAII|100/100 tox|[from] item: Leftovers
+|-damage|p1a: NoOneAtAII|94/100 tox|[from] psn
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452105
+|move|p1a: NoOneAtAII|Baton Pass|p1a: NoOneAtAII
+|
+|t:|1729452109
+|switch|p1a: mahnemsjef|Gengar, M|100/100|[from] Baton Pass
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: mahnemsjef|94/100|[from] Sandstorm
+|-heal|p1a: mahnemsjef|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729452132
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: mahnemsjef|Ice Punch|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|7/100
+|
+|-heal|p2a: Claydol|57/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: mahnemsjef|94/100|[from] Sandstorm
+|-heal|p1a: mahnemsjef|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729452146
+|move|p1a: mahnemsjef|Ice Punch|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1729452160
+|switch|p2a: Blobbert|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: mahnemsjef|94/100|[from] Sandstorm
+|-damage|p2a: Blobbert|94/100|[from] Sandstorm
+|-heal|p1a: mahnemsjef|100/100|[from] item: Leftovers
+|-heal|p2a: Blobbert|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729452176
+|move|p1a: mahnemsjef|Explosion|p2a: Blobbert
+|-damage|p2a: Blobbert|30/100
+|faint|p1a: mahnemsjef
+|
+|t:|1729452178
+|switch|p1a: 354Hamtaro|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blobbert|24/100|[from] Sandstorm
+|-heal|p2a: Blobbert|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729452184
+|move|p1a: 354Hamtaro|Earthquake|p2a: Blobbert
+|-damage|p2a: Blobbert|0 fnt
+|faint|p2a: Blobbert
+|
+|t:|1729452189
+|switch|p2a: Milotic|Milotic, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729452197
+|switch|p1a: NoOneAtAII|Zapdos|94/100 tox
+|move|p2a: Milotic|Surf|p1a: NoOneAtAII
+|-damage|p1a: NoOneAtAII|54/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: NoOneAtAII|48/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: NoOneAtAII|54/100 tox|[from] item: Leftovers
+|-damage|p1a: NoOneAtAII|48/100 tox|[from] psn
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729452214
+|move|p1a: NoOneAtAII|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|31/100
+|move|p2a: Milotic|Surf|p1a: NoOneAtAII
+|-damage|p1a: NoOneAtAII|10/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: NoOneAtAII|4/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|25/100|[from] Sandstorm
+|-heal|p1a: NoOneAtAII|10/100 tox|[from] item: Leftovers
+|-damage|p1a: NoOneAtAII|0 fnt|[from] psn
+|faint|p1a: NoOneAtAII
+|-heal|p2a: Milotic|31/100|[from] item: Leftovers
+|upkeep
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452265
+|switch|p1a: 354Hamtaro|Dugtrio, F|100/100
+|turn|21
+|
+|t:|1729452271
+|move|p1a: 354Hamtaro|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|t:|1729452281
+|switch|p2a: Skarmory|Skarmory, F|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|17/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452290
+|switch|p1a: TheGoatWhisperer61|Celebi|61/100
+|move|p2a: Skarmory|Spikes|p1a: TheGoatWhisperer61
+|-sidestart|p1: witgiz|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|55/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|61/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452311
+|move|p1a: TheGoatWhisperer61|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729452316
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: TheGoatWhisperer61|55/100|[from] Sandstorm
+|-heal|p1a: TheGoatWhisperer61|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452329
+|switch|p1a: tmr6|Metagross|95/100
+|-damage|p1a: tmr6|83/100|[from] Spikes
+|move|p2a: Tyranitar|Hidden Power|p1a: tmr6
+|-damage|p1a: tmr6|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|inactive|lt. pickles has 270 seconds left.
+|
+|t:|1729452358
+|move|p1a: tmr6|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|move|p2a: Tyranitar|Earthquake|p1a: tmr6
+|-supereffective|p1a: tmr6
+|-damage|p1a: tmr6|0 fnt
+|faint|p1a: tmr6
+|inactive|witgiz has 270 seconds left.
+|
+|t:|1729452369
+|switch|p1a: 354Hamtaro|Dugtrio, F|100/100
+|-damage|p1a: 354Hamtaro|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|14/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729452376
+|move|p1a: 354Hamtaro|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729452378
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1729452394
+|move|p1a: 354Hamtaro|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|25/100
+|move|p2a: Jirachi|Fire Punch|p1a: 354Hamtaro
+|-damage|p1a: 354Hamtaro|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729452399
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: 354Hamtaro|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729452402
+|move|p1a: 354Hamtaro|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|witgiz
+|c|☆witgiz|gg
+|c|☆lt. pickles|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800691">
+{"id":"smogtours-gen3ou-800691","format":"[Gen 3] OU","players":["witgiz","lt. pickles"],"uploadtime":1729452402,"views":107,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

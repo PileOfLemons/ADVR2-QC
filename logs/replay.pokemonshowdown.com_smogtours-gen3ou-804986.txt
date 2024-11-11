@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: mkizzy vs. charku - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between mkizzy and charku! Format: [Gen 3] OU; Date: Nov 6, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804986">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730916767
+|gametype|singles
+|player|p1|mkizzy|brock-gen2|
+|player|p2|charku|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730916767
+|start
+|switch|p1a: 10_10|Jynx, F|100/100
+|switch|p2a: uus nimi mitähh|Regirock|100/100
+|turn|1
+|c|☆mkizzy|hf
+|c|☆charku|u2
+|inactive|charku has 270 seconds left.
+|
+|t:|1730916813
+|move|p1a: 10_10|Lovely Kiss|p2a: uus nimi mitähh
+|-status|p2a: uus nimi mitähh|slp|[from] move: Lovely Kiss
+|cant|p2a: uus nimi mitähh|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1730916834
+|switch|p2a: ax hotelli|Metagross|100/100
+|move|p1a: 10_10|Ice Beam|p2a: ax hotelli
+|-resisted|p2a: ax hotelli
+|-damage|p2a: ax hotelli|74/100
+|
+|-heal|p2a: ax hotelli|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730916854
+|switch|p1a: Skywalker|Salamence, F|100/100
+|-ability|p1a: Skywalker|Intimidate|boost
+|-fail|p2a: ax hotelli|unboost|[from] ability: Clear Body|[of] p2a: ax hotelli
+|move|p2a: ax hotelli|Meteor Mash|p1a: Skywalker
+|-damage|p1a: Skywalker|20/100
+|
+|-heal|p1a: Skywalker|27/100|[from] item: Leftovers
+|-heal|p2a: ax hotelli|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|mkizzy has 270 seconds left.
+|inactive|charku has 270 seconds left.
+|
+|t:|1730916903
+|switch|p1a: Pressure|Zapdos|100/100
+|move|p2a: ax hotelli|Meteor Mash|p1a: Pressure
+|-resisted|p1a: Pressure
+|-crit|p1a: Pressure
+|-damage|p1a: Pressure|37/100
+|-boost|p2a: ax hotelli|atk|1
+|
+|-heal|p1a: Pressure|43/100|[from] item: Leftovers
+|-heal|p2a: ax hotelli|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1730916921
+|move|p1a: Pressure|Thunderbolt|p2a: ax hotelli
+|-damage|p2a: ax hotelli|36/100
+|move|p2a: ax hotelli|Meteor Mash|p1a: Pressure
+|-resisted|p1a: Pressure
+|-damage|p1a: Pressure|0 fnt
+|faint|p1a: Pressure
+|
+|t:|1730916945
+|switch|p1a: For Shakilus|Dugtrio, F|100/100
+|
+|-heal|p2a: ax hotelli|42/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730916954
+|move|p1a: For Shakilus|Earthquake|p2a: ax hotelli
+|-supereffective|p2a: ax hotelli
+|-damage|p2a: ax hotelli|0 fnt
+|faint|p2a: ax hotelli
+|
+|t:|1730916956
+|switch|p2a: kahden kilon siika|Dragonite, F|100/100
+|
+|upkeep
+|turn|7
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1730916964
+|switch|p1a: Skywalker|Salamence, F|27/100
+|-ability|p1a: Skywalker|Intimidate|boost
+|-unboost|p2a: kahden kilon siika|atk|1
+|move|p2a: kahden kilon siika|Substitute|p2a: kahden kilon siika
+|-start|p2a: kahden kilon siika|Substitute
+|-damage|p2a: kahden kilon siika|76/100
+|
+|-heal|p1a: Skywalker|33/100|[from] item: Leftovers
+|-heal|p2a: kahden kilon siika|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730916972
+|move|p1a: Skywalker|Hidden Power|p2a: kahden kilon siika
+|-end|p2a: kahden kilon siika|Substitute
+|move|p2a: kahden kilon siika|Hidden Power|p1a: Skywalker
+|-damage|p1a: Skywalker|0 fnt
+|faint|p1a: Skywalker
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1730916985
+|switch|p1a: 10_10|Jynx, F|100/100
+|
+|-heal|p2a: kahden kilon siika|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730916992
+|switch|p2a: harmaa oikeussali|Snorlax, F|100/100
+|move|p1a: 10_10|Ice Beam|p2a: harmaa oikeussali
+|-damage|p2a: harmaa oikeussali|74/100
+|
+|-heal|p2a: harmaa oikeussali|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730917002
+|move|p1a: 10_10|Perish Song|p1a: 10_10
+|-start|p1a: 10_10|perish3|[silent]
+|-start|p2a: harmaa oikeussali|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: harmaa oikeussali|Shadow Ball|p1a: 10_10
+|-supereffective|p1a: 10_10
+|-damage|p1a: 10_10|0 fnt
+|faint|p1a: 10_10
+|
+|t:|1730917006
+|switch|p1a: For Shakilus|Dugtrio, F|100/100
+|
+|-heal|p2a: harmaa oikeussali|86/100|[from] item: Leftovers
+|-start|p2a: harmaa oikeussali|perish3
+|upkeep
+|turn|11
+|
+|t:|1730917010
+|move|p1a: For Shakilus|Substitute|p1a: For Shakilus
+|-start|p1a: For Shakilus|Substitute
+|-damage|p1a: For Shakilus|75/100
+|move|p2a: harmaa oikeussali|Earthquake|p1a: For Shakilus
+|-end|p1a: For Shakilus|Substitute
+|
+|-heal|p2a: harmaa oikeussali|92/100|[from] item: Leftovers
+|-start|p2a: harmaa oikeussali|perish2
+|upkeep
+|turn|12
+|
+|t:|1730917013
+|move|p1a: For Shakilus|Substitute|p1a: For Shakilus
+|-start|p1a: For Shakilus|Substitute
+|-damage|p1a: For Shakilus|50/100
+|move|p2a: harmaa oikeussali|Earthquake|p1a: For Shakilus
+|-end|p1a: For Shakilus|Substitute
+|
+|-heal|p2a: harmaa oikeussali|98/100|[from] item: Leftovers
+|-start|p2a: harmaa oikeussali|perish1
+|upkeep
+|turn|13
+|
+|t:|1730917016
+|move|p1a: For Shakilus|Substitute|p1a: For Shakilus
+|-start|p1a: For Shakilus|Substitute
+|-damage|p1a: For Shakilus|25/100
+|move|p2a: harmaa oikeussali|Earthquake|p1a: For Shakilus
+|-end|p1a: For Shakilus|Substitute
+|
+|-heal|p2a: harmaa oikeussali|100/100|[from] item: Leftovers
+|-start|p2a: harmaa oikeussali|perish0
+|upkeep
+|faint|p2a: harmaa oikeussali
+|
+|t:|1730917037
+|switch|p2a: kahden kilon siika|Dragonite, F|88/100
+|turn|14
+|
+|t:|1730917048
+|switch|p1a: Left Eye|Jirachi|100/100
+|move|p2a: kahden kilon siika|Heal Bell|p2a: kahden kilon siika
+|-activate|p2a: kahden kilon siika|move: Heal Bell
+|-curestatus|p2: uus nimi mitähh|slp|[silent]
+|
+|-heal|p2a: kahden kilon siika|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730917073
+|switch|p2a: uus nimi mitähh|Regirock|100/100
+|move|p1a: Left Eye|Ice Punch|p2a: uus nimi mitähh
+|-damage|p2a: uus nimi mitähh|82/100
+|
+|-heal|p2a: uus nimi mitähh|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730917081
+|move|p1a: Left Eye|Substitute|p1a: Left Eye
+|-start|p1a: Left Eye|Substitute
+|-damage|p1a: Left Eye|75/100
+|move|p2a: uus nimi mitähh|Earthquake|p1a: Left Eye
+|-supereffective|p1a: Left Eye
+|-crit|p1a: Left Eye
+|-end|p1a: Left Eye|Substitute
+|
+|-heal|p1a: Left Eye|82/100|[from] item: Leftovers
+|-heal|p2a: uus nimi mitähh|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730917097
+|move|p1a: Left Eye|Ice Punch|p2a: uus nimi mitähh
+|-damage|p2a: uus nimi mitähh|76/100
+|-status|p2a: uus nimi mitähh|frz
+|cant|p2a: uus nimi mitähh|frz
+|
+|-heal|p1a: Left Eye|88/100|[from] item: Leftovers
+|-heal|p2a: uus nimi mitähh|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730917107
+|switch|p2a: elät vain kerran|Magneton|100/100
+|move|p1a: Left Eye|Substitute|p1a: Left Eye
+|-start|p1a: Left Eye|Substitute
+|-damage|p1a: Left Eye|63/100
+|
+|-heal|p1a: Left Eye|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730917118
+|move|p1a: Left Eye|Thunderbolt|p2a: elät vain kerran
+|-resisted|p2a: elät vain kerran
+|-crit|p2a: elät vain kerran
+|-damage|p2a: elät vain kerran|68/100
+|move|p2a: elät vain kerran|Thunderbolt|p1a: Left Eye
+|-end|p1a: Left Eye|Substitute
+|
+|-heal|p1a: Left Eye|75/100|[from] item: Leftovers
+|-heal|p2a: elät vain kerran|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730917124
+|move|p1a: Left Eye|Thunderbolt|p2a: elät vain kerran
+|-resisted|p2a: elät vain kerran
+|-damage|p2a: elät vain kerran|57/100
+|move|p2a: elät vain kerran|Thunderbolt|p1a: Left Eye
+|-damage|p1a: Left Eye|35/100
+|
+|-heal|p1a: Left Eye|42/100|[from] item: Leftovers
+|-heal|p2a: elät vain kerran|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730917129
+|move|p1a: Left Eye|Thunderbolt|p2a: elät vain kerran
+|-resisted|p2a: elät vain kerran
+|-damage|p2a: elät vain kerran|45/100
+|move|p2a: elät vain kerran|Thunderbolt|p1a: Left Eye
+|-damage|p1a: Left Eye|0 fnt
+|faint|p1a: Left Eye
+|
+|t:|1730917152
+|switch|p1a: For Shakilus|Dugtrio, F|25/100
+|
+|-heal|p2a: elät vain kerran|51/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730917160
+|move|p1a: For Shakilus|Earthquake|p2a: elät vain kerran
+|-supereffective|p2a: elät vain kerran
+|-damage|p2a: elät vain kerran|0 fnt
+|faint|p2a: elät vain kerran
+|inactive|charku has 270 seconds left.
+|
+|t:|1730917212
+|switch|p2a: kahden kilon siika|Dragonite, F|94/100
+|
+|-heal|p2a: kahden kilon siika|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730917218
+|-singleturn|p2a: kahden kilon siika|move: Focus Punch
+|switch|p1a: Snakeman Freestyle|Golduck, F|100/100
+|move|p2a: kahden kilon siika|Focus Punch|p1a: Snakeman Freestyle
+|-damage|p1a: Snakeman Freestyle|22/100
+|
+|-enditem|p1a: Snakeman Freestyle|Salac Berry|[eat]
+|-boost|p1a: Snakeman Freestyle|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|24
+|
+|t:|1730917234
+|move|p1a: Snakeman Freestyle|Calm Mind|p1a: Snakeman Freestyle
+|-boost|p1a: Snakeman Freestyle|spa|1
+|-boost|p1a: Snakeman Freestyle|spd|1
+|move|p2a: kahden kilon siika|Hidden Power|p1a: Snakeman Freestyle
+|-damage|p1a: Snakeman Freestyle|0 fnt
+|faint|p1a: Snakeman Freestyle
+|
+|t:|1730917237
+|switch|p1a: For Shakilus|Dugtrio, F|25/100
+|
+|upkeep
+|turn|25
+|
+|t:|1730917239
+|move|p1a: For Shakilus|Hidden Power|p2a: kahden kilon siika
+|-resisted|p2a: kahden kilon siika
+|-damage|p2a: kahden kilon siika|87/100
+|move|p2a: kahden kilon siika|Hidden Power|p1a: For Shakilus
+|-damage|p1a: For Shakilus|0 fnt
+|faint|p1a: For Shakilus
+|
+|win|charku
+|c|☆mkizzy|gg
+|c|☆charku|gg
+|player|p1|
+|c|☆charku|ready for g2 whenever you are
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804986">
+{"id":"smogtours-gen3ou-804986","format":"[Gen 3] OU","players":["mkizzy","charku"],"uploadtime":1730917239,"views":46,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

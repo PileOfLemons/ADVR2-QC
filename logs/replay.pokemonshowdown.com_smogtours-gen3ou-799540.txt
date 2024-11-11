@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ccczzx vs. Dhrabb - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ccczzx and Dhrabb! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799540">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|badge|p2|bronze|gen9ou|100-3
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.<\/a><\/div>
+|t:|1729267870
+|gametype|singles
+|player|p1|ccczzx|102|
+|player|p2|Dhrabb|#wcop2024bangladesh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729267870
+|start
+|switch|p1a: fuck skarm x5|Skarmory, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1729267880
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: fuck skarm x5|Protect||[still]
+|-fail|p1a: fuck skarm x5
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1729267886
+|move|p1a: fuck skarm x5|Spikes|p2a: Skarmory
+|-sidestart|p2: Dhrabb|Spikes
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1729267890
+|move|p1a: fuck skarm x5|Spikes|p2a: Skarmory
+|-sidestart|p2: Dhrabb|Spikes
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1729267895
+|move|p1a: fuck skarm x5|Spikes|p2a: Skarmory
+|-sidestart|p2: Dhrabb|Spikes
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1729267899
+|move|p1a: fuck skarm x5|Roar|p2a: Skarmory
+|drag|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729267905
+|move|p2a: Metagross|Meteor Mash|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-crit|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|55/100
+|move|p1a: fuck skarm x5|Roar|p2a: Metagross
+|drag|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729267911
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Celebi|Leech Seed|p1a: fuck skarm x5|[miss]
+|-miss|p2a: Celebi|p1a: fuck skarm x5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729267927
+|move|p2a: Celebi|Leech Seed|p1a: fuck skarm x5
+|-start|p1a: fuck skarm x5|move: Leech Seed
+|move|p1a: fuck skarm x5|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|69/100 tox|[from] psn
+|-heal|p1a: fuck skarm x5|73/100|[from] item: Leftovers
+|-damage|p1a: fuck skarm x5|60/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|80/100 tox|[silent]
+|upkeep
+|turn|9
+|
+|t:|1729267938
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: washy|Blissey, F|100/100
+|-damage|p1a: washy|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|69/100|[from] Sandstorm
+|-heal|p1a: washy|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729267944
+|move|p2a: Skarmory|Toxic|p1a: washy
+|-status|p1a: washy|tox
+|move|p1a: washy|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|69/100 tox|[from] Sandstorm
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p1a: washy|76/100 tox|[from] item: Leftovers
+|-damage|p1a: washy|69/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1729267965
+|-curestatus|p1a: washy|tox|[from] ability: Natural Cure
+|switch|p1a: fuck skarm x5|Skarmory, M|60/100
+|move|p2a: Skarmory|Drill Peck|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|57/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729267975
+|move|p2a: Skarmory|Drill Peck|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|49/100
+|move|p1a: fuck skarm x5|Roar|p2a: Skarmory
+|drag|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: fuck skarm x5|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729267982
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Salamence|Fire Blast|p1a: fuck skarm x5
+|-activate|p1a: fuck skarm x5|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729267991
+|switch|p1a: cunny|Suicune|100/100
+|-damage|p1a: cunny|76/100|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: cunny
+|-resisted|p1a: cunny
+|-damage|p1a: cunny|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: cunny|53/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: cunny|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729268010
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|76/100|[from] Spikes
+|switch|p1a: clamdoll|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|70/100|[from] Sandstorm
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1729268036
+|move|p2a: Starmie|Hydro Pump|p1a: clamdoll|[miss]
+|-miss|p2a: Starmie|p1a: clamdoll
+|move|p1a: clamdoll|Rapid Spin|p2a: Starmie
+|-damage|p2a: Starmie|68/100
+|-sideend|p1: ccczzx|Spikes|[from] move: Rapid Spin|[of] p1a: clamdoll
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|62/100|[from] Sandstorm
+|-heal|p2a: Starmie|68/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729268041
+|switch|p1a: washy|Blissey, F|69/100
+|move|p2a: Starmie|Rapid Spin|p1a: washy
+|-damage|p1a: washy|67/100
+|-sideend|p2: Dhrabb|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|62/100|[from] Sandstorm
+|-damage|p1a: washy|60/100|[from] Sandstorm
+|-heal|p2a: Starmie|68/100|[from] item: Leftovers
+|-heal|p1a: washy|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729268055
+|switch|p2a: Metagross|Metagross|82/100
+|move|p1a: washy|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|60/100|[from] Sandstorm
+|-heal|p2a: Metagross|61/100|[from] item: Leftovers
+|-heal|p1a: washy|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729268062
+|switch|p2a: Celebi|Celebi|80/100
+|switch|p1a: fuck skarm x5|Skarmory, M|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729268072
+|move|p2a: Celebi|Leech Seed|p1a: fuck skarm x5|[miss]
+|-miss|p2a: Celebi|p1a: fuck skarm x5
+|move|p1a: fuck skarm x5|Spikes|p2a: Celebi
+|-sidestart|p2: Dhrabb|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729268084
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Celebi|Leech Seed|p1a: Dugtrio
+|-start|p1a: Dugtrio|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-damage|p1a: Dugtrio|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|80/100|[silent]
+|-heal|p2a: Celebi|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729268091
+|move|p1a: Dugtrio|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1729268094
+|switch|p2a: Skarmory|Skarmory, F|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dugtrio|76/100|[from] Leech Seed|[of] p2a: Skarmory
+|-heal|p2a: Skarmory|76/100|[silent]
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729268101
+|switch|p1a: clamdoll|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: clamdoll
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729268112
+|move|p1a: clamdoll|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|86/100
+|-sideend|p1: ccczzx|Spikes|[from] move: Rapid Spin|[of] p1a: clamdoll
+|move|p2a: Skarmory|Toxic|p1a: clamdoll|[miss]
+|-miss|p2a: Skarmory|p1a: clamdoll
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729268125
+|switch|p1a: washy|Blissey, F|67/100
+|move|p2a: Skarmory|Spikes|p1a: washy
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|60/100|[from] Sandstorm
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|-heal|p1a: washy|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729268132
+|move|p2a: Skarmory|Toxic|p1a: washy
+|-status|p1a: washy|tox
+|move|p1a: washy|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|60/100 tox|[from] Sandstorm
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p1a: washy|67/100 tox|[from] item: Leftovers
+|-damage|p1a: washy|60/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1729268141
+|move|p2a: Skarmory|Drill Peck|p1a: washy
+|-damage|p1a: washy|38/100 tox
+|move|p1a: washy|Soft-Boiled|p1a: washy
+|-heal|p1a: washy|88/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|82/100 tox|[from] Sandstorm
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p1a: washy|88/100 tox|[from] item: Leftovers
+|-damage|p1a: washy|75/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1729268151
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: washy|atk|1
+|-curestatus|p1a: washy|tox|[from] ability: Natural Cure
+|switch|p1a: fuck skarm x5|Skarmory, M|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729268157
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Salamence|Fire Blast|p1a: fuck skarm x5
+|-activate|p1a: fuck skarm x5|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|85/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729268166
+|switch|p1a: cunny|Suicune|59/100
+|-damage|p1a: cunny|47/100|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: cunny|[miss]
+|-miss|p2a: Salamence|p1a: cunny
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: cunny|41/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: cunny|47/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729268176
+|switch|p2a: Starmie|Starmie|68/100
+|-damage|p2a: Starmie|56/100|[from] Spikes
+|move|p1a: cunny|Rest|p1a: cunny
+|-status|p1a: cunny|slp|[from] move: Rest
+|-heal|p1a: cunny|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|50/100|[from] Sandstorm
+|-damage|p1a: cunny|94/100 slp|[from] Sandstorm
+|-heal|p2a: Starmie|56/100|[from] item: Leftovers
+|-heal|p1a: cunny|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729268183
+|switch|p1a: washy|Blissey, F|75/100
+|-damage|p1a: washy|63/100|[from] Spikes
+|move|p2a: Starmie|Rapid Spin|p1a: washy
+|-damage|p1a: washy|60/100
+|-sideend|p2: Dhrabb|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|50/100|[from] Sandstorm
+|-damage|p1a: washy|54/100|[from] Sandstorm
+|-heal|p2a: Starmie|56/100|[from] item: Leftovers
+|-heal|p1a: washy|60/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729268189
+|switch|p2a: Metagross|Metagross|61/100
+|move|p1a: washy|Soft-Boiled|p1a: washy
+|-heal|p1a: washy|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|94/100|[from] Sandstorm
+|-heal|p2a: Metagross|67/100|[from] item: Leftovers
+|-heal|p1a: washy|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729268199
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: washy|atk|1
+|switch|p1a: fuck skarm x5|Skarmory, M|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|91/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729268207
+|switch|p1a: cunny|Suicune|100/100 slp
+|-damage|p1a: cunny|88/100 slp|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: cunny
+|-damage|p1a: cunny|59/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: cunny|53/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: cunny|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729268219
+|switch|p1a: fuck skarm x5|Skarmory, M|91/100
+|move|p2a: Salamence|Dragon Claw|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|78/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729268226
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Salamence|Dragon Claw|p1a: fuck skarm x5
+|-activate|p1a: fuck skarm x5|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|84/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729268232
+|switch|p1a: washy|Blissey, F|100/100
+|-damage|p1a: washy|88/100|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: washy
+|-damage|p1a: washy|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: washy|65/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: washy|71/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729268242
+|switch|p2a: Metagross|Metagross|67/100
+|move|p1a: washy|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|65/100|[from] Sandstorm
+|-heal|p2a: Metagross|60/100|[from] item: Leftovers
+|-heal|p1a: washy|71/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729268251
+|switch|p1a: fuck skarm x5|Skarmory, M|84/100
+|move|p2a: Metagross|Meteor Mash|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|66/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|67/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729268271
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|move|p1a: fuck skarm x5|Spikes|p2a: Metagross
+|-sidestart|p2: Dhrabb|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|73/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|73/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729268279
+|move|p2a: Metagross|Meteor Mash|p1a: fuck skarm x5|[miss]
+|-miss|p2a: Metagross|p1a: fuck skarm x5
+|move|p1a: fuck skarm x5|Roar|p2a: Metagross
+|drag|p2a: Skarmory|Skarmory, F|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|79/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729268302
+|move|p1a: fuck skarm x5|Spikes|p2a: Skarmory
+|-sidestart|p2: Dhrabb|Spikes
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|85/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729268307
+|move|p1a: fuck skarm x5|Spikes|p2a: Skarmory
+|-sidestart|p2: Dhrabb|Spikes
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|91/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729268321
+|switch|p1a: clamdoll|Claydol|100/100
+|move|p2a: Skarmory|Drill Peck|p1a: clamdoll
+|-damage|p1a: clamdoll|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729268336
+|move|p1a: clamdoll|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|86/100
+|-sideend|p1: ccczzx|Spikes|[from] move: Rapid Spin|[of] p1a: clamdoll
+|move|p2a: Skarmory|Toxic|p1a: clamdoll|[miss]
+|-miss|p2a: Skarmory|p1a: clamdoll
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|c|☆ccczzx|mb
+|c|☆Dhrabb|Happens
+|
+|t:|1729268351
+|switch|p1a: washy|Blissey, F|71/100
+|move|p2a: Skarmory|Spikes|p1a: washy
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|65/100|[from] Sandstorm
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|-heal|p1a: washy|71/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729268360
+|move|p2a: Skarmory|Toxic|p1a: washy
+|-status|p1a: washy|tox
+|move|p1a: washy|Aromatherapy|p1a: washy
+|-cureteam|p1a: washy|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|65/100|[from] Sandstorm
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: washy|71/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729268367
+|move|p2a: Skarmory|Toxic|p1a: washy
+|-status|p1a: washy|tox
+|move|p1a: washy|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|65/100 tox|[from] Sandstorm
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|-heal|p1a: washy|71/100 tox|[from] item: Leftovers
+|-damage|p1a: washy|65/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1729268372
+|switch|p2a: Metagross|Metagross|73/100
+|-damage|p2a: Metagross|48/100|[from] Spikes
+|move|p1a: washy|Soft-Boiled|p1a: washy
+|-heal|p1a: washy|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|94/100 tox|[from] Sandstorm
+|-heal|p2a: Metagross|54/100|[from] item: Leftovers
+|-heal|p1a: washy|100/100 tox|[from] item: Leftovers
+|-damage|p1a: washy|88/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1729268379
+|switch|p2a: Starmie|Starmie|56/100
+|-damage|p2a: Starmie|31/100|[from] Spikes
+|-curestatus|p1a: washy|tox|[from] ability: Natural Cure
+|switch|p1a: fuck skarm x5|Skarmory, M|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|25/100|[from] Sandstorm
+|-heal|p2a: Starmie|31/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|97/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729268392
+|switch|p1a: my deloved|Dusclops, M|100/100
+|-damage|p1a: my deloved|88/100|[from] Spikes
+|move|p2a: Starmie|Rapid Spin|p1a: my deloved
+|-immune|p1a: my deloved
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|25/100|[from] Sandstorm
+|-damage|p1a: my deloved|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|31/100|[from] item: Leftovers
+|-heal|p1a: my deloved|88/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729268403
+|move|p2a: Starmie|Hydro Pump|p1a: my deloved
+|-damage|p1a: my deloved|49/100
+|move|p1a: my deloved|Shadow Ball|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|Dhrabb has 270 seconds left.
+|c|☆ccczzx|my lovely lops<3
+|
+|t:|1729268442
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: my deloved|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: my deloved|43/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: my deloved|49/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729268455
+|move|p2a: Salamence|Dragon Claw|p1a: my deloved
+|-damage|p1a: my deloved|22/100
+|move|p1a: my deloved|Will-O-Wisp|p2a: Salamence|[miss]
+|-miss|p1a: my deloved|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: my deloved|16/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: my deloved|22/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆ccczzx|oh well
+|
+|t:|1729268467
+|switch|p1a: washy|Blissey, F|88/100
+|-damage|p1a: washy|76/100|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: washy
+|-damage|p1a: washy|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: washy|54/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: washy|61/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729268475
+|move|p2a: Salamence|Brick Break|p1a: washy
+|-supereffective|p1a: washy
+|-damage|p1a: washy|16/100
+|move|p1a: washy|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729268495
+|switch|p2a: Skarmory|Skarmory, F|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: washy|10/100|[from] Sandstorm
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|-heal|p1a: washy|16/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729268509
+|switch|p1a: clamdoll|Claydol|88/100
+|move|p2a: Skarmory|Drill Peck|p1a: clamdoll
+|-damage|p1a: clamdoll|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729268525
+|move|p1a: clamdoll|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|-sideend|p1: ccczzx|Spikes|[from] move: Rapid Spin|[of] p1a: clamdoll
+|move|p2a: Skarmory|Toxic|p1a: clamdoll
+|-status|p1a: clamdoll|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|76/100 tox|[from] item: Leftovers
+|-damage|p1a: clamdoll|70/100 tox|[from] psn
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729268534
+|switch|p1a: my deloved|Dusclops, M|22/100
+|move|p2a: Skarmory|Spikes|p1a: my deloved
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: my deloved|16/100|[from] Sandstorm
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p1a: my deloved|22/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729268545
+|switch|p1a: washy|Blissey, F|16/100
+|-damage|p1a: washy|4/100|[from] Spikes
+|move|p2a: Skarmory|Drill Peck|p1a: washy
+|-damage|p1a: washy|0 fnt
+|faint|p1a: washy
+|
+|t:|1729268551
+|switch|p1a: clamdoll|Claydol|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|76/100 tox|[from] item: Leftovers
+|-damage|p1a: clamdoll|70/100 tox|[from] psn
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729268555
+|move|p1a: clamdoll|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100
+|-sideend|p1: ccczzx|Spikes|[from] move: Rapid Spin|[of] p1a: clamdoll
+|move|p2a: Skarmory|Drill Peck|p1a: clamdoll
+|-damage|p1a: clamdoll|45/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: clamdoll|51/100 tox|[from] item: Leftovers
+|-damage|p1a: clamdoll|39/100 tox|[from] psn
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729268564
+|move|p1a: clamdoll|Rest|p1a: clamdoll
+|-status|p1a: clamdoll|slp|[from] move: Rest
+|-heal|p1a: clamdoll|100/100 slp|[silent]
+|move|p2a: Skarmory|Spikes|p1a: clamdoll
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729268577
+|cant|p1a: clamdoll|slp
+|move|p2a: Skarmory|Roar|p1a: clamdoll
+|drag|p1a: cunny|Suicune|59/100
+|-damage|p1a: cunny|47/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cunny|40/100|[from] Sandstorm
+|-heal|p1a: cunny|47/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729268592
+|move|p2a: Skarmory|Toxic|p1a: cunny|[miss]
+|-miss|p2a: Skarmory|p1a: cunny
+|move|p1a: cunny|Roar|p2a: Skarmory
+|drag|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cunny|40/100|[from] Sandstorm
+|-heal|p1a: cunny|47/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|c|☆ccczzx|damn all these toxics
+|
+|t:|1729268607
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: cunny|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cunny|40/100|[from] Sandstorm
+|-heal|p1a: cunny|47/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|c|☆Dhrabb|I missed a lot lmao
+|
+|t:|1729268618
+|move|p1a: cunny|Rest|p1a: cunny
+|-status|p1a: cunny|slp|[from] move: Rest
+|-heal|p1a: cunny|100/100 slp|[silent]
+|move|p2a: Skarmory|Toxic|p1a: cunny|[miss]
+|-miss|p2a: Skarmory|p1a: cunny
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cunny|94/100 slp|[from] Sandstorm
+|-heal|p1a: cunny|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729268625
+|cant|p1a: cunny|slp
+|move|p2a: Skarmory|Roar|p1a: cunny
+|drag|p1a: fuck skarm x5|Skarmory, M|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729268630
+|move|p2a: Skarmory|Spikes|p1a: fuck skarm x5
+|-sidestart|p1: ccczzx|Spikes
+|move|p1a: fuck skarm x5|Roar|p2a: Skarmory
+|drag|p2a: Metagross|Metagross|54/100
+|-damage|p2a: Metagross|29/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|35/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729268637
+|move|p2a: Metagross|Meteor Mash|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|78/100
+|move|p1a: fuck skarm x5|Roar|p2a: Metagross
+|drag|p2a: Skarmory|Skarmory, F|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|84/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729268647
+|switch|p1a: cunny|Suicune|100/100 slp
+|-damage|p1a: cunny|84/100 slp|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: cunny
+|-sidestart|p1: ccczzx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: cunny|78/100 slp|[from] Sandstorm
+|-heal|p1a: cunny|84/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729268650
+|cant|p1a: cunny|slp
+|move|p2a: Skarmory|Roar|p1a: cunny
+|drag|p1a: Dugtrio|Dugtrio, F|76/100
+|-damage|p1a: Dugtrio|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|72
+|
+|t:|1729268661
+|switch|p1a: fuck skarm x5|Skarmory, M|84/100
+|move|p2a: Skarmory|Drill Peck|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|81/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729268669
+|move|p1a: fuck skarm x5|Roar|p2a: Skarmory
+|drag|p2a: Tyranitar|Tyranitar, M|76/100
+|-damage|p2a: Tyranitar|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|87/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1729268682
+|move|p2a: Tyranitar|Rock Slide|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|53/100
+|cant|p1a: fuck skarm x5|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|59/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1729268690
+|move|p2a: Tyranitar|Rock Slide|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|27/100
+|move|p1a: fuck skarm x5|Roar|p2a: Tyranitar
+|drag|p2a: Metagross|Metagross|35/100
+|-damage|p2a: Metagross|10/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|17/100|[from] item: Leftovers
+|-heal|p1a: fuck skarm x5|33/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729268700
+|move|p2a: Metagross|Meteor Mash|p1a: fuck skarm x5
+|-resisted|p1a: fuck skarm x5
+|-damage|p1a: fuck skarm x5|11/100
+|move|p1a: fuck skarm x5|Roar|p2a: Metagross
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|17/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729268706
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Skarmory|Roar|p1a: fuck skarm x5
+|-activate|p1a: fuck skarm x5|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|23/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729268713
+|move|p1a: fuck skarm x5|Roar|p2a: Skarmory
+|drag|p2a: Metagross|Metagross|17/100
+|-damage|p2a: Metagross|0 fnt|[from] Spikes
+|faint|p2a: Metagross
+|
+|t:|1729268717
+|switch|p2a: Tyranitar|Tyranitar, M|51/100
+|-damage|p2a: Tyranitar|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|29/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1729268723
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: fuck skarm x5|Roar|p2a: Tyranitar
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|35/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1729268733
+|move|p1a: fuck skarm x5|Protect|p1a: fuck skarm x5
+|-singleturn|p1a: fuck skarm x5|Protect
+|move|p2a: Skarmory|Drill Peck|p1a: fuck skarm x5
+|-activate|p1a: fuck skarm x5|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: fuck skarm x5|41/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|c|☆Dhrabb|yeah gg
+|-message|Dhrabb forfeited.
+|
+|win|ccczzx
+|c|☆ccczzx|gg
+|player|p1|
+|player|p2|
+|player|p1|ccczzx|102|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799540">
+{"id":"smogtours-gen3ou-799540","format":"[Gen 3] OU","players":["ccczzx","Dhrabb"],"uploadtime":1729268747,"views":84,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

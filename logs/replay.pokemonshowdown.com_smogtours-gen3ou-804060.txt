@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: AirPan vs. TheLargestLad - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between AirPan and TheLargestLad! Format: [Gen 3] OU; Date: Nov 2, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804060">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730574035
+|gametype|singles
+|player|p1|AirPan|pokemonrangerf-gen4|
+|player|p2|TheLargestLad|wattson|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730574035
+|start
+|switch|p1a: 360|Zapdos|100/100
+|switch|p2a: The Zappening|Zapdos|100/100
+|turn|1
+|c|☆AirPan|gl
+|inactive|TheLargestLad has 270 seconds left.
+|
+|t:|1730574076
+|switch|p2a: The Fridge|Regice|100/100
+|switch|p1a: girl|Celebi|100/100
+|
+|upkeep
+|turn|2
+|inactive|AirPan has 270 seconds left.
+|
+|t:|1730574106
+|switch|p1a: von dutch|Metagross|100/100
+|move|p2a: The Fridge|Ice Beam|p1a: von dutch
+|-resisted|p1a: von dutch
+|-damage|p1a: von dutch|73/100
+|
+|upkeep
+|turn|3
+|
+|t:|1730574115
+|switch|p2a: SogDog|Suicune|100/100
+|move|p1a: von dutch|Meteor Mash|p2a: SogDog
+|-resisted|p2a: SogDog
+|-damage|p2a: SogDog|82/100
+|-boost|p1a: von dutch|atk|1
+|
+|-heal|p2a: SogDog|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730574125
+|move|p2a: SogDog|Hydro Pump|p1a: von dutch
+|-damage|p1a: von dutch|10/100
+|move|p1a: von dutch|Meteor Mash|p2a: SogDog
+|-resisted|p2a: SogDog
+|-damage|p2a: SogDog|62/100
+|
+|-heal|p2a: SogDog|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730574133
+|switch|p1a: girl|Celebi|100/100
+|move|p2a: SogDog|Ice Beam|p1a: girl
+|-supereffective|p1a: girl
+|-crit|p1a: girl
+|-damage|p1a: girl|11/100
+|
+|-heal|p1a: girl|17/100|[from] item: Leftovers
+|-heal|p2a: SogDog|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730574142
+|switch|p2a: Onyon|Celebi|100/100
+|move|p1a: girl|Giga Drain|p2a: Onyon
+|-resisted|p2a: Onyon
+|-crit|p2a: Onyon
+|-damage|p2a: Onyon|80/100
+|-heal|p1a: girl|26/100|[from] drain|[of] p2a: Onyon
+|
+|-heal|p2a: Onyon|86/100|[from] item: Leftovers
+|-heal|p1a: girl|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730574144
+|move|p2a: Onyon|Calm Mind|p2a: Onyon
+|-boost|p2a: Onyon|spa|1
+|-boost|p2a: Onyon|spd|1
+|move|p1a: girl|Baton Pass|p1a: girl
+|
+|t:|1730574147
+|switch|p1a: apple|Dugtrio, F|100/100|[from] Baton Pass
+|
+|-heal|p2a: Onyon|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730574151
+|move|p1a: apple|Hidden Power|p2a: Onyon
+|-supereffective|p2a: Onyon
+|-damage|p2a: Onyon|0 fnt
+|faint|p2a: Onyon
+|
+|t:|1730574154
+|switch|p2a: Greg|Salamence, M|100/100
+|-ability|p2a: Greg|Intimidate|boost
+|-unboost|p1a: apple|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1730574160
+|switch|p1a: von dutch|Metagross|10/100
+|move|p2a: Greg|Dragon Claw|p1a: von dutch
+|-resisted|p1a: von dutch
+|-damage|p1a: von dutch|0 fnt
+|faint|p1a: von dutch
+|
+|t:|1730574163
+|switch|p1a: sympathy|Cloyster, M|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1730574171
+|switch|p2a: SogDog|Suicune|74/100
+|move|p1a: sympathy|Spikes|p2a: SogDog
+|-sidestart|p2: TheLargestLad|Spikes
+|
+|-heal|p2a: SogDog|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730574183
+|switch|p1a: 360|Zapdos|100/100
+|move|p2a: SogDog|Hydro Pump|p1a: 360
+|-damage|p1a: 360|50/100
+|
+|-heal|p1a: 360|57/100|[from] item: Leftovers
+|-heal|p2a: SogDog|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730574188
+|move|p1a: 360|Thunderbolt|p2a: SogDog
+|-supereffective|p2a: SogDog
+|-damage|p2a: SogDog|0 fnt
+|faint|p2a: SogDog
+|
+|t:|1730574191
+|switch|p2a: The Fridge|Regice|100/100
+|-damage|p2a: The Fridge|88/100|[from] Spikes
+|
+|-heal|p1a: 360|63/100|[from] item: Leftovers
+|-heal|p2a: The Fridge|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730574204
+|move|p1a: 360|Baton Pass|p1a: 360
+|
+|t:|1730574205
+|switch|p1a: girl|Celebi|32/100|[from] Baton Pass
+|move|p2a: The Fridge|Ice Beam|p1a: girl
+|-supereffective|p1a: girl
+|-damage|p1a: girl|0 fnt
+|faint|p1a: girl
+|
+|t:|1730574208
+|switch|p1a: apple|Dugtrio, F|100/100
+|
+|-heal|p2a: The Fridge|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730574211
+|move|p1a: apple|Rock Slide|p2a: The Fridge|[miss]
+|-miss|p1a: apple|p2a: The Fridge
+|move|p2a: The Fridge|Ice Beam|p1a: apple
+|-supereffective|p1a: apple
+|-damage|p1a: apple|0 fnt
+|faint|p1a: apple
+|
+|t:|1730574234
+|switch|p1a: sympathy|Cloyster, M|100/100
+|
+|-heal|p2a: The Fridge|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730574243
+|switch|p2a: Greg|Salamence, M|100/100
+|-ability|p2a: Greg|Intimidate|boost
+|-unboost|p1a: sympathy|atk|1
+|move|p1a: sympathy|Ice Beam|p2a: Greg
+|-supereffective|p2a: Greg
+|-damage|p2a: Greg|0 fnt
+|faint|p2a: Greg
+|
+|t:|1730574248
+|switch|p2a: The Fridge|Regice|100/100
+|-damage|p2a: The Fridge|88/100|[from] Spikes
+|
+|-heal|p2a: The Fridge|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730574253
+|move|p1a: sympathy|Explosion|p2a: The Fridge
+|-damage|p2a: The Fridge|30/100
+|faint|p1a: sympathy
+|
+|t:|1730574260
+|switch|p1a: 360|Zapdos|63/100
+|
+|-heal|p1a: 360|69/100|[from] item: Leftovers
+|-heal|p2a: The Fridge|36/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730574263
+|move|p1a: 360|Thunderbolt|p2a: The Fridge
+|-damage|p2a: The Fridge|10/100
+|move|p2a: The Fridge|Ice Beam|p1a: 360
+|-supereffective|p1a: 360
+|-damage|p1a: 360|0 fnt
+|faint|p1a: 360
+|
+|t:|1730574266
+|switch|p1a: 365|Gengar, M|100/100
+|
+|-heal|p2a: The Fridge|16/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730574270
+|move|p1a: 365|Thunderbolt|p2a: The Fridge
+|-damage|p2a: The Fridge|2/100
+|move|p2a: The Fridge|Rest|p2a: The Fridge
+|-status|p2a: The Fridge|slp|[from] move: Rest
+|-heal|p2a: The Fridge|100/100 slp|[silent]
+|
+|upkeep
+|turn|19
+|-message|AirPan forfeited.
+|
+|win|TheLargestLad
+|c|☆AirPan|gg
+|c|☆TheLargestLad|gg
+|player|p2|
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804060">
+{"id":"smogtours-gen3ou-804060","format":"[Gen 3] OU","players":["AirPan","TheLargestLad"],"uploadtime":1730574278,"views":55,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: scootymcbooty123 vs. blyargh - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between scootymcbooty123 and blyargh! Format: [Gen 3] OU; Date: Nov 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-805602">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731193434
+|gametype|singles
+|player|p1|scootymcbooty123|dancer|
+|player|p2|blyargh|#advpliv|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731193434
+|start
+|switch|p1a: Metalussy|Metagross|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1731193461
+|move|p2a: Zapdos|Thunderbolt|p1a: Metalussy
+|-damage|p1a: Metalussy|54/100
+|move|p1a: Metalussy|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|40/100
+|
+|-heal|p2a: Zapdos|46/100|[from] item: Leftovers
+|-heal|p1a: Metalussy|60/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|scootymcbooty123 has 270 seconds left.
+|
+|t:|1731193505
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1731193507
+|switch|p2a: Claydol|Claydol|100/100|[from] Baton Pass
+|move|p1a: Metalussy|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-crit|p2a: Claydol
+|-damage|p2a: Claydol|71/100
+|
+|-heal|p2a: Claydol|77/100|[from] item: Leftovers
+|-heal|p1a: Metalussy|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|scootymcbooty123 has 270 seconds left.
+|inactive|scootymcbooty123 has 240 seconds left.
+|
+|t:|1731193569
+|switch|p2a: Suicune|Suicune|100/100
+|switch|p1a: Salamussy|Salamence, M|100/100
+|-ability|p1a: Salamussy|Intimidate|boost
+|-unboost|p2a: Suicune|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1731193579
+|switch|p1a: Snorlussy|Snorlax, M|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|5
+|inactive|scootymcbooty123 has 210 seconds left.
+|
+|t:|1731193611
+|move|p2a: Suicune|Hydro Pump|p1a: Snorlussy|[miss]
+|-miss|p2a: Suicune|p1a: Snorlussy
+|move|p1a: Snorlussy|Shadow Ball|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|62/100
+|
+|-heal|p2a: Suicune|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731193652
+|switch|p2a: Metagross|Metagross|100/100
+|switch|p1a: Blussy|Blissey, F|100/100
+|
+|upkeep
+|turn|7
+|inactive|scootymcbooty123 has 150 seconds left.
+|
+|t:|1731193683
+|move|p2a: Metagross|Hidden Power|p1a: Blussy
+|-damage|p1a: Blussy|92/100
+|move|p1a: Blussy|Counter|p2a: Metagross
+|-damage|p2a: Metagross|65/100
+|
+|-heal|p2a: Metagross|71/100|[from] item: Leftovers
+|-heal|p1a: Blussy|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731193694
+|move|p2a: Metagross|Psychic|p1a: Blussy
+|-damage|p1a: Blussy|83/100
+|move|p1a: Blussy|Sing|p2a: Metagross|[miss]
+|-miss|p1a: Blussy|p2a: Metagross
+|
+|-heal|p2a: Metagross|78/100|[from] item: Leftovers
+|-heal|p1a: Blussy|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731193707
+|switch|p2a: Zapdos|Zapdos|46/100
+|move|p1a: Blussy|Sing|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Sing
+|
+|-heal|p2a: Zapdos|53/100 slp|[from] item: Leftovers
+|-heal|p1a: Blussy|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731193713
+|switch|p2a: Suicune|Suicune|68/100
+|move|p1a: Blussy|Seismic Toss|p2a: Suicune
+|-damage|p2a: Suicune|40/100
+|
+|-heal|p2a: Suicune|46/100|[from] item: Leftovers
+|-heal|p1a: Blussy|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731193719
+|move|p2a: Suicune|Toxic|p1a: Blussy
+|-status|p1a: Blussy|tox
+|move|p1a: Blussy|Seismic Toss|p2a: Suicune
+|-damage|p2a: Suicune|19/100
+|
+|-heal|p2a: Suicune|25/100|[from] item: Leftovers
+|-damage|p1a: Blussy|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1731193724
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Blussy|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|79/100
+|
+|-heal|p1a: Blussy|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blussy|88/100 tox|[from] psn
+|-heal|p2a: Snorlax|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731193731
+|-curestatus|p1a: Blussy|tox|[from] ability: Natural Cure
+|switch|p1a: Metalussy|Metagross|66/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Metalussy|72/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731193763
+|switch|p2a: Metagross|Metagross|78/100
+|move|p1a: Metalussy|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|56/100
+|-boost|p1a: Metalussy|atk|1
+|
+|-heal|p2a: Metagross|62/100|[from] item: Leftovers
+|-heal|p1a: Metalussy|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731193775
+|switch|p2a: Claydol|Claydol|77/100
+|move|p1a: Metalussy|Earthquake|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-heal|p2a: Claydol|83/100|[from] item: Leftovers
+|-heal|p1a: Metalussy|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731193780
+|move|p2a: Claydol|Earthquake|p1a: Metalussy
+|-supereffective|p1a: Metalussy
+|-damage|p1a: Metalussy|26/100
+|move|p1a: Metalussy|Meteor Mash|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1731193788
+|switch|p2a: Metagross|Metagross|62/100
+|
+|-heal|p2a: Metagross|68/100|[from] item: Leftovers
+|-heal|p1a: Metalussy|32/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731193808
+|switch|p1a: Salamussy|Salamence, M|100/100
+|-ability|p1a: Salamussy|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|move|p2a: Metagross|Hidden Power|p1a: Salamussy
+|-resisted|p1a: Salamussy
+|-damage|p1a: Salamussy|88/100
+|
+|-heal|p1a: Salamussy|94/100|[from] item: Leftovers
+|-heal|p2a: Metagross|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731193821
+|switch|p1a: Blussy|Blissey, F|88/100
+|move|p2a: Metagross|Psychic|p1a: Blussy
+|-damage|p1a: Blussy|73/100
+|
+|-heal|p2a: Metagross|81/100|[from] item: Leftovers
+|-heal|p1a: Blussy|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731193826
+|switch|p2a: Snorlax|Snorlax, F|92/100
+|move|p1a: Blussy|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|70/100
+|
+|-heal|p1a: Blussy|85/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731193831
+|switch|p1a: Metalussy|Metagross|32/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Metalussy|38/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731193839
+|switch|p2a: Suicune|Suicune|25/100
+|move|p1a: Metalussy|Explosion|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p1a: Metalussy
+|faint|p2a: Suicune
+|
+|t:|1731193857
+|switch|p2a: Metagross|Metagross|81/100
+|switch|p1a: Snorlussy|Snorlax, M|100/100
+|
+|-heal|p2a: Metagross|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731193864
+|switch|p1a: Blussy|Blissey, F|85/100
+|move|p2a: Metagross|Meteor Mash|p1a: Blussy
+|-damage|p1a: Blussy|47/100
+|
+|-heal|p2a: Metagross|93/100|[from] item: Leftovers
+|-heal|p1a: Blussy|54/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731193871
+|switch|p2a: Snorlax|Snorlax, F|83/100
+|move|p1a: Blussy|Soft-Boiled|p1a: Blussy
+|-heal|p1a: Blussy|100/100
+|
+|-heal|p2a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|+aplaguedoc|rwvival essa resenha
+|c|+aplaguedoc|?
+|c|+aplaguedoc|blyargh
+|c|☆blyargh|sim
+|inactive|scootymcbooty123 has 180 seconds left.
+|c|+aplaguedoc|se vc perder me mato
+|
+|t:|1731193914
+|switch|p1a: Snorlussy|Snorlax, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1731193919
+|switch|p2a: Metagross|Metagross|93/100
+|move|p1a: Snorlussy|Curse|p1a: Snorlussy
+|-unboost|p1a: Snorlussy|spe|1
+|-boost|p1a: Snorlussy|atk|1
+|-boost|p1a: Snorlussy|def|1
+|
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|scootymcbooty123 has 180 seconds left.
+|c|+aplaguedoc|roubaram 1 iniocente
+|
+|t:|1731193929
+|switch|p1a: Blussy|Blissey, F|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Blussy
+|-damage|p1a: Blussy|60/100
+|
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|-heal|p1a: Blussy|66/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731193940
+|switch|p2a: Snorlax|Snorlax, F|95/100
+|switch|p1a: Tyranussy|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranussy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|89/100|[from] Sandstorm
+|-heal|p2a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1731193952
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Tyranussy|Rock Slide|p2a: Metagross|[miss]
+|-miss|p1a: Tyranussy|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|inactive|scootymcbooty123 has 180 seconds left.
+|inactive|scootymcbooty123 has 150 seconds left.
+|
+|t:|1731194016
+|switch|p1a: Blussy|Blissey, F|66/100
+|move|p2a: Metagross|Meteor Mash|p1a: Blussy
+|-crit|p1a: Blussy
+|-damage|p1a: Blussy|0 fnt
+|faint|p1a: Blussy
+|
+|t:|1731194024
+|switch|p1a: Magussy|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|c|+aplaguedoc|kkkkk
+|
+|t:|1731194030
+|move|p1a: Magussy|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|26/100
+|move|p2a: Metagross|Hidden Power|p1a: Magussy
+|-supereffective|p1a: Magussy
+|-damage|p1a: Magussy|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|32/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|+aplaguedoc|assaltou 1 coitado
+|
+|t:|1731194037
+|move|p1a: Magussy|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1731194040
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Magussy|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆blyargh|kkkk
+|
+|t:|1731194048
+|move|p2a: Salamence|Brick Break|p1a: Magussy
+|-supereffective|p1a: Magussy
+|-damage|p1a: Magussy|0 fnt
+|faint|p1a: Magussy
+|
+|t:|1731194050
+|switch|p1a: Salamussy|Salamence, M|94/100
+|-ability|p1a: Salamussy|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamussy|88/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamussy|94/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731194060
+|switch|p2a: Snorlax|Snorlax, F|95/100
+|move|p1a: Salamussy|Dragon Dance|p1a: Salamussy
+|-boost|p1a: Salamussy|atk|1
+|-boost|p1a: Salamussy|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamussy|88/100|[from] Sandstorm
+|-damage|p2a: Snorlax|89/100|[from] Sandstorm
+|-heal|p1a: Salamussy|94/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|scootymcbooty123 has 180 seconds left.
+|
+|t:|1731194068
+|move|p1a: Salamussy|Hidden Power|p2a: Snorlax
+|-damage|p2a: Snorlax|47/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamussy|88/100|[from] Sandstorm
+|-damage|p2a: Snorlax|40/100|[from] Sandstorm
+|-heal|p1a: Salamussy|94/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1731194072
+|move|p1a: Salamussy|Hidden Power|p2a: Snorlax
+|-damage|p2a: Snorlax|13/100
+|move|p2a: Snorlax|Double-Edge|p1a: Salamussy
+|-damage|p1a: Salamussy|0 fnt
+|-damage|p2a: Snorlax|0 fnt|[from] Recoil|[of] p1a: Salamussy
+|faint|p1a: Salamussy
+|faint|p2a: Snorlax
+|
+|t:|1731194081
+|switch|p1a: Snorlussy|Snorlax, M|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Snorlussy|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Snorlussy|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlussy|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1731194098
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Snorlussy|Curse|p1a: Snorlussy
+|-unboost|p1a: Snorlussy|spe|1
+|-boost|p1a: Snorlussy|atk|1
+|-boost|p1a: Snorlussy|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Snorlussy|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlussy|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731194106
+|move|p2a: Salamence|Brick Break|p1a: Snorlussy
+|-supereffective|p1a: Snorlussy
+|-damage|p1a: Snorlussy|53/100
+|move|p1a: Snorlussy|Self-Destruct|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p1a: Snorlussy
+|faint|p2a: Salamence
+|
+|t:|1731194111
+|switch|p2a: Zapdos|Zapdos|53/100 slp
+|switch|p1a: Tyranussy|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|46/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|c|☆blyargh|gg
+|
+|t:|1731194115
+|cant|p2a: Zapdos|slp
+|move|p1a: Tyranussy|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|scootymcbooty123
+|c|☆scootymcbooty123|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-805602">
+{"id":"smogtours-gen3ou-805602","format":"[Gen 3] OU","players":["scootymcbooty123","blyargh"],"uploadtime":1731194115,"views":22,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

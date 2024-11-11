@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: MCJD931 vs. CharBoy3000 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between MCJD931 and CharBoy3000! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800736">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729454243
+|gametype|singles
+|player|p1|MCJD931|170|
+|player|p2|CharBoy3000|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729454243
+|start
+|switch|p1a: Lex Luthor|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1729454272
+|move|p1a: Lex Luthor|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Lex Luthor
+|-supereffective|p1a: Lex Luthor
+|-damage|p1a: Lex Luthor|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|MCJD931 has 270 seconds left.
+|
+|t:|1729454303
+|switch|p1a: Metallo|Skarmory, F|100/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Metallo
+|-damage|p1a: Metallo|73/100
+|-status|p1a: Metallo|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|79/100 frz|[from] item: Leftovers
+|-heal|p2a: Tyranitar|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729454312
+|switch|p1a: Brainiac|Moltres|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brainiac|94/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Brainiac|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729454321
+|switch|p1a: Bizzaro|Flygon, M|100/100
+|switch|p2a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1729454325
+|move|p1a: Bizzaro|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|move|p2a: Flygon|Toxic|p1a: Bizzaro
+|-status|p1a: Bizzaro|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|-damage|p1a: Bizzaro|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1729454340
+|switch|p1a: Lex Luthor|Zapdos|32/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729454351
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729454362
+|switch|p2a: Flygon|Flygon, F|94/100 tox
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1729454376
+|switch|p1a: Metallo|Skarmory, F|79/100 frz
+|switch|p2a: Articuno|Articuno|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: Metallo|85/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729454383
+|move|p2a: Articuno|Heal Bell|p2a: Articuno
+|-activate|p2a: Articuno|move: Heal Bell
+|-curestatus|p2: Flygon|tox|[silent]
+|-curestatus|p1a: Metallo|frz|[msg]
+|move|p1a: Metallo|Spikes|p2a: Articuno
+|-sidestart|p2: CharBoy3000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: Metallo|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729454390
+|move|p2a: Articuno|Ice Beam|p1a: Metallo
+|-damage|p1a: Metallo|61/100
+|move|p1a: Metallo|Spikes|p2a: Articuno
+|-sidestart|p2: CharBoy3000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: Metallo|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729454395
+|move|p2a: Articuno|Ice Beam|p1a: Metallo
+|-damage|p1a: Metallo|37/100
+|-status|p1a: Metallo|frz
+|cant|p1a: Metallo|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: Metallo|43/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729454407
+|switch|p1a: Brainiac|Moltres|100/100
+|move|p2a: Articuno|Ice Beam|p1a: Brainiac
+|-crit|p1a: Brainiac
+|-damage|p1a: Brainiac|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brainiac|20/100|[from] Sandstorm
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p1a: Brainiac|27/100|[from] item: Leftovers
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729454417
+|switch|p2a: Flygon|Flygon, F|94/100
+|move|p1a: Brainiac|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brainiac|20/100|[from] Sandstorm
+|-heal|p1a: Brainiac|27/100|[from] item: Leftovers
+|-heal|p2a: Flygon|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729454426
+|move|p1a: Brainiac|Will-O-Wisp|p2a: Flygon
+|-status|p2a: Flygon|brn
+|move|p2a: Flygon|Rock Slide|p1a: Brainiac
+|-supereffective|p1a: Brainiac
+|-damage|p1a: Brainiac|0 fnt
+|faint|p1a: Brainiac
+|
+|t:|1729454435
+|switch|p1a: Parasite|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|94/100|[from] Sandstorm
+|-heal|p1a: Parasite|100/100|[from] item: Leftovers
+|-heal|p2a: Flygon|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|68/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1729454442
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Parasite|Leech Seed|p2a: Moltres|[miss]
+|-miss|p1a: Parasite|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Parasite|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Parasite|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729454449
+|switch|p1a: Bizzaro|Flygon, M|94/100 tox
+|move|p2a: Moltres|Overheat|p1a: Bizzaro
+|-resisted|p1a: Bizzaro
+|-damage|p1a: Bizzaro|49/100 tox
+|-unboost|p2a: Moltres|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Bizzaro|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|49/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1729454462
+|switch|p2a: Flygon|Flygon, F|68/100 brn
+|move|p1a: Bizzaro|Toxic||[still]
+|-fail|p1a: Bizzaro
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|55/100 tox|[from] item: Leftovers
+|-heal|p2a: Flygon|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Bizzaro|43/100 tox|[from] psn
+|-damage|p2a: Flygon|61/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1729454475
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Parasite|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|94/100|[from] Sandstorm
+|-heal|p1a: Parasite|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729454481
+|move|p1a: Parasite|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|move|p2a: Skarmory|Spikes|p1a: Parasite
+|-sidestart|p1: MCJD931|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|94/100|[from] Sandstorm
+|-heal|p1a: Parasite|100/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|88/100|[from] Leech Seed|[of] p1a: Parasite
+|upkeep
+|turn|21
+|
+|t:|1729454490
+|switch|p1a: Lex Luthor|Zapdos|32/100
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729454498
+|switch|p2a: Flygon|Flygon, F|61/100 brn
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Flygon|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|55/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1729454515
+|switch|p1a: Parasite|Celebi|100/100
+|-damage|p1a: Parasite|88/100|[from] Spikes
+|move|p2a: Flygon|Rock Slide|p1a: Parasite
+|-damage|p1a: Parasite|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|76/100|[from] Sandstorm
+|-heal|p1a: Parasite|82/100|[from] item: Leftovers
+|-heal|p2a: Flygon|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|49/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1729454521
+|move|p2a: Flygon|Toxic|p1a: Parasite
+|-status|p1a: Parasite|tox
+|move|p1a: Parasite|Leech Seed|p2a: Flygon
+|-start|p2a: Flygon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|76/100 tox|[from] Sandstorm
+|-heal|p1a: Parasite|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Flygon|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|42/100 brn|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|93/100 tox|[silent]
+|-damage|p2a: Flygon|30/100 brn|[from] brn
+|-damage|p1a: Parasite|87/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1729454531
+|switch|p2a: Articuno|Articuno|100/100
+|move|p1a: Parasite|Leech Seed|p2a: Articuno
+|-start|p2a: Articuno|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|81/100 tox|[from] Sandstorm
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p1a: Parasite|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Parasite|75/100 tox|[from] psn
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-damage|p2a: Articuno|88/100|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|87/100 tox|[silent]
+|upkeep
+|turn|26
+|
+|t:|1729454542
+|-curestatus|p1a: Parasite|tox|[from] ability: Natural Cure
+|switch|p1a: Metallo|Skarmory, F|43/100 frz
+|move|p2a: Articuno|Heal Bell|p2a: Articuno
+|-activate|p2a: Articuno|move: Heal Bell
+|-curestatus|p2: Flygon|brn|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|82/100|[from] Sandstorm
+|-heal|p2a: Articuno|88/100|[from] item: Leftovers
+|-damage|p2a: Articuno|75/100|[from] Leech Seed|[of] p1a: Metallo
+|-heal|p1a: Metallo|57/100 frz|[silent]
+|-heal|p1a: Metallo|63/100 frz|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729454552
+|switch|p2a: Skarmory|Skarmory, F|88/100
+|-curestatus|p1a: Metallo|frz|[msg]
+|move|p1a: Metallo|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|69/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729454558
+|switch|p1a: Lex Luthor|Zapdos|32/100
+|move|p2a: Skarmory|Spikes|p1a: Lex Luthor
+|-sidestart|p1: MCJD931|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729454570
+|move|p1a: Lex Luthor|Hidden Power|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|95/100
+|move|p2a: Skarmory|Spikes|p1a: Lex Luthor
+|-sidestart|p1: MCJD931|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729454578
+|switch|p2a: Flygon|Flygon, F|30/100
+|move|p1a: Lex Luthor|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Flygon|7/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729454585
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Lex Luthor|Hidden Power|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Flygon|13/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729454592
+|move|p1a: Lex Luthor|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1729454597
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729454606
+|switch|p1a: Metallo|Skarmory, F|69/100
+|move|p2a: Jirachi|Body Slam|p1a: Metallo
+|-resisted|p1a: Metallo
+|-damage|p1a: Metallo|62/100
+|-status|p1a: Metallo|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: Metallo|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729454618
+|move|p1a: Metallo|Protect|p1a: Metallo
+|-singleturn|p1a: Metallo|Protect
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Metallo|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729454624
+|move|p2a: Jirachi|Fire Punch|p1a: Metallo
+|-supereffective|p1a: Metallo
+|-damage|p1a: Metallo|43/100 par
+|move|p1a: Metallo|Spikes|p2a: Jirachi
+|-sidestart|p2: CharBoy3000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729454631
+|move|p1a: Metallo|Protect|p1a: Metallo
+|-singleturn|p1a: Metallo|Protect
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729454661
+|move|p2a: Jirachi|Fire Punch|p1a: Metallo
+|-supereffective|p1a: Metallo
+|-damage|p1a: Metallo|22/100 par
+|move|p1a: Metallo|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729454667
+|move|p1a: Metallo|Protect|p1a: Metallo
+|-singleturn|p1a: Metallo|Protect
+|move|p2a: Jirachi|Fire Punch|p1a: Metallo
+|-activate|p1a: Metallo|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metallo|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729454672
+|switch|p1a: Bizzaro|Flygon, M|43/100 tox
+|move|p2a: Jirachi|Fire Punch|p1a: Bizzaro
+|-resisted|p1a: Bizzaro
+|-damage|p1a: Bizzaro|34/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|34/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1729454679
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Bizzaro|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|28/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1729454685
+|move|p1a: Bizzaro|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|34/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|16/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729454693
+|switch|p1a: Parasite|Celebi|87/100
+|-damage|p1a: Parasite|62/100|[from] Spikes
+|switch|p2a: Tyranitar|Tyranitar, F|71/100
+|-damage|p2a: Tyranitar|46/100|[from] Spikes
+|
+|-heal|p2a: Tyranitar|95/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|55/100|[from] Sandstorm
+|-heal|p1a: Parasite|62/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729454705
+|move|p1a: Parasite|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|move|p2a: Tyranitar|Pursuit|p1a: Parasite
+|-supereffective|p1a: Parasite
+|-damage|p1a: Parasite|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|26/100|[from] Sandstorm
+|-heal|p1a: Parasite|33/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|45/100|[silent]
+|upkeep
+|turn|44
+|
+|t:|1729454711
+|move|p1a: Parasite|Recover|p1a: Parasite
+|-heal|p1a: Parasite|95/100
+|move|p2a: Tyranitar|Crunch|p1a: Parasite
+|-supereffective|p1a: Parasite
+|-damage|p1a: Parasite|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|28/100|[from] Sandstorm
+|-heal|p1a: Parasite|34/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|46/100|[silent]
+|upkeep
+|turn|45
+|
+|t:|1729454722
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Parasite|Recover|p1a: Parasite
+|-heal|p1a: Parasite|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Parasite|90/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Parasite|96/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729454742
+|switch|p1a: Metallo|Skarmory, F|34/100 par
+|move|p2a: Moltres|Overheat|p1a: Metallo
+|-supereffective|p1a: Metallo
+|-damage|p1a: Metallo|0 fnt
+|-unboost|p2a: Moltres|spa|2
+|faint|p1a: Metallo
+|
+|t:|1729454748
+|switch|p1a: Lex Luthor|Zapdos|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729454758
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|18/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729454767
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Lex Luthor|Thunder Wave|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729454773
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729454775
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|26/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|32/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729454784
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|49/100
+|move|p2a: Jirachi|Body Slam|p1a: Lex Luthor
+|-damage|p1a: Lex Luthor|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|55/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729454791
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Lex Luthor|Thunder Wave|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729454802
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|30/100
+|-status|p2a: Jirachi|par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729454810
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|8/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729454815
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|64/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729454820
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|38/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lex Luthor|2/100|[from] Sandstorm
+|-heal|p1a: Lex Luthor|8/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729454825
+|move|p1a: Lex Luthor|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|15/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Lex Luthor
+|-damage|p1a: Lex Luthor|0 fnt
+|faint|p1a: Lex Luthor
+|
+|t:|1729454835
+|switch|p1a: Bizzaro|Flygon, M|16/100 tox
+|
+|-heal|p2a: Jirachi|65/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|16/100 tox|[from] psn
+|-heal|p2a: Jirachi|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729454851
+|cant|p2a: Jirachi|par
+|move|p1a: Bizzaro|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|13/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|10/100 tox|[from] psn
+|-heal|p2a: Jirachi|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729454857
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Bizzaro|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bizzaro|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Bizzaro|0 fnt|[from] psn
+|faint|p1a: Bizzaro
+|-heal|p2a: Jirachi|25/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1729454866
+|switch|p1a: Parasite|Celebi|96/100
+|-damage|p1a: Parasite|71/100|[from] Spikes
+|turn|59
+|
+|t:|1729454869
+|move|p1a: Parasite|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|65/100|[from] Sandstorm
+|-heal|p1a: Parasite|71/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|31/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|19/100 par|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|84/100|[silent]
+|upkeep
+|turn|60
+|
+|t:|1729454884
+|switch|p1a: General Zod|Gengar, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|69/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|95/100|[from] Sandstorm
+|-heal|p1a: General Zod|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|75/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|63/100 par|[from] Leech Seed|[of] p1a: General Zod
+|upkeep
+|turn|61
+|
+|t:|1729454893
+|switch|p2a: Tyranitar|Tyranitar, F|82/100
+|-damage|p2a: Tyranitar|57/100|[from] Spikes
+|move|p1a: General Zod|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|95/100|[from] Sandstorm
+|-heal|p1a: General Zod|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|40/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729454903
+|move|p1a: General Zod|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|95/100|[from] Sandstorm
+|-heal|p1a: General Zod|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|46/100 slp|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729454907
+|move|p1a: General Zod|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|24/100 slp
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|95/100|[from] Sandstorm
+|-heal|p1a: General Zod|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729454913
+|move|p1a: General Zod|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100 slp
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Crunch|p1a: General Zod
+|-supereffective|p1a: General Zod
+|-damage|p1a: General Zod|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|13/100|[from] Sandstorm
+|-heal|p1a: General Zod|19/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|14/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729454921
+|move|p1a: General Zod|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729454923
+|switch|p2a: Articuno|Articuno|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Zod|13/100|[from] Sandstorm
+|-damage|p2a: Articuno|69/100|[from] Sandstorm
+|-heal|p1a: General Zod|19/100|[from] item: Leftovers
+|-heal|p2a: Articuno|75/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729454930
+|move|p1a: General Zod|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|48/100
+|move|p2a: Articuno|Ice Beam|p1a: General Zod
+|-damage|p1a: General Zod|0 fnt
+|faint|p1a: General Zod
+|
+|t:|1729454936
+|switch|p1a: Parasite|Celebi|84/100
+|-damage|p1a: Parasite|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|52/100|[from] Sandstorm
+|-damage|p2a: Articuno|41/100|[from] Sandstorm
+|-heal|p1a: Parasite|59/100|[from] item: Leftovers
+|-heal|p2a: Articuno|48/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729454942
+|move|p1a: Parasite|Leech Seed|p2a: Articuno
+|-start|p2a: Articuno|move: Leech Seed
+|move|p2a: Articuno|Ice Beam|p1a: Parasite
+|-supereffective|p1a: Parasite
+|-damage|p1a: Parasite|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|7/100|[from] Sandstorm
+|-damage|p2a: Articuno|41/100|[from] Sandstorm
+|-heal|p1a: Parasite|13/100|[from] item: Leftovers
+|-heal|p2a: Articuno|48/100|[from] item: Leftovers
+|-damage|p2a: Articuno|35/100|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|25/100|[silent]
+|upkeep
+|turn|68
+|
+|t:|1729454953
+|move|p1a: Parasite|Recover|p1a: Parasite
+|-heal|p1a: Parasite|75/100
+|move|p2a: Articuno|Ice Beam|p1a: Parasite
+|-supereffective|p1a: Parasite
+|-damage|p1a: Parasite|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|20/100|[from] Sandstorm
+|-damage|p2a: Articuno|29/100|[from] Sandstorm
+|-heal|p1a: Parasite|26/100|[from] item: Leftovers
+|-heal|p2a: Articuno|35/100|[from] item: Leftovers
+|-damage|p2a: Articuno|23/100|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|38/100|[silent]
+|upkeep
+|turn|69
+|
+|t:|1729454968
+|move|p1a: Parasite|Recover|p1a: Parasite
+|-heal|p1a: Parasite|88/100
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Rest
+|-heal|p2a: Articuno|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Parasite|82/100|[from] Sandstorm
+|-damage|p2a: Articuno|94/100 slp|[from] Sandstorm
+|-heal|p1a: Parasite|88/100|[from] item: Leftovers
+|-heal|p2a: Articuno|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Articuno|88/100 slp|[from] Leech Seed|[of] p1a: Parasite
+|-heal|p1a: Parasite|99/100|[silent]
+|upkeep
+|turn|70
+|
+|t:|1729454973
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Parasite|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|59/100|[from] Sandstorm
+|-damage|p1a: Parasite|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|65/100|[from] item: Leftovers
+|-heal|p1a: Parasite|99/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729454979
+|move|p2a: Moltres|Overheat|p1a: Parasite
+|-supereffective|p1a: Parasite
+|-damage|p1a: Parasite|0 fnt
+|-unboost|p2a: Moltres|spa|2
+|faint|p1a: Parasite
+|
+|win|CharBoy3000
+|c|☆CharBoy3000|Gg
+|player|p2|
+|player|p1|
+|player|p2|CharBoy3000|blaine|
+|player|p2|
+|player|p2|CharBoy3000|blaine|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800736">
+{"id":"smogtours-gen3ou-800736","format":"[Gen 3] OU","players":["MCJD931","CharBoy3000"],"uploadtime":1729454979,"views":93,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

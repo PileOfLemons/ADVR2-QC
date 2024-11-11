@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: thedolla vs. FREEYSL321 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between thedolla and FREEYSL321! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798551">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728866309
+|gametype|singles
+|player|p1|thedolla|2|
+|player|p2|FREEYSL321|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728866309
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆thedolla|glhf
+|c|☆FREEYSL321|u2
+|c|☆thedolla|gr8 band
+|c|☆thedolla|jk i dont listen to them
+|
+|t:|1728866329
+|move|p1a: Tyranitar|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|move|p2a: Skarmory|Spikes|p1a: Tyranitar
+|-sidestart|p1: thedolla|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆FREEYSL321|what band
+|c|☆thedolla|u2 is a band
+|c|☆FREEYSL321|lol o yee
+|inactive|FREEYSL321 has 270 seconds left.
+|
+|t:|1728866360
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Tyranitar|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728866367
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728866371
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|60/100
+|move|p1a: Skarmory|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728866377
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|88/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|82/100 tox|[from] psn
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728866388
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|76/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728866395
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|65/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|59/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|65/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728866400
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Regice
+|-damage|p2a: Regice|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|65/100|[from] Sandstorm
+|-damage|p2a: Regice|81/100|[from] Sandstorm
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|-heal|p2a: Regice|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728866416
+|switch|p1a: Skarmory|Skarmory, F|72/100
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728866424
+|switch|p2a: Skarmory|Skarmory, F|52/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728866432
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: FREEYSL321|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: thedolla|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728866444
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: FREEYSL321|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: thedolla|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728866447
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728866450
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728866457
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Gengar|Fire Punch|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866489
+|switch|p2a: Claydol|Claydol|100/100
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866512
+|move|p2a: Claydol|Rapid Spin|p1a: Swampert
+|-damage|p1a: Swampert|78/100
+|-sideend|p2: FREEYSL321|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Swampert|Surf|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|44/100|[from] item: Leftovers
+|-heal|p1a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866535
+|switch|p2a: Suicune|Suicune|65/100 slp
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|59/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|65/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866543
+|switch|p1a: Gengar|Gengar, F|100/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|59/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728866548
+|switch|p2a: Regice|Regice|87/100
+|move|p1a: Gengar|Thunderbolt|p2a: Regice
+|-damage|p2a: Regice|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Regice|64/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Regice|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728866560
+|switch|p1a: Blissey|Blissey, F|71/100
+|-damage|p1a: Blissey|46/100|[from] Spikes
+|move|p2a: Regice|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regice|64/100|[from] Sandstorm
+|-damage|p1a: Blissey|40/100 par|[from] Sandstorm
+|-heal|p2a: Regice|70/100|[from] item: Leftovers
+|-heal|p1a: Blissey|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728866575
+|switch|p2a: Claydol|Claydol|44/100
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|50/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728866579
+|move|p2a: Claydol|Psychic|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|91/100
+|move|p1a: Skarmory|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|50/100 tox|[from] psn
+|-heal|p1a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728866585
+|move|p2a: Claydol|Psychic|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|87/100
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|44/100 tox|[from] psn
+|-heal|p1a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728866589
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|32/100 tox|[from] psn
+|-heal|p1a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728866597
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/100
+|-sideend|p2: FREEYSL321|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|14/100 tox|[from] psn
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728866600
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728866609
+|move|p2a: Gengar|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|50/100
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728866616
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Gengar|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728866643
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|75/100|[from] Spikes
+|move|p2a: Gengar|Fire Punch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728866654
+|move|p2a: Gengar|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|11/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|36/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728866667
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Gengar|Hidden Power|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-damage|p2a: Gengar|30/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Gengar|36/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|FREEYSL321 has 270 seconds left.
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866716
+|switch|p2a: Regice|Regice|70/100
+|-damage|p2a: Regice|53/100|[from] Spikes
+|move|p1a: Gengar|Fire Punch|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-damage|p2a: Regice|19/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Regice|25/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆FREEYSL321|mental calc choke 
+|
+|t:|1728866736
+|move|p1a: Gengar|Fire Punch|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|t:|1728866748
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Metagross|90/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728866759
+|switch|p1a: Tyranitar|Tyranitar, M|11/100
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|
+|t:|1728866769
+|switch|p1a: Charizard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|96/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|FREEYSL321 has 240 seconds left.
+|
+|t:|1728866790
+|switch|p2a: Claydol|Claydol|14/100 tox
+|move|p1a: Charizard|Fire Blast|p2a: Claydol|[miss]
+|-miss|p1a: Charizard|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|14/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1728866796
+|move|p1a: Charizard|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|inactive|FREEYSL321 has 240 seconds left.
+|
+|t:|1728866838
+|switch|p2a: Suicune|Suicune|65/100 slp
+|-damage|p2a: Suicune|49/100 slp|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|43/100 slp|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866870
+|move|p1a: Charizard|Hidden Power|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|19/100 slp
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Surf|p1a: Charizard|[from]Sleep Talk
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728866883
+|switch|p1a: Gengar|Gengar, F|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-damage|p2a: Suicune|13/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Suicune|19/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728866891
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1728866903
+|switch|p2a: Metagross|Metagross|96/100
+|-damage|p2a: Metagross|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Metagross|86/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|FREEYSL321 has 210 seconds left.
+|
+|t:|1728866933
+|switch|p1a: Skarmory|Skarmory, F|62/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|92/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728866941
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|98/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728866943
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|27/100
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|33/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728866948
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|FREEYSL321 has 240 seconds left.
+|
+|t:|1728866954
+|move|p2a: Metagross|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: Metagross|p1a: Skarmory
+|move|p1a: Skarmory|Roar|p2a: Metagross
+|drag|p2a: Gengar|Gengar, F|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|36/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728866961
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Gengar|Fire Punch|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|36/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728866970
+|move|p2a: Gengar|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|7/100
+|move|p1a: Skarmory|Roar|p2a: Gengar
+|drag|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|13/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728866979
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728867032
+|switch|p1a: Swampert|Swampert, F|91/100
+|-damage|p1a: Swampert|66/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|88/100|[from] item: Leftovers
+|-heal|p1a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|FREEYSL321 has 270 seconds left.
+|
+|t:|1728867038
+|switch|p2a: Skarmory|Skarmory, F|76/100
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p1a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728867045
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p1a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|thedolla has 270 seconds left.
+|
+|t:|1728867052
+|switch|p1a: Blissey|Blissey, F|46/100
+|-damage|p1a: Blissey|21/100|[from] Spikes
+|move|p2a: Skarmory|Drill Peck|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728867054
+|switch|p1a: Swampert|Swampert, F|84/100
+|-damage|p1a: Swampert|60/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|-heal|p1a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728867067
+|move|p2a: Skarmory|Drill Peck|p1a: Swampert
+|-damage|p1a: Swampert|50/100
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|48/100|[from] item: Leftovers
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728867072
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p1a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728867075
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|-heal|p1a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728867078
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728867084
+|move|p1a: Swampert|Refresh||[still]
+|-fail|p1a: Swampert
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|drag|p1a: Gengar|Gengar, F|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728867088
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728867093
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|13/100
+|move|p2a: Skarmory|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|22/100|[from] Sandstorm
+|-heal|p1a: Gengar|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|19/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728867098
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|22/100|[from] Sandstorm
+|-heal|p1a: Gengar|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728867104
+|move|p1a: Gengar|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728867107
+|switch|p2a: Metagross|Metagross|88/100
+|-damage|p2a: Metagross|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|22/100|[from] Sandstorm
+|-heal|p1a: Gengar|28/100|[from] item: Leftovers
+|-heal|p2a: Metagross|69/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728867120
+|move|p1a: Gengar|Thunderbolt|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1728867126
+|switch|p2a: Gengar|Gengar, F|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|22/100|[from] Sandstorm
+|-damage|p2a: Gengar|30/100|[from] Sandstorm
+|-heal|p1a: Gengar|28/100|[from] item: Leftovers
+|-heal|p2a: Gengar|36/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|c|☆thedolla|oof man
+|c|☆FREEYSL321|story of my tourney
+|
+|t:|1728867137
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|thedolla
+|c|☆FREEYSL321|nice
+|c|☆thedolla|wp
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798551">
+{"id":"smogtours-gen3ou-798551","format":"[Gen 3] OU","players":["thedolla","FREEYSL321"],"uploadtime":1728867137,"views":71,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

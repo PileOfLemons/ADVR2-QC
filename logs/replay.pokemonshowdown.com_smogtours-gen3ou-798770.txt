@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Deezcastforms vs. Hykari - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Deezcastforms and Hykari! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798770">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728940134
+|gametype|singles
+|player|p1|Deezcastforms|veteran-gen4|
+|player|p2|Hykari|flannery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728940134
+|start
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Good Luck Babe!|Skarmory, F|100/100
+|turn|1
+|
+|t:|1728940143
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Good Luck Babe!|Spikes|p1a: Magneton
+|-sidestart|p1: Deezcastforms|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1728940147
+|move|p1a: Magneton|Thunderbolt|p2a: Good Luck Babe!
+|-supereffective|p2a: Good Luck Babe!
+|-damage|p2a: Good Luck Babe!|0 fnt
+|faint|p2a: Good Luck Babe!
+|
+|t:|1728940153
+|switch|p2a: Feminominon|Celebi|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728940162
+|move|p2a: Feminominon|Swords Dance|p2a: Feminominon
+|-boost|p2a: Feminominon|atk|2
+|move|p1a: Magneton|Metal Sound|p2a: Feminominon
+|-unboost|p2a: Feminominon|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1728940171
+|move|p2a: Feminominon|Baton Pass|p2a: Feminominon
+|
+|t:|1728940183
+|switch|p2a: BRAT|Magneton|100/100|[from] Baton Pass
+|move|p1a: Magneton|Hidden Power|p2a: BRAT
+|-supereffective|p2a: BRAT
+|-damage|p2a: BRAT|0 fnt
+|faint|p2a: BRAT
+|
+|t:|1728940195
+|switch|p2a: HOT TO GO!|Aerodactyl, F|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1728940202
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: HOT TO GO!|Substitute|p2a: HOT TO GO!
+|-start|p2a: HOT TO GO!|Substitute
+|-damage|p2a: HOT TO GO!|76/100
+|
+|upkeep
+|turn|6
+|
+|t:|1728940210
+|move|p2a: HOT TO GO!|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|75/100
+|cant|p1a: Skarmory|flinch
+|
+|-heal|p1a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728940215
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: HOT TO GO!|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728940219
+|move|p2a: HOT TO GO!|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|move|p1a: Skarmory|Spikes|p2a: HOT TO GO!
+|-sidestart|p2: Hykari|Spikes
+|
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728940225
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: HOT TO GO!|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728940228
+|move|p2a: HOT TO GO!|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|45/100
+|move|p1a: Skarmory|Roar|p2a: HOT TO GO!
+|drag|p2a: Feminominon|Celebi|100/100
+|-damage|p2a: Feminominon|88/100|[from] Spikes
+|
+|-heal|p2a: Feminominon|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728940238
+|move|p2a: Feminominon|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|move|p1a: Skarmory|Drill Peck|p2a: Feminominon
+|-supereffective|p2a: Feminominon
+|-damage|p2a: Feminominon|64/100
+|
+|-heal|p2a: Feminominon|71/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|57/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|45/100|[from] Leech Seed|[of] p2a: Feminominon
+|-heal|p2a: Feminominon|81/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728940245
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Feminominon|Swords Dance|p2a: Feminominon
+|-boost|p2a: Feminominon|atk|2
+|
+|-heal|p2a: Feminominon|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728940252
+|move|p1a: Flygon|Hidden Power|p2a: Feminominon
+|-supereffective|p2a: Feminominon
+|-damage|p2a: Feminominon|0 fnt
+|faint|p2a: Feminominon
+|
+|t:|1728940255
+|switch|p2a: Pink Pony Club|Suicune|100/100
+|-damage|p2a: Pink Pony Club|88/100|[from] Spikes
+|
+|-heal|p2a: Pink Pony Club|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728940265
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Pink Pony Club|Calm Mind|p2a: Pink Pony Club
+|-boost|p2a: Pink Pony Club|spa|1
+|-boost|p2a: Pink Pony Club|spd|1
+|
+|-heal|p2a: Pink Pony Club|99/100|[from] item: Leftovers
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728940269
+|move|p2a: Pink Pony Club|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|33/100
+|move|p1a: Celebi|Leech Seed|p2a: Pink Pony Club
+|-start|p2a: Pink Pony Club|move: Leech Seed
+|
+|-heal|p2a: Pink Pony Club|100/100|[from] item: Leftovers
+|-damage|p2a: Pink Pony Club|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|44/100|[silent]
+|-heal|p1a: Celebi|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728940282
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pink Pony Club|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pink Pony Club|82/100|[from] Sandstorm
+|-heal|p2a: Pink Pony Club|88/100|[from] item: Leftovers
+|-damage|p2a: Pink Pony Club|76/100|[from] Leech Seed|[of] p1a: Tyranitar
+|-heal|p1a: Tyranitar|63/100|[silent]
+|-heal|p1a: Tyranitar|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728940292
+|switch|p1a: Milotic|Milotic, M|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Pink Pony Club|Hydro Pump|p1a: Milotic|[miss]
+|-miss|p2a: Pink Pony Club|p1a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pink Pony Club|70/100|[from] Sandstorm
+|-damage|p1a: Milotic|82/100|[from] Sandstorm
+|-heal|p2a: Pink Pony Club|76/100|[from] item: Leftovers
+|-damage|p2a: Pink Pony Club|63/100|[from] Leech Seed|[of] p1a: Milotic
+|-heal|p1a: Milotic|93/100|[silent]
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728940301
+|switch|p2a: Red Wine Supernova|Metagross|100/100
+|-damage|p2a: Red Wine Supernova|88/100|[from] Spikes
+|move|p1a: Milotic|Toxic|p2a: Red Wine Supernova
+|-immune|p2a: Red Wine Supernova
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|93/100|[from] Sandstorm
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728940315
+|move|p1a: Milotic|Surf|p2a: Red Wine Supernova
+|-crit|p2a: Red Wine Supernova
+|-damage|p2a: Red Wine Supernova|21/100
+|move|p2a: Red Wine Supernova|Meteor Mash|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|79/100
+|-boost|p2a: Red Wine Supernova|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|73/100|[from] Sandstorm
+|-heal|p1a: Milotic|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728940327
+|switch|p1a: Tyranitar|Tyranitar, M|69/100
+|-damage|p1a: Tyranitar|56/100|[from] Spikes
+|move|p2a: Red Wine Supernova|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p2a: Red Wine Supernova
+|faint|p1a: Tyranitar
+|
+|t:|1728940341
+|switch|p2a: Pink Pony Club|Suicune|63/100
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p2a: Pink Pony Club|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pink Pony Club|45/100|[from] Sandstorm
+|-heal|p2a: Pink Pony Club|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728940350
+|move|p1a: Flygon|Earthquake|p2a: Pink Pony Club
+|-damage|p2a: Pink Pony Club|0 fnt
+|faint|p2a: Pink Pony Club
+|-message|Hykari forfeited.
+|
+|win|Deezcastforms
+|player|p2|
+|player|p1|
+|player|p2|Hykari|flannery|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798770">
+{"id":"smogtours-gen3ou-798770","format":"[Gen 3] OU","players":["Deezcastforms","Hykari"],"uploadtime":1728940356,"views":159,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

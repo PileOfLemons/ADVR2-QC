@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: social inclusion vs. DipMyBalls94 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between social inclusion and DipMyBalls94! Format: [Gen 3] OU; Date: Oct 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796240">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728333679
+|gametype|singles
+|player|p1|social inclusion|169|
+|player|p2|DipMyBalls94|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728333679
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Tough Nut|Forretress, F|100/100
+|turn|1
+|inactive|DipMyBalls94 also wants the timer to be on.
+|c|☆DipMyBalls94|Hf
+|c|☆social inclusion|smae
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728333737
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1728333739
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Tough Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728333744
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1728333750
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|move|p1a: Forretress|Zap Cannon|p2a: Tough Nut|[miss]
+|-miss|p1a: Forretress|p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728333793
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Tough Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728333796
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1728333800
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Tough Nut|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728333803
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Zap Cannon|p2a: Tough Nut|[miss]
+|-miss|p1a: Forretress|p2a: Tough Nut
+|
+|upkeep
+|turn|9
+|
+|t:|1728333810
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Tough Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728333816
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|move|p1a: Forretress|Zap Cannon|p2a: Tough Nut
+|-damage|p2a: Tough Nut|86/100
+|-status|p2a: Tough Nut|par
+|
+|-heal|p2a: Tough Nut|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728333823
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|91/100 par
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|cant|p2a: Tough Nut|par
+|
+|-heal|p2a: Tough Nut|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728333827
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Tough Nut|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728333831
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728333833
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728333835
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|97/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728333849
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728333852
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728333854
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|cant|p2a: Tough Nut|par
+|
+|upkeep
+|turn|19
+|
+|t:|1728333862
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|move|p2a: Tough Nut|Rapid Spin|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|75/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|upkeep
+|turn|20
+|
+|t:|1728333889
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Tough Nut|Hidden Power|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|93/100
+|
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728333897
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|98/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728333900
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728333911
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100 par
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Tough Nut|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728333921
+|move|p1a: Forretress|Spikes|p2a: Tough Nut
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|25
+|
+|t:|1728333927
+|move|p1a: Forretress|Rapid Spin|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-damage|p2a: Tough Nut|99/100 par
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Tough Nut|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Tough Nut|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728333940
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|cant|p2a: Tough Nut|par
+|
+|upkeep
+|turn|27
+|
+|t:|1728333955
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|28
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728333985
+|switch|p2a: Hoe Smacker|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hoe Smacker
+|move|p1a: Forretress|Rapid Spin|p2a: Hoe Smacker
+|-resisted|p2a: Hoe Smacker
+|-damage|p2a: Hoe Smacker|99/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hoe Smacker|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728333992
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Hoe Smacker|Flamethrower|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|83/100|[from] Sandstorm
+|-heal|p1a: Milotic|89/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728333999
+|switch|p2a: Doctor Trisha|Blissey, F|100/100
+|move|p1a: Milotic|Surf|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|83/100|[from] Sandstorm
+|-damage|p2a: Doctor Trisha|82/100|[from] Sandstorm
+|-heal|p1a: Milotic|89/100|[from] item: Leftovers
+|-heal|p2a: Doctor Trisha|89/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728334010
+|move|p1a: Milotic|Toxic|p2a: Doctor Trisha|[miss]
+|-miss|p1a: Milotic|p2a: Doctor Trisha
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|83/100|[from] Sandstorm
+|-damage|p2a: Doctor Trisha|82/100|[from] Sandstorm
+|-heal|p1a: Milotic|89/100|[from] item: Leftovers
+|-heal|p2a: Doctor Trisha|89/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728334030
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|
+|-heal|p2a: Doctor Trisha|100/100|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|69/100|[from] Sandstorm
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-heal|p1a: Milotic|75/100|[from] item: Leftovers
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728334040
+|move|p1a: Milotic|Toxic|p2a: Doctor Trisha
+|-status|p2a: Doctor Trisha|tox
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|44/100|[from] Sandstorm
+|-damage|p2a: Doctor Trisha|94/100 tox|[from] Sandstorm
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|-heal|p2a: Doctor Trisha|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Doctor Trisha|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1728334042
+|-curestatus|p2a: Doctor Trisha|tox|[from] ability: Natural Cure
+|switch|p2a: Zeus' pet|Zapdos|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728334048
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|42/100
+|move|p1a: Milotic|Toxic|p2a: Zeus' pet
+|-status|p2a: Zeus' pet|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100 tox|[from] Sandstorm
+|-damage|p1a: Milotic|36/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|94/100 tox|[from] psn
+|-heal|p1a: Milotic|42/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728334055
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|88/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|82/100 tox|[from] psn
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728334067
+|switch|p2a: Doctor Trisha|Blissey, F|94/100
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|78/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|85/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728334074
+|switch|p1a: Milotic|Milotic, F|42/100
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|11/100|[from] Sandstorm
+|-damage|p2a: Doctor Trisha|78/100|[from] Sandstorm
+|-heal|p1a: Milotic|17/100|[from] item: Leftovers
+|-heal|p2a: Doctor Trisha|85/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728334079
+|switch|p2a: Zeus' pet|Zapdos|82/100 tox
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|75/100 tox|[from] Sandstorm
+|-damage|p1a: Milotic|61/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|75/100 tox|[from] psn
+|-heal|p1a: Milotic|67/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728334083
+|switch|p1a: Blissey|Blissey, F|83/100
+|move|p2a: Zeus' pet|Rest|p2a: Zeus' pet
+|-status|p2a: Zeus' pet|slp|[from] move: Rest
+|-heal|p2a: Zeus' pet|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728334107
+|cant|p2a: Zeus' pet|slp
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|DipMyBalls94 has 270 seconds left.
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334163
+|switch|p2a: REAL BALLER|Swampert, F|100/100
+|move|p1a: Blissey|Ice Beam|p2a: REAL BALLER
+|-crit|p2a: REAL BALLER
+|-damage|p2a: REAL BALLER|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: REAL BALLER|43/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334198
+|switch|p1a: Milotic|Milotic, F|67/100
+|move|p2a: REAL BALLER|Toxic|p1a: Milotic
+|-status|p1a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|61/100 tox|[from] Sandstorm
+|-heal|p1a: Milotic|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Milotic|61/100 tox|[from] psn
+|-heal|p2a: REAL BALLER|49/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728334203
+|move|p2a: REAL BALLER|Protect|p2a: REAL BALLER
+|-singleturn|p2a: REAL BALLER|Protect
+|move|p1a: Milotic|Refresh|p1a: Milotic
+|-curestatus|p1a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|55/100|[from] Sandstorm
+|-heal|p1a: Milotic|61/100|[from] item: Leftovers
+|-heal|p2a: REAL BALLER|56/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334210
+|switch|p2a: Zeus' pet|Zapdos|100/100 slp
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100 slp|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334228
+|switch|p2a: REAL BALLER|Swampert, F|56/100
+|switch|p1a: Blissey|Blissey, F|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: REAL BALLER|62/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334240
+|move|p2a: REAL BALLER|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: REAL BALLER
+|-damage|p2a: REAL BALLER|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100 tox|[from] Sandstorm
+|-heal|p2a: REAL BALLER|44/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|77/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1728334245
+|switch|p2a: Tough Nut|Forretress, F|100/100 par
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334264
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Tough Nut|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|50
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334295
+|switch|p2a: Zeus' pet|Zapdos|100/100 slp
+|move|p1a: Forretress|Rapid Spin|p2a: Zeus' pet
+|-damage|p2a: Zeus' pet|96/100 slp
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|90/100 slp|[from] Sandstorm
+|-heal|p2a: Zeus' pet|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334326
+|cant|p2a: Zeus' pet|slp
+|move|p1a: Forretress|Spikes|p2a: Zeus' pet
+|-sidestart|p2: DipMyBalls94|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|90/100 slp|[from] Sandstorm
+|-heal|p2a: Zeus' pet|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728334334
+|switch|p2a: Tough Nut|Forretress, F|100/100 par
+|-damage|p2a: Tough Nut|88/100 par|[from] Spikes
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tough Nut|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334366
+|move|p1a: Claydol|Hidden Power|p2a: Tough Nut
+|-supereffective|p2a: Tough Nut
+|-damage|p2a: Tough Nut|22/100 par
+|move|p2a: Tough Nut|Rapid Spin|p1a: Claydol
+|-damage|p1a: Claydol|96/100
+|-sideend|p2: DipMyBalls94|Spikes|[from] move: Rapid Spin|[of] p2a: Tough Nut
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Tough Nut|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728334375
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Doctor Trisha|Blissey, F|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|78/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|85/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728334378
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|move|p1a: Forretress|Spikes|p2a: Doctor Trisha
+|-sidestart|p2: DipMyBalls94|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|78/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|85/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728334383
+|switch|p2a: Tough Nut|Forretress, F|28/100 par
+|-damage|p2a: Tough Nut|16/100 par|[from] Spikes
+|move|p1a: Forretress|Explosion|p2a: Tough Nut
+|-resisted|p2a: Tough Nut
+|-crit|p2a: Tough Nut
+|-damage|p2a: Tough Nut|0 fnt
+|faint|p1a: Forretress
+|faint|p2a: Tough Nut
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334401
+|switch|p2a: Zeus' pet|Zapdos|96/100 slp
+|switch|p1a: Blissey|Blissey, F|77/100
+|
+|-heal|p2a: Zeus' pet|100/100 slp|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|71/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728334411
+|-curestatus|p2a: Zeus' pet|slp|[msg]
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334448
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728334452
+|switch|p2a: Doctor Trisha|Blissey, F|85/100
+|-damage|p2a: Doctor Trisha|72/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|53/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|59/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728334456
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334474
+|move|p2a: Doctor Trisha|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334487
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|68/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|inactive|DipMyBalls94 has 210 seconds left.
+|
+|t:|1728334504
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|85/100 par
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|71/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728334527
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|70/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|47/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|53/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728334537
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|72/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|78/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728334543
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|72/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|78/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728334548
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|54/100 par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Doctor Trisha|100/100|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|48/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334573
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|39/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|89/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|83/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728334581
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|74/100 par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|67/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728334586
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|58/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|52/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|71
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728334610
+|move|p2a: Doctor Trisha|Thunder Wave|p1a: Blissey
+|-fail|p1a: Blissey|par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728334614
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728334618
+|move|p2a: Doctor Trisha|Thunder Wave|p1a: Blissey
+|-fail|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728334626
+|move|p2a: Doctor Trisha|Thunder Wave|p1a: Blissey
+|-fail|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728334631
+|move|p2a: Doctor Trisha|Thunder Wave|p1a: Blissey
+|-fail|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728334638
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-crit|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|17/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|23/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728334644
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|73/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|33/100
+|-status|p2a: Doctor Trisha|par
+|
+|-heal|p2a: Doctor Trisha|83/100 par|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|76/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|83/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728334658
+|cant|p2a: Doctor Trisha|par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|76/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|83/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728334673
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|100/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|63/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|57/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|63/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728334688
+|-curestatus|p2a: Doctor Trisha|par|[from] ability: Natural Cure
+|switch|p2a: REAL BALLER|Swampert, F|44/100
+|-damage|p2a: REAL BALLER|32/100|[from] Spikes
+|move|p1a: Blissey|Thunderbolt|p2a: REAL BALLER
+|-immune|p2a: REAL BALLER
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|38/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1728334718
+|move|p2a: REAL BALLER|Protect|p2a: REAL BALLER
+|-singleturn|p2a: REAL BALLER|Protect
+|move|p1a: Blissey|Ice Beam|p2a: REAL BALLER
+|-activate|p2a: REAL BALLER|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|44/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728334727
+|switch|p2a: Doctor Trisha|Blissey, F|63/100
+|-damage|p2a: Doctor Trisha|50/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|7/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|13/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728334735
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|63/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|19/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|25/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728334741
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|75/100
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728334753
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|85/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728334759
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|70/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|33/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|39/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728334765
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|89/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|50/100
+|-status|p2a: Doctor Trisha|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|44/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|50/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728334776
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|99/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|99/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728334782
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100 par|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|99/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728334802
+|-curestatus|p2a: Doctor Trisha|par|[from] ability: Natural Cure
+|switch|p2a: REAL BALLER|Swampert, F|44/100
+|-damage|p2a: REAL BALLER|32/100|[from] Spikes
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|0
+|-boost|p1a: Blissey|spd|0
+|
+|-heal|p2a: REAL BALLER|81/100|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728334813
+|move|p2a: REAL BALLER|Protect|p2a: REAL BALLER
+|-singleturn|p2a: REAL BALLER|Protect
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|92
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728334838
+|switch|p2a: Doctor Trisha|Blissey, F|99/100
+|-damage|p2a: Doctor Trisha|87/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|46/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|52/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728334848
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|60/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|66/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|94
+|inactive|DipMyBalls94 has 270 seconds left.
+|
+|t:|1728334863
+|switch|p2a: REAL BALLER|Swampert, F|94/100
+|-damage|p2a: REAL BALLER|81/100|[from] Spikes
+|move|p1a: Blissey|Thunderbolt|p2a: REAL BALLER
+|-immune|p2a: REAL BALLER
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728334869
+|move|p2a: REAL BALLER|Protect|p2a: REAL BALLER
+|-singleturn|p2a: REAL BALLER|Protect
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|0
+|-boost|p1a: Blissey|spd|0
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: REAL BALLER|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728334878
+|switch|p2a: Doctor Trisha|Blissey, F|66/100
+|-damage|p2a: Doctor Trisha|54/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|9/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|15/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728334885
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|65/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|19/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|25/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728334890
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|75/100
+|move|p1a: Blissey|Thunderbolt|p2a: Doctor Trisha
+|-damage|p2a: Doctor Trisha|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|33/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|40/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728334894
+|move|p2a: Doctor Trisha|Soft-Boiled|p2a: Doctor Trisha
+|-heal|p2a: Doctor Trisha|90/100
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|83/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728334908
+|move|p2a: Doctor Trisha|Wish|p2a: Doctor Trisha
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|0
+|-boost|p1a: Blissey|spd|0
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|83/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728334921
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|85/100 par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|0
+|-boost|p1a: Blissey|spd|0
+|
+|-heal|p2a: Doctor Trisha|100/100|[from] move: Wish|[wisher] Doctor Trisha
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728334927
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|70/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728334946
+|move|p2a: Doctor Trisha|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|54/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|48/100 par|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728334962
+|switch|p2a: Edging in the sky|Aerodactyl, F|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|105
+|inactive|DipMyBalls94 has 270 seconds left.
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335013
+|switch|p2a: Doctor Trisha|Blissey, F|100/100
+|-damage|p2a: Doctor Trisha|88/100|[from] Spikes
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Doctor Trisha|82/100|[from] Sandstorm
+|-heal|p2a: Doctor Trisha|88/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|inactive|DipMyBalls94 has 240 seconds left.
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1728335057
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Zeus' pet|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1728335073
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|100/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1728335079
+|move|p2a: Zeus' pet|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|64/100
+|move|p1a: Claydol|Psychic|p2a: Zeus' pet
+|-damage|p2a: Zeus' pet|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100|[from] item: Leftovers
+|-heal|p1a: Claydol|70/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1728335084
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zeus' pet|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335105
+|switch|p2a: REAL BALLER|Swampert, F|94/100
+|-damage|p2a: REAL BALLER|81/100|[from] Spikes
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p2a: REAL BALLER|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728335109
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: REAL BALLER|Roar|p1a: Skarmory
+|drag|p1a: Dugtrio|Dugtrio, M|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: REAL BALLER|94/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335120
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: REAL BALLER|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: REAL BALLER|99/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335133
+|move|p1a: Skarmory|Spikes|p2a: REAL BALLER
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: REAL BALLER|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|-heal|p2a: REAL BALLER|100/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728335137
+|move|p1a: Skarmory|Spikes|p2a: REAL BALLER
+|-sidestart|p2: DipMyBalls94|Spikes
+|move|p2a: REAL BALLER|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728335144
+|move|p1a: Skarmory|Toxic|p2a: REAL BALLER
+|-status|p2a: REAL BALLER|tox
+|move|p2a: REAL BALLER|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|43/100|[from] item: Leftovers
+|-damage|p2a: REAL BALLER|94/100 tox|[from] psn
+|upkeep
+|turn|116
+|
+|t:|1728335152
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: REAL BALLER|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|49/100|[from] item: Leftovers
+|-heal|p2a: REAL BALLER|100/100 tox|[from] item: Leftovers
+|-damage|p2a: REAL BALLER|88/100 tox|[from] psn
+|upkeep
+|turn|117
+|
+|t:|1728335155
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: REAL BALLER|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|85/100|[from] Sandstorm
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|-heal|p2a: REAL BALLER|94/100 tox|[from] item: Leftovers
+|-damage|p2a: REAL BALLER|76/100 tox|[from] psn
+|upkeep
+|turn|118
+|
+|t:|1728335160
+|switch|p2a: Zeus' pet|Zapdos|78/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|119
+|inactive|DipMyBalls94 has 270 seconds left.
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335217
+|switch|p2a: Edging in the sky|Aerodactyl, F|100/100
+|switch|p1a: Blissey|Blissey, F|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335225
+|move|p2a: Edging in the sky|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|cant|p1a: Blissey|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728335232
+|switch|p1a: Claydol|Claydol|70/100
+|move|p2a: Edging in the sky|Rock Slide|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|51/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335252
+|switch|p2a: Hoe Smacker|Tyranitar, F|100/100
+|-damage|p2a: Hoe Smacker|75/100|[from] Spikes
+|move|p1a: Claydol|Psychic|p2a: Hoe Smacker
+|-immune|p2a: Hoe Smacker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|57/100|[from] item: Leftovers
+|-heal|p2a: Hoe Smacker|82/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335267
+|-activate|p1a: Claydol|move: Pursuit
+|move|p2a: Hoe Smacker|Pursuit|p1a: Claydol|[from]Pursuit
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|-hint|Previously chosen switches continue in Gen 2-4 after a Pursuit target faints.
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: Hoe Smacker|88/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335285
+|switch|p1a: Skarmory|Skarmory, M|49/100
+|switch|p2a: Zeus' pet|Zapdos|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1728335290
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1728335294
+|switch|p2a: Edging in the sky|Aerodactyl, F|100/100
+|switch|p1a: Blissey|Blissey, F|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728335301
+|switch|p1a: Dugtrio|Dugtrio, M|75/100
+|move|p2a: Edging in the sky|Rock Slide|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|128
+|
+|t:|1728335314
+|move|p2a: Edging in the sky|Rock Slide|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1728335316
+|switch|p1a: Skarmory|Skarmory, M|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335351
+|switch|p2a: Zeus' pet|Zapdos|78/100
+|move|p1a: Skarmory|Toxic|p2a: Zeus' pet
+|-status|p2a: Zeus' pet|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|71/100 tox|[from] Sandstorm
+|-heal|p2a: Zeus' pet|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|71/100 tox|[from] psn
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335385
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Zeus' pet|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|65/100 tox|[from] Sandstorm
+|-heal|p2a: Zeus' pet|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|59/100 tox|[from] psn
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1728335389
+|switch|p2a: Edging in the sky|Aerodactyl, F|100/100
+|switch|p1a: Blissey|Blissey, F|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1728335395
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Edging in the sky|Rock Slide|p1a: Milotic
+|-damage|p1a: Milotic|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|55/100|[from] Sandstorm
+|-heal|p1a: Milotic|61/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728335422
+|switch|p2a: Zeus' pet|Zapdos|59/100 tox
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus' pet|53/100 tox|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zeus' pet|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Zeus' pet|53/100 tox|[from] psn
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1728335433
+|switch|p2a: Edging in the sky|Aerodactyl, F|100/100
+|switch|p1a: Blissey|Blissey, F|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1728335435
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Edging in the sky|Rock Slide|p1a: Milotic
+|-damage|p1a: Milotic|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|58/100|[from] Sandstorm
+|-heal|p1a: Milotic|64/100|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|t:|1728335440
+|move|p2a: Edging in the sky|Rock Slide|p1a: Milotic
+|-damage|p1a: Milotic|28/100
+|cant|p1a: Milotic|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|22/100|[from] Sandstorm
+|-heal|p1a: Milotic|28/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|inactive|DipMyBalls94 has 240 seconds left.
+|
+|t:|1728335446
+|switch|p1a: Skarmory|Skarmory, M|79/100
+|move|p2a: Edging in the sky|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|138
+|c|☆social inclusion|tough
+|inactive|DipMyBalls94 has 240 seconds left.
+|c|☆social inclusion|flinches are on point :D
+|inactive|DipMyBalls94 has 210 seconds left.
+|c|☆DipMyBalls94|Indeed. Matchup is complicated so I gotta go for this.
+|c|☆social inclusion|yes, I am very hax weak. Its the biggest flaw of the team
+|c|☆social inclusion|you played it well, doesnt look good for me
+|inactive|DipMyBalls94 has 180 seconds left.
+|
+|t:|1728335518
+|move|p2a: Edging in the sky|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|6/100
+|move|p1a: Skarmory|Toxic|p2a: Edging in the sky|[miss]
+|-miss|p1a: Skarmory|p2a: Edging in the sky
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1728335525
+|move|p2a: Edging in the sky|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728335530
+|switch|p1a: Milotic|Milotic, F|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|22/100|[from] Sandstorm
+|-heal|p1a: Milotic|28/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1728335536
+|move|p2a: Edging in the sky|Rock Slide|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|t:|1728335538
+|switch|p1a: Blissey|Blissey, F|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1728335541
+|move|p2a: Edging in the sky|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|win|DipMyBalls94
+|c|☆social inclusion|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796240">
+{"id":"smogtours-gen3ou-796240","format":"[Gen 3] OU","players":["social inclusion","DipMyBalls94"],"uploadtime":1728335541,"views":127,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: mkizzy vs. ccczzx - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between mkizzy and ccczzx! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798207">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728841636
+|gametype|singles
+|player|p1|mkizzy|brock-gen2|
+|player|p2|ccczzx|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728841636
+|start
+|switch|p1a: 10_10|Jynx, F|100/100
+|switch|p2a: fuck skarm x3|Skarmory, M|100/100
+|turn|1
+|c|☆ccczzx|glhf
+|c|☆mkizzy|hf
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1728841671
+|move|p1a: 10_10|Lovely Kiss|p2a: fuck skarm x3
+|-status|p2a: fuck skarm x3|slp|[from] move: Lovely Kiss
+|cant|p2a: fuck skarm x3|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1728841675
+|switch|p2a: ma tresesc|Moltres|100/100
+|move|p1a: 10_10|Ice Beam|p2a: ma tresesc
+|-damage|p2a: ma tresesc|49/100
+|
+|-heal|p2a: ma tresesc|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728841694
+|switch|p1a: Pressure|Zapdos|100/100
+|move|p2a: ma tresesc|Flamethrower|p1a: Pressure
+|-damage|p1a: Pressure|47/100
+|
+|-heal|p1a: Pressure|53/100|[from] item: Leftovers
+|-heal|p2a: ma tresesc|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728841710
+|switch|p2a: blobs|Blissey, F|100/100
+|move|p1a: Pressure|Baton Pass|p1a: Pressure
+|
+|t:|1728841726
+|switch|p1a: For Shakilus|Dugtrio, F|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|5
+|
+|t:|1728841732
+|move|p1a: For Shakilus|Earthquake|p2a: blobs
+|-damage|p2a: blobs|49/100
+|move|p2a: blobs|Ice Beam|p1a: For Shakilus
+|-supereffective|p1a: For Shakilus
+|-damage|p1a: For Shakilus|10/100
+|
+|-heal|p2a: blobs|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728841740
+|move|p1a: For Shakilus|Earthquake|p2a: blobs
+|-damage|p2a: blobs|0 fnt
+|faint|p2a: blobs
+|
+|t:|1728841748
+|switch|p2a: ma tresesc|Moltres|62/100
+|
+|-heal|p2a: ma tresesc|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728841761
+|switch|p1a: Skywalker|Salamence, F|100/100
+|-ability|p1a: Skywalker|Intimidate|boost
+|-unboost|p2a: ma tresesc|atk|1
+|move|p2a: ma tresesc|Flamethrower|p1a: Skywalker
+|-resisted|p1a: Skywalker
+|-damage|p1a: Skywalker|73/100
+|
+|-heal|p2a: ma tresesc|74/100|[from] item: Leftovers
+|-heal|p1a: Skywalker|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728841774
+|switch|p1a: Pressure|Zapdos|53/100
+|move|p2a: ma tresesc|Will-O-Wisp|p1a: Pressure|[miss]
+|-miss|p2a: ma tresesc|p1a: Pressure
+|
+|-heal|p1a: Pressure|60/100|[from] item: Leftovers
+|-heal|p2a: ma tresesc|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728841781
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Pressure|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-heal|p1a: Pressure|66/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728841789
+|move|p1a: Pressure|Substitute|p1a: Pressure
+|-start|p1a: Pressure|Substitute
+|-damage|p1a: Pressure|41/100
+|move|p2a: Flygon|Toxic||[still]
+|-fail|p2a: Flygon
+|
+|-heal|p1a: Pressure|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728841797
+|move|p1a: Pressure|Baton Pass|p1a: Pressure
+|
+|t:|1728841816
+|switch|p1a: Left Eye|Jirachi|100/100|[from] Baton Pass
+|move|p2a: Flygon|Rock Slide|p1a: Left Eye|[miss]
+|-miss|p2a: Flygon|p1a: Left Eye
+|
+|upkeep
+|turn|12
+|
+|t:|1728841835
+|switch|p2a: mister dread|Misdreavus, F|100/100
+|move|p1a: Left Eye|Calm Mind|p1a: Left Eye
+|-boost|p1a: Left Eye|spa|1
+|-boost|p1a: Left Eye|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1728841846
+|move|p1a: Left Eye|Ice Punch|p2a: mister dread
+|-damage|p2a: mister dread|78/100
+|move|p2a: mister dread|Perish Song|p2a: mister dread
+|-start|p1a: Left Eye|perish3|[silent]
+|-start|p2a: mister dread|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: mister dread|84/100|[from] item: Leftovers
+|-start|p1a: Left Eye|perish3
+|-start|p2a: mister dread|perish3
+|upkeep
+|turn|14
+|
+|t:|1728841851
+|move|p1a: Left Eye|Ice Punch|p2a: mister dread
+|-damage|p2a: mister dread|63/100
+|move|p2a: mister dread|Mean Look||[still]
+|-fail|p2a: mister dread
+|
+|-heal|p2a: mister dread|69/100|[from] item: Leftovers
+|-start|p1a: Left Eye|perish2
+|-start|p2a: mister dread|perish2
+|upkeep
+|turn|15
+|
+|t:|1728841877
+|move|p1a: Left Eye|Ice Punch|p2a: mister dread
+|-crit|p2a: mister dread
+|-damage|p2a: mister dread|23/100
+|move|p2a: mister dread|Rest|p2a: mister dread
+|-status|p2a: mister dread|slp|[from] move: Rest
+|-heal|p2a: mister dread|100/100 slp|[silent]
+|
+|-start|p1a: Left Eye|perish1
+|-start|p2a: mister dread|perish1
+|upkeep
+|turn|16
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1728841894
+|switch|p1a: Snakeman Freestyle|Golduck, F|100/100
+|switch|p2a: ma tresesc|Moltres|81/100
+|
+|-heal|p2a: ma tresesc|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1728841911
+|switch|p2a: zippidyzop|Zapdos|100/100
+|move|p1a: Snakeman Freestyle|Calm Mind|p1a: Snakeman Freestyle
+|-boost|p1a: Snakeman Freestyle|spa|1
+|-boost|p1a: Snakeman Freestyle|spd|1
+|
+|upkeep
+|turn|18
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1728841924
+|move|p1a: Snakeman Freestyle|Calm Mind|p1a: Snakeman Freestyle
+|-boost|p1a: Snakeman Freestyle|spa|1
+|-boost|p1a: Snakeman Freestyle|spd|1
+|move|p2a: zippidyzop|Thunderbolt|p1a: Snakeman Freestyle
+|-supereffective|p1a: Snakeman Freestyle
+|-damage|p1a: Snakeman Freestyle|51/100
+|
+|upkeep
+|turn|19
+|
+|t:|1728841933
+|move|p1a: Snakeman Freestyle|Endure|p1a: Snakeman Freestyle
+|-singleturn|p1a: Snakeman Freestyle|move: Endure
+|move|p2a: zippidyzop|Roar|p1a: Snakeman Freestyle
+|drag|p1a: 10_10|Jynx, F|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1728841945
+|switch|p2a: fuck skarm x3|Skarmory, M|100/100 slp
+|move|p1a: 10_10|Ice Beam|p2a: fuck skarm x3
+|-damage|p2a: fuck skarm x3|62/100 slp
+|
+|-heal|p2a: fuck skarm x3|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728841954
+|switch|p1a: Pressure|Zapdos|47/100
+|cant|p2a: fuck skarm x3|slp
+|
+|-heal|p1a: Pressure|53/100|[from] item: Leftovers
+|-heal|p2a: fuck skarm x3|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728841960
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Pressure|Substitute|p1a: Pressure
+|-start|p1a: Pressure|Substitute
+|-damage|p1a: Pressure|28/100
+|
+|-heal|p1a: Pressure|34/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728841971
+|move|p1a: Pressure|Baton Pass|p1a: Pressure
+|
+|t:|1728841978
+|switch|p1a: Skywalker|Salamence, F|79/100|[from] Baton Pass
+|-ability|p1a: Skywalker|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Earthquake|p1a: Skywalker
+|-immune|p1a: Skywalker
+|
+|-heal|p1a: Skywalker|85/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728841991
+|move|p1a: Skywalker|Dragon Dance|p1a: Skywalker
+|-boost|p1a: Skywalker|atk|1
+|-boost|p1a: Skywalker|spe|1
+|move|p2a: Flygon|Rock Slide|p1a: Skywalker
+|-supereffective|p1a: Skywalker
+|-end|p1a: Skywalker|Substitute
+|
+|-heal|p1a: Skywalker|91/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1728842023
+|move|p1a: Skywalker|Dragon Dance|p1a: Skywalker
+|-boost|p1a: Skywalker|atk|1
+|-boost|p1a: Skywalker|spe|1
+|move|p2a: Flygon|Toxic|p1a: Skywalker
+|-status|p1a: Skywalker|tox
+|
+|-heal|p1a: Skywalker|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Skywalker|91/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1728842035
+|move|p1a: Skywalker|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|29/100
+|move|p2a: Flygon|Rock Slide|p1a: Skywalker
+|-supereffective|p1a: Skywalker
+|-damage|p1a: Skywalker|61/100 tox
+|
+|-heal|p1a: Skywalker|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Skywalker|55/100 tox|[from] psn
+|-heal|p2a: Flygon|35/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728842041
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Skywalker|Hidden Power|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p1a: Skywalker|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Skywalker|43/100 tox|[from] psn
+|-heal|p2a: Flygon|41/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728842048
+|switch|p2a: fuck skarm x3|Skarmory, M|74/100 slp
+|move|p1a: Skywalker|Brick Break|p2a: fuck skarm x3
+|-damage|p2a: fuck skarm x3|31/100 slp
+|
+|-heal|p1a: Skywalker|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Skywalker|25/100 tox|[from] psn
+|-heal|p2a: fuck skarm x3|37/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728842056
+|switch|p2a: mister dread|Misdreavus, F|100/100 slp
+|move|p1a: Skywalker|Rock Slide|p2a: mister dread|[miss]
+|-miss|p1a: Skywalker|p2a: mister dread
+|
+|-heal|p1a: Skywalker|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Skywalker|0 fnt|[from] psn
+|faint|p1a: Skywalker
+|upkeep
+|
+|t:|1728842064
+|switch|p1a: Snakeman Freestyle|Golduck, F|51/100
+|turn|30
+|
+|t:|1728842070
+|switch|p2a: zippidyzop|Zapdos|100/100
+|move|p1a: Snakeman Freestyle|Calm Mind|p1a: Snakeman Freestyle
+|-boost|p1a: Snakeman Freestyle|spa|1
+|-boost|p1a: Snakeman Freestyle|spd|1
+|
+|upkeep
+|turn|31
+|
+|t:|1728842100
+|move|p1a: Snakeman Freestyle|Ice Beam|p2a: zippidyzop
+|-supereffective|p2a: zippidyzop
+|-damage|p2a: zippidyzop|39/100
+|move|p2a: zippidyzop|Thunderbolt|p1a: Snakeman Freestyle
+|-supereffective|p1a: Snakeman Freestyle
+|-damage|p1a: Snakeman Freestyle|0 fnt
+|faint|p1a: Snakeman Freestyle
+|inactive|mkizzy has 270 seconds left.
+|
+|t:|1728842111
+|switch|p1a: 10_10|Jynx, F|100/100
+|
+|-heal|p2a: zippidyzop|46/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728842117
+|switch|p2a: fuck skarm x3|Skarmory, M|37/100 slp
+|move|p1a: 10_10|Ice Beam|p2a: fuck skarm x3
+|-damage|p2a: fuck skarm x3|0 fnt
+|faint|p2a: fuck skarm x3
+|
+|t:|1728842139
+|switch|p2a: ma tresesc|Moltres|87/100
+|
+|-heal|p2a: ma tresesc|93/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728842144
+|move|p1a: 10_10|Lovely Kiss|p2a: ma tresesc
+|-status|p2a: ma tresesc|slp|[from] move: Lovely Kiss
+|cant|p2a: ma tresesc|slp
+|
+|-heal|p2a: ma tresesc|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728842152
+|move|p1a: 10_10|Ice Beam|p2a: ma tresesc
+|-damage|p2a: ma tresesc|42/100 slp
+|cant|p2a: ma tresesc|slp
+|
+|-heal|p2a: ma tresesc|48/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728842159
+|move|p1a: 10_10|Ice Beam|p2a: ma tresesc
+|-damage|p2a: ma tresesc|0 fnt
+|faint|p2a: ma tresesc
+|c|☆ccczzx|gg
+|
+|t:|1728842169
+|switch|p2a: zippidyzop|Zapdos|46/100
+|
+|-heal|p2a: zippidyzop|52/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728842179
+|move|p1a: 10_10|Ice Beam|p2a: zippidyzop
+|-supereffective|p2a: zippidyzop
+|-damage|p2a: zippidyzop|0 fnt
+|faint|p2a: zippidyzop
+|
+|t:|1728842182
+|switch|p2a: Flygon|Flygon, M|41/100
+|
+|-heal|p2a: Flygon|47/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728842187
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: 10_10|Ice Beam|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p2a: Flygon|53/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728842189
+|move|p1a: 10_10|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1728842192
+|switch|p2a: mister dread|Misdreavus, F|100/100 slp
+|
+|upkeep
+|turn|39
+|
+|t:|1728842194
+|move|p1a: 10_10|Ice Beam|p2a: mister dread
+|-damage|p2a: mister dread|61/100 slp
+|cant|p2a: mister dread|slp
+|
+|-heal|p2a: mister dread|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728842197
+|move|p1a: 10_10|Perish Song|p1a: 10_10
+|-start|p1a: 10_10|perish3|[silent]
+|-start|p2a: mister dread|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2a: mister dread|slp
+|
+|-heal|p2a: mister dread|73/100 slp|[from] item: Leftovers
+|-start|p1a: 10_10|perish3
+|-start|p2a: mister dread|perish3
+|upkeep
+|turn|41
+|
+|t:|1728842199
+|move|p1a: 10_10|Ice Beam|p2a: mister dread
+|-damage|p2a: mister dread|38/100 slp
+|-curestatus|p2a: mister dread|slp|[msg]
+|move|p2a: mister dread|Thunderbolt|p1a: 10_10
+|-damage|p1a: 10_10|78/100
+|
+|-heal|p2a: mister dread|44/100|[from] item: Leftovers
+|-start|p1a: 10_10|perish2
+|-start|p2a: mister dread|perish2
+|upkeep
+|turn|42
+|c|☆mkizzy|gg
+|
+|t:|1728842202
+|move|p1a: 10_10|Ice Beam|p2a: mister dread
+|-damage|p2a: mister dread|8/100
+|move|p2a: mister dread|Thunderbolt|p1a: 10_10
+|-damage|p1a: 10_10|55/100
+|
+|-heal|p2a: mister dread|14/100|[from] item: Leftovers
+|-start|p1a: 10_10|perish1
+|-start|p2a: mister dread|perish1
+|upkeep
+|turn|43
+|
+|t:|1728842205
+|move|p1a: 10_10|Ice Beam|p2a: mister dread
+|-damage|p2a: mister dread|0 fnt
+|faint|p2a: mister dread
+|
+|win|mkizzy
+|player|p2|
+|player|p1|
+|player|p2|ccczzx|169|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798207">
+{"id":"smogtours-gen3ou-798207","format":"[Gen 3] OU","players":["mkizzy","ccczzx"],"uploadtime":1728842205,"views":91,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

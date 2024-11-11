@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Loneling vs. Filthy_Cubone - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Loneling and Filthy_Cubone! Format: [Gen 3] OU; Date: Oct 15, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798869">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728956962
+|gametype|singles
+|player|p1|Loneling|mallow-masters|
+|player|p2|Filthy_Cubone|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728956962
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Beyblade|Forretress, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1728956974
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Beyblade|Spikes|p1a: Tyranitar
+|-sidestart|p1: Loneling|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1728956998
+|move|p1a: Tyranitar|Rock Slide|p2a: Beyblade
+|-damage|p2a: Beyblade|61/100
+|move|p2a: Beyblade|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+|-heal|p2a: Beyblade|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728957008
+|switch|p2a: Bad Quagsire|Swampert, F|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Bad Quagsire
+|-resisted|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|81/100|[from] item: Leftovers
+|-heal|p2a: Bad Quagsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Loneling has 270 seconds left.
+|inactive|Loneling has 240 seconds left.
+|
+|t:|1728957083
+|move|p1a: Tyranitar|Earthquake|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|50/100
+|move|p2a: Bad Quagsire|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|81/100 tox|[from] psn
+|-heal|p2a: Bad Quagsire|56/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728957091
+|move|p1a: Tyranitar|Double-Edge|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|10/100
+|-damage|p1a: Tyranitar|65/100 tox|[from] Recoil|[of] p2a: Bad Quagsire
+|move|p2a: Bad Quagsire|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728957101
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Bad Quagsire|16/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728957105
+|move|p2a: Bad Quagsire|Protect|p2a: Bad Quagsire
+|-singleturn|p2a: Bad Quagsire|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Bad Quagsire
+|-activate|p2a: Bad Quagsire|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Bad Quagsire|23/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728957114
+|switch|p2a: My Wife|Blissey, F|100/100
+|move|p1a: Gengar|Hidden Power|p2a: My Wife
+|-damage|p2a: My Wife|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: My Wife|85/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: My Wife|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728957127
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: My Wife|Ice Beam|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: My Wife|85/100|[from] Sandstorm
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|-heal|p2a: My Wife|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728957133
+|move|p1a: Skarmory|Toxic|p2a: My Wife
+|-status|p2a: My Wife|tox
+|move|p2a: My Wife|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|29/100
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: My Wife|85/100 tox|[from] Sandstorm
+|-heal|p2a: My Wife|92/100 tox|[from] item: Leftovers
+|-damage|p2a: My Wife|85/100 tox|[from] psn
+|-heal|p1a: Skarmory|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728957149
+|-curestatus|p2a: My Wife|tox|[from] ability: Natural Cure
+|switch|p2a: Bad Quagsire|Swampert, F|23/100
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bad Quagsire|29/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728957154
+|move|p2a: Bad Quagsire|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|1/100 par
+|move|p1a: Skarmory|Toxic|p2a: Bad Quagsire
+|-status|p2a: Bad Quagsire|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bad Quagsire|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Bad Quagsire|29/100 tox|[from] psn
+|-heal|p1a: Skarmory|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728957159
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Bad Quagsire|Refresh|p2a: Bad Quagsire
+|-curestatus|p2a: Bad Quagsire|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bad Quagsire|35/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728957169
+|move|p2a: Bad Quagsire|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728957171
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Bad Quagsire|41/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728957176
+|switch|p2a: My Wife|Blissey, F|85/100
+|move|p1a: Gengar|Hidden Power|p2a: My Wife
+|-damage|p2a: My Wife|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: My Wife|69/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: My Wife|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728957181
+|move|p1a: Gengar|Explosion|p2a: My Wife
+|-damage|p2a: My Wife|3/100
+|faint|p1a: Gengar
+|
+|t:|1728957187
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-damage|p2a: My Wife|0 fnt|[from] Sandstorm
+|faint|p2a: My Wife
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728957206
+|switch|p2a: Her Hotter Sister|Chansey, F|100/100
+|turn|16
+|
+|t:|1728957217
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Her Hotter Sister|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Filthy_Cubone|you  got my wife
+|c|☆Filthy_Cubone|but I still have the hotter sister
+|
+|t:|1728957232
+|switch|p2a: Bad Quagsire|Swampert, F|41/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Bad Quagsire|48/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728957241
+|switch|p2a: Discord Mod|Tyranitar, M|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Discord Mod
+|-damage|p2a: Discord Mod|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Discord Mod|71/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728957246
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Discord Mod|Roar|p1a: Swampert
+|drag|p1a: Blissey|Blissey, F|73/100
+|-damage|p1a: Blissey|60/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|54/100|[from] Sandstorm
+|-heal|p2a: Discord Mod|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Filthy_Cubone has 270 seconds left.
+|
+|t:|1728957280
+|switch|p2a: Leech Seeder|Celebi|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leech Seeder|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Leech Seeder|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728957285
+|move|p2a: Leech Seeder|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Ice Beam|p2a: Leech Seeder
+|-supereffective|p2a: Leech Seeder
+|-damage|p2a: Leech Seeder|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leech Seeder|50/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Leech Seeder|57/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Leech Seeder
+|-heal|p2a: Leech Seeder|77/100|[silent]
+|upkeep
+|turn|22
+|
+|t:|1728957302
+|switch|p2a: Bad Quagsire|Swampert, F|48/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Bad Quagsire|54/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100|[from] Leech Seed|[of] p2a: Bad Quagsire
+|-heal|p2a: Bad Quagsire|74/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1728957314
+|move|p2a: Bad Quagsire|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100 tox|[from] Sandstorm
+|-heal|p2a: Bad Quagsire|44/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|63/100 tox|[from] Leech Seed|[of] p2a: Bad Quagsire
+|-heal|p2a: Bad Quagsire|64/100|[silent]
+|-damage|p1a: Blissey|57/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1728957327
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|88/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|move|p2a: Bad Quagsire|Surf|p1a: Swampert
+|-damage|p1a: Swampert|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bad Quagsire|71/100|[from] item: Leftovers
+|-heal|p1a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728957351
+|move|p2a: Bad Quagsire|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Hydro Pump|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bad Quagsire|45/100|[from] item: Leftovers
+|-heal|p1a: Swampert|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|58/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1728957359
+|move|p2a: Bad Quagsire|Surf|p1a: Swampert
+|-damage|p1a: Swampert|34/100 tox
+|move|p1a: Swampert|Hydro Pump|p2a: Bad Quagsire
+|-damage|p2a: Bad Quagsire|0 fnt
+|faint|p2a: Bad Quagsire
+|
+|t:|1728957375
+|switch|p2a: Leech Seeder|Celebi|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leech Seeder|71/100|[from] Sandstorm
+|-heal|p2a: Leech Seeder|77/100|[from] item: Leftovers
+|-heal|p1a: Swampert|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|28/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1728957404
+|move|p2a: Leech Seeder|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1728957410
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-damage|p2a: Leech Seeder|71/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|-heal|p2a: Leech Seeder|77/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728957419
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|76/100
+|move|p2a: Leech Seeder|Leech Seed||[still]
+|-fail|p2a: Leech Seeder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|-damage|p2a: Leech Seeder|71/100|[from] Sandstorm
+|-heal|p1a: Charizard|76/100|[from] item: Leftovers
+|-heal|p2a: Leech Seeder|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆Filthy_Cubone|mistakes were made
+|
+|t:|1728957437
+|move|p1a: Charizard|Fire Blast|p2a: Leech Seeder
+|-supereffective|p2a: Leech Seeder
+|-damage|p2a: Leech Seeder|0 fnt
+|faint|p2a: Leech Seeder
+|
+|t:|1728957441
+|switch|p2a: Her Hotter Sister|Chansey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|76/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728957451
+|-singleturn|p1a: Charizard|move: Focus Punch
+|move|p2a: Her Hotter Sister|Seismic Toss|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|move|p1a: Charizard|Focus Punch|p2a: Her Hotter Sister
+|-supereffective|p2a: Her Hotter Sister
+|-damage|p2a: Her Hotter Sister|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|35/100|[from] Sandstorm
+|-heal|p1a: Charizard|76/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728957466
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|51/100
+|move|p2a: Her Hotter Sister|Soft-Boiled|p2a: Her Hotter Sister
+|-heal|p2a: Her Hotter Sister|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|45/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|85/100|[from] Sandstorm
+|-heal|p1a: Charizard|51/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|91/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728957471
+|-singleturn|p1a: Charizard|move: Focus Punch
+|move|p2a: Her Hotter Sister|Seismic Toss|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|move|p1a: Charizard|Focus Punch|p2a: Her Hotter Sister
+|-supereffective|p2a: Her Hotter Sister
+|-damage|p2a: Her Hotter Sister|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|45/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|20/100|[from] Sandstorm
+|-heal|p1a: Charizard|51/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|26/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728957479
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|26/100
+|move|p2a: Her Hotter Sister|Seismic Toss|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|20/100|[from] Sandstorm
+|-damage|p2a: Her Hotter Sister|20/100|[from] Sandstorm
+|-heal|p1a: Charizard|26/100|[from] item: Leftovers
+|-heal|p2a: Her Hotter Sister|26/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728957484
+|move|p1a: Charizard|Fire Blast|p2a: Her Hotter Sister
+|-damage|p2a: Her Hotter Sister|0 fnt
+|faint|p2a: Her Hotter Sister
+|
+|t:|1728957489
+|switch|p2a: Discord Mod|Tyranitar, M|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|20/100|[from] Sandstorm
+|-heal|p1a: Charizard|26/100|[from] item: Leftovers
+|-heal|p2a: Discord Mod|83/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728957494
+|move|p1a: Charizard|Hidden Power|p2a: Discord Mod
+|-supereffective|p2a: Discord Mod
+|-crit|p2a: Discord Mod
+|-damage|p2a: Discord Mod|11/100
+|move|p2a: Discord Mod|Crunch|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|t:|1728957500
+|switch|p1a: Blissey|Blissey, F|57/100
+|-damage|p1a: Blissey|45/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-heal|p2a: Discord Mod|18/100|[from] item: Leftovers
+|-heal|p1a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728957507
+|move|p2a: Discord Mod|Crunch|p1a: Blissey
+|-damage|p1a: Blissey|30/100
+|-unboost|p1a: Blissey|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|73/100|[from] Sandstorm
+|-heal|p2a: Discord Mod|24/100|[from] item: Leftovers
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728957518
+|move|p2a: Discord Mod|Crunch|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: Discord Mod|30/100|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728957524
+|move|p2a: Discord Mod|Fire Blast|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|move|p1a: Blissey|Thunderbolt|p2a: Discord Mod
+|-damage|p2a: Discord Mod|0 fnt
+|faint|p2a: Discord Mod
+|
+|t:|1728957529
+|switch|p2a: Beyblade|Forretress, M|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|37/100|[from] Sandstorm
+|-heal|p1a: Blissey|43/100|[from] item: Leftovers
+|-heal|p2a: Beyblade|73/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728957534
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100
+|move|p2a: Beyblade|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|-heal|p2a: Beyblade|80/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728957538
+|move|p1a: Blissey|Thunderbolt|p2a: Beyblade
+|-damage|p2a: Beyblade|46/100
+|move|p2a: Beyblade|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Beyblade|52/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|☆Filthy_Cubone|gg!
+|
+|t:|1728957546
+|move|p1a: Blissey|Thunderbolt|p2a: Beyblade
+|-damage|p2a: Beyblade|15/100
+|move|p2a: Beyblade|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|24/100|[from] Sandstorm
+|-heal|p1a: Blissey|30/100|[from] item: Leftovers
+|-heal|p2a: Beyblade|21/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728957553
+|move|p1a: Blissey|Thunderbolt|p2a: Beyblade
+|-damage|p2a: Beyblade|0 fnt
+|faint|p2a: Beyblade
+|
+|win|Loneling
+|c|☆Loneling|Ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798869">
+{"id":"smogtours-gen3ou-798869","format":"[Gen 3] OU","players":["Loneling","Filthy_Cubone"],"uploadtime":1728957553,"views":94,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

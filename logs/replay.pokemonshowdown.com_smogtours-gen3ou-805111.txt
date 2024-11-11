@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Nardgo vs. pokology2 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Nardgo and pokology2! Format: [Gen 3] OU; Date: Nov 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-805111">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731004197
+|gametype|singles
+|player|p1|Nardgo|steven|
+|player|p2|pokology2|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731004197
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆pokology2|gl hf :)
+|c|☆Nardgo|you too
+|inactive|pokology2 has 270 seconds left.
+|inactive|pokology2 has 240 seconds left.
+|
+|t:|1731004267
+|move|p2a: Tyranitar|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1731004278
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Tyranitar|Toxic|p1a: Flygon
+|-status|p1a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1731004285
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1731004288
+|move|p2a: Skarmory|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1731004296
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|move|p2a: Skarmory|Toxic|p1a: Misdreavus
+|-status|p1a: Misdreavus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Misdreavus|94/100 tox|[from] Sandstorm
+|-heal|p1a: Misdreavus|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Misdreavus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1731004304
+|move|p1a: Misdreavus|Mean Look|p2a: Skarmory
+|-activate|p2a: Skarmory|trapped
+|move|p2a: Skarmory|Roar|p1a: Misdreavus
+|drag|p1a: Flygon|Flygon, M|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1731004312
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Skarmory|Taunt|p1a: Moltres
+|-start|p1a: Moltres|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731004317
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|72/100|[from] Sandstorm
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-end|p1a: Moltres|move: Taunt|[silent]
+|upkeep
+|turn|9
+|
+|t:|1731004326
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Tentacruel|Thief|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/100
+|-enditem|p1a: Skarmory|Leftovers|[silent]|[from] move: Thief|[of] p2a: Tentacruel
+|-item|p2a: Tentacruel|Leftovers|[from] move: Thief|[of] p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|65/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731004341
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: pokology2|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1731004347
+|move|p2a: Skarmory|Toxic|p1a: Skarmory|[miss]
+|-miss|p2a: Skarmory|p1a: Skarmory
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: pokology2|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1731004352
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Skarmory|Taunt|p1a: Zapdos
+|-start|p1a: Zapdos|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731004355
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-end|p1a: Zapdos|move: Taunt|[silent]
+|upkeep
+|turn|14
+|
+|t:|1731004366
+|switch|p1a: Skarmory|Skarmory, M|96/100
+|move|p2a: Flygon|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1731004370
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731004376
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Skarmory|Taunt|p1a: Moltres
+|-start|p1a: Moltres|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731004382
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-end|p1a: Moltres|move: Taunt|[silent]
+|-heal|p2a: Flygon|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731004389
+|switch|p1a: Flygon|Flygon, M|94/100 tox
+|move|p2a: Flygon|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|87/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|84/100|[from] item: Leftovers
+|-heal|p1a: Flygon|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|87/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1731004393
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Flygon|Toxic|p2a: Flygon|[miss]
+|-miss|p1a: Flygon|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|90/100|[from] item: Leftovers
+|-heal|p1a: Flygon|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|81/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1731004403
+|switch|p2a: Gengar|Gengar, F|100/100
+|switch|p1a: Misdreavus|Misdreavus, F|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Misdreavus|88/100 tox|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Misdreavus|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1731004414
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731004419
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Nardgo|Spikes
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731004431
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|84/100|[from] Spikes
+|-ability|p2a: Porygon2|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|switch|p1a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-damage|p2a: Porygon2|78/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731004438
+|move|p1a: Moltres|Will-O-Wisp|p2a: Porygon2
+|-status|p2a: Porygon2|brn
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-damage|p2a: Porygon2|94/100 brn|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1731004445
+|move|p1a: Moltres|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|38/100 brn
+|move|p2a: Porygon2|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|39/100|[from] Sandstorm
+|-damage|p2a: Porygon2|32/100 brn|[from] Sandstorm
+|-heal|p1a: Moltres|46/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|25/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1731004451
+|-curestatus|p2a: Porygon2|brn|[from] ability: Natural Cure
+|switch|p2a: Tentacruel|Tentacruel, F|72/100
+|-damage|p2a: Tentacruel|55/100|[from] Spikes
+|move|p1a: Moltres|Flamethrower|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|27/100|[from] Sandstorm
+|-damage|p1a: Moltres|39/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|33/100|[from] item: Leftovers
+|-heal|p1a: Moltres|46/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1731004457
+|switch|p1a: Misdreavus|Misdreavus, F|88/100
+|move|p2a: Tentacruel|Hydro Pump|p1a: Misdreavus
+|-damage|p1a: Misdreavus|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|27/100|[from] Sandstorm
+|-damage|p1a: Misdreavus|44/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|33/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1731004475
+|move|p2a: Tentacruel|Hydro Pump|p1a: Misdreavus
+|-damage|p1a: Misdreavus|13/100
+|move|p1a: Misdreavus|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|t:|1731004487
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Misdreavus|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|13/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1731004502
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1731004514
+|switch|p1a: Flygon|Flygon, M|81/100
+|move|p2a: Tyranitar|Toxic|p1a: Flygon
+|-status|p1a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|81/100 tox|[from] psn
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1731004522
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|75/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1731004528
+|switch|p1a: Moltres|Moltres|46/100
+|switch|p2a: Tyranitar|Tyranitar, M|97/100
+|-damage|p2a: Tyranitar|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|39/100|[from] Sandstorm
+|-heal|p1a: Moltres|46/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|86/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1731004540
+|switch|p1a: Flygon|Flygon, M|75/100 tox
+|move|p2a: Tyranitar|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|59/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|59/100 tox|[from] psn
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1731004551
+|switch|p1a: Misdreavus|Misdreavus, F|13/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|t:|1731004563
+|switch|p1a: Flygon|Flygon, M|59/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|59/100 tox|[from] psn
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1731004568
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Flygon|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|53/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1731004576
+|switch|p2a: Tyranitar|Tyranitar, M|99/100
+|-damage|p2a: Tyranitar|82/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|89/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731004583
+|move|p2a: Tyranitar|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Roar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|95/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1731004589
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: Tyranitar|p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|92/100|[from] item: Leftovers
+|-end|p1a: Skarmory|move: Taunt|[silent]
+|upkeep
+|turn|39
+|
+|t:|1731004599
+|move|p2a: Tyranitar|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1731004606
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|63/100
+|move|p1a: Skarmory|Drill Peck|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|96/100|[from] item: Leftovers
+|-end|p1a: Skarmory|move: Taunt|[silent]
+|upkeep
+|turn|41
+|inactive|Nardgo has 270 seconds left.
+|
+|t:|1731004644
+|switch|p1a: Flygon|Flygon, M|53/100 tox
+|move|p2a: Tyranitar|Taunt|p1a: Flygon
+|-start|p1a: Flygon|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|53/100 tox|[from] psn
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|Nardgo has 270 seconds left.
+|
+|t:|1731004653
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|switch|p2a: Flygon|Flygon, F|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Flygon|96/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|pokology2 has 270 seconds left.
+|
+|t:|1731004704
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1731004713
+|move|p2a: Tyranitar|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1731004719
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|63/100
+|move|p2a: Tyranitar|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1731004732
+|switch|p1a: Flygon|Flygon, M|53/100
+|move|p2a: Tyranitar|Toxic|p1a: Flygon
+|-status|p1a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|53/100 tox|[from] psn
+|-heal|p2a: Tyranitar|84/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|pokology2 has 270 seconds left.
+|
+|t:|1731004738
+|switch|p1a: Blissey|Blissey, F|82/100
+|-damage|p1a: Blissey|69/100|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1731004743
+|move|p2a: Skarmory|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1731004747
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Nardgo|Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|-end|p1a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|50
+|
+|t:|1731004753
+|move|p2a: Skarmory|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1731004762
+|move|p1a: Blissey|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100
+|-status|p2a: Skarmory|frz
+|-curestatus|p2a: Skarmory|frz|[msg]
+|move|p2a: Skarmory|Roar|p1a: Blissey
+|drag|p1a: Moltres|Moltres|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|39/100|[from] Sandstorm
+|-heal|p1a: Moltres|46/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1731004773
+|switch|p2a: Porygon2|Porygon2|25/100
+|-damage|p2a: Porygon2|9/100|[from] Spikes
+|-ability|p2a: Porygon2|Pressure|[from] ability: Trace|[of] p1a: Moltres
+|move|p1a: Moltres|Will-O-Wisp|p2a: Porygon2
+|-status|p2a: Porygon2|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|39/100|[from] Sandstorm
+|-damage|p2a: Porygon2|3/100 brn|[from] Sandstorm
+|-heal|p1a: Moltres|46/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|0 fnt|[from] brn
+|faint|p2a: Porygon2
+|upkeep
+|
+|t:|1731004786
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|53
+|
+|t:|1731004792
+|switch|p1a: Skarmory|Skarmory, M|63/100
+|move|p2a: Gengar|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1731004794
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1731004807
+|switch|p2a: Flygon|Flygon, F|96/100
+|switch|p1a: Blissey|Blissey, F|69/100
+|-damage|p1a: Blissey|53/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|47/100|[from] Sandstorm
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1731004819
+|move|p2a: Flygon|Toxic|p1a: Blissey|[miss]
+|-miss|p2a: Flygon|p1a: Blissey
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1731004827
+|switch|p2a: Tyranitar|Tyranitar, M|84/100
+|-damage|p2a: Tyranitar|68/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|28/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|c|☆Nardgo|sorry
+|
+|t:|1731004835
+|move|p2a: Tyranitar|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|51/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|10/100|[from] item: Leftovers
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1731004858
+|switch|p1a: Flygon|Flygon, M|53/100 tox
+|move|p2a: Tyranitar|Toxic|p1a: Flygon|[miss]
+|-miss|p2a: Tyranitar|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|53/100 tox|[from] psn
+|-heal|p2a: Tyranitar|16/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1731004867
+|switch|p2a: Skarmory|Skarmory, F|65/100
+|move|p1a: Flygon|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|47/100 tox|[from] psn
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1731004876
+|switch|p1a: Moltres|Moltres|46/100
+|move|p2a: Skarmory|Toxic|p1a: Moltres
+|-status|p1a: Moltres|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|39/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|39/100 tox|[from] psn
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1731004889
+|switch|p2a: Tyranitar|Tyranitar, M|16/100
+|-damage|p2a: Tyranitar|0 fnt|[from] Spikes
+|faint|p2a: Tyranitar
+|
+|t:|1731004894
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Moltres|33/100 tox|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Moltres|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|27/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1731004906
+|switch|p2a: Skarmory|Skarmory, F|77/100
+|switch|p1a: Flygon|Flygon, M|47/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|47/100 tox|[from] psn
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1731004910
+|move|p1a: Flygon|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100
+|move|p2a: Skarmory|Taunt|p1a: Flygon
+|-start|p1a: Flygon|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|41/100 tox|[from] psn
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1731004927
+|switch|p1a: Moltres|Moltres|27/100 tox
+|move|p2a: Skarmory|Roar|p1a: Moltres
+|drag|p1a: Blissey|Blissey, F|57/100
+|-damage|p1a: Blissey|40/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1731004932
+|move|p2a: Skarmory|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-heal|p2a: Skarmory|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1731004937
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|move|p2a: Skarmory|Roar|p1a: Blissey
+|drag|p1a: Moltres|Moltres|27/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|21/100 tox|[from] Sandstorm
+|-heal|p1a: Moltres|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Moltres|21/100 tox|[from] psn
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|inactive|pokology2 has 270 seconds left.
+|inactive|pokology2 has 240 seconds left.
+|
+|t:|1731005020
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Moltres|Rest|p1a: Moltres
+|-status|p1a: Moltres|slp|[from] move: Rest
+|-heal|p1a: Moltres|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Moltres|94/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Moltres|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1731005030
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Gengar|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|79/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1731005034
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|73/100|[from] Sandstorm
+|-heal|p1a: Zapdos|79/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1731005045
+|move|p2a: Flygon|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1731005051
+|move|p2a: Flygon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100 slp
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Thunderbolt|p2a: Flygon|[from]Sleep Talk
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|72
+|inactive|pokology2 has 240 seconds left.
+|
+|t:|1731005064
+|switch|p1a: Flygon|Flygon, M|41/100 tox
+|move|p2a: Flygon|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|34/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|34/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|t:|1731005074
+|switch|p1a: Zapdos|Zapdos|63/100 slp
+|move|p2a: Flygon|Protect||[still]
+|-fail|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1731005079
+|switch|p1a: Flygon|Flygon, M|34/100 tox
+|move|p2a: Flygon|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|26/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|26/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|t:|1731005083
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Flygon|Toxic|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|20/100 tox|[from] psn
+|upkeep
+|turn|76
+|inactive|pokology2 has 270 seconds left.
+|
+|t:|1731005090
+|switch|p2a: Skarmory|Skarmory, F|63/100
+|move|p1a: Flygon|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|8/100 tox|[from] psn
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1731005097
+|switch|p1a: Zapdos|Zapdos|63/100 slp
+|move|p2a: Skarmory|Roar|p1a: Zapdos
+|drag|p1a: Flygon|Flygon, M|8/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|8/100 tox|[from] psn
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1731005104
+|switch|p1a: Zapdos|Zapdos|63/100 slp
+|move|p2a: Skarmory|Roar|p1a: Zapdos
+|drag|p1a: Flygon|Flygon, M|8/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|8/100 tox|[from] psn
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1731005110
+|switch|p1a: Moltres|Moltres|100/100 slp
+|move|p2a: Skarmory|Roar|p1a: Moltres
+|drag|p1a: Zapdos|Zapdos|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1731005117
+|switch|p2a: Flygon|Flygon, F|100/100
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1731005129
+|move|p2a: Flygon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100 slp
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|18/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1731005139
+|switch|p1a: Flygon|Flygon, M|8/100 tox
+|move|p2a: Flygon|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|1/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|1/100 tox|[from] psn
+|upkeep
+|turn|83
+|
+|t:|1731005146
+|switch|p1a: Zapdos|Zapdos|24/100 slp
+|move|p2a: Flygon|Protect||[still]
+|-fail|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|18/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1731005158
+|switch|p1a: Flygon|Flygon, M|1/100 tox
+|move|p2a: Flygon|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|t:|1731005160
+|switch|p1a: Blissey|Blissey, F|40/100
+|-damage|p1a: Blissey|24/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|17/100|[from] Sandstorm
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1731005164
+|move|p2a: Flygon|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1731005171
+|switch|p1a: Zapdos|Zapdos|24/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|18/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1731005175
+|move|p2a: Flygon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1731005177
+|switch|p1a: Moltres|Moltres|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100 slp|[from] Sandstorm
+|-heal|p1a: Moltres|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|87
+|c|☆Nardgo|gg
+|
+|t:|1731005179
+|cant|p1a: Moltres|slp
+|move|p2a: Flygon|Rock Slide|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|18/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|12/100 slp|[from] Sandstorm
+|-heal|p1a: Moltres|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1731005185
+|cant|p1a: Moltres|slp
+|move|p2a: Flygon|Rock Slide|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|pokology2
+|c|☆pokology2|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-805111">
+{"id":"smogtours-gen3ou-805111","format":"[Gen 3] OU","players":["Nardgo","pokology2"],"uploadtime":1731005185,"views":14,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

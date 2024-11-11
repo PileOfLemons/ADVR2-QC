@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: goldmason vs. GreenCity - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between goldmason and GreenCity! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798830">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728948805
+|gametype|singles
+|player|p1|goldmason|#advpliv|
+|player|p2|GreenCity|pokemonranger-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728948805
+|start
+|switch|p1a: T-Rex|Tyranitar, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: T-Rex
+|turn|1
+|inactive|GreenCity also wants the timer to be on.
+|
+|t:|1728948823
+|switch|p1a: Metalbird|Skarmory, M|100/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1728948833
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728948845
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|move|p2a: Starmie|Rapid Spin|p1a: madre de bliss
+|-damage|p1a: madre de bliss|97/100
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|91/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728948854
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: madre de bliss|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|91/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728948861
+|move|p2a: Blissey|Ice Beam|p1a: madre de bliss
+|-crit|p1a: madre de bliss
+|-damage|p1a: madre de bliss|77/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: madre de bliss|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|71/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728948875
+|move|p2a: Blissey|Ice Beam|p1a: madre de bliss
+|-damage|p1a: madre de bliss|69/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|62/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728948882
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728948885
+|move|p2a: Skarmory|Spikes|p1a: madre de bliss
+|-sidestart|p1: goldmason|Spikes
+|move|p1a: madre de bliss|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728948890
+|switch|p2a: Blissey|Blissey, F|94/100
+|move|p1a: madre de bliss|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|84/100
+|-status|p2a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100 frz|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100 frz|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728948912
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure
+|switch|p2a: Starmie|Starmie|100/100
+|switch|p1a: T-Rex|Tyranitar, M|100/100
+|-damage|p1a: T-Rex|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: T-Rex|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728948918
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|88/100|[from] Spikes
+|move|p2a: Starmie|Surf|p1a: madre de bliss
+|-damage|p1a: madre de bliss|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|68/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728948942
+|move|p2a: Starmie|Thunder Wave|p1a: madre de bliss
+|-status|p1a: madre de bliss|par
+|move|p1a: madre de bliss|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|68/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728948948
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|94/100 par|[from] Sandstorm
+|-heal|p1a: madre de bliss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728948954
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|-curestatus|p1a: madre de bliss|par|[from] ability: Natural Cure
+|switch|p1a: Metalbird|Skarmory, M|100/100
+|move|p2a: Tyranitar|Focus Punch|p1a: Metalbird
+|-damage|p1a: Metalbird|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metalbird|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728948965
+|switch|p2a: Skarmory|Skarmory, M|47/100
+|move|p1a: Metalbird|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728948968
+|move|p2a: Skarmory|Spikes|p1a: Metalbird
+|-sidestart|p1: goldmason|Spikes
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728948973
+|move|p2a: Skarmory|Spikes|p1a: Metalbird
+|-sidestart|p1: goldmason|Spikes
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728948978
+|switch|p1a: Zapatos|Zapdos|100/100
+|move|p2a: Skarmory|Roar|p1a: Zapatos
+|drag|p1a: Aeroblast|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728948992
+|switch|p1a: Metalbird|Skarmory, M|81/100
+|move|p2a: Skarmory|Roar|p1a: Metalbird
+|drag|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|69/100|[from] Sandstorm
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728949000
+|switch|p2a: Starmie|Starmie|94/100
+|-damage|p2a: Starmie|78/100|[from] Spikes
+|move|p1a: madre de bliss|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|52/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|69/100|[from] Sandstorm
+|-heal|p2a: Starmie|58/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728949003
+|move|p2a: Starmie|Rapid Spin|p1a: madre de bliss
+|-damage|p1a: madre de bliss|73/100
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|52/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|58/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728949008
+|move|p2a: Starmie|Thunder Wave|p1a: madre de bliss
+|-status|p1a: madre de bliss|par
+|cant|p1a: madre de bliss|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|52/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|58/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728949014
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: madre de bliss|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728949020
+|move|p2a: Starmie|Thunder Wave|p1a: madre de bliss
+|-fail|p1a: madre de bliss|par
+|cant|p1a: madre de bliss|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|88/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|-heal|p1a: madre de bliss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728949026
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Blissey|Blissey, F|84/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|78/100 tox|[from] psn
+|-heal|p1a: madre de bliss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728949038
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Starmie|Starmie|82/100
+|-curestatus|p1a: madre de bliss|par|[from] ability: Natural Cure
+|switch|p1a: Metalbird|Skarmory, M|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|87/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728949045
+|move|p2a: Starmie|Thunder Wave|p1a: Metalbird
+|-status|p1a: Metalbird|par
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|76/100 tox|[from] psn
+|-heal|p1a: Metalbird|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728949062
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Blissey|Blissey, F|78/100
+|move|p1a: Metalbird|Spikes|p2a: Blissey
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728949072
+|switch|p2a: Starmie|Starmie|76/100
+|-damage|p2a: Starmie|63/100|[from] Spikes
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|57/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|57/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728949076
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100 tox
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|88/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1728949079
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|99/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|70/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728949083
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|78/100
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728949089
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|move|p2a: Skarmory|Roar|p1a: Metalbird
+|drag|p1a: Moisés|Swampert, F|100/100
+|-damage|p1a: Moisés|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|-heal|p1a: Moisés|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728949096
+|switch|p1a: Zapatos|Zapdos|100/100
+|move|p2a: Skarmory|Roar|p1a: Zapatos
+|drag|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|69/100|[from] Sandstorm
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728949105
+|move|p1a: madre de bliss|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|move|p2a: Skarmory|Roar|p1a: madre de bliss
+|drag|p1a: Metalbird|Skarmory, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728949114
+|move|p2a: Skarmory|Roar|p1a: Metalbird
+|drag|p1a: madre de bliss|Blissey, F|76/100
+|-damage|p1a: madre de bliss|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|45/100|[from] Sandstorm
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|51/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728949118
+|switch|p2a: Starmie|Starmie|70/100
+|-damage|p2a: Starmie|45/100|[from] Spikes
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|38/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|45/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728949135
+|switch|p1a: Zapatos|Zapdos|100/100
+|move|p2a: Starmie|Rapid Spin|p1a: Zapatos
+|-damage|p1a: Zapatos|97/100
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|38/100|[from] Sandstorm
+|-damage|p1a: Zapatos|91/100|[from] Sandstorm
+|-heal|p2a: Starmie|45/100|[from] item: Leftovers
+|-heal|p1a: Zapatos|97/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728949144
+|switch|p2a: Blissey|Blissey, F|78/100
+|switch|p1a: Metalbird|Skarmory, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728949147
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Metalbird|Spikes|p2a: Zapdos
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728949152
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|move|p2a: Zapdos|Roar|p1a: madre de bliss
+|drag|p1a: T-Rex|Tyranitar, M|94/100
+|-damage|p1a: T-Rex|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: T-Rex|76/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728949165
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|move|p1a: T-Rex|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: T-Rex|82/100|[from] item: Leftovers
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728949174
+|switch|p1a: Metalbird|Skarmory, M|100/100 par
+|move|p2a: Swampert|Surf|p1a: Metalbird
+|-damage|p1a: Metalbird|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728949180
+|switch|p2a: Starmie|Starmie|45/100
+|-damage|p2a: Starmie|32/100|[from] Spikes
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|26/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|26/100 tox|[from] psn
+|-heal|p1a: Metalbird|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728949187
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|76/100 tox
+|cant|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|70/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|64/100 tox|[from] psn
+|-heal|p1a: Metalbird|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728949195
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100 tox
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|-heal|p1a: Metalbird|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728949198
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|96/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|57/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728949200
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|52/100
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728949204
+|switch|p2a: Starmie|Starmie|57/100
+|-damage|p2a: Starmie|41/100|[from] Spikes
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|34/100|[from] Sandstorm
+|-heal|p2a: Starmie|41/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728949207
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|99/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|34/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|34/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728949209
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|84/100 tox
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|72/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1728949220
+|switch|p1a: Zapatos|Zapdos|97/100
+|move|p2a: Starmie|Surf|p1a: Zapatos
+|-damage|p1a: Zapatos|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|66/100 tox|[from] Sandstorm
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p2a: Starmie|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|54/100 tox|[from] psn
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949256
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Blissey|Blissey, F|78/100
+|-damage|p2a: Blissey|66/100|[from] Spikes
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Swampert|Swampert, F|87/100
+|-damage|p2a: Swampert|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949265
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Zapatos|Roar|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728949269
+|switch|p2a: Blissey|Blissey, F|66/100
+|-damage|p2a: Blissey|53/100|[from] Spikes
+|move|p1a: Zapatos|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Blissey|37/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|goldmason has 270 seconds left.
+|
+|t:|1728949302
+|switch|p1a: madre de bliss|Blissey, F|76/100
+|-damage|p1a: madre de bliss|51/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|87/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|45/100|[from] Sandstorm
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|51/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728949309
+|switch|p2a: Starmie|Starmie|54/100
+|-damage|p2a: Starmie|41/100|[from] Spikes
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|35/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|41/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728949314
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|91/100
+|move|p1a: madre de bliss|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|85/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|85/100 tox|[from] psn
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728949323
+|switch|p1a: Metalbird|Skarmory, M|100/100 par
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|99/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|79/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|73/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728949329
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|58/100
+|move|p1a: Metalbird|Spikes|p2a: Skarmory
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728949334
+|switch|p2a: Starmie|Starmie|73/100
+|-damage|p2a: Starmie|60/100|[from] Spikes
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|54/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|54/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1728949340
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100 tox
+|cant|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|88/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1728949345
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|99/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|70/100 tox|[from] psn
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728949362
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|64/100
+|switch|p1a: Zapatos|Zapdos|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728949375
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapatos|Roar|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728949381
+|switch|p2a: Blissey|Blissey, F|93/100
+|-damage|p2a: Blissey|81/100|[from] Spikes
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Skarmory|Skarmory, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728949393
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapatos|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728949399
+|switch|p2a: Blissey|Blissey, F|81/100
+|-damage|p2a: Blissey|68/100|[from] Spikes
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Skarmory|Skarmory, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728949416
+|switch|p2a: Blissey|Blissey, F|68/100
+|-damage|p2a: Blissey|56/100|[from] Spikes
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Starmie|Starmie|70/100
+|-damage|p2a: Starmie|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|51/100|[from] Sandstorm
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p2a: Starmie|57/100|[from] item: Leftovers
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728949442
+|switch|p2a: Blissey|Blissey, F|56/100
+|-damage|p2a: Blissey|43/100|[from] Spikes
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Skarmory|Skarmory, M|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728949450
+|switch|p2a: Swampert|Swampert, F|87/100
+|-damage|p2a: Swampert|75/100|[from] Spikes
+|move|p1a: Zapatos|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728949457
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Zapatos|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949500
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Zapatos|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728949503
+|switch|p2a: Blissey|Blissey, F|43/100
+|-damage|p2a: Blissey|31/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Blissey|25/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Blissey|31/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728949510
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|81/100
+|move|p1a: Zapatos|Roar|p2a: Blissey
+|drag|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728949516
+|move|p1a: Zapatos|Protect|p1a: Zapatos
+|-singleturn|p1a: Zapatos|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapatos
+|-activate|p1a: Zapatos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728949521
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|move|p2a: Zapdos|Thunderbolt|p1a: madre de bliss
+|-damage|p1a: madre de bliss|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|46/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|52/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728949527
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|move|p2a: Zapdos|Roar|p1a: madre de bliss
+|drag|p1a: Metalbird|Skarmory, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728949535
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|move|p2a: Zapdos|Thunderbolt|p1a: madre de bliss
+|-damage|p1a: madre de bliss|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|46/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|52/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728949538
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|move|p2a: Zapdos|Roar|p1a: madre de bliss
+|drag|p1a: Zapatos|Zapdos|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728949547
+|move|p1a: Zapatos|Protect|p1a: Zapatos
+|-singleturn|p1a: Zapatos|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapatos
+|-activate|p1a: Zapatos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|55/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapatos|62/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728949551
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapatos
+|-damage|p1a: Zapatos|5/100
+|move|p1a: Zapatos|Roar|p2a: Zapdos
+|drag|p2a: Swampert|Swampert, F|87/100
+|-damage|p2a: Swampert|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapatos|0 fnt|[from] Sandstorm
+|faint|p1a: Zapatos
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|inactive|goldmason has 270 seconds left.
+|
+|t:|1728949594
+|switch|p1a: Metalbird|Skarmory, M|100/100 par
+|turn|82
+|
+|t:|1728949611
+|switch|p2a: Starmie|Starmie|57/100
+|-damage|p2a: Starmie|45/100|[from] Spikes
+|cant|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|39/100|[from] Sandstorm
+|-heal|p2a: Starmie|45/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728949618
+|move|p2a: Starmie|Rapid Spin|p1a: Metalbird
+|-resisted|p1a: Metalbird
+|-damage|p1a: Metalbird|99/100 par
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|cant|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|39/100|[from] Sandstorm
+|-heal|p2a: Starmie|45/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728949623
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|95/100
+|cant|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|89/100|[from] Sandstorm
+|-heal|p2a: Starmie|95/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728949627
+|move|p2a: Starmie|Surf|p1a: Metalbird
+|-damage|p1a: Metalbird|71/100 par
+|move|p1a: Metalbird|Toxic|p2a: Starmie|[miss]
+|-miss|p1a: Metalbird|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|89/100|[from] Sandstorm
+|-heal|p2a: Starmie|95/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728949632
+|move|p2a: Starmie|Surf|p1a: Metalbird
+|-damage|p1a: Metalbird|46/100 par
+|move|p1a: Metalbird|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|89/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|89/100 tox|[from] psn
+|-heal|p1a: Metalbird|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728949638
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Metalbird|Spikes|p2a: Tyranitar
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metalbird|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728949641
+|switch|p2a: Starmie|Starmie|89/100
+|-damage|p2a: Starmie|76/100|[from] Spikes
+|move|p1a: Metalbird|Hidden Power|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|59/100|[from] Sandstorm
+|-heal|p2a: Starmie|66/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728949646
+|switch|p1a: madre de bliss|Blissey, F|100/100
+|-damage|p1a: madre de bliss|76/100|[from] Spikes
+|move|p2a: Starmie|Rapid Spin|p1a: madre de bliss
+|-damage|p1a: madre de bliss|72/100
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|59/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|66/100|[from] Sandstorm
+|-heal|p2a: Starmie|66/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|72/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728949653
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: madre de bliss|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|66/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|72/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728949657
+|switch|p1a: Metalbird|Skarmory, M|64/100 par
+|move|p2a: Starmie|Thunder Wave|p1a: Metalbird
+|-fail|p1a: Metalbird|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|88/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|-heal|p1a: Metalbird|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1728949661
+|move|p2a: Starmie|Surf|p1a: Metalbird
+|-damage|p1a: Metalbird|42/100 par
+|move|p1a: Metalbird|Spikes|p2a: Starmie
+|-sidestart|p2: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|63/100 tox|[from] psn
+|-heal|p1a: Metalbird|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728949665
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Blissey|Blissey, F|81/100
+|-damage|p2a: Blissey|68/100|[from] Spikes
+|switch|p1a: madre de bliss|Blissey, F|72/100
+|-damage|p1a: madre de bliss|48/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|41/100|[from] Sandstorm
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|48/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728949669
+|switch|p2a: Starmie|Starmie|63/100
+|-damage|p2a: Starmie|51/100|[from] Spikes
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|45/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|91/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|97/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728949685
+|switch|p1a: Aeroblast|Aerodactyl, F|100/100
+|move|p2a: Starmie|Rapid Spin|p1a: Aeroblast
+|-resisted|p1a: Aeroblast
+|-damage|p1a: Aeroblast|98/100
+|-sideend|p2: GreenCity|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|45/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728949692
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Aeroblast|Double-Edge|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|87/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728949711
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Metalbird|Skarmory, M|48/100 par
+|move|p2a: Tyranitar|Focus Punch|p1a: Metalbird
+|-damage|p1a: Metalbird|1/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|-heal|p1a: Metalbird|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728949718
+|move|p2a: Tyranitar|Rock Slide|p1a: Metalbird
+|-damage|p1a: Metalbird|0 fnt
+|faint|p1a: Metalbird
+|
+|t:|1728949727
+|switch|p1a: Moisés|Swampert, F|82/100
+|-damage|p1a: Moisés|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|-heal|p1a: Moisés|63/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728949736
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Moisés|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|36/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: Moisés|69/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728949767
+|switch|p1a: madre de bliss|Blissey, F|97/100
+|-damage|p1a: madre de bliss|73/100|[from] Spikes
+|move|p2a: Zapdos|Hidden Power|p1a: madre de bliss
+|-crit|p1a: madre de bliss
+|-damage|p1a: madre de bliss|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|36/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|46/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|53/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728949780
+|switch|p2a: Blissey|Blissey, F|68/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728949783
+|move|p2a: Blissey|Toxic|p1a: madre de bliss
+|-status|p1a: madre de bliss|tox
+|move|p1a: madre de bliss|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: madre de bliss|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|100/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|94/100 tox|[from] psn
+|upkeep
+|turn|103
+|
+|t:|1728949789
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|88/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|94/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|82/100 tox|[from] psn
+|upkeep
+|turn|104
+|
+|t:|1728949792
+|move|p2a: Blissey|Toxic|p1a: madre de bliss
+|-fail|p1a: madre de bliss|tox
+|move|p1a: madre de bliss|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|84/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|76/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|72/100 tox|[from] psn
+|-heal|p1a: madre de bliss|82/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|64/100 tox|[from] psn
+|upkeep
+|turn|105
+|
+|t:|1728949797
+|-curestatus|p1a: madre de bliss|tox|[from] ability: Natural Cure
+|switch|p1a: Aeroblast|Aerodactyl, F|98/100
+|move|p2a: Blissey|Toxic|p1a: Aeroblast
+|-status|p1a: Aeroblast|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|65/100 tox|[from] Sandstorm
+|-damage|p1a: Aeroblast|92/100 tox|[from] psn
+|-heal|p2a: Blissey|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|53/100 tox|[from] psn
+|upkeep
+|turn|106
+|
+|t:|1728949822
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, F|81/100
+|move|p1a: Aeroblast|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aeroblast|80/100 tox|[from] psn
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949849
+|switch|p1a: madre de bliss|Blissey, F|64/100
+|-damage|p1a: madre de bliss|39/100|[from] Spikes
+|move|p2a: Swampert|Roar|p1a: madre de bliss
+|drag|p1a: T-Rex|Tyranitar, M|82/100
+|-damage|p1a: T-Rex|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: T-Rex|63/100|[from] item: Leftovers
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949882
+|move|p1a: T-Rex|Dragon Dance|p1a: T-Rex
+|-boost|p1a: T-Rex|atk|1
+|-boost|p1a: T-Rex|spe|1
+|move|p2a: Swampert|Surf|p1a: T-Rex
+|-supereffective|p1a: T-Rex
+|-damage|p1a: T-Rex|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: T-Rex|22/100|[from] item: Leftovers
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1728949888
+|move|p1a: T-Rex|Double-Edge|p2a: Swampert
+|-damage|p2a: Swampert|38/100
+|-damage|p1a: T-Rex|6/100|[from] Recoil|[of] p2a: Swampert
+|move|p2a: Swampert|Surf|p1a: T-Rex
+|-supereffective|p1a: T-Rex
+|-damage|p1a: T-Rex|0 fnt
+|faint|p1a: T-Rex
+|
+|t:|1728949891
+|switch|p1a: Moisés|Swampert, F|69/100
+|-damage|p1a: Moisés|44/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|44/100|[from] item: Leftovers
+|-heal|p1a: Moisés|51/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1728949898
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Moisés|Hydro Pump|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|50/100|[from] item: Leftovers
+|-heal|p1a: Moisés|57/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728949918
+|switch|p2a: Starmie|Starmie|51/100
+|move|p1a: Moisés|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|8/100|[from] Sandstorm
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|-heal|p1a: Moisés|63/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728949925
+|move|p2a: Starmie|Surf|p1a: Moisés
+|-damage|p1a: Moisés|32/100
+|move|p1a: Moisés|Curse|p1a: Moisés
+|-unboost|p1a: Moisés|spe|1
+|-boost|p1a: Moisés|atk|1
+|-boost|p1a: Moisés|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|8/100|[from] Sandstorm
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|-heal|p1a: Moisés|38/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1728949928
+|move|p2a: Starmie|Surf|p1a: Moisés
+|-damage|p1a: Moisés|10/100
+|move|p1a: Moisés|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1728949955
+|switch|p2a: Swampert|Swampert, F|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|-heal|p1a: Moisés|16/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728949960
+|move|p2a: Swampert|Surf|p1a: Moisés
+|-damage|p1a: Moisés|0 fnt
+|faint|p1a: Moisés
+|
+|t:|1728949963
+|switch|p1a: madre de bliss|Blissey, F|39/100
+|-damage|p1a: madre de bliss|14/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|8/100|[from] Sandstorm
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|14/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728949967
+|switch|p2a: Blissey|Blissey, F|53/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|58/100|[from] Sandstorm
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|64/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1728949972
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: madre de bliss|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|58/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|-heal|p1a: madre de bliss|64/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728949976
+|move|p2a: Blissey|Toxic|p1a: madre de bliss
+|-status|p1a: madre de bliss|tox
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|94/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|-heal|p1a: madre de bliss|100/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|94/100 tox|[from] psn
+|upkeep
+|turn|118
+|
+|t:|1728949982
+|move|p2a: Blissey|Ice Beam|p1a: madre de bliss
+|-crit|p1a: madre de bliss
+|-damage|p1a: madre de bliss|76/100 tox
+|move|p1a: madre de bliss|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|72/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|66/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|70/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|53/100 tox|[from] psn
+|-heal|p1a: madre de bliss|76/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|64/100 tox|[from] psn
+|upkeep
+|turn|119
+|
+|t:|1728949986
+|-curestatus|p1a: madre de bliss|tox|[from] ability: Natural Cure
+|switch|p1a: Aeroblast|Aerodactyl, F|80/100 tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: Aeroblast|74/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|120
+|
+|t:|1728949993
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, M|99/100
+|move|p1a: Aeroblast|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aeroblast|62/100 tox|[from] psn
+|-heal|p2a: Tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728949997
+|switch|p1a: madre de bliss|Blissey, F|64/100
+|-damage|p1a: madre de bliss|39/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|36/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|33/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|39/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1728950000
+|switch|p2a: Blissey|Blissey, F|76/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|70/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|83/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|89/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1728950006
+|move|p2a: Blissey|Toxic|p1a: madre de bliss
+|-status|p1a: madre de bliss|tox
+|move|p1a: madre de bliss|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|70/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|83/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|70/100 tox|[from] psn
+|-heal|p1a: madre de bliss|89/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|83/100 tox|[from] psn
+|upkeep
+|turn|124
+|
+|t:|1728950012
+|move|p2a: Blissey|Ice Beam|p1a: madre de bliss
+|-damage|p1a: madre de bliss|73/100 tox
+|move|p1a: madre de bliss|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|59/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|53/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|67/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|47/100 tox|[from] psn
+|-heal|p1a: madre de bliss|73/100 tox|[from] item: Leftovers
+|-damage|p1a: madre de bliss|61/100 tox|[from] psn
+|upkeep
+|turn|125
+|
+|t:|1728950016
+|-curestatus|p1a: madre de bliss|tox|[from] ability: Natural Cure
+|switch|p1a: Aeroblast|Aerodactyl, F|62/100 tox
+|move|p2a: Blissey|Ice Beam|p1a: Aeroblast
+|-supereffective|p1a: Aeroblast
+|-damage|p1a: Aeroblast|0 fnt
+|faint|p1a: Aeroblast
+|
+|t:|1728950019
+|switch|p1a: madre de bliss|Blissey, F|61/100
+|-damage|p1a: madre de bliss|36/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|41/100 tox|[from] Sandstorm
+|-damage|p1a: madre de bliss|30/100|[from] Sandstorm
+|-heal|p2a: Blissey|47/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|29/100 tox|[from] psn
+|-heal|p1a: madre de bliss|36/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1728950024
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Zapdos|Zapdos|42/100
+|move|p1a: madre de bliss|Soft-Boiled|p1a: madre de bliss
+|-heal|p1a: madre de bliss|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|36/100|[from] Sandstorm
+|-damage|p1a: madre de bliss|79/100|[from] Sandstorm
+|-heal|p2a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|86/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728950028
+|move|p2a: Zapdos|Drill Peck|p1a: madre de bliss
+|-crit|p1a: madre de bliss
+|-damage|p1a: madre de bliss|26/100
+|move|p1a: madre de bliss|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728950030
+|switch|p2a: Tyranitar|Tyranitar, M|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: madre de bliss|20/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|47/100|[from] item: Leftovers
+|-heal|p1a: madre de bliss|26/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1728950033
+|move|p2a: Tyranitar|Earthquake|p1a: madre de bliss
+|-damage|p1a: madre de bliss|0 fnt
+|faint|p1a: madre de bliss
+|
+|win|GreenCity
+|c|☆GreenCity|gg
+|c|☆goldmason|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798830">
+{"id":"smogtours-gen3ou-798830","format":"[Gen 3] OU","players":["goldmason","GreenCity"],"uploadtime":1728950033,"views":121,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

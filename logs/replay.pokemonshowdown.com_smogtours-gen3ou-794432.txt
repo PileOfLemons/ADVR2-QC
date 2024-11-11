@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Skittle_Skity vs. OneWhoRants - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Skittle_Skity and OneWhoRants! Format: [Gen 3] OU; Date: Oct 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794432">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727997405
+|gametype|singles
+|player|p1|Skittle_Skity|266|
+|player|p2|OneWhoRants|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727997405
+|start
+|switch|p1a: Loud Bird|Zapdos|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|c|☆Skittle_Skity|gl hf
+|c|☆OneWhoRants|glhf
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727997449
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Loud Bird|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-damage|p2a: Flygon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1727997469
+|switch|p1a: Audrey|Swampert, F|100/100
+|move|p2a: Flygon|Rock Slide|p1a: Audrey
+|-resisted|p1a: Audrey
+|-damage|p1a: Audrey|94/100
+|
+|-heal|p2a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|-heal|p1a: Audrey|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727997501
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Audrey|Protect||[still]
+|-fail|p1a: Audrey
+|
+|upkeep
+|turn|4
+|
+|t:|1727997509
+|switch|p1a: Bully|Blissey, F|100/100
+|move|p2a: Suicune|Surf|p1a: Bully
+|-damage|p1a: Bully|88/100
+|
+|-heal|p1a: Bully|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727997553
+|move|p1a: Bully|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|69/100
+|move|p2a: Suicune|Roar|p1a: Bully
+|drag|p1a: Magician|Jirachi|100/100
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|OneWhoRants has 240 seconds left.
+|
+|t:|1727997591
+|switch|p1a: Bully|Blissey, F|95/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|-heal|p1a: Bully|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727997597
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Bully|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|65/100
+|
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727997605
+|switch|p1a: Audrey|Swampert, F|100/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1727997608
+|cant|p2a: Suicune|slp
+|move|p1a: Audrey|Roar|p2a: Suicune
+|drag|p2a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1727997615
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Audrey|Protect||[still]
+|-fail|p1a: Audrey
+|
+|upkeep
+|turn|11
+|
+|t:|1727997618
+|switch|p1a: Magician|Jirachi|100/100
+|move|p2a: Skarmory|Spikes|p1a: Magician
+|-sidestart|p1: Skittle_Skity|Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1727997624
+|switch|p2a: Flygon|Flygon, M|88/100 tox
+|move|p1a: Magician|Fire Punch|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|80/100 tox
+|
+|-heal|p2a: Flygon|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|80/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1727997633
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Magician|Protect||[still]
+|-fail|p1a: Magician
+|
+|upkeep
+|turn|14
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727997647
+|switch|p1a: Audrey|Swampert, F|100/100
+|-damage|p1a: Audrey|88/100|[from] Spikes
+|cant|p2a: Suicune|slp
+|
+|-heal|p1a: Audrey|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727997652
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Audrey
+|-damage|p1a: Audrey|67/100
+|move|p1a: Audrey|Roar|p2a: Suicune
+|drag|p2a: Gengar|Gengar, F|100/100
+|
+|-heal|p1a: Audrey|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727997662
+|move|p1a: Audrey|Protect|p1a: Audrey
+|-singleturn|p1a: Audrey|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Audrey|[miss]
+|-miss|p2a: Gengar|p1a: Audrey
+|
+|-heal|p1a: Audrey|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1727997673
+|switch|p2a: Metagross|Metagross|100/100
+|switch|p1a: Bully|Blissey, F|100/100
+|-damage|p1a: Bully|88/100|[from] Spikes
+|
+|-heal|p1a: Bully|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727997683
+|switch|p1a: Gargoyle|Forretress, F|100/100
+|-damage|p1a: Gargoyle|88/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Gargoyle
+|-resisted|p1a: Gargoyle
+|-damage|p1a: Gargoyle|56/100
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Gargoyle|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727997690
+|move|p2a: Metagross|Meteor Mash|p1a: Gargoyle
+|-resisted|p1a: Gargoyle
+|-damage|p1a: Gargoyle|17/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Gargoyle|Counter|p2a: Metagross
+|-damage|p2a: Metagross|4/100
+|
+|-heal|p1a: Gargoyle|23/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727997728
+|switch|p1a: Audrey|Swampert, F|79/100
+|-damage|p1a: Audrey|67/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Audrey
+|-resisted|p1a: Audrey
+|-damage|p1a: Audrey|7/100
+|
+|-heal|p1a: Audrey|13/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727997742
+|move|p1a: Audrey|Protect|p1a: Audrey
+|-singleturn|p1a: Audrey|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Audrey
+|-activate|p1a: Audrey|Protect
+|
+|-heal|p1a: Audrey|19/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727997768
+|switch|p1a: Magician|Jirachi|100/100
+|-damage|p1a: Magician|88/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|18/100
+|
+|-heal|p1a: Magician|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727997781
+|switch|p2a: Flygon|Flygon, M|80/100 tox
+|move|p1a: Magician|Protect||[still]
+|-fail|p1a: Magician
+|
+|-heal|p2a: Flygon|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|80/100 tox|[from] psn
+|-heal|p1a: Magician|31/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1727997789
+|move|p1a: Magician|Protect|p1a: Magician
+|-singleturn|p1a: Magician|Protect
+|move|p2a: Flygon|Rock Slide|p1a: Magician
+|-activate|p1a: Magician|Protect
+|
+|-heal|p2a: Flygon|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|74/100 tox|[from] psn
+|-heal|p1a: Magician|37/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727997800
+|switch|p1a: Bully|Blissey, F|94/100
+|-damage|p1a: Bully|82/100|[from] Spikes
+|move|p2a: Flygon|Earthquake|p1a: Bully
+|-damage|p1a: Bully|49/100
+|
+|-heal|p2a: Flygon|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Flygon|62/100 tox|[from] psn
+|-heal|p1a: Bully|55/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1727997813
+|move|p2a: Flygon|Toxic|p1a: Bully
+|-status|p1a: Bully|tox
+|move|p1a: Bully|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1727997816
+|switch|p2a: Suicune|Suicune|100/100
+|
+|-heal|p1a: Bully|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Bully|55/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1727997824
+|-curestatus|p1a: Bully|tox|[from] ability: Natural Cure
+|switch|p1a: Loud Bird|Zapdos|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|28
+|
+|t:|1727997831
+|move|p1a: Loud Bird|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1727997835
+|switch|p1a: Bully|Blissey, F|55/100
+|-damage|p1a: Bully|43/100|[from] Spikes
+|move|p2a: Suicune|Surf|p1a: Bully
+|-damage|p1a: Bully|17/100
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|-heal|p1a: Bully|23/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1727997837
+|move|p2a: Suicune|Surf|p1a: Bully
+|-damage|p1a: Bully|0 fnt
+|faint|p1a: Bully
+|
+|t:|1727997842
+|switch|p1a: Buster|Salamence, M|100/100
+|-ability|p1a: Buster|Intimidate|boost
+|-unboost|p2a: Suicune|atk|1
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|76/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1727997865
+|move|p1a: Buster|Dragon Dance|p1a: Buster
+|-boost|p1a: Buster|atk|1
+|-boost|p1a: Buster|spe|1
+|move|p2a: Suicune|Roar|p1a: Buster
+|drag|p1a: Gargoyle|Forretress, F|23/100
+|-damage|p1a: Gargoyle|11/100|[from] Spikes
+|
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|57/100 tox|[from] psn
+|-heal|p1a: Gargoyle|17/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727997912
+|switch|p1a: Buster|Salamence, M|100/100
+|-ability|p1a: Buster|Intimidate|boost
+|-unboost|p2a: Suicune|atk|1
+|move|p2a: Suicune|Surf|p1a: Buster
+|-resisted|p1a: Buster
+|-damage|p1a: Buster|67/100
+|
+|-heal|p1a: Buster|73/100|[from] item: Leftovers
+|-heal|p2a: Suicune|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|32/100 tox|[from] psn
+|upkeep
+|turn|33
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727997936
+|move|p1a: Buster|Dragon Dance|p1a: Buster
+|-boost|p1a: Buster|atk|1
+|-boost|p1a: Buster|spe|1
+|move|p2a: Suicune|Roar|p1a: Buster
+|drag|p1a: Audrey|Swampert, F|19/100
+|-damage|p1a: Audrey|7/100|[from] Spikes
+|
+|-heal|p2a: Suicune|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|1/100 tox|[from] psn
+|-heal|p1a: Audrey|13/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Skittle_Skity has 270 seconds left.
+|inactive|OneWhoRants has 240 seconds left.
+|inactive|OneWhoRants has 210 seconds left.
+|
+|t:|1727998000
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Audrey|Roar|p2a: Suicune
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p1a: Audrey|19/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727998017
+|switch|p1a: Gargoyle|Forretress, F|17/100
+|-damage|p1a: Gargoyle|4/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Gargoyle
+|-sidestart|p1: Skittle_Skity|Spikes
+|
+|-heal|p1a: Gargoyle|11/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1727998021
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Gargoyle|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p1a: Gargoyle|17/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|OneWhoRants has 210 seconds left.
+|
+|t:|1727998049
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gargoyle|Spikes|p2a: Suicune
+|-sidestart|p2: OneWhoRants|Spikes
+|
+|-heal|p1a: Gargoyle|23/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727998053
+|cant|p2a: Suicune|slp
+|move|p1a: Gargoyle|Rapid Spin|p2a: Suicune
+|-damage|p2a: Suicune|98/100 slp
+|-sideend|p1: Skittle_Skity|Spikes|[from] move: Rapid Spin|[of] p1a: Gargoyle
+|
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Gargoyle|29/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1727998064
+|switch|p1a: Loud Bird|Zapdos|100/100
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|40
+|inactive|OneWhoRants has 210 seconds left.
+|
+|t:|1727998084
+|move|p1a: Loud Bird|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|31/100 slp
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Loud Bird
+|-damage|p1a: Loud Bird|63/100
+|
+|-heal|p1a: Loud Bird|69/100|[from] item: Leftovers
+|-heal|p2a: Suicune|37/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|OneWhoRants has 210 seconds left.
+|
+|t:|1727998097
+|move|p1a: Loud Bird|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1727998110
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-heal|p1a: Loud Bird|75/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1727998135
+|move|p2a: Gengar|Fire Punch|p1a: Loud Bird
+|-damage|p1a: Loud Bird|51/100
+|move|p1a: Loud Bird|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|42/100
+|
+|-heal|p2a: Gengar|48/100|[from] item: Leftovers
+|-heal|p1a: Loud Bird|58/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1727998151
+|move|p2a: Gengar|Explosion|p1a: Loud Bird
+|-damage|p1a: Loud Bird|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Loud Bird
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727998172
+|switch|p2a: Starmie|Starmie|100/100
+|switch|p1a: Gargoyle|Forretress, F|29/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|
+|-heal|p2a: Starmie|94/100|[from] item: Leftovers
+|-heal|p1a: Gargoyle|36/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1727998181
+|move|p2a: Starmie|Hydro Pump|p1a: Gargoyle
+|-damage|p1a: Gargoyle|0 fnt
+|faint|p1a: Gargoyle
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1727998193
+|switch|p1a: Magician|Jirachi|37/100
+|
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Magician|43/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|OneWhoRants has 210 seconds left.
+|
+|t:|1727998208
+|switch|p2a: Metagross|Metagross|4/100
+|-damage|p2a: Metagross|0 fnt|[from] Spikes
+|faint|p2a: Metagross
+|
+|t:|1727998213
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p1a: Magician|49/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1727998218
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|move|p2a: Skarmory|Spikes|p1a: Magician
+|-sidestart|p1: Skittle_Skity|Spikes
+|
+|-heal|p1a: Magician|55/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1727998222
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100
+|move|p2a: Skarmory|Spikes|p1a: Magician
+|-sidestart|p1: Skittle_Skity|Spikes
+|
+|-heal|p1a: Magician|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1727998237
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100
+|move|p2a: Skarmory|Roar|p1a: Magician
+|drag|p1a: Buster|Salamence, M|73/100
+|-ability|p1a: Buster|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p1a: Buster|79/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|OneWhoRants has 240 seconds left.
+|
+|t:|1727998246
+|move|p1a: Buster|Dragon Dance|p1a: Buster
+|-boost|p1a: Buster|atk|1
+|-boost|p1a: Buster|spe|1
+|move|p2a: Skarmory|Roar|p1a: Buster
+|drag|p1a: Audrey|Swampert, F|19/100
+|-damage|p1a: Audrey|3/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|29/100|[from] item: Leftovers
+|-heal|p1a: Audrey|9/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1727998250
+|move|p2a: Skarmory|Spikes|p1a: Audrey
+|-sidestart|p1: Skittle_Skity|Spikes
+|move|p1a: Audrey|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|35/100|[from] item: Leftovers
+|-heal|p1a: Audrey|15/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1727998255
+|move|p2a: Skarmory|Toxic|p1a: Audrey
+|-status|p1a: Audrey|tox
+|move|p1a: Audrey|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|-heal|p1a: Audrey|21/100 tox|[from] item: Leftovers
+|-damage|p1a: Audrey|15/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1727998259
+|move|p1a: Audrey|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Audrey
+|drag|p1a: Buster|Salamence, M|79/100
+|-ability|p1a: Buster|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p1a: Buster|85/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727998276
+|move|p1a: Buster|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|26/100
+|move|p2a: Skarmory|Roar|p1a: Buster
+|drag|p1a: Magician|Jirachi|62/100
+|-damage|p1a: Magician|37/100|[from] Spikes
+|
+|-heal|p1a: Magician|43/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1727998290
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|3/100
+|move|p2a: Skarmory|Roar|p1a: Magician
+|drag|p1a: Audrey|Swampert, F|15/100 tox
+|-damage|p1a: Audrey|0 fnt|[from] Spikes
+|faint|p1a: Audrey
+|
+|t:|1727998296
+|switch|p1a: Magician|Jirachi|43/100
+|-damage|p1a: Magician|18/100|[from] Spikes
+|
+|-heal|p1a: Magician|24/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|9/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727998303
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|move|p1a: Magician|Wish|p1a: Magician
+|
+|-heal|p2a: Starmie|94/100|[from] item: Leftovers
+|-heal|p1a: Magician|30/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|OneWhoRants has 270 seconds left.
+|
+|t:|1727998317
+|move|p1a: Magician|Protect|p1a: Magician
+|-singleturn|p1a: Magician|Protect
+|move|p2a: Starmie|Hydro Pump|p1a: Magician
+|-activate|p1a: Magician|Protect
+|
+|-heal|p1a: Magician|80/100|[from] move: Wish|[wisher] Magician
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Magician|86/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1727998321
+|move|p2a: Starmie|Rapid Spin|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|85/100
+|-sideend|p2: OneWhoRants|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Magician|Wish|p1a: Magician
+|
+|-heal|p1a: Magician|91/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1727998325
+|move|p2a: Starmie|Ice Beam|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|83/100
+|move|p1a: Magician|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|71/100
+|
+|-heal|p1a: Magician|100/100|[from] move: Wish|[wisher] Magician
+|-heal|p2a: Starmie|77/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1727998340
+|move|p2a: Starmie|Ice Beam|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|92/100
+|move|p1a: Magician|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|50/100
+|-status|p2a: Starmie|par
+|
+|-heal|p1a: Magician|98/100|[from] item: Leftovers
+|-heal|p2a: Starmie|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1727998349
+|move|p1a: Magician|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|24/100 par
+|move|p2a: Starmie|Hydro Pump|p1a: Magician
+|-damage|p1a: Magician|64/100
+|
+|-heal|p1a: Magician|71/100|[from] item: Leftovers
+|-heal|p2a: Starmie|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1727998353
+|-curestatus|p2a: Starmie|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|9/100
+|move|p1a: Magician|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|1/100
+|
+|-heal|p1a: Magician|77/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|7/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1727998358
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p1a: Magician|83/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|13/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1727998364
+|move|p1a: Magician|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1727998366
+|switch|p2a: Starmie|Starmie|30/100
+|
+|-heal|p2a: Starmie|36/100|[from] item: Leftovers
+|-heal|p1a: Magician|89/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1727998369
+|move|p2a: Starmie|Ice Beam|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|80/100
+|move|p1a: Magician|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|8/100
+|
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|-heal|p1a: Magician|86/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1727998371
+|move|p2a: Starmie|Ice Beam|p1a: Magician
+|-resisted|p1a: Magician
+|-damage|p1a: Magician|78/100
+|move|p1a: Magician|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Skittle_Skity
+|c|☆Skittle_Skity|gg
+|c|☆OneWhoRants|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794432">
+{"id":"smogtours-gen3ou-794432","format":"[Gen 3] OU","players":["Skittle_Skity","OneWhoRants"],"uploadtime":1727998371,"views":86,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

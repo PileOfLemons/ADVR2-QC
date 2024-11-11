@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: dustyfans vs. TheMighty_Q - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between dustyfans and TheMighty_Q! Format: [Gen 3] OU; Date: Oct 12, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-797683">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728759768
+|gametype|singles
+|player|p1|dustyfans|169|
+|player|p2|TheMighty_Q|hiker-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728759768
+|start
+|switch|p1a: Cricket|Celebi|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|
+|t:|1728759793
+|move|p1a: Cricket|Calm Mind|p1a: Cricket
+|-boost|p1a: Cricket|spa|1
+|-boost|p1a: Cricket|spd|1
+|move|p2a: Regirock|Explosion|p1a: Cricket
+|-damage|p1a: Cricket|0 fnt
+|faint|p2a: Regirock
+|faint|p1a: Cricket
+|
+|t:|1728759807
+|switch|p1a: Sweet Dee|Skarmory, F|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1728759818
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Sweet Dee|Spikes|p2a: Magneton
+|-sidestart|p2: TheMighty_Q|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1728759823
+|move|p2a: Magneton|Thunderbolt|p1a: Sweet Dee
+|-supereffective|p1a: Sweet Dee
+|-damage|p1a: Sweet Dee|0 fnt
+|faint|p1a: Sweet Dee
+|
+|t:|1728759827
+|switch|p1a: Frank|Metagross|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1728759850
+|move|p2a: Magneton|Thunder Wave|p1a: Frank
+|-status|p1a: Frank|par
+|move|p1a: Frank|Agility|p1a: Frank
+|-boost|p1a: Frank|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1728759859
+|move|p2a: Magneton|Thunderbolt|p1a: Frank
+|-damage|p1a: Frank|38/100 par
+|move|p1a: Frank|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1728759864
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Frank|unboost|[from] ability: Clear Body|[of] p1a: Frank
+|
+|-heal|p1a: Frank|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728759869
+|switch|p1a: Mac|Blissey, F|100/100
+|move|p2a: Salamence|Earthquake|p1a: Mac
+|-damage|p1a: Mac|56/100
+|
+|-heal|p1a: Mac|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728759876
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: Mac|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|72/100
+|
+|-heal|p1a: Mac|69/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728759882
+|switch|p1a: THE GOLDEN GOD|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: THE GOLDEN GOD
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|72/100|[from] Sandstorm
+|-heal|p2a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728759889
+|move|p1a: THE GOLDEN GOD|Dragon Dance|p1a: THE GOLDEN GOD
+|-boost|p1a: THE GOLDEN GOD|atk|1
+|-boost|p1a: THE GOLDEN GOD|spe|1
+|move|p2a: Snorlax|Earthquake|p1a: THE GOLDEN GOD
+|-supereffective|p1a: THE GOLDEN GOD
+|-damage|p1a: THE GOLDEN GOD|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|72/100|[from] Sandstorm
+|-heal|p2a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728759895
+|move|p1a: THE GOLDEN GOD|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|42/100
+|move|p2a: Snorlax|Earthquake|p1a: THE GOLDEN GOD
+|-supereffective|p1a: THE GOLDEN GOD
+|-damage|p1a: THE GOLDEN GOD|0 fnt
+|faint|p1a: THE GOLDEN GOD
+|
+|t:|1728759898
+|switch|p1a: Charlie|Salamence, M|100/100
+|-ability|p1a: Charlie|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charlie|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|36/100|[from] Sandstorm
+|-heal|p1a: Charlie|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728759907
+|move|p1a: Charlie|Dragon Claw|p2a: Snorlax
+|-damage|p2a: Snorlax|16/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Charlie
+|-damage|p1a: Charlie|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Charlie
+|
+|t:|1728759915
+|switch|p1a: Frank|Metagross|44/100 par
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Frank|unboost|[from] ability: Clear Body|[of] p1a: Frank
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Frank|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728759921
+|move|p2a: Salamence|Earthquake|p1a: Frank
+|-supereffective|p1a: Frank
+|-damage|p1a: Frank|0 fnt
+|faint|p1a: Frank
+|
+|t:|1728759924
+|switch|p1a: Mac|Blissey, F|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Mac|63/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Mac|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆dustyfans|gg
+|
+|t:|1728759928
+|move|p2a: Salamence|Earthquake|p1a: Mac
+|-damage|p1a: Mac|31/100
+|move|p1a: Mac|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1728759931
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mac|25/100|[from] Sandstorm
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|-heal|p1a: Mac|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728759936
+|move|p2a: Metagross|Meteor Mash|p1a: Mac
+|-damage|p1a: Mac|0 fnt
+|faint|p1a: Mac
+|
+|win|TheMighty_Q
+|c|☆TheMighty_Q|gg
+|c|☆dustyfans|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797683">
+{"id":"smogtours-gen3ou-797683","format":"[Gen 3] OU","players":["dustyfans","TheMighty_Q"],"uploadtime":1728759936,"views":88,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

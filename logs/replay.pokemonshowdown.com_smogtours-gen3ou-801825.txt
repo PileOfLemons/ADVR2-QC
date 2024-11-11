@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: chiefbeef1234 vs. FREEYSL321 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between chiefbeef1234 and FREEYSL321! Format: [Gen 3] OU; Date: Oct 25, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801825">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729872447
+|gametype|singles
+|player|p1|chiefbeef1234|102|
+|player|p2|FREEYSL321|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729872447
+|start
+|switch|p1a: Glalie|Glalie, F|100/100
+|switch|p2a: Bacardi Limon|Zapdos|100/100
+|turn|1
+|
+|t:|1729872458
+|switch|p2a: Moneybagg|Slowbro, F, shiny|100/100
+|move|p1a: Glalie|Spikes|p2a: Moneybagg
+|-sidestart|p2: FREEYSL321|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1729872462
+|move|p1a: Glalie|Taunt|p2a: Moneybagg
+|-start|p2a: Moneybagg|move: Taunt
+|cant|p2a: Moneybagg|move: Taunt|Substitute
+|
+|upkeep
+|turn|3
+|
+|t:|1729872467
+|-singleturn|p2a: Moneybagg|move: Focus Punch
+|move|p1a: Glalie|Spikes|p2a: Moneybagg
+|-sidestart|p2: FREEYSL321|Spikes
+|move|p2a: Moneybagg|Focus Punch|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|19/100
+|
+|-enditem|p1a: Glalie|Salac Berry|[eat]
+|-boost|p1a: Glalie|spe|1|[from] item: Salac Berry
+|-end|p2a: Moneybagg|move: Taunt|[silent]
+|upkeep
+|turn|4
+|
+|t:|1729872490
+|move|p1a: Glalie|Spikes|p2a: Moneybagg
+|-sidestart|p2: FREEYSL321|Spikes
+|move|p2a: Moneybagg|Surf|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|t:|1729872497
+|switch|p1a: Magneton|Magneton|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1729872506
+|switch|p2a: Fringe|Claydol|100/100
+|move|p1a: Magneton|Thunderbolt|p2a: Fringe
+|-immune|p2a: Fringe
+|
+|upkeep
+|turn|6
+|
+|t:|1729872523
+|switch|p2a: Steven|Metagross|100/100
+|-damage|p2a: Steven|76/100|[from] Spikes
+|move|p1a: Magneton|Toxic|p2a: Steven
+|-immune|p2a: Steven
+|
+|upkeep
+|turn|7
+|
+|t:|1729872535
+|move|p1a: Magneton|Thunderbolt|p2a: Steven
+|-damage|p2a: Steven|9/100
+|move|p2a: Steven|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1729872544
+|switch|p1a: Charizard|Charizard, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1729872553
+|switch|p2a: Moneybagg|Slowbro, F, shiny|100/100
+|-damage|p2a: Moneybagg|76/100|[from] Spikes
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|75/100
+|
+|-heal|p2a: Moneybagg|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729872556
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|25/100
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|move|p2a: Moneybagg|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|
+|-enditem|p1a: Charizard|Salac Berry|[eat]
+|-boost|p1a: Charizard|spe|1|[from] item: Salac Berry
+|-heal|p2a: Moneybagg|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729872564
+|move|p1a: Charizard|Hidden Power|p2a: Moneybagg
+|-crit|p2a: Moneybagg
+|-damage|p2a: Moneybagg|0 fnt
+|faint|p2a: Moneybagg
+|c|☆FREEYSL321|lol
+|inactive|FREEYSL321 has 270 seconds left.
+|
+|t:|1729872606
+|switch|p2a: Bacardi Limon|Zapdos|100/100
+|
+|upkeep
+|turn|11
+|inactive|chiefbeef1234 has 270 seconds left.
+|
+|t:|1729872638
+|move|p1a: Charizard|Fire Blast|p2a: Bacardi Limon
+|-damage|p2a: Bacardi Limon|21/100
+|move|p2a: Bacardi Limon|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|inactive|chiefbeef1234 has 270 seconds left.
+|
+|t:|1729872647
+|switch|p1a: Lunatone|Lunatone|100/100
+|
+|-heal|p2a: Bacardi Limon|27/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729872655
+|move|p2a: Bacardi Limon|Toxic|p1a: Lunatone
+|-status|p1a: Lunatone|tox
+|move|p1a: Lunatone|Cosmic Power|p1a: Lunatone
+|-boost|p1a: Lunatone|def|1
+|-boost|p1a: Lunatone|spd|1
+|
+|-heal|p2a: Bacardi Limon|34/100|[from] item: Leftovers
+|-damage|p1a: Lunatone|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1729872668
+|switch|p2a: Fringe|Claydol|100/100
+|move|p1a: Lunatone|Hypnosis|p2a: Fringe
+|-status|p2a: Fringe|slp|[from] move: Hypnosis
+|
+|-heal|p1a: Lunatone|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Lunatone|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1729872681
+|cant|p2a: Fringe|slp
+|move|p1a: Lunatone|Baton Pass|p1a: Lunatone
+|
+|t:|1729872683
+|switch|p1a: Suicune|Suicune|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|15
+|
+|t:|1729872686
+|cant|p2a: Fringe|slp
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|75/100
+|
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729872688
+|cant|p2a: Fringe|slp
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729872691
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|-curestatus|p2a: Fringe|slp|[msg]
+|move|p2a: Fringe|Explosion|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|faint|p2a: Fringe
+|
+|t:|1729872699
+|switch|p2a: Bacardi Limon|Zapdos|34/100
+|
+|-heal|p2a: Bacardi Limon|40/100|[from] item: Leftovers
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729872705
+|move|p2a: Bacardi Limon|Toxic|p1a: Suicune|[miss]
+|-miss|p2a: Bacardi Limon|p1a: Suicune
+|move|p1a: Suicune|Surf|p2a: Bacardi Limon
+|-damage|p2a: Bacardi Limon|0 fnt
+|faint|p2a: Bacardi Limon
+|c|☆FREEYSL321|nice win
+|
+|t:|1729872714
+|switch|p2a: Kirby|Blissey, F|100/100
+|-damage|p2a: Kirby|76/100|[from] Spikes
+|
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|-heal|p2a: Kirby|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729872717
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|75/100
+|move|p2a: Kirby|Thunder Wave||[still]
+|-fail|p2a: Kirby
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|-heal|p2a: Kirby|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729872719
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Kirby|Seismic Toss|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|-heal|p2a: Kirby|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|-message|FREEYSL321 forfeited.
+|
+|win|chiefbeef1234
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801825">
+{"id":"smogtours-gen3ou-801825","format":"[Gen 3] OU","players":["chiefbeef1234","FREEYSL321"],"uploadtime":1729872725,"views":74,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

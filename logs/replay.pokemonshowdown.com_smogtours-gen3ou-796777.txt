@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: emma_emma_emma vs. Svejk97 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between emma_emma_emma and Svejk97! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796777">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728509576
+|gametype|singles
+|player|p1|emma_emma_emma|1|
+|player|p2|Svejk97|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728509576
+|start
+|switch|p1a: dallas|Aerodactyl, M|100/100
+|switch|p2a: Magic Dog|Smeargle, M, shiny|100/100
+|turn|1
+|
+|t:|1728509587
+|switch|p2a: Beyblayd|Forretress, F, shiny|100/100
+|move|p1a: dallas|Hidden Power|p2a: Beyblayd
+|-crit|p2a: Beyblayd
+|-damage|p2a: Beyblayd|37/100
+|
+|-heal|p2a: Beyblayd|43/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728509602
+|move|p1a: dallas|Hidden Power|p2a: Beyblayd
+|-damage|p2a: Beyblayd|13/100
+|move|p2a: Beyblayd|Spikes|p1a: dallas
+|-sidestart|p1: emma_emma_emma|Spikes
+|
+|-heal|p2a: Beyblayd|20/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728509619
+|switch|p2a: G.O.A.T.|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: G.O.A.T.
+|move|p1a: dallas|Hidden Power|p2a: G.O.A.T.
+|-resisted|p2a: G.O.A.T.
+|-damage|p2a: G.O.A.T.|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728509630
+|-activate|p1a: dallas|move: Pursuit
+|move|p2a: G.O.A.T.|Pursuit|p1a: dallas|[from]Pursuit
+|-damage|p1a: dallas|52/100
+|switch|p1a: all i want is you|Swampert, M|100/100
+|-damage|p1a: all i want is you|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|93/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728509643
+|switch|p2a: Bruteroot|Venusaur, F|100/100
+|move|p1a: all i want is you|Protect||[still]
+|-fail|p1a: all i want is you
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|94/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|100/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728509654
+|switch|p1a: government cheque|Forretress, F|100/100
+|-damage|p1a: government cheque|88/100|[from] Spikes
+|move|p2a: Bruteroot|Sleep Powder|p1a: government cheque|[miss]
+|-miss|p2a: Bruteroot|p1a: government cheque
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|94/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|100/100|[from] item: Leftovers
+|-heal|p1a: government cheque|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728509666
+|switch|p1a: golden microphone|Tyranitar, F|100/100
+|-damage|p1a: golden microphone|88/100|[from] Spikes
+|move|p2a: Bruteroot|Sleep Powder|p1a: golden microphone
+|-status|p1a: golden microphone|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|94/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|100/100|[from] item: Leftovers
+|-heal|p1a: golden microphone|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728509683
+|switch|p2a: Minato Namikaze|Jolteon, F|100/100
+|switch|p1a: government cheque|Forretress, F|94/100
+|-damage|p1a: government cheque|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|95/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|100/100|[from] item: Leftovers
+|-heal|p1a: government cheque|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728509694
+|move|p2a: Minato Namikaze|Substitute|p2a: Minato Namikaze
+|-start|p2a: Minato Namikaze|Substitute
+|-damage|p2a: Minato Namikaze|76/100
+|move|p1a: government cheque|Spikes|p2a: Minato Namikaze
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|-heal|p1a: government cheque|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728509704
+|move|p2a: Minato Namikaze|Thunderbolt|p1a: government cheque
+|-damage|p1a: government cheque|50/100
+|move|p1a: government cheque|Spikes|p2a: Minato Namikaze
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|-heal|p1a: government cheque|56/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728509714
+|move|p2a: Minato Namikaze|Thunderbolt|p1a: government cheque
+|-damage|p1a: government cheque|11/100
+|move|p1a: government cheque|Spikes|p2a: Minato Namikaze
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|-heal|p1a: government cheque|17/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728509726
+|switch|p1a: stone faces|Blissey, F|100/100
+|-damage|p1a: stone faces|88/100|[from] Spikes
+|move|p2a: Minato Namikaze|Thunderbolt|p1a: stone faces
+|-damage|p1a: stone faces|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-damage|p1a: stone faces|65/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|-heal|p1a: stone faces|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728509738
+|move|p2a: Minato Namikaze|Baton Pass|p2a: Minato Namikaze
+|
+|t:|1728509749
+|switch|p2a: Fast as F! Boyii|Aerodactyl, M|100/100|[from] Baton Pass
+|move|p1a: stone faces|Soft-Boiled|p1a: stone faces
+|-heal|p1a: stone faces|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: stone faces|94/100|[from] Sandstorm
+|-heal|p1a: stone faces|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728509763
+|move|p2a: Fast as F! Boyii|Hidden Power|p1a: stone faces
+|-damage|p1a: stone faces|55/100
+|move|p1a: stone faces|Thunderbolt|p2a: Fast as F! Boyii
+|-supereffective|p2a: Fast as F! Boyii
+|-end|p2a: Fast as F! Boyii|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: stone faces|49/100|[from] Sandstorm
+|-heal|p1a: stone faces|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728509776
+|switch|p1a: deepest blue|Zapdos|100/100
+|move|p2a: Fast as F! Boyii|Hidden Power|p1a: deepest blue
+|-resisted|p1a: deepest blue
+|-damage|p1a: deepest blue|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|71/100|[from] Sandstorm
+|-heal|p1a: deepest blue|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728509787
+|switch|p2a: Minato Namikaze|Jolteon, F|76/100
+|-damage|p2a: Minato Namikaze|51/100|[from] Spikes
+|move|p1a: deepest blue|Roar|p2a: Minato Namikaze
+|drag|p2a: Bruteroot|Venusaur, F|100/100
+|-damage|p2a: Bruteroot|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|69/100|[from] Sandstorm
+|-damage|p1a: deepest blue|71/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|75/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728509801
+|move|p2a: Bruteroot|Leech Seed|p1a: deepest blue
+|-start|p1a: deepest blue|move: Leech Seed
+|move|p1a: deepest blue|Roar|p2a: Bruteroot
+|drag|p2a: G.O.A.T.|Tyranitar, M|93/100
+|-damage|p2a: G.O.A.T.|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|71/100|[from] Sandstorm
+|-heal|p1a: deepest blue|77/100|[from] item: Leftovers
+|-damage|p1a: deepest blue|65/100|[from] Leech Seed|[of] p2a: G.O.A.T.
+|-heal|p2a: G.O.A.T.|81/100|[silent]
+|-heal|p2a: G.O.A.T.|87/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728509816
+|switch|p1a: government cheque|Forretress, F|17/100
+|-damage|p1a: government cheque|4/100|[from] Spikes
+|move|p2a: G.O.A.T.|Ice Beam|p1a: government cheque
+|-resisted|p1a: government cheque
+|-damage|p1a: government cheque|0 fnt
+|faint|p1a: government cheque
+|
+|t:|1728509824
+|switch|p1a: all i want is you|Swampert, M|100/100
+|-damage|p1a: all i want is you|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|93/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509845
+|switch|p2a: Magic Dog|Smeargle, M, shiny|100/100
+|-damage|p2a: Magic Dog|75/100|[from] Spikes
+|move|p1a: all i want is you|Surf|p2a: Magic Dog
+|-damage|p2a: Magic Dog|0 fnt
+|faint|p2a: Magic Dog
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509861
+|switch|p2a: Bruteroot|Venusaur, F|75/100
+|-damage|p2a: Bruteroot|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|44/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|50/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728509870
+|move|p2a: Bruteroot|Leech Seed|p1a: all i want is you
+|-start|p1a: all i want is you|move: Leech Seed
+|move|p1a: all i want is you|Surf|p2a: Bruteroot
+|-resisted|p2a: Bruteroot
+|-damage|p2a: Bruteroot|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|30/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|36/100|[from] item: Leftovers
+|-damage|p1a: all i want is you|88/100|[from] Leech Seed|[of] p2a: Bruteroot
+|-heal|p2a: Bruteroot|50/100|[silent]
+|upkeep
+|turn|21
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509881
+|switch|p1a: stone faces|Blissey, F|55/100
+|-damage|p1a: stone faces|43/100|[from] Spikes
+|move|p2a: Bruteroot|Sludge Bomb|p1a: stone faces
+|-damage|p1a: stone faces|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|44/100|[from] Sandstorm
+|-damage|p1a: stone faces|11/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|50/100|[from] item: Leftovers
+|-heal|p1a: stone faces|17/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509892
+|move|p2a: Bruteroot|Sludge Bomb|p1a: stone faces
+|-damage|p1a: stone faces|0 fnt
+|faint|p1a: stone faces
+|
+|t:|1728509898
+|switch|p1a: dallas|Aerodactyl, M|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bruteroot|44/100|[from] Sandstorm
+|-heal|p2a: Bruteroot|50/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Svejk97 has 270 seconds left.
+|inactive|emma_emma_emma has 270 seconds left.
+|
+|t:|1728509939
+|move|p1a: dallas|Hidden Power|p2a: Bruteroot
+|-supereffective|p2a: Bruteroot
+|-damage|p2a: Bruteroot|0 fnt
+|faint|p2a: Bruteroot
+|
+|t:|1728509947
+|switch|p2a: G.O.A.T.|Tyranitar, M|93/100
+|-damage|p2a: G.O.A.T.|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728509954
+|-activate|p1a: dallas|move: Pursuit
+|move|p2a: G.O.A.T.|Pursuit|p1a: dallas|[from]Pursuit
+|-damage|p1a: dallas|2/100
+|switch|p1a: all i want is you|Swampert, M|88/100
+|-damage|p1a: all i want is you|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|80/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509969
+|switch|p2a: Beyblayd|Forretress, F, shiny|20/100
+|-damage|p2a: Beyblayd|0 fnt|[from] Spikes
+|faint|p2a: Beyblayd
+|
+|t:|1728509982
+|switch|p2a: Minato Namikaze|Jolteon, F|51/100
+|-damage|p2a: Minato Namikaze|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|20/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|26/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728510023
+|move|p2a: Minato Namikaze|Hidden Power|p1a: all i want is you
+|-supereffective|p1a: all i want is you
+|-damage|p1a: all i want is you|16/100
+|move|p1a: all i want is you|Surf|p2a: Minato Namikaze
+|-damage|p2a: Minato Namikaze|0 fnt
+|faint|p2a: Minato Namikaze
+|
+|t:|1728510049
+|switch|p2a: G.O.A.T.|Tyranitar, M|80/100
+|-damage|p2a: G.O.A.T.|55/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|61/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|22/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728510063
+|move|p1a: all i want is you|Protect|p1a: all i want is you
+|-singleturn|p1a: all i want is you|Protect
+|move|p2a: G.O.A.T.|Ice Beam|p1a: all i want is you
+|-activate|p1a: all i want is you|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: G.O.A.T.|67/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|28/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728510073
+|switch|p1a: dallas|Aerodactyl, M|2/100
+|move|p2a: G.O.A.T.|Surf|p1a: dallas
+|-supereffective|p1a: dallas
+|-damage|p1a: dallas|0 fnt
+|faint|p1a: dallas
+|
+|t:|1728510080
+|switch|p1a: deepest blue|Zapdos|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|59/100|[from] Sandstorm
+|-heal|p1a: deepest blue|65/100|[from] item: Leftovers
+|-heal|p2a: G.O.A.T.|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728510089
+|move|p1a: deepest blue|Thunderbolt|p2a: G.O.A.T.
+|-damage|p2a: G.O.A.T.|36/100
+|-status|p2a: G.O.A.T.|par
+|move|p2a: G.O.A.T.|Ice Beam|p1a: deepest blue
+|-supereffective|p1a: deepest blue
+|-damage|p1a: deepest blue|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|18/100|[from] Sandstorm
+|-heal|p1a: deepest blue|24/100|[from] item: Leftovers
+|-heal|p2a: G.O.A.T.|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728510102
+|move|p1a: deepest blue|Thunderbolt|p2a: G.O.A.T.
+|-damage|p2a: G.O.A.T.|7/100 par
+|move|p2a: G.O.A.T.|Pursuit|p1a: deepest blue
+|-damage|p1a: deepest blue|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|5/100|[from] Sandstorm
+|-heal|p1a: deepest blue|11/100|[from] item: Leftovers
+|-heal|p2a: G.O.A.T.|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728510113
+|move|p1a: deepest blue|Thunderbolt|p2a: G.O.A.T.
+|-crit|p2a: G.O.A.T.
+|-damage|p2a: G.O.A.T.|0 fnt
+|faint|p2a: G.O.A.T.
+|
+|t:|1728510118
+|switch|p2a: Fast as F! Boyii|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|5/100|[from] Sandstorm
+|-heal|p1a: deepest blue|11/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728510134
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: deepest blue
+|-damage|p1a: deepest blue|0 fnt
+|faint|p1a: deepest blue
+|
+|t:|1728510139
+|switch|p1a: golden microphone|Tyranitar, F|94/100 slp
+|-damage|p1a: golden microphone|82/100 slp|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: golden microphone|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728510146
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: golden microphone
+|-resisted|p1a: golden microphone
+|-damage|p1a: golden microphone|67/100 slp
+|cant|p1a: golden microphone|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: golden microphone|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728510154
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: golden microphone
+|-resisted|p1a: golden microphone
+|-crit|p1a: golden microphone
+|-damage|p1a: golden microphone|31/100 slp
+|cant|p1a: golden microphone|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: golden microphone|37/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728510163
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: golden microphone
+|-resisted|p1a: golden microphone
+|-damage|p1a: golden microphone|15/100 slp
+|-curestatus|p1a: golden microphone|slp|[msg]
+|move|p1a: golden microphone|Crunch|p2a: Fast as F! Boyii
+|-damage|p2a: Fast as F! Boyii|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: golden microphone|21/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728510173
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: golden microphone
+|-resisted|p1a: golden microphone
+|-damage|p1a: golden microphone|0 fnt
+|faint|p1a: golden microphone
+|
+|t:|1728510176
+|switch|p1a: all i want is you|Swampert, M|28/100
+|-damage|p1a: all i want is you|16/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: all i want is you|22/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728510183
+|move|p1a: all i want is you|Protect|p1a: all i want is you
+|-singleturn|p1a: all i want is you|Protect
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: all i want is you
+|-activate|p1a: all i want is you|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: all i want is you|28/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728510191
+|move|p1a: all i want is you|Protect||[still]
+|-fail|p1a: all i want is you
+|move|p2a: Fast as F! Boyii|Double-Edge|p1a: all i want is you
+|-damage|p1a: all i want is you|0 fnt
+|faint|p1a: all i want is you
+|
+|win|Svejk97
+|c|☆Svejk97|Gg
+|c|☆emma_emma_emma|ggs!
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796777">
+{"id":"smogtours-gen3ou-796777","format":"[Gen 3] OU","players":["emma_emma_emma","Svejk97"],"uploadtime":1728510191,"views":112,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

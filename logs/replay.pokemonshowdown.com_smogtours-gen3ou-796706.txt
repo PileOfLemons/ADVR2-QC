@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: yt-cyber-dj vs. SgtPingwen - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between yt-cyber-dj and SgtPingwen! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796706">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728499670
+|gametype|singles
+|player|p1|yt-cyber-dj|gambler|
+|player|p2|SgtPingwen|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728499670
+|start
+|switch|p1a: Salami|Salamence, M, shiny|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Hariyama|atk|1
+|turn|1
+|c|☆SgtPingwen|yoyoyoy
+|c|☆yt-cyber-dj|GLHF
+|inactive|yt-cyber-dj has 270 seconds left.
+|
+|t:|1728499716
+|move|p1a: Salami|Hidden Power|p2a: Hariyama
+|-supereffective|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1728499720
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1728499728
+|switch|p1a: Suic Army Knife|Suicune|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|89/100
+|
+|-heal|p1a: Suic Army Knife|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728499738
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|
+|-heal|p1a: Suic Army Knife|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728499745
+|move|p2a: Celebi|Hidden Power|p1a: Suic Army Knife
+|-supereffective|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|76/100
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|
+|-heal|p1a: Suic Army Knife|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728499749
+|move|p2a: Celebi|Leech Seed|p1a: Suic Army Knife
+|-start|p1a: Suic Army Knife|move: Leech Seed
+|move|p1a: Suic Army Knife|Roar|p2a: Celebi
+|drag|p2a: Jirachi|Jirachi|100/100
+|
+|-heal|p1a: Suic Army Knife|88/100|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|76/100|[from] Leech Seed|[of] p2a: Jirachi
+|upkeep
+|turn|6
+|
+|t:|1728499753
+|move|p1a: Suic Army Knife|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|62/100
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|65/100
+|-status|p1a: Suic Army Knife|par
+|
+|-heal|p2a: Jirachi|68/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|71/100 par|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|59/100 par|[from] Leech Seed|[of] p2a: Jirachi
+|-heal|p2a: Jirachi|81/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1728499757
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|48/100 par
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|54/100 par|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|42/100 par|[from] Leech Seed|[of] p2a: Jirachi
+|-heal|p2a: Jirachi|99/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1728499783
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|30/100 par
+|move|p1a: Suic Army Knife|Rest|p1a: Suic Army Knife
+|-status|p1a: Suic Army Knife|slp|[from] move: Rest
+|-heal|p1a: Suic Army Knife|100/100 slp|[silent]
+|
+|-damage|p1a: Suic Army Knife|88/100 slp|[from] Leech Seed|[of] p2a: Jirachi
+|-heal|p2a: Jirachi|100/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1728499794
+|cant|p1a: Suic Army Knife|slp
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|76/100 slp
+|
+|-heal|p1a: Suic Army Knife|83/100 slp|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|70/100 slp|[from] Leech Seed|[of] p2a: Jirachi
+|upkeep
+|turn|10
+|
+|t:|1728499796
+|cant|p1a: Suic Army Knife|slp
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|59/100 slp
+|
+|-heal|p1a: Suic Army Knife|65/100 slp|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|53/100 slp|[from] Leech Seed|[of] p2a: Jirachi
+|upkeep
+|turn|11
+|
+|t:|1728499805
+|-curestatus|p1a: Suic Army Knife|slp|[msg]
+|move|p1a: Suic Army Knife|Rest|p1a: Suic Army Knife
+|-status|p1a: Suic Army Knife|slp|[from] move: Rest
+|-heal|p1a: Suic Army Knife|100/100 slp|[silent]
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|89/100 slp
+|
+|-heal|p1a: Suic Army Knife|96/100 slp|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|83/100 slp|[from] Leech Seed|[of] p2a: Jirachi
+|upkeep
+|turn|12
+|
+|t:|1728499808
+|switch|p2a: Marowak|Marowak, F|100/100
+|cant|p1a: Suic Army Knife|slp
+|
+|-heal|p1a: Suic Army Knife|89/100 slp|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|77/100 slp|[from] Leech Seed|[of] p2a: Marowak
+|upkeep
+|turn|13
+|
+|t:|1728499812
+|switch|p1a: Salami|Salamence, M, shiny|100/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Marowak|atk|1
+|move|p2a: Marowak|Earthquake|p1a: Salami
+|-immune|p1a: Salami
+|
+|upkeep
+|turn|14
+|inactive|yt-cyber-dj has 270 seconds left.
+|
+|t:|1728499847
+|switch|p1a: Gutsy Shinobi|Hariyama, M|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|
+|upkeep
+|turn|15
+|inactive|yt-cyber-dj has 270 seconds left.
+|inactive|yt-cyber-dj has 240 seconds left.
+|
+|t:|1728499905
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Gutsy Shinobi|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|97/100
+|-enditem|p2a: Celebi|Leftovers|[from] move: Knock Off|[of] p1a: Gutsy Shinobi
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|16
+|
+|t:|1728499918
+|switch|p1a: Salami|Salamence, M, shiny|100/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Leech Seed|p1a: Salami|[miss]
+|-miss|p2a: Celebi|p1a: Salami
+|
+|upkeep
+|turn|17
+|
+|t:|1728499926
+|move|p1a: Salami|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|78/100
+|move|p2a: Celebi|Leech Seed|p1a: Salami
+|-start|p1a: Salami|move: Leech Seed
+|
+|-damage|p1a: Salami|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|89/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1728499931
+|switch|p1a: Flinchinator|Jirachi|100/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1728499947
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Flinchinator|atk|1
+|move|p1a: Flinchinator|Wish|p1a: Flinchinator
+|
+|upkeep
+|turn|20
+|inactive|yt-cyber-dj has 240 seconds left.
+|
+|t:|1728499959
+|switch|p2a: Celebi|Celebi|100/100
+|switch|p1a: Big Scary Pink|Blissey, F|100/100
+|
+|upkeep
+|turn|21
+|inactive|yt-cyber-dj has 240 seconds left.
+|
+|t:|1728499972
+|switch|p1a: Flinchinator|Jirachi|100/100
+|move|p2a: Celebi|Leech Seed|p1a: Flinchinator
+|-start|p1a: Flinchinator|move: Leech Seed
+|
+|-damage|p1a: Flinchinator|88/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|22
+|
+|t:|1728499988
+|move|p2a: Celebi|Psychic|p1a: Flinchinator
+|-resisted|p1a: Flinchinator
+|-damage|p1a: Flinchinator|81/100
+|move|p1a: Flinchinator|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Flinchinator|p2a: Celebi
+|
+|-heal|p1a: Flinchinator|87/100|[from] item: Leftovers
+|-damage|p1a: Flinchinator|75/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|23
+|
+|t:|1728499992
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Flinchinator|Wish|p1a: Flinchinator
+|
+|-heal|p1a: Flinchinator|81/100|[from] item: Leftovers
+|-damage|p1a: Flinchinator|69/100|[from] Leech Seed|[of] p2a: Jirachi
+|upkeep
+|turn|24
+|
+|t:|1728499997
+|switch|p1a: Suic Army Knife|Suicune|77/100 slp
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|65/100 slp
+|
+|-heal|p1a: Suic Army Knife|100/100 slp|[from] move: Wish|[wisher] Flinchinator
+|upkeep
+|turn|25
+|
+|t:|1728500003
+|cant|p1a: Suic Army Knife|slp
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|89/100 slp
+|
+|-heal|p1a: Suic Army Knife|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728500009
+|-curestatus|p1a: Suic Army Knife|slp|[msg]
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|84/100
+|-status|p1a: Suic Army Knife|par
+|
+|-heal|p1a: Suic Army Knife|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728500014
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|80/100 par
+|cant|p1a: Suic Army Knife|par
+|
+|-heal|p1a: Suic Army Knife|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728500017
+|move|p2a: Jirachi|Fire Punch|p1a: Suic Army Knife
+|-resisted|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|81/100 par
+|cant|p1a: Suic Army Knife|par
+|
+|-heal|p1a: Suic Army Knife|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728500020
+|move|p2a: Jirachi|Fire Punch|p1a: Suic Army Knife
+|-resisted|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|84/100 par
+|move|p1a: Suic Army Knife|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100
+|
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728500024
+|move|p2a: Jirachi|Fire Punch|p1a: Suic Army Knife
+|-resisted|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|85/100 par
+|move|p1a: Suic Army Knife|Roar|p2a: Jirachi
+|drag|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Suic Army Knife|atk|1
+|
+|-heal|p1a: Suic Army Knife|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728500030
+|move|p2a: Salamence|Wish|p2a: Salamence
+|move|p1a: Suic Army Knife|Roar|p2a: Salamence
+|drag|p2a: Starmie|Starmie|100/100
+|
+|-heal|p1a: Suic Army Knife|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728500039
+|switch|p2a: Marowak|Marowak, F|100/100
+|switch|p1a: Big Scary Pink|Blissey, F|100/100
+|
+|upkeep
+|turn|33
+|
+|t:|1728500048
+|-singleturn|p2a: Marowak|move: Focus Punch
+|switch|p1a: Gutsy Shinobi|Hariyama, M|100/100
+|move|p2a: Marowak|Focus Punch|p1a: Gutsy Shinobi
+|-damage|p1a: Gutsy Shinobi|25/100
+|
+|-heal|p1a: Gutsy Shinobi|31/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728500057
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gutsy Shinobi|atk|1
+|switch|p1a: Let it rip!|Claydol|100/100
+|
+|upkeep
+|turn|35
+|
+|t:|1728500067
+|switch|p1a: Salami|Salamence, M, shiny|88/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Protect||[still]
+|-fail|p2a: Salamence
+|
+|upkeep
+|turn|36
+|
+|t:|1728500079
+|move|p1a: Salami|Hidden Power|p2a: Salamence
+|-damage|p2a: Salamence|61/100
+|move|p2a: Salamence|Toxic|p1a: Salami|[miss]
+|-miss|p2a: Salamence|p1a: Salami
+|
+|-heal|p2a: Salamence|67/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728500085
+|switch|p1a: Suic Army Knife|Suicune|98/100 par
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-heal|p2a: Salamence|73/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728500092
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Suic Army Knife|Roar|p2a: Celebi
+|drag|p2a: Salamence|Salamence, M|73/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Suic Army Knife|atk|1
+|
+|-heal|p2a: Salamence|100/100|[from] move: Wish|[wisher] Salamence
+|upkeep
+|turn|39
+|
+|t:|1728500107
+|switch|p2a: Celebi|Celebi|100/100
+|switch|p1a: Salami|Salamence, M, shiny|88/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|
+|upkeep
+|turn|40
+|
+|t:|1728500125
+|move|p1a: Salami|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|17/100
+|move|p2a: Celebi|Psychic|p1a: Salami
+|-damage|p1a: Salami|50/100
+|
+|upkeep
+|turn|41
+|
+|t:|1728500135
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salami|atk|1
+|move|p1a: Salami|Hidden Power|p2a: Salamence
+|-damage|p2a: Salamence|74/100
+|
+|-heal|p2a: Salamence|80/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728500142
+|switch|p1a: Flinchinator|Jirachi|69/100
+|move|p2a: Salamence|Toxic|p1a: Flinchinator
+|-immune|p1a: Flinchinator
+|
+|-heal|p2a: Salamence|86/100|[from] item: Leftovers
+|-heal|p1a: Flinchinator|75/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728500149
+|move|p1a: Flinchinator|Protect|p1a: Flinchinator
+|-singleturn|p1a: Flinchinator|Protect
+|move|p2a: Salamence|Flamethrower|p1a: Flinchinator
+|-activate|p1a: Flinchinator|Protect
+|
+|-heal|p2a: Salamence|92/100|[from] item: Leftovers
+|-heal|p1a: Flinchinator|81/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728500152
+|switch|p1a: Big Scary Pink|Blissey, F|100/100
+|move|p2a: Salamence|Toxic|p1a: Big Scary Pink
+|-status|p1a: Big Scary Pink|tox
+|
+|-heal|p2a: Salamence|98/100|[from] item: Leftovers
+|-damage|p1a: Big Scary Pink|94/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1728500156
+|move|p2a: Salamence|Protect|p2a: Salamence
+|-singleturn|p2a: Salamence|Protect
+|move|p1a: Big Scary Pink|Aromatherapy|p1a: Big Scary Pink
+|-cureteam|p1a: Big Scary Pink|[from] move: Aromatherapy
+|
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Big Scary Pink|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728500165
+|switch|p2a: Marowak|Marowak, F|100/100
+|move|p1a: Big Scary Pink|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak
+|
+|upkeep
+|turn|47
+|
+|t:|1728500173
+|-singleturn|p2a: Marowak|move: Focus Punch
+|switch|p1a: Let it rip!|Claydol|100/100
+|move|p2a: Marowak|Focus Punch|p1a: Let it rip!
+|-resisted|p1a: Let it rip!
+|-damage|p1a: Let it rip!|59/100
+|
+|-heal|p1a: Let it rip!|65/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728500179
+|move|p1a: Let it rip!|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|58/100
+|move|p2a: Marowak|Hidden Power|p1a: Let it rip!
+|-supereffective|p1a: Let it rip!
+|-damage|p1a: Let it rip!|0 fnt
+|faint|p1a: Let it rip!
+|
+|t:|1728500187
+|switch|p1a: Suic Army Knife|Suicune|100/100
+|
+|upkeep
+|turn|49
+|inactive|SgtPingwen has 270 seconds left.
+|
+|t:|1728500232
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Suic Army Knife|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|84/100
+|
+|-heal|p2a: Starmie|90/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728500240
+|switch|p1a: Big Scary Pink|Blissey, F|100/100
+|move|p2a: Starmie|Thunder Wave|p1a: Big Scary Pink
+|-status|p1a: Big Scary Pink|par
+|
+|-heal|p2a: Starmie|96/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|SgtPingwen has 270 seconds left.
+|
+|t:|1728500252
+|switch|p2a: Celebi|Celebi|17/100
+|move|p1a: Big Scary Pink|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1728500259
+|switch|p2a: Marowak|Marowak, F|58/100
+|
+|upkeep
+|turn|52
+|inactive|SgtPingwen has 270 seconds left.
+|
+|t:|1728500264
+|-curestatus|p1a: Big Scary Pink|par|[from] ability: Natural Cure
+|switch|p1a: Salami|Salamence, M, shiny|50/100
+|-ability|p1a: Salami|Intimidate|boost
+|-unboost|p2a: Marowak|atk|1
+|move|p2a: Marowak|Rock Slide|p1a: Salami
+|-supereffective|p1a: Salami
+|-damage|p1a: Salami|0 fnt
+|faint|p1a: Salami
+|
+|t:|1728500270
+|switch|p1a: Gutsy Shinobi|Hariyama, M|31/100
+|
+|-heal|p1a: Gutsy Shinobi|37/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728500274
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gutsy Shinobi|atk|1
+|move|p1a: Gutsy Shinobi|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|98/100
+|-enditem|p2a: Salamence|Leftovers|[from] move: Knock Off|[of] p1a: Gutsy Shinobi
+|
+|-heal|p1a: Gutsy Shinobi|43/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728500282
+|switch|p1a: Suic Army Knife|Suicune|100/100
+|move|p2a: Salamence|Toxic|p1a: Suic Army Knife
+|-status|p1a: Suic Army Knife|tox
+|
+|-damage|p1a: Suic Army Knife|94/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1728500291
+|switch|p2a: Jirachi|Jirachi|75/100
+|switch|p1a: Gutsy Shinobi|Hariyama, M|43/100
+|
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p1a: Gutsy Shinobi|49/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728500300
+|switch|p1a: Suic Army Knife|Suicune|94/100 tox
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Suic Army Knife|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|94/100 tox|[from] psn
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728500305
+|move|p1a: Suic Army Knife|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|65/100
+|move|p2a: Jirachi|Body Slam|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|82/100 tox
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Suic Army Knife|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Suic Army Knife|76/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1728500313
+|switch|p1a: Big Scary Pink|Blissey, F|100/100
+|move|p2a: Jirachi|Fire Punch|p1a: Big Scary Pink
+|-damage|p1a: Big Scary Pink|93/100
+|-status|p1a: Big Scary Pink|brn
+|
+|-heal|p1a: Big Scary Pink|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Big Scary Pink|87/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1728500318
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Big Scary Pink|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|
+|-heal|p2a: Jirachi|91/100|[from] item: Leftovers
+|-heal|p1a: Big Scary Pink|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Big Scary Pink|81/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|t:|1728500328
+|move|p2a: Jirachi|Fire Punch|p1a: Big Scary Pink
+|-damage|p1a: Big Scary Pink|73/100 brn
+|move|p1a: Big Scary Pink|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|82/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Big Scary Pink|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Big Scary Pink|67/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|t:|1728500332
+|move|p2a: Jirachi|Fire Punch|p1a: Big Scary Pink
+|-damage|p1a: Big Scary Pink|61/100 brn
+|move|p1a: Big Scary Pink|Aromatherapy|p1a: Big Scary Pink
+|-cureteam|p1a: Big Scary Pink|[from] move: Aromatherapy
+|
+|-heal|p1a: Big Scary Pink|67/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728500339
+|move|p2a: Jirachi|Fire Punch|p1a: Big Scary Pink
+|-damage|p1a: Big Scary Pink|60/100
+|move|p1a: Big Scary Pink|Soft-Boiled|p1a: Big Scary Pink
+|-heal|p1a: Big Scary Pink|100/100
+|
+|upkeep
+|turn|63
+|
+|t:|1728500342
+|switch|p1a: Suic Army Knife|Suicune|76/100
+|move|p2a: Jirachi|Fire Punch|p1a: Suic Army Knife
+|-resisted|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|70/100
+|
+|-heal|p1a: Suic Army Knife|76/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728500349
+|switch|p2a: Starmie|Starmie|96/100
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|82/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728500361
+|move|p2a: Starmie|Thunder Wave|p1a: Suic Army Knife
+|-status|p1a: Suic Army Knife|par
+|move|p1a: Suic Army Knife|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|75/100
+|
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Suic Army Knife|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728500368
+|switch|p2a: Marowak|Marowak, F|58/100
+|move|p1a: Suic Army Knife|Calm Mind|p1a: Suic Army Knife
+|-boost|p1a: Suic Army Knife|spa|1
+|-boost|p1a: Suic Army Knife|spd|1
+|
+|-heal|p1a: Suic Army Knife|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728500375
+|move|p2a: Marowak|Earthquake|p1a: Suic Army Knife
+|-damage|p1a: Suic Army Knife|44/100 par
+|move|p1a: Suic Army Knife|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|c|☆SgtPingwen|gg
+|-message|SgtPingwen forfeited.
+|
+|win|yt-cyber-dj
+|player|p2|
+|c|☆yt-cyber-dj|GG
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796706">
+{"id":"smogtours-gen3ou-796706","format":"[Gen 3] OU","players":["yt-cyber-dj","SgtPingwen"],"uploadtime":1728500384,"views":91,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

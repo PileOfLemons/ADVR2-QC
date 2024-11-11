@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: monchooo vs. deno_nemesis - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between monchooo and deno_nemesis! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794531">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728041516
+|gametype|singles
+|player|p1|monchooo|pryce-gen2|
+|player|p2|deno_nemesis|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728041516
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-fail|p2a: Regirock|unboost|[from] ability: Clear Body|[of] p2a: Regirock
+|turn|1
+|
+|t:|1728041524
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Regirock|Rock Slide|p1a: Forretress
+|-damage|p1a: Forretress|76/100
+|
+|-heal|p1a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆monchooo|hf
+|c|☆deno_nemesis|Glhf!
+|
+|t:|1728041550
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Forretress|Spikes|p2a: Magneton
+|-sidestart|p2: deno_nemesis|Spikes
+|
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728041566
+|move|p2a: Magneton|Hidden Power|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1728041589
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|upkeep
+|turn|4
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041622
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|88/100|[from] Spikes
+|move|p1a: Aerodactyl|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|41/100
+|
+|-heal|p2a: Regirock|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041631
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|6
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041643
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|switch|p2a: Regirock|Regirock|47/100
+|-damage|p2a: Regirock|35/100|[from] Spikes
+|
+|-heal|p2a: Regirock|41/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728041672
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Regirock|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|89/100
+|
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p2a: Regirock|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041703
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|88/100|[from] Spikes
+|move|p1a: Jirachi|Toxic|p2a: Houndoom
+|-status|p2a: Houndoom|tox
+|
+|-heal|p2a: Houndoom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|88/100 tox|[from] psn
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728041714
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Houndoom|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-heal|p2a: Houndoom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|82/100 tox|[from] psn
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041743
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Metagross
+|-damage|p2a: Metagross|55/100
+|
+|-heal|p1a: Blissey|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1728041758
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|81/100
+|
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728041777
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|88/100|[from] Spikes
+|move|p1a: Jirachi|Fire Punch|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|inactive|deno_nemesis has 240 seconds left.
+|
+|t:|1728041798
+|switch|p2a: Houndoom|Houndoom, M|82/100 tox
+|-damage|p2a: Houndoom|70/100 tox|[from] Spikes
+|
+|-heal|p2a: Houndoom|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|70/100 tox|[from] psn
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728041806
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Houndoom|Pursuit|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p2a: Houndoom|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|63/100 tox|[from] psn
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728041814
+|switch|p1a: Blissey|Blissey, F|82/100
+|move|p2a: Houndoom|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|
+|-heal|p2a: Houndoom|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|51/100 tox|[from] psn
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728041821
+|switch|p2a: Regirock|Regirock|47/100
+|-damage|p2a: Regirock|34/100|[from] Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Regirock
+|-damage|p2a: Regirock|7/100
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|-heal|p2a: Regirock|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728041825
+|move|p1a: Blissey|Seismic Toss|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041832
+|switch|p2a: Heracross|Heracross, F|100/100
+|-damage|p2a: Heracross|88/100|[from] Spikes
+|
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728041843
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Substitute|p2a: Heracross
+|-start|p2a: Heracross|Substitute
+|-damage|p2a: Heracross|63/100
+|
+|upkeep
+|turn|18
+|
+|t:|1728041850
+|move|p1a: Salamence|Dragon Claw|p2a: Heracross
+|-end|p2a: Heracross|Substitute
+|move|p2a: Heracross|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|62/100
+|
+|-heal|p1a: Salamence|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728041863
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Fire Blast|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|82/100
+|
+|-heal|p1a: Salamence|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728041874
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|76/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1728041881
+|move|p2a: Gyarados|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|24/100
+|move|p1a: Tyranitar|Roar|p2a: Gyarados
+|drag|p2a: Metagross|Metagross|55/100
+|-damage|p2a: Metagross|43/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|30/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728041892
+|move|p2a: Metagross|Meteor Mash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-boost|p2a: Metagross|atk|1
+|faint|p1a: Tyranitar
+|
+|t:|1728041902
+|switch|p1a: Salamence|Salamence, M|74/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|68/100|[from] Sandstorm
+|-heal|p1a: Salamence|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728041906
+|move|p2a: Metagross|Endure|p2a: Metagross
+|-singleturn|p2a: Metagross|move: Endure
+|move|p1a: Salamence|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-activate|p2a: Metagross|move: Endure
+|-damage|p2a: Metagross|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|68/100|[from] Sandstorm
+|-heal|p1a: Salamence|74/100|[from] item: Leftovers
+|-enditem|p2a: Metagross|Salac Berry|[eat]
+|-boost|p2a: Metagross|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|24
+|
+|t:|1728041913
+|switch|p1a: Blissey|Blissey, F|83/100
+|move|p2a: Metagross|Meteor Mash|p1a: Blissey
+|-damage|p1a: Blissey|12/100
+|-boost|p2a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|6/100|[from] Sandstorm
+|-heal|p1a: Blissey|12/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728041916
+|move|p2a: Metagross|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728041918
+|switch|p1a: Jirachi|Jirachi|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆monchooo|double raise is tough
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041954
+|move|p2a: Metagross|Meteor Mash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|move|p1a: Jirachi|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|inactive|deno_nemesis has 270 seconds left.
+|
+|t:|1728041974
+|switch|p2a: Gyarados|Gyarados, M|76/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|70/100|[from] Sandstorm
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728041983
+|move|p1a: Jirachi|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|-enditem|p2a: Gyarados|Lum Berry|[eat]
+|-curestatus|p2a: Gyarados|tox|[msg]
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|64/100|[from] Sandstorm
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728041985
+|move|p2a: Gyarados|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|2/100
+|move|p1a: Jirachi|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|58/100 tox|[from] Sandstorm
+|-damage|p2a: Gyarados|52/100 tox|[from] psn
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|monchooo has 270 seconds left.
+|inactive|deno_nemesis has 270 seconds left.
+|inactive|monchooo has 240 seconds left.
+|inactive|monchooo has 210 seconds left.
+|
+|t:|1728042097
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Gyarados|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|46/100 tox|[from] Sandstorm
+|-damage|p2a: Gyarados|34/100 tox|[from] psn
+|-heal|p1a: Jirachi|15/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728042111
+|switch|p1a: Salamence|Salamence, M|74/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|move|p2a: Gyarados|Double-Edge|p1a: Salamence
+|-damage|p1a: Salamence|28/100
+|-damage|p2a: Gyarados|20/100 tox|[from] Recoil|[of] p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|14/100 tox|[from] Sandstorm
+|-damage|p1a: Salamence|22/100|[from] Sandstorm
+|-damage|p2a: Gyarados|0 fnt|[from] psn
+|faint|p2a: Gyarados
+|-heal|p1a: Salamence|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728042118
+|switch|p2a: Houndoom|Houndoom, M|51/100 tox
+|-damage|p2a: Houndoom|39/100 tox|[from] Spikes
+|turn|31
+|
+|t:|1728042126
+|move|p2a: Houndoom|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1728042129
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Houndoom|32/100 tox|[from] Sandstorm
+|-heal|p2a: Houndoom|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Houndoom|32/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1728042137
+|move|p1a: Aerodactyl|Double-Edge|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|t:|1728042139
+|switch|p2a: Heracross|Heracross, F|63/100
+|-damage|p2a: Heracross|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heracross|45/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1728042143
+|move|p1a: Aerodactyl|Double-Edge|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|monchooo
+|c|☆monchooo|gg
+|c|☆deno_nemesis|gg
+|c|☆deno_nemesis|Dang
+|c|☆monchooo|/log monchooo made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794531">
+{"id":"smogtours-gen3ou-794531","format":"[Gen 3] OU","players":["monchooo","deno_nemesis"],"uploadtime":1728042143,"views":96,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

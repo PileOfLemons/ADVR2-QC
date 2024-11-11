@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Surko vs. TheComanderXD - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Surko and TheComanderXD! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796735">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728504323
+|gametype|singles
+|player|p1|Surko|blue-gen3two|
+|player|p2|TheComanderXD|red|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728504323
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: The Reaper|Salamence, M|100/100
+|-ability|p2a: The Reaper|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|1
+|
+|t:|1728504332
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: The Reaper|atk|1
+|move|p2a: The Reaper|Hidden Power|p1a: Salamence
+|-damage|p1a: Salamence|53/100
+|
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|TheComanderXD has 270 seconds left.
+|inactive|TheComanderXD has 240 seconds left.
+|
+|t:|1728504414
+|switch|p2a: Black Hole Sun|Metagross|100/100
+|switch|p1a: Breloom|Breloom, F|100/100
+|
+|upkeep
+|turn|3
+|inactive|TheComanderXD has 210 seconds left.
+|
+|t:|1728504450
+|switch|p2a: Buddy Holly|Magneton|100/100
+|move|p1a: Breloom|Spore|p2a: Buddy Holly
+|-status|p2a: Buddy Holly|slp|[from] move: Spore
+|
+|upkeep
+|turn|4
+|
+|t:|1728504459
+|switch|p2a: The Reaper|Salamence, M|100/100
+|-ability|p2a: The Reaper|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|76/100
+|
+|-heal|p1a: Breloom|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728504470
+|move|p2a: The Reaper|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Stun Spore|p2a: The Reaper
+|-status|p2a: The Reaper|par
+|
+|-heal|p1a: Breloom|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728504486
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: The Reaper|Hidden Power|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|11/100
+|
+|-heal|p1a: Forretress|17/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|TheComanderXD has 210 seconds left.
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728504523
+|switch|p2a: Mr.Brightside|Suicune|100/100
+|move|p1a: Forretress|Spikes|p2a: Mr.Brightside
+|-sidestart|p2: TheComanderXD|Spikes
+|
+|-heal|p1a: Forretress|23/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728504534
+|move|p2a: Mr.Brightside|Surf|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|t:|1728504542
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1728504553
+|switch|p2a: Like a record baby|Claydol|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Like a record baby
+|-damage|p2a: Like a record baby|70/100
+|
+|-heal|p2a: Like a record baby|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728504573
+|switch|p1a: Salamence|Salamence, F|59/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Like a record baby|atk|1
+|move|p2a: Like a record baby|Rapid Spin|p1a: Salamence
+|-damage|p1a: Salamence|55/100
+|-sideend|p2: TheComanderXD|Spikes|[from] move: Rapid Spin|[of] p2a: Like a record baby
+|
+|-heal|p1a: Salamence|61/100|[from] item: Leftovers
+|-heal|p2a: Like a record baby|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728504608
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Like a record baby|Explosion|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p2a: Like a record baby
+|faint|p1a: Salamence
+|
+|t:|1728504621
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: The Reaper|Salamence, M|100/100 par
+|-ability|p2a: The Reaper|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|upkeep
+|turn|12
+|
+|t:|1728504633
+|switch|p2a: Roxane|Blissey, F|100/100
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|75/100
+|
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728504641
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Roxane|Seismic Toss|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728504649
+|switch|p2a: Mr.Brightside|Suicune|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728504656
+|move|p1a: Suicune|Ice Beam|p2a: Mr.Brightside
+|-resisted|p2a: Mr.Brightside
+|-damage|p2a: Mr.Brightside|82/100
+|move|p2a: Mr.Brightside|Roar|p1a: Suicune
+|drag|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1728504679
+|switch|p2a: Black Hole Sun|Metagross|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Black Hole Sun
+|-damage|p2a: Black Hole Sun|73/100
+|
+|-heal|p2a: Black Hole Sun|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728504702
+|move|p2a: Black Hole Sun|Meteor Mash|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|-boost|p2a: Black Hole Sun|atk|1
+|move|p1a: Blissey|Ice Beam|p2a: Black Hole Sun
+|-resisted|p2a: Black Hole Sun
+|-crit|p2a: Black Hole Sun
+|-damage|p2a: Black Hole Sun|58/100
+|
+|-heal|p2a: Black Hole Sun|64/100|[from] item: Leftovers
+|-heal|p1a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728504716
+|move|p2a: Black Hole Sun|Meteor Mash|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728504718
+|switch|p1a: Breloom|Breloom, F|88/100
+|
+|-heal|p1a: Breloom|94/100|[from] item: Leftovers
+|-heal|p2a: Black Hole Sun|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|TheComanderXD has 150 seconds left.
+|
+|t:|1728504761
+|move|p1a: Breloom|Stun Spore|p2a: Black Hole Sun
+|-status|p2a: Black Hole Sun|par
+|move|p2a: Black Hole Sun|Meteor Mash|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-boost|p2a: Black Hole Sun|atk|1
+|faint|p1a: Breloom
+|
+|t:|1728504768
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Black Hole Sun|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728504777
+|move|p1a: Tyranitar|Fire Blast|p2a: Black Hole Sun
+|-supereffective|p2a: Black Hole Sun
+|-damage|p2a: Black Hole Sun|4/100 par
+|move|p2a: Black Hole Sun|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728504783
+|switch|p1a: Suicune|Suicune|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|88/100|[from] Sandstorm
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|-heal|p2a: Black Hole Sun|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|TheComanderXD has 150 seconds left.
+|
+|t:|1728504806
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|69/100
+|move|p2a: Black Hole Sun|Explosion|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|faint|p2a: Black Hole Sun
+|
+|t:|1728504821
+|switch|p2a: Mr.Brightside|Suicune|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|63/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|69/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728504836
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|44/100
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728504849
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728504863
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728504873
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504896
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504907
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Calm Mind|p2a: Mr.Brightside
+|-boost|p2a: Mr.Brightside|spa|1
+|-boost|p2a: Mr.Brightside|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504918
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Mr.Brightside|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|82/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504930
+|move|p1a: Suicune|Ice Beam|p2a: Mr.Brightside
+|-resisted|p2a: Mr.Brightside
+|-damage|p2a: Mr.Brightside|80/100
+|move|p2a: Mr.Brightside|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|74/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504941
+|move|p1a: Suicune|Ice Beam|p2a: Mr.Brightside
+|-resisted|p2a: Mr.Brightside
+|-damage|p2a: Mr.Brightside|71/100
+|move|p2a: Mr.Brightside|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|65/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|71/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504952
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|19/100
+|move|p2a: Mr.Brightside|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|65/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|71/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504965
+|move|p1a: Suicune|Ice Beam|p2a: Mr.Brightside
+|-resisted|p2a: Mr.Brightside
+|-damage|p2a: Mr.Brightside|62/100
+|move|p2a: Mr.Brightside|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Mr.Brightside|56/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Mr.Brightside|62/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504977
+|move|p1a: Suicune|Ice Beam|p2a: Mr.Brightside
+|-resisted|p2a: Mr.Brightside
+|-crit|p2a: Mr.Brightside
+|-damage|p2a: Mr.Brightside|0 fnt
+|faint|p2a: Mr.Brightside
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1728504982
+|switch|p2a: Roxane|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Roxane|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Roxane|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728504992
+|move|p1a: Suicune|Surf|p2a: Roxane
+|-damage|p2a: Roxane|44/100
+|move|p2a: Roxane|Soft-Boiled|p2a: Roxane
+|-heal|p2a: Roxane|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Roxane|87/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Roxane|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728505002
+|move|p1a: Suicune|Surf|p2a: Roxane
+|-damage|p2a: Roxane|34/100
+|move|p2a: Roxane|Soft-Boiled|p2a: Roxane
+|-heal|p2a: Roxane|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Roxane|78/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Roxane|84/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728505018
+|move|p1a: Suicune|Surf|p2a: Roxane
+|-damage|p2a: Roxane|27/100
+|move|p2a: Roxane|Seismic Toss|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: Roxane|21/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|-heal|p2a: Roxane|27/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728505032
+|move|p1a: Suicune|Surf|p2a: Roxane
+|-damage|p2a: Roxane|0 fnt
+|faint|p2a: Roxane
+|
+|t:|1728505036
+|switch|p2a: The Reaper|Salamence, M|100/100 par
+|-ability|p2a: The Reaper|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: The Reaper|94/100 par|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728505052
+|switch|p2a: Buddy Holly|Magneton|100/100 slp
+|move|p1a: Suicune|Ice Beam|p2a: Buddy Holly
+|-resisted|p2a: Buddy Holly
+|-damage|p2a: Buddy Holly|5/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728505061
+|move|p1a: Suicune|Ice Beam|p2a: Buddy Holly
+|-resisted|p2a: Buddy Holly
+|-damage|p2a: Buddy Holly|0 fnt
+|faint|p2a: Buddy Holly
+|
+|t:|1728505065
+|switch|p2a: The Reaper|Salamence, M|94/100 par
+|-ability|p2a: The Reaper|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|13/100|[from] Sandstorm
+|-damage|p2a: The Reaper|88/100 par|[from] Sandstorm
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728505073
+|move|p1a: Suicune|Ice Beam|p2a: The Reaper
+|-supereffective|p2a: The Reaper
+|-damage|p2a: The Reaper|0 fnt
+|faint|p2a: The Reaper
+|
+|win|Surko
+|c|☆Surko|gg
+|c|☆TheComanderXD|gg
+|player|p2|
+|player|p2|TheComanderXD|red|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796735">
+{"id":"smogtours-gen3ou-796735","format":"[Gen 3] OU","players":["Surko","TheComanderXD"],"uploadtime":1728505073,"views":129,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

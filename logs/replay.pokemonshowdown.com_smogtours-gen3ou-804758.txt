@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Axselo vs. jank_city.mp4 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Axselo and jank_city.mp4! Format: [Gen 3] OU; Date: Nov 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804758">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730743641
+|gametype|singles
+|player|p1|Axselo|102|
+|player|p2|jank_city.mp4|workerice|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730743641
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1730743655
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|76/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730743682
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|70/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730743691
+|move|p1a: Jolteon|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|par|[msg]
+|move|p2a: Tyranitar|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|70/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730743702
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1730743711
+|switch|p1a: Forretress|Forretress, M|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730743722
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Forretress|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730743734
+|switch|p1a: Flareon|Flareon, M|100/100
+|move|p2a: Gengar|Hypnosis|p1a: Flareon
+|-status|p1a: Flareon|slp|[from] move: Hypnosis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Flareon|94/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Flareon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730743765
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Celebi|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730743774
+|move|p2a: Zapdos|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|move|p1a: Celebi|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100 par|[silent]
+|upkeep
+|turn|8
+|
+|t:|1730743783
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730743786
+|switch|p2a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1730743790
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Forretress|Forretress, M|87/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Metagross|88/100|[from] Leech Seed|[of] p1a: Forretress
+|-heal|p1a: Forretress|99/100|[silent]
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730743801
+|move|p2a: Metagross|Explosion|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Forretress
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730743840
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1730743846
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|72/100
+|-boost|p1a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730743855
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: Celebi
+|-resisted|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Celebi|63/100|[from] item: Leftovers
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730743865
+|move|p1a: Celebi|Leech Seed|p2a: Swampert
+|-start|p2a: Swampert|move: Leech Seed
+|move|p2a: Swampert|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|17/100|[from] Sandstorm
+|-heal|p1a: Celebi|23/100|[from] item: Leftovers
+|-heal|p2a: Swampert|90/100|[from] item: Leftovers
+|-damage|p2a: Swampert|78/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|36/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1730743881
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1730743889
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from] Baton Pass
+|move|p2a: Swampert|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|84/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|90/100|[from] item: Leftovers
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|-damage|p2a: Swampert|72/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|100/100|[silent]
+|upkeep
+|turn|14
+|c|☆jank_city.mp4|triple eon team
+|
+|t:|1730743899
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1730743903
+|switch|p1a: Jolteon|Jolteon, F|76/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|70/100|[from] Sandstorm
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730743906
+|move|p1a: Jolteon|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|move|p2a: Gengar|Ice Punch|p1a: Jolteon
+|-damage|p1a: Jolteon|44/100
+|-status|p1a: Jolteon|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|38/100 frz|[from] Sandstorm
+|-damage|p2a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p1a: Jolteon|44/100 frz|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730743948
+|switch|p1a: Flareon|Flareon, M|100/100 slp
+|move|p2a: Gengar|Ice Punch|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|91/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flareon|84/100 slp|[from] Sandstorm
+|-damage|p2a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p1a: Flareon|91/100 slp|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730743962
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|cant|p1a: Flareon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flareon|84/100 slp|[from] Sandstorm
+|-heal|p1a: Flareon|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730743972
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|69/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730743980
+|switch|p2a: Zapdos|Zapdos|88/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|69/100|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730743996
+|switch|p1a: Jolteon|Jolteon, F|44/100 frz
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-heal|p1a: Jolteon|69/100 frz|[from] ability: Volt Absorb|[of] p2a: Zapdos
+|
+|-heal|p1a: Jolteon|100/100 frz|[from] move: Wish|[wisher] Vaporeon
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|95/100 frz|[from] Sandstorm
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100 frz|[from] item: Leftovers
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Axselo has 270 seconds left.
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744027
+|cant|p1a: Jolteon|frz
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730744029
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|95/100 frz|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100 frz|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730744042
+|switch|p1a: Vaporeon|Vaporeon, M|75/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Vaporeon
+|-damage|p1a: Vaporeon|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|41/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730744054
+|move|p2a: Tyranitar|Rock Slide|p1a: Vaporeon
+|-damage|p1a: Vaporeon|17/100
+|move|p1a: Vaporeon|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|11/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|17/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1730744066
+|move|p2a: Tyranitar|Rock Slide|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|t:|1730744071
+|switch|p1a: Celebi|Celebi|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|29/100|[from] Sandstorm
+|-heal|p1a: Celebi|36/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730744076
+|move|p1a: Celebi|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744117
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|29/100|[from] Sandstorm
+|-damage|p2a: Kingdra|95/100|[from] Sandstorm
+|-heal|p1a: Celebi|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730744136
+|move|p1a: Celebi|Hidden Power|p2a: Kingdra
+|-damage|p2a: Kingdra|64/100
+|move|p2a: Kingdra|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1730744146
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kingdra|58/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1730744152
+|switch|p2a: Gengar|Gengar, M|100/100 par
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p2a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730744160
+|move|p1a: Metagross|Meteor Mash|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744204
+|switch|p2a: Swampert|Swampert, M|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730744209
+|move|p1a: Metagross|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|43/100
+|move|p2a: Swampert|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730744217
+|move|p1a: Metagross|Earthquake|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|c|☆jank_city.mp4|uh oh
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744233
+|switch|p2a: Zapdos|Zapdos|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1730744240
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|16/100
+|cant|p2a: Zapdos|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|10/100|[from] Sandstorm
+|-heal|p2a: Zapdos|16/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆Axselo|oh yea
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744253
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos|[miss]
+|-miss|p1a: Metagross|p2a: Zapdos
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|c|☆jank_city.mp4|lol
+|
+|t:|1730744265
+|switch|p1a: Jolteon|Jolteon, F|100/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|95/100 frz|[from] Sandstorm
+|-damage|p2a: Zapdos|10/100|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100 frz|[from] item: Leftovers
+|-heal|p2a: Zapdos|16/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1730744285
+|cant|p1a: Jolteon|frz
+|move|p2a: Zapdos|Hidden Power|p1a: Jolteon
+|-damage|p1a: Jolteon|70/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|64/100 frz|[from] Sandstorm
+|-damage|p2a: Zapdos|10/100|[from] Sandstorm
+|-heal|p1a: Jolteon|70/100 frz|[from] item: Leftovers
+|-heal|p2a: Zapdos|16/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730744293
+|-curestatus|p1a: Jolteon|frz|[msg]
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1730744298
+|switch|p2a: Kingdra|Kingdra, M|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|64/100|[from] Sandstorm
+|-damage|p2a: Kingdra|52/100|[from] Sandstorm
+|-heal|p1a: Jolteon|70/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730744326
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|46/100
+|move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jolteon|52/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730744338
+|move|p2a: Kingdra|Ice Beam|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|move|p1a: Jolteon|Thunderbolt|p2a: Kingdra
+|-damage|p2a: Kingdra|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jolteon|57/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730744356
+|switch|p1a: Flareon|Flareon, M|91/100 slp
+|move|p2a: Kingdra|Hydro Pump|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|t:|1730744362
+|switch|p1a: Jolteon|Jolteon, F|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jolteon|63/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730744365
+|move|p2a: Kingdra|Hydro Pump|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|jank_city.mp4
+|c|☆Axselo|gg
+|c|☆jank_city.mp4|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804758">
+{"id":"smogtours-gen3ou-804758","format":"[Gen 3] OU","players":["Axselo","jank_city.mp4"],"uploadtime":1730744365,"views":47,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: I&#039;m the Dome Ace vs. monchooo - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between I&#039;m the Dome Ace and monchooo! Format: [Gen 3] OU; Date: Oct 30, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803428">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730304365
+|gametype|singles
+|player|p1|I'm the Dome Ace|265|
+|player|p2|monchooo|pryce-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730304365
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆monchooo|hf
+|c|☆I'm the Dome Ace|u2
+|inactive|monchooo has 270 seconds left.
+|inactive|monchooo has 240 seconds left.
+|
+|t:|1730304430
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730304443
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Suicune|Surf|p2a: Blissey
+|-damage|p2a: Blissey|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730304450
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-damage|p1a: Snorlax|74/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730304456
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|74/100|[from] Sandstorm
+|-heal|p1a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730304462
+|move|p2a: Forretress|Spikes|p1a: Snorlax
+|-sidestart|p1: I'm the Dome Ace|Spikes
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|74/100|[from] Sandstorm
+|-heal|p1a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304497
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|74/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304503
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304521
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|18/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆I'm the Dome Ace|man playing from work is troll as fuck, this team is outdated on my work pc
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1730304547
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Spikes
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|54/100|[from] Sandstorm
+|-heal|p1a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304563
+|move|p1a: Suicune|Surf|p2a: Swampert
+|-damage|p2a: Swampert|64/100
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|28/100|[from] Sandstorm
+|-heal|p1a: Suicune|34/100|[from] item: Leftovers
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304575
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|65/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|72/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730304583
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|43/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|37/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|43/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730304594
+|cant|p1a: Suicune|slp
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|14/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|7/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|14/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730304613
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730304619
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Tyranitar|Roar|p1a: Suicune
+|drag|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730304625
+|move|p1a: Jirachi|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|42/100 brn|[from] brn
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|c|☆I'm the Dome Ace|.
+|
+|t:|1730304648
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1730304651
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1730304661
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|99/100
+|-sideend|p1: I'm the Dome Ace|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730304667
+|switch|p1a: Suicune|Suicune|100/100 slp
+|move|p2a: Forretress|Spikes|p1a: Suicune
+|-sidestart|p1: I'm the Dome Ace|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730304674
+|switch|p1a: Snorlax|Snorlax, F|80/100
+|-damage|p1a: Snorlax|67/100|[from] Spikes
+|switch|p2a: Blissey|Blissey, F|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-damage|p1a: Snorlax|61/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730304690
+|move|p2a: Blissey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|47/100
+|move|p1a: Snorlax|Self-Destruct|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Blissey
+|
+|t:|1730304703
+|switch|p2a: Swampert|Swampert, F|89/100
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|95/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730304715
+|switch|p1a: Suicune|Suicune|100/100 slp
+|-damage|p1a: Suicune|88/100 slp|[from] Spikes
+|switch|p2a: Gengar|Gengar, F|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|12/100|[from] Sandstorm
+|-damage|p1a: Suicune|82/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|18/100|[from] item: Leftovers
+|-heal|p1a: Suicune|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1730304751
+|switch|p1a: Tyranitar|Tyranitar, F|76/100 brn
+|-damage|p1a: Tyranitar|63/100 brn|[from] Spikes
+|move|p2a: Gengar|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|32/100 brn
+|-heal|p2a: Gengar|40/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|26/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1730304756
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|move|p2a: Gengar|Giga Drain|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|94/100
+|-heal|p2a: Gengar|44/100|[from] drain|[of] p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-damage|p2a: Gengar|38/100|[from] Sandstorm
+|-heal|p1a: Salamence|94/100|[from] item: Leftovers
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730304776
+|switch|p2a: Swampert|Swampert, F|95/100
+|move|p1a: Salamence|Dragon Claw|p2a: Swampert
+|-damage|p2a: Swampert|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-heal|p1a: Salamence|94/100|[from] item: Leftovers
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|I'm the Dome Ace has 270 seconds left.
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304829
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1730304838
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-heal|p1a: Salamence|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730304852
+|switch|p1a: Tyranitar|Tyranitar, F|26/100 brn
+|-damage|p1a: Tyranitar|13/100 brn|[from] Spikes
+|move|p2a: Aerodactyl|Double-Edge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|inactive|I'm the Dome Ace has 240 seconds left.
+|inactive|I'm the Dome Ace has 210 seconds left.
+|
+|t:|1730304936
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|inactive|monchooo has 270 seconds left.
+|
+|t:|1730304959
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Claydol|Rock Slide|p2a: Forretress
+|-damage|p2a: Forretress|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|I'm the Dome Ace has 180 seconds left.
+|
+|t:|1730304984
+|switch|p1a: Suicune|Suicune|88/100 slp
+|-damage|p1a: Suicune|76/100 slp|[from] Spikes
+|switch|p2a: Gengar|Gengar, F|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|38/100|[from] Sandstorm
+|-damage|p1a: Suicune|69/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|-heal|p1a: Suicune|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|I'm the Dome Ace has 180 seconds left.
+|inactive|monchooo has 240 seconds left.
+|
+|t:|1730305019
+|switch|p1a: Salamence|Salamence, F|94/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|move|p2a: Gengar|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-damage|p2a: Gengar|38/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|monchooo has 210 seconds left.
+|
+|t:|1730305064
+|switch|p2a: Tyranitar|Tyranitar, M|88/100 tox
+|move|p1a: Salamence|Dragon Claw|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|turn|32
+|inactive|I'm the Dome Ace has 180 seconds left.
+|
+|t:|1730305079
+|switch|p1a: Suicune|Suicune|76/100 slp
+|-damage|p1a: Suicune|63/100 slp|[from] Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Suicune
+|-damage|p1a: Suicune|37/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|31/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|37/100 slp|[from] item: Leftovers
+|-heal|p2a: Tyranitar|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|52/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1730305090
+|cant|p1a: Suicune|slp
+|move|p2a: Tyranitar|Roar|p1a: Suicune
+|drag|p1a: Salamence|Salamence, F|52/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|40/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1730305097
+|move|p1a: Salamence|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1730305100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|monchooo has 210 seconds left.
+|
+|t:|1730305112
+|switch|p1a: Suicune|Suicune|37/100 slp
+|-damage|p1a: Suicune|24/100 slp|[from] Spikes
+|move|p2a: Aerodactyl|Double-Edge|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|inactive|I'm the Dome Ace has 180 seconds left.
+|
+|t:|1730305129
+|switch|p1a: Salamence|Salamence, F|52/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|I'm the Dome Ace has 180 seconds left.
+|
+|t:|1730305141
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Claydol
+|-damage|p1a: Claydol|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|69/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|I'm the Dome Ace has 180 seconds left.
+|inactive|monchooo has 210 seconds left.
+|
+|t:|1730305160
+|switch|p2a: Forretress|Forretress, M|97/100
+|switch|p1a: Salamence|Salamence, F|52/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730305168
+|switch|p2a: Gengar|Gengar, F|44/100
+|move|p1a: Salamence|Fire Blast|p2a: Gengar|[miss]
+|-miss|p1a: Salamence|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-damage|p2a: Gengar|38/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|monchooo has 210 seconds left.
+|
+|t:|1730305184
+|move|p1a: Salamence|Dragon Claw|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730305186
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆I'm the Dome Ace|bg
+|
+|t:|1730305204
+|switch|p1a: Claydol|Claydol|69/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Claydol
+|-damage|p1a: Claydol|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|24/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1730305207
+|move|p2a: Aerodactyl|Double-Edge|p1a: Claydol
+|-crit|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1730305208
+|switch|p1a: Salamence|Salamence, F|52/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1730305212
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|-heal|p2a: Forretress|91/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1730305217
+|move|p1a: Salamence|Fire Blast|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|t:|1730305219
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Salamence|52/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1730305221
+|move|p2a: Aerodactyl|Double-Edge|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|monchooo
+|c|☆monchooo|gg
+|c|☆I'm the Dome Ace|nope
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803428">
+{"id":"smogtours-gen3ou-803428","format":"[Gen 3] OU","players":["I'm the Dome Ace","monchooo"],"uploadtime":1730305221,"views":61,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

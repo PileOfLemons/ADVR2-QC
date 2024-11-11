@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Apostic vs. BongMoodeus - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Apostic and BongMoodeus! Format: [Gen 3] OU; Date: Oct 5, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794789">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728087229
+|gametype|singles
+|player|p1|Apostic|2|
+|player|p2|BongMoodeus|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728087229
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Dotcom|Skarmory, M, shiny|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dotcom|atk|1
+|turn|1
+|c|☆BongMoodeus|gl!
+|c|☆Apostic|gl hf!
+|
+|t:|1728087239
+|switch|p2a: Town Song|Blissey, F, shiny|100/100
+|move|p1a: Salamence|Fire Blast|p2a: Town Song
+|-damage|p2a: Town Song|85/100
+|
+|-heal|p2a: Town Song|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728087251
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Town Song|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|70/100
+|
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|-heal|p2a: Town Song|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728087260
+|switch|p2a: Sell Your Body|Zapdos|100/100
+|move|p1a: Swampert|Earthquake|p2a: Sell Your Body
+|-immune|p2a: Sell Your Body
+|
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728087273
+|switch|p2a: Dotcom|Skarmory, M, shiny|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1728087277
+|move|p1a: Tyranitar|Rock Slide|p2a: Dotcom
+|-crit|p2a: Dotcom
+|-damage|p2a: Dotcom|39/100
+|move|p2a: Dotcom|Spikes|p1a: Tyranitar
+|-sidestart|p1: Apostic|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Dotcom|45/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728087284
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Dotcom|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728087295
+|switch|p2a: Repurposed Goods|Flygon, M, shiny|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Repurposed Goods
+|-resisted|p2a: Repurposed Goods
+|-damage|p2a: Repurposed Goods|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Repurposed Goods|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728087302
+|switch|p1a: Swampert|Swampert, F|83/100
+|-damage|p1a: Swampert|70/100|[from] Spikes
+|move|p2a: Repurposed Goods|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Repurposed Goods|97/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|70/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1728087311
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Repurposed Goods|Protect|p2a: Repurposed Goods
+|-singleturn|p2a: Repurposed Goods|Protect
+|move|p1a: Swampert|Focus Punch|p2a: Repurposed Goods
+|-activate|p2a: Repurposed Goods|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Repurposed Goods|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|64/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1728087317
+|switch|p2a: Sell Your Body|Zapdos|100/100
+|move|p1a: Swampert|Ice Beam|p2a: Sell Your Body
+|-supereffective|p2a: Sell Your Body
+|-damage|p2a: Sell Your Body|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sell Your Body|55/100|[from] Sandstorm
+|-heal|p2a: Sell Your Body|61/100|[from] item: Leftovers
+|-heal|p1a: Swampert|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|52/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1728087328
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Sell Your Body|Roar|p1a: Zapdos
+|drag|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sell Your Body|55/100|[from] Sandstorm
+|-heal|p2a: Sell Your Body|61/100|[from] item: Leftovers
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728087333
+|switch|p2a: Hippies Vs.|Moltres|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Hippies Vs.|[miss]
+|-miss|p1a: Metagross|p2a: Hippies Vs.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippies Vs.|94/100|[from] Sandstorm
+|-heal|p2a: Hippies Vs.|100/100|[from] item: Leftovers
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728087345
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Hippies Vs.|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Hippies Vs.|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Hippies Vs.|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728087356
+|switch|p2a: Town Song|Blissey, F, shiny|97/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Town Song
+|-damage|p2a: Town Song|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728087361
+|switch|p1a: Swampert|Swampert, F|52/100 tox
+|-damage|p1a: Swampert|40/100 tox|[from] Spikes
+|move|p2a: Town Song|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|10/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|71/100|[from] Sandstorm
+|-heal|p1a: Swampert|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|10/100 tox|[from] psn
+|-heal|p2a: Town Song|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728087373
+|switch|p2a: Mophead|Misdreavus, F|100/100
+|move|p1a: Swampert|Ice Beam|p2a: Mophead
+|-damage|p2a: Mophead|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mophead|71/100|[from] Sandstorm
+|-heal|p1a: Swampert|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|4/100 tox|[from] psn
+|-heal|p2a: Mophead|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728087384
+|move|p1a: Swampert|Hydro Pump|p2a: Mophead
+|-damage|p2a: Mophead|7/100
+|move|p2a: Mophead|Thunderbolt|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mophead|1/100|[from] Sandstorm
+|-heal|p1a: Swampert|10/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|0 fnt|[from] psn
+|faint|p1a: Swampert
+|-heal|p2a: Mophead|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728087399
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Mophead|atk|1
+|turn|18
+|
+|t:|1728087404
+|move|p1a: Salamence|Dragon Claw|p2a: Mophead
+|-damage|p2a: Mophead|0 fnt
+|faint|p2a: Mophead
+|
+|t:|1728087415
+|switch|p2a: Town Song|Blissey, F, shiny|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Town Song|71/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Town Song|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Apostic has 270 seconds left.
+|
+|t:|1728087449
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Town Song|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|71/100|[from] Sandstorm
+|-heal|p2a: Town Song|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728087458
+|switch|p2a: Repurposed Goods|Flygon, M, shiny|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1728087467
+|move|p1a: Tyranitar|Hidden Power|p2a: Repurposed Goods
+|-damage|p2a: Repurposed Goods|72/100
+|move|p2a: Repurposed Goods|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728087476
+|switch|p1a: Zapdos|Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Repurposed Goods|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728087482
+|move|p2a: Repurposed Goods|Protect|p2a: Repurposed Goods
+|-singleturn|p2a: Repurposed Goods|Protect
+|move|p1a: Zapdos|Hidden Power|p2a: Repurposed Goods
+|-activate|p2a: Repurposed Goods|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Repurposed Goods|84/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728087489
+|switch|p2a: Town Song|Blissey, F, shiny|77/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Town Song
+|-status|p2a: Town Song|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|71/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728087494
+|cant|p2a: Town Song|par
+|move|p1a: Zapdos|Roar|p2a: Town Song
+|-curestatus|p2a: Town Song|par|[from] ability: Natural Cure
+|drag|p2a: Dotcom|Skarmory, M, shiny|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728087498
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728087501
+|switch|p2a: Town Song|Blissey, F, shiny|77/100
+|move|p1a: Zapdos|Hidden Power|p2a: Town Song
+|-crit|p2a: Town Song
+|-damage|p2a: Town Song|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|53/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728087511
+|switch|p1a: Metagross|Metagross|99/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Town Song|Soft-Boiled|p2a: Town Song
+|-heal|p2a: Town Song|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|94/100|[from] Sandstorm
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Town Song|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728087518
+|switch|p2a: Dotcom|Skarmory, M, shiny|63/100
+|move|p1a: Metagross|Psychic|p2a: Dotcom
+|-resisted|p2a: Dotcom
+|-damage|p2a: Dotcom|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728087524
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Metagross|Hidden Power|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728087532
+|switch|p2a: Hippies Vs.|Moltres|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Hippies Vs.
+|-resisted|p2a: Hippies Vs.
+|-damage|p2a: Hippies Vs.|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippies Vs.|68/100|[from] Sandstorm
+|-heal|p2a: Hippies Vs.|74/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728087542
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Hippies Vs.|atk|1
+|move|p2a: Hippies Vs.|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|62/100|[from] Sandstorm
+|-damage|p2a: Hippies Vs.|68/100|[from] Sandstorm
+|-heal|p1a: Salamence|68/100|[from] item: Leftovers
+|-heal|p2a: Hippies Vs.|74/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728087550
+|move|p1a: Salamence|Dragon Claw|p2a: Hippies Vs.
+|-damage|p2a: Hippies Vs.|33/100
+|move|p2a: Hippies Vs.|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|62/100 tox|[from] Sandstorm
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-heal|p1a: Salamence|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|62/100 tox|[from] psn
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728087557
+|move|p2a: Hippies Vs.|Protect|p2a: Hippies Vs.
+|-singleturn|p2a: Hippies Vs.|Protect
+|move|p1a: Salamence|Brick Break|p2a: Hippies Vs.
+|-activate|p2a: Hippies Vs.|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|55/100 tox|[from] Sandstorm
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-heal|p1a: Salamence|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|49/100 tox|[from] psn
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728087571
+|switch|p2a: Sell Your Body|Zapdos|61/100
+|move|p1a: Salamence|Dragon Claw|p2a: Sell Your Body
+|-damage|p2a: Sell Your Body|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|43/100 tox|[from] Sandstorm
+|-damage|p2a: Sell Your Body|31/100|[from] Sandstorm
+|-heal|p1a: Salamence|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|31/100 tox|[from] psn
+|-heal|p2a: Sell Your Body|37/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728087582
+|move|p1a: Salamence|Dragon Claw|p2a: Sell Your Body
+|-damage|p2a: Sell Your Body|13/100
+|move|p2a: Sell Your Body|Rest|p2a: Sell Your Body
+|-status|p2a: Sell Your Body|slp|[from] move: Rest
+|-heal|p2a: Sell Your Body|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|25/100 tox|[from] Sandstorm
+|-damage|p2a: Sell Your Body|94/100 slp|[from] Sandstorm
+|-heal|p1a: Salamence|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|7/100 tox|[from] psn
+|-heal|p2a: Sell Your Body|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728087600
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|switch|p2a: Dotcom|Skarmory, M, shiny|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|63/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728087623
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Metagross|Hidden Power|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|69/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728087632
+|move|p1a: Metagross|Hidden Power|p2a: Dotcom
+|-supereffective|p2a: Dotcom
+|-damage|p2a: Dotcom|30/100
+|move|p2a: Dotcom|Roar|p1a: Metagross
+|drag|p1a: Zapdos|Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|36/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728087638
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Zapdos|Thunder Wave|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|42/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728087639
+|switch|p2a: Town Song|Blissey, F, shiny|100/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Town Song
+|-status|p2a: Town Song|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|94/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728087650
+|switch|p1a: Metagross|Metagross|99/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Town Song|Seismic Toss|p1a: Metagross
+|-damage|p1a: Metagross|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|94/100 par|[from] Sandstorm
+|-heal|p1a: Metagross|61/100|[from] item: Leftovers
+|-heal|p2a: Town Song|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728087656
+|-curestatus|p2a: Town Song|par|[from] ability: Natural Cure
+|switch|p2a: Dotcom|Skarmory, M, shiny|42/100
+|move|p1a: Metagross|Meteor Mash|p2a: Dotcom
+|-resisted|p2a: Dotcom
+|-damage|p2a: Dotcom|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|67/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|31/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728087671
+|move|p2a: Dotcom|Protect|p2a: Dotcom
+|-singleturn|p2a: Dotcom|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Dotcom
+|-activate|p2a: Dotcom|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|73/100|[from] item: Leftovers
+|-heal|p2a: Dotcom|37/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728087673
+|move|p1a: Metagross|Hidden Power|p2a: Dotcom
+|-supereffective|p2a: Dotcom
+|-damage|p2a: Dotcom|0 fnt
+|faint|p2a: Dotcom
+|
+|t:|1728087675
+|switch|p2a: Hippies Vs.|Moltres|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|-heal|p1a: Metagross|79/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728087682
+|switch|p1a: Salamence|Salamence, M|7/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Hippies Vs.|atk|1
+|move|p2a: Hippies Vs.|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1728087687
+|switch|p1a: Zapdos|Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728087692
+|switch|p2a: Town Song|Blissey, F, shiny|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Town Song
+|-damage|p2a: Town Song|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|74/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|80/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728087695
+|move|p1a: Zapdos|Thunder Wave|p2a: Town Song
+|-status|p2a: Town Song|par
+|cant|p2a: Town Song|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|74/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728087702
+|switch|p1a: Metagross|Metagross|79/100
+|-damage|p1a: Metagross|66/100|[from] Spikes
+|-curestatus|p2a: Town Song|par|[from] ability: Natural Cure
+|switch|p2a: Repurposed Goods|Flygon, M, shiny|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Repurposed Goods|90/100|[from] item: Leftovers
+|-heal|p1a: Metagross|72/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728087709
+|switch|p1a: Zapdos|Zapdos|43/100
+|move|p2a: Repurposed Goods|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Repurposed Goods|96/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728087714
+|move|p2a: Repurposed Goods|Protect|p2a: Repurposed Goods
+|-singleturn|p2a: Repurposed Goods|Protect
+|move|p1a: Zapdos|Hidden Power|p2a: Repurposed Goods
+|-activate|p2a: Repurposed Goods|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Repurposed Goods|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728087716
+|switch|p2a: Town Song|Blissey, F, shiny|80/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Town Song
+|-damage|p2a: Town Song|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: Town Song|53/100|[from] Sandstorm
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|-heal|p2a: Town Song|59/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728087719
+|move|p1a: Zapdos|Thunder Wave|p2a: Town Song
+|-status|p2a: Town Song|par
+|move|p2a: Town Song|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|5/100|[from] Sandstorm
+|-damage|p2a: Town Song|53/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|11/100|[from] item: Leftovers
+|-heal|p2a: Town Song|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728087726
+|move|p1a: Zapdos|Thunderbolt|p2a: Town Song
+|-damage|p2a: Town Song|40/100 par
+|cant|p2a: Town Song|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|5/100|[from] Sandstorm
+|-damage|p2a: Town Song|34/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|11/100|[from] item: Leftovers
+|-heal|p2a: Town Song|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728087728
+|move|p1a: Zapdos|Thunderbolt|p2a: Town Song
+|-damage|p2a: Town Song|20/100 par
+|move|p2a: Town Song|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1728087739
+|switch|p1a: Metagross|Metagross|72/100
+|-damage|p1a: Metagross|60/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|14/100 par|[from] Sandstorm
+|-heal|p1a: Metagross|66/100|[from] item: Leftovers
+|-heal|p2a: Town Song|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728087742
+|move|p1a: Metagross|Meteor Mash|p2a: Town Song|[miss]
+|-miss|p1a: Metagross|p2a: Town Song
+|move|p2a: Town Song|Aromatherapy|p2a: Town Song
+|-cureteam|p2a: Town Song|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|14/100|[from] Sandstorm
+|-heal|p1a: Metagross|72/100|[from] item: Leftovers
+|-heal|p2a: Town Song|20/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728087745
+|move|p1a: Metagross|Meteor Mash|p2a: Town Song|[miss]
+|-miss|p1a: Metagross|p2a: Town Song
+|move|p2a: Town Song|Seismic Toss|p1a: Metagross
+|-damage|p1a: Metagross|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Town Song|14/100|[from] Sandstorm
+|-heal|p1a: Metagross|45/100|[from] item: Leftovers
+|-heal|p2a: Town Song|20/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728087749
+|move|p1a: Metagross|Meteor Mash|p2a: Town Song
+|-damage|p2a: Town Song|0 fnt
+|faint|p2a: Town Song
+|
+|t:|1728087751
+|switch|p2a: Hippies Vs.|Moltres|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|-heal|p1a: Metagross|51/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728087754
+|move|p2a: Hippies Vs.|Flamethrower|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1728087757
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippies Vs.|27/100|[from] Sandstorm
+|-damage|p1a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Hippies Vs.|33/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728087769
+|move|p2a: Hippies Vs.|Flamethrower|p1a: Snorlax
+|-damage|p1a: Snorlax|58/100
+|move|p1a: Snorlax|Body Slam|p2a: Hippies Vs.
+|-damage|p2a: Hippies Vs.|0 fnt
+|faint|p2a: Hippies Vs.
+|
+|t:|1728087774
+|switch|p2a: Repurposed Goods|Flygon, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|52/100|[from] Sandstorm
+|-heal|p1a: Snorlax|58/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728087778
+|move|p2a: Repurposed Goods|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|29/100
+|move|p1a: Snorlax|Body Slam|p2a: Repurposed Goods
+|-damage|p2a: Repurposed Goods|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|22/100|[from] Sandstorm
+|-heal|p2a: Repurposed Goods|74/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|29/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728087780
+|move|p2a: Repurposed Goods|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|BongMoodeus
+|c|☆Apostic|gg
+|c|☆BongMoodeus|gg wp
+|c|☆Apostic|u2!
+|c|☆BongMoodeus|that lax scared me at the end there lol
+|c|☆Apostic|honestly i thought i had curse but wrong team hah :D
+|c|☆Apostic|gl next matchup for you!
+|c|☆BongMoodeus|oww, thats what i was scared of
+|c|☆BongMoodeus|you too!
+|c|☆BongMoodeus|very nice that it takes three losses for this tournet
+|c|☆BongMoodeus|especially with the size
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794789">
+{"id":"smogtours-gen3ou-794789","format":"[Gen 3] OU","players":["Apostic","BongMoodeus"],"uploadtime":1728087780,"views":118,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

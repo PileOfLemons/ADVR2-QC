@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: DiamondDiancie25 vs. Quarante8 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between DiamondDiancie25 and Quarante8! Format: [Gen 3] OU; Date: Oct 6, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-795892">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728243161
+|gametype|singles
+|player|p1|DiamondDiancie25|101|
+|player|p2|Quarante8|pilot|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728243161
+|start
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Behemoth|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Behemoth
+|turn|1
+|c|☆Quarante8|hf!
+|inactive|DiamondDiancie25 has 270 seconds left.
+|inactive|Quarante8 has 270 seconds left.
+|c|☆DiamondDiancie25|u2
+|c|☆DiamondDiancie25|see how a set with no food consumed goes LMAO
+|inactive|Quarante8 has 240 seconds left.
+|
+|t:|1728243224
+|switch|p2a: Tower of Babel|Salamence, F|100/100
+|-ability|p2a: Tower of Babel|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|move|p1a: Blaziken|Overheat|p2a: Tower of Babel
+|-resisted|p2a: Tower of Babel
+|-crit|p2a: Tower of Babel
+|-damage|p2a: Tower of Babel|16/100
+|-unboost|p1a: Blaziken|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tower of Babel|10/100|[from] Sandstorm
+|-damage|p1a: Blaziken|95/100|[from] Sandstorm
+|-heal|p2a: Tower of Babel|16/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆DiamondDiancie25|mb
+|c|☆Quarante8|happens
+|
+|t:|1728243247
+|switch|p2a: Ballin|Forretress, M|100/100
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|94/100|[from] Sandstorm
+|-heal|p1a: Cloyster|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728243256
+|switch|p1a: Blaziken|Blaziken, F|95/100
+|move|p2a: Ballin|Spikes|p1a: Blaziken
+|-sidestart|p1: DiamondDiancie25|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|89/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1728243267
+|switch|p2a: Bulwark|Swampert, F|100/100
+|move|p1a: Blaziken|Sky Uppercut|p2a: Bulwark
+|-damage|p2a: Bulwark|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|83/100|[from] Sandstorm
+|-heal|p2a: Bulwark|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728243287
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|88/100|[from] Spikes
+|move|p2a: Bulwark|Protect||[still]
+|-fail|p2a: Bulwark
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|82/100|[from] Sandstorm
+|-heal|p1a: Cloyster|88/100|[from] item: Leftovers
+|-heal|p2a: Bulwark|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728243303
+|move|p1a: Cloyster|Spikes|p2a: Bulwark
+|-sidestart|p2: Quarante8|Spikes
+|move|p2a: Bulwark|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|62/100|[from] Sandstorm
+|-heal|p1a: Cloyster|68/100|[from] item: Leftovers
+|-heal|p2a: Bulwark|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728243313
+|switch|p2a: Ballin|Forretress, M|100/100
+|-damage|p2a: Ballin|88/100|[from] Spikes
+|move|p1a: Cloyster|Spikes|p2a: Ballin
+|-sidestart|p2: Quarante8|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|62/100|[from] Sandstorm
+|-heal|p1a: Cloyster|68/100|[from] item: Leftovers
+|-heal|p2a: Ballin|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728243323
+|switch|p1a: Blaziken|Blaziken, F|83/100
+|-damage|p1a: Blaziken|70/100|[from] Spikes
+|move|p2a: Ballin|Rapid Spin|p1a: Blaziken
+|-damage|p1a: Blaziken|63/100
+|-sideend|p2: Quarante8|Spikes|[from] move: Rapid Spin|[of] p2a: Ballin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|57/100|[from] Sandstorm
+|-heal|p2a: Ballin|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728243333
+|switch|p2a: Wipe|Blissey, F|100/100
+|move|p1a: Blaziken|Toxic|p2a: Wipe
+|-status|p2a: Wipe|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|51/100|[from] Sandstorm
+|-damage|p2a: Wipe|94/100 tox|[from] Sandstorm
+|-heal|p2a: Wipe|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Wipe|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1728243352
+|-curestatus|p2a: Wipe|tox|[from] ability: Natural Cure
+|switch|p2a: Bulwark|Swampert, F|95/100
+|move|p1a: Blaziken|Sky Uppercut|p2a: Bulwark
+|-damage|p2a: Bulwark|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|45/100|[from] Sandstorm
+|-heal|p2a: Bulwark|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|DiamondDiancie25 has 270 seconds left.
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243387
+|switch|p2a: Celerity|Celebi|100/100
+|move|p1a: Blaziken|Toxic|p2a: Celerity
+|-status|p2a: Celerity|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|39/100|[from] Sandstorm
+|-damage|p2a: Celerity|94/100 tox|[from] Sandstorm
+|-heal|p2a: Celerity|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Celerity|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|DiamondDiancie25 has 270 seconds left.
+|
+|t:|1728243399
+|-curestatus|p2a: Celerity|tox|[from] ability: Natural Cure
+|switch|p2a: Bulwark|Swampert, F|76/100
+|move|p1a: Blaziken|Overheat|p2a: Bulwark
+|-resisted|p2a: Bulwark
+|-damage|p2a: Bulwark|48/100
+|-unboost|p1a: Blaziken|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|33/100|[from] Sandstorm
+|-heal|p2a: Bulwark|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|DiamondDiancie25 has 270 seconds left.
+|
+|t:|1728243410
+|switch|p2a: Celerity|Celebi|94/100
+|move|p1a: Blaziken|Toxic|p2a: Celerity
+|-status|p2a: Celerity|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|27/100|[from] Sandstorm
+|-damage|p2a: Celerity|88/100 tox|[from] Sandstorm
+|-heal|p2a: Celerity|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Celerity|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|DiamondDiancie25 has 270 seconds left.
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243439
+|move|p1a: Blaziken|Overheat|p2a: Celerity|[miss]
+|-miss|p1a: Blaziken|p2a: Celerity
+|move|p2a: Celerity|Psychic|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|inactive|DiamondDiancie25 has 240 seconds left.
+|
+|t:|1728243469
+|switch|p1a: Flygon|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|82/100 tox|[from] Sandstorm
+|-heal|p2a: Celerity|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Celerity|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|DiamondDiancie25 has 240 seconds left.
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243484
+|-curestatus|p2a: Celerity|tox|[from] ability: Natural Cure
+|switch|p2a: Wipe|Blissey, F|94/100
+|move|p1a: Flygon|Dragon Claw|p2a: Wipe
+|-damage|p2a: Wipe|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wipe|79/100|[from] Sandstorm
+|-heal|p2a: Wipe|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|DiamondDiancie25 has 240 seconds left.
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243505
+|switch|p1a: Cloyster|Cloyster, M|68/100
+|-damage|p1a: Cloyster|56/100|[from] Spikes
+|move|p2a: Wipe|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wipe|79/100|[from] Sandstorm
+|-damage|p1a: Cloyster|36/100|[from] Sandstorm
+|-heal|p2a: Wipe|85/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728243517
+|switch|p2a: Celerity|Celebi|76/100
+|move|p1a: Cloyster|Rapid Spin|p2a: Celerity
+|-damage|p2a: Celerity|73/100
+|-sideend|p1: DiamondDiancie25|Spikes|[from] move: Rapid Spin|[of] p1a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|67/100|[from] Sandstorm
+|-damage|p1a: Cloyster|36/100|[from] Sandstorm
+|-heal|p2a: Celerity|73/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728243532
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Celerity|Hidden Power|p1a: Flygon
+|-damage|p1a: Flygon|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|67/100|[from] Sandstorm
+|-heal|p1a: Flygon|71/100|[from] item: Leftovers
+|-heal|p2a: Celerity|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728243543
+|move|p1a: Flygon|Earthquake|p2a: Celerity
+|-resisted|p2a: Celerity
+|-damage|p2a: Celerity|59/100
+|move|p2a: Celerity|Leech Seed|p1a: Flygon
+|-start|p1a: Flygon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|53/100|[from] Sandstorm
+|-heal|p1a: Flygon|77/100|[from] item: Leftovers
+|-damage|p1a: Flygon|65/100|[from] Leech Seed|[of] p2a: Celerity
+|-heal|p2a: Celerity|62/100|[silent]
+|-heal|p2a: Celerity|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728243561
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|move|p2a: Celerity|Recover|p2a: Celerity
+|-heal|p2a: Celerity|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|94/100|[from] Sandstorm
+|-heal|p2a: Celerity|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728243574
+|switch|p2a: Ballin|Forretress, M|100/100
+|move|p1a: Aerodactyl|Hidden Power|p2a: Ballin
+|-damage|p2a: Ballin|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ballin|73/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728243583
+|switch|p1a: Flygon|Flygon, F|65/100
+|move|p2a: Ballin|Toxic|p1a: Flygon|[miss]
+|-miss|p2a: Ballin|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|71/100|[from] item: Leftovers
+|-heal|p2a: Ballin|79/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728243613
+|switch|p2a: Celerity|Celebi|100/100
+|move|p1a: Flygon|Fire Blast|p2a: Celerity
+|-supereffective|p2a: Celerity
+|-damage|p2a: Celerity|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|60/100|[from] Sandstorm
+|-heal|p1a: Flygon|77/100|[from] item: Leftovers
+|-heal|p2a: Celerity|67/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728243629
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|move|p2a: Celerity|Leech Seed|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|60/100|[from] Sandstorm
+|-damage|p1a: Aerodactyl|88/100|[from] Leech Seed|[of] p2a: Celerity
+|-heal|p2a: Celerity|70/100|[silent]
+|-heal|p2a: Celerity|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243671
+|switch|p2a: Ballin|Forretress, M|79/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Ballin
+|-damage|p2a: Ballin|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|76/100|[from] Leech Seed|[of] p2a: Ballin
+|-heal|p2a: Ballin|55/100|[silent]
+|-heal|p2a: Ballin|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728243682
+|move|p1a: Aerodactyl|Rock Slide|p2a: Ballin
+|-damage|p2a: Ballin|27/100
+|move|p2a: Ballin|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|64/100 tox|[from] Leech Seed|[of] p2a: Ballin
+|-heal|p2a: Ballin|38/100|[silent]
+|-damage|p1a: Aerodactyl|58/100 tox|[from] psn
+|-heal|p2a: Ballin|44/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728243695
+|switch|p1a: Cloyster|Cloyster, M|42/100
+|move|p2a: Ballin|Spikes|p1a: Cloyster
+|-sidestart|p1: DiamondDiancie25|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|36/100|[from] Sandstorm
+|-heal|p1a: Cloyster|42/100|[from] item: Leftovers
+|-heal|p2a: Ballin|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728243709
+|switch|p2a: Celerity|Celebi|76/100
+|move|p1a: Cloyster|Ice Beam|p2a: Celerity
+|-supereffective|p2a: Celerity
+|-damage|p2a: Celerity|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|21/100|[from] Sandstorm
+|-damage|p1a: Cloyster|36/100|[from] Sandstorm
+|-heal|p2a: Celerity|27/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|42/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728243723
+|move|p2a: Celerity|Recover|p2a: Celerity
+|-heal|p2a: Celerity|77/100
+|move|p1a: Cloyster|Ice Beam|p2a: Celerity
+|-supereffective|p2a: Celerity
+|-damage|p2a: Celerity|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|24/100|[from] Sandstorm
+|-damage|p1a: Cloyster|36/100|[from] Sandstorm
+|-heal|p2a: Celerity|30/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|42/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728243747
+|move|p2a: Celerity|Hidden Power|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|t:|1728243752
+|switch|p1a: Aerodactyl|Aerodactyl, F|58/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celerity|24/100|[from] Sandstorm
+|-damage|p1a: Aerodactyl|52/100 tox|[from] psn
+|-heal|p2a: Celerity|30/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1728243799
+|switch|p2a: Ballin|Forretress, M|50/100
+|move|p1a: Aerodactyl|Hidden Power|p2a: Ballin
+|-damage|p2a: Ballin|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|40/100 tox|[from] psn
+|-heal|p2a: Ballin|19/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Quarante8 has 240 seconds left.
+|
+|t:|1728243822
+|switch|p1a: Flygon|Flygon, F|77/100
+|switch|p2a: Behemoth|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|83/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|DiamondDiancie25 has 210 seconds left.
+|inactive|Quarante8 has 240 seconds left.
+|
+|t:|1728243843
+|switch|p2a: Ballin|Forretress, M|19/100
+|move|p1a: Flygon|Earthquake|p2a: Ballin
+|-damage|p2a: Ballin|0 fnt
+|faint|p2a: Ballin
+|
+|t:|1728243846
+|switch|p2a: Wipe|Blissey, F|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wipe|79/100|[from] Sandstorm
+|-heal|p1a: Flygon|89/100|[from] item: Leftovers
+|-heal|p2a: Wipe|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|DiamondDiancie25 has 210 seconds left.
+|
+|t:|1728243866
+|move|p1a: Flygon|Earthquake|p2a: Wipe
+|-damage|p2a: Wipe|18/100
+|move|p2a: Wipe|Ice Beam|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|t:|1728243878
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wipe|11/100|[from] Sandstorm
+|-heal|p2a: Wipe|18/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728243897
+|switch|p2a: Tower of Babel|Salamence, F|16/100
+|-ability|p2a: Tower of Babel|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tower of Babel|10/100|[from] Sandstorm
+|-heal|p2a: Tower of Babel|16/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|DiamondDiancie25 has 210 seconds left.
+|
+|t:|1728243909
+|switch|p2a: Wipe|Blissey, F|18/100
+|move|p1a: Tyranitar|Hidden Power|p2a: Wipe
+|-damage|p2a: Wipe|0 fnt
+|faint|p2a: Wipe
+|
+|t:|1728243910
+|switch|p2a: Bulwark|Swampert, F|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bulwark|60/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Quarante8 has 270 seconds left.
+|inactive|DiamondDiancie25 has 210 seconds left.
+|
+|t:|1728243928
+|switch|p1a: Aerodactyl|Aerodactyl, F|40/100 tox
+|move|p2a: Bulwark|Hydro Pump|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|t:|1728243934
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Bulwark|67/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|DiamondDiancie25 has 210 seconds left.
+|
+|t:|1728243944
+|move|p2a: Bulwark|Protect|p2a: Bulwark
+|-singleturn|p2a: Bulwark|Protect
+|move|p1a: Zapdos|Hidden Power|p2a: Bulwark
+|-activate|p2a: Bulwark|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Bulwark|73/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728243968
+|switch|p2a: Tower of Babel|Salamence, F|16/100
+|-ability|p2a: Tower of Babel|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Tower of Babel
+|-damage|p2a: Tower of Babel|0 fnt
+|faint|p2a: Tower of Babel
+|
+|t:|1728243970
+|switch|p2a: Behemoth|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728243982
+|move|p1a: Zapdos|Thunderbolt|p2a: Behemoth
+|-damage|p2a: Behemoth|55/100
+|-status|p2a: Behemoth|par
+|-enditem|p2a: Behemoth|Lum Berry|[eat]
+|-curestatus|p2a: Behemoth|par|[msg]
+|move|p2a: Behemoth|Dragon Dance|p2a: Behemoth
+|-boost|p2a: Behemoth|atk|1
+|-boost|p2a: Behemoth|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728243994
+|move|p2a: Behemoth|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1728243997
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|42
+|
+|t:|1728244001
+|move|p2a: Behemoth|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|Quarante8
+|c|☆DiamondDiancie25|ggs
+|c|☆Quarante8|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-795892">
+{"id":"smogtours-gen3ou-795892","format":"[Gen 3] OU","players":["DiamondDiancie25","Quarante8"],"uploadtime":1728244001,"views":102,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

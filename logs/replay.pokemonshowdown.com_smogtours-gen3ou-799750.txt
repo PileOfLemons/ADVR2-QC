@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: euph0riADV vs. Nun_IE - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between euph0riADV and Nun_IE! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799750">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729293434
+|gametype|singles
+|player|p1|euph0riADV|169|
+|player|p2|Nun_IE|veteranf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729293434
+|start
+|switch|p1a: Limerent Death|Zapdos|100/100
+|switch|p2a: Shazam|Zapdos|100/100
+|turn|1
+|
+|t:|1729293440
+|move|p1a: Limerent Death|Thunder Wave|p2a: Shazam
+|-status|p2a: Shazam|par
+|move|p2a: Shazam|Thunder Wave|p1a: Limerent Death
+|-status|p1a: Limerent Death|par
+|
+|upkeep
+|turn|2
+|
+|t:|1729293447
+|move|p1a: Limerent Death|Thunderbolt|p2a: Shazam
+|-damage|p2a: Shazam|40/100 par
+|move|p2a: Shazam|Thunderbolt|p1a: Limerent Death
+|-damage|p1a: Limerent Death|47/100 par
+|
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|-heal|p2a: Shazam|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729293457
+|switch|p2a: The Flash|Dugtrio, F|100/100
+|switch|p1a: Surrogate|Swampert, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729293469
+|switch|p2a: Wonder Woman|Blissey, F|100/100
+|move|p1a: Surrogate|Earthquake|p2a: Wonder Woman
+|-damage|p2a: Wonder Woman|63/100
+|
+|-heal|p2a: Wonder Woman|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729293476
+|move|p2a: Wonder Woman|Soft-Boiled|p2a: Wonder Woman
+|-heal|p2a: Wonder Woman|100/100
+|move|p1a: Surrogate|Earthquake|p2a: Wonder Woman
+|-damage|p2a: Wonder Woman|59/100
+|
+|-heal|p2a: Wonder Woman|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729293483
+|switch|p1a: Discontent|Dugtrio, M, shiny|100/100
+|move|p2a: Wonder Woman|Toxic|p1a: Discontent
+|-status|p1a: Discontent|tox
+|
+|-damage|p1a: Discontent|94/100 tox|[from] psn
+|-heal|p2a: Wonder Woman|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729293491
+|move|p1a: Discontent|Beat Up|p2a: Wonder Woman
+|-damage|p2a: Wonder Woman|58/100
+|-damage|p2a: Wonder Woman|46/100
+|-damage|p2a: Wonder Woman|30/100
+|-damage|p2a: Wonder Woman|20/100
+|-hitcount|p2a: Wonder Woman|4
+|move|p2a: Wonder Woman|Seismic Toss|p1a: Discontent
+|-damage|p1a: Discontent|54/100 tox
+|
+|-damage|p1a: Discontent|41/100 tox|[from] psn
+|-heal|p2a: Wonder Woman|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729293502
+|move|p1a: Discontent|Beat Up|p2a: Wonder Woman
+|-damage|p2a: Wonder Woman|14/100
+|-damage|p2a: Wonder Woman|2/100
+|-damage|p2a: Wonder Woman|0 fnt
+|-hitcount|p2a: Wonder Woman|3
+|faint|p2a: Wonder Woman
+|
+|t:|1729293509
+|switch|p2a: Aquaman|Cloyster, M|100/100
+|
+|-damage|p1a: Discontent|23/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1729293514
+|move|p1a: Discontent|Beat Up|p2a: Aquaman
+|-damage|p2a: Aquaman|98/100
+|-damage|p2a: Aquaman|96/100
+|-damage|p2a: Aquaman|94/100
+|-damage|p2a: Aquaman|92/100
+|-hitcount|p2a: Aquaman|4
+|move|p2a: Aquaman|Spikes|p1a: Discontent
+|-sidestart|p1: euph0riADV|Spikes
+|
+|-damage|p1a: Discontent|0 fnt|[from] psn
+|faint|p1a: Discontent
+|-heal|p2a: Aquaman|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729293524
+|switch|p1a: Dissociation|Starmie|100/100
+|-damage|p1a: Dissociation|88/100|[from] Spikes
+|turn|10
+|
+|t:|1729293534
+|switch|p2a: Superman|Jirachi|100/100
+|move|p1a: Dissociation|Thunderbolt|p2a: Superman
+|-damage|p2a: Superman|78/100
+|
+|-heal|p1a: Dissociation|94/100|[from] item: Leftovers
+|-heal|p2a: Superman|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729293547
+|switch|p1a: Fugue|Tyranitar, F|100/100
+|-damage|p1a: Fugue|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Fugue
+|move|p2a: Superman|Calm Mind|p2a: Superman
+|-boost|p2a: Superman|spa|1
+|-boost|p2a: Superman|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Superman|91/100|[from] item: Leftovers
+|-heal|p1a: Fugue|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729293558
+|move|p2a: Superman|Ice Punch|p1a: Fugue
+|-damage|p1a: Fugue|71/100
+|move|p1a: Fugue|Earthquake|p2a: Superman
+|-supereffective|p2a: Superman
+|-damage|p2a: Superman|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Superman|50/100|[from] item: Leftovers
+|-heal|p1a: Fugue|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729293568
+|switch|p2a: Aquaman|Cloyster, M|98/100
+|move|p1a: Fugue|Earthquake|p2a: Aquaman
+|-damage|p2a: Aquaman|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquaman|63/100|[from] Sandstorm
+|-heal|p2a: Aquaman|70/100|[from] item: Leftovers
+|-heal|p1a: Fugue|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729293583
+|switch|p1a: Dissociation|Starmie|94/100
+|-damage|p1a: Dissociation|82/100|[from] Spikes
+|move|p2a: Aquaman|Surf|p1a: Dissociation
+|-resisted|p1a: Dissociation
+|-crit|p1a: Dissociation
+|-damage|p1a: Dissociation|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dissociation|34/100|[from] Sandstorm
+|-damage|p2a: Aquaman|63/100|[from] Sandstorm
+|-heal|p1a: Dissociation|40/100|[from] item: Leftovers
+|-heal|p2a: Aquaman|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729293603
+|switch|p2a: The Flash|Dugtrio, F|100/100
+|move|p1a: Dissociation|Thunderbolt|p2a: The Flash
+|-immune|p2a: The Flash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dissociation|34/100|[from] Sandstorm
+|-heal|p1a: Dissociation|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729293612
+|move|p2a: The Flash|Earthquake|p1a: Dissociation
+|-damage|p1a: Dissociation|0 fnt
+|faint|p1a: Dissociation
+|
+|t:|1729293616
+|switch|p1a: Limerent Death|Zapdos|53/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729293630
+|switch|p2a: Shazam|Zapdos|47/100 par
+|move|p1a: Limerent Death|Thunderbolt|p2a: Shazam
+|-crit|p2a: Shazam
+|-damage|p2a: Shazam|0 fnt
+|faint|p2a: Shazam
+|
+|t:|1729293638
+|switch|p2a: Red Tornado|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729293645
+|move|p2a: Red Tornado|Agility|p2a: Red Tornado
+|-boost|p2a: Red Tornado|spe|2
+|move|p1a: Limerent Death|Thunder Wave|p2a: Red Tornado
+|-status|p2a: Red Tornado|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729293656
+|switch|p1a: Surrogate|Swampert, M|100/100
+|-damage|p1a: Surrogate|88/100|[from] Spikes
+|cant|p2a: Red Tornado|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729293663
+|move|p1a: Surrogate|Earthquake|p2a: Red Tornado
+|-supereffective|p2a: Red Tornado
+|-damage|p2a: Red Tornado|36/100 par
+|cant|p2a: Red Tornado|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|100/100|[from] item: Leftovers
+|-heal|p2a: Red Tornado|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729293672
+|move|p1a: Surrogate|Earthquake|p2a: Red Tornado
+|-supereffective|p2a: Red Tornado
+|-damage|p2a: Red Tornado|0 fnt
+|faint|p2a: Red Tornado
+|c|☆euph0riADV|my b
+|
+|t:|1729293676
+|switch|p2a: Aquaman|Cloyster, M|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquaman|63/100|[from] Sandstorm
+|-heal|p2a: Aquaman|70/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729293685
+|switch|p1a: Limerent Death|Zapdos|53/100 par
+|move|p2a: Aquaman|Spikes|p1a: Limerent Death
+|-sidestart|p1: euph0riADV|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aquaman|63/100|[from] Sandstorm
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p2a: Aquaman|70/100|[from] item: Leftovers
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729293699
+|move|p2a: Aquaman|Spikes|p1a: Limerent Death
+|-sidestart|p1: euph0riADV|Spikes
+|move|p1a: Limerent Death|Thunderbolt|p2a: Aquaman
+|-supereffective|p2a: Aquaman
+|-damage|p2a: Aquaman|0 fnt
+|faint|p2a: Aquaman
+|
+|t:|1729293706
+|switch|p2a: Superman|Jirachi|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p2a: Superman|56/100|[from] item: Leftovers
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729293713
+|move|p2a: Superman|Wish|p2a: Superman
+|move|p1a: Limerent Death|Thunder Wave|p2a: Superman
+|-status|p2a: Superman|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|-heal|p2a: Superman|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729293721
+|move|p1a: Limerent Death|Thunderbolt|p2a: Superman
+|-damage|p2a: Superman|21/100 par
+|move|p2a: Superman|Calm Mind|p2a: Superman
+|-boost|p2a: Superman|spa|1
+|-boost|p2a: Superman|spd|1
+|
+|-heal|p2a: Superman|71/100 par|[from] move: Wish|[wisher] Superman
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Limerent Death|47/100 par|[from] Sandstorm
+|-heal|p1a: Limerent Death|53/100 par|[from] item: Leftovers
+|-heal|p2a: Superman|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729293732
+|switch|p1a: Surrogate|Swampert, M|100/100
+|-damage|p1a: Surrogate|75/100|[from] Spikes
+|move|p2a: Superman|Wish|p2a: Superman
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|82/100|[from] item: Leftovers
+|-heal|p2a: Superman|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729293739
+|move|p1a: Surrogate|Earthquake|p2a: Superman
+|-supereffective|p2a: Superman
+|-damage|p2a: Superman|39/100 par
+|move|p2a: Superman|Ice Punch|p1a: Surrogate
+|-damage|p1a: Surrogate|61/100
+|
+|-heal|p2a: Superman|89/100 par|[from] move: Wish|[wisher] Superman
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|67/100|[from] item: Leftovers
+|-heal|p2a: Superman|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729293749
+|move|p1a: Surrogate|Hydro Pump|p2a: Superman
+|-crit|p2a: Superman
+|-damage|p2a: Superman|37/100 par
+|move|p2a: Superman|Ice Punch|p1a: Surrogate
+|-damage|p1a: Surrogate|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|51/100|[from] item: Leftovers
+|-heal|p2a: Superman|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729293757
+|move|p1a: Surrogate|Earthquake|p2a: Superman
+|-supereffective|p2a: Superman
+|-damage|p2a: Superman|0 fnt
+|faint|p2a: Superman
+|
+|t:|1729293761
+|switch|p2a: The Flash|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729293769
+|move|p1a: Surrogate|Protect|p1a: Surrogate
+|-singleturn|p1a: Surrogate|Protect
+|move|p2a: The Flash|Sludge Bomb|p1a: Surrogate
+|-activate|p1a: Surrogate|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Surrogate|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆Nun_IE|gg i think
+|
+|t:|1729293776
+|move|p2a: The Flash|Sludge Bomb|p1a: Surrogate
+|-resisted|p1a: Surrogate
+|-damage|p1a: Surrogate|52/100
+|-status|p1a: Surrogate|psn
+|move|p1a: Surrogate|Earthquake|p2a: The Flash
+|-damage|p2a: The Flash|0 fnt
+|faint|p2a: The Flash
+|
+|win|euph0riADV
+|c|☆euph0riADV|my bad bro I got super lucky
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799750">
+{"id":"smogtours-gen3ou-799750","format":"[Gen 3] OU","players":["euph0riADV","Nun_IE"],"uploadtime":1729293776,"views":74,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

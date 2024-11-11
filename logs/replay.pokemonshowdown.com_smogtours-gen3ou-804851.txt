@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: butter dk vs. moistmania - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between butter dk and moistmania! Format: [Gen 3] OU; Date: Nov 5, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804851">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730770260
+|gametype|singles
+|player|p1|butter dk|proton|
+|player|p2|moistmania|backersf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730770260
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: moist|Vaporeon, F|100/100
+|turn|1
+|
+|t:|1730770281
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: moist|Hydro Pump|p1a: Regice
+|-damage|p1a: Regice|72/100
+|
+|-heal|p1a: Regice|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730770302
+|move|p2a: moist|Substitute|p2a: moist
+|-start|p2a: moist|Substitute
+|-damage|p2a: moist|76/100
+|move|p1a: Regice|Thunder Wave||[still]
+|-fail|p1a: Regice
+|
+|-heal|p1a: Regice|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730770314
+|move|p2a: moist|Baton Pass|p2a: moist
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770353
+|switch|p2a: damp|Exeggutor, F|100/100|[from] Baton Pass
+|move|p1a: Regice|Thunderbolt|p2a: damp
+|-resisted|p2a: damp
+|-crit|p2a: damp
+|-end|p2a: damp|Substitute
+|
+|-heal|p1a: Regice|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730770366
+|move|p2a: damp|Sleep Powder|p1a: Regice
+|-status|p1a: Regice|slp|[from] move: Sleep Powder
+|cant|p1a: Regice|slp
+|
+|-heal|p1a: Regice|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770379
+|switch|p2a: watery|Metagross|100/100
+|cant|p1a: Regice|slp
+|
+|-heal|p1a: Regice|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770394
+|switch|p2a: aqueous|Zapdos|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1730770397
+|switch|p1a: Regice|Regice|100/100 slp
+|move|p2a: aqueous|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|77/100 slp
+|
+|-heal|p1a: Regice|83/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730770402
+|move|p2a: aqueous|Baton Pass|p2a: aqueous
+|
+|t:|1730770406
+|switch|p2a: watery|Metagross|100/100|[from] Baton Pass
+|cant|p1a: Regice|slp
+|
+|-heal|p1a: Regice|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730770414
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: watery|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|79/100
+|
+|-heal|p1a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730770440
+|switch|p2a: damp|Exeggutor, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: damp
+|-sidestart|p2: moistmania|Spikes
+|
+|-heal|p1a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730770455
+|move|p2a: damp|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|move|p1a: Skarmory|Drill Peck|p2a: damp
+|-supereffective|p2a: damp
+|-damage|p2a: damp|47/100
+|
+|-heal|p2a: damp|53/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730770460
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: damp|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: damp|59/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730770486
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: damp|Psychic|p1a: Suicune
+|-damage|p1a: Suicune|61/100
+|
+|-heal|p1a: Suicune|67/100|[from] item: Leftovers
+|-heal|p2a: damp|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|butter dk has 270 seconds left.
+|
+|t:|1730770506
+|switch|p1a: Regice|Regice|89/100 slp
+|move|p2a: damp|Explosion|p1a: Regice
+|-crit|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p2a: damp
+|faint|p1a: Regice
+|inactive|butter dk has 270 seconds left.
+|
+|t:|1730770527
+|switch|p2a: aqueous|Zapdos|100/100
+|switch|p1a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1730770537
+|move|p2a: aqueous|Baton Pass|p2a: aqueous
+|
+|t:|1730770540
+|switch|p2a: moist|Vaporeon, F|76/100|[from] Baton Pass
+|-damage|p2a: moist|63/100|[from] Spikes
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|upkeep
+|turn|16
+|
+|t:|1730770548
+|move|p1a: Metagross|Earthquake|p2a: moist
+|-damage|p2a: moist|12/100
+|move|p2a: moist|Hydro Pump|p1a: Metagross
+|-damage|p1a: Metagross|40/100
+|
+|-heal|p1a: Metagross|47/100|[from] item: Leftovers
+|-enditem|p2a: moist|Salac Berry|[eat]
+|-boost|p2a: moist|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|17
+|
+|t:|1730770563
+|move|p1a: Metagross|Rock Slide|p2a: moist
+|-damage|p2a: moist|0 fnt
+|faint|p2a: moist
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770595
+|switch|p2a: watery|Metagross|100/100
+|-damage|p2a: watery|88/100|[from] Spikes
+|
+|-heal|p1a: Metagross|53/100|[from] item: Leftovers
+|-heal|p2a: watery|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730770612
+|switch|p1a: Skarmory|Skarmory, M|55/100
+|move|p2a: watery|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-heal|p2a: watery|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730770621
+|switch|p2a: aqueous|Zapdos|100/100
+|move|p1a: Skarmory|Roar|p2a: aqueous
+|drag|p2a: watery|Metagross|100/100
+|-damage|p2a: watery|88/100|[from] Spikes
+|
+|-heal|p2a: watery|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730770626
+|switch|p2a: aqueous|Zapdos|100/100
+|move|p1a: Skarmory|Spikes|p2a: aqueous
+|-sidestart|p2: moistmania|Spikes
+|
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730770630
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: aqueous|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730770634
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: aqueous|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|23
+|
+|t:|1730770646
+|move|p2a: aqueous|Baton Pass|p2a: aqueous
+|
+|t:|1730770648
+|switch|p2a: watery|Metagross|94/100|[from] Baton Pass
+|-damage|p2a: watery|78/100|[from] Spikes
+|move|p1a: Claydol|Psychic|p2a: watery
+|-resisted|p2a: watery
+|-damage|p2a: watery|72/100
+|
+|-heal|p2a: watery|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|butter dk has 270 seconds left.
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770704
+|switch|p1a: Skarmory|Skarmory, M|79/100
+|move|p2a: watery|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100
+|
+|-heal|p2a: watery|84/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|butter dk has 270 seconds left.
+|
+|t:|1730770713
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: watery|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: watery|91/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730770718
+|move|p2a: watery|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: watery|p1a: Skarmory
+|move|p1a: Skarmory|Spikes|p2a: watery
+|-sidestart|p2: moistmania|Spikes
+|
+|-heal|p2a: watery|97/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730770723
+|switch|p2a: aqueous|Zapdos|100/100
+|move|p1a: Skarmory|Roar|p2a: aqueous
+|drag|p2a: watery|Metagross|97/100
+|-damage|p2a: watery|72/100|[from] Spikes
+|
+|-heal|p2a: watery|78/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730770738
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: watery|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: watery|84/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730770743
+|move|p2a: watery|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|move|p1a: Skarmory|Roar|p2a: watery
+|drag|p2a: aqueous|Zapdos|100/100
+|
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|moistmania has 270 seconds left.
+|
+|t:|1730770798
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: aqueous|Baton Pass|p2a: aqueous
+|
+|t:|1730770806
+|switch|p2a: misty|Kingdra, M|100/100|[from] Baton Pass
+|-damage|p2a: misty|76/100|[from] Spikes
+|
+|-heal|p2a: misty|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|moistmania has 240 seconds left.
+|
+|t:|1730770825
+|move|p2a: misty|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|move|p1a: Skarmory|Roar|p2a: misty
+|drag|p2a: watery|Metagross|84/100
+|-damage|p2a: watery|59/100|[from] Spikes
+|
+|-heal|p2a: watery|66/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|moistmania has 240 seconds left.
+|
+|t:|1730770836
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: watery|Rock Slide|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|81/100
+|
+|-heal|p1a: Claydol|87/100|[from] item: Leftovers
+|-heal|p2a: watery|72/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|moistmania has 240 seconds left.
+|
+|t:|1730770853
+|move|p1a: Claydol|Earthquake|p2a: watery
+|-supereffective|p2a: watery
+|-damage|p2a: watery|5/100
+|move|p2a: watery|Meteor Mash|p1a: Claydol
+|-damage|p1a: Claydol|10/100
+|-boost|p2a: watery|atk|1
+|
+|-heal|p1a: Claydol|16/100|[from] item: Leftovers
+|-heal|p2a: watery|11/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|moistmania has 240 seconds left.
+|
+|t:|1730770872
+|move|p1a: Claydol|Earthquake|p2a: watery
+|-supereffective|p2a: watery
+|-damage|p2a: watery|0 fnt
+|faint|p2a: watery
+|
+|t:|1730770876
+|switch|p2a: aqueous|Zapdos|100/100
+|
+|-heal|p1a: Claydol|22/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730770894
+|switch|p1a: Skarmory|Skarmory, M|25/100
+|move|p2a: aqueous|Hidden Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|20/100
+|
+|-heal|p1a: Skarmory|26/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730770898
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: aqueous|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730770909
+|switch|p1a: Claydol|Claydol|22/100
+|move|p2a: aqueous|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1730770913
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|upkeep
+|turn|38
+|inactive|moistmania has 240 seconds left.
+|
+|t:|1730770954
+|switch|p2a: wet|Dugtrio, F|100/100
+|-damage|p2a: wet|76/100|[from] Spikes
+|move|p1a: Gengar|Ice Punch|p2a: wet
+|-supereffective|p2a: wet
+|-damage|p2a: wet|0 fnt
+|faint|p2a: wet
+|
+|t:|1730770960
+|switch|p2a: misty|Kingdra, M|82/100
+|-damage|p2a: misty|57/100|[from] Spikes
+|
+|-heal|p2a: misty|63/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|butter dk has 270 seconds left.
+|inactive|moistmania has 210 seconds left.
+|inactive|butter dk has 240 seconds left.
+|
+|t:|1730771021
+|switch|p2a: aqueous|Zapdos|100/100
+|move|p1a: Gengar|Ice Punch|p2a: aqueous
+|-supereffective|p2a: aqueous
+|-damage|p2a: aqueous|42/100
+|
+|-heal|p2a: aqueous|48/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1730771026
+|move|p1a: Gengar|Ice Punch|p2a: aqueous
+|-supereffective|p2a: aqueous
+|-crit|p2a: aqueous
+|-damage|p2a: aqueous|0 fnt
+|faint|p2a: aqueous
+|c|☆moistmania|gg
+|
+|t:|1730771030
+|switch|p2a: misty|Kingdra, M|63/100
+|-damage|p2a: misty|38/100|[from] Spikes
+|
+|-heal|p2a: misty|45/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|☆butter dk|gg
+|
+|t:|1730771035
+|move|p1a: Gengar|Explosion|p2a: misty
+|-damage|p2a: misty|0 fnt
+|faint|p1a: Gengar
+|faint|p2a: misty
+|
+|win|butter dk
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804851">
+{"id":"smogtours-gen3ou-804851","format":"[Gen 3] OU","players":["butter dk","moistmania"],"uploadtime":1730771035,"views":35,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

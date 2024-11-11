@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Christos vs. witgiz - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Christos and witgiz! Format: [Gen 3] OU; Date: Nov 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804499">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730661388
+|gametype|singles
+|player|p1|Christos|boarder|
+|player|p2|witgiz|linebacker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730661388
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: hexdox|Salamence, F|100/100
+|-ability|p2a: hexdox|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|turn|1
+|c|☆Christos|hf
+|c|☆witgiz|u2
+|
+|t:|1730661416
+|switch|p2a: hugemungo|Snorlax, M|100/100
+|move|p1a: Raikou|Thunderbolt|p2a: hugemungo
+|-damage|p2a: hugemungo|83/100
+|
+|-heal|p2a: hugemungo|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730661442
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: cheekibreekiow|Suicune|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1730661454
+|switch|p2a: hexdox|Salamence, F|100/100
+|-ability|p2a: hexdox|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Leech Seed|p2a: hexdox
+|-start|p2a: hexdox|move: Leech Seed
+|
+|-damage|p2a: hexdox|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|4
+|
+|t:|1730661467
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: hexdox|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|34/100
+|
+|-damage|p2a: hexdox|76/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|44/100|[silent]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Christos has 270 seconds left.
+|
+|t:|1730661493
+|switch|p2a: cheekibreekiow|Suicune|100/100
+|switch|p1a: Celebi|Celebi|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1730661498
+|move|p2a: cheekibreekiow|Calm Mind|p2a: cheekibreekiow
+|-boost|p2a: cheekibreekiow|spa|1
+|-boost|p2a: cheekibreekiow|spd|1
+|move|p1a: Celebi|Leech Seed|p2a: cheekibreekiow
+|-start|p2a: cheekibreekiow|move: Leech Seed
+|
+|-damage|p2a: cheekibreekiow|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|7
+|
+|t:|1730661515
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: cheekibreekiow|Calm Mind|p2a: cheekibreekiow
+|-boost|p2a: cheekibreekiow|spa|1
+|-boost|p2a: cheekibreekiow|spd|1
+|
+|-heal|p2a: cheekibreekiow|94/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|82/100|[from] Leech Seed|[of] p1a: Suicune
+|upkeep
+|turn|8
+|
+|t:|1730661520
+|move|p2a: cheekibreekiow|Roar|p1a: Suicune
+|drag|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Pressure|[from] ability: Trace|[of] p2a: cheekibreekiow
+|
+|-heal|p2a: cheekibreekiow|88/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|75/100|[from] Leech Seed|[of] p1a: Porygon2
+|upkeep
+|turn|9
+|
+|t:|1730661528
+|switch|p2a: hugemungo|Snorlax, M|89/100
+|switch|p1a: Suicune|Suicune|100/100
+|
+|-heal|p2a: hugemungo|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730661535
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: hugemungo|Curse|p2a: hugemungo
+|-unboost|p2a: hugemungo|spe|1
+|-boost|p2a: hugemungo|atk|1
+|-boost|p2a: hugemungo|def|1
+|
+|-heal|p2a: hugemungo|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730661541
+|move|p1a: Suicune|Surf|p2a: hugemungo
+|-damage|p2a: hugemungo|77/100
+|move|p2a: hugemungo|Return|p1a: Suicune
+|-damage|p1a: Suicune|65/100
+|
+|-heal|p1a: Suicune|71/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730661545
+|move|p2a: hugemungo|Return|p1a: Suicune
+|-damage|p1a: Suicune|32/100
+|move|p1a: Suicune|Roar|p2a: hugemungo
+|drag|p2a: hiddenpain11|Heracross, F, shiny|100/100
+|
+|-heal|p1a: Suicune|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730661569
+|move|p2a: hiddenpain11|Megahorn|p1a: Suicune
+|-damage|p1a: Suicune|3/100
+|move|p1a: Suicune|Surf|p2a: hiddenpain11
+|-damage|p2a: hiddenpain11|44/100
+|
+|-heal|p1a: Suicune|9/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730661589
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Swarm|[from] ability: Trace|[of] p2a: hiddenpain11
+|move|p2a: hiddenpain11|Megahorn|p1a: Porygon2
+|-damage|p1a: Porygon2|51/100
+|
+|-heal|p1a: Porygon2|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Christos has 270 seconds left.
+|
+|t:|1730661605
+|move|p2a: hiddenpain11|Substitute|p2a: hiddenpain11
+|-start|p2a: hiddenpain11|Substitute
+|-damage|p2a: hiddenpain11|19/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|-enditem|p2a: hiddenpain11|Salac Berry|[eat]
+|-boost|p2a: hiddenpain11|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|16
+|inactive|Christos has 270 seconds left.
+|
+|t:|1730661632
+|move|p2a: hiddenpain11|Megahorn|p1a: Porygon2
+|-damage|p1a: Porygon2|36/100
+|move|p1a: Porygon2|Thunderbolt|p2a: hiddenpain11
+|-end|p2a: hiddenpain11|Substitute
+|
+|-heal|p1a: Porygon2|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Christos has 240 seconds left.
+|
+|t:|1730661673
+|switch|p1a: Suicune|Suicune|9/100
+|move|p2a: hiddenpain11|Megahorn|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|inactive|Christos has 210 seconds left.
+|
+|t:|1730661711
+|switch|p1a: Raikou|Raikou|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1730661716
+|move|p2a: hiddenpain11|Megahorn|p1a: Raikou
+|-damage|p1a: Raikou|16/100
+|move|p1a: Raikou|Thunderbolt|p2a: hiddenpain11
+|-damage|p2a: hiddenpain11|0 fnt
+|faint|p2a: hiddenpain11
+|
+|t:|1730661736
+|switch|p2a: tmr6|Metagross|100/100
+|
+|-heal|p1a: Raikou|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730661742
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: tmr6|Agility|p2a: tmr6
+|-boost|p2a: tmr6|spe|2
+|
+|upkeep
+|turn|20
+|
+|t:|1730661750
+|move|p2a: tmr6|Meteor Mash|p1a: Claydol
+|-damage|p1a: Claydol|55/100
+|move|p1a: Claydol|Earthquake|p2a: tmr6
+|-supereffective|p2a: tmr6
+|-damage|p2a: tmr6|51/100
+|
+|-heal|p1a: Claydol|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730661762
+|move|p2a: tmr6|Meteor Mash|p1a: Claydol
+|-damage|p1a: Claydol|16/100
+|move|p1a: Claydol|Earthquake|p2a: tmr6
+|-supereffective|p2a: tmr6
+|-damage|p2a: tmr6|0 fnt
+|faint|p2a: tmr6
+|
+|t:|1730661778
+|switch|p2a: cheekibreekiow|Suicune|75/100
+|
+|-heal|p2a: cheekibreekiow|82/100|[from] item: Leftovers
+|-heal|p1a: Claydol|22/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730661789
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: cheekibreekiow|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|59/100
+|
+|-heal|p2a: cheekibreekiow|88/100|[from] item: Leftovers
+|-heal|p1a: Celebi|65/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730661796
+|move|p2a: cheekibreekiow|Calm Mind|p2a: cheekibreekiow
+|-boost|p2a: cheekibreekiow|spa|1
+|-boost|p2a: cheekibreekiow|spd|1
+|move|p1a: Celebi|Leech Seed|p2a: cheekibreekiow
+|-start|p2a: cheekibreekiow|move: Leech Seed
+|
+|-heal|p2a: cheekibreekiow|94/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|81/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|75/100|[silent]
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Christos has 240 seconds left.
+|
+|t:|1730661816
+|switch|p1a: Jirachi|Jirachi|50/100
+|move|p2a: cheekibreekiow|Calm Mind|p2a: cheekibreekiow
+|-boost|p2a: cheekibreekiow|spa|1
+|-boost|p2a: cheekibreekiow|spd|1
+|
+|-heal|p2a: cheekibreekiow|87/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|75/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|61/100|[silent]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730661824
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: cheekibreekiow|Hydro Pump|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p2a: cheekibreekiow|81/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|69/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|77/100|[silent]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730661827
+|move|p2a: cheekibreekiow|Hydro Pump|p1a: Jirachi|[miss]
+|-miss|p2a: cheekibreekiow|p1a: Jirachi
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p2a: cheekibreekiow|75/100|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|62/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|94/100|[silent]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730661838
+|move|p1a: Jirachi|Toxic|p2a: cheekibreekiow
+|-status|p2a: cheekibreekiow|tox
+|move|p2a: cheekibreekiow|Roar|p1a: Jirachi
+|drag|p1a: Claydol|Claydol|22/100
+|
+|-heal|p1a: Claydol|72/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: cheekibreekiow|68/100 tox|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|56/100 tox|[from] Leech Seed|[of] p1a: Claydol
+|-heal|p1a: Claydol|86/100|[silent]
+|-damage|p2a: cheekibreekiow|50/100 tox|[from] psn
+|-heal|p1a: Claydol|92/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Christos has 240 seconds left.
+|
+|t:|1730661875
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: cheekibreekiow|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|77/100
+|
+|-heal|p2a: cheekibreekiow|56/100 tox|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|44/100 tox|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|88/100|[silent]
+|-damage|p2a: cheekibreekiow|32/100 tox|[from] psn
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730661887
+|move|p2a: cheekibreekiow|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|9/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p2a: cheekibreekiow|38/100 tox|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|25/100 tox|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|19/100|[silent]
+|-damage|p2a: cheekibreekiow|7/100 tox|[from] psn
+|-heal|p1a: Jirachi|25/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730661901
+|move|p2a: cheekibreekiow|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1730661903
+|switch|p1a: Raikou|Raikou|23/100
+|
+|-heal|p1a: Raikou|73/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Raikou|79/100|[from] item: Leftovers
+|-heal|p2a: cheekibreekiow|13/100 tox|[from] item: Leftovers
+|-damage|p2a: cheekibreekiow|1/100 tox|[from] Leech Seed|[of] p1a: Raikou
+|-heal|p1a: Raikou|90/100|[silent]
+|-damage|p2a: cheekibreekiow|0 fnt|[from] psn
+|faint|p2a: cheekibreekiow
+|upkeep
+|
+|t:|1730661909
+|switch|p2a: hexdox|Salamence, F|76/100
+|-ability|p2a: hexdox|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|turn|31
+|inactive|Christos has 240 seconds left.
+|
+|t:|1730661931
+|switch|p1a: Claydol|Claydol|92/100
+|move|p2a: hexdox|Hidden Power|p1a: Claydol
+|-damage|p1a: Claydol|40/100
+|
+|-heal|p1a: Claydol|46/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1730661942
+|move|p2a: hexdox|Hidden Power|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1730661946
+|switch|p1a: Raikou|Raikou|90/100
+|
+|-heal|p1a: Raikou|96/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730661951
+|switch|p2a: two_dawn|Magneton|100/100
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730661954
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: two_dawn|Thunder Wave|p1a: Raikou
+|-status|p1a: Raikou|par
+|
+|upkeep
+|turn|35
+|
+|t:|1730661962
+|move|p2a: two_dawn|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|89/100 par
+|cant|p1a: Raikou|par
+|
+|-heal|p1a: Raikou|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730661967
+|move|p2a: two_dawn|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|82/100 par
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730661969
+|move|p2a: two_dawn|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|77/100 par
+|move|p1a: Raikou|Thunderbolt|p2a: two_dawn
+|-resisted|p2a: two_dawn
+|-damage|p2a: two_dawn|12/100
+|
+|-heal|p1a: Raikou|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730661973
+|move|p2a: two_dawn|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|72/100 par
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1730661980
+|move|p2a: two_dawn|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|71/100 par
+|move|p1a: Raikou|Thunderbolt|p2a: two_dawn
+|-resisted|p2a: two_dawn
+|-damage|p2a: two_dawn|0 fnt
+|faint|p2a: two_dawn
+|
+|t:|1730661991
+|switch|p2a: hexdox|Salamence, F|76/100
+|-ability|p2a: hexdox|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|
+|-heal|p1a: Raikou|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1730661997
+|switch|p1a: Celebi|Celebi|82/100
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|61/100
+|
+|-heal|p1a: Celebi|67/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1730662004
+|switch|p2a: hugemungo|Snorlax, M|83/100
+|move|p1a: Celebi|Heal Bell|p1a: Celebi
+|-activate|p1a: Celebi|move: Heal Bell
+|-curestatus|p1: Raikou|par|[silent]
+|
+|-heal|p1a: Celebi|73/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|90/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1730662010
+|move|p1a: Celebi|Leech Seed|p2a: hugemungo
+|-start|p2a: hugemungo|move: Leech Seed
+|move|p2a: hugemungo|Curse|p2a: hugemungo
+|-unboost|p2a: hugemungo|spe|1
+|-boost|p2a: hugemungo|atk|1
+|-boost|p2a: hugemungo|def|1
+|
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|96/100|[from] item: Leftovers
+|-damage|p2a: hugemungo|83/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|95/100|[silent]
+|upkeep
+|turn|43
+|
+|t:|1730662021
+|move|p1a: Celebi|Hidden Power|p2a: hugemungo
+|-damage|p2a: hugemungo|70/100
+|move|p2a: hugemungo|Curse|p2a: hugemungo
+|-unboost|p2a: hugemungo|spe|1
+|-boost|p2a: hugemungo|atk|1
+|-boost|p2a: hugemungo|def|1
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|76/100|[from] item: Leftovers
+|-damage|p2a: hugemungo|64/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|44
+|
+|t:|1730662034
+|move|p1a: Celebi|Hidden Power|p2a: hugemungo
+|-damage|p2a: hugemungo|50/100
+|move|p2a: hugemungo|Curse|p2a: hugemungo
+|-unboost|p2a: hugemungo|spe|1
+|-boost|p2a: hugemungo|atk|1
+|-boost|p2a: hugemungo|def|1
+|
+|-heal|p2a: hugemungo|56/100|[from] item: Leftovers
+|-damage|p2a: hugemungo|44/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|45
+|
+|t:|1730662047
+|switch|p1a: Raikou|Raikou|77/100
+|move|p2a: hugemungo|Rest|p2a: hugemungo
+|-status|p2a: hugemungo|slp|[from] move: Rest
+|-heal|p2a: hugemungo|100/100 slp|[silent]
+|
+|-heal|p1a: Raikou|84/100|[from] item: Leftovers
+|-damage|p2a: hugemungo|88/100 slp|[from] Leech Seed|[of] p1a: Raikou
+|-heal|p1a: Raikou|99/100|[silent]
+|upkeep
+|turn|46
+|
+|t:|1730662054
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|cant|p2a: hugemungo|slp
+|
+|-heal|p1a: Raikou|100/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|94/100 slp|[from] item: Leftovers
+|-damage|p2a: hugemungo|82/100 slp|[from] Leech Seed|[of] p1a: Raikou
+|upkeep
+|turn|47
+|
+|t:|1730662056
+|move|p1a: Raikou|Thunderbolt|p2a: hugemungo
+|-damage|p2a: hugemungo|53/100 slp
+|cant|p2a: hugemungo|slp
+|
+|-heal|p2a: hugemungo|59/100 slp|[from] item: Leftovers
+|-damage|p2a: hugemungo|46/100 slp|[from] Leech Seed|[of] p1a: Raikou
+|upkeep
+|turn|48
+|
+|t:|1730662080
+|move|p1a: Raikou|Thunderbolt|p2a: hugemungo
+|-damage|p2a: hugemungo|19/100 slp
+|-curestatus|p2a: hugemungo|slp|[msg]
+|move|p2a: hugemungo|Shadow Ball|p1a: Raikou
+|-damage|p1a: Raikou|60/100
+|
+|-heal|p1a: Raikou|66/100|[from] item: Leftovers
+|-heal|p2a: hugemungo|25/100|[from] item: Leftovers
+|-damage|p2a: hugemungo|13/100|[from] Leech Seed|[of] p1a: Raikou
+|-heal|p1a: Raikou|83/100|[silent]
+|upkeep
+|turn|49
+|
+|t:|1730662090
+|move|p1a: Raikou|Thunderbolt|p2a: hugemungo
+|-damage|p2a: hugemungo|0 fnt
+|faint|p2a: hugemungo
+|
+|t:|1730662094
+|switch|p2a: hexdox|Salamence, F|76/100
+|-ability|p2a: hexdox|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|
+|-heal|p1a: Raikou|89/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1730662102
+|move|p2a: hexdox|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|t:|1730662105
+|switch|p1a: Celebi|Celebi|100/100
+|
+|upkeep
+|turn|51
+|
+|t:|1730662108
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|81/100
+|move|p1a: Celebi|Leech Seed|p2a: hexdox|[miss]
+|-miss|p1a: Celebi|p2a: hexdox
+|
+|-heal|p1a: Celebi|87/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1730662112
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|68/100
+|move|p1a: Celebi|Leech Seed|p2a: hexdox
+|-start|p2a: hexdox|move: Leech Seed
+|
+|-damage|p2a: hexdox|63/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|79/100|[silent]
+|-heal|p1a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1730662115
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|64/100
+|move|p1a: Celebi|Hidden Power|p2a: hexdox
+|-resisted|p2a: hexdox
+|-damage|p2a: hexdox|56/100
+|
+|-damage|p2a: hexdox|44/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|74/100|[silent]
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|c|☆witgiz|ggs
+|c|☆Christos|ggs
+|
+|t:|1730662123
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|60/100
+|move|p1a: Celebi|Hidden Power|p2a: hexdox
+|-resisted|p2a: hexdox
+|-damage|p2a: hexdox|36/100
+|
+|-damage|p2a: hexdox|23/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|70/100|[silent]
+|-heal|p1a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1730662126
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|55/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-damage|p2a: hexdox|11/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|56
+|
+|t:|1730662128
+|move|p2a: hexdox|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|63/100
+|move|p1a: Celebi|Hidden Power|p2a: hexdox
+|-resisted|p2a: hexdox
+|-damage|p2a: hexdox|4/100
+|
+|-damage|p2a: hexdox|0 fnt|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|65/100|[silent]
+|faint|p2a: hexdox
+|
+|win|Christos
+|upkeep
+|player|p2|
+|c|☆Christos|/log Christos made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804499">
+{"id":"smogtours-gen3ou-804499","format":"[Gen 3] OU","players":["Christos","witgiz"],"uploadtime":1730662128,"views":40,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

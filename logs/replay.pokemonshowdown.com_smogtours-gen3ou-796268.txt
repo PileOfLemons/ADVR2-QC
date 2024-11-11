@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: treeshhhh vs. stinkyaccountant - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between treeshhhh and stinkyaccountant! Format: [Gen 3] OU; Date: Oct 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796268">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728340586
+|gametype|singles
+|player|p1|treeshhhh|2|
+|player|p2|stinkyaccountant|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728340586
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆stinkyaccountant|gl hf
+|c|☆treeshhhh|yt
+|
+|t:|1728340603
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Hariyama|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|97/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|91/100|[from] Sandstorm
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728340612
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|85/100|[from] Sandstorm
+|-damage|p2a: Jirachi|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|97/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1728340634
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Jirachi|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|82/100|[from] Leech Seed|[of] p1a: Swampert
+|-heal|p1a: Swampert|100/100 tox|[silent]
+|upkeep
+|turn|4
+|
+|t:|1728340643
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|48/100|[from] Sandstorm
+|-heal|p2a: Starmie|54/100|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1728340663
+|switch|p1a: Celebi|Celebi|97/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|91/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|stinkyaccountant has 270 seconds left.
+|
+|t:|1728340683
+|move|p2a: Starmie|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|cant|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|85/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|stinkyaccountant has 270 seconds left.
+|
+|t:|1728340701
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|cant|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|78/100 par|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|stinkyaccountant has 270 seconds left.
+|
+|t:|1728340715
+|move|p2a: Hariyama|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|10/100 par
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728340735
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|stinkyaccountant has 270 seconds left.
+|inactive|stinkyaccountant has 240 seconds left.
+|
+|t:|1728340778
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|move|p2a: Hariyama|Knock Off|p1a: Metagross
+|-damage|p1a: Metagross|98/100
+|-enditem|p1a: Metagross|Lum Berry|[from] move: Knock Off|[of] p2a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|stinkyaccountant has 240 seconds left.
+|
+|t:|1728340811
+|move|p1a: Metagross|Meteor Mash|p2a: Hariyama
+|-damage|p2a: Hariyama|45/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Hariyama|Brick Break|p1a: Metagross
+|-damage|p1a: Metagross|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|39/100|[from] Sandstorm
+|-heal|p2a: Hariyama|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|stinkyaccountant has 210 seconds left.
+|
+|t:|1728340835
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|move|p1a: Metagross|Meteor Mash|p2a: Salamence
+|-damage|p2a: Salamence|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|30/100|[from] Sandstorm
+|-heal|p2a: Salamence|36/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|stinkyaccountant has 210 seconds left.
+|
+|t:|1728340851
+|move|p2a: Salamence|Protect|p2a: Salamence
+|-singleturn|p2a: Salamence|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Salamence
+|-activate|p2a: Salamence|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|30/100|[from] Sandstorm
+|-heal|p2a: Salamence|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728340860
+|move|p1a: Metagross|Meteor Mash|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|-boost|p1a: Metagross|atk|1
+|faint|p2a: Salamence
+|
+|t:|1728340868
+|switch|p2a: Marowak|Marowak, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1728340876
+|move|p1a: Metagross|Meteor Mash|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|-boost|p1a: Metagross|atk|1
+|faint|p2a: Marowak
+|
+|t:|1728340879
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728340883
+|move|p1a: Metagross|Earthquake|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|☆stinkyaccountant|oh man
+|c|☆treeshhhh|wait what just happened
+|inactive|stinkyaccountant has 210 seconds left.
+|
+|t:|1728340921
+|switch|p2a: Jirachi|Jirachi|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|stinkyaccountant has 210 seconds left.
+|c|☆treeshhhh|what are the chances of 3 attack raises in 4 tries
+|
+|t:|1728340930
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728340934
+|switch|p2a: Celebi|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728340938
+|move|p1a: Metagross|Meteor Mash|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1728340940
+|switch|p2a: Hariyama|Hariyama, F|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|39/100|[from] Sandstorm
+|-heal|p2a: Hariyama|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728340947
+|move|p1a: Metagross|Earthquake|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|win|treeshhhh
+|c|☆stinkyaccountant|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796268">
+{"id":"smogtours-gen3ou-796268","format":"[Gen 3] OU","players":["treeshhhh","stinkyaccountant"],"uploadtime":1728340947,"views":79,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

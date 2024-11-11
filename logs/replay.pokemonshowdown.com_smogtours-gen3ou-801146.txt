@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Count Sliggoo II vs. Redrame - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Count Sliggoo II and Redrame! Format: [Gen 3] OU; Date: Oct 21, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801146">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729552345
+|gametype|singles
+|player|p1|Count Sliggoo II|ruinmaniac-gen3rs|
+|player|p2|Redrame|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729552345
+|start
+|switch|p1a: Razor|Skarmory, F|100/100
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|1
+|
+|t:|1729552353
+|move|p1a: Razor|Spikes|p2a: Hariyama
+|-sidestart|p2: Redrame|Spikes
+|move|p2a: Hariyama|Knock Off|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|99/100
+|-enditem|p1a: Razor|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|2
+|
+|t:|1729552364
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Razor|Spikes|p2a: Claydol
+|-sidestart|p2: Redrame|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1729552371
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|98/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Razor|Toxic|p2a: Claydol|[miss]
+|-miss|p1a: Razor|p2a: Claydol
+|
+|upkeep
+|turn|4
+|
+|t:|1729552378
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Razor|Spikes|p2a: Skarmory
+|-sidestart|p2: Redrame|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1729552384
+|switch|p1a: Deadbolt|Magneton|100/100
+|move|p2a: Skarmory|Spikes|p1a: Deadbolt
+|-sidestart|p1: Count Sliggoo II|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1729552390
+|move|p1a: Deadbolt|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729552401
+|switch|p2a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1729552406
+|move|p1a: Deadbolt|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|move|p2a: Claydol|Rapid Spin|p1a: Deadbolt
+|-resisted|p1a: Deadbolt
+|-crit|p1a: Deadbolt
+|-damage|p1a: Deadbolt|94/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1729552415
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Deadbolt|Protect||[still]
+|-fail|p1a: Deadbolt
+|
+|upkeep
+|turn|9
+|
+|t:|1729552422
+|switch|p1a: Despot|Tyranitar, M, shiny|100/100
+|-damage|p1a: Despot|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Despot
+|move|p2a: Blissey|Seismic Toss|p1a: Despot
+|-damage|p1a: Despot|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Despot|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729552434
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|move|p1a: Despot|Substitute|p1a: Despot
+|-start|p1a: Despot|Substitute
+|-damage|p1a: Despot|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Despot|51/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729552444
+|-singleturn|p1a: Despot|move: Focus Punch
+|move|p1a: Despot|Focus Punch|p2a: Hariyama
+|-damage|p2a: Hariyama|61/100
+|move|p2a: Hariyama|Whirlwind|p1a: Despot
+|drag|p1a: Deadbolt|Magneton|94/100
+|-damage|p1a: Deadbolt|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|55/100|[from] Sandstorm
+|-heal|p2a: Hariyama|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729552458
+|move|p1a: Deadbolt|Thunderbolt|p2a: Hariyama
+|-damage|p2a: Hariyama|16/100
+|move|p2a: Hariyama|Brick Break|p1a: Deadbolt
+|-supereffective|p1a: Deadbolt
+|-damage|p1a: Deadbolt|0 fnt
+|faint|p1a: Deadbolt
+|
+|t:|1729552469
+|switch|p1a: Rocks Fall|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|10/100|[from] Sandstorm
+|-heal|p2a: Hariyama|16/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729552488
+|move|p1a: Rocks Fall|Hidden Power|p2a: Hariyama
+|-supereffective|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1729552501
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rocks Fall|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729552521
+|switch|p1a: Aurora|Suicune|100/100
+|-damage|p1a: Aurora|88/100|[from] Spikes
+|move|p2a: Salamence|Toxic|p1a: Aurora
+|-status|p1a: Aurora|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Aurora|82/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Aurora|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1729552540
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Aurora|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|76/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|85/100|[from] Sandstorm
+|-heal|p1a: Aurora|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|69/100 tox|[from] psn
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729552551
+|switch|p1a: Razor|Skarmory, F|98/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|85/100|[from] Sandstorm
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729552559
+|move|p2a: Suicune|Surf|p1a: Razor
+|-damage|p1a: Razor|51/100
+|move|p1a: Razor|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729552567
+|move|p1a: Razor|Spikes|p2a: Blissey
+|-sidestart|p2: Redrame|Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Razor
+|-damage|p1a: Razor|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729552575
+|move|p1a: Razor|Protect|p1a: Razor
+|-singleturn|p1a: Razor|Protect
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729552586
+|switch|p1a: Despot|Tyranitar, M, shiny|51/100
+|-damage|p1a: Despot|38/100|[from] Spikes
+|switch|p2a: Claydol|Claydol|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100|[from] item: Leftovers
+|-heal|p1a: Despot|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729552595
+|switch|p1a: Razor|Skarmory, F|21/100
+|move|p2a: Claydol|Earthquake|p1a: Razor
+|-immune|p1a: Razor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1729552608
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|19/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Razor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1729552619
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Razor|Spikes|p2a: Blissey
+|-sidestart|p2: Redrame|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729552635
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: Razor|Roar|p2a: Blissey
+|drag|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Razor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729552645
+|switch|p1a: Aurora|Suicune|69/100 tox
+|-damage|p1a: Aurora|57/100 tox|[from] Spikes
+|move|p2a: Salamence|Flamethrower|p1a: Aurora
+|-resisted|p1a: Aurora
+|-damage|p1a: Aurora|48/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Aurora|41/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Aurora|48/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|41/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1729552669
+|switch|p2a: Suicune|Suicune|91/100
+|-damage|p2a: Suicune|79/100|[from] Spikes
+|move|p1a: Aurora|Rest|p1a: Aurora
+|-status|p1a: Aurora|slp|[from] move: Rest
+|-heal|p1a: Aurora|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|94/100 slp|[from] Sandstorm
+|-damage|p2a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Aurora|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729552682
+|cant|p1a: Aurora|slp
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|94/100 slp|[from] Sandstorm
+|-damage|p2a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Aurora|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729552692
+|cant|p1a: Aurora|slp
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|94/100 slp|[from] Sandstorm
+|-damage|p2a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Aurora|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729552706
+|-curestatus|p1a: Aurora|slp|[msg]
+|move|p1a: Aurora|Calm Mind|p1a: Aurora
+|-boost|p1a: Aurora|spa|1
+|-boost|p1a: Aurora|spd|1
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Aurora|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729552729
+|move|p1a: Aurora|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|49/100
+|move|p2a: Suicune|Toxic|p1a: Aurora
+|-status|p1a: Aurora|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|94/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|43/100|[from] Sandstorm
+|-heal|p1a: Aurora|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|94/100 tox|[from] psn
+|-heal|p2a: Suicune|49/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729552740
+|move|p1a: Aurora|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|43/100
+|-status|p2a: Suicune|frz
+|cant|p2a: Suicune|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|88/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|37/100 frz|[from] Sandstorm
+|-heal|p1a: Aurora|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|82/100 tox|[from] psn
+|-heal|p2a: Suicune|43/100 frz|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Redrame has 270 seconds left.
+|
+|t:|1729552782
+|switch|p1a: Razor|Skarmory, F|19/100
+|switch|p2a: Claydol|Claydol|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729552794
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-resisted|p1a: Razor
+|-crit|p1a: Razor
+|-damage|p1a: Razor|16/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Razor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1729552802
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Razor|Spikes|p2a: Blissey
+|-sidestart|p2: Redrame|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Redrame has 270 seconds left.
+|
+|t:|1729552810
+|switch|p1a: Rocks Fall|Aerodactyl, F|100/100
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729552818
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rocks Fall|atk|1
+|move|p1a: Rocks Fall|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|61/100|[from] Sandstorm
+|-heal|p2a: Salamence|67/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729552827
+|switch|p1a: Aurora|Suicune|82/100 tox
+|-damage|p1a: Aurora|69/100 tox|[from] Spikes
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|61/100|[from] Sandstorm
+|-damage|p1a: Aurora|63/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|67/100|[from] item: Leftovers
+|-heal|p1a: Aurora|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|63/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1729552842
+|switch|p2a: Suicune|Suicune|43/100
+|-damage|p2a: Suicune|31/100|[from] Spikes
+|move|p1a: Aurora|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|21/100
+|
+|-heal|p2a: Suicune|71/100|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|57/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|65/100|[from] Sandstorm
+|-heal|p1a: Aurora|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|51/100 tox|[from] psn
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729552855
+|switch|p1a: Wyrm|Steelix, M|100/100
+|-damage|p1a: Wyrm|88/100|[from] Spikes
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|-heal|p1a: Wyrm|94/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729552866
+|move|p2a: Suicune|Surf|p1a: Wyrm
+|-supereffective|p1a: Wyrm
+|-damage|p1a: Wyrm|0 fnt
+|faint|p1a: Wyrm
+|
+|t:|1729552873
+|switch|p1a: Rocks Fall|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729552884
+|move|p1a: Rocks Fall|Substitute|p1a: Rocks Fall
+|-start|p1a: Rocks Fall|Substitute
+|-damage|p1a: Rocks Fall|75/100
+|move|p2a: Suicune|Surf|p1a: Rocks Fall
+|-supereffective|p1a: Rocks Fall
+|-end|p1a: Rocks Fall|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729552898
+|switch|p2a: Salamence|Salamence, M|67/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rocks Fall|atk|1
+|move|p1a: Rocks Fall|Substitute|p1a: Rocks Fall
+|-start|p1a: Rocks Fall|Substitute
+|-damage|p1a: Rocks Fall|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|61/100|[from] Sandstorm
+|-heal|p2a: Salamence|67/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729552907
+|move|p1a: Rocks Fall|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|35/100
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|28/100|[from] Sandstorm
+|-heal|p2a: Salamence|35/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729552915
+|move|p2a: Salamence|Protect|p2a: Salamence
+|-singleturn|p2a: Salamence|Protect
+|move|p1a: Rocks Fall|Rock Slide|p2a: Salamence
+|-activate|p2a: Salamence|Protect
+|
+|-heal|p2a: Salamence|85/100|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729552934
+|switch|p2a: Claydol|Claydol|94/100
+|move|p1a: Rocks Fall|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|91/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729552947
+|move|p1a: Rocks Fall|Hidden Power|p2a: Claydol
+|-damage|p2a: Claydol|75/100
+|move|p2a: Claydol|Rapid Spin|p1a: Rocks Fall
+|-resisted|p1a: Rocks Fall
+|-activate|p1a: Rocks Fall|Substitute|[damage]
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|81/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|Redrame has 270 seconds left.
+|
+|t:|1729552982
+|switch|p1a: Despot|Tyranitar, M, shiny|45/100
+|-damage|p1a: Despot|32/100|[from] Spikes
+|move|p2a: Claydol|Shadow Ball|p1a: Despot
+|-resisted|p1a: Despot
+|-damage|p1a: Despot|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|87/100|[from] item: Leftovers
+|-heal|p1a: Despot|32/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|Redrame has 270 seconds left.
+|
+|t:|1729553000
+|switch|p2a: Suicune|Suicune|71/100
+|switch|p1a: Razor|Skarmory, F|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|65/100|[from] Sandstorm
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729553022
+|switch|p2a: Claydol|Claydol|87/100
+|move|p1a: Razor|Roar|p2a: Claydol
+|drag|p2a: Salamence|Salamence, M|85/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Razor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729553041
+|switch|p1a: Rocks Fall|Aerodactyl, F|50/100
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729553050
+|switch|p2a: Suicune|Suicune|71/100
+|move|p1a: Rocks Fall|Substitute|p1a: Rocks Fall
+|-start|p1a: Rocks Fall|Substitute
+|-damage|p1a: Rocks Fall|25/100
+|
+|-heal|p2a: Suicune|100/100|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-enditem|p1a: Rocks Fall|Liechi Berry|[eat]
+|-boost|p1a: Rocks Fall|atk|1|[from] item: Liechi Berry
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729553067
+|move|p1a: Rocks Fall|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|67/100
+|move|p2a: Suicune|Surf|p1a: Rocks Fall
+|-supereffective|p1a: Rocks Fall
+|-end|p1a: Rocks Fall|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|60/100|[from] Sandstorm
+|-heal|p2a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729553082
+|move|p1a: Rocks Fall|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|35/100
+|cant|p2a: Suicune|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|29/100|[from] Sandstorm
+|-heal|p2a: Suicune|35/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729553094
+|switch|p2a: Salamence|Salamence, M|85/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rocks Fall|atk|1
+|move|p1a: Rocks Fall|Rock Slide|p2a: Salamence|[miss]
+|-miss|p1a: Rocks Fall|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|Redrame has 240 seconds left.
+|
+|t:|1729553114
+|switch|p2a: Claydol|Claydol|87/100
+|move|p1a: Rocks Fall|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|78/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729553132
+|switch|p1a: Razor|Skarmory, F|16/100
+|move|p2a: Claydol|Shadow Ball|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|10/100
+|-unboost|p1a: Razor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|84/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729553145
+|switch|p2a: Suicune|Suicune|35/100
+|move|p1a: Razor|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|29/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|29/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1729553154
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Razor|Spikes|p2a: Suicune
+|-sidestart|p2: Redrame|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729553166
+|switch|p2a: Claydol|Claydol|84/100
+|move|p1a: Razor|Roar|p2a: Claydol
+|drag|p2a: Salamence|Salamence, M|85/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Razor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729553184
+|move|p2a: Salamence|Wish|p2a: Salamence
+|move|p1a: Razor|Toxic|p2a: Salamence|[miss]
+|-miss|p1a: Razor|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729553199
+|switch|p2a: Claydol|Claydol|84/100
+|move|p1a: Razor|Protect||[still]
+|-fail|p1a: Razor
+|
+|-heal|p2a: Claydol|100/100|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|62
+|
+|t:|1729553207
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|8/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Razor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1729553214
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Razor|Spikes|p2a: Blissey
+|-sidestart|p2: Redrame|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729553224
+|move|p1a: Razor|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729553250
+|switch|p2a: Claydol|Claydol|94/100
+|move|p1a: Razor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1729553264
+|move|p1a: Razor|Protect|p1a: Razor
+|-singleturn|p1a: Razor|Protect
+|move|p2a: Claydol|Shadow Ball|p1a: Razor
+|-activate|p1a: Razor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|88/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1729553281
+|move|p1a: Razor|Protect|p1a: Razor
+|-singleturn|p1a: Razor|Protect
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-activate|p1a: Razor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1729553289
+|switch|p2a: Salamence|Salamence, M|85/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Razor|atk|1
+|move|p1a: Razor|Spikes|p2a: Salamence
+|-sidestart|p2: Redrame|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|78/100|[from] Sandstorm
+|-heal|p2a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729553298
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|move|p1a: Razor|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|78/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|t:|1729553308
+|switch|p1a: Despot|Tyranitar, M, shiny|32/100
+|-damage|p1a: Despot|20/100|[from] Spikes
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|-heal|p1a: Despot|26/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729553318
+|move|p2a: Blissey|Seismic Toss|p1a: Despot
+|-damage|p1a: Despot|1/100
+|move|p1a: Despot|Substitute|p1a: Despot
+|-fail|p1a: Despot|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|-heal|p1a: Despot|7/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729553328
+|move|p2a: Blissey|Seismic Toss|p1a: Despot
+|-damage|p1a: Despot|0 fnt
+|faint|p1a: Despot
+|
+|t:|1729553335
+|switch|p1a: Rocks Fall|Aerodactyl, F|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729553342
+|move|p1a: Rocks Fall|Rock Slide|p2a: Blissey|[miss]
+|-miss|p1a: Rocks Fall|p2a: Blissey
+|move|p2a: Blissey|Ice Beam|p1a: Rocks Fall
+|-supereffective|p1a: Rocks Fall
+|-damage|p1a: Rocks Fall|0 fnt
+|faint|p1a: Rocks Fall
+|
+|t:|1729553343
+|switch|p1a: Razor|Skarmory, F|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1729553361
+|switch|p2a: Claydol|Claydol|76/100
+|move|p1a: Razor|Toxic|p2a: Claydol|[miss]
+|-miss|p1a: Razor|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1729553368
+|move|p2a: Claydol|Rapid Spin|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|6/100
+|-sideend|p2: Redrame|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Razor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|82/100 tox|[from] psn
+|upkeep
+|turn|76
+|
+|t:|1729553378
+|move|p2a: Claydol|Shadow Ball|p1a: Razor
+|-resisted|p1a: Razor
+|-damage|p1a: Razor|0 fnt
+|faint|p1a: Razor
+|
+|t:|1729553380
+|switch|p1a: Aurora|Suicune|51/100 tox
+|-damage|p1a: Aurora|38/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|32/100 tox|[from] Sandstorm
+|-heal|p1a: Aurora|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Aurora|32/100 tox|[from] psn
+|-heal|p2a: Claydol|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|t:|1729553391
+|move|p1a: Aurora|Rest|p1a: Aurora
+|-status|p1a: Aurora|slp|[from] move: Rest
+|-heal|p1a: Aurora|100/100 slp|[silent]
+|move|p2a: Claydol|Explosion|p1a: Aurora
+|-damage|p1a: Aurora|23/100 slp
+|faint|p2a: Claydol
+|
+|t:|1729553401
+|switch|p2a: Blissey|Blissey, F|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aurora|17/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|72/100|[from] Sandstorm
+|-heal|p1a: Aurora|23/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729553408
+|cant|p1a: Aurora|slp
+|move|p2a: Blissey|Seismic Toss|p1a: Aurora
+|-damage|p1a: Aurora|0 fnt
+|faint|p1a: Aurora
+|
+|win|Redrame
+|c|☆Count Sliggoo II|Gg.
+|c|☆Redrame|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801146">
+{"id":"smogtours-gen3ou-801146","format":"[Gen 3] OU","players":["Count Sliggoo II","Redrame"],"uploadtime":1729553408,"views":67,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

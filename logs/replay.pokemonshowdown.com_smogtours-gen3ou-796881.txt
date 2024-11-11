@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Oskari SOSA vs. xGangg - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Oskari SOSA and xGangg! Format: [Gen 3] OU; Date: Oct 10, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796881">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728567941
+|gametype|singles
+|player|p1|Oskari SOSA|giovanni|
+|player|p2|xGangg|#teamvictini|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728567941
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Smeargle|Smeargle, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆xGangg|GLHF
+|c|☆Oskari SOSA|u2
+|
+|t:|1728567956
+|move|p2a: Smeargle|Destiny Bond|p2a: Smeargle
+|-singlemove|p2a: Smeargle|Destiny Bond
+|move|p1a: Tyranitar|Earthquake|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Destiny Bond
+|faint|p1a: Tyranitar
+|inactive|Oskari SOSA has 270 seconds left.
+|
+|t:|1728567989
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Oskari SOSA has 270 seconds left.
+|
+|t:|1728568001
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Zapdos|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1728568007
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Protect||[still]
+|-fail|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Oskari SOSA has 270 seconds left.
+|inactive|xGangg has 270 seconds left.
+|inactive|Oskari SOSA has 240 seconds left.
+|
+|t:|1728568063
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|48/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-damage|p1a: Zapdos|42/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728568073
+|switch|p1a: Swampert|Swampert, M|94/100 tox
+|move|p2a: Zapdos|Thunderbolt|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1728568087
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1728568100
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728568119
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|76/100
+|move|p1a: Swampert|Toxic||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728568123
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Swampert|Hydro Pump|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1728568129
+|move|p2a: Swampert|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|81/100
+|move|p1a: Swampert|Surf|p2a: Swampert
+|-end|p2a: Swampert|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728568137
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|inactive|Oskari SOSA has 270 seconds left.
+|
+|t:|1728568146
+|move|p2a: Swampert|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|move|p1a: Skarmory|Spikes|p2a: Swampert
+|-sidestart|p2: xGangg|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728568152
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Swampert|Ice Beam|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆Oskari SOSA|/log Oskari SOSA made the replay of this battle unlisted.
+|
+|t:|1728568168
+|move|p2a: Swampert|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100
+|move|p1a: Skarmory|Roar|p2a: Swampert
+|drag|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728568175
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728568183
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Swampert|Swampert, M|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728568189
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Swampert|[miss]
+|-miss|p2a: Gengar|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728568195
+|move|p2a: Gengar|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|32/100
+|move|p1a: Swampert|Surf|p2a: Gengar
+|-damage|p2a: Gengar|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Swampert|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728568202
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Gengar|Hidden Power|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Swampert|44/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728568212
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Gengar
+|-status|p1a: Gengar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Gengar|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Gengar|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|xGangg has 270 seconds left.
+|
+|t:|1728568262
+|move|p2a: Gengar|Ice Punch|p1a: Gengar
+|-damage|p1a: Gengar|63/100 brn
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|Oskari SOSA disconnected and has 300 seconds to reconnect!
+|player|p1|
+|
+|t:|1728568277
+|switch|p2a: Metagross|Metagross|99/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|57/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Gengar|51/100 brn|[from] brn
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Oskari SOSA reconnected and has 300 seconds left.
+|player|p1|Oskari SOSA|giovanni|
+|
+|t:|1728568291
+|move|p1a: Gengar|Will-O-Wisp|p2a: Metagross|[miss]
+|-miss|p1a: Gengar|p2a: Metagross
+|move|p2a: Metagross|Meteor Mash|p1a: Gengar|[miss]
+|-miss|p2a: Metagross|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|45/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Gengar|39/100 brn|[from] brn
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728568296
+|move|p1a: Gengar|Will-O-Wisp|p2a: Metagross
+|-status|p2a: Metagross|brn
+|move|p2a: Metagross|Meteor Mash|p1a: Gengar|[miss]
+|-miss|p2a: Metagross|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|33/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Gengar|26/100 brn|[from] brn
+|-heal|p2a: Metagross|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|xGangg has 270 seconds left.
+|
+|t:|1728568302
+|switch|p1a: Skarmory|Skarmory, F|37/100
+|move|p2a: Metagross|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|82/100 brn|[from] brn
+|-heal|p1a: Skarmory|31/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|xGangg has 270 seconds left.
+|
+|t:|1728568315
+|switch|p2a: Zapdos|Zapdos|49/100
+|move|p1a: Skarmory|Spikes|p2a: Zapdos
+|-sidestart|p2: xGangg|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|37/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Oskari SOSA has 270 seconds left.
+|
+|t:|1728568346
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728568349
+|switch|p1a: Swampert|Swampert, M|44/100
+|move|p2a: Zapdos|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|44/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1728568355
+|move|p2a: Zapdos|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|23/100 tox
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|29/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728568369
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Zapdos|Toxic|p1a: Swampert|[miss]
+|-miss|p2a: Zapdos|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/100|[from] Sandstorm
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|36/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728568376
+|move|p2a: Zapdos|Toxic|p1a: Swampert|[miss]
+|-miss|p2a: Zapdos|p1a: Swampert
+|move|p1a: Swampert|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|8/100|[from] Sandstorm
+|-heal|p2a: Zapdos|14/100|[from] item: Leftovers
+|-heal|p1a: Swampert|42/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728568380
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|8/100|[from] Sandstorm
+|-heal|p2a: Zapdos|14/100|[from] item: Leftovers
+|-heal|p1a: Swampert|48/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728568384
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Zapdos|Hidden Power|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|8/100|[from] Sandstorm
+|-heal|p2a: Zapdos|14/100|[from] item: Leftovers
+|-heal|p1a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728568394
+|move|p2a: Zapdos|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728568405
+|switch|p2a: Swampert|Swampert, F|51/100
+|-damage|p2a: Swampert|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|54/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1728568408
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|9/100
+|move|p1a: Swampert|Surf|p2a: Swampert
+|-end|p2a: Swampert|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-enditem|p2a: Swampert|Salac Berry|[eat]
+|-boost|p2a: Swampert|spe|1|[from] item: Salac Berry
+|-heal|p1a: Swampert|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|48/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1728568416
+|switch|p1a: Gengar|Gengar, M|26/100 brn
+|move|p2a: Swampert|Hydro Pump|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|t:|1728568419
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1728568433
+|move|p1a: Aerodactyl|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1728568451
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1728568458
+|move|p1a: Aerodactyl|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728568462
+|switch|p2a: Metagross|Metagross|82/100 brn
+|-damage|p2a: Metagross|65/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|59/100 brn|[from] brn
+|upkeep
+|turn|38
+|c|☆Oskari SOSA|mb
+|
+|t:|1728568466
+|move|p1a: Aerodactyl|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|win|Oskari SOSA
+|c|☆xGangg|gg
+|c|☆Oskari SOSA|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796881">
+{"id":"smogtours-gen3ou-796881","format":"[Gen 3] OU","players":["Oskari SOSA","xGangg"],"uploadtime":1728568466,"views":72,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

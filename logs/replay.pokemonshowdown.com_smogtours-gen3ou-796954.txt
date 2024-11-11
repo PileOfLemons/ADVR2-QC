@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Rambode vs. YungLindo - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Rambode and YungLindo! Format: [Gen 3] OU; Date: Oct 10, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796954">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728584149
+|gametype|singles
+|player|p1|Rambode|volkner|
+|player|p2|YungLindo|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728584149
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆Rambode|gl hf
+|c|☆YungLindo|gl hf
+|
+|t:|1728584172
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728584174
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Baton Pass
+|move|p1a: Tyranitar|Rock Slide|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584208
+|switch|p2a: Celebi|Celebi|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584221
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Blissey|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Rambode has 270 seconds left.
+|inactive|YungLindo has 270 seconds left.
+|inactive|Rambode has 240 seconds left.
+|
+|t:|1728584284
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Blissey|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|0 fnt|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|faint|p2a: Celebi
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Rambode|mb
+|
+|t:|1728584289
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|5
+|
+|t:|1728584295
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|85/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Rambode has 240 seconds left.
+|
+|t:|1728584308
+|switch|p2a: Jirachi|Jirachi|77/100
+|move|p1a: Blissey|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Rambode has 240 seconds left.
+|inactive|YungLindo has 270 seconds left.
+|
+|t:|1728584329
+|move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100 par
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|YungLindo has 270 seconds left.
+|
+|t:|1728584335
+|move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|34/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728584342
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728584352
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1728584362
+|move|p2a: Gengar|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|61/100 brn
+|move|p1a: Tyranitar|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|42/100|[from] Sandstorm
+|-heal|p2a: Gengar|49/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|48/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1728584368
+|switch|p2a: Jirachi|Jirachi|40/100 par
+|move|p1a: Tyranitar|Rock Slide|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|23/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|36/100 brn|[from] brn
+|-heal|p2a: Jirachi|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584375
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Jirachi|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584391
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Zapdos|[miss]
+|-miss|p1a: Swampert|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|46/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728584395
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Zapdos|Hidden Power|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584418
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584439
+|move|p2a: Zapdos|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|50/100
+|move|p1a: Forretress|Spikes|p2a: Zapdos
+|-sidestart|p2: YungLindo|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Forretress|56/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728584444
+|move|p2a: Zapdos|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|6/100
+|move|p1a: Forretress|Explosion|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|faint|p1a: Forretress
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584455
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Rambode has 270 seconds left.
+|
+|t:|1728584461
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728584462
+|switch|p2a: Gengar|Gengar, M|49/100|[from] Baton Pass
+|move|p1a: Blissey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|12/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|18/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728584467
+|switch|p1a: Tyranitar|Tyranitar, M|36/100 brn
+|move|p2a: Gengar|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|1/100 brn
+|faint|p2a: Gengar
+|
+|t:|1728584478
+|switch|p2a: Zapdos|Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|faint|p1a: Tyranitar
+|upkeep
+|
+|t:|1728584481
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|21
+|
+|t:|1728584490
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|28/100|[from] Sandstorm
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-heal|p2a: Zapdos|34/100|[from] item: Leftovers
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728584499
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|9/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|3/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|9/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728584504
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728584505
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from] Baton Pass
+|-damage|p2a: Dugtrio|88/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728584508
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|move|p1a: Blissey|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728584512
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|3/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|47/100|[from] Sandstorm
+|-heal|p1a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728584515
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|9/100
+|move|p1a: Blissey|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1728584518
+|switch|p2a: Zapdos|Zapdos|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|3/100|[from] Sandstorm
+|-damage|p1a: Blissey|3/100|[from] Sandstorm
+|-heal|p2a: Zapdos|9/100|[from] item: Leftovers
+|-heal|p1a: Blissey|9/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728584532
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728584535
+|switch|p1a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|3/100|[from] Sandstorm
+|-heal|p2a: Zapdos|9/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728584544
+|move|p2a: Zapdos|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|57/100
+|move|p1a: Magneton|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728584546
+|switch|p2a: Jirachi|Jirachi|35/100 par
+|-damage|p2a: Jirachi|23/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728584548
+|move|p1a: Magneton|Thunderbolt|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728584550
+|switch|p2a: Suicune|Suicune|91/100
+|-damage|p2a: Suicune|79/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|73/100|[from] Sandstorm
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728584554
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Magneton|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|73/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1728584560
+|move|p2a: Suicune|Surf|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1728584563
+|switch|p1a: Gligar|Gligar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|67/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|73/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|61/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1728584572
+|move|p1a: Gligar|Endure|p1a: Gligar
+|-singleturn|p1a: Gligar|move: Endure
+|move|p2a: Suicune|Surf|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-activate|p1a: Gligar|move: Endure
+|-damage|p1a: Gligar|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|55/100 tox|[from] Sandstorm
+|-enditem|p1a: Gligar|Salac Berry|[eat]
+|-boost|p1a: Gligar|spe|1|[from] item: Salac Berry
+|-heal|p2a: Suicune|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|43/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1728584576
+|move|p1a: Gligar|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|10/100 tox
+|move|p2a: Suicune|Surf|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|t:|1728584578
+|switch|p1a: Swampert|Swampert, M|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|4/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|0 fnt|[from] psn
+|faint|p2a: Suicune
+|
+|win|Rambode
+|upkeep
+|player|p2|
+|c|☆Rambode|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796954">
+{"id":"smogtours-gen3ou-796954","format":"[Gen 3] OU","players":["Rambode","YungLindo"],"uploadtime":1728584578,"views":133,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

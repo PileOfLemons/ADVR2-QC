@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Zacynthius vs. Himurabt - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Zacynthius and Himurabt! Format: [Gen 3] OU; Date: Oct 2, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2214329118">
+|j|☆Zacynthius
+|j|☆Himurabt
+|t:|1727879939
+|gametype|singles
+|player|p1|Zacynthius|veteran|
+|player|p2|Himurabt|pilot|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727879939
+|start
+|switch|p1a: El Draco|Salamence, M|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|-ability|p1a: El Draco|Intimidate|boost
+|-unboost|p2a: Hariyama|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Himurabt)
+|inactive|Zacynthius has 270 seconds left.
+|
+|t:|1727879984
+|switch|p1a: Sgt. Bash|Metagross|100/100
+|move|p2a: Hariyama|Fake Out|p1a: Sgt. Bash
+|-resisted|p1a: Sgt. Bash
+|-damage|p1a: Sgt. Bash|96/100
+|
+|upkeep
+|turn|2
+|
+|t:|1727880003
+|move|p1a: Sgt. Bash|Meteor Mash|p2a: Hariyama|[miss]
+|-miss|p1a: Sgt. Bash|p2a: Hariyama
+|move|p2a: Hariyama|Knock Off|p1a: Sgt. Bash
+|-damage|p1a: Sgt. Bash|94/100
+|-enditem|p1a: Sgt. Bash|Choice Band|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|3
+|
+|t:|1727880012
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Sgt. Bash|Meteor Mash|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|58/100
+|
+|-heal|p2a: Starmie|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1727880036
+|switch|p1a: Layers|Celebi|100/100
+|move|p2a: Starmie|Thunder Wave|p1a: Layers
+|-status|p1a: Layers|par
+|
+|-heal|p2a: Starmie|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727880041
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Layers|Calm Mind|p1a: Layers
+|-boost|p1a: Layers|spa|1
+|-boost|p1a: Layers|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1727880046
+|move|p2a: Dugtrio|Hidden Power|p1a: Layers
+|-supereffective|p1a: Layers
+|-damage|p1a: Layers|9/100 par
+|move|p1a: Layers|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Layers|36/100 par|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|t:|1727880056
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Layers|29/100 par|[from] Sandstorm
+|-heal|p1a: Layers|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727880074
+|-curestatus|p1a: Layers|par|[from] ability: Natural Cure
+|switch|p1a: El Draco|Salamence, M|100/100
+|-ability|p1a: El Draco|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Ice Beam|p1a: El Draco
+|-supereffective|p1a: El Draco
+|-damage|p1a: El Draco|0 fnt
+|faint|p1a: El Draco
+|
+|t:|1727880083
+|switch|p1a: Comfortable Dug|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1727880089
+|move|p1a: Comfortable Dug|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Comfortable Dug
+|-supereffective|p1a: Comfortable Dug
+|-damage|p1a: Comfortable Dug|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1727880096
+|move|p1a: Comfortable Dug|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1727880108
+|switch|p2a: Crobat|Crobat, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1727880114
+|switch|p1a: Sgt. Bash|Metagross|94/100
+|move|p2a: Crobat|Shadow Ball|p1a: Sgt. Bash
+|-damage|p1a: Sgt. Bash|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|88/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1727880121
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|move|p1a: Sgt. Bash|Meteor Mash|p2a: Hariyama
+|-damage|p2a: Hariyama|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|44/100|[from] Sandstorm
+|-heal|p2a: Hariyama|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1727880129
+|move|p2a: Hariyama|Fake Out|p1a: Sgt. Bash
+|-resisted|p1a: Sgt. Bash
+|-damage|p1a: Sgt. Bash|64/100
+|cant|p1a: Sgt. Bash|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|44/100|[from] Sandstorm
+|-heal|p2a: Hariyama|50/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1727880137
+|switch|p2a: Starmie|Starmie|70/100
+|move|p1a: Sgt. Bash|Meteor Mash|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|18/100|[from] Sandstorm
+|-heal|p2a: Starmie|24/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1727880145
+|move|p2a: Starmie|Surf|p1a: Sgt. Bash
+|-damage|p1a: Sgt. Bash|16/100
+|move|p1a: Sgt. Bash|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|t:|1727880153
+|switch|p2a: Crobat|Crobat, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|82/100|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|Zacynthius has 270 seconds left.
+|
+|t:|1727880185
+|switch|p1a: Comfortable Dug|Dugtrio, F|22/100
+|move|p2a: Crobat|Shadow Ball|p1a: Comfortable Dug
+|-damage|p1a: Comfortable Dug|0 fnt
+|faint|p1a: Comfortable Dug
+|inactive|Zacynthius has 270 seconds left.
+|
+|t:|1727880201
+|switch|p1a: Bert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|76/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1727880211
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Bert|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|61/100
+|-status|p2a: Gengar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|55/100 frz|[from] Sandstorm
+|-heal|p2a: Gengar|61/100 frz|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1727880217
+|cant|p2a: Gengar|frz
+|move|p1a: Bert|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|22/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|15/100 frz|[from] Sandstorm
+|-heal|p2a: Gengar|22/100 frz|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727880222
+|cant|p2a: Gengar|frz
+|move|p1a: Bert|Ice Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1727880228
+|switch|p2a: Hariyama|Hariyama, F|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|44/100|[from] Sandstorm
+|-heal|p2a: Hariyama|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727880233
+|move|p1a: Bert|Hydro Pump|p2a: Hariyama|[miss]
+|-miss|p1a: Bert|p2a: Hariyama
+|move|p2a: Hariyama|Brick Break|p1a: Bert
+|-damage|p1a: Bert|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|44/100|[from] Sandstorm
+|-heal|p1a: Bert|73/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1727880239
+|move|p1a: Bert|Hydro Pump|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1727880241
+|switch|p2a: Crobat|Crobat, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|70/100|[from] Sandstorm
+|-heal|p1a: Bert|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727880245
+|move|p2a: Crobat|Shadow Ball|p1a: Bert
+|-damage|p1a: Bert|53/100
+|move|p1a: Bert|Ice Beam|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|win|Zacynthius
+|c|☆Zacynthius|GG
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2214329118">
+{"id":"gen3ou-2214329118","format":"[Gen 3] OU","players":["Zacynthius","Himurabt"],"uploadtime":1727880254,"views":92,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

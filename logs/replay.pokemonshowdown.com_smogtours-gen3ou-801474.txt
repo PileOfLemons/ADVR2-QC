@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: cd56 vs. squeenr - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between cd56 and squeenr! Format: [Gen 3] OU; Date: Oct 23, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801474">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729725106
+|gametype|singles
+|player|p1|cd56|1|
+|player|p2|squeenr|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729725106
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1729725116
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Tyranitar|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1729725146
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1729725156
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: cd56|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729725165
+|move|p1a: Starmie|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729725177
+|move|p1a: Starmie|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|91/100 par
+|-sideend|p1: cd56|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729725196
+|move|p1a: Starmie|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100 par
+|move|p2a: Skarmory|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729725209
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: cd56|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729725223
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725241
+|move|p2a: Tyranitar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725255
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|-damage|p1a: Hariyama|88/100|[from] Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Hariyama
+|-resisted|p1a: Hariyama
+|-damage|p1a: Hariyama|69/100
+|
+|-heal|p1a: Hariyama|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725271
+|switch|p2a: Skarmory|Skarmory, M|78/100 par
+|switch|p1a: Starmie|Starmie|94/100
+|-damage|p1a: Starmie|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100|[from] Sandstorm
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725283
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100|[from] Sandstorm
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725295
+|switch|p1a: Blissey|Blissey, F|66/100
+|-damage|p1a: Blissey|54/100|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725305
+|move|p2a: Gengar|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725316
+|move|p2a: Gengar|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|31/100
+|move|p1a: Blissey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|67/100|[from] Sandstorm
+|-damage|p1a: Blissey|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|31/100|[from] item: Leftovers
+|-end|p1a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|16
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725326
+|move|p2a: Gengar|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|move|p1a: Blissey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|45/100
+|-status|p2a: Gengar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|39/100 frz|[from] Sandstorm
+|-damage|p1a: Blissey|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|45/100 frz|[from] item: Leftovers
+|-heal|p1a: Blissey|31/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725344
+|switch|p2a: Tyranitar|Tyranitar, F|99/100
+|move|p1a: Blissey|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|24/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|31/100|[from] item: Leftovers
+|-end|p1a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|18
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725358
+|switch|p1a: Starmie|Starmie|82/100
+|-damage|p1a: Starmie|70/100|[from] Spikes
+|move|p2a: Tyranitar|Taunt|p1a: Starmie
+|-start|p1a: Starmie|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|63/100|[from] Sandstorm
+|-heal|p1a: Starmie|70/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725371
+|move|p1a: Starmie|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|18/100|[from] Sandstorm
+|-heal|p1a: Starmie|25/100|[from] item: Leftovers
+|-end|p1a: Starmie|move: Taunt|[silent]
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725388
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|68/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆cd56|cool set
+|
+|t:|1729725398
+|switch|p1a: Blissey|Blissey, F|31/100
+|-damage|p1a: Blissey|18/100|[from] Spikes
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|12/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|18/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|12/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1729725411
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1729725422
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|-damage|p1a: Hariyama|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725436
+|switch|p2a: Gengar|Gengar, M|45/100 frz
+|move|p1a: Hariyama|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|39/100 frz|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|45/100 frz|[from] item: Leftovers
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725449
+|cant|p2a: Gengar|frz
+|move|p1a: Hariyama|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|13/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100 frz|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100 frz|[from] item: Leftovers
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725467
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|99/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729725482
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Swampert|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1729725490
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Skarmory|Spikes|p2a: Moltres
+|-sidestart|p2: squeenr|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729725501
+|switch|p1a: Starmie|Starmie|75/100
+|-damage|p1a: Starmie|62/100|[from] Spikes
+|move|p2a: Moltres|Flamethrower|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|25/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|31/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725515
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|81/100
+|move|p2a: Moltres|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|16/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|22/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|squeenr has 270 seconds left.
+|
+|t:|1729725538
+|move|p1a: Starmie|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|27/100
+|move|p2a: Moltres|Roar|p1a: Starmie
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|21/100|[from] Sandstorm
+|-heal|p2a: Moltres|27/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729725552
+|switch|p2a: Swampert|Swampert, F|99/100
+|-damage|p2a: Swampert|86/100|[from] Spikes
+|move|p1a: Tyranitar|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729725562
+|move|p2a: Swampert|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|move|p1a: Tyranitar|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729725572
+|move|p2a: Swampert|Hydro Pump|p1a: Tyranitar|[miss]
+|-miss|p2a: Swampert|p1a: Tyranitar
+|move|p1a: Tyranitar|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|inactive|squeenr has 240 seconds left.
+|
+|t:|1729725598
+|switch|p2a: Tyranitar|Tyranitar, F|38/100
+|-damage|p2a: Tyranitar|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|32/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|47/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729725606
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729725612
+|switch|p1a: Starmie|Starmie|22/100
+|-damage|p1a: Starmie|10/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|4/100|[from] Sandstorm
+|-heal|p1a: Starmie|10/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729725623
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|54/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|60/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729725634
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|-sideend|p1: cd56|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|54/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Starmie|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|54/100 tox|[from] psn
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729725647
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 tox
+|move|p2a: Blissey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|63/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Starmie|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|57/100 tox|[from] psn
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729725658
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Skarmory|77/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729725671
+|switch|p2a: Gengar|Gengar, M|13/100 frz
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: squeenr|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100 frz|[from] Sandstorm
+|-heal|p2a: Gengar|13/100 frz|[from] item: Leftovers
+|-heal|p1a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729725686
+|-curestatus|p2a: Gengar|frz|[msg]
+|move|p2a: Gengar|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: squeenr|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|76/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1729725697
+|switch|p1a: Swampert|Swampert, F|88/100 tox
+|move|p2a: Gengar|Taunt|p1a: Swampert
+|-start|p1a: Swampert|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729725713
+|switch|p2a: Skarmory|Skarmory, M|84/100 par
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|82/100 tox|[from] psn
+|-end|p1a: Swampert|move: Taunt|[silent]
+|-heal|p2a: Skarmory|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729725726
+|switch|p1a: Starmie|Starmie|57/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: cd56|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|51/100|[from] Sandstorm
+|-heal|p1a: Starmie|57/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729725735
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|move|p2a: Skarmory|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729725752
+|move|p1a: Starmie|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100 par
+|-sideend|p1: cd56|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Skarmory|Taunt|p1a: Starmie
+|-start|p1a: Starmie|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|88/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|82/100 tox|[from] psn
+|-heal|p2a: Skarmory|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729725764
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|76/100 brn
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: cd56|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|-heal|p2a: Skarmory|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|squeenr has 240 seconds left.
+|
+|t:|1729725780
+|switch|p1a: Starmie|Starmie|82/100
+|-damage|p1a: Starmie|70/100|[from] Spikes
+|switch|p2a: Moltres|Moltres|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|63/100|[from] Sandstorm
+|-damage|p2a: Moltres|21/100|[from] Sandstorm
+|-heal|p1a: Starmie|70/100|[from] item: Leftovers
+|-heal|p2a: Moltres|27/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|squeenr has 240 seconds left.
+|
+|t:|1729725791
+|switch|p1a: Hariyama|Hariyama, M|88/100
+|-damage|p1a: Hariyama|76/100|[from] Spikes
+|switch|p2a: Gengar|Gengar, M|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|7/100|[from] Sandstorm
+|-damage|p1a: Hariyama|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|13/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|76/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|squeenr has 240 seconds left.
+|
+|t:|1729725810
+|move|p2a: Gengar|Thunderbolt|p1a: Hariyama
+|-damage|p1a: Hariyama|49/100
+|move|p1a: Hariyama|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|7/100
+|-enditem|p2a: Gengar|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|0 fnt|[from] Sandstorm
+|-damage|p1a: Hariyama|43/100|[from] Sandstorm
+|faint|p2a: Gengar
+|-heal|p1a: Hariyama|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729725822
+|switch|p2a: Moltres|Moltres|27/100
+|turn|50
+|
+|t:|1729725843
+|switch|p1a: Starmie|Starmie|70/100
+|-damage|p1a: Starmie|57/100|[from] Spikes
+|move|p2a: Moltres|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729725846
+|switch|p1a: Swampert|Swampert, F|82/100 tox
+|-damage|p1a: Swampert|69/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|21/100|[from] Sandstorm
+|-heal|p2a: Moltres|27/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|69/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1729725857
+|move|p2a: Moltres|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1729725860
+|switch|p1a: Skarmory|Skarmory, F|70/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|21/100|[from] Sandstorm
+|-heal|p2a: Moltres|27/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|64/100 brn|[from] brn
+|upkeep
+|turn|52
+|inactive|squeenr has 240 seconds left.
+|c|☆cd56|gg
+|
+|t:|1729725869
+|move|p2a: Moltres|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|c|☆cd56|damn
+|
+|t:|1729725872
+|switch|p1a: Hariyama|Hariyama, M|49/100
+|-damage|p1a: Hariyama|37/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|21/100|[from] Sandstorm
+|-damage|p1a: Hariyama|31/100|[from] Sandstorm
+|-heal|p2a: Moltres|27/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|37/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|c|☆cd56|tough break the first game for me
+|
+|t:|1729725882
+|move|p2a: Moltres|Flamethrower|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|win|squeenr
+|c|☆squeenr|gg wp
+|c|☆squeenr|that was a really fun game
+|c|☆cd56|for sure
+|c|☆cd56|i just had to switch there i think and you got me
+|c|☆cd56|if i stayed i lost
+|c|☆cd56|50/50 play
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801474">
+{"id":"smogtours-gen3ou-801474","format":"[Gen 3] OU","players":["cd56","squeenr"],"uploadtime":1729725882,"views":77,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

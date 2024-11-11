@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Euph0riADV vs. Rainer2424 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Euph0riADV and Rainer2424! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2215474939">
+|j|☆Euph0riADV
+|j|☆Rainer2424
+|t:|1728006436
+|gametype|singles
+|player|p1|Euph0riADV|whitney|
+|player|p2|Rainer2424|hiker-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728006436
+|start
+|switch|p1a: Anti-Eulogy|Salamence, F|100/100
+|switch|p2a: MondoGenerator|Metagross|100/100
+|-ability|p1a: Anti-Eulogy|Intimidate|boost
+|-fail|p2a: MondoGenerator|unboost|[from] ability: Clear Body|[of] p2a: MondoGenerator
+|turn|1
+|c|☆Rainer2424|Don’t think I recognize that name
+|
+|t:|1728006448
+|move|p1a: Anti-Eulogy|Fire Blast|p2a: MondoGenerator
+|-supereffective|p2a: MondoGenerator
+|-damage|p2a: MondoGenerator|23/100
+|move|p2a: MondoGenerator|Explosion|p1a: Anti-Eulogy
+|-damage|p1a: Anti-Eulogy|0 fnt
+|faint|p2a: MondoGenerator
+|faint|p1a: Anti-Eulogy
+|c|☆Euph0riADV|Hail the Sun--good band
+|
+|t:|1728006470
+|switch|p1a: Black Serotonin|Tyranitar, M, shiny|100/100
+|switch|p2a: EagleOfDeathMetal|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Black Serotonin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: EagleOfDeathMetal|94/100|[from] Sandstorm
+|-heal|p2a: EagleOfDeathMetal|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728006477
+|switch|p2a: Kyuss|Swampert, M|100/100
+|switch|p1a: Missed Injections|Blissey, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p1a: Missed Injections|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Rainer2424|Badass song names
+|c|☆Euph0riADV|Listen to their album Wake
+|
+|t:|1728006508
+|switch|p2a: QueenStoneAge|Tyranitar, F|100/100
+|move|p1a: Missed Injections|Seismic Toss|p2a: QueenStoneAge
+|-damage|p2a: QueenStoneAge|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p1a: Missed Injections|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Rainer2424|I’ll give it a try
+|
+|t:|1728006521
+|-singleturn|p2a: QueenStoneAge|move: Focus Punch
+|move|p1a: Missed Injections|Thunder Wave|p2a: QueenStoneAge
+|-status|p2a: QueenStoneAge|par
+|move|p2a: QueenStoneAge|Focus Punch|p1a: Missed Injections
+|-supereffective|p1a: Missed Injections
+|-damage|p1a: Missed Injections|0 fnt
+|faint|p1a: Missed Injections
+|c|☆Euph0riADV|Oh no
+|c|☆Rainer2424|Full para there would have been hilarious
+|
+|t:|1728006552
+|switch|p1a: Dis Syndrome|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1728006555
+|switch|p2a: Kyuss|Swampert, M|100/100
+|move|p1a: Dis Syndrome|Earthquake|p2a: Kyuss
+|-damage|p2a: Kyuss|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kyuss|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Rainer2424|Yeah I’m definitely an album guy though
+|
+|t:|1728006579
+|switch|p1a: Railmaster|Forretress, M|100/100
+|move|p2a: Kyuss|Toxic|p1a: Railmaster
+|-immune|p1a: Railmaster
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kyuss|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Rainer2424|They similar to rush?
+|
+|t:|1728006588
+|switch|p2a: QueenStoneAge|Tyranitar, F|74/100 par
+|move|p1a: Railmaster|Spikes|p2a: QueenStoneAge
+|-sidestart|p2: Rainer2424|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|c|☆Euph0riADV|They're heavier
+|c|☆Rainer2424|More recent?
+|c|☆Euph0riADV|But a great mix of technical and melodic stuff
+|c|☆Euph0riADV|Yeah they're like 2010s to now
+|
+|t:|1728006628
+|switch|p1a: Dis Syndrome|Aerodactyl, F|100/100
+|move|p2a: QueenStoneAge|Rock Slide|p1a: Dis Syndrome
+|-supereffective|p1a: Dis Syndrome
+|-damage|p1a: Dis Syndrome|0 fnt
+|faint|p1a: Dis Syndrome
+|c|☆Rainer2424|Honestly checks out
+|c|☆Rainer2424|Idk what you were going for dude
+|c|☆Euph0riADV|I swore you were gonna eq
+|c|☆Rainer2424|Why would I eq though, slide is just more damage
+|c|☆Rainer2424|I mean I could predict the rock resist switch, but then punch is more damage
+|c|☆Euph0riADV|Ah see I thought eq was
+|c|☆Rainer2424|Nah, both are neutral
+|c|☆Rainer2424|eq is 100, slide is more cuz stab
+|c|☆Euph0riADV|Yeah Im in a pickle
+|
+|t:|1728006709
+|switch|p1a: Black Serotonin|Tyranitar, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1728006718
+|move|p2a: QueenStoneAge|Rock Slide|p1a: Black Serotonin
+|-damage|p1a: Black Serotonin|55/100
+|move|p1a: Black Serotonin|Counter|p2a: QueenStoneAge
+|-damage|p2a: QueenStoneAge|0 fnt
+|faint|p2a: QueenStoneAge
+|
+|t:|1728006723
+|switch|p2a: DesertSession|Dugtrio, M|100/100
+|-damage|p2a: DesertSession|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Black Serotonin|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728006727
+|move|p2a: DesertSession|Earthquake|p1a: Black Serotonin
+|-supereffective|p1a: Black Serotonin
+|-damage|p1a: Black Serotonin|0 fnt
+|faint|p1a: Black Serotonin
+|
+|t:|1728006741
+|switch|p1a: Railmaster|Forretress, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1728006751
+|switch|p2a: EagleOfDeathMetal|Zapdos|100/100
+|move|p1a: Railmaster|Explosion|p2a: EagleOfDeathMetal
+|-damage|p2a: EagleOfDeathMetal|2/100
+|faint|p1a: Railmaster
+|
+|t:|1728006755
+|switch|p1a: Cosmic Narcissism|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: EagleOfDeathMetal|0 fnt|[from] Sandstorm
+|faint|p2a: EagleOfDeathMetal
+|upkeep
+|
+|t:|1728006760
+|switch|p2a: DesertSession|Dugtrio, M|88/100
+|-damage|p2a: DesertSession|76/100|[from] Spikes
+|turn|12
+|
+|t:|1728006764
+|move|p2a: DesertSession|Earthquake|p1a: Cosmic Narcissism
+|-supereffective|p1a: Cosmic Narcissism
+|-crit|p1a: Cosmic Narcissism
+|-damage|p1a: Cosmic Narcissism|0 fnt
+|faint|p1a: Cosmic Narcissism
+|
+|win|Rainer2424
+|c|☆Euph0riADV|ggs
+|c|☆Rainer2424|Rough crit, but didn’t really matter
+|c|☆Euph0riADV|I have some grinding to do for real
+|c|☆Rainer2424|gg
+|c|☆Rainer2424|Yeah probably
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2215474939">
+{"id":"gen3ou-2215474939","format":"[Gen 3] OU","players":["Euph0riADV","Rainer2424"],"uploadtime":1728006783,"views":200,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,2217 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: VoidVolta vs. Pak - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between VoidVolta and Pak! Format: [Gen 3] OU; Date: Oct 12, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-797621">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728755054
+|gametype|singles
+|player|p1|VoidVolta|1|
+|player|p2|Pak|#pak|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728755054
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|c|☆Pak|hf
+|
+|t:|1728755080
+|move|p2a: Zapdos|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|73/100
+|
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1728755093
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Zapdos|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1728755105
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Weezing
+|-damage|p1a: Weezing|86/100
+|
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728755116
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1728755123
+|switch|p2a: Milotic|Milotic, M|100/100
+|switch|p1a: Weezing|Weezing, M|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Weezing|86/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728755134
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|move|p2a: Milotic|Surf|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|59/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|66/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728755149
+|move|p1a: Gyarados|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|cant|p2a: Milotic|move: Taunt|Toxic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|59/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|66/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728755161
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Gyarados|Hidden Power|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|59/100|[from] Sandstorm
+|-heal|p1a: Gyarados|66/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728755176
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Zapdos|Zapdos|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728755185
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Flygon|Protect||[still]
+|-fail|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728755191
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Milotic|Toxic|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728755199
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|move|p2a: Milotic|Surf|p1a: Flygon
+|-damage|p1a: Flygon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p1a: Flygon|72/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1728755202
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Flygon|78/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728755206
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Milotic|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728755222
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Milotic|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728755228
+|move|p1a: Jirachi|Body Slam|p2a: Milotic
+|-damage|p2a: Milotic|78/100
+|-status|p2a: Milotic|par
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 par
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728755234
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Milotic|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728755237
+|switch|p1a: Zapdos|Zapdos|88/100 tox
+|cant|p2a: Milotic|par
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|94/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|-heal|p2a: Milotic|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728755241
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|-heal|p2a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728755247
+|switch|p1a: Weezing|Weezing, M|92/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|86/100|[from] Sandstorm
+|-heal|p2a: Jirachi|85/100|[from] item: Leftovers
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728755250
+|switch|p2a: Milotic|Milotic, M|100/100 par
+|move|p1a: Weezing|Will-O-Wisp||[still]
+|-fail|p1a: Weezing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|86/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100 par|[from] Sandstorm
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728755258
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728755261
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Milotic|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728755264
+|switch|p1a: Gyarados|Gyarados, F|66/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|move|p2a: Milotic|Refresh||[still]
+|-fail|p2a: Milotic
+|
+|-heal|p1a: Gyarados|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728755275
+|switch|p2a: Zapdos|Zapdos|80/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728755283
+|switch|p1a: Jirachi|Jirachi|86/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728755288
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|36/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728755294
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Jirachi|Body Slam|p2a: Milotic
+|-damage|p2a: Milotic|85/100
+|-status|p2a: Milotic|par
+|
+|-heal|p1a: Jirachi|92/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|79/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Milotic|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728755298
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Milotic|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|79/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Milotic|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728755307
+|switch|p1a: Zapdos|Zapdos|82/100 tox
+|move|p2a: Milotic|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos|tox
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|79/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|-heal|p2a: Milotic|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728755314
+|switch|p2a: Jirachi|Jirachi|85/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|-heal|p2a: Jirachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728755319
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|36/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|76/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|64/100 tox|[from] psn
+|-heal|p2a: Jirachi|43/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728755334
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Jirachi|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100 slp
+|
+|-heal|p2a: Jirachi|93/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|76/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|82/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728755343
+|switch|p2a: Zapdos|Zapdos|80/100
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-damage|p1a: Zapdos|76/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728755355
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100 slp
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-damage|p1a: Zapdos|50/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728755359
+|switch|p2a: Jirachi|Jirachi|99/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728755363
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728755370
+|switch|p2a: Milotic|Milotic, M|85/100 par
+|move|p1a: Jirachi|Fire Punch|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|78/100 par
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728755374
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100|[from] Sandstorm
+|-heal|p2a: Milotic|78/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728755384
+|switch|p1a: Flygon|Flygon, M|78/100
+|move|p2a: Milotic|Surf|p1a: Flygon
+|-damage|p1a: Flygon|38/100
+|
+|-heal|p1a: Flygon|88/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100|[from] Sandstorm
+|-heal|p1a: Flygon|94/100|[from] item: Leftovers
+|-heal|p2a: Milotic|78/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728755395
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Milotic|Toxic|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100|[from] Sandstorm
+|-heal|p1a: Flygon|99/100|[from] item: Leftovers
+|-heal|p2a: Milotic|78/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728755401
+|switch|p1a: Weezing|Weezing, M|92/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|86/100|[from] Sandstorm
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728755405
+|switch|p2a: Tyranitar|Tyranitar, M|93/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|86/100|[from] Sandstorm
+|-heal|p1a: Weezing|92/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|87/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1728755420
+|-activate|p1a: Weezing|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing|[from]Pursuit
+|-damage|p1a: Weezing|44/100
+|switch|p1a: Flygon|Flygon, M|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|80/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1728755429
+|switch|p2a: Milotic|Milotic, M|78/100
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|72/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1728755432
+|move|p1a: Flygon|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|53/100 tox
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|46/100|[from] Sandstorm
+|-heal|p2a: Milotic|53/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728755437
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728755442
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Milotic|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728755446
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728755450
+|switch|p1a: Weezing|Weezing, M|44/100
+|move|p2a: Jirachi|Body Slam|p1a: Weezing
+|-damage|p1a: Weezing|31/100
+|-status|p1a: Weezing|par
+|
+|-heal|p1a: Weezing|81/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|75/100 par|[from] Sandstorm
+|-heal|p1a: Weezing|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728755457
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Weezing|Will-O-Wisp|p2a: Jirachi|[miss]
+|-miss|p1a: Weezing|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|75/100 par|[from] Sandstorm
+|-heal|p1a: Weezing|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728755461
+|switch|p2a: Tyranitar|Tyranitar, M|80/100 brn
+|move|p1a: Weezing|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|74/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|89/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|83/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|68/100 brn|[from] brn
+|-heal|p1a: Weezing|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728755471
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing
+|-damage|p1a: Weezing|69/100 par
+|move|p1a: Weezing|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|62/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|75/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|69/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|56/100 brn|[from] brn
+|-heal|p1a: Weezing|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728755480
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing
+|-damage|p1a: Weezing|54/100 par
+|move|p1a: Weezing|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|50/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|61/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|55/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|44/100 brn|[from] brn
+|-heal|p1a: Weezing|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728755484
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing
+|-damage|p1a: Weezing|38/100 par
+|cant|p1a: Weezing|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|32/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|38/100 brn|[from] brn
+|-heal|p1a: Weezing|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728755488
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing
+|-damage|p1a: Weezing|17/100 par
+|cant|p1a: Weezing|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|11/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|32/100 brn|[from] brn
+|-heal|p1a: Weezing|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728755493
+|move|p2a: Tyranitar|Pursuit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|t:|1728755500
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|25/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|t:|1728755506
+|move|p1a: Tyranitar|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728755515
+|switch|p2a: Milotic|Milotic, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728755521
+|switch|p1a: Jirachi|Jirachi|91/100
+|move|p2a: Milotic|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|74/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728755525
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728755534
+|switch|p1a: Zapdos|Zapdos|56/100 slp
+|move|p2a: Jirachi|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100 slp
+|
+|-heal|p1a: Zapdos|87/100 slp|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728755542
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|92/100
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728755549
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728755559
+|switch|p2a: Zapdos|Zapdos|80/100
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728755563
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|41/100|[from] Sandstorm
+|-heal|p2a: Milotic|47/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728755570
+|switch|p1a: Zapdos|Zapdos|87/100 slp
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|91/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|97/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728755575
+|switch|p2a: Jirachi|Jirachi|100/100
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728755581
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|move|p2a: Jirachi|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728755586
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728755589
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|37/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728755596
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|94/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728755599
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Flygon|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728755603
+|switch|p2a: Milotic|Milotic, M|97/100
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|91/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|91/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|t:|1728755607
+|switch|p1a: Zapdos|Zapdos|66/100
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-damage|p2a: Milotic|85/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728755614
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728755630
+|switch|p2a: Zapdos|Zapdos|80/100
+|move|p1a: Gyarados|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728755635
+|switch|p1a: Jirachi|Jirachi|81/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|73/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728755638
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100
+|move|p1a: Jirachi|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|53/100|[from] Sandstorm
+|-heal|p2a: Zapdos|59/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728755644
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728755647
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Dugtrio|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728755649
+|move|p2a: Dugtrio|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1728755661
+|switch|p1a: Zapdos|Zapdos|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728755666
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728755672
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|72/100
+|move|p2a: Jirachi|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|45/100
+|-status|p1a: Zapdos|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|78/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728755677
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728755684
+|switch|p2a: Zapdos|Zapdos|59/100
+|cant|p1a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728755687
+|switch|p2a: Jirachi|Jirachi|85/100
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728755693
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728755702
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728755709
+|switch|p2a: Milotic|Milotic, M|91/100
+|move|p1a: Tyranitar|Crunch|p2a: Milotic
+|-damage|p2a: Milotic|64/100
+|
+|-heal|p2a: Milotic|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728755721
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Milotic|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728755728
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Zapdos|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1728755732
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|65/100|[from] Sandstorm
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|71/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728755738
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728755743
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|66/100
+|-status|p2a: Jirachi|par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728755753
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|move|p2a: Jirachi|Body Slam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|93/100 par
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728755757
+|-activate|p2a: Jirachi|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Jirachi|[from]Pursuit
+|-damage|p2a: Jirachi|74/100 par
+|switch|p2a: Milotic|Milotic, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728755763
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Milotic|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|70/100 tox|[from] psn
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728755768
+|switch|p2a: Jirachi|Jirachi|74/100 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|48/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|58/100 tox|[from] psn
+|-heal|p2a: Jirachi|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728755773
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728755777
+|cant|p1a: Zapdos|slp
+|move|p2a: Jirachi|Fire Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100 slp
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728755784
+|cant|p1a: Zapdos|slp
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728755791
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|94/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|78/100
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|72/100|[from] Sandstorm
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728755795
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Jirachi|Fire Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728755798
+|cant|p1a: Zapdos|slp
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1728755801
+|switch|p2a: Zapdos|Zapdos|71/100
+|cant|p1a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|83/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1728755804
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Toxic||[still]
+|-fail|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1728755810
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728755817
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|109
+|
+|t:|1728755822
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|74/100|[from] Sandstorm
+|-heal|p2a: Milotic|80/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1728755830
+|switch|p1a: Zapdos|Zapdos|89/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728755835
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728755850
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|113
+|
+|t:|1728755854
+|move|p2a: Claydol|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|41/100 par
+|move|p1a: Tyranitar|Crunch|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|22/100
+|-unboost|p2a: Claydol|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|28/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728755869
+|move|p2a: Claydol|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728755876
+|switch|p1a: Zapdos|Zapdos|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p2a: Claydol|34/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728755889
+|switch|p2a: Jirachi|Jirachi|80/100 par
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1728755894
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|51/100 par
+|cant|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728755903
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1728755907
+|switch|p2a: Jirachi|Jirachi|57/100 par
+|switch|p1a: Flygon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1728755912
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Flygon|Toxic|p2a: Milotic|[miss]
+|-miss|p1a: Flygon|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1728755918
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Milotic|Toxic|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728755920
+|switch|p1a: Zapdos|Zapdos|89/100
+|move|p2a: Milotic|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|83/100 tox|[from] psn
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1728755938
+|move|p1a: Zapdos|Hidden Power|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|93/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|77/100 tox|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|71/100 tox|[from] psn
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1728755944
+|switch|p2a: Jirachi|Jirachi|64/100 par
+|move|p1a: Zapdos|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|57/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|65/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|53/100 tox|[from] psn
+|-heal|p2a: Jirachi|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1728755949
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1728755954
+|switch|p2a: Claydol|Claydol|34/100
+|cant|p1a: Zapdos|slp
+|
+|-heal|p2a: Claydol|84/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Claydol|90/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1728755959
+|switch|p2a: Jirachi|Jirachi|69/100 par
+|switch|p1a: Flygon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728755969
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Flygon|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|66/100|[from] Sandstorm
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1728755973
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1728755976
+|switch|p2a: Jirachi|Jirachi|76/100 par
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1728755980
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Claydol|Claydol|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|96/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1728755983
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|132
+|
+|t:|1728755989
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728755994
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Jirachi|Jirachi|82/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1728755998
+|switch|p2a: Milotic|Milotic, M|94/100
+|move|p1a: Flygon|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|59/100|[from] Sandstorm
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1728756001
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|136
+|
+|t:|1728756004
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1728756009
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Jirachi|Jirachi|88/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1728756019
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|switch|p2a: Milotic|Milotic, M|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1728756024
+|switch|p2a: Jirachi|Jirachi|94/100 par
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|66/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1728756029
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Claydol|Claydol|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1728756032
+|switch|p2a: Milotic|Milotic, M|94/100
+|move|p1a: Flygon|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 tox|[from] psn
+|upkeep
+|turn|142
+|
+|t:|1728756037
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Milotic|82/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|
+|t:|1728756043
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1728756049
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|145
+|
+|t:|1728756055
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1728756060
+|switch|p2a: Jirachi|Jirachi|72/100 par
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1728756064
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Gyarados|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1728756071
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Toxic|p1a: Zapdos|[miss]
+|-miss|p2a: Zapdos|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1728756081
+|switch|p2a: Jirachi|Jirachi|78/100 par
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|150
+|
+|t:|1728756088
+|switch|p2a: Zapdos|Zapdos|80/100
+|move|p1a: Gyarados|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|151
+|
+|t:|1728756091
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|152
+|
+|t:|1728756096
+|switch|p2a: Jirachi|Jirachi|84/100 par
+|move|p1a: Zapdos|Toxic|p2a: Jirachi|[miss]
+|-miss|p1a: Zapdos|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|-heal|p2a: Jirachi|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|t:|1728756100
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1728756104
+|switch|p2a: Zapdos|Zapdos|80/100
+|cant|p1a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1728756107
+|switch|p2a: Jirachi|Jirachi|97/100 par
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Jirachi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1728756111
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|86/100
+|-status|p1a: Gyarados|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|79/100 par|[from] Sandstorm
+|-heal|p1a: Gyarados|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1728756115
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Gyarados|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-damage|p1a: Gyarados|79/100 par|[from] Sandstorm
+|-heal|p2a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|158
+|
+|t:|1728756119
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Flygon
+|-immune|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|74/100|[from] Sandstorm
+|-heal|p2a: Zapdos|81/100|[from] item: Leftovers
+|upkeep
+|turn|159
+|
+|t:|1728756123
+|move|p1a: Flygon|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|move|p2a: Zapdos|Toxic|p1a: Flygon
+|-status|p1a: Flygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|74/100 tox|[from] Sandstorm
+|-damage|p1a: Flygon|94/100 tox|[from] psn
+|-heal|p2a: Zapdos|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|74/100 tox|[from] psn
+|upkeep
+|turn|160
+|
+|t:|1728756126
+|switch|p1a: Gyarados|Gyarados, F|86/100 par
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|switch|p2a: Milotic|Milotic, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|82/100|[from] Sandstorm
+|-damage|p1a: Gyarados|79/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1728756134
+|switch|p2a: Zapdos|Zapdos|74/100 tox
+|move|p1a: Gyarados|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|49/100 tox|[from] Sandstorm
+|-damage|p1a: Gyarados|79/100 par|[from] Sandstorm
+|-heal|p2a: Zapdos|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|49/100 tox|[from] psn
+|-heal|p1a: Gyarados|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1728756140
+|switch|p1a: Flygon|Flygon, M|94/100 tox
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Flygon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|94/100 tox|[from] psn
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|163
+|c|☆VoidVolta|gg
+|-message|VoidVolta forfeited.
+|
+|win|Pak
+|player|p1|
+|c|☆Pak|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797621">
+{"id":"smogtours-gen3ou-797621","format":"[Gen 3] OU","players":["VoidVolta","Pak"],"uploadtime":1728756147,"views":148,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

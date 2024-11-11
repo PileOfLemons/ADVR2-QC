@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: GypsygypsTeacourse vs. tanao - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between GypsygypsTeacourse and tanao! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796596">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728464568
+|gametype|singles
+|player|p1|GypsygypsTeacourse|265|
+|player|p2|tanao|tuber|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728464568
+|start
+|switch|p1a: Swellow|Swellow, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1728464587
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Swellow|Substitute|p1a: Swellow
+|-start|p1a: Swellow|Substitute
+|-damage|p1a: Swellow|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swellow|70/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1728464601
+|move|p1a: Swellow|Endeavor|p2a: Swampert
+|-damage|p2a: Swampert|50/100
+|move|p2a: Swampert|Ice Beam|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-end|p1a: Swellow|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swellow|63/100|[from] Sandstorm
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728464614
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728464628
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728464638
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728464648
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Blissey|Toxic|p1a: Suicune
+|-status|p1a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|69/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|69/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728464660
+|move|p1a: Suicune|Surf|p2a: Blissey
+|-damage|p2a: Blissey|72/100
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|44/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Suicune|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|32/100 tox|[from] psn
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728464675
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|76/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|69/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Suicune|76/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728464692
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|51/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|44/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Suicune|51/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728464705
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|44/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728464714
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p2a: Skarmory|Whirlwind|p1a: Suicune
+|drag|p1a: Pikachu|Pikachu, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pikachu|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1728464724
+|switch|p2a: Blissey|Blissey, F|72/100
+|move|p1a: Pikachu|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pikachu|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|66/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|66/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1728464735
+|switch|p1a: Suicune|Suicune|51/100
+|move|p2a: Blissey|Toxic|p1a: Suicune
+|-status|p1a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|44/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|60/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|44/100 tox|[from] psn
+|-heal|p2a: Blissey|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|54/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1728464754
+|move|p1a: Suicune|Surf|p2a: Blissey
+|-damage|p2a: Blissey|43/100 tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|93/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|38/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|87/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|32/100 tox|[from] psn
+|-heal|p2a: Blissey|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|74/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1728464777
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|tanao has 270 seconds left.
+|
+|t:|1728464802
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Blissey|Blissey, F|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|68/100|[from] Sandstorm
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|tanao has 270 seconds left.
+|
+|t:|1728464817
+|-singleturn|p1a: Medicham|move: Focus Punch
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Medicham|Focus Punch|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Medicham|88/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|tanao has 240 seconds left.
+|inactive|tanao has 210 seconds left.
+|
+|t:|1728464883
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Medicham|Shadow Ball|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|tanao has 210 seconds left.
+|
+|t:|1728464898
+|-singleturn|p1a: Medicham|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Medicham
+|-sidestart|p1: GypsygypsTeacourse|Spikes
+|move|p1a: Medicham|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|76/100|[from] Sandstorm
+|-heal|p2a: Skarmory|22/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|tanao has 210 seconds left.
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728464933
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Medicham|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Medicham|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728464947
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: Camerupt
+|-immune|p1a: Camerupt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Camerupt|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728464968
+|switch|p2a: Swampert|Swampert, F|57/100
+|move|p1a: Camerupt|Substitute|p1a: Camerupt
+|-start|p1a: Camerupt|Substitute
+|-damage|p1a: Camerupt|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Camerupt|75/100|[from] item: Leftovers
+|-heal|p2a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728464987
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Camerupt|Overheat|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Camerupt|81/100|[from] item: Leftovers
+|-heal|p2a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728464995
+|move|p1a: Camerupt|Overheat|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|48/100
+|-unboost|p1a: Camerupt|spa|2
+|move|p2a: Swampert|Earthquake|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-end|p1a: Camerupt|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Camerupt|87/100|[from] item: Leftovers
+|-heal|p2a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728465008
+|switch|p1a: Suicune|Suicune|100/100 slp
+|-damage|p1a: Suicune|88/100 slp|[from] Spikes
+|move|p2a: Swampert|Hydro Pump|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|74/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|68/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728465027
+|switch|p2a: Skarmory|Skarmory, M|22/100
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|68/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|28/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728465050
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Surf|p2a: Skarmory|[from]Sleep Talk
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|inactive|tanao has 150 seconds left.
+|
+|t:|1728465065
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|68/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|tanao has 150 seconds left.
+|
+|t:|1728465088
+|switch|p1a: Camerupt|Camerupt, M|87/100
+|-damage|p1a: Camerupt|75/100|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Camerupt
+|-immune|p1a: Camerupt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Camerupt|81/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|tanao has 150 seconds left.
+|
+|t:|1728465109
+|switch|p2a: Swampert|Swampert, F|60/100
+|move|p1a: Camerupt|Substitute|p1a: Camerupt
+|-start|p1a: Camerupt|Substitute
+|-damage|p1a: Camerupt|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Camerupt|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728465117
+|move|p1a: Camerupt|Explosion|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p1a: Camerupt
+|faint|p2a: Swampert
+|inactive|tanao has 150 seconds left.
+|inactive|GypsygypsTeacourse has 270 seconds left.
+|
+|t:|1728465138
+|switch|p1a: Pikachu|Pikachu, F|88/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p1a: Pikachu|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Pikachu|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|tanao has 150 seconds left.
+|
+|t:|1728465164
+|move|p2a: Gengar|Ice Punch|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|t:|1728465172
+|switch|p1a: Suicune|Suicune|74/100 slp
+|-damage|p1a: Suicune|61/100 slp|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|55/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|61/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728465180
+|move|p2a: Gengar|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|18/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|12/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728465188
+|move|p2a: Gengar|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1728465191
+|switch|p1a: Swellow|Swellow, F|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swellow|57/100|[from] Sandstorm
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|tanao has 150 seconds left.
+|
+|t:|1728465203
+|move|p1a: Swellow|Substitute|p1a: Swellow
+|-start|p1a: Swellow|Substitute
+|-damage|p1a: Swellow|32/100
+|move|p2a: Gengar|Thunderbolt|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-end|p1a: Swellow|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swellow|26/100|[from] Sandstorm
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728465218
+|move|p1a: Swellow|Baton Pass|p1a: Swellow
+|
+|t:|1728465225
+|switch|p1a: Marowak|Marowak, F|100/100|[from] Baton Pass
+|-damage|p1a: Marowak|88/100|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Marowak
+|-immune|p1a: Marowak
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728465243
+|move|p2a: Gengar|Taunt|p1a: Marowak
+|-start|p1a: Marowak|move: Taunt
+|move|p1a: Marowak|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|36/100|[from] Sandstorm
+|-heal|p2a: Gengar|42/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728465252
+|move|p2a: Gengar|Ice Punch|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|24/100
+|move|p1a: Marowak|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1728465266
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-end|p1a: Marowak|move: Taunt|[silent]
+|upkeep
+|turn|38
+|
+|t:|1728465274
+|move|p2a: Moltres|Flamethrower|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|t:|1728465278
+|switch|p1a: Swellow|Swellow, F|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swellow|20/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-enditem|p1a: Swellow|Starf Berry|[eat]
+|-boost|p1a: Swellow|def|2|[from] item: Starf Berry
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728465287
+|move|p1a: Swellow|Endeavor|p2a: Moltres
+|-damage|p2a: Moltres|18/100
+|move|p2a: Moltres|Flamethrower|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|t:|1728465291
+|switch|p1a: Medicham|Medicham, F|70/100
+|-damage|p1a: Medicham|58/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|12/100|[from] Sandstorm
+|-damage|p1a: Medicham|51/100|[from] Sandstorm
+|-heal|p2a: Moltres|18/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728465299
+|move|p1a: Medicham|Fake Out|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728465311
+|switch|p2a: Blissey|Blissey, F|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|45/100|[from] Sandstorm
+|-damage|p2a: Blissey|68/100|[from] Sandstorm
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|tanao has 180 seconds left.
+|
+|t:|1728465324
+|move|p1a: Medicham|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1728465328
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|39/100|[from] Sandstorm
+|upkeep
+|turn|42
+|
+|t:|1728465334
+|move|p1a: Medicham|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|GypsygypsTeacourse
+|c|☆tanao|gg
+|c|☆GypsygypsTeacourse|gg
+|c|☆tanao|do you just press "upload and share replay"?
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796596">
+{"id":"smogtours-gen3ou-796596","format":"[Gen 3] OU","players":["GypsygypsTeacourse","tanao"],"uploadtime":1728465334,"views":99,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

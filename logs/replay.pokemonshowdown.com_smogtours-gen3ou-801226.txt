@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Axselo vs. hipimochi - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Axselo and hipimochi! Format: [Gen 3] OU; Date: Oct 22, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801226">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729620818
+|gametype|singles
+|player|p1|Axselo|1|
+|player|p2|hipimochi|iris-gen5bw2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729620818
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Medicham|Medicham, F|100/100
+|turn|1
+|c|☆Axselo|oh
+|c|☆Axselo|did you save the replay of the last battle?
+|c|☆Axselo|I forgor
+|inactive|Axselo has 270 seconds left.
+|c|☆hipimochi|don't worry i have it
+|
+|t:|1729620861
+|switch|p2a: Camerupt|Camerupt, F|100/100
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|c|☆Axselo|nice
+|
+|t:|1729620874
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|2
+|
+|t:|1729620883
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1729620893
+|switch|p1a: Celebi|Celebi|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|3
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729620926
+|move|p1a: Celebi|Leech Seed|p2a: Suicune|[miss]
+|-miss|p1a: Celebi|p2a: Suicune
+|move|p2a: Suicune|Roar|p1a: Celebi
+|drag|p1a: Jolteon|Jolteon, F|100/100
+|
+|upkeep
+|turn|4
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729620943
+|switch|p2a: Camerupt|Camerupt, F|100/100
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|76/100
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729620956
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1729620962
+|switch|p1a: Celebi|Celebi|100/100|[from] Baton Pass
+|move|p2a: Camerupt|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-activate|p1a: Celebi|Substitute|[damage]
+|
+|upkeep
+|turn|6
+|
+|t:|1729620981
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Camerupt|Flamethrower|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-end|p1a: Celebi|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1729620987
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1729620991
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from] Baton Pass
+|move|p2a: Camerupt|Explosion|p1a: Vaporeon
+|-damage|p1a: Vaporeon|12/100
+|faint|p2a: Camerupt
+|
+|t:|1729620998
+|switch|p2a: Medicham|Medicham, F|100/100
+|
+|-heal|p1a: Vaporeon|18/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729621017
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Medicham|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|45/100
+|
+|-heal|p1a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729621026
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Medicham|Shadow Ball|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|85/100
+|
+|-heal|p1a: Forretress|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729621036
+|-singleturn|p2a: Medicham|move: Focus Punch
+|move|p1a: Forretress|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|59/100
+|move|p2a: Medicham|Focus Punch||[still]
+|cant|p2a: Medicham|Focus Punch|Focus Punch
+|
+|-heal|p1a: Forretress|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621070
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Forretress|Spikes|p2a: Jirachi
+|-sidestart|p2: hipimochi|Spikes
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621080
+|switch|p1a: Flareon|Flareon, F|100/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|upkeep
+|turn|13
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621091
+|move|p2a: Jirachi|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|52/100
+|move|p1a: Flareon|Overheat|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|46/100
+|-unboost|p1a: Flareon|spa|2
+|
+|-heal|p2a: Jirachi|52/100|[from] item: Leftovers
+|-heal|p1a: Flareon|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729621111
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Flareon|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|30/100
+|
+|-heal|p2a: Jirachi|36/100|[from] item: Leftovers
+|-heal|p1a: Flareon|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729621117
+|move|p2a: Jirachi|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|t:|1729621125
+|switch|p1a: Jolteon|Jolteon, F|82/100
+|
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729621132
+|move|p1a: Jolteon|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|move|p2a: Jirachi|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1729621137
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-heal|p2a: Jirachi|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729621157
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621179
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621202
+|switch|p1a: Vaporeon|Vaporeon, M|18/100
+|move|p2a: Suicune|Surf|p1a: Vaporeon
+|-heal|p1a: Vaporeon|43/100|[from] ability: Water Absorb|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729621209
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Vaporeon|Roar|p2a: Suicune
+|drag|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Spikes
+|-ability|p2a: Porygon2|Water Absorb|[from] ability: Trace|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|55/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729621228
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Porygon2|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|76/100
+|
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729621244
+|move|p2a: Porygon2|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|57/100
+|move|p1a: Forretress|Spikes|p2a: Porygon2
+|-sidestart|p2: hipimochi|Spikes
+|
+|-heal|p1a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729621254
+|move|p2a: Porygon2|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|38/100
+|move|p1a: Forretress|Spikes|p2a: Porygon2
+|-sidestart|p2: hipimochi|Spikes
+|
+|-heal|p1a: Forretress|44/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729621257
+|switch|p1a: Celebi|Celebi|51/100
+|move|p2a: Porygon2|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|43/100
+|
+|-heal|p1a: Celebi|49/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621267
+|move|p1a: Celebi|Leech Seed|p2a: Porygon2
+|-start|p2a: Porygon2|move: Leech Seed
+|move|p2a: Porygon2|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|16/100
+|
+|-heal|p1a: Celebi|22/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|33/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1729621271
+|switch|p1a: Forretress|Forretress, M|44/100
+|switch|p2a: Heracross|Heracross, F|100/100
+|-damage|p2a: Heracross|76/100|[from] Spikes
+|
+|-heal|p2a: Heracross|82/100|[from] item: Leftovers
+|-heal|p1a: Forretress|50/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729621286
+|move|p2a: Heracross|Swords Dance|p2a: Heracross
+|-boost|p2a: Heracross|atk|2
+|move|p1a: Forretress|Zap Cannon|p2a: Heracross
+|-damage|p2a: Heracross|65/100
+|-status|p2a: Heracross|par
+|
+|-heal|p1a: Forretress|56/100|[from] item: Leftovers
+|-heal|p2a: Heracross|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆Axselo|oh yea
+|c|☆hipimochi|jdsjsdjsd
+|
+|t:|1729621302
+|move|p1a: Forretress|Earthquake|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|56/100 par
+|move|p2a: Heracross|Brick Break|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|inactive|Axselo has 270 seconds left.
+|
+|t:|1729621329
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-heal|p2a: Heracross|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729621353
+|move|p1a: Metagross|Meteor Mash|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|inactive|hipimochi has 270 seconds left.
+|
+|t:|1729621373
+|switch|p2a: Porygon2|Porygon2|88/100
+|-damage|p2a: Porygon2|63/100|[from] Spikes
+|-ability|p2a: Porygon2|Clear Body|[from] ability: Trace|[of] p1a: Metagross
+|
+|-heal|p2a: Porygon2|69/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729621377
+|move|p1a: Metagross|Meteor Mash|p2a: Porygon2|[miss]
+|-miss|p1a: Metagross|p2a: Porygon2
+|move|p2a: Porygon2|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|87/100
+|-status|p1a: Metagross|frz
+|-enditem|p1a: Metagross|Lum Berry|[eat]
+|-curestatus|p1a: Metagross|frz|[msg]
+|
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729621389
+|move|p1a: Metagross|Meteor Mash|p2a: Porygon2
+|-damage|p2a: Porygon2|29/100
+|move|p2a: Porygon2|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|63/100
+|
+|-heal|p2a: Porygon2|35/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729621395
+|move|p1a: Metagross|Meteor Mash|p2a: Porygon2|[miss]
+|-miss|p1a: Metagross|p2a: Porygon2
+|move|p2a: Porygon2|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|39/100
+|
+|-heal|p2a: Porygon2|41/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729621400
+|move|p1a: Metagross|Meteor Mash|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|t:|1729621405
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|75/100|[from] Spikes
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729621415
+|switch|p1a: Vaporeon|Vaporeon, M|55/100
+|move|p2a: Suicune|Roar|p1a: Vaporeon
+|drag|p1a: Celebi|Celebi|33/100
+|
+|-heal|p1a: Celebi|39/100|[from] item: Leftovers
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729621423
+|move|p1a: Celebi|Leech Seed|p2a: Suicune
+|-start|p2a: Suicune|move: Leech Seed
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|63/100
+|
+|-heal|p1a: Celebi|46/100|[from] item: Leftovers
+|-heal|p2a: Suicune|69/100|[from] item: Leftovers
+|-damage|p2a: Suicune|57/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|58/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1729621431
+|switch|p2a: Medicham|Medicham, F|59/100
+|-damage|p2a: Medicham|34/100|[from] Spikes
+|move|p1a: Celebi|Hidden Power|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|t:|1729621437
+|switch|p2a: Suicune|Suicune|57/100
+|-damage|p2a: Suicune|32/100|[from] Spikes
+|
+|-heal|p1a: Celebi|64/100|[from] item: Leftovers
+|-heal|p2a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729621440
+|move|p1a: Celebi|Leech Seed|p2a: Suicune
+|-start|p2a: Suicune|move: Leech Seed
+|move|p2a: Suicune|Surf|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|51/100
+|
+|-heal|p1a: Celebi|58/100|[from] item: Leftovers
+|-heal|p2a: Suicune|44/100|[from] item: Leftovers
+|-damage|p2a: Suicune|32/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|70/100|[silent]
+|upkeep
+|turn|37
+|c|☆Axselo|gg
+|
+|t:|1729621443
+|move|p1a: Celebi|Hidden Power|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|win|Axselo
+|c|☆hipimochi|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801226">
+{"id":"smogtours-gen3ou-801226","format":"[Gen 3] OU","players":["Axselo","hipimochi"],"uploadtime":1729621443,"views":82,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

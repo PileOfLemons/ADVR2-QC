@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ADV Fella vs. Jnho - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ADV Fella and Jnho! Format: [Gen 3] OU; Date: Nov 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804788">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730750840
+|gametype|singles
+|player|p1|ADV Fella|blackbelt-gen4dp|
+|player|p2|Jnho|caitlin|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730750840
+|start
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|inactive|ADV Fella has 270 seconds left.
+|c|☆Jnho|glhf
+|
+|t:|1730750896
+|move|p2a: Metagross|Explosion|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Metagross
+|
+|t:|1730750902
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|switch|p1a: Breloom|Breloom, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1730750908
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Breloom|Spore|p2a: Celebi
+|-status|p2a: Celebi|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1730750914
+|-singleturn|p1a: Breloom|move: Focus Punch
+|cant|p2a: Celebi|slp
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|67/100 slp
+|
+|-heal|p2a: Celebi|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730750919
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|-curestatus|p2a: Celebi|slp|[msg]
+|move|p2a: Celebi|Psychic|p1a: Gyarados
+|-damage|p1a: Gyarados|67/100
+|
+|-heal|p2a: Celebi|79/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730750923
+|move|p2a: Celebi|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|move|p1a: Gyarados|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|17/100
+|
+|-heal|p2a: Celebi|23/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|79/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|66/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|34/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1730750932
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Breloom|Breloom, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-heal|p1a: Breloom|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730750951
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Spore|p2a: Salamence
+|-status|p2a: Salamence|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100 slp|[from] Sandstorm
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|ADV Fella has 270 seconds left.
+|
+|t:|1730750982
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|cant|p2a: Salamence|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730750988
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Snorlax
+|-damage|p2a: Snorlax|79/100
+|-unboost|p2a: Snorlax|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|73/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1730750993
+|move|p1a: Tyranitar|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|32/100
+|move|p2a: Snorlax|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|26/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|25/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730751000
+|switch|p2a: Salamence|Salamence, F|100/100 slp
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Brick Break|p2a: Salamence
+|-resisted|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|66/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|72/100 slp|[from] item: Leftovers
+|-heal|p1a: Tyranitar|32/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730751008
+|switch|p2a: Snorlax|Snorlax, F|26/100
+|move|p1a: Tyranitar|Crunch|p2a: Snorlax
+|-damage|p2a: Snorlax|4/100
+|-unboost|p2a: Snorlax|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|0 fnt|[from] Sandstorm
+|faint|p2a: Snorlax
+|-heal|p1a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1730751013
+|switch|p2a: Salamence|Salamence, F|72/100 slp
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|13
+|
+|t:|1730751016
+|cant|p2a: Salamence|slp
+|move|p1a: Tyranitar|Crunch|p2a: Salamence
+|-damage|p2a: Salamence|36/100 slp
+|-unboost|p2a: Salamence|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|30/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|36/100 slp|[from] item: Leftovers
+|-heal|p1a: Tyranitar|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730751030
+|switch|p2a: Celebi|Celebi|34/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|28/100|[from] Sandstorm
+|-heal|p2a: Celebi|34/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730751036
+|move|p2a: Celebi|Leech Seed|p1a: Claydol
+|-start|p1a: Claydol|move: Leech Seed
+|move|p1a: Claydol|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|0 fnt|[from] Sandstorm
+|faint|p2a: Celebi
+|upkeep
+|
+|t:|1730751041
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|16
+|
+|t:|1730751051
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-heal|p1a: Breloom|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730751056
+|move|p2a: Tyranitar|Rock Slide|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|52/100
+|move|p1a: Breloom|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1730751061
+|switch|p2a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|46/100|[from] Sandstorm
+|-heal|p1a: Breloom|52/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730751082
+|switch|p1a: Gyarados|Gyarados, M, shiny|66/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Magneton|atk|1
+|move|p2a: Magneton|Substitute|p2a: Magneton
+|-start|p2a: Magneton|Substitute
+|-damage|p2a: Magneton|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|60/100|[from] Sandstorm
+|-heal|p1a: Gyarados|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730751087
+|move|p1a: Gyarados|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-end|p2a: Magneton|Substitute
+|move|p2a: Magneton|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|t:|1730751100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1730751105
+|move|p2a: Magneton|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|63/100
+|move|p1a: Claydol|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1730751108
+|switch|p2a: Salamence|Salamence, F|36/100 slp
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|30/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|36/100 slp|[from] item: Leftovers
+|-heal|p1a: Claydol|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730751110
+|cant|p2a: Salamence|slp
+|move|p1a: Claydol|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|ADV Fella
+|c|☆Jnho|gg
+|c|☆ADV Fella|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804788">
+{"id":"smogtours-gen3ou-804788","format":"[Gen 3] OU","players":["ADV Fella","Jnho"],"uploadtime":1730751110,"views":37,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>
