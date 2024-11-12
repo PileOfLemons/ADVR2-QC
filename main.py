@@ -334,13 +334,8 @@ class Lemons:
                     numbers = [int(num) for num in stripped_line.replace(',', '').split()]
                     # Extend the whitelist with these numbers
                     self.whitelist.extend(numbers)
-        for item in self.whitelist:
-            print(item)
 
     def check_num_players(self):
-        # Define the whitelist of game IDs to ignore
-        # whitelist={}
-        whitelist = {1050, 1051, 1052}  # Replace with actual game IDs to ignore
 
         rounds_df = pd.read_csv('rounds.csv')
         logs_df = pd.read_csv('processed_logs_optimized.csv')
@@ -363,7 +358,7 @@ class Lemons:
             game_list = [int(game) for game in game_list.split()]
 
             # Check if any game in game_list is in the whitelist and skip the row if so
-            if any(game in whitelist for game in game_list):
+            if any(game in self.whitelist for game in game_list):
                 num_players_list.append(0)  # or any placeholder value for skipped rows
                 continue
 
@@ -414,7 +409,8 @@ class Lemons:
 
         # Check if there are any duplicates left after filtering
         if not filtered_duplicates.empty:
-            log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding whitelist):\n"
+            log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding " \
+                          "whitelist):\n "
 
             # Group duplicates by 'replay_link' and collect 'replay_num' values
             grouped_duplicates = filtered_duplicates.groupby('replay_link')['replay_num'].apply(list)
@@ -476,3 +472,4 @@ if __name__ == "__main__":
 888 "Y8888 888  888  888 "Y88P" 888  888     
 
     '''
+# TODO Add way to just pass dataframes around and only save/ access csvs once
