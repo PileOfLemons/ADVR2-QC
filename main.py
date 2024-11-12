@@ -55,7 +55,6 @@ def extract_lines_from_log(log_text):
     if not extracted_lines["win_or_tie"]:
         extracted_lines["win_or_tie"] = "|tie"
     last_turn_line = next((line for line in reversed(log_text.splitlines()) if line.startswith('|turn|')), None)
-    # print(last_turn_line.split('|')[2].strip())
     winner = determine_winner(extracted_lines)
     if last_turn_line:
         extracted_lines["turns"] = last_turn_line.split('|')[2].strip()
@@ -75,10 +74,18 @@ class Lemons:
         self.all_rows = []
         self.confirmed_mess = []
         self.whitelist = []
+        self.whitelist_filepath = "games_to_ignore.txt"
         self.fill_whitelist()
         self.rows_with_excess_players = []
         self.add_to_log("Program Start")
+
         pass
+
+    def add_to_log(self, entry):
+        # Get the current time in a readable format
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # Add the time to the entry
+        self.log.append(f"[{current_time}] {entry}")
 
     def fetch_and_save_log(self, link, download_dir="logs"):
         # Ensure download directory exists
@@ -188,12 +195,6 @@ class Lemons:
 
         else:
             self.add_to_log(f"Failed to download file. Status code: {response.status_code}")
-
-    def add_to_log(self, entry):
-        # Get the current time in a readable format
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        # Add the time to the entry
-        self.log.append(f"[{current_time}] {entry}")
 
     def process_excel_file(self, file_path):
         # Load the Excel file
@@ -322,20 +323,17 @@ class Lemons:
         self.add_to_log(f"Sorted missing numbers: {missing_numbers}")
 
     def fill_whitelist(self):
-        # games beneath this are duplicated in the importer and not used again
-        self.whitelist.extend([296, 203, 297, 204, 298, 205])
-        self.whitelist.extend([601, 673])
-        self.whitelist.extend([1157, 1428, 1158, 1429, 1159, 1430])
-        self.whitelist.extend([1125, 1141, 1126, 1142])
-        self.whitelist.extend([1022, 1023])
-        self.whitelist.extend([2195, 2208, 2196, 2209, 2197, 2210])
-        self.whitelist.extend([2530, 2636])
-        self.whitelist.extend([2899, 2901, 2900, 2902])
-        self.whitelist.extend([2962, 2965, 2963, 2966, 2964, 2967])
-        # Games beneath this are ties.
-        self.whitelist.extend([157, 308, 442, 486, 607, 725, 1104, 1180, 1293, 1404, 1692, 2564, 3340, 3557])
-        # games beneath this are weird disconnects or ties called by players or admins and not the game code
-        self.whitelist.extend([995, 3100, 3564])
+        with open(self.whitelist_filepath, 'r') as file:
+            for line in file:
+                # Remove leading/trailing whitespace, including spaces and tabs
+                stripped_line = line.strip()
+
+                # Skip lines that start with '#'
+                if not stripped_line.startswith("#"):
+                    # Remove any commas and split the line by whitespace
+                    numbers = [int(num) for num in stripped_line.replace(',', '').split()]
+                    # Extend the whitelist with these numbers
+                    self.whitelist.extend(numbers)
 
     def check_num_players(self):
         # Define the whitelist of game IDs to ignore
@@ -401,15 +399,20 @@ class Lemons:
 
     def check_dupes(self):
         df = pd.read_csv('processed_logs_optimized.csv')
-        # Find duplicate entries in the 'replay_link' column
+        # Step 1: Find duplicate entries in the 'replay_link' column
         duplicates = df[df.duplicated(subset=['replay_link'], keep=False)]
-        # Print each duplicate row as a single line
-        # Filter out rows where replay_num is in the whitelist
-        filtered_duplicates = duplicates[~duplicates['replay_num'].isin(lemon.whitelist)]
+
+        # Step 2: Find groups of duplicates where none of the 'replay_num' values are in the whitelist
+        filtered_duplicates = duplicates.groupby('replay_link').filter(
+            lambda group: not any(group['replay_num'].isin(lemon.whitelist))
+        )
+
+        # Step 3: Remove these filtered duplicate rows from the original DataFrame
+        df = df[~df.index.isin(filtered_duplicates.index)]
+
         # Check if there are any duplicates left after filtering
         if not filtered_duplicates.empty:
-            log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding " \
-                          "whitelist):\n "
+            log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding whitelist):\n"
 
             # Group duplicates by 'replay_link' and collect 'replay_num' values
             grouped_duplicates = filtered_duplicates.groupby('replay_link')['replay_num'].apply(list)
@@ -459,7 +462,6 @@ if __name__ == "__main__":
         print("-" * 40)
 
     print(f"Execution time: {time.perf_counter() - start_time:.4f} seconds")  # End timing and print the result
-
 
     '''
 888                                      
