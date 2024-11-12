@@ -334,6 +334,8 @@ class Lemons:
                     numbers = [int(num) for num in stripped_line.replace(',', '').split()]
                     # Extend the whitelist with these numbers
                     self.whitelist.extend(numbers)
+        for item in self.whitelist:
+            print(item)
 
     def check_num_players(self):
         # Define the whitelist of game IDs to ignore
