@@ -473,3 +473,4 @@ if __name__ == "__main__":
 
     '''
 # TODO Add way to just pass dataframes around and only save/ access csvs once
+# TODO stop passing file paths around. just put all that up in the init
