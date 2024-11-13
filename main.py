@@ -479,3 +479,5 @@ if __name__ == "__main__":
 # TODO stop passing file paths around. just put all that up in the init
 # TODO make it so anytime something is passed to the log. if its empty there is a way to store that as well. So empty logs dont have to be joined with it.
 # TODO Fix the Failed to retrieve log from https://match.conceeded.to.pkLeech: with some kind of whitelist or something. its annoying
+
+# TODO stop the blank html file being downloaded in logs called http. I think its from blank line at end of importer?
