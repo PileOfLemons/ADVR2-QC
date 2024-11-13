@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: azepto vs. Capitao General ll - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between azepto and Capitao General ll! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800359">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729431806
+|gametype|singles
+|player|p1|azepto|officeworker|
+|player|p2|Capitao General ll|scientist-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729431806
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: WW|Metagross|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1729431831
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: WW|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729431838
+|switch|p2a: Ugly|Gengar, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Ugly
+|-sidestart|p2: Capitao General ll|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ugly|94/100|[from] Sandstorm
+|-heal|p2a: Ugly|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729431845
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Ugly|Thunderbolt|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ugly|94/100|[from] Sandstorm
+|-heal|p2a: Ugly|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729431857
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Ugly|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ugly|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 brn|[from] Sandstorm
+|-heal|p2a: Ugly|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1729431866
+|switch|p2a: WW|Metagross|100/100
+|-damage|p2a: WW|88/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: WW
+|-resisted|p2a: WW
+|-damage|p2a: WW|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100 brn|[from] Sandstorm
+|-heal|p1a: Blissey|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1729431881
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|86/100
+|move|p2a: WW|Explosion|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p2a: WW
+|faint|p1a: Skarmory
+|inactive|azepto has 270 seconds left.
+|
+|t:|1729431923
+|switch|p2a: Tortuga|Snorlax, F|100/100
+|switch|p1a: Blissey|Blissey, F|76/100
+|-damage|p2a: Tortuga|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-damage|p2a: Tortuga|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729431942
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Tortuga|Curse|p2a: Tortuga
+|-unboost|p2a: Tortuga|spe|1
+|-boost|p2a: Tortuga|atk|1
+|-boost|p2a: Tortuga|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tortuga|76/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|azepto has 270 seconds left.
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729431964
+|move|p1a: Metagross|Meteor Mash|p2a: Tortuga
+|-damage|p2a: Tortuga|45/100
+|move|p2a: Tortuga|Counter|p1a: Metagross
+|-damage|p1a: Metagross|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tortuga|39/100|[from] Sandstorm
+|-heal|p1a: Metagross|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|azepto has 270 seconds left.
+|
+|t:|1729431975
+|move|p1a: Metagross|Meteor Mash|p2a: Tortuga
+|-damage|p2a: Tortuga|10/100
+|move|p2a: Tortuga|Shadow Ball|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|inactive|azepto has 270 seconds left.
+|
+|t:|1729432008
+|switch|p1a: Blissey|Blissey, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-damage|p2a: Tortuga|4/100|[from] Sandstorm
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Capitao General ll has 270 seconds left.
+|inactive|azepto has 240 seconds left.
+|
+|t:|1729432029
+|move|p1a: Blissey|Ice Beam|p2a: Tortuga
+|-damage|p2a: Tortuga|0 fnt
+|faint|p2a: Tortuga
+|inactive|Capitao General ll has 240 seconds left.
+|inactive|Capitao General ll has 210 seconds left.
+|
+|t:|1729432095
+|switch|p2a: Ugly|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ugly|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Ugly|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|azepto has 240 seconds left.
+|
+|t:|1729432125
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Ugly|Will-O-Wisp|p1a: Starmie
+|-status|p1a: Starmie|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ugly|94/100|[from] Sandstorm
+|-damage|p1a: Starmie|94/100 brn|[from] Sandstorm
+|-heal|p2a: Ugly|100/100|[from] item: Leftovers
+|-heal|p1a: Starmie|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Starmie|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|Capitao General ll has 210 seconds left.
+|
+|t:|1729432155
+|move|p2a: Ugly|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|12/100 brn
+|move|p1a: Starmie|Thunder Wave|p2a: Ugly
+|-status|p2a: Ugly|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|6/100 brn|[from] Sandstorm
+|-damage|p2a: Ugly|94/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Starmie|0 fnt|[from] brn
+|faint|p1a: Starmie
+|-heal|p2a: Ugly|100/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1729432172
+|switch|p1a: Blissey|Blissey, F|76/100
+|turn|13
+|inactive|azepto has 210 seconds left.
+|
+|t:|1729432200
+|move|p1a: Blissey|Ice Beam|p2a: Ugly
+|-crit|p2a: Ugly
+|-damage|p2a: Ugly|12/100 par
+|move|p2a: Ugly|Explosion|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p2a: Ugly
+|faint|p1a: Blissey
+|inactive|azepto has 210 seconds left.
+|inactive|Capitao General ll has 210 seconds left.
+|
+|t:|1729432211
+|switch|p2a: Saul|Swampert, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Saul|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|inactive|Capitao General ll has 210 seconds left.
+|
+|t:|1729432217
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Saul|Substitute|p2a: Saul
+|-start|p2a: Saul|Substitute
+|-damage|p2a: Saul|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729432223
+|move|p2a: Saul|Endeavor|p1a: Suicune
+|-damage|p1a: Suicune|54/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|47/100|[from] Sandstorm
+|-heal|p1a: Suicune|54/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729432231
+|move|p2a: Saul|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|47/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|41/100|[from] Sandstorm
+|-heal|p1a: Suicune|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729432241
+|move|p2a: Saul|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|42/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|36/100|[from] Sandstorm
+|-heal|p1a: Suicune|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|azepto has 240 seconds left.
+|
+|t:|1729432254
+|move|p2a: Saul|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|38/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|32/100|[from] Sandstorm
+|-heal|p1a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729432265
+|move|p2a: Saul|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|35/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729432271
+|switch|p2a: Mike|Tyranitar, F|100/100
+|-damage|p2a: Mike|88/100|[from] Spikes
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Mike|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1729432285
+|cant|p1a: Suicune|slp
+|move|p2a: Mike|Dragon Dance|p2a: Mike
+|-boost|p2a: Mike|atk|1
+|-boost|p2a: Mike|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Mike|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|azepto has 270 seconds left.
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1729432293
+|move|p2a: Mike|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|66/100 slp
+|-curestatus|p1a: Suicune|slp|[msg]
+|cant|p1a: Suicune|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|60/100|[from] Sandstorm
+|-heal|p1a: Suicune|66/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729432301
+|move|p2a: Mike|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|35/100
+|move|p1a: Suicune|Surf|p2a: Mike
+|-supereffective|p2a: Mike
+|-damage|p2a: Mike|0 fnt
+|faint|p2a: Mike
+|
+|t:|1729432309
+|switch|p2a: Saul|Swampert, M|63/100
+|-damage|p2a: Saul|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|29/100|[from] Sandstorm
+|-heal|p1a: Suicune|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|azepto has 270 seconds left.
+|
+|t:|1729432358
+|move|p2a: Saul|Substitute|p2a: Saul
+|-start|p2a: Saul|Substitute
+|-damage|p2a: Saul|26/100
+|move|p1a: Suicune|Surf|p2a: Saul
+|-end|p2a: Saul|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|29/100|[from] Sandstorm
+|-heal|p1a: Suicune|35/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729432367
+|move|p2a: Saul|Substitute|p2a: Saul
+|-start|p2a: Saul|Substitute
+|-damage|p2a: Saul|1/100
+|move|p1a: Suicune|Roar|p2a: Saul
+|drag|p2a: Jesse|Kingdra, M|100/100
+|-damage|p2a: Jesse|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|29/100|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|35/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729432383
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|24/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729432394
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|89/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|83/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729432412
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|77/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|70/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729432419
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|66/100 slp
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|60/100|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|66/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729432424
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|56/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729432433
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|91/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|85/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729432436
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|81/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|75/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729432440
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|72/100 slp
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|66/100|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729432445
+|move|p2a: Jesse|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|70/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729432450
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|92/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|86/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729432453
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|21/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|15/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|21/100 slp|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729432465
+|move|p2a: Jesse|Hydro Pump|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|16/100 slp
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729432473
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|92/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|85/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729432478
+|move|p2a: Jesse|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|83/100 slp
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jesse|82/100|[from] Sandstorm
+|-damage|p1a: Suicune|77/100 slp|[from] Sandstorm
+|-heal|p2a: Jesse|88/100|[from] item: Leftovers
+|-heal|p1a: Suicune|83/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|-message|Capitao General ll forfeited.
+|
+|win|azepto
+|c|☆azepto|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800359">
+{"id":"smogtours-gen3ou-800359","format":"[Gen 3] OU","players":["azepto","Capitao General ll"],"uploadtime":1729432489,"views":90,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: xlimexheep vs. charku - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between xlimexheep and charku! Format: [Gen 3] OU; Date: Oct 23, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801389">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729703074
+|gametype|singles
+|player|p1|xlimexheep|schoolkidf|
+|player|p2|charku|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729703074
+|start
+|switch|p1a: tryra|Tyranitar, F|100/100
+|switch|p2a: miksi|Regirock|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: tryra
+|turn|1
+|c|☆xlimexheep|glhf
+|inactive|charku has 270 seconds left.
+|c|☆charku|glhf
+|
+|t:|1729703130
+|switch|p1a: literal doll|Claydol|100/100
+|move|p2a: miksi|Superpower|p1a: literal doll
+|-resisted|p1a: literal doll
+|-damage|p1a: literal doll|82/100
+|-unboost|p2a: miksi|atk|1
+|-unboost|p2a: miksi|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: literal doll|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|charku has 270 seconds left.
+|
+|t:|1729703186
+|switch|p1a: yucker|Metagross|100/100
+|switch|p2a: lihapullat muussi|Salamence, F|100/100
+|-ability|p2a: lihapullat muussi|Intimidate|boost
+|-fail|p1a: yucker|unboost|[from] ability: Clear Body|[of] p1a: yucker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|charku has 240 seconds left.
+|
+|t:|1729703215
+|switch|p1a: snowball|Snorlax, F, shiny|100/100
+|move|p2a: lihapullat muussi|Earthquake|p1a: snowball
+|-damage|p1a: snowball|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|88/100|[from] Sandstorm
+|-damage|p1a: snowball|62/100|[from] Sandstorm
+|-heal|p1a: snowball|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729703232
+|move|p2a: lihapullat muussi|Brick Break|p1a: snowball
+|-supereffective|p1a: snowball
+|-crit|p1a: snowball
+|-damage|p1a: snowball|0 fnt
+|faint|p1a: snowball
+|c|☆charku|such a lucker I am
+|
+|t:|1729703250
+|switch|p1a: literal doll|Claydol|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|82/100|[from] Sandstorm
+|-heal|p1a: literal doll|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆charku|sorry for that one
+|c|☆xlimexheep|itsk
+|
+|t:|1729703260
+|switch|p2a: vessa|Snorlax, F|100/100
+|move|p1a: literal doll|Rock Slide|p2a: vessa
+|-damage|p2a: vessa|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: vessa|80/100|[from] Sandstorm
+|-heal|p1a: literal doll|100/100|[from] item: Leftovers
+|-heal|p2a: vessa|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|charku has 240 seconds left.
+|
+|t:|1729703274
+|move|p1a: literal doll|Earthquake|p2a: vessa
+|-damage|p2a: vessa|55/100
+|move|p2a: vessa|Curse|p2a: vessa
+|-unboost|p2a: vessa|spe|1
+|-boost|p2a: vessa|atk|1
+|-boost|p2a: vessa|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: vessa|48/100|[from] Sandstorm
+|-heal|p2a: vessa|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729703286
+|switch|p2a: miksi|Regirock|100/100
+|move|p1a: literal doll|Earthquake|p2a: miksi
+|-supereffective|p2a: miksi
+|-damage|p2a: miksi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: miksi|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729703291
+|switch|p2a: lihapullat muussi|Salamence, F|82/100
+|-ability|p2a: lihapullat muussi|Intimidate|boost
+|-unboost|p1a: literal doll|atk|1
+|move|p1a: literal doll|Earthquake|p2a: lihapullat muussi
+|-immune|p2a: lihapullat muussi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|76/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1729703301
+|switch|p2a: vessa|Snorlax, F|55/100
+|switch|p1a: lappy|Lapras, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: lappy|94/100|[from] Sandstorm
+|-damage|p2a: vessa|48/100|[from] Sandstorm
+|-heal|p1a: lappy|100/100|[from] item: Leftovers
+|-heal|p2a: vessa|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729703305
+|move|p1a: lappy|Hydro Pump|p2a: vessa
+|-damage|p2a: vessa|24/100
+|move|p2a: vessa|Self-Destruct|p1a: lappy
+|-damage|p1a: lappy|0 fnt
+|faint|p2a: vessa
+|faint|p1a: lappy
+|inactive|charku has 270 seconds left.
+|
+|t:|1729703312
+|switch|p1a: flamin dyke|Charizard, F|100/100
+|switch|p2a: äx|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|94/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|charku has 270 seconds left.
+|
+|t:|1729703331
+|switch|p2a: matkalaukku|Suicune|100/100
+|move|p1a: flamin dyke|Substitute|p1a: flamin dyke
+|-start|p1a: flamin dyke|Substitute
+|-damage|p1a: flamin dyke|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|70/100|[from] Sandstorm
+|-damage|p2a: matkalaukku|94/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|76/100|[from] item: Leftovers
+|-heal|p2a: matkalaukku|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729703334
+|move|p1a: flamin dyke|Hidden Power|p2a: matkalaukku
+|-supereffective|p2a: matkalaukku
+|-damage|p2a: matkalaukku|66/100
+|move|p2a: matkalaukku|Surf|p1a: flamin dyke
+|-supereffective|p1a: flamin dyke
+|-end|p1a: flamin dyke|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|70/100|[from] Sandstorm
+|-damage|p2a: matkalaukku|59/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|76/100|[from] item: Leftovers
+|-heal|p2a: matkalaukku|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729703341
+|switch|p1a: yucker|Metagross|100/100
+|move|p2a: matkalaukku|Surf|p1a: yucker
+|-damage|p1a: yucker|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: matkalaukku|59/100|[from] Sandstorm
+|-heal|p2a: matkalaukku|66/100|[from] item: Leftovers
+|-heal|p1a: yucker|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729703369
+|switch|p2a: miksi|Regirock|63/100
+|move|p1a: yucker|Meteor Mash|p2a: miksi
+|-supereffective|p2a: miksi
+|-damage|p2a: miksi|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: yucker|70/100|[from] item: Leftovers
+|-heal|p2a: miksi|8/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729703375
+|move|p1a: yucker|Meteor Mash|p2a: miksi
+|-supereffective|p2a: miksi
+|-damage|p2a: miksi|0 fnt
+|faint|p2a: miksi
+|
+|t:|1729703386
+|switch|p2a: äx|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: yucker|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729703393
+|switch|p1a: flamin dyke|Charizard, F|76/100
+|move|p2a: äx|Earthquake|p1a: flamin dyke
+|-immune|p1a: flamin dyke
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|70/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|charku has 270 seconds left.
+|
+|t:|1729703422
+|move|p1a: flamin dyke|Fire Blast|p2a: äx|[miss]
+|-miss|p1a: flamin dyke|p2a: äx
+|move|p2a: äx|Meteor Mash|p1a: flamin dyke
+|-resisted|p1a: flamin dyke
+|-damage|p1a: flamin dyke|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|26/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|32/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆charku|oh no
+|inactive|charku has 270 seconds left.
+|inactive|charku has 240 seconds left.
+|
+|t:|1729703464
+|switch|p2a: lihapullat muussi|Salamence, F|76/100
+|-ability|p2a: lihapullat muussi|Intimidate|boost
+|-unboost|p1a: flamin dyke|atk|1
+|move|p1a: flamin dyke|Fire Blast|p2a: lihapullat muussi
+|-resisted|p2a: lihapullat muussi
+|-damage|p2a: lihapullat muussi|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: flamin dyke|26/100|[from] Sandstorm
+|-damage|p2a: lihapullat muussi|17/100|[from] Sandstorm
+|-heal|p1a: flamin dyke|32/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|charku has 240 seconds left.
+|
+|t:|1729703481
+|move|p1a: flamin dyke|Hidden Power|p2a: lihapullat muussi
+|-resisted|p2a: lihapullat muussi
+|-damage|p2a: lihapullat muussi|10/100
+|move|p2a: lihapullat muussi|Rock Slide|p1a: flamin dyke
+|-supereffective|p1a: flamin dyke
+|-damage|p1a: flamin dyke|0 fnt
+|faint|p1a: flamin dyke
+|
+|t:|1729703488
+|switch|p1a: literal doll|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|4/100|[from] Sandstorm
+|upkeep
+|turn|20
+|inactive|charku has 240 seconds left.
+|
+|t:|1729703516
+|switch|p2a: hei hei|Magneton|100/100
+|move|p1a: literal doll|Rock Slide|p2a: hei hei
+|-resisted|p2a: hei hei
+|-crit|p2a: hei hei
+|-damage|p2a: hei hei|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: hei hei|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|charku has 210 seconds left.
+|
+|t:|1729703549
+|switch|p2a: lihapullat muussi|Salamence, F|4/100
+|-ability|p2a: lihapullat muussi|Intimidate|boost
+|-unboost|p1a: literal doll|atk|1
+|move|p1a: literal doll|Earthquake|p2a: lihapullat muussi
+|-immune|p2a: lihapullat muussi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lihapullat muussi|0 fnt|[from] Sandstorm
+|faint|p2a: lihapullat muussi
+|upkeep
+|
+|t:|1729703553
+|switch|p2a: matkalaukku|Suicune|66/100
+|turn|22
+|inactive|charku has 210 seconds left.
+|inactive|xlimexheep has 270 seconds left.
+|inactive|charku has 180 seconds left.
+|
+|t:|1729703627
+|move|p2a: matkalaukku|Surf|p1a: literal doll
+|-supereffective|p1a: literal doll
+|-damage|p1a: literal doll|31/100
+|move|p1a: literal doll|Explosion|p2a: matkalaukku
+|-damage|p2a: matkalaukku|4/100
+|faint|p1a: literal doll
+|
+|t:|1729703635
+|switch|p1a: yucker|Metagross|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: matkalaukku|0 fnt|[from] Sandstorm
+|faint|p2a: matkalaukku
+|-heal|p1a: yucker|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729703638
+|switch|p2a: äx|Metagross|100/100
+|turn|23
+|inactive|charku has 150 seconds left.
+|
+|t:|1729703666
+|move|p1a: yucker|Agility|p1a: yucker
+|-boost|p1a: yucker|spe|2
+|move|p2a: äx|Earthquake|p1a: yucker
+|-supereffective|p1a: yucker
+|-damage|p1a: yucker|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: yucker|28/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729703670
+|move|p1a: yucker|Earthquake|p2a: äx
+|-supereffective|p2a: äx
+|-damage|p2a: äx|38/100
+|move|p2a: äx|Earthquake|p1a: yucker
+|-supereffective|p1a: yucker
+|-damage|p1a: yucker|0 fnt
+|faint|p1a: yucker
+|
+|t:|1729703672
+|switch|p1a: tryra|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: äx|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|charku has 150 seconds left.
+|
+|t:|1729703713
+|move|p2a: äx|Explosion|p1a: tryra
+|-resisted|p1a: tryra
+|-crit|p1a: tryra
+|-damage|p1a: tryra|0 fnt
+|faint|p2a: äx
+|faint|p1a: tryra
+|
+|win|charku
+|c|☆xlimexheep|ggwp
+|c|☆charku|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801389">
+{"id":"smogtours-gen3ou-801389","format":"[Gen 3] OU","players":["xlimexheep","charku"],"uploadtime":1729703713,"views":74,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

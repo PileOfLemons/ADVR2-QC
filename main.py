@@ -6,6 +6,7 @@ from collections import Counter
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+
 import numpy as np
 import pandas as pd
 import requests
@@ -306,8 +307,10 @@ class Lemons:
         number_counts = Counter(all_numbers)
         duplicates = sorted([num for num, count in number_counts.items() if count > 1], key=int)
         self.duplicated_games = duplicates
-        self.add_to_log(f"Duplicates found in r column: {duplicates}")
-
+        if duplicates:
+            self.add_to_log(f"Duplicates found in replay numbers: {duplicates}")
+        else:
+            self.add_to_log("No duplicates found in replay numbers")
         # Convert all_numbers to integers
         all_numbers = list(map(int, all_numbers))
 
@@ -320,7 +323,10 @@ class Lemons:
         missing_numbers = sorted(full_range - present_numbers)
         missing_numbers = sorted(set(missing_numbers) - set(self.whitelist))
         self.missing_games = missing_numbers
-        self.add_to_log(f"Sorted missing numbers: {missing_numbers}")
+        if missing_numbers:
+            self.add_to_log(f"Sorted missing replay numbers: {missing_numbers}")
+        else:
+            self.add_to_log("No missing replay numbers")
 
     def fill_whitelist(self):
         with open(self.whitelist_filepath, 'r') as file:
@@ -404,9 +410,6 @@ class Lemons:
             lambda group: not any(group['replay_num'].isin(lemon.whitelist))
         )
 
-        # Step 3: Remove these filtered duplicate rows from the original DataFrame
-        df = df[~df.index.isin(filtered_duplicates.index)]
-
         # Check if there are any duplicates left after filtering
         if not filtered_duplicates.empty:
             log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding " \
@@ -474,3 +477,5 @@ if __name__ == "__main__":
     '''
 # TODO Add way to just pass dataframes around and only save/ access csvs once
 # TODO stop passing file paths around. just put all that up in the init
+# TODO make it so anytime something is passed to the log. if its empty there is a way to store that as well. So empty logs dont have to be joined with it.
+# TODO Fix the Failed to retrieve log from https://match.conceeded.to.pkLeech: with some kind of whitelist or something. its annoying

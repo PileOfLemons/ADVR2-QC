@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Promeathean0056 vs. oopsalldeoxys - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Promeathean0056 and oopsalldeoxys! Format: [Gen 3] OU; Date: Oct 2, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794098">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727906653
+|gametype|singles
+|player|p1|Promeathean0056|266|
+|player|p2|oopsalldeoxys|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727906653
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Pain|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pain
+|turn|1
+|c|☆oopsalldeoxys|glhf
+|c|☆Promeathean0056|u2
+|
+|t:|1727906679
+|switch|p2a: Last Valentines|Skarmory, M, shiny|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Last Valentines
+|-resisted|p2a: Last Valentines
+|-damage|p2a: Last Valentines|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Valentines|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1727906687
+|switch|p1a: Magneton|Magneton, shiny|100/100
+|move|p2a: Last Valentines|Spikes|p1a: Magneton
+|-sidestart|p1: Promeathean0056|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Valentines|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1727906695
+|move|p1a: Magneton|Thunderbolt|p2a: Last Valentines
+|-supereffective|p2a: Last Valentines
+|-damage|p2a: Last Valentines|0 fnt
+|faint|p2a: Last Valentines
+|
+|t:|1727906702
+|switch|p2a: Pain|Tyranitar, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1727906711
+|move|p1a: Magneton|Thunder Wave|p2a: Pain
+|-status|p2a: Pain|par
+|move|p2a: Pain|Dragon Dance|p2a: Pain
+|-boost|p2a: Pain|atk|1
+|-boost|p2a: Pain|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1727906718
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Pain|atk|1
+|move|p2a: Pain|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727906729
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Pain|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|t:|1727906739
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727906772
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|cant|p2a: Pain|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727906779
+|switch|p2a: Passion|Swampert, M, shiny|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Passion|[miss]
+|-miss|p1a: Metagross|p2a: Passion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1727906795
+|switch|p2a: Pain|Tyranitar, F, shiny|100/100 par
+|move|p1a: Metagross|Earthquake|p2a: Pain
+|-supereffective|p2a: Pain
+|-damage|p2a: Pain|39/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pain|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1727906802
+|switch|p2a: Reason|Zapdos|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Reason
+|-resisted|p2a: Reason
+|-crit|p2a: Reason
+|-damage|p2a: Reason|28/100
+|-boost|p1a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reason|21/100|[from] Sandstorm
+|-heal|p2a: Reason|28/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1727906813
+|move|p1a: Metagross|Meteor Mash|p2a: Reason
+|-resisted|p2a: Reason
+|-damage|p2a: Reason|0 fnt
+|faint|p2a: Reason
+|
+|t:|1727906814
+|switch|p2a: Passion|Swampert, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1727906822
+|move|p1a: Metagross|Explosion|p2a: Passion
+|-damage|p2a: Passion|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Passion
+|
+|t:|1727906841
+|switch|p1a: Magneton|Magneton, shiny|100/100
+|switch|p2a: Pain|Tyranitar, F, shiny|45/100 par
+|-damage|p1a: Magneton|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pain|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1727906853
+|move|p1a: Magneton|Thunderbolt|p2a: Pain
+|-crit|p2a: Pain
+|-damage|p2a: Pain|0 fnt
+|faint|p2a: Pain
+|
+|t:|1727906858
+|switch|p2a: I Must Apologise|Blissey, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|94/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆Promeathean0056|oof
+|c|☆oopsalldeoxys|yea
+|
+|t:|1727906873
+|switch|p1a: Chk ur calendar|Muk, M|100/100
+|-damage|p1a: Chk ur calendar|88/100|[from] Spikes
+|move|p2a: I Must Apologise|Fire Blast|p1a: Chk ur calendar
+|-damage|p1a: Chk ur calendar|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|94/100|[from] Sandstorm
+|-damage|p1a: Chk ur calendar|61/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|100/100|[from] item: Leftovers
+|-heal|p1a: Chk ur calendar|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727906884
+|switch|p2a: Just for Me|Gengar, F, shiny|100/100
+|move|p1a: Chk ur calendar|Curse|p1a: Chk ur calendar
+|-unboost|p1a: Chk ur calendar|spe|1
+|-boost|p1a: Chk ur calendar|atk|1
+|-boost|p1a: Chk ur calendar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-damage|p1a: Chk ur calendar|61/100|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|-heal|p1a: Chk ur calendar|67/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727906895
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Just for Me|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|95/100|[from] Sandstorm
+|-heal|p2a: Just for Me|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1727906908
+|move|p2a: Just for Me|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100 brn
+|move|p1a: Tyranitar|Crunch|p2a: Just for Me
+|-supereffective|p2a: Just for Me
+|-damage|p2a: Just for Me|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Just for Me|0 fnt|[from] Sandstorm
+|faint|p2a: Just for Me
+|-heal|p1a: Tyranitar|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1727906913
+|switch|p2a: I Must Apologise|Blissey, F, shiny|100/100
+|turn|18
+|
+|t:|1727906920
+|move|p2a: I Must Apologise|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|29/100 brn
+|move|p1a: Tyranitar|Brick Break|p2a: I Must Apologise
+|-supereffective|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|70/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|76/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|23/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1727906935
+|move|p2a: I Must Apologise|Soft-Boiled|p2a: I Must Apologise
+|-heal|p2a: I Must Apologise|100/100
+|move|p1a: Tyranitar|Brick Break|p2a: I Must Apologise
+|-supereffective|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|71/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|77/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|29/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1727906946
+|move|p2a: I Must Apologise|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1727906951
+|switch|p1a: Magneton|Magneton, shiny|88/100
+|-damage|p1a: Magneton|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|71/100|[from] Sandstorm
+|-heal|p2a: I Must Apologise|77/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727906957
+|move|p1a: Magneton|Thunder Wave|p2a: I Must Apologise
+|-status|p2a: I Must Apologise|par
+|cant|p2a: I Must Apologise|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I Must Apologise|71/100 par|[from] Sandstorm
+|-heal|p2a: I Must Apologise|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727906969
+|switch|p1a: Chk ur calendar|Muk, M|67/100
+|-damage|p1a: Chk ur calendar|55/100|[from] Spikes
+|move|p2a: I Must Apologise|Soft-Boiled|p2a: I Must Apologise
+|-heal|p2a: I Must Apologise|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chk ur calendar|49/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p1a: Chk ur calendar|55/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727906979
+|move|p1a: Chk ur calendar|Curse|p1a: Chk ur calendar
+|-unboost|p1a: Chk ur calendar|spe|1
+|-boost|p1a: Chk ur calendar|atk|1
+|-boost|p1a: Chk ur calendar|def|1
+|move|p2a: I Must Apologise|Ice Beam|p1a: Chk ur calendar
+|-damage|p1a: Chk ur calendar|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chk ur calendar|33/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|94/100 par|[from] Sandstorm
+|-heal|p1a: Chk ur calendar|39/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1727906995
+|move|p1a: Chk ur calendar|Sludge Bomb|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|48/100 par
+|move|p2a: I Must Apologise|Ice Beam|p1a: Chk ur calendar
+|-crit|p1a: Chk ur calendar
+|-damage|p1a: Chk ur calendar|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chk ur calendar|2/100|[from] Sandstorm
+|-damage|p2a: I Must Apologise|42/100 par|[from] Sandstorm
+|-heal|p1a: Chk ur calendar|8/100|[from] item: Leftovers
+|-heal|p2a: I Must Apologise|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727907005
+|-singleturn|p1a: Chk ur calendar|move: Focus Punch
+|move|p2a: I Must Apologise|Soft-Boiled|p2a: I Must Apologise
+|-heal|p2a: I Must Apologise|98/100 par
+|move|p1a: Chk ur calendar|Focus Punch|p2a: I Must Apologise
+|-supereffective|p2a: I Must Apologise
+|-damage|p2a: I Must Apologise|0 fnt
+|faint|p2a: I Must Apologise
+|
+|win|Promeathean0056
+|c|☆oopsalldeoxys|gg]\
+|c|☆Promeathean0056|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794098">
+{"id":"smogtours-gen3ou-794098","format":"[Gen 3] OU","players":["Promeathean0056","oopsalldeoxys"],"uploadtime":1727907005,"views":133,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: big will 2024 vs. Euph0riADV - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between big will 2024 and Euph0riADV! Format: [Gen 3] OU; Date: Oct 15, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798864">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728955910
+|gametype|singles
+|player|p1|big will 2024|morty-gen2|
+|player|p2|Euph0riADV|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728955910
+|start
+|switch|p1a: set it off|Tyranitar, F|100/100
+|switch|p2a: Black Serotonin|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: set it off
+|turn|1
+|inactive|big will 2024 also wants the timer to be on.
+|
+|t:|1728955918
+|move|p1a: set it off|Earthquake|p2a: Black Serotonin
+|-supereffective|p2a: Black Serotonin
+|-damage|p2a: Black Serotonin|52/100
+|move|p2a: Black Serotonin|Counter|p1a: set it off
+|-damage|p1a: set it off|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: set it off|12/100|[from] item: Leftovers
+|-heal|p2a: Black Serotonin|58/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆big will 2024|hf
+|
+|t:|1728955936
+|switch|p2a: Anti-Eulogy|Salamence, F|100/100
+|-ability|p2a: Anti-Eulogy|Intimidate|boost
+|-unboost|p1a: set it off|atk|1
+|move|p1a: set it off|Earthquake|p2a: Anti-Eulogy
+|-immune|p2a: Anti-Eulogy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|95/100|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|100/100|[from] item: Leftovers
+|-heal|p1a: set it off|18/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728955943
+|switch|p1a: who's theme|Swampert, M|100/100
+|move|p2a: Anti-Eulogy|Dragon Claw|p1a: who's theme
+|-damage|p1a: who's theme|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|95/100|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|100/100|[from] item: Leftovers
+|-heal|p1a: who's theme|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728955968
+|switch|p2a: Missed Injections|Blissey, F, shiny|100/100
+|switch|p1a: sanctuary ship|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p2a: Missed Injections|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728955972
+|move|p1a: sanctuary ship|Spikes|p2a: Missed Injections
+|-sidestart|p2: Euph0riADV|Spikes
+|move|p2a: Missed Injections|Thunder Wave|p1a: sanctuary ship
+|-status|p1a: sanctuary ship|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p2a: Missed Injections|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728955983
+|switch|p2a: Anti-Eulogy|Salamence, F|100/100
+|-ability|p2a: Anti-Eulogy|Intimidate|boost
+|-unboost|p1a: sanctuary ship|atk|1
+|move|p1a: sanctuary ship|Toxic|p2a: Anti-Eulogy
+|-status|p2a: Anti-Eulogy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|95/100 tox|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Anti-Eulogy|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1728955994
+|switch|p1a: just forget|Blissey, F|100/100
+|move|p2a: Anti-Eulogy|Brick Break|p1a: just forget
+|-supereffective|p1a: just forget
+|-crit|p1a: just forget
+|-damage|p1a: just forget|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|89/100 tox|[from] Sandstorm
+|-damage|p1a: just forget|6/100|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Anti-Eulogy|83/100 tox|[from] psn
+|-heal|p1a: just forget|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728956002
+|switch|p2a: Missed Injections|Blissey, F, shiny|100/100
+|-damage|p2a: Missed Injections|88/100|[from] Spikes
+|move|p1a: just forget|Ice Beam|p2a: Missed Injections
+|-damage|p2a: Missed Injections|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|72/100|[from] Sandstorm
+|-damage|p1a: just forget|6/100|[from] Sandstorm
+|-heal|p1a: just forget|12/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728956005
+|move|p1a: just forget|Soft-Boiled|p1a: just forget
+|-heal|p1a: just forget|62/100
+|move|p2a: Missed Injections|Seismic Toss|p1a: just forget
+|-damage|p1a: just forget|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|72/100|[from] Sandstorm
+|-damage|p1a: just forget|41/100|[from] Sandstorm
+|-heal|p1a: just forget|47/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728956010
+|move|p1a: just forget|Soft-Boiled|p1a: just forget
+|-heal|p1a: just forget|97/100
+|move|p2a: Missed Injections|Thunder Wave|p1a: just forget
+|-status|p1a: just forget|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|72/100|[from] Sandstorm
+|-damage|p1a: just forget|91/100 par|[from] Sandstorm
+|-heal|p2a: Missed Injections|78/100|[from] item: Leftovers
+|-heal|p1a: just forget|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728956030
+|move|p2a: Missed Injections|Seismic Toss|p1a: just forget
+|-damage|p1a: just forget|81/100 par
+|cant|p1a: just forget|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|72/100|[from] Sandstorm
+|-damage|p1a: just forget|75/100 par|[from] Sandstorm
+|-heal|p2a: Missed Injections|78/100|[from] item: Leftovers
+|-heal|p1a: just forget|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728956034
+|move|p2a: Missed Injections|Seismic Toss|p1a: just forget
+|-damage|p1a: just forget|66/100 par
+|move|p1a: just forget|Seismic Toss|p2a: Missed Injections
+|-damage|p2a: Missed Injections|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|58/100|[from] Sandstorm
+|-damage|p1a: just forget|60/100 par|[from] Sandstorm
+|-heal|p2a: Missed Injections|64/100|[from] item: Leftovers
+|-heal|p1a: just forget|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728956044
+|move|p2a: Missed Injections|Seismic Toss|p1a: just forget
+|-damage|p1a: just forget|51/100 par
+|move|p1a: just forget|Soft-Boiled|p1a: just forget
+|-heal|p1a: just forget|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|58/100|[from] Sandstorm
+|-damage|p1a: just forget|94/100 par|[from] Sandstorm
+|-heal|p2a: Missed Injections|64/100|[from] item: Leftovers
+|-heal|p1a: just forget|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728956048
+|move|p2a: Missed Injections|Soft-Boiled|p2a: Missed Injections
+|-heal|p2a: Missed Injections|100/100
+|move|p1a: just forget|Seismic Toss|p2a: Missed Injections
+|-damage|p2a: Missed Injections|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|80/100|[from] Sandstorm
+|-damage|p1a: just forget|94/100 par|[from] Sandstorm
+|-heal|p2a: Missed Injections|86/100|[from] item: Leftovers
+|-heal|p1a: just forget|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728956054
+|switch|p2a: Railmaster|Forretress, F|100/100
+|-damage|p2a: Railmaster|88/100|[from] Spikes
+|move|p1a: just forget|Seismic Toss|p2a: Railmaster
+|-damage|p2a: Railmaster|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: just forget|94/100 par|[from] Sandstorm
+|-heal|p2a: Railmaster|66/100|[from] item: Leftovers
+|-heal|p1a: just forget|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728956059
+|-curestatus|p1a: just forget|par|[from] ability: Natural Cure
+|switch|p1a: night out|Gengar, F|100/100
+|move|p2a: Railmaster|Spikes|p1a: night out
+|-sidestart|p1: big will 2024|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728956067
+|switch|p2a: Black Serotonin|Tyranitar, F, shiny|58/100
+|-damage|p2a: Black Serotonin|46/100|[from] Spikes
+|move|p1a: night out|Will-O-Wisp|p2a: Black Serotonin
+|-status|p2a: Black Serotonin|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Black Serotonin|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Black Serotonin|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1728956070
+|move|p1a: night out|Thunderbolt|p2a: Black Serotonin
+|-damage|p2a: Black Serotonin|17/100 brn
+|move|p2a: Black Serotonin|Pursuit|p1a: night out
+|-supereffective|p1a: night out
+|-damage|p1a: night out|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|49/100|[from] Sandstorm
+|-heal|p1a: night out|55/100|[from] item: Leftovers
+|-heal|p2a: Black Serotonin|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Black Serotonin|11/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1728956085
+|move|p1a: night out|Thunderbolt|p2a: Black Serotonin
+|-damage|p2a: Black Serotonin|0 fnt
+|faint|p2a: Black Serotonin
+|
+|t:|1728956095
+|switch|p2a: Dis Syndrome|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|49/100|[from] Sandstorm
+|-heal|p1a: night out|55/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728956102
+|switch|p1a: sanctuary ship|Skarmory, M|100/100 par
+|move|p2a: Dis Syndrome|Rock Slide|p1a: sanctuary ship
+|-damage|p1a: sanctuary ship|64/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: sanctuary ship|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728956112
+|switch|p1a: who's theme|Swampert, M|69/100
+|-damage|p1a: who's theme|57/100|[from] Spikes
+|move|p2a: Dis Syndrome|Rock Slide|p1a: who's theme
+|-resisted|p1a: who's theme
+|-damage|p1a: who's theme|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: who's theme|46/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728956123
+|switch|p2a: Missed Injections|Blissey, F, shiny|86/100
+|-damage|p2a: Missed Injections|74/100|[from] Spikes
+|move|p1a: who's theme|Ice Beam|p2a: Missed Injections
+|-damage|p2a: Missed Injections|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|61/100|[from] Sandstorm
+|-heal|p1a: who's theme|53/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728956129
+|move|p1a: who's theme|Earthquake|p2a: Missed Injections
+|-damage|p2a: Missed Injections|35/100
+|move|p2a: Missed Injections|Seismic Toss|p1a: who's theme
+|-damage|p1a: who's theme|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|29/100|[from] Sandstorm
+|-heal|p1a: who's theme|34/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728956147
+|move|p1a: who's theme|Earthquake|p2a: Missed Injections
+|-damage|p2a: Missed Injections|4/100
+|move|p2a: Missed Injections|Soft-Boiled|p2a: Missed Injections
+|-heal|p2a: Missed Injections|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|48/100|[from] Sandstorm
+|-heal|p1a: who's theme|40/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|54/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728956153
+|move|p1a: who's theme|Earthquake|p2a: Missed Injections
+|-damage|p2a: Missed Injections|22/100
+|move|p2a: Missed Injections|Soft-Boiled|p2a: Missed Injections
+|-heal|p2a: Missed Injections|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|66/100|[from] Sandstorm
+|-heal|p1a: who's theme|46/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728956157
+|move|p1a: who's theme|Protect|p1a: who's theme
+|-singleturn|p1a: who's theme|Protect
+|move|p2a: Missed Injections|Soft-Boiled|p2a: Missed Injections
+|-heal|p2a: Missed Injections|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p1a: who's theme|53/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728956162
+|switch|p1a: just forget|Blissey, F|100/100
+|-damage|p1a: just forget|88/100|[from] Spikes
+|move|p2a: Missed Injections|Seismic Toss|p1a: just forget
+|-damage|p1a: just forget|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: just forget|67/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|94/100|[from] Sandstorm
+|-heal|p2a: Missed Injections|100/100|[from] item: Leftovers
+|-heal|p1a: just forget|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728956167
+|switch|p2a: Railmaster|Forretress, F|72/100
+|-damage|p2a: Railmaster|60/100|[from] Spikes
+|move|p1a: just forget|Wish|p1a: just forget
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: just forget|67/100|[from] Sandstorm
+|-heal|p1a: just forget|73/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|66/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728956170
+|switch|p1a: night out|Gengar, F|55/100
+|move|p2a: Railmaster|Spikes|p1a: night out
+|-sidestart|p1: big will 2024|Spikes
+|
+|-heal|p1a: night out|100/100|[from] move: Wish|[wisher] just forget
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|72/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728956176
+|switch|p2a: Missed Injections|Blissey, F, shiny|100/100
+|-damage|p2a: Missed Injections|88/100|[from] Spikes
+|move|p1a: night out|Will-O-Wisp|p2a: Missed Injections
+|-status|p2a: Missed Injections|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|82/100 brn|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Missed Injections|76/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1728956179
+|move|p1a: night out|Taunt|p2a: Missed Injections
+|-start|p2a: Missed Injections|move: Taunt
+|cant|p2a: Missed Injections|move: Taunt|Thunder Wave
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|69/100 brn|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Missed Injections|63/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|Euph0riADV has 270 seconds left.
+|
+|t:|1728956214
+|-curestatus|p2a: Missed Injections|brn|[from] ability: Natural Cure
+|switch|p2a: Cosmic Narcissism|Jirachi|100/100
+|-damage|p2a: Cosmic Narcissism|88/100|[from] Spikes
+|move|p1a: night out|Thunderbolt|p2a: Cosmic Narcissism
+|-damage|p2a: Cosmic Narcissism|63/100
+|-status|p2a: Cosmic Narcissism|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728956226
+|switch|p1a: set it off|Tyranitar, F|18/100
+|-damage|p1a: set it off|1/100|[from] Spikes
+|move|p2a: Cosmic Narcissism|Wish|p2a: Cosmic Narcissism
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: set it off|7/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728956235
+|cant|p2a: Cosmic Narcissism|par
+|move|p1a: set it off|Earthquake|p2a: Cosmic Narcissism
+|-supereffective|p2a: Cosmic Narcissism
+|-damage|p2a: Cosmic Narcissism|31/100 par
+|
+|-heal|p2a: Cosmic Narcissism|81/100 par|[from] move: Wish|[wisher] Cosmic Narcissism
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: set it off|14/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728956249
+|switch|p2a: Dis Syndrome|Aerodactyl, M|100/100
+|move|p1a: set it off|Rock Slide|p2a: Dis Syndrome
+|-supereffective|p2a: Dis Syndrome
+|-damage|p2a: Dis Syndrome|0 fnt
+|faint|p2a: Dis Syndrome
+|inactive|Euph0riADV has 270 seconds left.
+|inactive|Euph0riADV has 240 seconds left.
+|
+|t:|1728956322
+|switch|p2a: Railmaster|Forretress, F|72/100
+|-damage|p2a: Railmaster|60/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: set it off|20/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|66/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728956330
+|move|p1a: set it off|Rock Slide|p2a: Railmaster
+|-damage|p2a: Railmaster|38/100
+|move|p2a: Railmaster|Spikes|p1a: set it off
+|-sidestart|p1: big will 2024|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: set it off|26/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|44/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728956335
+|move|p1a: set it off|Rock Slide|p2a: Railmaster
+|-damage|p2a: Railmaster|17/100
+|move|p2a: Railmaster|Earthquake|p1a: set it off
+|-supereffective|p1a: set it off
+|-damage|p1a: set it off|0 fnt
+|faint|p1a: set it off
+|
+|t:|1728956339
+|switch|p1a: night out|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|23/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728956348
+|switch|p2a: Cosmic Narcissism|Jirachi|87/100 par
+|-damage|p2a: Cosmic Narcissism|75/100 par|[from] Spikes
+|move|p1a: night out|Thunderbolt|p2a: Cosmic Narcissism
+|-crit|p2a: Cosmic Narcissism
+|-damage|p2a: Cosmic Narcissism|30/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728956355
+|switch|p1a: tsurugi no mai|Moltres|100/100
+|move|p2a: Cosmic Narcissism|Protect||[still]
+|-fail|p2a: Cosmic Narcissism
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: tsurugi no mai|94/100|[from] Sandstorm
+|-heal|p1a: tsurugi no mai|100/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728956361
+|move|p2a: Cosmic Narcissism|Protect|p2a: Cosmic Narcissism
+|-singleturn|p2a: Cosmic Narcissism|Protect
+|move|p1a: tsurugi no mai|Flamethrower|p2a: Cosmic Narcissism
+|-activate|p2a: Cosmic Narcissism|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: tsurugi no mai|94/100|[from] Sandstorm
+|-heal|p1a: tsurugi no mai|100/100|[from] item: Leftovers
+|-heal|p2a: Cosmic Narcissism|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Euph0riADV has 270 seconds left.
+|
+|t:|1728956368
+|switch|p2a: Missed Injections|Blissey, F, shiny|63/100
+|-damage|p2a: Missed Injections|51/100|[from] Spikes
+|move|p1a: tsurugi no mai|Flamethrower|p2a: Missed Injections
+|-damage|p2a: Missed Injections|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: tsurugi no mai|94/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|25/100|[from] Sandstorm
+|-heal|p1a: tsurugi no mai|100/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|31/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728956378
+|switch|p1a: sanctuary ship|Skarmory, M|70/100 par
+|move|p2a: Missed Injections|Soft-Boiled|p2a: Missed Injections
+|-heal|p2a: Missed Injections|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Missed Injections|75/100|[from] Sandstorm
+|-heal|p2a: Missed Injections|81/100|[from] item: Leftovers
+|-heal|p1a: sanctuary ship|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728956386
+|switch|p2a: Anti-Eulogy|Salamence, F|83/100 tox
+|-ability|p2a: Anti-Eulogy|Intimidate|boost
+|-unboost|p1a: sanctuary ship|atk|1
+|move|p1a: sanctuary ship|Spikes|p2a: Anti-Eulogy
+|-sidestart|p2: Euph0riADV|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|77/100 tox|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Anti-Eulogy|77/100 tox|[from] psn
+|-heal|p1a: sanctuary ship|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728956391
+|switch|p1a: who's theme|Swampert, M|53/100
+|-damage|p1a: who's theme|28/100|[from] Spikes
+|move|p2a: Anti-Eulogy|Brick Break|p1a: who's theme
+|-damage|p1a: who's theme|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Anti-Eulogy|71/100 tox|[from] Sandstorm
+|-heal|p2a: Anti-Eulogy|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Anti-Eulogy|65/100 tox|[from] psn
+|-heal|p1a: who's theme|19/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728956397
+|move|p2a: Anti-Eulogy|Dragon Claw|p1a: who's theme
+|-damage|p1a: who's theme|0 fnt
+|faint|p1a: who's theme
+|
+|t:|1728956398
+|switch|p1a: night out|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-damage|p2a: Anti-Eulogy|59/100 tox|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Anti-Eulogy|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Anti-Eulogy|47/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1728956403
+|switch|p2a: Missed Injections|Blissey, F, shiny|81/100
+|-damage|p2a: Missed Injections|65/100|[from] Spikes
+|move|p1a: night out|Ice Punch|p2a: Missed Injections
+|-damage|p2a: Missed Injections|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|50/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|56/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728956406
+|move|p1a: night out|Taunt|p2a: Missed Injections
+|-start|p2a: Missed Injections|move: Taunt
+|cant|p2a: Missed Injections|move: Taunt|Thunder Wave
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-damage|p2a: Missed Injections|50/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Missed Injections|56/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728956412
+|switch|p2a: Railmaster|Forretress, F|23/100
+|-damage|p2a: Railmaster|6/100|[from] Spikes
+|move|p1a: night out|Will-O-Wisp|p2a: Railmaster
+|-status|p2a: Railmaster|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: night out|95/100|[from] Sandstorm
+|-heal|p1a: night out|100/100|[from] item: Leftovers
+|-heal|p2a: Railmaster|13/100 brn|[from] item: Leftovers
+|-damage|p2a: Railmaster|0 fnt|[from] brn
+|faint|p2a: Railmaster
+|upkeep
+|
+|t:|1728956417
+|switch|p2a: Anti-Eulogy|Salamence, F|47/100 tox
+|-ability|p2a: Anti-Eulogy|Intimidate|boost
+|-unboost|p1a: night out|atk|1
+|turn|49
+|
+|t:|1728956420
+|move|p1a: night out|Ice Punch|p2a: Anti-Eulogy
+|-supereffective|p2a: Anti-Eulogy
+|-damage|p2a: Anti-Eulogy|0 fnt
+|faint|p2a: Anti-Eulogy
+|c|☆Euph0riADV|gg
+|c|☆Euph0riADV|well played
+|c|☆Euph0riADV|a lot of fun
+|c|☆big will 2024|gg
+|-message|Euph0riADV forfeited.
+|
+|win|big will 2024
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798864">
+{"id":"smogtours-gen3ou-798864","format":"[Gen 3] OU","players":["big will 2024","Euph0riADV"],"uploadtime":1728956444,"views":101,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Genexys vs. Gulchittious Boi - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Genexys and Gulchittious Boi! Format: [Gen 3] OU; Date: Nov 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804536">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730664462
+|gametype|singles
+|player|p1|Genexys|ghetsis|
+|player|p2|Gulchittious Boi|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730664462
+|start
+|switch|p1a: Guts|Zapdos|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+|c|☆Genexys|glhf
+|
+|t:|1730664476
+|move|p2a: Jolteon|Thunder Wave|p1a: Guts
+|-status|p1a: Guts|par
+|cant|p1a: Guts|par
+|
+|upkeep
+|turn|2
+|
+|t:|1730664481
+|move|p2a: Jolteon|Thunderbolt|p1a: Guts
+|-damage|p1a: Guts|72/100 par
+|cant|p1a: Guts|par
+|
+|-heal|p1a: Guts|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730664491
+|move|p2a: Jolteon|Thunderbolt|p1a: Guts
+|-damage|p1a: Guts|46/100 par
+|move|p1a: Guts|Roar|p2a: Jolteon
+|drag|p2a: Metagross|Metagross|100/100
+|
+|-heal|p1a: Guts|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730664498
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|switch|p1a: Yaharr|Jirachi|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1730664501
+|switch|p1a: Guts|Zapdos|52/100 par
+|move|p2a: Jolteon|Thunder Wave|p1a: Guts
+|-fail|p1a: Guts|par
+|
+|-heal|p1a: Guts|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730664503
+|move|p2a: Jolteon|Thunderbolt|p1a: Guts
+|-damage|p1a: Guts|27/100 par
+|move|p1a: Guts|Rest|p1a: Guts
+|-status|p1a: Guts|slp|[from] move: Rest
+|-heal|p1a: Guts|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1730664516
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Guts|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|94/100 slp|[from] Sandstorm
+|-heal|p1a: Guts|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730664523
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|switch|p1a: Yaharr|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|94/100|[from] Sandstorm
+|-heal|p2a: Cloyster|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730664530
+|move|p2a: Cloyster|Spikes|p1a: Yaharr
+|-sidestart|p1: Genexys|Spikes
+|move|p1a: Yaharr|Fire Punch|p2a: Cloyster
+|-damage|p2a: Cloyster|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|67/100|[from] Sandstorm
+|-heal|p2a: Cloyster|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730664545
+|switch|p1a: evil ass bird|Skarmory, M|100/100
+|move|p2a: Cloyster|Spikes|p1a: evil ass bird
+|-sidestart|p1: Genexys|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|67/100|[from] Sandstorm
+|-heal|p2a: Cloyster|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730664549
+|move|p2a: Cloyster|Spikes|p1a: evil ass bird
+|-sidestart|p1: Genexys|Spikes
+|move|p1a: evil ass bird|Spikes|p2a: Cloyster
+|-sidestart|p2: Gulchittious Boi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|67/100|[from] Sandstorm
+|-heal|p2a: Cloyster|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730664551
+|move|p1a: evil ass bird|Protect|p1a: evil ass bird
+|-singleturn|p1a: evil ass bird|Protect
+|move|p2a: Cloyster|Rapid Spin|p1a: evil ass bird
+|-activate|p1a: evil ass bird|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|67/100|[from] Sandstorm
+|-heal|p2a: Cloyster|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730664556
+|move|p2a: Cloyster|Rapid Spin|p1a: evil ass bird
+|-resisted|p1a: evil ass bird
+|-damage|p1a: evil ass bird|99/100
+|-sideend|p2: Gulchittious Boi|Spikes|[from] move: Rapid Spin|[of] p2a: Cloyster
+|move|p1a: evil ass bird|Spikes|p2a: Cloyster
+|-sidestart|p2: Gulchittious Boi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|67/100|[from] Sandstorm
+|-heal|p2a: Cloyster|73/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730664560
+|move|p2a: Cloyster|Rapid Spin|p1a: evil ass bird
+|-resisted|p1a: evil ass bird
+|-damage|p1a: evil ass bird|99/100
+|-sideend|p2: Gulchittious Boi|Spikes|[from] move: Rapid Spin|[of] p2a: Cloyster
+|move|p1a: evil ass bird|Drill Peck|p2a: Cloyster
+|-damage|p2a: Cloyster|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|48/100|[from] Sandstorm
+|-heal|p2a: Cloyster|54/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730664564
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|move|p1a: evil ass bird|Spikes|p2a: Jolteon
+|-sidestart|p2: Gulchittious Boi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730664567
+|switch|p1a: Guts|Zapdos|100/100 slp
+|move|p2a: Jolteon|Roar|p1a: Guts
+|drag|p1a: evil ass bird|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730664572
+|switch|p1a: Guts|Zapdos|100/100 slp
+|move|p2a: Jolteon|Thunderbolt|p1a: Guts
+|-damage|p1a: Guts|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730664575
+|cant|p1a: Guts|slp
+|move|p2a: Jolteon|Roar|p1a: Guts
+|drag|p1a: Tantalus|Tyranitar, F, shiny|100/100
+|-damage|p1a: Tantalus|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p1a: Tantalus|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730664579
+|-activate|p2a: Jolteon|move: Pursuit
+|move|p1a: Tantalus|Pursuit|p2a: Jolteon|[from]Pursuit
+|-damage|p2a: Jolteon|53/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|-heal|p1a: Tantalus|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730664584
+|switch|p1a: evil ass bird|Skarmory, M|100/100
+|move|p2a: Swampert|Surf|p1a: evil ass bird
+|-damage|p1a: evil ass bird|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: evil ass bird|70/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730664587
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: evil ass bird|Protect||[still]
+|-fail|p1a: evil ass bird
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730664592
+|switch|p1a: Guts|Zapdos|72/100 slp
+|move|p2a: Gengar|Fire Punch|p1a: Guts
+|-damage|p1a: Guts|53/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Guts|47/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Guts|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730664597
+|move|p2a: Gengar|Ice Punch|p1a: Guts
+|-supereffective|p1a: Guts
+|-damage|p1a: Guts|14/100 slp
+|-curestatus|p1a: Guts|slp|[msg]
+|move|p1a: Guts|Rest|p1a: Guts
+|-status|p1a: Guts|slp|[from] move: Rest
+|-heal|p1a: Guts|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Guts|94/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Guts|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1730664603
+|switch|p1a: Tantalus|Tyranitar, F, shiny|88/100
+|-damage|p1a: Tantalus|63/100|[from] Spikes
+|move|p2a: Gengar|Ice Punch|p1a: Tantalus
+|-damage|p1a: Tantalus|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Tantalus|46/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730664606
+|move|p2a: Gengar|Giga Drain|p1a: Tantalus
+|-supereffective|p1a: Tantalus
+|-damage|p1a: Tantalus|10/100
+|move|p1a: Tantalus|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730664616
+|switch|p2a: Jolteon|Jolteon, M|53/100
+|-damage|p2a: Jolteon|40/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|34/100|[from] Sandstorm
+|-heal|p2a: Jolteon|40/100|[from] item: Leftovers
+|-heal|p1a: Tantalus|16/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730664622
+|switch|p1a: Freddie Gibbs|Flygon, F|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Freddie Gibbs
+|-immune|p1a: Freddie Gibbs
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|34/100|[from] Sandstorm
+|-heal|p2a: Jolteon|40/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730664625
+|move|p1a: Freddie Gibbs|Protect|p1a: Freddie Gibbs
+|-singleturn|p1a: Freddie Gibbs|Protect
+|move|p2a: Jolteon|Hidden Power|p1a: Freddie Gibbs
+|-activate|p1a: Freddie Gibbs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|34/100|[from] Sandstorm
+|-heal|p2a: Jolteon|40/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730664640
+|switch|p1a: Guts|Zapdos|100/100 slp
+|move|p2a: Jolteon|Hidden Power|p1a: Guts
+|-supereffective|p1a: Guts
+|-damage|p1a: Guts|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|34/100|[from] Sandstorm
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p2a: Jolteon|40/100|[from] item: Leftovers
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730664647
+|switch|p2a: Cloyster|Cloyster, F|54/100
+|-damage|p2a: Cloyster|41/100|[from] Spikes
+|cant|p1a: Guts|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|35/100|[from] Sandstorm
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p2a: Cloyster|41/100|[from] item: Leftovers
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730664650
+|switch|p1a: William|Gengar, M|100/100
+|move|p2a: Cloyster|Rapid Spin|p1a: William
+|-immune|p1a: William
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-damage|p2a: Cloyster|35/100|[from] Sandstorm
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|-heal|p2a: Cloyster|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1730664656
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|move|p1a: William|Will-O-Wisp|p2a: Metagross|[miss]
+|-miss|p1a: William|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1730664661
+|switch|p1a: evil ass bird|Skarmory, M|76/100
+|move|p2a: Metagross|Meteor Mash|p1a: evil ass bird
+|-resisted|p1a: evil ass bird
+|-damage|p1a: evil ass bird|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: evil ass bird|47/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730664664
+|switch|p2a: Cloyster|Cloyster, F|41/100
+|-damage|p2a: Cloyster|29/100|[from] Spikes
+|move|p1a: evil ass bird|Protect||[still]
+|-fail|p1a: evil ass bird
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|23/100|[from] Sandstorm
+|-heal|p2a: Cloyster|29/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|53/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730664668
+|move|p2a: Cloyster|Ice Beam|p1a: evil ass bird
+|-damage|p1a: evil ass bird|27/100
+|move|p1a: evil ass bird|Spikes|p2a: Cloyster
+|-sidestart|p2: Gulchittious Boi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|23/100|[from] Sandstorm
+|-heal|p2a: Cloyster|29/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|33/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730664671
+|move|p1a: evil ass bird|Protect|p1a: evil ass bird
+|-singleturn|p1a: evil ass bird|Protect
+|move|p2a: Cloyster|Ice Beam|p1a: evil ass bird
+|-activate|p1a: evil ass bird|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|23/100|[from] Sandstorm
+|-heal|p2a: Cloyster|29/100|[from] item: Leftovers
+|-heal|p1a: evil ass bird|39/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730664674
+|switch|p2a: Jolteon|Jolteon, M|40/100
+|-damage|p2a: Jolteon|24/100|[from] Spikes
+|switch|p1a: William|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|17/100|[from] Sandstorm
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|24/100|[from] item: Leftovers
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730664684
+|switch|p1a: Yaharr|Jirachi|100/100
+|-damage|p1a: Yaharr|75/100|[from] Spikes
+|move|p2a: Jolteon|Thunderbolt|p1a: Yaharr
+|-damage|p1a: Yaharr|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|17/100|[from] Sandstorm
+|-heal|p2a: Jolteon|24/100|[from] item: Leftovers
+|-heal|p1a: Yaharr|54/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730664689
+|move|p2a: Jolteon|Thunder Wave|p1a: Yaharr
+|-status|p1a: Yaharr|par
+|move|p1a: Yaharr|Fire Punch|p2a: Jolteon
+|-damage|p2a: Jolteon|2/100
+|-status|p2a: Jolteon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|0 fnt|[from] Sandstorm
+|faint|p2a: Jolteon
+|-heal|p1a: Yaharr|60/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1730664699
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|84/100|[from] Spikes
+|turn|39
+|
+|t:|1730664706
+|move|p2a: Swampert|Surf|p1a: Yaharr
+|-damage|p1a: Yaharr|35/100 par
+|cant|p1a: Yaharr|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|90/100|[from] item: Leftovers
+|-heal|p1a: Yaharr|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1730664711
+|move|p2a: Swampert|Earthquake|p1a: Yaharr
+|-supereffective|p1a: Yaharr
+|-damage|p1a: Yaharr|0 fnt
+|faint|p1a: Yaharr
+|
+|t:|1730664717
+|switch|p1a: Guts|Zapdos|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1730664727
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|cant|p1a: Guts|slp
+|move|p1a: Guts|Sleep Talk|p1a: Guts
+|move|p1a: Guts|Roar|p2a: Tyranitar|[from]Sleep Talk
+|drag|p2a: Cloyster|Cloyster, F|29/100
+|-damage|p2a: Cloyster|12/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|6/100|[from] Sandstorm
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p2a: Cloyster|12/100|[from] item: Leftovers
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1730664737
+|switch|p1a: William|Gengar, M|100/100
+|move|p2a: Cloyster|Rapid Spin|p1a: William
+|-immune|p1a: William
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-damage|p2a: Cloyster|6/100|[from] Sandstorm
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|-heal|p2a: Cloyster|12/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1730664743
+|move|p1a: William|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|t:|1730664751
+|switch|p2a: Metagross|Metagross|88/100
+|-damage|p2a: Metagross|72/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1730664754
+|switch|p1a: Tantalus|Tyranitar, F, shiny|16/100
+|-damage|p1a: Tantalus|0 fnt|[from] Spikes
+|faint|p1a: Tantalus
+|
+|t:|1730664758
+|switch|p1a: Freddie Gibbs|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|45
+|
+|t:|1730664763
+|move|p1a: Freddie Gibbs|Protect|p1a: Freddie Gibbs
+|-singleturn|p1a: Freddie Gibbs|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Freddie Gibbs
+|-activate|p1a: Freddie Gibbs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|46
+|
+|t:|1730664767
+|move|p1a: Freddie Gibbs|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|17/100
+|move|p2a: Metagross|Meteor Mash|p1a: Freddie Gibbs
+|-damage|p1a: Freddie Gibbs|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Freddie Gibbs|34/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1730664770
+|move|p1a: Freddie Gibbs|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1730664772
+|switch|p2a: Swampert|Swampert, F|96/100
+|-damage|p2a: Swampert|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Freddie Gibbs|40/100|[from] item: Leftovers
+|-heal|p2a: Swampert|86/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1730664774
+|move|p1a: Freddie Gibbs|Protect|p1a: Freddie Gibbs
+|-singleturn|p1a: Freddie Gibbs|Protect
+|move|p2a: Swampert|Ice Beam|p1a: Freddie Gibbs
+|-activate|p1a: Freddie Gibbs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Freddie Gibbs|46/100|[from] item: Leftovers
+|-heal|p2a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1730664779
+|switch|p1a: evil ass bird|Skarmory, M|39/100
+|move|p2a: Swampert|Surf|p1a: evil ass bird
+|-damage|p1a: evil ass bird|0 fnt
+|faint|p1a: evil ass bird
+|
+|t:|1730664781
+|switch|p1a: William|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|94/100|[from] Sandstorm
+|-heal|p1a: William|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|98/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1730664783
+|move|p1a: William|Will-O-Wisp|p2a: Swampert
+|-status|p2a: Swampert|brn
+|move|p2a: Swampert|Surf|p1a: William
+|-damage|p1a: William|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|46/100|[from] Sandstorm
+|-heal|p1a: William|52/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|88/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1730664789
+|move|p1a: William|Ice Punch|p2a: Swampert
+|-damage|p2a: Swampert|64/100 brn
+|move|p2a: Swampert|Surf|p1a: William
+|-damage|p1a: William|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: William|0 fnt|[from] Sandstorm
+|faint|p1a: William
+|-heal|p2a: Swampert|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1730664794
+|switch|p1a: Guts|Zapdos|72/100 slp
+|turn|52
+|
+|t:|1730664798
+|cant|p1a: Guts|slp
+|move|p1a: Guts|Sleep Talk|p1a: Guts
+|move|p1a: Guts|Roar|p2a: Swampert|[from]Sleep Talk
+|drag|p2a: Tyranitar|Tyranitar, M|84/100
+|-damage|p2a: Tyranitar|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|66/100 slp|[from] Sandstorm
+|-heal|p1a: Guts|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1730664809
+|move|p2a: Tyranitar|Hidden Power|p1a: Guts
+|-resisted|p1a: Guts
+|-crit|p1a: Guts
+|-damage|p1a: Guts|47/100 slp
+|-curestatus|p1a: Guts|slp|[msg]
+|move|p1a: Guts|Roar|p2a: Tyranitar
+|drag|p2a: Swampert|Swampert, F|57/100 brn
+|-damage|p2a: Swampert|41/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|41/100|[from] Sandstorm
+|-heal|p1a: Guts|47/100|[from] item: Leftovers
+|-heal|p2a: Swampert|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|35/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1730664816
+|move|p2a: Swampert|Ice Beam|p1a: Guts
+|-supereffective|p1a: Guts
+|-damage|p1a: Guts|10/100
+|move|p1a: Guts|Roar|p2a: Swampert
+|drag|p2a: Tyranitar|Tyranitar, M|68/100
+|-damage|p2a: Tyranitar|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|4/100|[from] Sandstorm
+|-heal|p1a: Guts|10/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1730664821
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Guts|Roar|p2a: Tyranitar
+|drag|p2a: Swampert|Swampert, F|35/100 brn
+|-damage|p2a: Swampert|18/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Guts|4/100|[from] Sandstorm
+|-heal|p1a: Guts|10/100|[from] item: Leftovers
+|-heal|p2a: Swampert|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|12/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1730664830
+|move|p2a: Swampert|Surf|p1a: Guts
+|-damage|p1a: Guts|0 fnt
+|faint|p1a: Guts
+|
+|t:|1730664831
+|switch|p1a: Freddie Gibbs|Flygon, F|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Freddie Gibbs|52/100|[from] item: Leftovers
+|-heal|p2a: Swampert|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|6/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1730664837
+|move|p1a: Freddie Gibbs|Protect|p1a: Freddie Gibbs
+|-singleturn|p1a: Freddie Gibbs|Protect
+|move|p2a: Swampert|Ice Beam|p1a: Freddie Gibbs
+|-activate|p1a: Freddie Gibbs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Freddie Gibbs|58/100|[from] item: Leftovers
+|-heal|p2a: Swampert|12/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|0 fnt|[from] brn
+|faint|p2a: Swampert
+|upkeep
+|
+|t:|1730664838
+|switch|p2a: Tyranitar|Tyranitar, M|51/100
+|-damage|p2a: Tyranitar|35/100|[from] Spikes
+|turn|58
+|
+|t:|1730664840
+|move|p1a: Freddie Gibbs|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|Genexys
+|c|☆Genexys|ggs
+|player|p2|
+|player|p1|
+|player|p2|Gulchittious Boi|101|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804536">
+{"id":"smogtours-gen3ou-804536","format":"[Gen 3] OU","players":["Genexys","Gulchittious Boi"],"uploadtime":1730664840,"views":62,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

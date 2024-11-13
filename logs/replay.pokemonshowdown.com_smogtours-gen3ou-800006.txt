@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ilikeeatingcrayons vs. smokingrocks - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ilikeeatingcrayons and smokingrocks! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800006">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729364011
+|gametype|singles
+|player|p1|ilikeeatingcrayons|youngster-gen4dp|
+|player|p2|smokingrocks|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729364011
+|start
+|switch|p1a: Seraph of the End|Skarmory, F|100/100
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Seraph of the End|atk|1
+|turn|1
+|c|☆smokingrocks|gl hf
+|c|☆ilikeeatingcrayons|u2
+|
+|t:|1729364027
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Seraph of the End|Protect||[still]
+|-fail|p1a: Seraph of the End
+|
+|upkeep
+|turn|2
+|
+|t:|1729364032
+|move|p2a: Magneton|Thunderbolt|p1a: Seraph of the End
+|-supereffective|p1a: Seraph of the End
+|-damage|p1a: Seraph of the End|0 fnt
+|faint|p1a: Seraph of the End
+|
+|t:|1729364038
+|switch|p1a: Yuri on Ice|Swampert, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1729364045
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Yuri on Ice|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|85/100
+|
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729364051
+|switch|p1a: Bungo Stray Dogs|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Bungo Stray Dogs
+|move|p2a: Celebi|Leech Seed|p1a: Bungo Stray Dogs
+|-start|p1a: Bungo Stray Dogs|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|85/100|[from] Sandstorm
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|-damage|p1a: Bungo Stray Dogs|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|5
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364087
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Bungo Stray Dogs|atk|1
+|move|p1a: Bungo Stray Dogs|Hidden Power|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|84/100|[from] Sandstorm
+|-heal|p2a: Salamence|90/100|[from] item: Leftovers
+|-heal|p1a: Bungo Stray Dogs|94/100|[from] item: Leftovers
+|-damage|p1a: Bungo Stray Dogs|82/100|[from] Leech Seed|[of] p2a: Salamence
+|-heal|p2a: Salamence|100/100|[silent]
+|upkeep
+|turn|6
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364105
+|switch|p1a: Yuri on Ice|Swampert, F|100/100
+|move|p2a: Salamence|Brick Break|p1a: Yuri on Ice
+|-damage|p1a: Yuri on Ice|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364116
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Yuri on Ice|Protect||[still]
+|-fail|p1a: Yuri on Ice
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364121
+|switch|p1a: Sakamoto Days|Blissey, F, shiny|100/100
+|move|p2a: Milotic|Toxic|p1a: Sakamoto Days
+|-status|p1a: Sakamoto Days|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364146
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Sakamoto Days|atk|1
+|move|p1a: Sakamoto Days|Toxic|p2a: Tauros
+|-status|p2a: Tauros|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|94/100 tox|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|88/100 tox|[from] Sandstorm
+|-damage|p2a: Tauros|88/100 tox|[from] psn
+|-heal|p1a: Sakamoto Days|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1729364166
+|-curestatus|p1a: Sakamoto Days|tox|[from] ability: Natural Cure
+|switch|p1a: Yuri on Ice|Swampert, F|90/100
+|move|p2a: Tauros|Hidden Power|p1a: Yuri on Ice
+|-damage|p1a: Yuri on Ice|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|82/100 tox|[from] Sandstorm
+|-damage|p2a: Tauros|70/100 tox|[from] psn
+|-heal|p1a: Yuri on Ice|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729364183
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Yuri on Ice|Protect||[still]
+|-fail|p1a: Yuri on Ice
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729364191
+|move|p1a: Yuri on Ice|Protect|p1a: Yuri on Ice
+|-singleturn|p1a: Yuri on Ice|Protect
+|move|p2a: Celebi|Giga Drain|p1a: Yuri on Ice
+|-activate|p1a: Yuri on Ice|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729364197
+|switch|p1a: Sakamoto Days|Blissey, F, shiny|82/100
+|move|p2a: Celebi|Leech Seed|p1a: Sakamoto Days
+|-start|p1a: Sakamoto Days|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|76/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|82/100|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|70/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|14
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364223
+|switch|p2a: Tauros|Tauros, M|70/100 tox
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Sakamoto Days|atk|1
+|move|p1a: Sakamoto Days|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|28/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|21/100 tox|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|63/100|[from] Sandstorm
+|-damage|p2a: Tauros|15/100 tox|[from] psn
+|-heal|p1a: Sakamoto Days|70/100|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|57/100|[from] Leech Seed|[of] p2a: Tauros
+|-heal|p2a: Tauros|43/100 tox|[silent]
+|upkeep
+|turn|15
+|
+|t:|1729364246
+|switch|p1a: Yuri on Ice|Swampert, F|85/100
+|move|p2a: Tauros|Return|p1a: Yuri on Ice
+|-damage|p1a: Yuri on Ice|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|37/100 tox|[from] Sandstorm
+|-damage|p2a: Tauros|24/100 tox|[from] psn
+|-heal|p1a: Yuri on Ice|38/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729364258
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Yuri on Ice|Protect||[still]
+|-fail|p1a: Yuri on Ice
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|44/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729364263
+|move|p1a: Yuri on Ice|Protect|p1a: Yuri on Ice
+|-singleturn|p1a: Yuri on Ice|Protect
+|move|p2a: Celebi|Leech Seed|p1a: Yuri on Ice
+|-activate|p1a: Yuri on Ice|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|50/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729364283
+|switch|p1a: Toradora!|Gengar, F|100/100
+|move|p2a: Celebi|Leech Seed|p1a: Toradora!
+|-start|p1a: Toradora!|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toradora!|95/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Toradora!|100/100|[from] item: Leftovers
+|-damage|p1a: Toradora!|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1729364288
+|move|p1a: Toradora!|Ice Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|31/100
+|move|p2a: Celebi|Psychic|p1a: Toradora!
+|-supereffective|p1a: Toradora!
+|-damage|p1a: Toradora!|0 fnt
+|faint|p1a: Toradora!
+|
+|t:|1729364292
+|switch|p1a: Hell's Paradise|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hell's Paradise|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|24/100|[from] Sandstorm
+|-heal|p1a: Hell's Paradise|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|31/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364303
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Hell's Paradise|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hell's Paradise|94/100|[from] Sandstorm
+|-heal|p1a: Hell's Paradise|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364315
+|switch|p1a: Yuri on Ice|Swampert, F|50/100
+|move|p2a: Metagross|Earthquake|p1a: Yuri on Ice
+|-damage|p1a: Yuri on Ice|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Yuri on Ice|35/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364327
+|switch|p2a: Celebi|Celebi|31/100
+|move|p1a: Yuri on Ice|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|10/100|[from] Sandstorm
+|-heal|p2a: Celebi|16/100|[from] item: Leftovers
+|-heal|p1a: Yuri on Ice|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364336
+|move|p2a: Celebi|Giga Drain|p1a: Yuri on Ice
+|-supereffective|p1a: Yuri on Ice
+|-damage|p1a: Yuri on Ice|0 fnt
+|-heal|p2a: Celebi|36/100|[from] drain|[of] p1a: Yuri on Ice
+|faint|p1a: Yuri on Ice
+|
+|t:|1729364338
+|switch|p1a: Hell's Paradise|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hell's Paradise|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|30/100|[from] Sandstorm
+|-heal|p1a: Hell's Paradise|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|36/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|smokingrocks has 270 seconds left.
+|
+|t:|1729364354
+|switch|p2a: Metagross|Metagross|86/100
+|move|p1a: Hell's Paradise|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hell's Paradise|94/100|[from] Sandstorm
+|-heal|p1a: Hell's Paradise|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|smokingrocks has 270 seconds left.
+|inactive|smokingrocks has 240 seconds left.
+|inactive|smokingrocks has 210 seconds left.
+|
+|t:|1729364434
+|move|p1a: Hell's Paradise|Hydro Pump|p2a: Metagross
+|-damage|p2a: Metagross|13/100
+|move|p2a: Metagross|Earthquake|p1a: Hell's Paradise
+|-damage|p1a: Hell's Paradise|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hell's Paradise|50/100|[from] Sandstorm
+|-heal|p1a: Hell's Paradise|56/100|[from] item: Leftovers
+|-enditem|p2a: Metagross|Salac Berry|[eat]
+|-boost|p2a: Metagross|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|26
+|inactive|ilikeeatingcrayons has 270 seconds left.
+|
+|t:|1729364467
+|move|p2a: Metagross|Explosion|p1a: Hell's Paradise
+|-damage|p1a: Hell's Paradise|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Hell's Paradise
+|
+|t:|1729364478
+|switch|p1a: Bungo Stray Dogs|Tyranitar, F|82/100
+|switch|p2a: Tauros|Tauros, M|24/100 tox
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Bungo Stray Dogs|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|18/100 tox|[from] Sandstorm
+|-damage|p2a: Tauros|12/100 tox|[from] psn
+|-heal|p1a: Bungo Stray Dogs|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|ilikeeatingcrayons has 270 seconds left.
+|
+|t:|1729364501
+|move|p2a: Tauros|Earthquake|p1a: Bungo Stray Dogs
+|-supereffective|p1a: Bungo Stray Dogs
+|-damage|p1a: Bungo Stray Dogs|17/100
+|move|p1a: Bungo Stray Dogs|Rock Slide|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|inactive|smokingrocks has 210 seconds left.
+|
+|t:|1729364508
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Bungo Stray Dogs|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Bungo Stray Dogs|24/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729364512
+|move|p2a: Salamence|Brick Break|p1a: Bungo Stray Dogs
+|-supereffective|p1a: Bungo Stray Dogs
+|-damage|p1a: Bungo Stray Dogs|0 fnt
+|faint|p1a: Bungo Stray Dogs
+|
+|t:|1729364514
+|switch|p1a: Sakamoto Days|Blissey, F, shiny|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|51/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|57/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729364522
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Sakamoto Days|Soft-Boiled|p1a: Sakamoto Days
+|-heal|p1a: Sakamoto Days|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sakamoto Days|94/100|[from] Sandstorm
+|-heal|p1a: Sakamoto Days|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729364528
+|move|p2a: Magneton|Toxic|p1a: Sakamoto Days
+|-status|p1a: Sakamoto Days|tox
+|move|p1a: Sakamoto Days|Fire Blast|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|inactive|smokingrocks has 240 seconds left.
+|
+|t:|1729364539
+|switch|p2a: Milotic|Milotic, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1729364543
+|move|p2a: Milotic|Surf|p1a: Sakamoto Days
+|-damage|p1a: Sakamoto Days|81/100 tox
+|move|p1a: Sakamoto Days|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|75/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|-heal|p1a: Sakamoto Days|81/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|69/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1729364547
+|move|p2a: Milotic|Rest|p2a: Milotic
+|-status|p2a: Milotic|slp|[from] move: Rest
+|-heal|p2a: Milotic|100/100 slp|[silent]
+|move|p1a: Sakamoto Days|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|92/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|86/100 slp|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|63/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|92/100 slp|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|51/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1729364550
+|cant|p2a: Milotic|slp
+|move|p1a: Sakamoto Days|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|83/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|77/100 slp|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|45/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|83/100 slp|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|26/100 tox|[from] psn
+|upkeep
+|turn|34
+|c|☆ilikeeatingcrayons|gg
+|c|☆smokingrocks|gg
+|
+|t:|1729364556
+|cant|p2a: Milotic|slp
+|move|p1a: Sakamoto Days|Ice Beam|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|73/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|67/100 slp|[from] Sandstorm
+|-damage|p1a: Sakamoto Days|20/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|73/100 slp|[from] item: Leftovers
+|-heal|p1a: Sakamoto Days|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Sakamoto Days|0 fnt|[from] psn
+|faint|p1a: Sakamoto Days
+|
+|win|smokingrocks
+|upkeep
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800006">
+{"id":"smogtours-gen3ou-800006","format":"[Gen 3] OU","players":["ilikeeatingcrayons","smokingrocks"],"uploadtime":1729364556,"views":88,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

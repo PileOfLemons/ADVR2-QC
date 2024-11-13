@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: mcgowin vs. naisuneicha - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between mcgowin and naisuneicha! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794652">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728068557
+|gametype|singles
+|player|p1|mcgowin|169|
+|player|p2|naisuneicha|karen|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728068557
+|start
+|switch|p1a: Glamour Profession|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆mcgowin|good luck have fun :)
+|c|☆naisuneicha|glhf
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728068588
+|switch|p1a: Third World Man|Swampert, M|100/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Third World Man
+|-damage|p1a: Third World Man|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Third World Man|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|mcgowin has 270 seconds left.
+|
+|t:|1728068631
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Third World Man|Hydro Pump|p2a: Skarmory|[miss]
+|-miss|p1a: Third World Man|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Third World Man|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728068643
+|switch|p1a: 19|Blissey, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: 19
+|-sidestart|p1: mcgowin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|94/100|[from] Sandstorm
+|-heal|p1a: 19|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728068659
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: 19|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|94/100|[from] Sandstorm
+|-heal|p1a: 19|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728068675
+|move|p1a: 19|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|move|p2a: Skarmory|Toxic|p1a: 19
+|-status|p1a: 19|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|94/100 tox|[from] Sandstorm
+|-heal|p1a: 19|100/100 tox|[from] item: Leftovers
+|-damage|p1a: 19|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728068684
+|-curestatus|p1a: 19|tox|[from] ability: Natural Cure
+|switch|p1a: Steely Dan|Skarmory, M|100/100
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728068689
+|move|p1a: Steely Dan|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|cant|p2a: Skarmory|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728068699
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Steely Dan|Spikes|p2a: Moltres
+|-sidestart|p2: naisuneicha|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728068711
+|switch|p1a: 19|Blissey, F|94/100
+|-damage|p1a: 19|82/100|[from] Spikes
+|move|p2a: Moltres|Roar|p1a: 19
+|drag|p1a: Third World Man|Swampert, M|87/100
+|-damage|p1a: Third World Man|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Third World Man|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728068721
+|move|p1a: Third World Man|Protect|p1a: Third World Man
+|-singleturn|p1a: Third World Man|Protect
+|move|p2a: Moltres|Hidden Power|p1a: Third World Man
+|-activate|p1a: Third World Man|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Third World Man|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728068733
+|switch|p2a: Articuno|Articuno|100/100
+|switch|p1a: 19|Blissey, F|82/100
+|-damage|p1a: 19|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-damage|p1a: 19|63/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: 19|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728068780
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: 19|Soft-Boiled|p1a: 19
+|-heal|p1a: 19|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|94/100|[from] Sandstorm
+|-heal|p1a: 19|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728068794
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: 19|Ice Beam|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|94/100|[from] Sandstorm
+|-heal|p1a: 19|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728068814
+|switch|p2a: Articuno|Articuno|100/100
+|switch|p1a: Steely Dan|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728068828
+|move|p2a: Articuno|Ice Beam|p1a: Steely Dan
+|-damage|p1a: Steely Dan|67/100
+|-status|p1a: Steely Dan|frz
+|cant|p1a: Steely Dan|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|-heal|p1a: Steely Dan|73/100 frz|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728068847
+|switch|p2a: Skarmory|Skarmory, F|70/100
+|cant|p1a: Steely Dan|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Steely Dan|79/100 frz|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728068865
+|switch|p1a: 19|Blissey, F|100/100
+|-damage|p1a: 19|88/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: 19
+|-sidestart|p1: mcgowin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728068874
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: 19|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728068885
+|move|p1a: 19|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|37/100
+|move|p2a: Skarmory|Spikes|p1a: 19
+|-sidestart|p1: mcgowin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728068894
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: 19|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728068903
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: 19|Fire Blast|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|78/100|[from] Sandstorm
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p2a: Moltres|84/100|[from] item: Leftovers
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728068916
+|switch|p2a: Articuno|Articuno|100/100
+|move|p1a: 19|Toxic|p2a: Articuno
+|-status|p2a: Articuno|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100 tox|[from] Sandstorm
+|-damage|p1a: 19|82/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Articuno|94/100 tox|[from] psn
+|-heal|p1a: 19|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728068929
+|switch|p1a: My Rival|Tyranitar, F|100/100
+|-damage|p1a: My Rival|76/100|[from] Spikes
+|move|p2a: Articuno|Roar|p1a: My Rival
+|drag|p1a: Third World Man|Swampert, M|87/100
+|-damage|p1a: Third World Man|62/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|88/100 tox|[from] Sandstorm
+|-heal|p2a: Articuno|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Articuno|82/100 tox|[from] psn
+|-heal|p1a: Third World Man|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728068942
+|move|p2a: Articuno|Heal Bell|p2a: Articuno
+|-activate|p2a: Articuno|move: Heal Bell
+|-curestatus|p2a: Articuno|tox|[silent]
+|move|p1a: Third World Man|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|55/100|[from] Sandstorm
+|-heal|p2a: Articuno|61/100|[from] item: Leftovers
+|-heal|p1a: Third World Man|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728068954
+|move|p2a: Articuno|Ice Beam|p1a: Third World Man
+|-damage|p1a: Third World Man|47/100
+|move|p1a: Third World Man|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|34/100|[from] Sandstorm
+|-heal|p2a: Articuno|41/100|[from] item: Leftovers
+|-heal|p1a: Third World Man|53/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728068973
+|move|p1a: Third World Man|Protect|p1a: Third World Man
+|-singleturn|p1a: Third World Man|Protect
+|move|p2a: Articuno|Ice Beam|p1a: Third World Man
+|-activate|p1a: Third World Man|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|34/100|[from] Sandstorm
+|-heal|p2a: Articuno|41/100|[from] item: Leftovers
+|-heal|p1a: Third World Man|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728068980
+|switch|p1a: 19|Blissey, F|88/100
+|-damage|p1a: 19|63/100|[from] Spikes
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Rest
+|-heal|p2a: Articuno|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100 slp|[from] Sandstorm
+|-damage|p1a: 19|57/100|[from] Sandstorm
+|-heal|p2a: Articuno|100/100 slp|[from] item: Leftovers
+|-heal|p1a: 19|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728068992
+|switch|p1a: Steely Dan|Skarmory, M|79/100 frz
+|cant|p2a: Articuno|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100 slp|[from] Sandstorm
+|-heal|p2a: Articuno|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Steely Dan|85/100 frz|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728069003
+|switch|p2a: Moltres|Moltres|84/100
+|cant|p1a: Steely Dan|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|78/100|[from] Sandstorm
+|-heal|p2a: Moltres|84/100|[from] item: Leftovers
+|-heal|p1a: Steely Dan|91/100 frz|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728069013
+|switch|p1a: 19|Blissey, F|63/100
+|-damage|p1a: 19|38/100|[from] Spikes
+|move|p2a: Moltres|Flamethrower|p1a: 19
+|-crit|p1a: 19
+|-damage|p1a: 19|0 fnt
+|faint|p1a: 19
+|c|☆naisuneicha|sry
+|
+|t:|1728069024
+|switch|p1a: Glamour Profession|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-damage|p2a: Moltres|78/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|84/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆naisuneicha|first steely dan and now this 
+|
+|t:|1728069044
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728069057
+|move|p1a: Glamour Profession|Protect|p1a: Glamour Profession
+|-singleturn|p1a: Glamour Profession|Protect
+|move|p2a: Flygon|Rock Slide|p1a: Glamour Profession
+|-activate|p1a: Glamour Profession|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728069064
+|move|p1a: Glamour Profession|Hidden Power|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1728069071
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728069089
+|switch|p1a: Third World Man|Swampert, M|59/100
+|-damage|p1a: Third World Man|34/100|[from] Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Third World Man
+|-damage|p1a: Third World Man|0 fnt
+|faint|p1a: Third World Man
+|
+|t:|1728069101
+|switch|p1a: My Rival|Tyranitar, F|76/100
+|-damage|p1a: My Rival|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: My Rival|57/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728069131
+|move|p1a: My Rival|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|36/100
+|move|p2a: Tyranitar|Earthquake|p1a: My Rival
+|-supereffective|p1a: My Rival
+|-crit|p1a: My Rival
+|-damage|p1a: My Rival|0 fnt
+|faint|p1a: My Rival
+|c|☆mcgowin|dang
+|
+|t:|1728069144
+|switch|p1a: Glamour Profession|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|43/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728069181
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|c|☆mcgowin|poor steely dan
+|
+|t:|1728069189
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆mcgowin|sittin on the bench
+|
+|t:|1728069202
+|switch|p1a: Gaucho|Gengar, M|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Gaucho
+|-immune|p1a: Gaucho
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728069214
+|move|p1a: Gaucho|Fire Punch|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|73/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|79/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728069240
+|switch|p2a: Moltres|Moltres|84/100
+|move|p1a: Gaucho|Fire Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|72/100
+|
+|-heal|p2a: Moltres|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆naisuneicha|dan deserved better
+|inactive|naisuneicha has 270 seconds left.
+|
+|t:|1728069259
+|switch|p1a: Steely Dan|Skarmory, M|91/100 frz
+|move|p2a: Moltres|Overheat|p1a: Steely Dan
+|-supereffective|p1a: Steely Dan
+|-damage|p1a: Steely Dan|0 fnt
+|-unboost|p2a: Moltres|spa|2
+|faint|p1a: Steely Dan
+|c|☆mcgowin|indeed he did
+|inactive|mcgowin has 270 seconds left.
+|
+|t:|1728069289
+|switch|p1a: Gaucho|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728069293
+|switch|p2a: Skarmory|Skarmory, F|49/100
+|move|p1a: Gaucho|Will-O-Wisp|p2a: Skarmory
+|-status|p2a: Skarmory|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|42/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1728069308
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Gaucho|Will-O-Wisp|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|36/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1728069316
+|move|p1a: Gaucho|Will-O-Wisp|p2a: Skarmory
+|-fail|p2a: Skarmory|brn
+|move|p2a: Skarmory|Toxic|p1a: Gaucho
+|-immune|p1a: Gaucho
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|30/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1728069321
+|move|p1a: Gaucho|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728069331
+|switch|p2a: Moltres|Moltres|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gaucho|95/100|[from] Sandstorm
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Gaucho|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|mcgowin has 270 seconds left.
+|inactive|mcgowin has 240 seconds left.
+|
+|t:|1728069397
+|move|p1a: Gaucho|Explosion|p2a: Moltres
+|-damage|p2a: Moltres|15/100
+|faint|p1a: Gaucho
+|
+|t:|1728069400
+|switch|p1a: Glamour Profession|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-damage|p2a: Moltres|8/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Moltres|15/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728069412
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1728069414
+|switch|p2a: Jirachi|Jirachi|79/100
+|-damage|p2a: Jirachi|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|c|☆mcgowin|gg
+|
+|t:|1728069420
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|36/100
+|-status|p2a: Jirachi|par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|c|☆naisuneicha|never say gg cuz of stuff like that lol
+|c|☆mcgowin|true
+|c|☆mcgowin|didnt expect that at all
+|
+|t:|1728069440
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|92/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728069444
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|65/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|94/100|[from] Sandstorm
+|-heal|p1a: Glamour Profession|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728069452
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|35/100 par
+|move|p2a: Jirachi|Body Slam|p1a: Glamour Profession
+|-damage|p1a: Glamour Profession|78/100
+|-status|p1a: Glamour Profession|par
+|
+|-heal|p2a: Jirachi|85/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|72/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|78/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728069464
+|move|p1a: Glamour Profession|Protect|p1a: Glamour Profession
+|-singleturn|p1a: Glamour Profession|Protect
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|72/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|78/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728069469
+|move|p1a: Glamour Profession|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|81/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|72/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|78/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728069475
+|move|p1a: Glamour Profession|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|78/100 par
+|move|p2a: Jirachi|Body Slam|p1a: Glamour Profession
+|-damage|p1a: Glamour Profession|52/100 par
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|46/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728069485
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|68/100 par
+|move|p2a: Jirachi|Body Slam|p1a: Glamour Profession
+|-damage|p1a: Glamour Profession|30/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|23/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|30/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728069489
+|cant|p1a: Glamour Profession|par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|23/100 par|[from] Sandstorm
+|-heal|p1a: Glamour Profession|30/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728069493
+|move|p1a: Glamour Profession|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|44/100 par
+|move|p2a: Jirachi|Body Slam|p1a: Glamour Profession
+|-damage|p1a: Glamour Profession|6/100 par
+|
+|-heal|p2a: Jirachi|94/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glamour Profession|0 fnt|[from] Sandstorm
+|faint|p1a: Glamour Profession
+|
+|win|naisuneicha
+|upkeep
+|c|☆naisuneicha|gg
+|c|☆mcgowin|what do we do now
+|c|☆naisuneicha|we play another one 
+|c|☆mcgowin|like with the replay
+|c|☆naisuneicha|ah 
+|c|☆naisuneicha|save them 
+|c|☆naisuneicha|just keep them open in another tab 
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794652">
+{"id":"smogtours-gen3ou-794652","format":"[Gen 3] OU","players":["mcgowin","naisuneicha"],"uploadtime":1728069493,"views":104,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

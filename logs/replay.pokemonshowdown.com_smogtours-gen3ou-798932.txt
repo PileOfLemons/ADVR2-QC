@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Stockings vs. cow xi - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Stockings and cow xi! Format: [Gen 3] OU; Date: Oct 15, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798932">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729015444
+|gametype|singles
+|player|p1|Stockings|#advpliii|
+|player|p2|cow xi|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729015444
+|start
+|switch|p1a: Q|Tyranitar, M, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Q
+|turn|1
+|c|☆cow xi|hf
+|c|☆Stockings|hfhf
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015476
+|-singleturn|p1a: Q|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Q
+|-sidestart|p1: Stockings|Spikes
+|move|p1a: Q|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729015489
+|-singleturn|p1a: Q|move: Focus Punch
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Q|Focus Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729015497
+|-singleturn|p1a: Q|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Q
+|-sidestart|p1: Stockings|Spikes
+|move|p1a: Q|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729015503
+|switch|p1a: Alex|Salamence, F, shiny|100/100
+|-ability|p1a: Alex|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Spikes|p1a: Alex
+|-sidestart|p1: Stockings|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|94/100|[from] Sandstorm
+|-heal|p1a: Alex|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015535
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Alex|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|94/100|[from] Sandstorm
+|-heal|p1a: Alex|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729015555
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Alex|Dragon Claw|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|94/100|[from] Sandstorm
+|-heal|p1a: Alex|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729015565
+|switch|p1a: Twelve|Metagross, shiny|100/100
+|-damage|p1a: Twelve|76/100|[from] Spikes
+|move|p2a: Aerodactyl|Earthquake|p1a: Twelve
+|-supereffective|p1a: Twelve
+|-damage|p1a: Twelve|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Twelve|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729015580
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Twelve|Protect||[still]
+|-fail|p1a: Twelve
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Twelve|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015607
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Twelve|Explosion|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p1a: Twelve
+|faint|p2a: Magneton
+|inactive|cow xi has 240 seconds left.
+|
+|t:|1729015640
+|switch|p2a: Swampert|Swampert, M|100/100
+|switch|p1a: Remy|Skarmory, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|inactive|cow xi has 240 seconds left.
+|
+|t:|1729015653
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Remy|Spikes|p2a: Celebi
+|-sidestart|p2: cow xi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729015660
+|move|p2a: Celebi|Leech Seed|p1a: Remy
+|-start|p1a: Remy|move: Leech Seed
+|move|p1a: Remy|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Remy|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-damage|p1a: Remy|88/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|12
+|
+|t:|1729015673
+|switch|p2a: Aerodactyl|Aerodactyl, M|42/100
+|switch|p1a: Sean|Blissey, F, shiny|100/100
+|-damage|p1a: Sean|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sean|69/100|[from] Sandstorm
+|-heal|p1a: Sean|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729015693
+|move|p2a: Aerodactyl|Rock Slide|p1a: Sean
+|-damage|p1a: Sean|19/100
+|move|p1a: Sean|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|t:|1729015702
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sean|13/100|[from] Sandstorm
+|-heal|p1a: Sean|19/100|[from] item: Leftovers
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729015713
+|move|p1a: Sean|Soft-Boiled|p1a: Sean
+|-heal|p1a: Sean|69/100
+|move|p2a: Swampert|Earthquake|p1a: Sean
+|-damage|p1a: Sean|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sean|27/100|[from] Sandstorm
+|-heal|p1a: Sean|33/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729015721
+|move|p1a: Sean|Soft-Boiled|p1a: Sean
+|-heal|p1a: Sean|83/100
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sean|77/100|[from] Sandstorm
+|-heal|p1a: Sean|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015731
+|switch|p1a: Remy|Skarmory, M, shiny|88/100
+|move|p2a: Swampert|Ice Beam|p1a: Remy
+|-crit|p1a: Remy
+|-damage|p1a: Remy|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Remy|61/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729015735
+|move|p2a: Swampert|Ice Beam|p1a: Remy
+|-damage|p1a: Remy|43/100
+|move|p1a: Remy|Roar|p2a: Swampert
+|drag|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Remy|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729015748
+|move|p1a: Remy|Protect|p1a: Remy
+|-singleturn|p1a: Remy|Protect
+|move|p2a: Blissey|Thunder Wave|p1a: Remy
+|-activate|p1a: Remy|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Remy|55/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729015763
+|move|p1a: Remy|Spikes|p2a: Blissey
+|-sidestart|p2: cow xi|Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Remy
+|-damage|p1a: Remy|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Remy|31/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729015772
+|move|p1a: Remy|Protect|p1a: Remy
+|-singleturn|p1a: Remy|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Remy
+|-activate|p1a: Remy|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Remy|37/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729015775
+|move|p1a: Remy|Spikes|p2a: Blissey
+|-sidestart|p2: cow xi|Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Remy
+|-damage|p1a: Remy|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Remy|13/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729015782
+|move|p1a: Remy|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Seismic Toss|p1a: Remy
+|-damage|p1a: Remy|0 fnt
+|faint|p1a: Remy
+|
+|t:|1729015788
+|switch|p1a: Sean|Blissey, F, shiny|83/100
+|-damage|p1a: Sean|58/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100 tox|[from] Sandstorm
+|-damage|p1a: Sean|52/100|[from] Sandstorm
+|-heal|p2a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|-heal|p1a: Sean|58/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729015806
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|75/100|[from] Spikes
+|move|p1a: Sean|Wish|p1a: Sean
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-damage|p1a: Sean|52/100|[from] Sandstorm
+|-heal|p2a: Celebi|75/100|[from] item: Leftovers
+|-heal|p1a: Sean|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729015816
+|move|p2a: Celebi|Leech Seed|p1a: Sean
+|-start|p1a: Sean|move: Leech Seed
+|move|p1a: Sean|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|39/100
+|
+|-heal|p1a: Sean|100/100|[from] move: Wish|[wisher] Sean
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|33/100|[from] Sandstorm
+|-damage|p1a: Sean|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|39/100|[from] item: Leftovers
+|-heal|p1a: Sean|100/100|[from] item: Leftovers
+|-damage|p1a: Sean|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|59/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1729015829
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|move|p1a: Sean|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|58/100|[from] Sandstorm
+|-damage|p1a: Sean|82/100|[from] Sandstorm
+|-heal|p2a: Celebi|64/100|[from] item: Leftovers
+|-heal|p1a: Sean|88/100|[from] item: Leftovers
+|-damage|p1a: Sean|76/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|84/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1729015859
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|75/100|[from] Spikes
+|move|p1a: Sean|Wish|p1a: Sean
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sean|69/100|[from] Sandstorm
+|-heal|p1a: Sean|76/100|[from] item: Leftovers
+|-damage|p1a: Sean|63/100|[from] Leech Seed|[of] p2a: Swampert
+|-heal|p2a: Swampert|96/100|[silent]
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729015872
+|switch|p1a: Alex|Salamence, F, shiny|100/100
+|-ability|p1a: Alex|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|94/100|[from] Sandstorm
+|-heal|p1a: Alex|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Stockings has 270 seconds left.
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015897
+|move|p1a: Alex|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|20/100
+|move|p2a: Swampert|Ice Beam|p1a: Alex
+|-supereffective|p1a: Alex
+|-damage|p1a: Alex|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|10/100|[from] Sandstorm
+|-heal|p1a: Alex|16/100|[from] item: Leftovers
+|-heal|p2a: Swampert|26/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Stockings has 270 seconds left.
+|inactive|cow xi has 270 seconds left.
+|
+|t:|1729015916
+|move|p1a: Alex|Dragon Claw|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729015930
+|switch|p2a: Blissey|Blissey, F|82/100
+|-damage|p2a: Blissey|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|10/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Alex|16/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729015937
+|move|p1a: Alex|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|move|p2a: Blissey|Thunder Wave|p1a: Alex
+|-status|p1a: Alex|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|12/100|[from] Sandstorm
+|-damage|p1a: Alex|10/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|19/100|[from] item: Leftovers
+|-heal|p1a: Alex|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729015948
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|68/100
+|move|p1a: Alex|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|20/100|[from] Sandstorm
+|-damage|p1a: Alex|10/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|26/100|[from] item: Leftovers
+|-heal|p1a: Alex|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729015957
+|switch|p1a: Sean|Blissey, F, shiny|63/100
+|-damage|p1a: Sean|38/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-damage|p1a: Sean|32/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Sean|38/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729015968
+|move|p2a: Blissey|Thunder Wave|p1a: Sean
+|-status|p1a: Sean|par
+|cant|p1a: Sean|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-damage|p1a: Sean|32/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Sean|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729015972
+|move|p2a: Blissey|Seismic Toss|p1a: Sean
+|-damage|p1a: Sean|23/100 par
+|move|p1a: Sean|Soft-Boiled|p1a: Sean
+|-heal|p1a: Sean|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-damage|p1a: Sean|67/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Sean|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729015978
+|switch|p2a: Skarmory|Skarmory, M|53/100
+|-curestatus|p1a: Sean|par|[from] ability: Natural Cure
+|switch|p1a: Hugo|Gengar, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|94/100|[from] Sandstorm
+|-heal|p1a: Hugo|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729015987
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hugo|Taunt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|94/100|[from] Sandstorm
+|-heal|p1a: Hugo|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729015997
+|move|p1a: Hugo|Will-O-Wisp|p2a: Skarmory|[miss]
+|-miss|p1a: Hugo|p2a: Skarmory
+|move|p2a: Skarmory|Drill Peck|p1a: Hugo
+|-damage|p1a: Hugo|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|57/100|[from] Sandstorm
+|-heal|p1a: Hugo|63/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729016008
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hugo|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|57/100|[from] Sandstorm
+|-heal|p1a: Hugo|63/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729016022
+|move|p1a: Hugo|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100
+|move|p2a: Skarmory|Drill Peck|p1a: Hugo
+|-damage|p1a: Hugo|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|22/100|[from] Sandstorm
+|-heal|p1a: Hugo|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|30/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729016039
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hugo|Will-O-Wisp|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|22/100|[from] Sandstorm
+|-heal|p1a: Hugo|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|36/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729016068
+|switch|p2a: Blissey|Blissey, F|76/100
+|-damage|p2a: Blissey|51/100|[from] Spikes
+|move|p1a: Hugo|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Hugo|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|22/100|[from] Sandstorm
+|-damage|p2a: Blissey|45/100|[from] Sandstorm
+|-heal|p1a: Hugo|28/100|[from] item: Leftovers
+|-heal|p2a: Blissey|51/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729016076
+|move|p1a: Hugo|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Thunder Wave
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|22/100|[from] Sandstorm
+|-damage|p2a: Blissey|45/100|[from] Sandstorm
+|-heal|p1a: Hugo|28/100|[from] item: Leftovers
+|-heal|p2a: Blissey|51/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729016084
+|switch|p2a: Celebi|Celebi|84/100
+|-damage|p2a: Celebi|59/100|[from] Spikes
+|move|p1a: Hugo|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|22/100|[from] Sandstorm
+|-damage|p2a: Celebi|53/100 brn|[from] Sandstorm
+|-heal|p1a: Hugo|28/100|[from] item: Leftovers
+|-heal|p2a: Celebi|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|47/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1729016097
+|move|p1a: Hugo|Taunt|p2a: Celebi
+|-start|p2a: Celebi|move: Taunt
+|move|p2a: Celebi|Hidden Power|p1a: Hugo
+|-resisted|p1a: Hugo
+|-damage|p1a: Hugo|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hugo|7/100|[from] Sandstorm
+|-damage|p2a: Celebi|41/100 brn|[from] Sandstorm
+|-heal|p1a: Hugo|13/100|[from] item: Leftovers
+|-heal|p2a: Celebi|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|35/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1729016109
+|switch|p1a: Alex|Salamence, F, shiny|16/100 par
+|-ability|p1a: Alex|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Hidden Power|p1a: Alex
+|-resisted|p1a: Alex
+|-damage|p1a: Alex|10/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|28/100 brn|[from] Sandstorm
+|-damage|p1a: Alex|4/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|22/100 brn|[from] brn
+|-end|p2a: Celebi|move: Taunt|[silent]
+|-heal|p1a: Alex|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729016130
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|72/100 brn
+|move|p1a: Alex|Fire Blast|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|15/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|9/100 brn|[from] Sandstorm
+|-damage|p1a: Alex|4/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|2/100 brn|[from] brn
+|-heal|p1a: Alex|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|Stockings has 270 seconds left.
+|
+|t:|1729016150
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|52/100 brn
+|move|p1a: Alex|Fire Blast|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1729016154
+|switch|p2a: Skarmory|Skarmory, M|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|4/100 par|[from] Sandstorm
+|-heal|p2a: Skarmory|42/100|[from] item: Leftovers
+|-heal|p1a: Alex|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729016160
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Alex|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alex|4/100 par|[from] Sandstorm
+|-heal|p2a: Skarmory|48/100|[from] item: Leftovers
+|-heal|p1a: Alex|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729016163
+|move|p2a: Skarmory|Drill Peck|p1a: Alex
+|-damage|p1a: Alex|0 fnt
+|faint|p1a: Alex
+|
+|t:|1729016177
+|switch|p1a: Q|Tyranitar, M, shiny|100/100
+|-damage|p1a: Q|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Q|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729016181
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Q|Dragon Dance|p1a: Q
+|-boost|p1a: Q|atk|1
+|-boost|p1a: Q|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Q|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729016187
+|move|p1a: Q|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|14/100
+|move|p2a: Skarmory|Drill Peck|p1a: Q
+|-resisted|p1a: Q
+|-damage|p1a: Q|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Q|85/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|20/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729016193
+|move|p1a: Q|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|c|☆cow xi|gg
+|c|☆Stockings|gg
+|-message|cow xi forfeited.
+|
+|win|Stockings
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798932">
+{"id":"smogtours-gen3ou-798932","format":"[Gen 3] OU","players":["Stockings","cow xi"],"uploadtime":1729016197,"views":113,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

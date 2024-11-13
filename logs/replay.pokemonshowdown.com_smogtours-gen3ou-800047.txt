@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: asbolus verrucosus vs. wiilink100 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between asbolus verrucosus and wiilink100! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800047">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729367606
+|gametype|singles
+|player|p1|asbolus verrucosus|bugsy-gen2|
+|player|p2|wiilink100|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729367606
+|start
+|switch|p1a: Seceplit|Sceptile, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|t:|1729367622
+|switch|p1a: Kryorasm|Skarmory, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Kryorasm
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1729367626
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Kryorasm|Spikes|p2a: Starmie
+|-sidestart|p2: wiilink100|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1729367634
+|switch|p1a: Seceplit|Sceptile, M|100/100
+|-damage|p1a: Seceplit|88/100|[from] Spikes
+|move|p2a: Starmie|Thunderbolt|p1a: Seceplit
+|-resisted|p1a: Seceplit
+|-damage|p1a: Seceplit|69/100
+|
+|-heal|p1a: Seceplit|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729367643
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Seceplit|Leaf Blade|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|81/100
+|
+|-heal|p1a: Seceplit|81/100|[from] item: Leftovers
+|-heal|p2a: Gengar|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729367657
+|switch|p1a: Silleby|Blissey, F, shiny|100/100
+|-damage|p1a: Silleby|88/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: Silleby
+|-status|p1a: Silleby|brn
+|
+|-heal|p2a: Gengar|93/100|[from] item: Leftovers
+|-heal|p1a: Silleby|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Silleby|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1729367669
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-curestatus|p1a: Silleby|brn|[from] ability: Natural Cure
+|switch|p1a: Seceplit|Sceptile, M|81/100
+|-damage|p1a: Seceplit|68/100|[from] Spikes
+|
+|-heal|p1a: Seceplit|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729367675
+|switch|p1a: Dayloc|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Dayloc
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1729367679
+|move|p1a: Dayloc|Shadow Ball|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|94/100
+|move|p2a: Skarmory|Toxic|p1a: Dayloc|[miss]
+|-miss|p2a: Skarmory|p1a: Dayloc
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729367688
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|move|p1a: Dayloc|Rapid Spin|p2a: Swampert
+|-damage|p2a: Swampert|85/100
+|-sideend|p1: asbolus verrucosus|Spikes|[from] move: Rapid Spin|[of] p1a: Dayloc
+|
+|-heal|p2a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729367694
+|switch|p1a: Cuiseun|Suicune|100/100
+|move|p2a: Swampert|Ice Beam|p1a: Cuiseun
+|-resisted|p1a: Cuiseun
+|-damage|p1a: Cuiseun|93/100
+|
+|-heal|p1a: Cuiseun|99/100|[from] item: Leftovers
+|-heal|p2a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729367705
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Cuiseun|Calm Mind|p1a: Cuiseun
+|-boost|p1a: Cuiseun|spa|1
+|-boost|p1a: Cuiseun|spd|1
+|
+|-heal|p1a: Cuiseun|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729367718
+|switch|p1a: Silleby|Blissey, F, shiny|82/100
+|move|p2a: Blissey|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-heal|p1a: Silleby|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|82/100 tox|[from] psn
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729367733
+|-curestatus|p1a: Silleby|tox|[from] ability: Natural Cure
+|switch|p1a: Kryorasm|Skarmory, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729367741
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Kryorasm|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Focus Punch|p1a: Kryorasm
+|-damage|p1a: Kryorasm|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|60/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1729367749
+|switch|p1a: Dayloc|Claydol|100/100
+|switch|p2a: Gengar|Gengar, F|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|87/100|[from] Sandstorm
+|-heal|p2a: Gengar|93/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729367761
+|move|p2a: Gengar|Will-O-Wisp|p1a: Dayloc
+|-status|p1a: Dayloc|brn
+|move|p1a: Dayloc|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|51/100|[from] Sandstorm
+|-heal|p2a: Gengar|57/100|[from] item: Leftovers
+|-damage|p1a: Dayloc|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1729367770
+|move|p2a: Gengar|Ice Punch|p1a: Dayloc
+|-supereffective|p1a: Dayloc
+|-damage|p1a: Dayloc|46/100 brn
+|move|p1a: Dayloc|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|17/100|[from] Sandstorm
+|-heal|p2a: Gengar|23/100|[from] item: Leftovers
+|-heal|p1a: Dayloc|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Dayloc|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1729367777
+|switch|p1a: Cuiseun|Suicune|100/100
+|move|p2a: Gengar|Ice Punch|p1a: Cuiseun
+|-resisted|p1a: Cuiseun
+|-damage|p1a: Cuiseun|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|17/100|[from] Sandstorm
+|-damage|p1a: Cuiseun|87/100|[from] Sandstorm
+|-heal|p2a: Gengar|23/100|[from] item: Leftovers
+|-heal|p1a: Cuiseun|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729367783
+|switch|p1a: Silleby|Blissey, F, shiny|82/100
+|move|p2a: Gengar|Explosion|p1a: Silleby
+|-damage|p1a: Silleby|15/100
+|faint|p2a: Gengar
+|
+|t:|1729367798
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100|[from] Sandstorm
+|-damage|p1a: Silleby|9/100|[from] Sandstorm
+|-heal|p2a: Starmie|88/100|[from] item: Leftovers
+|-heal|p1a: Silleby|15/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729367808
+|switch|p1a: Dayloc|Claydol|40/100 brn
+|move|p2a: Starmie|Hydro Pump|p1a: Dayloc
+|-supereffective|p1a: Dayloc
+|-damage|p1a: Dayloc|0 fnt
+|faint|p1a: Dayloc
+|
+|t:|1729367817
+|switch|p1a: Tigruod|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729367827
+|move|p1a: Tigruod|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|t:|1729367833
+|switch|p2a: Skarmory|Skarmory, F|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729367837
+|switch|p1a: Silleby|Blissey, F, shiny|15/100
+|move|p2a: Skarmory|Spikes|p1a: Silleby
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|9/100|[from] Sandstorm
+|-heal|p1a: Silleby|15/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729367841
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|65/100
+|move|p2a: Skarmory|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|59/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|59/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1729367846
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|100/100 tox
+|move|p2a: Skarmory|Spikes|p1a: Silleby
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1729367848
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|move|p2a: Skarmory|Spikes|p1a: Silleby
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|82/100|[from] Sandstorm
+|-heal|p1a: Silleby|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729367854
+|move|p1a: Silleby|Sing|p2a: Skarmory|[miss]
+|-miss|p1a: Silleby|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Silleby
+|drag|p1a: Tigruod|Dugtrio, M|100/100
+|-damage|p1a: Tigruod|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1729367861
+|switch|p1a: Kryorasm|Skarmory, M|60/100
+|move|p2a: Skarmory|Roar|p1a: Kryorasm
+|drag|p1a: Silleby|Blissey, F, shiny|88/100
+|-damage|p1a: Silleby|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|57/100|[from] Sandstorm
+|-heal|p1a: Silleby|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729367864
+|move|p1a: Silleby|Sing|p2a: Skarmory|[miss]
+|-miss|p1a: Silleby|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Silleby
+|drag|p1a: Cuiseun|Suicune|93/100
+|-damage|p1a: Cuiseun|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cuiseun|62/100|[from] Sandstorm
+|-heal|p1a: Cuiseun|68/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729367867
+|move|p1a: Cuiseun|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|move|p2a: Skarmory|Toxic|p1a: Cuiseun
+|-status|p1a: Cuiseun|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cuiseun|62/100 tox|[from] Sandstorm
+|-heal|p1a: Cuiseun|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Cuiseun|62/100 tox|[from] psn
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729367872
+|move|p1a: Cuiseun|Rest|p1a: Cuiseun
+|-status|p1a: Cuiseun|slp|[from] move: Rest
+|-heal|p1a: Cuiseun|100/100 slp|[silent]
+|move|p2a: Skarmory|Roar|p1a: Cuiseun
+|drag|p1a: Seceplit|Sceptile, M|74/100
+|-damage|p1a: Seceplit|49/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seceplit|43/100|[from] Sandstorm
+|-heal|p1a: Seceplit|49/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729367875
+|move|p1a: Seceplit|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|move|p2a: Skarmory|Roar|p1a: Seceplit
+|drag|p1a: Silleby|Blissey, F, shiny|63/100
+|-damage|p1a: Silleby|38/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|32/100|[from] Sandstorm
+|-heal|p1a: Silleby|38/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|73/100|[from] Leech Seed|[of] p1a: Silleby
+|-heal|p1a: Silleby|44/100|[silent]
+|upkeep
+|turn|32
+|
+|t:|1729367880
+|switch|p2a: Blissey|Blissey, F|99/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Silleby|Sing|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Sing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|38/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100 slp|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729367891
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|73/100
+|move|p1a: Silleby|Sing|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Sing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|38/100|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729367894
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100 slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|38/100|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|55/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729367897
+|cant|p2a: Skarmory|slp
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|25/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|38/100|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|31/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729367901
+|switch|p2a: Swampert|Swampert, F|97/100
+|-damage|p2a: Swampert|85/100|[from] Spikes
+|move|p1a: Silleby|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|38/100|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729367905
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|94/100
+|move|p2a: Swampert|Earthquake|p1a: Silleby
+|-damage|p1a: Silleby|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|51/100|[from] Sandstorm
+|-heal|p1a: Silleby|57/100|[from] item: Leftovers
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729367912
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: Silleby
+|-damage|p1a: Silleby|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|80/100|[from] Sandstorm
+|-heal|p1a: Silleby|87/100|[from] item: Leftovers
+|-heal|p2a: Swampert|78/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729367920
+|move|p1a: Silleby|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|53/100
+|move|p2a: Swampert|Earthquake|p1a: Silleby
+|-damage|p1a: Silleby|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|47/100|[from] Sandstorm
+|-heal|p1a: Silleby|53/100|[from] item: Leftovers
+|-heal|p2a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729367928
+|switch|p2a: Tyranitar|Tyranitar, F|94/100 tox
+|-damage|p2a: Tyranitar|82/100 tox|[from] Spikes
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1729367941
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Tigruod|Dugtrio, M|76/100
+|-damage|p1a: Tigruod|51/100|[from] Spikes
+|move|p2a: Tyranitar|Focus Punch|p1a: Tigruod
+|-damage|p1a: Tigruod|0 fnt
+|faint|p1a: Tigruod
+|
+|t:|1729367943
+|switch|p1a: Kryorasm|Skarmory, M|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|66/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729367950
+|switch|p2a: Blissey|Blissey, F|88/100
+|-damage|p2a: Blissey|75/100|[from] Spikes
+|move|p1a: Kryorasm|Protect||[still]
+|-fail|p1a: Kryorasm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729367954
+|move|p1a: Kryorasm|Spikes|p2a: Blissey
+|-sidestart|p2: wiilink100|Spikes
+|move|p2a: Blissey|Fire Blast|p1a: Kryorasm
+|-supereffective|p1a: Kryorasm
+|-damage|p1a: Kryorasm|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|18/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729367961
+|move|p1a: Kryorasm|Protect|p1a: Kryorasm
+|-singleturn|p1a: Kryorasm|Protect
+|move|p2a: Blissey|Ice Beam|p1a: Kryorasm
+|-activate|p1a: Kryorasm|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|24/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729367968
+|switch|p1a: Cuiseun|Suicune|100/100 slp
+|-damage|p1a: Cuiseun|75/100 slp|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, F|31/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cuiseun|69/100 slp|[from] Sandstorm
+|-heal|p1a: Cuiseun|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|37/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729367974
+|switch|p1a: Seceplit|Sceptile, M|49/100
+|-damage|p1a: Seceplit|25/100|[from] Spikes
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seceplit|19/100|[from] Sandstorm
+|-heal|p1a: Seceplit|25/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|43/100 slp|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729367979
+|cant|p2a: Skarmory|slp
+|move|p1a: Seceplit|Leech Seed|p2a: Skarmory|[miss]
+|-miss|p1a: Seceplit|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seceplit|19/100|[from] Sandstorm
+|-heal|p1a: Seceplit|25/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729367982
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Seceplit|Leech Seed|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seceplit|19/100|[from] Sandstorm
+|-heal|p1a: Seceplit|25/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729367996
+|move|p1a: Seceplit|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|move|p2a: Skarmory|Roar|p1a: Seceplit
+|drag|p1a: Kryorasm|Skarmory, M|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|30/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|48/100|[from] Leech Seed|[of] p1a: Kryorasm
+|-heal|p1a: Kryorasm|42/100|[silent]
+|upkeep
+|turn|50
+|
+|t:|1729368002
+|switch|p2a: Blissey|Blissey, F|75/100
+|-damage|p2a: Blissey|59/100|[from] Spikes
+|move|p1a: Kryorasm|Protect||[still]
+|-fail|p1a: Kryorasm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|53/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|48/100|[from] item: Leftovers
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729368012
+|switch|p2a: Skarmory|Skarmory, F|48/100
+|move|p1a: Kryorasm|Protect||[still]
+|-fail|p1a: Kryorasm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|54/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729368018
+|move|p1a: Kryorasm|Protect|p1a: Kryorasm
+|-singleturn|p1a: Kryorasm|Protect
+|move|p2a: Skarmory|Roar|p1a: Kryorasm
+|-activate|p1a: Kryorasm|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|60/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729368020
+|move|p1a: Kryorasm|Spikes|p2a: Skarmory
+|-sidestart|p2: wiilink100|Spikes
+|move|p2a: Skarmory|Roar|p1a: Kryorasm
+|drag|p1a: Cuiseun|Suicune|75/100 slp
+|-damage|p1a: Cuiseun|50/100 slp|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cuiseun|44/100 slp|[from] Sandstorm
+|-heal|p1a: Cuiseun|50/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729368025
+|cant|p1a: Cuiseun|slp
+|move|p2a: Skarmory|Roar|p1a: Cuiseun
+|drag|p1a: Seceplit|Sceptile, M|25/100
+|-damage|p1a: Seceplit|0 fnt|[from] Spikes
+|faint|p1a: Seceplit
+|
+|t:|1729368029
+|switch|p1a: Silleby|Blissey, F, shiny|100/100
+|-damage|p1a: Silleby|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|69/100|[from] Sandstorm
+|-heal|p1a: Silleby|75/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729368033
+|move|p1a: Silleby|Sing|p2a: Skarmory|[miss]
+|-miss|p1a: Silleby|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Silleby
+|drag|p1a: Cuiseun|Suicune|50/100 slp
+|-damage|p1a: Cuiseun|25/100 slp|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cuiseun|19/100 slp|[from] Sandstorm
+|-heal|p1a: Cuiseun|25/100 slp|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729368036
+|switch|p1a: Kryorasm|Skarmory, M|60/100
+|move|p2a: Skarmory|Roar|p1a: Kryorasm
+|drag|p1a: Cuiseun|Suicune|25/100 slp
+|-damage|p1a: Cuiseun|0 fnt|[from] Spikes
+|faint|p1a: Cuiseun
+|
+|t:|1729368055
+|switch|p1a: Silleby|Blissey, F, shiny|75/100
+|-damage|p1a: Silleby|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|44/100|[from] Sandstorm
+|-heal|p1a: Silleby|50/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729368058
+|move|p1a: Silleby|Sing|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Sing
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|44/100|[from] Sandstorm
+|-heal|p1a: Silleby|50/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729368064
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100 slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|44/100|[from] Sandstorm
+|-heal|p1a: Silleby|50/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729368068
+|cant|p2a: Skarmory|slp
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729368071
+|cant|p2a: Skarmory|slp
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|42/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|48/100 slp|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729368072
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729368076
+|move|p1a: Silleby|Sing|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Sing
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729368079
+|switch|p2a: Blissey|Blissey, F|59/100
+|-damage|p2a: Blissey|34/100|[from] Spikes
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|12/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|19/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729368088
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|3/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-heal|p1a: Silleby|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729368092
+|switch|p1a: Kryorasm|Skarmory, M|60/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729368099
+|move|p1a: Kryorasm|Protect|p1a: Kryorasm
+|-singleturn|p1a: Kryorasm|Protect
+|move|p2a: Blissey|Fire Blast|p1a: Kryorasm|[miss]
+|-miss|p2a: Blissey|p1a: Kryorasm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729368104
+|switch|p1a: Silleby|Blissey, F, shiny|100/100
+|-damage|p1a: Silleby|75/100|[from] Spikes
+|move|p2a: Blissey|Fire Blast|p1a: Silleby
+|-damage|p1a: Silleby|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|57/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729368110
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100
+|move|p2a: Blissey|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|57/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Silleby|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|57/100 tox|[from] psn
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729368112
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|100/100 tox
+|move|p2a: Blissey|Ice Beam|p1a: Silleby
+|-damage|p1a: Silleby|90/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|84/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Silleby|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|78/100 tox|[from] psn
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729368119
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|move|p2a: Blissey|Ice Beam|p1a: Silleby
+|-damage|p1a: Silleby|68/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|62/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|64/100|[from] Sandstorm
+|-heal|p1a: Silleby|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|50/100 tox|[from] psn
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729368122
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|44/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729368125
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|99/100
+|move|p2a: Blissey|Toxic|p1a: Silleby|[miss]
+|-miss|p2a: Blissey|p1a: Silleby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|99/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729368127
+|switch|p1a: Kryorasm|Skarmory, M|72/100
+|move|p2a: Blissey|Toxic|p1a: Kryorasm|[miss]
+|-miss|p2a: Blissey|p1a: Kryorasm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|78/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1729368135
+|move|p1a: Kryorasm|Protect|p1a: Kryorasm
+|-singleturn|p1a: Kryorasm|Protect
+|move|p2a: Blissey|Ice Beam|p1a: Kryorasm
+|-activate|p1a: Kryorasm|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|84/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1729368139
+|switch|p1a: Silleby|Blissey, F, shiny|99/100
+|-damage|p1a: Silleby|75/100|[from] Spikes
+|move|p2a: Blissey|Toxic|p1a: Silleby|[miss]
+|-miss|p2a: Blissey|p1a: Silleby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729368153
+|switch|p1a: Kryorasm|Skarmory, M|84/100
+|switch|p2a: Swampert|Swampert, F|60/100
+|-damage|p2a: Swampert|35/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|90/100|[from] item: Leftovers
+|-heal|p2a: Swampert|41/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729368158
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Kryorasm|Toxic|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|96/100|[from] item: Leftovers
+|-heal|p2a: Swampert|47/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729368162
+|switch|p2a: Skarmory|Skarmory, F|60/100 slp
+|move|p1a: Kryorasm|Toxic|p2a: Skarmory|[miss]
+|-miss|p1a: Kryorasm|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kryorasm|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1729368165
+|switch|p1a: Silleby|Blissey, F, shiny|75/100
+|-damage|p1a: Silleby|50/100|[from] Spikes
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|44/100|[from] Sandstorm
+|-heal|p1a: Silleby|50/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1729368169
+|cant|p2a: Skarmory|slp
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|99/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1729368171
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|99/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1729368179
+|move|p1a: Silleby|Sing|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Sing
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|99/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1729368184
+|switch|p1a: Kryorasm|Skarmory, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1729368187
+|move|p2a: Blissey|Ice Beam|p1a: Kryorasm
+|-damage|p1a: Kryorasm|76/100
+|-status|p1a: Kryorasm|frz
+|cant|p1a: Kryorasm|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|82/100 frz|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1729368195
+|switch|p1a: Silleby|Blissey, F, shiny|99/100
+|-damage|p1a: Silleby|75/100|[from] Spikes
+|move|p2a: Blissey|Toxic|p1a: Silleby|[miss]
+|-miss|p2a: Blissey|p1a: Silleby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Silleby|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1729368202
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|60/100
+|move|p2a: Blissey|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|69/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|54/100|[from] Sandstorm
+|-heal|p1a: Silleby|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|69/100 tox|[from] psn
+|-heal|p2a: Blissey|60/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1729368210
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|62/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|69/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1729368223
+|switch|p1a: Kryorasm|Skarmory, M|82/100
+|move|p2a: Blissey|Fire Blast|p1a: Kryorasm
+|-supereffective|p1a: Kryorasm
+|-damage|p1a: Kryorasm|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|24/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1729368232
+|move|p1a: Kryorasm|Protect|p1a: Kryorasm
+|-singleturn|p1a: Kryorasm|Protect
+|move|p2a: Blissey|Toxic|p1a: Kryorasm
+|-activate|p1a: Kryorasm|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Kryorasm|30/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1729368241
+|move|p1a: Kryorasm|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Fire Blast|p1a: Kryorasm
+|-supereffective|p1a: Kryorasm
+|-damage|p1a: Kryorasm|0 fnt
+|faint|p1a: Kryorasm
+|
+|t:|1729368246
+|switch|p1a: Silleby|Blissey, F, shiny|69/100
+|-damage|p1a: Silleby|44/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|37/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|91
+|
+|t:|1729368250
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|90/100 slp
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|87/100|[from] Sandstorm
+|-heal|p1a: Silleby|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1729368253
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100 slp
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|87/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|87/100 tox|[from] psn
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1729368258
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|81/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|75/100 tox|[from] psn
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1729368263
+|move|p1a: Silleby|Sing|p2a: Skarmory|[miss]
+|-miss|p1a: Silleby|p2a: Skarmory
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|69/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|57/100 tox|[from] psn
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1729368266
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|50/100|[from] Sandstorm
+|-heal|p1a: Silleby|57/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1729368269
+|move|p1a: Silleby|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100
+|move|p2a: Skarmory|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|50/100 tox|[from] Sandstorm
+|-heal|p1a: Silleby|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|50/100 tox|[from] psn
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1729368277
+|switch|p2a: Blissey|Blissey, F|94/100
+|-damage|p2a: Blissey|69/100|[from] Spikes
+|move|p1a: Silleby|Soft-Boiled|p1a: Silleby
+|-heal|p1a: Silleby|99/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|94/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|63/100|[from] Sandstorm
+|-heal|p1a: Silleby|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|88/100 tox|[from] psn
+|-heal|p2a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1729368282
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|82/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Silleby|88/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1729368285
+|move|p1a: Silleby|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100
+|move|p2a: Blissey|Toxic|p1a: Silleby
+|-status|p1a: Silleby|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|82/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Silleby|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Silleby|82/100 tox|[from] psn
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1729368289
+|move|p1a: Silleby|Aromatherapy|p1a: Silleby
+|-cureteam|p1a: Silleby|[from] move: Aromatherapy
+|move|p2a: Blissey|Ice Beam|p1a: Silleby
+|-damage|p1a: Silleby|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silleby|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Silleby|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|c|☆asbolus verrucosus|gg
+|c|☆wiilink100|gg wp
+|c|☆asbolus verrucosus|my team really stinks LOL
+|-message|asbolus verrucosus forfeited.
+|
+|win|wiilink100
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800047">
+{"id":"smogtours-gen3ou-800047","format":"[Gen 3] OU","players":["asbolus verrucosus","wiilink100"],"uploadtime":1729368313,"views":121,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

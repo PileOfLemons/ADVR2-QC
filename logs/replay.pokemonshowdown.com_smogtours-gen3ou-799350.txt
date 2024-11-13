@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: swope vs. Ramberg Buckland - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between swope and Ramberg Buckland! Format: [Gen 3] OU; Date: Oct 17, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799350">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729194429
+|gametype|singles
+|player|p1|swope|2|
+|player|p2|Ramberg Buckland|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729194430
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|c|☆Ramberg Buckland|all comes down to this!
+|c|☆Ramberg Buckland|good luck
+|c|☆swope|good luck
+|inactive|swope has 270 seconds left.
+|
+|t:|1729194463
+|move|p2a: Smeargle|Spore|p1a: Metagross
+|-status|p1a: Metagross|slp|[from] move: Spore
+|cant|p1a: Metagross|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1729194468
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|move|p2a: Smeargle|Dragon Dance|p2a: Smeargle
+|-boost|p2a: Smeargle|atk|1
+|-boost|p2a: Smeargle|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1729194485
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|t:|1729194496
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salamence|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729194515
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|51/100|[from] Sandstorm
+|-heal|p1a: Starmie|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729194525
+|move|p2a: Tyranitar|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|8/100
+|move|p1a: Starmie|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|Ramberg Buckland has 270 seconds left.
+|
+|t:|1729194555
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|8/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729194563
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|8/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729194574
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|cant|p2a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729194589
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Brick Break|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Gyarados|86/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729194614
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|86/100|[from] Sandstorm
+|-damage|p1a: Snorlax|94/100|[from] Sandstorm
+|-heal|p2a: Gyarados|92/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729194633
+|move|p2a: Gyarados|Hidden Power|p1a: Snorlax
+|-damage|p1a: Snorlax|55/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|86/100|[from] Sandstorm
+|-damage|p1a: Snorlax|49/100|[from] Sandstorm
+|-heal|p2a: Gyarados|92/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729194648
+|move|p2a: Gyarados|Hidden Power|p1a: Snorlax
+|-damage|p1a: Snorlax|23/100
+|move|p1a: Snorlax|Self-Destruct|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Gyarados
+|
+|t:|1729194663
+|switch|p2a: Snorlax|Snorlax, M|100/100 par
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Ramberg Buckland has 270 seconds left.
+|inactive|Ramberg Buckland has 240 seconds left.
+|
+|t:|1729194726
+|move|p1a: Salamence|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|58/100 par
+|cant|p2a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|52/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Ramberg Buckland has 210 seconds left.
+|
+|t:|1729194773
+|switch|p1a: Medicham|Medicham, F|100/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Medicham
+|inactive|Ramberg Buckland has 180 seconds left.
+|
+|t:|1729194820
+|switch|p1a: Starmie|Starmie|8/100
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-heal|p1a: Starmie|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Ramberg Buckland has 150 seconds left.
+|
+|t:|1729194854
+|move|p1a: Starmie|Thunder Wave|p2a: Metagross
+|-status|p2a: Metagross|par
+|move|p2a: Metagross|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729194862
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Ramberg Buckland has 120 seconds left.
+|inactive|Ramberg Buckland has 90 seconds left.
+|
+|t:|1729194942
+|move|p1a: Salamence|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|19/100 par
+|move|p2a: Metagross|Meteor Mash|p1a: Salamence
+|-damage|p1a: Salamence|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|13/100|[from] Sandstorm
+|-heal|p1a: Salamence|19/100|[from] item: Leftovers
+|-heal|p2a: Metagross|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Ramberg Buckland has 60 seconds left.
+|
+|t:|1729194972
+|move|p1a: Salamence|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1729194976
+|switch|p2a: Medicham|Medicham, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|13/100|[from] Sandstorm
+|-damage|p2a: Medicham|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|19/100|[from] item: Leftovers
+|-heal|p2a: Medicham|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Ramberg Buckland has 60 seconds left.
+|
+|t:|1729195002
+|move|p1a: Salamence|Dragon Claw|p2a: Medicham
+|-damage|p2a: Medicham|36/100
+|move|p2a: Medicham|Brick Break|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1729195009
+|switch|p1a: Metagross|Metagross|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|30/100|[from] Sandstorm
+|-heal|p2a: Medicham|36/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729195023
+|move|p2a: Medicham|Substitute|p2a: Medicham
+|-start|p2a: Medicham|Substitute
+|-damage|p2a: Medicham|11/100
+|-curestatus|p1a: Metagross|slp|[msg]
+|move|p1a: Metagross|Earthquake|p2a: Medicham
+|-end|p2a: Medicham|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|5/100|[from] Sandstorm
+|-heal|p2a: Medicham|11/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729195042
+|move|p2a: Medicham|Brick Break|p1a: Metagross
+|-damage|p1a: Metagross|64/100
+|move|p1a: Metagross|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|t:|1729195044
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|94/100|[from] Sandstorm
+|-heal|p2a: Smeargle|100/100|[from] item: Leftovers
+|-heal|p1a: Metagross|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729195055
+|move|p2a: Smeargle|Taunt|p1a: Metagross
+|-start|p1a: Metagross|move: Taunt
+|move|p1a: Metagross|Earthquake|p2a: Smeargle
+|-damage|p2a: Smeargle|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|15/100|[from] Sandstorm
+|-heal|p2a: Smeargle|21/100|[from] item: Leftovers
+|-heal|p1a: Metagross|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆swope|gg
+|c|☆Ramberg Buckland|gg
+|
+|t:|1729195067
+|move|p2a: Smeargle|Dragon Dance|p2a: Smeargle
+|-boost|p2a: Smeargle|atk|1
+|-boost|p2a: Smeargle|spe|1
+|move|p1a: Metagross|Earthquake|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|win|swope
+|c|☆Ramberg Buckland|well played
+|c|☆swope|you too!
+|c|☆swope|had fun
+|c|☆swope|thanks for scheduling well
+|c|☆swope|sorry i was late to it
+|c|☆Ramberg Buckland|nw
+|c|☆Ramberg Buckland|worked out nicely in the end
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799350">
+{"id":"smogtours-gen3ou-799350","format":"[Gen 3] OU","players":["swope","Ramberg Buckland"],"uploadtime":1729195067,"views":80,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

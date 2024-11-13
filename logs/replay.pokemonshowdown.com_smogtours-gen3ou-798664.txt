@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: jeem16 vs. HoChi_Pro - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between jeem16 and HoChi_Pro! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798664">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728925597
+|gametype|singles
+|player|p1|jeem16|alder|
+|player|p2|HoChi_Pro|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728925597
+|start
+|switch|p1a: Future Croissant|Salamence, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p1a: Future Croissant|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Future Croissant|atk|1
+|turn|1
+|
+|t:|1728925622
+|switch|p1a: Ohm my god|Magneton|100/100
+|move|p2a: Salamence|Dragon Claw|p1a: Ohm my god
+|-resisted|p1a: Ohm my god
+|-damage|p1a: Ohm my god|63/100
+|
+|upkeep
+|turn|2
+|c|☆jeem16|glhf
+|c|☆HoChi_Pro|u2
+|
+|t:|1728925640
+|switch|p1a: Spoopster|Misdreavus, M|100/100
+|move|p2a: Salamence|Flamethrower|p1a: Spoopster
+|-damage|p1a: Spoopster|62/100
+|
+|upkeep
+|turn|3
+|c|☆HoChi_Pro|Oh this is Garold
+|inactive|jeem16 has 270 seconds left.
+|c|☆jeem16|waht
+|c|☆HoChi_Pro|flygon + Aero
+|inactive|jeem16 has 240 seconds left.
+|c|☆HoChi_Pro|You used this last week
+|c|☆jeem16|I see
+|c|☆jeem16|you are a researched gentleman
+|c|☆HoChi_Pro|that I am
+|inactive|jeem16 has 210 seconds left.
+|
+|t:|1728925746
+|move|p1a: Spoopster|Pain Split|p2a: Salamence
+|-sethp|p2a: Salamence|73/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Spoopster|99/100|[from] move: Pain Split
+|move|p2a: Salamence|Dragon Claw|p1a: Spoopster
+|-damage|p1a: Spoopster|56/100
+|
+|-heal|p2a: Salamence|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728925760
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Spoopster|Protect||[still]
+|-fail|p1a: Spoopster
+|
+|upkeep
+|turn|5
+|inactive|jeem16 has 180 seconds left.
+|
+|t:|1728925816
+|move|p1a: Spoopster|Mean Look|p2a: Swampert
+|-activate|p2a: Swampert|trapped
+|move|p2a: Swampert|Toxic|p1a: Spoopster
+|-status|p1a: Spoopster|tox
+|-enditem|p1a: Spoopster|Lum Berry|[eat]
+|-curestatus|p1a: Spoopster|tox|[msg]
+|
+|upkeep
+|turn|6
+|
+|t:|1728925824
+|move|p1a: Spoopster|Pain Split|p2a: Swampert
+|-sethp|p2a: Swampert|68/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Spoopster|100/100|[from] move: Pain Split
+|move|p2a: Swampert|Roar|p1a: Spoopster
+|drag|p1a: Gone|Flygon, M|100/100
+|
+|-heal|p2a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|jeem16 has 150 seconds left.
+|
+|t:|1728925852
+|switch|p1a: Garold|Gyarados, M|100/100
+|-ability|p1a: Garold|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Surf|p1a: Garold
+|-resisted|p1a: Garold
+|-damage|p1a: Garold|84/100
+|
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728925872
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Garold|Hidden Power|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garold|78/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|jeem16 has 150 seconds left.
+|
+|t:|1728925893
+|switch|p1a: Future Croissant|Salamence, M|100/100
+|-ability|p1a: Future Croissant|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|switch|p2a: Salamence|Salamence, M|79/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Future Croissant|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Future Croissant|94/100|[from] Sandstorm
+|-damage|p2a: Salamence|73/100|[from] Sandstorm
+|-heal|p1a: Future Croissant|100/100|[from] item: Leftovers
+|-heal|p2a: Salamence|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|jeem16 has 150 seconds left.
+|inactive|HoChi_Pro has 270 seconds left.
+|
+|t:|1728925910
+|switch|p1a: Spoopster|Misdreavus, M|100/100
+|switch|p2a: Swampert|Swampert, M|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|94/100|[from] Sandstorm
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|jeem16 has 150 seconds left.
+|
+|t:|1728925918
+|move|p1a: Spoopster|Perish Song|p1a: Spoopster
+|-start|p1a: Spoopster|perish3|[silent]
+|-start|p2a: Swampert|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Swampert|Toxic|p1a: Spoopster
+|-status|p1a: Spoopster|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|88/100 tox|[from] Sandstorm
+|-damage|p1a: Spoopster|82/100 tox|[from] psn
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|-start|p1a: Spoopster|perish3
+|-start|p2a: Swampert|perish3
+|upkeep
+|turn|12
+|inactive|HoChi_Pro has 270 seconds left.
+|inactive|jeem16 has 150 seconds left.
+|
+|t:|1728925956
+|switch|p1a: Garold|Gyarados, M|78/100
+|-ability|p1a: Garold|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|switch|p2a: Regice|Regice|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garold|72/100|[from] Sandstorm
+|-damage|p2a: Regice|94/100|[from] Sandstorm
+|-heal|p2a: Regice|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|jeem16 has 150 seconds left.
+|inactive|jeem16 has 120 seconds left.
+|
+|t:|1728926006
+|switch|p1a: Spoopster|Misdreavus, M|82/100 tox
+|move|p2a: Regice|Thunderbolt|p1a: Spoopster
+|-damage|p1a: Spoopster|55/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|48/100 tox|[from] Sandstorm
+|-damage|p2a: Regice|94/100|[from] Sandstorm
+|-damage|p1a: Spoopster|42/100 tox|[from] psn
+|-heal|p2a: Regice|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|HoChi_Pro has 270 seconds left.
+|
+|t:|1728926012
+|switch|p2a: Swampert|Swampert, M|93/100
+|move|p1a: Spoopster|Pain Split|p2a: Swampert
+|-sethp|p2a: Swampert|60/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Spoopster|93/100 tox|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|87/100 tox|[from] Sandstorm
+|-damage|p1a: Spoopster|74/100 tox|[from] psn
+|-heal|p2a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728926025
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Spoopster|Pain Split|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|68/100 tox|[from] Sandstorm
+|-damage|p1a: Spoopster|50/100 tox|[from] psn
+|-heal|p2a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728926033
+|move|p1a: Spoopster|Pain Split|p2a: Swampert
+|-sethp|p2a: Swampert|53/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Spoopster|81/100 tox|[from] move: Pain Split
+|move|p2a: Swampert|Roar|p1a: Spoopster
+|drag|p1a: Gone|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728926047
+|move|p1a: Gone|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|11/100
+|move|p2a: Swampert|Surf|p1a: Gone
+|-damage|p1a: Gone|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728926079
+|switch|p1a: Pter|Aerodactyl, F|100/100
+|switch|p2a: Salamence|Salamence, M|79/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Pter|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|73/100|[from] Sandstorm
+|-heal|p2a: Salamence|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|jeem16 has 120 seconds left.
+|
+|t:|1728926096
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Pter|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|jeem16 has 120 seconds left.
+|
+|t:|1728926113
+|switch|p1a: Ohm my god|Magneton|63/100
+|move|p2a: Metagross|Meteor Mash|p1a: Ohm my god
+|-resisted|p1a: Ohm my god
+|-damage|p1a: Ohm my god|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|jeem16 has 120 seconds left.
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1728926152
+|move|p1a: Ohm my god|Thunder Wave|p2a: Metagross
+|-status|p2a: Metagross|par
+|cant|p2a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728926158
+|move|p1a: Ohm my god|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|42/100 par
+|move|p2a: Metagross|Hidden Power|p1a: Ohm my god
+|-supereffective|p1a: Ohm my god
+|-damage|p1a: Ohm my god|0 fnt
+|faint|p1a: Ohm my god
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1728926185
+|switch|p1a: Garold|Gyarados, M|72/100
+|-ability|p1a: Garold|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garold|66/100|[from] Sandstorm
+|-heal|p2a: Metagross|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728926188
+|switch|p1a: Spoopster|Misdreavus, M|81/100 tox
+|move|p2a: Metagross|Explosion|p1a: Spoopster
+|-immune|p1a: Spoopster
+|faint|p2a: Metagross
+|
+|t:|1728926217
+|switch|p2a: Swampert|Swampert, M|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spoopster|75/100 tox|[from] Sandstorm
+|-damage|p1a: Spoopster|69/100 tox|[from] psn
+|-heal|p2a: Swampert|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1728926230
+|switch|p1a: Garold|Gyarados, M|66/100
+|-ability|p1a: Garold|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Surf|p1a: Garold
+|-resisted|p1a: Garold
+|-damage|p1a: Garold|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garold|38/100|[from] Sandstorm
+|-heal|p2a: Swampert|30/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1728926264
+|switch|p2a: Salamence|Salamence, M|79/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Garold|atk|1
+|move|p1a: Garold|Dragon Dance|p1a: Garold
+|-boost|p1a: Garold|atk|1
+|-boost|p1a: Garold|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garold|32/100|[from] Sandstorm
+|-damage|p2a: Salamence|73/100|[from] Sandstorm
+|-heal|p2a: Salamence|79/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|jeem16 has 60 seconds left.
+|
+|t:|1728926290
+|move|p1a: Garold|Double-Edge|p2a: Salamence
+|-damage|p2a: Salamence|29/100
+|-damage|p1a: Garold|14/100|[from] Recoil|[of] p2a: Salamence
+|move|p2a: Salamence|Dragon Claw|p1a: Garold
+|-damage|p1a: Garold|0 fnt
+|faint|p1a: Garold
+|
+|t:|1728926314
+|switch|p1a: Pter|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|22/100|[from] Sandstorm
+|-heal|p2a: Salamence|29/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|jeem16 has 30 seconds left.
+|inactive|jeem16 has 20 seconds left.
+|
+|t:|1728926348
+|switch|p2a: Tyranitar|Tyranitar, M|89/100
+|move|p1a: Pter|Double-Edge|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|jeem16 has 30 seconds left this turn.
+|inactive|jeem16 has 20 seconds left.
+|inactive|jeem16 has 15 seconds left.
+|inactive|jeem16 has 10 seconds left.
+|inactive|jeem16 has 5 seconds left.
+|inactive|HoChi_Pro has 270 seconds left.
+|
+|t:|1728926375
+|switch|p1a: Future Croissant|Salamence, M|100/100
+|-ability|p1a: Future Croissant|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Hidden Power|p1a: Future Croissant
+|-resisted|p1a: Future Croissant
+|-crit|p1a: Future Croissant
+|-damage|p1a: Future Croissant|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Future Croissant|85/100|[from] Sandstorm
+|-heal|p1a: Future Croissant|91/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|jeem16 has 15 seconds left this turn.
+|inactive|jeem16 has 10 seconds left.
+|
+|t:|1728926383
+|move|p1a: Future Croissant|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Future Croissant
+|-supereffective|p1a: Future Croissant
+|-damage|p1a: Future Croissant|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Future Croissant|10/100|[from] Sandstorm
+|-heal|p1a: Future Croissant|16/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|14/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|jeem16 has 20 seconds left this turn.
+|
+|t:|1728926394
+|move|p1a: Future Croissant|Dragon Claw|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|jeem16 has 25 seconds left this turn.
+|
+|t:|1728926401
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Future Croissant|10/100|[from] Sandstorm
+|-heal|p1a: Future Croissant|16/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|jeem16 has 30 seconds left.
+|inactive|jeem16 has 20 seconds left.
+|
+|t:|1728926417
+|switch|p1a: Spoopster|Misdreavus, M|69/100 tox
+|move|p2a: Aerodactyl|Rock Slide|p1a: Spoopster
+|-damage|p1a: Spoopster|0 fnt
+|faint|p1a: Spoopster
+|inactive|jeem16 has 25 seconds left this turn.
+|
+|t:|1728926420
+|switch|p1a: Pter|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1728926425
+|switch|p2a: Salamence|Salamence, M|29/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Pter|atk|1
+|move|p1a: Pter|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1728926430
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1728926434
+|switch|p1a: Gone|Flygon, M|39/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Gone
+|-damage|p1a: Gone|0 fnt
+|faint|p1a: Gone
+|
+|t:|1728926436
+|switch|p1a: Pter|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1728926440
+|switch|p1a: Future Croissant|Salamence, M|16/100
+|-ability|p1a: Future Croissant|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|move|p2a: Aerodactyl|Double-Edge|p1a: Future Croissant
+|-damage|p1a: Future Croissant|0 fnt
+|faint|p1a: Future Croissant
+|
+|t:|1728926443
+|switch|p1a: Pter|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1728926452
+|switch|p2a: Swampert|Swampert, M|30/100
+|move|p1a: Pter|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|19/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728926456
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Pter|Rock Slide|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|26/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728926459
+|move|p1a: Pter|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|9/100
+|move|p2a: Swampert|Surf|p1a: Pter
+|-supereffective|p1a: Pter
+|-damage|p1a: Pter|0 fnt
+|faint|p1a: Pter
+|
+|win|HoChi_Pro
+|c|☆jeem16|ggwp
+|c|☆HoChi_Pro|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798664">
+{"id":"smogtours-gen3ou-798664","format":"[Gen 3] OU","players":["jeem16","HoChi_Pro"],"uploadtime":1728926459,"views":81,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

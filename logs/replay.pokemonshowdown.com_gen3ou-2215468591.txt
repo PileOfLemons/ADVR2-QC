@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Euph0riADV vs. Rainer2424 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Euph0riADV and Rainer2424! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2215468591">
+|j|☆Euph0riADV
+|j|☆Rainer2424
+|t:|1728005640
+|gametype|singles
+|player|p1|Euph0riADV|whitney|
+|player|p2|Rainer2424|hiker-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728005640
+|start
+|switch|p1a: Fly By Night|Skarmory, F|100/100
+|switch|p2a: 1stBassman|Zapdos|100/100
+|turn|1
+|c|☆Rainer2424|Good luck mate
+|c|☆Euph0riADV|Good luck
+|
+|t:|1728005656
+|switch|p1a: Analog Kid|Jolteon, M|100/100
+|move|p2a: 1stBassman|Thunderbolt|p1a: Analog Kid
+|-immune|p1a: Analog Kid|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+|c|☆Rainer2424|Rush songs?
+|c|☆Euph0riADV|Yessir
+|c|☆Rainer2424|Well played
+|
+|t:|1728005690
+|switch|p2a: Retrogress|Claydol|100/100
+|move|p1a: Analog Kid|Thunder Wave|p2a: Retrogress
+|-immune|p2a: Retrogress
+|
+|upkeep
+|turn|3
+|c|☆Euph0riADV|Have we played on ladder before? What elo are you around
+|
+|t:|1728005703
+|switch|p1a: Limelight|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Limelight
+|move|p2a: Retrogress|Earthquake|p1a: Limelight
+|-supereffective|p1a: Limelight
+|-damage|p1a: Limelight|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Rainer2424|Upper 1400s since I’ve been trying out some new teams
+|
+|t:|1728005730
+|switch|p2a: MoppShoeBlues|Suicune|100/100
+|move|p1a: Limelight|Hidden Power|p2a: MoppShoeBlues
+|-damage|p2a: MoppShoeBlues|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MoppShoeBlues|77/100|[from] Sandstorm
+|-heal|p2a: MoppShoeBlues|83/100|[from] item: Leftovers
+|-heal|p1a: Limelight|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728005737
+|switch|p1a: Fly By Night|Skarmory, F|100/100
+|move|p2a: MoppShoeBlues|Surf|p1a: Fly By Night
+|-damage|p1a: Fly By Night|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MoppShoeBlues|77/100|[from] Sandstorm
+|-heal|p2a: MoppShoeBlues|83/100|[from] item: Leftovers
+|-heal|p1a: Fly By Night|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728005744
+|move|p2a: MoppShoeBlues|Calm Mind|p2a: MoppShoeBlues
+|-boost|p2a: MoppShoeBlues|spa|1
+|-boost|p2a: MoppShoeBlues|spd|1
+|move|p1a: Fly By Night|Spikes|p2a: MoppShoeBlues
+|-sidestart|p2: Rainer2424|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MoppShoeBlues|77/100|[from] Sandstorm
+|-heal|p2a: MoppShoeBlues|83/100|[from] item: Leftovers
+|-heal|p1a: Fly By Night|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Euph0riADV|So far I've capped around 1300s
+|
+|t:|1728005759
+|move|p2a: MoppShoeBlues|Surf|p1a: Fly By Night
+|-damage|p1a: Fly By Night|40/100
+|move|p1a: Fly By Night|Roar|p2a: MoppShoeBlues
+|drag|p2a: BassRegion|Weezing, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|46/100|[from] item: Leftovers
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728005770
+|move|p1a: Fly By Night|Protect|p1a: Fly By Night
+|-singleturn|p1a: Fly By Night|Protect
+|move|p2a: BassRegion|Will-O-Wisp|p1a: Fly By Night|[miss]
+|-miss|p2a: BassRegion|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|52/100|[from] item: Leftovers
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆Rainer2424|Just gotta play more
+|c|☆Rainer2424|May have played me though, matchmaking is wack
+|c|☆Euph0riADV|Yeah I come from melee so I get the grind
+|
+|t:|1728005803
+|switch|p1a: Overture|Starmie|100/100
+|move|p2a: BassRegion|Will-O-Wisp|p1a: Overture
+|-status|p1a: Overture|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overture|94/100 brn|[from] Sandstorm
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Overture|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Overture|88/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728005808
+|switch|p2a: 1stBassman|Zapdos|100/100
+|move|p1a: Overture|Hydro Pump|p2a: 1stBassman|[miss]
+|-miss|p1a: Overture|p2a: 1stBassman
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overture|82/100 brn|[from] Sandstorm
+|-damage|p2a: 1stBassman|94/100|[from] Sandstorm
+|-heal|p1a: Overture|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Overture|76/100 brn|[from] brn
+|-heal|p2a: 1stBassman|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728005816
+|-curestatus|p1a: Overture|brn|[from] ability: Natural Cure
+|switch|p1a: Analog Kid|Jolteon, M|100/100
+|move|p2a: 1stBassman|Toxic|p1a: Analog Kid
+|-status|p1a: Analog Kid|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|94/100 tox|[from] Sandstorm
+|-damage|p2a: 1stBassman|94/100|[from] Sandstorm
+|-heal|p1a: Analog Kid|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|94/100 tox|[from] psn
+|-heal|p2a: 1stBassman|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Rainer2424|That game is crazy
+|c|☆Euph0riADV|Good play
+|c|☆Rainer2424|Definitely a risk offensive starmie could have sting
+|
+|t:|1728005847
+|switch|p2a: Retrogress|Claydol|100/100
+|move|p1a: Analog Kid|Thunder Wave|p2a: Retrogress
+|-immune|p2a: Retrogress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|88/100 tox|[from] Sandstorm
+|-heal|p1a: Analog Kid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|c|☆Euph0riADV|Yeah it's super fun. I've been enjoying the chilled out vibes of pokemon though
+|c|☆Euph0riADV|A lot less stressful
+|c|☆Rainer2424|Is this your first gen?
+|
+|t:|1728005880
+|switch|p1a: YYZ|Gengar, F, shiny|100/100
+|move|p2a: Retrogress|Rapid Spin|p1a: YYZ
+|-immune|p1a: YYZ
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: YYZ|95/100|[from] Sandstorm
+|-heal|p1a: YYZ|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728005886
+|move|p1a: YYZ|Ice Punch|p2a: Retrogress
+|-supereffective|p2a: Retrogress
+|-damage|p2a: Retrogress|53/100
+|move|p2a: Retrogress|Psychic|p1a: YYZ
+|-supereffective|p1a: YYZ
+|-damage|p1a: YYZ|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: YYZ|16/100|[from] Sandstorm
+|-heal|p1a: YYZ|22/100|[from] item: Leftovers
+|-heal|p2a: Retrogress|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728005896
+|switch|p2a: Blessed|Jirachi|100/100
+|-damage|p2a: Blessed|88/100|[from] Spikes
+|move|p1a: YYZ|Explosion|p2a: Blessed
+|-resisted|p2a: Blessed
+|-damage|p2a: Blessed|64/100
+|faint|p1a: YYZ
+|
+|t:|1728005908
+|switch|p1a: Limelight|Tyranitar, M|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Blessed|70/100|[from] item: Leftovers
+|-heal|p1a: Limelight|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728005928
+|switch|p2a: MoppShoeBlues|Suicune|83/100
+|-damage|p2a: MoppShoeBlues|71/100|[from] Spikes
+|move|p1a: Limelight|Earthquake|p2a: MoppShoeBlues
+|-damage|p2a: MoppShoeBlues|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MoppShoeBlues|41/100|[from] Sandstorm
+|-heal|p2a: MoppShoeBlues|47/100|[from] item: Leftovers
+|-heal|p1a: Limelight|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728005942
+|switch|p1a: Overture|Starmie|76/100
+|move|p2a: MoppShoeBlues|Surf|p1a: Overture
+|-resisted|p1a: Overture
+|-damage|p1a: Overture|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overture|49/100|[from] Sandstorm
+|-damage|p2a: MoppShoeBlues|41/100|[from] Sandstorm
+|-heal|p1a: Overture|55/100|[from] item: Leftovers
+|-heal|p2a: MoppShoeBlues|47/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728005949
+|switch|p2a: 1stBassman|Zapdos|100/100
+|move|p1a: Overture|Thunderbolt|p2a: 1stBassman
+|-damage|p2a: 1stBassman|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overture|49/100|[from] Sandstorm
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|-heal|p1a: Overture|55/100|[from] item: Leftovers
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728005962
+|switch|p1a: Analog Kid|Jolteon, M|82/100 tox
+|move|p2a: 1stBassman|Thunderbolt|p1a: Analog Kid
+|-heal|p1a: Analog Kid|100/100 tox|[from] ability: Volt Absorb|[of] p2a: 1stBassman
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|94/100 tox|[from] Sandstorm
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|-heal|p1a: Analog Kid|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|94/100 tox|[from] psn
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728005972
+|switch|p2a: Blessed|Jirachi|70/100
+|-damage|p2a: Blessed|57/100|[from] Spikes
+|move|p1a: Analog Kid|Hidden Power|p2a: Blessed
+|-resisted|p2a: Blessed
+|-damage|p2a: Blessed|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|88/100 tox|[from] Sandstorm
+|-heal|p1a: Analog Kid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|82/100 tox|[from] psn
+|-heal|p2a: Blessed|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728005980
+|move|p1a: Analog Kid|Thunder Wave|p2a: Blessed
+|-status|p2a: Blessed|par
+|move|p2a: Blessed|Calm Mind|p2a: Blessed
+|-boost|p2a: Blessed|spa|1
+|-boost|p2a: Blessed|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|75/100 tox|[from] Sandstorm
+|-heal|p1a: Analog Kid|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|63/100 tox|[from] psn
+|-heal|p2a: Blessed|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728005985
+|move|p1a: Analog Kid|Baton Pass|p1a: Analog Kid
+|
+|t:|1728005988
+|switch|p1a: Limelight|Tyranitar, M|85/100|[from] Baton Pass
+|move|p2a: Blessed|Fire Punch|p1a: Limelight
+|-resisted|p1a: Limelight
+|-damage|p1a: Limelight|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|78/100|[from] item: Leftovers
+|-heal|p2a: Blessed|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728006002
+|move|p1a: Limelight|Earthquake|p2a: Blessed
+|-supereffective|p2a: Blessed
+|-damage|p2a: Blessed|12/100 par
+|move|p2a: Blessed|Fire Punch|p1a: Limelight
+|-resisted|p1a: Limelight
+|-damage|p1a: Limelight|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|72/100|[from] item: Leftovers
+|-heal|p2a: Blessed|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728006009
+|move|p1a: Limelight|Rock Slide|p2a: Blessed
+|-resisted|p2a: Blessed
+|-damage|p2a: Blessed|3/100 par
+|cant|p2a: Blessed|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|78/100|[from] item: Leftovers
+|-heal|p2a: Blessed|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728006014
+|move|p1a: Limelight|Rock Slide|p2a: Blessed|[miss]
+|-miss|p1a: Limelight|p2a: Blessed
+|cant|p2a: Blessed|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|84/100|[from] item: Leftovers
+|-heal|p2a: Blessed|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728006016
+|move|p1a: Limelight|Rock Slide|p2a: Blessed
+|-resisted|p2a: Blessed
+|-damage|p2a: Blessed|2/100 par
+|cant|p2a: Blessed|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|90/100|[from] item: Leftovers
+|-heal|p2a: Blessed|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆Euph0riADV|my b
+|c|☆Euph0riADV|dude im sorry
+|
+|t:|1728006027
+|move|p1a: Limelight|Earthquake|p2a: Blessed
+|-supereffective|p2a: Blessed
+|-damage|p2a: Blessed|0 fnt
+|faint|p2a: Blessed
+|c|☆Rainer2424|Para flinch be like that
+|
+|t:|1728006033
+|switch|p2a: Retrogress|Claydol|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Retrogress|65/100|[from] item: Leftovers
+|-heal|p1a: Limelight|96/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆Euph0riADV|That's really rough
+|
+|t:|1728006038
+|move|p2a: Retrogress|Rapid Spin|p1a: Limelight
+|-resisted|p1a: Limelight
+|-damage|p1a: Limelight|95/100
+|-sideend|p2: Rainer2424|Spikes|[from] move: Rapid Spin|[of] p2a: Retrogress
+|move|p1a: Limelight|Hidden Power|p2a: Retrogress
+|-supereffective|p2a: Retrogress
+|-damage|p2a: Retrogress|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Retrogress|26/100|[from] item: Leftovers
+|-heal|p1a: Limelight|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728006045
+|-singleturn|p1a: Limelight|move: Focus Punch
+|switch|p2a: MoppShoeBlues|Suicune|47/100
+|move|p1a: Limelight|Focus Punch|p2a: MoppShoeBlues
+|-damage|p2a: MoppShoeBlues|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MoppShoeBlues|6/100|[from] Sandstorm
+|-heal|p2a: MoppShoeBlues|12/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728006055
+|move|p2a: MoppShoeBlues|Surf|p1a: Limelight
+|-supereffective|p1a: Limelight
+|-damage|p1a: Limelight|53/100
+|move|p1a: Limelight|Rock Slide|p2a: MoppShoeBlues
+|-crit|p2a: MoppShoeBlues
+|-damage|p2a: MoppShoeBlues|0 fnt
+|faint|p2a: MoppShoeBlues
+|
+|t:|1728006057
+|switch|p2a: Melody|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Limelight|59/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728006061
+|move|p2a: Melody|Earthquake|p1a: Limelight
+|-supereffective|p1a: Limelight
+|-damage|p1a: Limelight|0 fnt
+|faint|p1a: Limelight
+|
+|t:|1728006065
+|switch|p1a: Fly By Night|Skarmory, F|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fly By Night|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728006071
+|switch|p2a: BassRegion|Weezing, M|100/100
+|move|p1a: Fly By Night|Spikes|p2a: BassRegion
+|-sidestart|p2: Rainer2424|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|64/100|[from] item: Leftovers
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728006079
+|move|p1a: Fly By Night|Protect|p1a: Fly By Night
+|-singleturn|p1a: Fly By Night|Protect
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-activate|p1a: Fly By Night|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|70/100|[from] item: Leftovers
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728006081
+|move|p1a: Fly By Night|Spikes|p2a: BassRegion
+|-sidestart|p2: Rainer2424|Spikes
+|move|p2a: BassRegion|Will-O-Wisp|p1a: Fly By Night
+|-status|p1a: Fly By Night|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|63/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728006087
+|move|p1a: Fly By Night|Spikes|p2a: BassRegion
+|-sidestart|p2: Rainer2424|Spikes
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Fly By Night|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|57/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728006093
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|move|p1a: Fly By Night|Roar|p2a: BassRegion
+|drag|p2a: Melody|Dugtrio, M|100/100
+|-damage|p2a: Melody|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fly By Night|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|51/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1728006100
+|switch|p2a: 1stBassman|Zapdos|82/100
+|move|p1a: Fly By Night|Protect||[still]
+|-fail|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|-heal|p1a: Fly By Night|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|45/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1728006109
+|switch|p2a: Retrogress|Claydol|26/100
+|switch|p1a: Analog Kid|Jolteon, M|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|57/100 tox|[from] Sandstorm
+|-heal|p1a: Analog Kid|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|57/100 tox|[from] psn
+|-heal|p2a: Retrogress|32/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728006114
+|move|p1a: Analog Kid|Hidden Power|p2a: Retrogress
+|-supereffective|p2a: Retrogress
+|-damage|p2a: Retrogress|0 fnt
+|faint|p2a: Retrogress
+|
+|t:|1728006117
+|switch|p2a: BassRegion|Weezing, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|50/100 tox|[from] Sandstorm
+|-damage|p2a: BassRegion|94/100|[from] Sandstorm
+|-heal|p1a: Analog Kid|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|44/100 tox|[from] psn
+|-heal|p2a: BassRegion|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728006120
+|move|p1a: Analog Kid|Thunder Wave|p2a: BassRegion
+|-status|p2a: BassRegion|par
+|cant|p2a: BassRegion|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|38/100 tox|[from] Sandstorm
+|-damage|p2a: BassRegion|94/100 par|[from] Sandstorm
+|-heal|p1a: Analog Kid|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Analog Kid|25/100 tox|[from] psn
+|-heal|p2a: BassRegion|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728006125
+|move|p1a: Analog Kid|Baton Pass|p1a: Analog Kid
+|
+|t:|1728006136
+|switch|p1a: Fly By Night|Skarmory, F|45/100 brn|[from] Baton Pass
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100 par|[from] Sandstorm
+|-heal|p1a: Fly By Night|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|38/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728006141
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|move|p1a: Fly By Night|Roar|p2a: BassRegion
+|drag|p2a: Melody|Dugtrio, M|76/100
+|-damage|p2a: Melody|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fly By Night|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|32/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1728006150
+|switch|p2a: BassRegion|Weezing, M|100/100 par
+|move|p1a: Fly By Night|Toxic||[still]
+|-fail|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100 par|[from] Sandstorm
+|-heal|p1a: Fly By Night|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|26/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728006153
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|move|p1a: Fly By Night|Roar|p2a: BassRegion
+|drag|p2a: 1stBassman|Zapdos|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|-heal|p1a: Fly By Night|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|19/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1728006162
+|switch|p2a: BassRegion|Weezing, M|100/100 par
+|move|p1a: Fly By Night|Toxic||[still]
+|-fail|p1a: Fly By Night
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BassRegion|94/100 par|[from] Sandstorm
+|-heal|p1a: Fly By Night|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|13/100 brn|[from] brn
+|-heal|p2a: BassRegion|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728006173
+|move|p2a: BassRegion|Sludge Bomb|p1a: Fly By Night
+|-immune|p1a: Fly By Night
+|move|p1a: Fly By Night|Roar|p2a: BassRegion
+|drag|p2a: 1stBassman|Zapdos|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|-heal|p1a: Fly By Night|19/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|7/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1728006177
+|switch|p1a: Analog Kid|Jolteon, M|25/100 tox
+|move|p2a: 1stBassman|Hidden Power|p1a: Analog Kid
+|-damage|p1a: Analog Kid|2/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Analog Kid|0 fnt|[from] Sandstorm
+|-damage|p2a: 1stBassman|76/100|[from] Sandstorm
+|faint|p1a: Analog Kid
+|-heal|p2a: 1stBassman|82/100|[from] item: Leftovers
+|upkeep
+|c|☆Euph0riADV|Nice
+|c|☆Rainer2424|That was kinda a throw
+|c|☆Rainer2424|now I can tbolt starmie
+|c|☆Rainer2424|Unless we have a lanturn last or something stupid
+|c|☆Euph0riADV|Yeah this is poor
+|c|☆Euph0riADV|I think crit is my only way out
+|c|☆Euph0riADV|or if my starmie is faster than dug
+|
+|t:|1728006283
+|switch|p1a: Hemispheres|Metagross|100/100
+|turn|48
+|
+|t:|1728006292
+|move|p2a: 1stBassman|Thunderbolt|p1a: Hemispheres
+|-damage|p1a: Hemispheres|52/100
+|move|p1a: Hemispheres|Meteor Mash|p2a: 1stBassman
+|-resisted|p2a: 1stBassman
+|-damage|p2a: 1stBassman|39/100
+|-boost|p1a: Hemispheres|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 1stBassman|33/100|[from] Sandstorm
+|-heal|p2a: 1stBassman|39/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728006297
+|move|p2a: 1stBassman|Thunderbolt|p1a: Hemispheres
+|-damage|p1a: Hemispheres|5/100
+|move|p1a: Hemispheres|Meteor Mash|p2a: 1stBassman
+|-resisted|p2a: 1stBassman
+|-damage|p2a: 1stBassman|0 fnt
+|faint|p2a: 1stBassman
+|
+|t:|1728006299
+|switch|p2a: Melody|Dugtrio, M|51/100
+|-damage|p2a: Melody|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|50
+|
+|t:|1728006301
+|move|p2a: Melody|Earthquake|p1a: Hemispheres
+|-supereffective|p1a: Hemispheres
+|-damage|p1a: Hemispheres|0 fnt
+|faint|p1a: Hemispheres
+|
+|t:|1728006303
+|switch|p1a: Overture|Starmie|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overture|49/100|[from] Sandstorm
+|-heal|p1a: Overture|55/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728006305
+|move|p2a: Melody|Earthquake|p1a: Overture
+|-damage|p1a: Overture|0 fnt
+|faint|p1a: Overture
+|c|☆Euph0riADV|gg
+|c|☆Rainer2424|Nah that’s it
+|
+|t:|1728006311
+|switch|p1a: Fly By Night|Skarmory, F|7/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fly By Night|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Fly By Night|0 fnt|[from] brn
+|faint|p1a: Fly By Night
+|
+|win|Rainer2424
+|upkeep
+|c|☆Rainer2424|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2215468591">
+{"id":"gen3ou-2215468591","format":"[Gen 3] OU","players":["Euph0riADV","Rainer2424"],"uploadtime":1728006319,"views":217,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

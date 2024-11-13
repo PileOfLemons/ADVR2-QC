@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: moowee vs. kfz - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between moowee and kfz! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798683">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728927846
+|gametype|singles
+|player|p1|moowee|burglar|
+|player|p2|kfz|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728927846
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|moowee has 270 seconds left.
+|
+|t:|1728927899
+|move|p2a: Jumpluff|Sleep Powder|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Sleep Powder
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728927914
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Jumpluff|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100|[from] Leech Seed|[of] p2a: Jumpluff
+|upkeep
+|turn|3
+|
+|t:|1728927924
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Skarmory|Spikes|p2a: Magneton
+|-sidestart|p2: kfz|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100|[from] Leech Seed|[of] p2a: Magneton
+|upkeep
+|turn|4
+|
+|t:|1728927929
+|move|p2a: Magneton|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|1/100
+|move|p1a: Skarmory|Spikes|p2a: Magneton
+|-sidestart|p2: kfz|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|7/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|0 fnt|[from] Leech Seed|[of] p2a: Magneton
+|faint|p1a: Skarmory
+|upkeep
+|
+|t:|1728927935
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|5
+|
+|t:|1728927948
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|84/100|[from] Spikes
+|move|p1a: Flygon|Substitute|p1a: Flygon
+|-start|p1a: Flygon|Substitute
+|-damage|p1a: Flygon|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-heal|p2a: Starmie|84/100|[from] item: Leftovers
+|-heal|p1a: Flygon|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728927954
+|move|p2a: Starmie|Ice Beam|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-end|p1a: Flygon|Substitute
+|move|p1a: Flygon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|27/100|[from] Sandstorm
+|-heal|p2a: Starmie|34/100|[from] item: Leftovers
+|-heal|p1a: Flygon|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728927965
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|27/100|[from] Sandstorm
+|-heal|p2a: Starmie|34/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728927976
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|84/100
+|move|p1a: Jirachi|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|35/100
+|-status|p2a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|29/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Starmie|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728928011
+|-curestatus|p2a: Starmie|par|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728928019
+|move|p1a: Jirachi|Ice Punch|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|inactive|kfz has 270 seconds left.
+|
+|t:|1728928054
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1728928061
+|move|p2a: Dugtrio|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1728928066
+|switch|p1a: Flygon|Flygon, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|kfz has 270 seconds left.
+|
+|t:|1728928114
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|move|p1a: Flygon|Substitute|p1a: Flygon
+|-start|p1a: Flygon|Substitute
+|-damage|p1a: Flygon|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Flygon|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|kfz has 240 seconds left.
+|inactive|moowee has 270 seconds left.
+|
+|t:|1728928152
+|switch|p2a: Starmie|Starmie|35/100
+|-damage|p2a: Starmie|18/100|[from] Spikes
+|move|p1a: Flygon|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|kfz has 210 seconds left.
+|inactive|kfz has 180 seconds left.
+|
+|t:|1728928207
+|switch|p2a: Dugtrio|Dugtrio, M|84/100
+|-damage|p2a: Dugtrio|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728928214
+|move|p2a: Dugtrio|Aerial Ace|p1a: Flygon
+|-end|p1a: Flygon|Substitute
+|move|p1a: Flygon|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|kfz has 150 seconds left.
+|
+|t:|1728928246
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|87/100|[from] item: Leftovers
+|-heal|p2a: Magneton|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|kfz has 150 seconds left.
+|
+|t:|1728928263
+|move|p1a: Flygon|Substitute|p1a: Flygon
+|-start|p1a: Flygon|Substitute
+|-damage|p1a: Flygon|62/100
+|move|p2a: Magneton|Toxic||[still]
+|-fail|p2a: Magneton
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|68/100|[from] item: Leftovers
+|-heal|p2a: Magneton|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728928267
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|move|p1a: Flygon|Earthquake|p2a: Jumpluff
+|-immune|p2a: Jumpluff
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Flygon|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728928272
+|move|p2a: Jumpluff|Encore|p1a: Flygon
+|-start|p1a: Flygon|Encore
+|move|p1a: Flygon|Earthquake|p2a: Jumpluff
+|-immune|p2a: Jumpluff
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Flygon|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728928296
+|switch|p1a: Tyranitar|Tyranitar, F|100/100 slp
+|move|p2a: Jumpluff|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100 slp|[from] Leech Seed|[of] p2a: Jumpluff
+|upkeep
+|turn|19
+|
+|t:|1728928306
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|-curestatus|p1a: Tyranitar|slp|[msg]
+|move|p1a: Tyranitar|Fire Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Tyranitar|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|96/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1728928320
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728928333
+|switch|p2a: Magneton|Magneton|96/100
+|-damage|p2a: Magneton|80/100|[from] Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Magneton|48/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728928348
+|move|p2a: Magneton|Protect|p2a: Magneton
+|-singleturn|p2a: Magneton|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Magneton
+|-activate|p2a: Magneton|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Magneton|54/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728928356
+|move|p2a: Magneton|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|65/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|59/100|[from] Sandstorm
+|-heal|p2a: Magneton|22/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|65/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|kfz has 180 seconds left.
+|
+|t:|1728928365
+|move|p2a: Magneton|Protect|p2a: Magneton
+|-singleturn|p2a: Magneton|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Magneton
+|-activate|p2a: Magneton|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|59/100|[from] Sandstorm
+|-heal|p2a: Magneton|28/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|kfz has 180 seconds left.
+|
+|t:|1728928381
+|move|p2a: Magneton|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|-status|p1a: Zapdos|par
+|move|p1a: Zapdos|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1728928393
+|switch|p2a: Tyranitar|Tyranitar, F|96/100
+|-damage|p2a: Tyranitar|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|28/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728928398
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Zapdos|Roar|p2a: Tyranitar
+|drag|p2a: Jumpluff|Jumpluff, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|28/100 par|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728928407
+|move|p2a: Jumpluff|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|cant|p1a: Zapdos|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|28/100 par|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|35/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|22/100 par|[from] Leech Seed|[of] p2a: Jumpluff
+|upkeep
+|turn|28
+|
+|t:|1728928420
+|switch|p2a: Tyranitar|Tyranitar, F|80/100
+|-damage|p2a: Tyranitar|63/100|[from] Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|16/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|22/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|10/100 par|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|41/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1728928431
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|3/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|10/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|0 fnt|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|17/100|[silent]
+|faint|p1a: Zapdos
+|upkeep
+|
+|t:|1728928444
+|switch|p1a: Flygon|Flygon, M|80/100
+|turn|30
+|
+|t:|1728928467
+|move|p1a: Flygon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728928470
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Flygon|86/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728928482
+|switch|p1a: Tyranitar|Tyranitar, F|82/100
+|move|p2a: Jumpluff|Sleep Powder|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|kfz has 210 seconds left.
+|
+|t:|1728928491
+|switch|p1a: Flygon|Flygon, M|86/100
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|69/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|76/100|[from] item: Leftovers
+|-heal|p1a: Flygon|92/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728928495
+|move|p2a: Jumpluff|Leech Seed|p1a: Flygon
+|-start|p1a: Flygon|move: Leech Seed
+|move|p1a: Flygon|Fire Blast|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-crit|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|69/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|76/100|[from] item: Leftovers
+|-heal|p1a: Flygon|98/100|[from] item: Leftovers
+|-damage|p1a: Flygon|85/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|87/100|[silent]
+|upkeep
+|turn|34
+|
+|t:|1728928512
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|62/100
+|move|p1a: Flygon|Rock Slide|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|56/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|62/100|[from] item: Leftovers
+|-heal|p1a: Flygon|91/100|[from] item: Leftovers
+|-damage|p1a: Flygon|79/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|73/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1728928526
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|48/100
+|move|p1a: Flygon|Rock Slide|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|42/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|48/100|[from] item: Leftovers
+|-heal|p1a: Flygon|85/100|[from] item: Leftovers
+|-damage|p1a: Flygon|73/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|59/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1728928535
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|34/100
+|move|p1a: Flygon|Rock Slide|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|28/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|34/100|[from] item: Leftovers
+|-heal|p1a: Flygon|79/100|[from] item: Leftovers
+|-damage|p1a: Flygon|66/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|45/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1728928541
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|20/100
+|move|p1a: Flygon|Rock Slide|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|14/100|[from] Sandstorm
+|-heal|p2a: Jumpluff|20/100|[from] item: Leftovers
+|-heal|p1a: Flygon|72/100|[from] item: Leftovers
+|-damage|p1a: Flygon|60/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|31/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1728928547
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|6/100
+|move|p1a: Flygon|Rock Slide|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jumpluff|0 fnt|[from] Sandstorm
+|faint|p2a: Jumpluff
+|
+|win|moowee
+|upkeep
+|c|☆moowee|gg
+|c|☆kfz|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798683">
+{"id":"smogtours-gen3ou-798683","format":"[Gen 3] OU","players":["moowee","kfz"],"uploadtime":1728928547,"views":124,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

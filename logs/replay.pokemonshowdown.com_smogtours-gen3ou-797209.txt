@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Seradess vs. JCEntrena - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Seradess and JCEntrena! Format: [Gen 3] OU; Date: Oct 11, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-797209">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728664254
+|gametype|singles
+|player|p1|Seradess|170|
+|player|p2|JCEntrena|veteran|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728664254
+|start
+|switch|p1a: Smargad|Salamence, M, shiny|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|
+|t:|1728664264
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1728664267
+|switch|p2a: Medikam|Medicham, M|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|2
+|
+|t:|1728664275
+|switch|p1a: Smargad|Salamence, M, shiny|100/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Medikam|atk|1
+|move|p2a: Medikam|Brick Break|p1a: Smargad
+|-resisted|p1a: Smargad
+|-damage|p1a: Smargad|85/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728664295
+|switch|p2a: Gill|Swampert, M|100/100
+|move|p1a: Smargad|Rock Slide|p2a: Gill
+|-resisted|p2a: Gill
+|-damage|p2a: Gill|88/100
+|
+|-heal|p2a: Gill|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Seradess has 270 seconds left.
+|inactive|Seradess has 240 seconds left.
+|
+|t:|1728664373
+|switch|p1a: José|Suicune, shiny|100/100
+|move|p2a: Gill|Toxic|p1a: José
+|-status|p1a: José|tox
+|
+|-damage|p1a: José|94/100 tox|[from] psn
+|-heal|p2a: Gill|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664395
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: José|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|
+|-heal|p2a: Zapdos|74/100|[from] item: Leftovers
+|-heal|p1a: José|100/100 tox|[from] item: Leftovers
+|-damage|p1a: José|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664418
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|55/100
+|
+|-heal|p2a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p1a: Claydol|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664433
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-heal|p2a: Zapdos|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728664442
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664452
+|switch|p2a: Medikam|Medicham, M|100/100|[from] Baton Pass
+|move|p1a: Blissey|Ice Beam|p2a: Medikam
+|-damage|p2a: Medikam|60/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664462
+|switch|p1a: Claydol|Claydol|61/100
+|move|p2a: Medikam|Substitute|p2a: Medikam
+|-start|p2a: Medikam|Substitute
+|-damage|p2a: Medikam|35/100
+|
+|-heal|p1a: Claydol|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728664472
+|move|p2a: Medikam|Shadow Ball|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1728664480
+|switch|p1a: Cupcake|Metagross, shiny|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1728664492
+|-singleturn|p2a: Medikam|move: Focus Punch
+|move|p1a: Cupcake|Earthquake|p2a: Medikam
+|-end|p2a: Medikam|Substitute
+|move|p2a: Medikam|Focus Punch|p1a: Cupcake
+|-damage|p1a: Cupcake|32/100
+|
+|-heal|p1a: Cupcake|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664532
+|switch|p2a: Zapdos|Zapdos|87/100
+|move|p1a: Cupcake|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|93/100|[from] item: Leftovers
+|-heal|p1a: Cupcake|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728664539
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|-status|p1a: Blissey|par
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664548
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664554
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Baton Pass
+|move|p1a: Blissey|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|89/100
+|-status|p2a: Jirachi|frz
+|
+|-heal|p2a: Jirachi|95/100 frz|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Seradess has 270 seconds left.
+|
+|t:|1728664566
+|-curestatus|p2a: Jirachi|frz|[msg]
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Seradess has 270 seconds left.
+|
+|t:|1728664583
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Cupcake|Metagross, shiny|44/100
+|move|p2a: Jirachi|Fire Punch|p1a: Cupcake
+|-supereffective|p1a: Cupcake
+|-damage|p1a: Cupcake|0 fnt
+|faint|p1a: Cupcake
+|
+|t:|1728664587
+|switch|p1a: Smargad|Salamence, M, shiny|85/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|-heal|p1a: Smargad|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|17
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664620
+|move|p1a: Smargad|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1728664633
+|switch|p2a: Gill|Swampert, M|99/100
+|
+|-heal|p2a: Gill|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728664637
+|switch|p1a: José|Suicune, shiny|88/100 tox
+|move|p2a: Gill|Toxic|p1a: José
+|-fail|p1a: José|tox
+|
+|-heal|p1a: José|94/100 tox|[from] item: Leftovers
+|-damage|p1a: José|88/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664651
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: José|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|72/100
+|
+|-heal|p1a: José|94/100 tox|[from] item: Leftovers
+|-damage|p1a: José|82/100 tox|[from] psn
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728664655
+|switch|p1a: Poindexter|Magneton, shiny|100/100
+|move|p2a: Skarmory|Spikes|p1a: Poindexter
+|-sidestart|p1: Seradess|Spikes
+|
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728664661
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Poindexter|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728664667
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Poindexter|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728664673
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|move|p1a: Poindexter|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100
+|
+|-heal|p2a: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728664680
+|move|p1a: Poindexter|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728664700
+|switch|p2a: Medikam|Medicham, M|35/100
+|
+|upkeep
+|turn|25
+|
+|t:|1728664706
+|move|p2a: Medikam|Brick Break|p1a: Poindexter
+|-supereffective|p1a: Poindexter
+|-damage|p1a: Poindexter|0 fnt
+|faint|p1a: Poindexter
+|
+|t:|1728664708
+|switch|p1a: Smargad|Salamence, M, shiny|100/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Medikam|atk|1
+|
+|upkeep
+|turn|26
+|
+|t:|1728664721
+|switch|p2a: Gill|Swampert, M|100/100
+|move|p1a: Smargad|Hidden Power|p2a: Gill
+|-damage|p2a: Gill|61/100
+|
+|-heal|p2a: Gill|67/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728664731
+|switch|p1a: Blissey|Blissey, F|98/100
+|-damage|p1a: Blissey|86/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|99/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728664738
+|move|p2a: Zapdos|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1728664750
+|switch|p2a: Medikam|Medicham, M|35/100
+|
+|-heal|p1a: Blissey|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|92/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1728664780
+|move|p2a: Medikam|Substitute|p2a: Medikam
+|-start|p2a: Medikam|Substitute
+|-damage|p2a: Medikam|10/100
+|move|p1a: Blissey|Ice Beam|p2a: Medikam
+|-end|p2a: Medikam|Substitute
+|
+|-heal|p1a: Blissey|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|86/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|Seradess has 270 seconds left.
+|
+|t:|1728664797
+|move|p2a: Medikam|Brick Break|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1728664800
+|switch|p1a: Smargad|Salamence, M, shiny|100/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Medikam|atk|1
+|
+|upkeep
+|turn|31
+|
+|t:|1728664815
+|move|p1a: Smargad|Brick Break|p2a: Medikam
+|-resisted|p2a: Medikam
+|-crit|p2a: Medikam
+|-damage|p2a: Medikam|0 fnt
+|faint|p2a: Medikam
+|
+|t:|1728664818
+|switch|p2a: Gill|Swampert, M|67/100
+|
+|-heal|p2a: Gill|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728664824
+|switch|p1a: José|Suicune, shiny|82/100 tox
+|-damage|p1a: José|69/100 tox|[from] Spikes
+|move|p2a: Gill|Surf|p1a: José
+|-resisted|p1a: José
+|-damage|p1a: José|58/100 tox
+|
+|-heal|p1a: José|64/100 tox|[from] item: Leftovers
+|-damage|p1a: José|58/100 tox|[from] psn
+|-heal|p2a: Gill|79/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728664833
+|move|p1a: José|Surf|p2a: Gill
+|-damage|p2a: Gill|52/100
+|move|p2a: Gill|Surf|p1a: José
+|-resisted|p1a: José
+|-damage|p1a: José|48/100 tox
+|
+|-heal|p1a: José|54/100 tox|[from] item: Leftovers
+|-damage|p1a: José|42/100 tox|[from] psn
+|-heal|p2a: Gill|58/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728664858
+|move|p1a: José|Surf|p2a: Gill
+|-damage|p2a: Gill|33/100
+|move|p2a: Gill|Surf|p1a: José
+|-resisted|p1a: José
+|-damage|p1a: José|25/100 tox
+|
+|-heal|p1a: José|31/100 tox|[from] item: Leftovers
+|-damage|p1a: José|13/100 tox|[from] psn
+|-heal|p2a: Gill|39/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728664878
+|move|p1a: José|Surf|p2a: Gill
+|-damage|p2a: Gill|14/100
+|move|p2a: Gill|Surf|p1a: José
+|-resisted|p1a: José
+|-damage|p1a: José|0 fnt
+|faint|p1a: José
+|
+|t:|1728664880
+|switch|p1a: Smargad|Salamence, M, shiny|100/100
+|-ability|p1a: Smargad|Intimidate|boost
+|-unboost|p2a: Gill|atk|1
+|
+|-heal|p2a: Gill|20/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728664891
+|move|p2a: Gill|Protect|p2a: Gill
+|-singleturn|p2a: Gill|Protect
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-activate|p2a: Gill|Protect
+|
+|-heal|p2a: Gill|27/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664932
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Smargad|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728664940
+|switch|p2a: Gill|Swampert, M|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smargad|94/100|[from] Sandstorm
+|-heal|p2a: Gill|33/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728664947
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-damage|p2a: Gill|3/100
+|move|p2a: Gill|Toxic|p1a: Smargad
+|-status|p1a: Smargad|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smargad|88/100 tox|[from] Sandstorm
+|-damage|p1a: Smargad|82/100 tox|[from] psn
+|-heal|p2a: Gill|10/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|JCEntrena has 270 seconds left.
+|
+|t:|1728664956
+|move|p2a: Gill|Protect|p2a: Gill
+|-singleturn|p2a: Gill|Protect
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-activate|p2a: Gill|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smargad|76/100 tox|[from] Sandstorm
+|-damage|p1a: Smargad|64/100 tox|[from] psn
+|-heal|p2a: Gill|16/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728664965
+|move|p2a: Gill|Protect|p2a: Gill
+|-singleturn|p2a: Gill|Protect
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-activate|p2a: Gill|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smargad|58/100 tox|[from] Sandstorm
+|-damage|p1a: Smargad|40/100 tox|[from] psn
+|-heal|p2a: Gill|22/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728664974
+|move|p2a: Gill|Protect|p2a: Gill
+|-singleturn|p2a: Gill|Protect
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-activate|p2a: Gill|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smargad|34/100 tox|[from] Sandstorm
+|-damage|p1a: Smargad|10/100 tox|[from] psn
+|-heal|p2a: Gill|28/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728664985
+|move|p2a: Gill|Protect||[still]
+|-fail|p2a: Gill
+|move|p1a: Smargad|Brick Break|p2a: Gill
+|-damage|p2a: Gill|0 fnt
+|faint|p2a: Gill
+|
+|win|Seradess
+|c|☆Seradess|ggs
+|c|☆JCEntrena|Wow
+|c|☆JCEntrena|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797209">
+{"id":"smogtours-gen3ou-797209","format":"[Gen 3] OU","players":["Seradess","JCEntrena"],"uploadtime":1728664985,"views":207,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

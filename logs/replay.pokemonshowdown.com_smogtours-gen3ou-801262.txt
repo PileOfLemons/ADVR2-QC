@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Skittle_Skity vs. melninja - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Skittle_Skity and melninja! Format: [Gen 3] OU; Date: Oct 22, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801262">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729629979
+|gametype|singles
+|player|p1|Skittle_Skity|170|
+|player|p2|melninja|colress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729629979
+|start
+|switch|p1a: Old Guillotine|Tyranitar, F|100/100
+|switch|p2a: Jynx|Jynx, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Old Guillotine
+|turn|1
+|c|☆melninja|glhf
+|c|☆Skittle_Skity|gl hf
+|inactive|Skittle_Skity has 270 seconds left.
+|inactive|melninja has 270 seconds left.
+|
+|t:|1729630022
+|move|p2a: Jynx|Ice Beam|p1a: Old Guillotine
+|-damage|p1a: Old Guillotine|63/100
+|move|p1a: Old Guillotine|Pursuit|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|44/100|[from] Sandstorm
+|-heal|p2a: Jynx|50/100|[from] item: Leftovers
+|-heal|p1a: Old Guillotine|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729630028
+|move|p2a: Jynx|Lovely Kiss|p1a: Old Guillotine
+|-status|p1a: Old Guillotine|slp|[from] move: Lovely Kiss
+|cant|p1a: Old Guillotine|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|44/100|[from] Sandstorm
+|-heal|p2a: Jynx|50/100|[from] item: Leftovers
+|-heal|p1a: Old Guillotine|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729630038
+|switch|p1a: Medkit|Blissey, F|100/100
+|move|p2a: Jynx|Substitute|p2a: Jynx
+|-start|p2a: Jynx|Substitute
+|-damage|p2a: Jynx|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-damage|p1a: Medkit|94/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Medkit|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729630050
+|move|p2a: Jynx|Ice Beam|p1a: Medkit
+|-damage|p1a: Medkit|82/100
+|-status|p1a: Medkit|frz
+|cant|p1a: Medkit|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-damage|p1a: Medkit|76/100 frz|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Medkit|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729630072
+|-curestatus|p1a: Medkit|frz|[from] ability: Natural Cure
+|switch|p1a: Tri-Tip Dagger|Skarmory, F|100/100
+|move|p2a: Jynx|Ice Beam|p1a: Tri-Tip Dagger
+|-damage|p1a: Tri-Tip Dagger|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Tri-Tip Dagger|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729630077
+|move|p2a: Jynx|Ice Beam|p1a: Tri-Tip Dagger
+|-damage|p1a: Tri-Tip Dagger|20/100
+|move|p1a: Tri-Tip Dagger|Roar|p2a: Jynx
+|drag|p2a: Heracross|Heracross, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heracross|94/100|[from] Sandstorm
+|-heal|p1a: Tri-Tip Dagger|26/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729630098
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Repulsion Armor|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729630108
+|move|p1a: Repulsion Armor|Protect|p1a: Repulsion Armor
+|-singleturn|p1a: Repulsion Armor|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Repulsion Armor|[miss]
+|-miss|p2a: Gengar|p1a: Repulsion Armor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729630112
+|switch|p1a: Medkit|Blissey, F|82/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Medkit|[miss]
+|-miss|p2a: Gengar|p1a: Medkit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Medkit|76/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Medkit|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729630118
+|move|p2a: Gengar|Taunt|p1a: Medkit
+|-start|p1a: Medkit|move: Taunt
+|cant|p1a: Medkit|move: Taunt|Heal Bell
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Medkit|76/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Medkit|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729630122
+|move|p2a: Gengar|Will-O-Wisp|p1a: Medkit
+|-status|p1a: Medkit|brn
+|move|p1a: Medkit|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|69/100|[from] Sandstorm
+|-damage|p1a: Medkit|76/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|75/100|[from] item: Leftovers
+|-heal|p1a: Medkit|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Medkit|70/100 brn|[from] brn
+|-end|p1a: Medkit|move: Taunt|[silent]
+|upkeep
+|turn|12
+|
+|t:|1729630140
+|-curestatus|p1a: Medkit|brn|[from] ability: Natural Cure
+|switch|p1a: Repulsion Armor|Swampert, M|100/100
+|move|p2a: Gengar|Taunt|p1a: Repulsion Armor
+|-start|p1a: Repulsion Armor|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|69/100|[from] Sandstorm
+|-heal|p2a: Gengar|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729630147
+|move|p2a: Gengar|Will-O-Wisp|p1a: Repulsion Armor
+|-status|p1a: Repulsion Armor|brn
+|move|p1a: Repulsion Armor|Surf|p2a: Gengar
+|-damage|p2a: Gengar|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|38/100|[from] Sandstorm
+|-heal|p2a: Gengar|44/100|[from] item: Leftovers
+|-damage|p1a: Repulsion Armor|88/100 brn|[from] brn
+|-end|p1a: Repulsion Armor|move: Taunt|[silent]
+|upkeep
+|turn|14
+|
+|t:|1729630151
+|switch|p2a: Mirror B|Ludicolo, M, shiny|100/100
+|move|p1a: Repulsion Armor|Surf|p2a: Mirror B
+|-resisted|p2a: Mirror B
+|-damage|p2a: Mirror B|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mirror B|88/100|[from] Sandstorm
+|-heal|p2a: Mirror B|94/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Repulsion Armor|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1729630174
+|switch|p1a: Medkit|Blissey, F|70/100
+|move|p2a: Mirror B|Leech Seed|p1a: Medkit|[miss]
+|-miss|p2a: Mirror B|p1a: Medkit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mirror B|88/100|[from] Sandstorm
+|-damage|p1a: Medkit|64/100|[from] Sandstorm
+|-heal|p2a: Mirror B|94/100|[from] item: Leftovers
+|-heal|p1a: Medkit|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729630181
+|switch|p2a: Dugtrio|Dugtrio, F, shiny|100/100
+|move|p1a: Medkit|Heal Bell|p1a: Medkit
+|-activate|p1a: Medkit|move: Heal Bell
+|-curestatus|p1: Repulsion Armor|brn|[silent]
+|-curestatus|p1: Old Guillotine|slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medkit|64/100|[from] Sandstorm
+|-heal|p1a: Medkit|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729630185
+|move|p2a: Dugtrio|Earthquake|p1a: Medkit
+|-damage|p1a: Medkit|16/100
+|move|p1a: Medkit|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medkit|10/100|[from] Sandstorm
+|-heal|p1a: Medkit|16/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729630189
+|move|p2a: Dugtrio|Earthquake|p1a: Medkit
+|-damage|p1a: Medkit|0 fnt
+|faint|p1a: Medkit
+|
+|t:|1729630192
+|switch|p1a: Tri-Tip Dagger|Skarmory, F|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tri-Tip Dagger|32/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729630198
+|switch|p2a: Jynx|Jynx, F|26/100
+|move|p1a: Tri-Tip Dagger|Spikes|p2a: Jynx
+|-sidestart|p2: melninja|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Tri-Tip Dagger|38/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729630203
+|move|p1a: Tri-Tip Dagger|Protect|p1a: Tri-Tip Dagger
+|-singleturn|p1a: Tri-Tip Dagger|Protect
+|move|p2a: Jynx|Ice Beam|p1a: Tri-Tip Dagger
+|-activate|p1a: Tri-Tip Dagger|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Tri-Tip Dagger|44/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729630221
+|move|p1a: Tri-Tip Dagger|Protect|p1a: Tri-Tip Dagger
+|-singleturn|p1a: Tri-Tip Dagger|Protect
+|move|p2a: Jynx|Ice Beam|p1a: Tri-Tip Dagger
+|-activate|p1a: Tri-Tip Dagger|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Tri-Tip Dagger|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729630228
+|move|p2a: Jynx|Lovely Kiss|p1a: Tri-Tip Dagger
+|-status|p1a: Tri-Tip Dagger|slp|[from] move: Lovely Kiss
+|cant|p1a: Tri-Tip Dagger|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Tri-Tip Dagger|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729630239
+|switch|p1a: Old Guillotine|Tyranitar, F|75/100
+|move|p2a: Jynx|Ice Beam|p1a: Old Guillotine
+|-damage|p1a: Old Guillotine|33/100
+|-status|p1a: Old Guillotine|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Old Guillotine|39/100 frz|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Skittle_Skity|ouch
+|c|☆melninja|mb
+|c|☆Skittle_Skity|rng is not too kind lol
+|c|☆melninja|yeah
+|
+|t:|1729630266
+|move|p2a: Jynx|Ice Beam|p1a: Old Guillotine
+|-damage|p1a: Old Guillotine|2/100 frz
+|cant|p1a: Old Guillotine|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|-heal|p1a: Old Guillotine|8/100 frz|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆melninja|does not matter that much anyway
+|
+|t:|1729630278
+|move|p2a: Jynx|Ice Beam|p1a: Old Guillotine
+|-damage|p1a: Old Guillotine|0 fnt
+|faint|p1a: Old Guillotine
+|
+|t:|1729630288
+|switch|p1a: Atg Missile Mk. 1|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jynx|20/100|[from] Sandstorm
+|-heal|p2a: Jynx|26/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729630302
+|switch|p2a: Dugtrio|Dugtrio, F, shiny|29/100
+|-damage|p2a: Dugtrio|16/100|[from] Spikes
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1729630309
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100|[from] Sandstorm
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Skittle_Skity has 270 seconds left.
+|
+|t:|1729630344
+|switch|p1a: Repulsion Armor|Swampert, M|82/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100|[from] Sandstorm
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729630349
+|move|p2a: Suicune|Surf|p1a: Repulsion Armor
+|-damage|p1a: Repulsion Armor|49/100
+|move|p1a: Repulsion Armor|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|82/100 tox|[from] psn
+|-heal|p1a: Repulsion Armor|55/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729630355
+|move|p1a: Repulsion Armor|Protect|p1a: Repulsion Armor
+|-singleturn|p1a: Repulsion Armor|Protect
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|76/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|69/100 tox|[from] psn
+|-heal|p1a: Repulsion Armor|61/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729630361
+|switch|p1a: Tri-Tip Dagger|Skarmory, F|56/100 slp
+|move|p2a: Suicune|Surf|p1a: Tri-Tip Dagger
+|-crit|p1a: Tri-Tip Dagger
+|-damage|p1a: Tri-Tip Dagger|0 fnt
+|faint|p1a: Tri-Tip Dagger
+|
+|t:|1729630369
+|switch|p1a: Repulsion Armor|Swampert, M|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|63/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|51/100 tox|[from] psn
+|-heal|p1a: Repulsion Armor|67/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729630383
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Repulsion Armor|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|96/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|89/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|96/100 slp|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729630404
+|switch|p1a: Atg Missile Mk. 1|Aerodactyl, M|100/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|89/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729630419
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|65/100 slp
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|59/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729630423
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|37/100 slp
+|-curestatus|p2a: Suicune|slp|[msg]
+|cant|p2a: Suicune|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|31/100|[from] Sandstorm
+|-heal|p2a: Suicune|37/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729630429
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|10/100
+|cant|p2a: Suicune|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|4/100|[from] Sandstorm
+|-heal|p2a: Suicune|10/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆Skittle_Skity|welp
+|c|☆melninja|ouch
+|c|☆Skittle_Skity|rng smiles back at me lol
+|c|☆melninja|yeah
+|c|☆melninja|those ones mattered a lot lol
+|
+|t:|1729630454
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1729630456
+|switch|p2a: Mirror B|Ludicolo, M, shiny|94/100
+|-damage|p2a: Mirror B|81/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mirror B|75/100|[from] Sandstorm
+|-heal|p2a: Mirror B|81/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729630479
+|switch|p1a: Repulsion Armor|Swampert, M|73/100
+|move|p2a: Mirror B|Rain Dance|p2a: Mirror B
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mirror B|88/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|80/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729630488
+|switch|p2a: Gengar|Gengar, M|44/100
+|move|p1a: Repulsion Armor|Toxic|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gengar|50/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|86/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729630495
+|move|p1a: Repulsion Armor|Protect|p1a: Repulsion Armor
+|-singleturn|p1a: Repulsion Armor|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Repulsion Armor
+|-activate|p1a: Repulsion Armor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gengar|56/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|92/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729630498
+|move|p2a: Gengar|Will-O-Wisp|p1a: Repulsion Armor|[miss]
+|-miss|p2a: Gengar|p1a: Repulsion Armor
+|move|p1a: Repulsion Armor|Surf|p2a: Gengar
+|-damage|p2a: Gengar|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|98/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729630508
+|move|p2a: Gengar|Ice Punch|p1a: Repulsion Armor
+|-crit|p1a: Repulsion Armor
+|-damage|p1a: Repulsion Armor|61/100
+|move|p1a: Repulsion Armor|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1729630517
+|switch|p2a: Jynx|Jynx, F|26/100
+|-damage|p2a: Jynx|13/100|[from] Spikes
+|
+|-weather|none
+|-heal|p2a: Jynx|19/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|67/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729630523
+|move|p2a: Jynx|Lovely Kiss|p1a: Repulsion Armor
+|-status|p1a: Repulsion Armor|slp|[from] move: Lovely Kiss
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|25/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729630526
+|move|p2a: Jynx|Calm Mind|p2a: Jynx
+|-boost|p2a: Jynx|spa|1
+|-boost|p2a: Jynx|spd|1
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|31/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729630534
+|move|p2a: Jynx|Substitute|p2a: Jynx
+|-start|p2a: Jynx|Substitute
+|-damage|p2a: Jynx|6/100
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|12/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729630537
+|move|p2a: Jynx|Calm Mind|p2a: Jynx
+|-boost|p2a: Jynx|spa|1
+|-boost|p2a: Jynx|spd|1
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|18/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729630544
+|move|p2a: Jynx|Ice Beam|p1a: Repulsion Armor
+|-damage|p1a: Repulsion Armor|7/100 slp
+|-curestatus|p1a: Repulsion Armor|slp|[msg]
+|move|p1a: Repulsion Armor|Surf|p2a: Jynx
+|-end|p2a: Jynx|Substitute
+|
+|-heal|p2a: Jynx|24/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|14/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729630566
+|move|p2a: Jynx|Lovely Kiss|p1a: Repulsion Armor
+|-status|p1a: Repulsion Armor|slp|[from] move: Lovely Kiss
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|30/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|20/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729630574
+|move|p2a: Jynx|Calm Mind|p2a: Jynx
+|-boost|p2a: Jynx|spa|1
+|-boost|p2a: Jynx|spd|1
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|36/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|26/100 slp|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729630576
+|move|p2a: Jynx|Substitute|p2a: Jynx
+|-start|p2a: Jynx|Substitute
+|-damage|p2a: Jynx|11/100
+|cant|p1a: Repulsion Armor|slp
+|
+|-heal|p2a: Jynx|17/100|[from] item: Leftovers
+|-heal|p1a: Repulsion Armor|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729630579
+|move|p2a: Jynx|Ice Beam|p1a: Repulsion Armor
+|-damage|p1a: Repulsion Armor|0 fnt
+|faint|p1a: Repulsion Armor
+|c|☆Skittle_Skity|gg
+|c|☆melninja|gg
+|
+|t:|1729630586
+|switch|p1a: Chance Doll|Claydol|100/100
+|
+|-heal|p2a: Jynx|23/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|c|☆melninja|unfortunate sleep
+|
+|t:|1729630590
+|move|p2a: Jynx|Ice Beam|p1a: Chance Doll
+|-supereffective|p1a: Chance Doll
+|-damage|p1a: Chance Doll|0 fnt
+|faint|p1a: Chance Doll
+|
+|t:|1729630592
+|switch|p1a: Atg Missile Mk. 1|Aerodactyl, M|100/100
+|
+|-heal|p2a: Jynx|29/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729630596
+|move|p1a: Atg Missile Mk. 1|Rock Slide|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-end|p2a: Jynx|Substitute
+|move|p2a: Jynx|Ice Beam|p1a: Atg Missile Mk. 1
+|-supereffective|p1a: Atg Missile Mk. 1
+|-damage|p1a: Atg Missile Mk. 1|0 fnt
+|faint|p1a: Atg Missile Mk. 1
+|
+|win|melninja
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801262">
+{"id":"smogtours-gen3ou-801262","format":"[Gen 3] OU","players":["Skittle_Skity","melninja"],"uploadtime":1729630596,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

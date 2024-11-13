@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: pkLeech vs. Wonderful Whiscash - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between pkLeech and Wonderful Whiscash! Format: [Gen 3] OU; Date: Oct 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794315">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727982209
+|gametype|singles
+|player|p1|pkLeech|pokemonbreeder-gen4|
+|player|p2|Wonderful Whiscash|fisherman|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727982209
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|pkLeech has 270 seconds left.
+|c|☆pkLeech|hf
+|
+|t:|1727982250
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Tyranitar
+|-damage|p2a: Tyranitar|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|Wonderful Whiscash has 270 seconds left.
+|
+|t:|1727982303
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1727982328
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|58/100
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1727982336
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Jirachi|[miss]
+|-miss|p2a: Aerodactyl|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|inactive|Wonderful Whiscash has 270 seconds left.
+|inactive|Wonderful Whiscash has 240 seconds left.
+|
+|t:|1727982374
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Jirachi|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|pkLeech has 270 seconds left.
+|
+|t:|1727982417
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Thunder Wave|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1727982429
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|inactive|Wonderful Whiscash has 240 seconds left.
+|
+|t:|1727982442
+|switch|p2a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1727982451
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|pkLeech has 270 seconds left.
+|inactive|Wonderful Whiscash has 240 seconds left.
+|
+|t:|1727982508
+|move|p2a: Swampert|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100
+|move|p1a: Zapdos|Roar|p2a: Swampert
+|drag|p2a: Smeargle|Smeargle, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|95/100|[from] Sandstorm
+|-damage|p1a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Zapdos|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|pkLeech has 240 seconds left.
+|inactive|Wonderful Whiscash has 210 seconds left.
+|inactive|Wonderful Whiscash has 180 seconds left.
+|
+|t:|1727982560
+|switch|p2a: Zapdos|Zapdos|82/100 tox
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|76/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|pkLeech has 240 seconds left.
+|inactive|Wonderful Whiscash has 180 seconds left.
+|
+|t:|1727982585
+|switch|p2a: Swampert|Swampert, M|76/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1727982598
+|move|p2a: Swampert|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|41/100
+|move|p1a: Tyranitar|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-enditem|p2a: Swampert|Salac Berry|[eat]
+|-boost|p2a: Swampert|spe|1|[from] item: Salac Berry
+|-heal|p1a: Tyranitar|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|pkLeech has 210 seconds left.
+|
+|t:|1727982639
+|switch|p1a: Zapdos|Zapdos|67/100
+|move|p2a: Swampert|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|9/100|[from] Sandstorm
+|-heal|p1a: Zapdos|16/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Wonderful Whiscash has 180 seconds left.
+|
+|t:|1727982650
+|move|p2a: Swampert|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1727982653
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|inactive|pkLeech has 180 seconds left.
+|inactive|pkLeech has 150 seconds left.
+|
+|t:|1727982722
+|move|p2a: Swampert|Endeavor|p1a: Jirachi
+|-damage|p1a: Jirachi|20/100
+|move|p1a: Jirachi|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Swampert|18/100 tox|[from] psn
+|-heal|p1a: Jirachi|26/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727982737
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Swampert|Hydro Pump|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Swampert|5/100 tox|[from] psn
+|-heal|p1a: Jirachi|32/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|pkLeech has 150 seconds left.
+|inactive|pkLeech has 120 seconds left.
+|
+|t:|1727982799
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Hydro Pump|p1a: Salamence|[miss]
+|-miss|p2a: Swampert|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Swampert|0 fnt|[from] psn
+|faint|p2a: Swampert
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1727982811
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|turn|18
+|inactive|pkLeech has 90 seconds left.
+|
+|t:|1727982834
+|switch|p1a: Tyranitar|Tyranitar, M|47/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|12/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Wonderful Whiscash has 210 seconds left.
+|inactive|pkLeech has 90 seconds left.
+|
+|t:|1727982853
+|switch|p1a: Jirachi|Jirachi|32/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|24/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|pkLeech has 90 seconds left.
+|inactive|Wonderful Whiscash has 210 seconds left.
+|
+|t:|1727982870
+|switch|p2a: Zapdos|Zapdos|76/100 tox
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|70/100 tox|[from] psn
+|-heal|p1a: Jirachi|30/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Wonderful Whiscash has 210 seconds left.
+|
+|t:|1727982878
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|inactive|Wonderful Whiscash has 210 seconds left.
+|inactive|Wonderful Whiscash has 180 seconds left.
+|
+|t:|1727982928
+|switch|p2a: Tyranitar|Tyranitar, F|72/100|[from] Baton Pass
+|
+|-heal|p1a: Jirachi|80/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727982936
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|inactive|Wonderful Whiscash has 180 seconds left.
+|inactive|Wonderful Whiscash has 150 seconds left.
+|
+|t:|1727982998
+|move|p2a: Tyranitar|Double-Edge|p1a: Flygon
+|-damage|p1a: Flygon|46/100
+|-damage|p2a: Tyranitar|53/100|[from] Recoil|[of] p1a: Flygon
+|move|p1a: Flygon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983011
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|52/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|pkLeech has 120 seconds left.
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983035
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Double-Edge|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|58/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727983042
+|switch|p1a: Jirachi|Jirachi|86/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983063
+|switch|p2a: Smeargle|Smeargle, F|95/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|89/100|[from] Sandstorm
+|-heal|p1a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1727983069
+|switch|p1a: Tyranitar|Tyranitar, M|12/100
+|move|p2a: Smeargle|Spikes|p1a: Tyranitar
+|-sidestart|p1: pkLeech|Spikes
+|
+|-heal|p1a: Tyranitar|62/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|83/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1727983088
+|move|p2a: Smeargle|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|45/100
+|faint|p2a: Smeargle
+|
+|t:|1727983104
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1727983126
+|move|p2a: Metagross|Meteor Mash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|inactive|pkLeech has 120 seconds left.
+|
+|t:|1727983162
+|switch|p1a: Jirachi|Jirachi|83/100
+|-damage|p1a: Jirachi|71/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1727983173
+|move|p1a: Jirachi|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|58/100
+|move|p2a: Metagross|Meteor Mash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1727983185
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|36/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1727983206
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Aerodactyl|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1727983215
+|move|p2a: Aerodactyl|Hidden Power|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1727983221
+|switch|p2a: Zapdos|Zapdos|70/100 tox
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|78/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|64/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|64/100 tox|[from] psn
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1727983232
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Thunder Wave|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|58/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|52/100 tox|[from] psn
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|pkLeech has 150 seconds left.
+|
+|t:|1727983250
+|switch|p1a: Flygon|Flygon, F|58/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1727983255
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|65/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1727983263
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Double-Edge|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|71/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727983272
+|switch|p1a: Jirachi|Jirachi|90/100
+|-damage|p1a: Jirachi|78/100|[from] Spikes
+|move|p2a: Aerodactyl|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983289
+|switch|p2a: Zapdos|Zapdos|52/100 tox
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|46/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|46/100 tox|[from] psn
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1727983297
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1727983301
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100|[from] Baton Pass
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|inactive|pkLeech has 180 seconds left.
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983325
+|switch|p1a: Skarmory|Skarmory, F|64/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983332
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Aerodactyl|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983345
+|switch|p2a: Zapdos|Zapdos|46/100 tox
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|40/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|40/100 tox|[from] psn
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|pkLeech has 180 seconds left.
+|
+|t:|1727983354
+|switch|p1a: Flygon|Flygon, F|71/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Flygon
+|-immune|p1a: Flygon
+|
+|-heal|p1a: Flygon|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|34/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|40/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|28/100 tox|[from] psn
+|upkeep
+|turn|45
+|inactive|pkLeech has 180 seconds left.
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983370
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Zapdos|Hidden Power|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|22/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|10/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|pkLeech has 180 seconds left.
+|
+|t:|1727983381
+|switch|p1a: Skarmory|Skarmory, F|32/100
+|move|p2a: Zapdos|Hidden Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|4/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|0 fnt|[from] psn
+|faint|p2a: Zapdos
+|-heal|p1a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983392
+|switch|p2a: Metagross|Metagross|58/100
+|turn|47
+|inactive|Wonderful Whiscash has 120 seconds left.
+|inactive|pkLeech has 180 seconds left.
+|
+|t:|1727983417
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1727983428
+|switch|p1a: Jirachi|Jirachi|84/100
+|-damage|p1a: Jirachi|72/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1727983434
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|pkLeech has 180 seconds left.
+|inactive|Wonderful Whiscash has 120 seconds left.
+|
+|t:|1727983457
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1727983467
+|switch|p2a: Metagross|Metagross|58/100
+|move|p1a: Jirachi|Toxic|p2a: Metagross
+|-immune|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1727983474
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Metagross|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1727983490
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|53
+|
+|t:|1727983499
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Double-Edge|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|54
+|
+|t:|1727983505
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Aerodactyl|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1727983513
+|switch|p2a: Metagross|Metagross|58/100
+|move|p1a: Jirachi|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1727983524
+|move|p1a: Jirachi|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1727983527
+|switch|p2a: Aerodactyl|Aerodactyl, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1727983532
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|88/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|c|☆Wonderful Whiscash|good game man
+|-message|Wonderful Whiscash forfeited.
+|
+|win|pkLeech
+|c|☆pkLeech|good game
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794315">
+{"id":"smogtours-gen3ou-794315","format":"[Gen 3] OU","players":["pkLeech","Wonderful Whiscash"],"uploadtime":1727983547,"views":152,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

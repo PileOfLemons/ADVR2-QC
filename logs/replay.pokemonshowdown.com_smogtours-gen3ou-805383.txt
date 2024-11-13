@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Xurkiyee vs. DancingAlong - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Xurkiyee and DancingAlong! Format: [Gen 3] OU; Date: Nov 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-805383">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731157803
+|gametype|singles
+|player|p1|Xurkiyee|waiter-gen4|
+|player|p2|DancingAlong|jogger|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731157803
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Scotta|Salamence, F|100/100
+|-ability|p2a: Scotta|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆DancingAlong|glhf
+|c|☆Xurkiyee|hf
+|inactive|Xurkiyee has 270 seconds left.
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731157868
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Scotta|Brick Break|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-damage|p2a: Scotta|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731157907
+|switch|p2a: Nonna|Milotic, F|100/100
+|move|p1a: Starmie|Thunder Wave|p2a: Nonna
+|-status|p2a: Nonna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-damage|p2a: Nonna|94/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|-heal|p2a: Nonna|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731157919
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Zanna|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|94/100|[from] Sandstorm
+|-heal|p2a: Zanna|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731157938
+|move|p2a: Zanna|Baton Pass|p2a: Zanna
+|
+|t:|1731157941
+|switch|p2a: Storta|Moltres|100/100|[from] Baton Pass
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Storta|94/100|[from] Sandstorm
+|-heal|p2a: Storta|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Xurkiyee has 270 seconds left.
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1731157978
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Storta|Hidden Power|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|
+|-heal|p1a: Zapdos|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Storta|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Storta|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|DancingAlong has 270 seconds left.
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158025
+|move|p2a: Storta|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|62/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Storta
+|-supereffective|p2a: Storta
+|-damage|p2a: Storta|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Storta|4/100|[from] Sandstorm
+|-damage|p1a: Zapdos|56/100|[from] Sandstorm
+|-heal|p2a: Storta|10/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731158036
+|move|p2a: Storta|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Storta
+|-status|p2a: Storta|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|24/100|[from] Sandstorm
+|-damage|p2a: Storta|4/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|30/100|[from] item: Leftovers
+|-heal|p2a: Storta|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158044
+|move|p1a: Zapdos|Thunderbolt|p2a: Storta
+|-supereffective|p2a: Storta
+|-damage|p2a: Storta|0 fnt
+|faint|p2a: Storta
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158056
+|switch|p2a: Zanna|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|24/100|[from] Sandstorm
+|-heal|p2a: Zanna|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158072
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Zanna|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|94/100|[from] Sandstorm
+|-heal|p2a: Zanna|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158087
+|move|p2a: Zanna|Agility|p2a: Zanna
+|-boost|p2a: Zanna|spe|2
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|94/100|[from] Sandstorm
+|-heal|p2a: Zanna|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731158098
+|move|p2a: Zanna|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|31/100
+|move|p1a: Jirachi|Body Slam|p2a: Zanna
+|-damage|p2a: Zanna|76/100
+|-status|p2a: Zanna|par
+|
+|-heal|p1a: Jirachi|81/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|70/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p2a: Zanna|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731158110
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zanna|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|70/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|53/100|[from] item: Leftovers
+|-heal|p2a: Zanna|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731158128
+|move|p1a: Jirachi|Body Slam|p2a: Zanna
+|-damage|p2a: Zanna|53/100 par
+|move|p2a: Zanna|Baton Pass|p2a: Zanna
+|inactive|DancingAlong has 240 seconds left.
+|
+|t:|1731158146
+|switch|p2a: Aorta|Metagross|100/100|[from] Baton Pass
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1731158153
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Aorta|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731158170
+|move|p2a: Aorta|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Xurkiyee has 270 seconds left.
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731158238
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Aorta|Rock Slide|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1731158246
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Aorta|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731158256
+|move|p2a: Aorta|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|26/100
+|move|p1a: Swampert|Earthquake|p2a: Aorta
+|-supereffective|p2a: Aorta
+|-damage|p2a: Aorta|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Aorta|57/100|[from] item: Leftovers
+|-heal|p1a: Swampert|32/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Xurkiyee has 210 seconds left.
+|
+|t:|1731158295
+|move|p2a: Aorta|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1731158297
+|switch|p1a: Starmie|Starmie|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-heal|p2a: Aorta|63/100|[from] item: Leftovers
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731158304
+|move|p2a: Aorta|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|34/100
+|move|p1a: Starmie|Thunder Wave|p2a: Aorta
+|-status|p2a: Aorta|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|28/100|[from] Sandstorm
+|-heal|p1a: Starmie|34/100|[from] item: Leftovers
+|-heal|p2a: Aorta|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731158315
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|84/100
+|cant|p2a: Aorta|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|78/100|[from] Sandstorm
+|-heal|p1a: Starmie|84/100|[from] item: Leftovers
+|-heal|p2a: Aorta|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731158323
+|move|p1a: Starmie|Surf|p2a: Aorta
+|-damage|p2a: Aorta|39/100 par
+|cant|p2a: Aorta|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|78/100|[from] Sandstorm
+|-heal|p1a: Starmie|84/100|[from] item: Leftovers
+|-heal|p2a: Aorta|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731158329
+|move|p1a: Starmie|Surf|p2a: Aorta
+|-damage|p2a: Aorta|11/100 par
+|cant|p2a: Aorta|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|78/100|[from] Sandstorm
+|-heal|p1a: Starmie|84/100|[from] item: Leftovers
+|-heal|p2a: Aorta|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Xurkiyee|mb
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731158342
+|switch|p2a: Nonna|Milotic, F|100/100 par
+|move|p1a: Starmie|Surf|p2a: Nonna
+|-resisted|p2a: Nonna
+|-damage|p2a: Nonna|89/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|78/100|[from] Sandstorm
+|-damage|p2a: Nonna|82/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|84/100|[from] item: Leftovers
+|-heal|p2a: Nonna|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1731158350
+|move|p1a: Starmie|Surf|p2a: Nonna
+|-resisted|p2a: Nonna
+|-damage|p2a: Nonna|76/100 par
+|move|p2a: Nonna|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Hypnosis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|78/100 slp|[from] Sandstorm
+|-damage|p2a: Nonna|70/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|84/100 slp|[from] item: Leftovers
+|-heal|p2a: Nonna|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731158371
+|-curestatus|p1a: Starmie|slp|[from] ability: Natural Cure
+|switch|p1a: Heracross|Heracross, M|100/100
+|switch|p2a: Aorta|Metagross|17/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|95/100|[from] Sandstorm
+|-heal|p1a: Heracross|100/100|[from] item: Leftovers
+|-heal|p2a: Aorta|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731158383
+|switch|p2a: Scotta|Salamence, F|94/100
+|-ability|p2a: Scotta|Intimidate|boost
+|-unboost|p1a: Heracross|atk|1
+|move|p1a: Heracross|Substitute|p1a: Heracross
+|-start|p1a: Heracross|Substitute
+|-damage|p1a: Heracross|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scotta|88/100|[from] Sandstorm
+|-damage|p1a: Heracross|70/100|[from] Sandstorm
+|-heal|p1a: Heracross|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Xurkiyee has 240 seconds left.
+|
+|t:|1731158390
+|move|p2a: Scotta|Hidden Power|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-end|p1a: Heracross|Substitute
+|move|p1a: Heracross|Rock Slide|p2a: Scotta
+|-supereffective|p2a: Scotta
+|-damage|p2a: Scotta|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scotta|37/100|[from] Sandstorm
+|-damage|p1a: Heracross|70/100|[from] Sandstorm
+|-heal|p1a: Heracross|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1731158400
+|switch|p2a: Aorta|Metagross|23/100 par
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Aorta|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1731158408
+|switch|p2a: Scotta|Salamence, F|37/100
+|-ability|p2a: Scotta|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Earthquake|p2a: Scotta
+|-immune|p2a: Scotta
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scotta|31/100|[from] Sandstorm
+|upkeep
+|turn|31
+|inactive|Xurkiyee has 240 seconds left.
+|inactive|Xurkiyee has 210 seconds left.
+|inactive|DancingAlong has 270 seconds left.
+|inactive|Xurkiyee has 180 seconds left.
+|
+|t:|1731158492
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Scotta|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scotta|25/100|[from] Sandstorm
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1731158502
+|switch|p2a: Zanna|Zapdos|53/100 par
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|46/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Zanna|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1731158514
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|cant|p2a: Zanna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|46/100 par|[from] Sandstorm
+|-heal|p2a: Zanna|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1731158522
+|switch|p2a: Nonna|Milotic, F|76/100 par
+|move|p1a: Tyranitar|Rock Slide|p2a: Nonna|[miss]
+|-miss|p1a: Tyranitar|p2a: Nonna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nonna|70/100 par|[from] Sandstorm
+|-heal|p2a: Nonna|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Xurkiyee has 180 seconds left.
+|
+|t:|1731158545
+|move|p1a: Tyranitar|Rock Slide|p2a: Nonna
+|-damage|p2a: Nonna|51/100 par
+|move|p2a: Nonna|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nonna|45/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|45/100|[from] item: Leftovers
+|-heal|p2a: Nonna|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Xurkiyee has 180 seconds left.
+|inactive|Xurkiyee has 150 seconds left.
+|
+|t:|1731158590
+|move|p1a: Tyranitar|Rock Slide|p2a: Nonna
+|-damage|p2a: Nonna|27/100 par
+|cant|p2a: Nonna|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nonna|21/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|51/100|[from] item: Leftovers
+|-heal|p2a: Nonna|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731158597
+|move|p1a: Tyranitar|Rock Slide|p2a: Nonna
+|-damage|p2a: Nonna|2/100 par
+|cant|p2a: Nonna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nonna|0 fnt|[from] Sandstorm
+|faint|p2a: Nonna
+|-heal|p1a: Tyranitar|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1731158605
+|switch|p2a: Scotta|Salamence, F|25/100
+|-ability|p2a: Scotta|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|38
+|
+|t:|1731158615
+|switch|p1a: Starmie|Starmie|84/100
+|move|p2a: Scotta|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|17/100|[from] Sandstorm
+|-damage|p2a: Scotta|19/100|[from] Sandstorm
+|-heal|p1a: Starmie|23/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1731158633
+|switch|p2a: Aorta|Metagross|29/100 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|67/100|[from] Sandstorm
+|-heal|p1a: Starmie|73/100|[from] item: Leftovers
+|-heal|p2a: Aorta|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1731158644
+|move|p1a: Starmie|Surf|p2a: Aorta
+|-damage|p2a: Aorta|0 fnt
+|faint|p2a: Aorta
+|
+|t:|1731158647
+|switch|p2a: Zanna|Zapdos|53/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|67/100|[from] Sandstorm
+|-damage|p2a: Zanna|46/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|73/100|[from] item: Leftovers
+|-heal|p2a: Zanna|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Xurkiyee has 180 seconds left.
+|
+|t:|1731158662
+|switch|p1a: Jirachi|Jirachi|99/100
+|move|p2a: Zanna|Agility|p2a: Zanna
+|-boost|p2a: Zanna|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|46/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Zanna|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|Xurkiyee has 180 seconds left.
+|
+|t:|1731158670
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zanna|Baton Pass|p2a: Zanna
+|
+|t:|1731158673
+|switch|p2a: Gonna|Tyranitar, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|inactive|Xurkiyee has 180 seconds left.
+|
+|t:|1731158693
+|switch|p1a: Heracross|Heracross, M|76/100
+|move|p2a: Gonna|Fire Blast|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|inactive|Xurkiyee has 150 seconds left.
+|
+|t:|1731158727
+|switch|p1a: Starmie|Starmie|73/100
+|
+|-heal|p1a: Starmie|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|Xurkiyee has 150 seconds left.
+|inactive|Xurkiyee has 120 seconds left.
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1731158780
+|move|p2a: Gonna|Crunch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|17/100
+|move|p1a: Starmie|Thunder Wave|p2a: Gonna
+|-status|p2a: Gonna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|11/100|[from] Sandstorm
+|-heal|p1a: Starmie|17/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1731158786
+|move|p1a: Starmie|Surf|p2a: Gonna
+|-supereffective|p2a: Gonna
+|-damage|p2a: Gonna|39/100 par
+|move|p2a: Gonna|Crunch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1731158793
+|switch|p1a: Zapdos|Zapdos|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|24/100|[from] Sandstorm
+|-heal|p1a: Zapdos|30/100|[from] item: Leftovers
+|-heal|p2a: Gonna|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1731158797
+|move|p1a: Zapdos|Thunderbolt|p2a: Gonna
+|-damage|p2a: Gonna|10/100 par
+|move|p2a: Gonna|Crunch|p1a: Zapdos
+|-damage|p1a: Zapdos|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|0 fnt|[from] Sandstorm
+|faint|p1a: Zapdos
+|-heal|p2a: Gonna|16/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1731158802
+|switch|p1a: Tyranitar|Tyranitar, F|57/100
+|turn|47
+|
+|t:|1731158828
+|switch|p2a: Scotta|Salamence, F|19/100
+|-ability|p2a: Scotta|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Rock Slide|p2a: Scotta
+|-supereffective|p2a: Scotta
+|-damage|p2a: Scotta|0 fnt
+|faint|p2a: Scotta
+|
+|t:|1731158832
+|switch|p2a: Gonna|Tyranitar, M|16/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|63/100|[from] item: Leftovers
+|-heal|p2a: Gonna|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1731158836
+|move|p1a: Tyranitar|Earthquake|p2a: Gonna
+|-supereffective|p2a: Gonna
+|-damage|p2a: Gonna|0 fnt
+|faint|p2a: Gonna
+|
+|t:|1731158838
+|switch|p2a: Zanna|Zapdos|53/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zanna|46/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|70/100|[from] item: Leftovers
+|-heal|p2a: Zanna|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|c|☆DancingAlong|gg
+|
+|t:|1731158843
+|move|p1a: Tyranitar|Rock Slide|p2a: Zanna
+|-supereffective|p2a: Zanna
+|-damage|p2a: Zanna|0 fnt
+|faint|p2a: Zanna
+|
+|win|Xurkiyee
+|c|☆Xurkiyee|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-805383">
+{"id":"smogtours-gen3ou-805383","format":"[Gen 3] OU","players":["Xurkiyee","DancingAlong"],"uploadtime":1731158843,"views":47,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

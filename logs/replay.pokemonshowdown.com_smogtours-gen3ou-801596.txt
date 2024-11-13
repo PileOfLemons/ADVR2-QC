@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: bugcondition vs. yyyyyfyyyyy - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between bugcondition and yyyyyfyyyyy! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801596">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729796400
+|gametype|singles
+|player|p1|bugcondition|clair|
+|player|p2|yyyyyfyyyyy|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729796400
+|start
+|switch|p1a: Jupiter|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆bugcondition|gl hf
+|c|☆yyyyyfyyyyy|glhf
+|
+|t:|1729796412
+|move|p1a: Jupiter|Substitute|p1a: Jupiter
+|-start|p1a: Jupiter|Substitute
+|-damage|p1a: Jupiter|76/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Jupiter|[miss]
+|-miss|p2a: Tyranitar|p1a: Jupiter
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jupiter|69/100|[from] Sandstorm
+|-heal|p1a: Jupiter|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729796423
+|move|p1a: Jupiter|Baton Pass|p1a: Jupiter
+|
+|t:|1729796446
+|switch|p1a: Callisto|Hariyama, F, shiny|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Rock Slide|p1a: Callisto|[miss]
+|-miss|p2a: Tyranitar|p1a: Callisto
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Callisto|94/100|[from] Sandstorm
+|-heal|p1a: Callisto|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729796457
+|switch|p2a: Salamence|Salamence, F|100/100
+|move|p1a: Callisto|Cross Chop|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|69/100|[from] Sandstorm
+|-damage|p1a: Callisto|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|75/100|[from] item: Leftovers
+|-heal|p1a: Callisto|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1729796479
+|switch|p1a: Orcus|Porygon2, shiny|100/100
+|-ability|p1a: Orcus|Intimidate|[from] ability: Trace|[of] p2a: Salamence
+|move|p2a: Salamence|Dragon Claw|p1a: Orcus
+|-crit|p1a: Orcus
+|-damage|p1a: Orcus|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|69/100|[from] Sandstorm
+|-damage|p1a: Orcus|12/100|[from] Sandstorm
+|-heal|p2a: Salamence|75/100|[from] item: Leftovers
+|-heal|p1a: Orcus|18/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1729796503
+|move|p1a: Orcus|Protect|p1a: Orcus
+|-singleturn|p1a: Orcus|Protect
+|move|p2a: Salamence|Dragon Claw|p1a: Orcus
+|-activate|p1a: Orcus|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|69/100|[from] Sandstorm
+|-damage|p1a: Orcus|12/100|[from] Sandstorm
+|-heal|p2a: Salamence|75/100|[from] item: Leftovers
+|-heal|p1a: Orcus|18/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729796522
+|switch|p1a: Ceres|Celebi|100/100
+|move|p2a: Salamence|Dragon Claw|p1a: Ceres
+|-damage|p1a: Ceres|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|62/100|[from] Sandstorm
+|-damage|p2a: Salamence|69/100|[from] Sandstorm
+|-heal|p1a: Ceres|69/100|[from] item: Leftovers
+|-heal|p2a: Salamence|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796547
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Ceres|Leech Seed|p2a: Metagross
+|-start|p2a: Metagross|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|62/100|[from] Sandstorm
+|-heal|p1a: Ceres|69/100|[from] item: Leftovers
+|-damage|p2a: Metagross|88/100|[from] Leech Seed|[of] p1a: Ceres
+|-heal|p1a: Ceres|79/100|[silent]
+|upkeep
+|turn|8
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796563
+|switch|p1a: Orcus|Porygon2, shiny|18/100
+|-ability|p1a: Orcus|Clear Body|[from] ability: Trace|[of] p2a: Metagross
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Orcus|12/100|[from] Sandstorm
+|-heal|p1a: Orcus|18/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796587
+|move|p2a: Tyranitar|Double-Edge|p1a: Orcus
+|-damage|p1a: Orcus|0 fnt
+|-damage|p2a: Tyranitar|94/100|[from] Recoil|[of] p1a: Orcus
+|faint|p1a: Orcus
+|inactive|bugcondition has 210 seconds left.
+|
+|t:|1729796621
+|switch|p1a: Ceres|Celebi|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|73/100|[from] Sandstorm
+|-heal|p1a: Ceres|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|bugcondition has 210 seconds left.
+|inactive|yyyyyfyyyyy has 270 seconds left.
+|inactive|yyyyyfyyyyy has 240 seconds left.
+|
+|t:|1729796685
+|switch|p2a: Metagross|Metagross|88/100
+|move|p1a: Ceres|Leech Seed|p2a: Metagross
+|-start|p2a: Metagross|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|73/100|[from] Sandstorm
+|-heal|p1a: Ceres|79/100|[from] item: Leftovers
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|-damage|p2a: Metagross|82/100|[from] Leech Seed|[of] p1a: Ceres
+|-heal|p1a: Ceres|89/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1729796691
+|move|p1a: Ceres|Baton Pass|p1a: Ceres
+|
+|t:|1729796693
+|switch|p1a: Io|Magneton, shiny|100/100|[from] Baton Pass
+|move|p2a: Metagross|Meteor Mash|p1a: Io
+|-resisted|p1a: Io
+|-damage|p1a: Io|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|88/100|[from] item: Leftovers
+|-damage|p2a: Metagross|76/100|[from] Leech Seed|[of] p1a: Io
+|-heal|p1a: Io|98/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1729796699
+|move|p1a: Io|Reflect|p1a: Io
+|-sidestart|p1: bugcondition|Reflect
+|move|p2a: Metagross|Earthquake|p1a: Io
+|-supereffective|p1a: Io
+|-damage|p1a: Io|0 fnt
+|faint|p1a: Io
+|
+|t:|1729796704
+|switch|p1a: Psyche|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|-damage|p2a: Metagross|70/100|[from] Leech Seed|[of] p1a: Psyche
+|upkeep
+|turn|13
+|inactive|yyyyyfyyyyy has 270 seconds left.
+|
+|t:|1729796713
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Psyche|Calm Mind|p1a: Psyche
+|-boost|p1a: Psyche|spa|1
+|-boost|p1a: Psyche|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1729796717
+|move|p1a: Psyche|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Roar|p1a: Psyche
+|drag|p1a: Ceres|Celebi|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|83/100|[from] Sandstorm
+|-heal|p1a: Ceres|89/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|43/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796742
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Ceres|Leech Seed|p2a: Celebi
+|-immune|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|83/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Ceres|89/100|[from] item: Leftovers
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729796745
+|move|p1a: Ceres|Calm Mind|p1a: Ceres
+|-boost|p1a: Ceres|spa|1
+|-boost|p1a: Ceres|spd|1
+|move|p2a: Celebi|Hidden Power|p1a: Ceres
+|-supereffective|p1a: Ceres
+|-damage|p1a: Ceres|66/100
+|
+|-sideend|p1: bugcondition|Reflect
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|60/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Ceres|66/100|[from] item: Leftovers
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729796751
+|move|p1a: Ceres|Baton Pass|p1a: Ceres
+|
+|t:|1729796763
+|switch|p1a: Psyche|Jirachi|100/100|[from] Baton Pass
+|move|p2a: Celebi|Hidden Power|p1a: Psyche
+|-supereffective|p1a: Psyche
+|-damage|p1a: Psyche|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Psyche|81/100|[from] item: Leftovers
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729796768
+|move|p1a: Psyche|Calm Mind|p1a: Psyche
+|-boost|p1a: Psyche|spa|1
+|-boost|p1a: Psyche|spd|1
+|move|p2a: Celebi|Leech Seed|p1a: Psyche
+|-start|p1a: Psyche|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Psyche|88/100|[from] item: Leftovers
+|-damage|p1a: Psyche|75/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1729796787
+|move|p1a: Psyche|Calm Mind|p1a: Psyche
+|-boost|p1a: Psyche|spa|1
+|-boost|p1a: Psyche|spd|1
+|move|p2a: Celebi|Hidden Power|p1a: Psyche
+|-supereffective|p1a: Psyche
+|-damage|p1a: Psyche|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Psyche|66/100|[from] item: Leftovers
+|-damage|p1a: Psyche|53/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1729796789
+|move|p1a: Psyche|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|16/100
+|move|p2a: Celebi|Hidden Power|p1a: Psyche
+|-supereffective|p1a: Psyche
+|-damage|p1a: Psyche|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|10/100|[from] Sandstorm
+|-heal|p1a: Psyche|44/100|[from] item: Leftovers
+|-damage|p1a: Psyche|31/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|23/100|[silent]
+|-heal|p2a: Celebi|29/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729796796
+|move|p1a: Psyche|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1729796824
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Psyche|38/100|[from] item: Leftovers
+|-damage|p1a: Psyche|25/100|[from] Leech Seed|[of] p2a: Starmie
+|upkeep
+|turn|22
+|
+|t:|1729796840
+|switch|p1a: Jupiter|Zapdos|76/100
+|move|p2a: Starmie|Hydro Pump|p1a: Jupiter
+|-damage|p1a: Jupiter|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Jupiter|7/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Jupiter|13/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729796852
+|switch|p1a: Callisto|Hariyama, F, shiny|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Callisto
+|-damage|p1a: Callisto|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Callisto|73/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Callisto|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729796864
+|switch|p2a: Metagross|Metagross|70/100
+|move|p1a: Callisto|Hidden Power|p2a: Metagross
+|-damage|p2a: Metagross|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Callisto|73/100|[from] Sandstorm
+|-heal|p2a: Metagross|60/100|[from] item: Leftovers
+|-heal|p1a: Callisto|79/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1729796902
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|move|p1a: Callisto|Rest|p1a: Callisto
+|-status|p1a: Callisto|slp|[from] move: Rest
+|-heal|p1a: Callisto|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Callisto|94/100 slp|[from] Sandstorm
+|-heal|p2a: Metagross|66/100|[from] item: Leftovers
+|-heal|p1a: Callisto|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729796905
+|move|p2a: Metagross|Meteor Mash|p1a: Callisto
+|-damage|p1a: Callisto|48/100 slp
+|-boost|p2a: Metagross|atk|1
+|cant|p1a: Callisto|slp
+|move|p1a: Callisto|Sleep Talk|p1a: Callisto
+|move|p1a: Callisto|Cross Chop|p2a: Metagross|[from]Sleep Talk
+|-damage|p2a: Metagross|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Callisto|42/100 slp|[from] Sandstorm
+|-heal|p2a: Metagross|26/100|[from] item: Leftovers
+|-heal|p1a: Callisto|48/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1729796941
+|move|p2a: Metagross|Earthquake|p1a: Callisto
+|-damage|p1a: Callisto|0 fnt
+|faint|p1a: Callisto
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796965
+|switch|p1a: Psyche|Jirachi|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|32/100|[from] item: Leftovers
+|-heal|p1a: Psyche|31/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1729796993
+|switch|p1a: Jupiter|Zapdos|13/100
+|move|p2a: Metagross|Earthquake|p1a: Jupiter
+|-immune|p1a: Jupiter
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jupiter|7/100|[from] Sandstorm
+|-heal|p2a: Metagross|38/100|[from] item: Leftovers
+|-heal|p1a: Jupiter|13/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729796997
+|move|p2a: Metagross|Rock Slide|p1a: Jupiter
+|-supereffective|p1a: Jupiter
+|-damage|p1a: Jupiter|0 fnt
+|faint|p1a: Jupiter
+|
+|t:|1729796999
+|switch|p1a: Psyche|Jirachi|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|45/100|[from] item: Leftovers
+|-heal|p1a: Psyche|38/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729797002
+|move|p2a: Metagross|Earthquake|p1a: Psyche
+|-supereffective|p1a: Psyche
+|-damage|p1a: Psyche|0 fnt
+|faint|p1a: Psyche
+|
+|t:|1729797003
+|switch|p1a: Ceres|Celebi|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceres|60/100|[from] Sandstorm
+|-heal|p2a: Metagross|51/100|[from] item: Leftovers
+|-heal|p1a: Ceres|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729797009
+|move|p2a: Metagross|Meteor Mash|p1a: Ceres
+|-damage|p1a: Ceres|0 fnt
+|-boost|p2a: Metagross|atk|1
+|faint|p1a: Ceres
+|
+|win|yyyyyfyyyyy
+|c|☆bugcondition|gg wp
+|c|☆yyyyyfyyyyy|gg
+|c|☆yyyyyfyyyyy|wanna challenge or i can
+|c|☆bugcondition|you can challenge
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801596">
+{"id":"smogtours-gen3ou-801596","format":"[Gen 3] OU","players":["bugcondition","yyyyyfyyyyy"],"uploadtime":1729797009,"views":86,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

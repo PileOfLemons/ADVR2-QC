@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: sbibling vs. Svejk97 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between sbibling and Svejk97! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798784">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728941749
+|gametype|singles
+|player|p1|sbibling|266|
+|player|p2|Svejk97|hugh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728941749
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Dirty Dance Dragon|Salamence, F, shiny|100/100
+|-ability|p2a: Dirty Dance Dragon|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|turn|1
+|inactive|sbibling has 270 seconds left.
+|c|☆Svejk97|Gl
+|c|☆sbibling|hf
+|inactive|sbibling has 240 seconds left.
+|
+|t:|1728941831
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|move|p2a: Dirty Dance Dragon|Hidden Power|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|54/100
+|
+|upkeep
+|turn|2
+|
+|t:|1728941849
+|switch|p2a: Beetlejuice|Scizor, M|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Beetlejuice
+|-damage|p2a: Beetlejuice|55/100
+|
+|-heal|p2a: Beetlejuice|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728941872
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: 👀|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1728941885
+|move|p2a: 👀|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|move|p1a: Tyranitar|Roar|p2a: 👀
+|drag|p2a: Minato Namikaze|Jolteon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|95/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1728941896
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Minato Namikaze|Substitute|p2a: Minato Namikaze
+|-start|p2a: Minato Namikaze|Substitute
+|-damage|p2a: Minato Namikaze|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|94/100|[from] Sandstorm
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728941916
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|76/100
+|move|p2a: Minato Namikaze|Baton Pass|p2a: Minato Namikaze
+|
+|t:|1728941928
+|switch|p2a: 👀|Skarmory, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|69/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728941940
+|move|p1a: Jolteon|Thunderbolt|p2a: 👀
+|-supereffective|p2a: 👀
+|-end|p2a: 👀|Substitute
+|move|p2a: 👀|Roar|p1a: Jolteon
+|drag|p1a: Forretress|Forretress, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728941962
+|move|p2a: 👀|Spikes|p1a: Forretress
+|-sidestart|p1: sbibling|Spikes
+|move|p1a: Forretress|Spikes|p2a: 👀
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728941979
+|switch|p2a: Send a Blissey|Starmie|100/100
+|-damage|p2a: Send a Blissey|88/100|[from] Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Send a Blissey
+|-damage|p2a: Send a Blissey|81/100
+|-sideend|p1: sbibling|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Send a Blissey|75/100|[from] Sandstorm
+|-heal|p2a: Send a Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728941998
+|move|p2a: Send a Blissey|Surf|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|21/100
+|move|p1a: Forretress|Spikes|p2a: Send a Blissey
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Send a Blissey|75/100|[from] Sandstorm
+|-heal|p2a: Send a Blissey|81/100|[from] item: Leftovers
+|-heal|p1a: Forretress|27/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728942008
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Send a Blissey|Rapid Spin|p1a: Venusaur
+|-damage|p1a: Venusaur|98/100
+|-sideend|p2: Svejk97|Spikes|[from] move: Rapid Spin|[of] p2a: Send a Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Send a Blissey|75/100|[from] Sandstorm
+|-damage|p1a: Venusaur|92/100|[from] Sandstorm
+|-heal|p2a: Send a Blissey|81/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Svejk97 has 270 seconds left.
+|c|☆Svejk97|Hey thats my fav team 😂
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728942046
+|move|p2a: Send a Blissey|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|38/100
+|move|p1a: Venusaur|Leech Seed|p2a: Send a Blissey
+|-start|p2a: Send a Blissey|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Send a Blissey|75/100|[from] Sandstorm
+|-damage|p1a: Venusaur|32/100|[from] Sandstorm
+|-heal|p2a: Send a Blissey|81/100|[from] item: Leftovers
+|-damage|p2a: Send a Blissey|69/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|40/100|[silent]
+|-heal|p1a: Venusaur|46/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728942075
+|switch|p2a: 👀|Skarmory, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1728942085
+|move|p2a: 👀|Protect|p2a: 👀
+|-singleturn|p2a: 👀|Protect
+|move|p1a: Tyranitar|Flamethrower|p2a: 👀
+|-activate|p2a: 👀|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1728942098
+|move|p2a: 👀|Spikes|p1a: Tyranitar
+|-sidestart|p1: sbibling|Spikes
+|move|p1a: Tyranitar|Ice Beam|p2a: 👀
+|-damage|p2a: 👀|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👀|71/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1728942108
+|switch|p1a: Forretress|Forretress, M|27/100
+|-damage|p1a: Forretress|14/100|[from] Spikes
+|move|p2a: 👀|Protect||[still]
+|-fail|p2a: 👀
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👀|78/100|[from] item: Leftovers
+|-heal|p1a: Forretress|21/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728942118
+|move|p1a: Forretress|Spikes|p2a: 👀
+|-sidestart|p2: Svejk97|Spikes
+|move|p2a: 👀|Roar|p1a: Forretress
+|drag|p1a: Venusaur|Venusaur, M|46/100
+|-damage|p1a: Venusaur|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|28/100|[from] Sandstorm
+|-heal|p1a: Venusaur|34/100|[from] item: Leftovers
+|-heal|p2a: 👀|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728942129
+|move|p1a: Venusaur|Sleep Powder|p2a: 👀
+|-status|p2a: 👀|slp|[from] move: Sleep Powder
+|cant|p2a: 👀|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|28/100|[from] Sandstorm
+|-heal|p1a: Venusaur|34/100|[from] item: Leftovers
+|-heal|p2a: 👀|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728942146
+|switch|p2a: Send a Blissey|Starmie|69/100
+|-damage|p2a: Send a Blissey|57/100|[from] Spikes
+|move|p1a: Venusaur|Leech Seed|p2a: Send a Blissey|[miss]
+|-miss|p1a: Venusaur|p2a: Send a Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Send a Blissey|51/100|[from] Sandstorm
+|-damage|p1a: Venusaur|28/100|[from] Sandstorm
+|-heal|p2a: Send a Blissey|57/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|34/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728942160
+|switch|p1a: Tyranitar|Tyranitar, M|76/100 tox
+|-damage|p1a: Tyranitar|63/100 tox|[from] Spikes
+|move|p2a: Send a Blissey|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728942166
+|switch|p1a: Jolteon|Jolteon, M|76/100
+|-damage|p1a: Jolteon|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|57/100|[from] Sandstorm
+|-damage|p2a: Send a Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Jolteon|63/100|[from] item: Leftovers
+|-heal|p2a: Send a Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728942178
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|38/100
+|move|p2a: Send a Blissey|Rapid Spin|p1a: Jolteon
+|-activate|p1a: Jolteon|Substitute|[damage]
+|-sideend|p2: Svejk97|Spikes|[from] move: Rapid Spin|[of] p2a: Send a Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|32/100|[from] Sandstorm
+|-damage|p2a: Send a Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Jolteon|38/100|[from] item: Leftovers
+|-heal|p2a: Send a Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728942193
+|move|p1a: Jolteon|Hidden Power|p2a: Send a Blissey
+|-supereffective|p2a: Send a Blissey
+|-damage|p2a: Send a Blissey|0 fnt
+|faint|p2a: Send a Blissey
+|
+|t:|1728942205
+|switch|p2a: Minato Namikaze|Jolteon, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|32/100|[from] Sandstorm
+|-damage|p2a: Minato Namikaze|70/100|[from] Sandstorm
+|-heal|p1a: Jolteon|38/100|[from] item: Leftovers
+|-heal|p2a: Minato Namikaze|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728942213
+|move|p1a: Jolteon|Hidden Power|p2a: Minato Namikaze
+|-damage|p2a: Minato Namikaze|48/100
+|move|p2a: Minato Namikaze|Hidden Power|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|32/100|[from] Sandstorm
+|-damage|p2a: Minato Namikaze|42/100|[from] Sandstorm
+|-heal|p1a: Jolteon|38/100|[from] item: Leftovers
+|-heal|p2a: Minato Namikaze|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728942236
+|switch|p1a: Venusaur|Venusaur, M|34/100
+|-damage|p1a: Venusaur|22/100|[from] Spikes
+|move|p2a: Minato Namikaze|Hidden Power|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|42/100|[from] Sandstorm
+|-damage|p1a: Venusaur|11/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|48/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|18/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728942249
+|move|p2a: Minato Namikaze|Substitute|p2a: Minato Namikaze
+|-start|p2a: Minato Namikaze|Substitute
+|-damage|p2a: Minato Namikaze|23/100
+|move|p1a: Venusaur|Leech Seed||[still]
+|-fail|p1a: Venusaur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Minato Namikaze|17/100|[from] Sandstorm
+|-damage|p1a: Venusaur|11/100|[from] Sandstorm
+|-heal|p2a: Minato Namikaze|23/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|18/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728942259
+|move|p2a: Minato Namikaze|Baton Pass|p2a: Minato Namikaze
+|
+|t:|1728942262
+|switch|p2a: Beetlejuice|Scizor, M|62/100|[from] Baton Pass
+|move|p1a: Venusaur|Sludge Bomb|p2a: Beetlejuice
+|-immune|p2a: Beetlejuice
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|11/100|[from] Sandstorm
+|-heal|p1a: Venusaur|18/100|[from] item: Leftovers
+|-heal|p2a: Beetlejuice|68/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728942274
+|move|p2a: Beetlejuice|Agility|p2a: Beetlejuice
+|-boost|p2a: Beetlejuice|spe|2
+|move|p1a: Venusaur|Roar|p2a: Beetlejuice
+|drag|p2a: Ma boy Dom Toretto|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|11/100|[from] Sandstorm
+|-heal|p1a: Venusaur|18/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆Svejk97|Damn doubld roar 😄
+|inactive|Svejk97 has 210 seconds left.
+|c|☆Svejk97|nice
+|
+|t:|1728942303
+|move|p2a: Ma boy Dom Toretto|Substitute|p2a: Ma boy Dom Toretto
+|-start|p2a: Ma boy Dom Toretto|Substitute
+|-damage|p2a: Ma boy Dom Toretto|76/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Ma boy Dom Toretto
+|-resisted|p2a: Ma boy Dom Toretto
+|-activate|p2a: Ma boy Dom Toretto|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|11/100|[from] Sandstorm
+|-heal|p1a: Venusaur|18/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Svejk97 has 210 seconds left.
+|
+|t:|1728942313
+|move|p2a: Ma boy Dom Toretto|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|t:|1728942318
+|switch|p1a: Jolteon|Jolteon, M|38/100
+|-damage|p1a: Jolteon|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|20/100|[from] Sandstorm
+|-heal|p1a: Jolteon|26/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728942326
+|move|p2a: Ma boy Dom Toretto|Ancient Power|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-boost|p2a: Ma boy Dom Toretto|atk|1
+|-boost|p2a: Ma boy Dom Toretto|def|1
+|-boost|p2a: Ma boy Dom Toretto|spa|1
+|-boost|p2a: Ma boy Dom Toretto|spd|1
+|-boost|p2a: Ma boy Dom Toretto|spe|1
+|faint|p1a: Jolteon
+|-message|sbibling forfeited.
+|
+|win|Svejk97
+|c|☆sbibling|gg
+|c|☆Svejk97|gg
+|c|☆sbibling|send next one when ur ready
+|player|p1|
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798784">
+{"id":"smogtours-gen3ou-798784","format":"[Gen 3] OU","players":["sbibling","Svejk97"],"uploadtime":1728942333,"views":113,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

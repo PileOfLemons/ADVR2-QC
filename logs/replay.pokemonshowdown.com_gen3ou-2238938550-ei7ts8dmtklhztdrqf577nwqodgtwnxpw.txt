@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Bhol vs. EG Zelph - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Bhol and EG Zelph! Format: [Gen 3] OU; Date: Nov 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2238938550-ei7ts8dmtklhztdrqf577nwqodgtwnxpw">
+|j|☆Bhol
+|j|☆EG Zelph
+|t:|1730941755
+|gametype|singles
+|player|p1|Bhol|sabrina|
+|player|p2|EG Zelph|rocketgruntf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730941755
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EG Zelph)
+|
+|t:|1730941769
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1730941778
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730941786
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|-heal|p1a: Swampert|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730941794
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Skarmory|Spikes|p1a: Zapdos
+|-sidestart|p1: Bhol|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730941806
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730941810
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-damage|p2a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730941815
+|switch|p2a: Skarmory|Skarmory, F|74/100
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1730941825
+|switch|p1a: Machamp|Machamp, F, shiny|100/100|[from] Baton Pass
+|-damage|p1a: Machamp|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730941852
+|-singleturn|p1a: Machamp|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Machamp
+|-sidestart|p1: Bhol|Spikes
+|move|p1a: Machamp|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1730941860
+|switch|p2a: Salamence|Salamence, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Machamp|75/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730941865
+|-singleturn|p1a: Machamp|move: Focus Punch
+|move|p2a: Salamence|Dragon Claw|p1a: Machamp
+|-end|p1a: Machamp|Substitute
+|move|p1a: Machamp|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|9/100|[from] Sandstorm
+|-damage|p1a: Machamp|69/100|[from] Sandstorm
+|-heal|p2a: Salamence|15/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730941902
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Salamence|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|9/100|[from] Sandstorm
+|-damage|p1a: Zapdos|20/100|[from] Sandstorm
+|-heal|p1a: Zapdos|27/100|[from] item: Leftovers
+|-heal|p2a: Salamence|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730941916
+|move|p2a: Salamence|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1730941923
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-damage|p2a: Salamence|9/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|-heal|p2a: Salamence|15/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730941931
+|move|p1a: Celebi|Psychic|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1730941936
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730941942
+|switch|p1a: Swampert|Swampert, M|95/100
+|-damage|p1a: Swampert|78/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|59/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730941949
+|switch|p2a: Celebi|Celebi|88/100
+|move|p1a: Swampert|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|6/100|[from] Sandstorm
+|-heal|p2a: Celebi|12/100|[from] item: Leftovers
+|-heal|p1a: Swampert|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730941981
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|-heal|p2a: Celebi|41/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|35/100|[from] Sandstorm
+|-heal|p2a: Celebi|41/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730941994
+|switch|p1a: Salamence|Salamence, M, shiny|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Giga Drain|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|91/100
+|-heal|p2a: Celebi|45/100|[from] drain|[of] p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|85/100|[from] Sandstorm
+|-damage|p2a: Celebi|39/100|[from] Sandstorm
+|-heal|p2a: Celebi|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730942007
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730942019
+|switch|p1a: Tyranitar|Tyranitar, M|41/100
+|-damage|p1a: Tyranitar|25/100|[from] Spikes
+|move|p2a: Swampert|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|15/100|[from] item: Leftovers
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730942033
+|move|p1a: Tyranitar|Crunch|p2a: Swampert
+|-damage|p2a: Swampert|51/100
+|move|p2a: Swampert|Ice Beam|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730942047
+|switch|p1a: Machamp|Machamp, F, shiny|69/100
+|-damage|p1a: Machamp|53/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|46/100|[from] Sandstorm
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Bhol has 270 seconds left.
+|
+|t:|1730942068
+|move|p2a: Swampert|Hydro Pump|p1a: Machamp
+|-damage|p1a: Machamp|9/100
+|move|p1a: Machamp|Cross Chop|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1730942077
+|switch|p2a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|3/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1730942082
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|move|p1a: Machamp|Cross Chop|p2a: Metagross
+|-damage|p2a: Metagross|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|0 fnt|[from] Sandstorm
+|faint|p1a: Machamp
+|-heal|p2a: Metagross|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1730942096
+|switch|p1a: Swampert|Swampert, M|65/100
+|-damage|p1a: Swampert|49/100|[from] Spikes
+|turn|21
+|
+|t:|1730942103
+|switch|p2a: Celebi|Celebi|45/100
+|move|p1a: Swampert|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|18/100|[from] Sandstorm
+|-heal|p2a: Celebi|25/100|[from] item: Leftovers
+|-heal|p1a: Swampert|55/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730942121
+|switch|p1a: Celebi|Celebi|84/100
+|-damage|p1a: Celebi|67/100|[from] Spikes
+|move|p2a: Celebi|Psychic|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-damage|p2a: Celebi|18/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: Celebi|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730942133
+|move|p1a: Celebi|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1730942153
+|switch|p2a: Metagross|Metagross|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: Metagross|47/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|EG Zelph has 270 seconds left.
+|
+|t:|1730942168
+|move|p1a: Celebi|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1730942171
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730942187
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|-heal|p1a: Celebi|72/100|[from] drain|[of] p2a: Tyranitar
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|65/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|62/100|[from] item: Leftovers
+|-heal|p1a: Celebi|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730942206
+|move|p2a: Tyranitar|Rock Slide|p1a: Celebi
+|-damage|p1a: Celebi|21/100
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|-heal|p1a: Celebi|47/100|[from] drain|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|41/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|20/100|[from] item: Leftovers
+|-heal|p1a: Celebi|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730942220
+|move|p2a: Tyranitar|Rock Slide|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1730942226
+|switch|p1a: Salamence|Salamence, M, shiny|79/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|73/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|26/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730942243
+|switch|p1a: Swampert|Swampert, M|55/100
+|-damage|p1a: Swampert|38/100|[from] Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|33/100|[from] item: Leftovers
+|-heal|p1a: Swampert|27/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730942249
+|move|p2a: Tyranitar|Double-Edge|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Tyranitar|24/100|[from] Recoil|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|t:|1730942253
+|switch|p1a: Salamence|Salamence, M, shiny|73/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|67/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|30/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730942258
+|move|p2a: Tyranitar|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|6/100
+|move|p1a: Salamence|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|Bhol
+|c|☆Bhol|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2238938550-ei7ts8dmtklhztdrqf577nwqodgtwnxpw">
+{"id":"gen3ou-2238938550","format":"[Gen 3] OU","players":["Bhol","EG Zelph"],"uploadtime":1730942276,"views":51,"formatid":"gen3ou","rating":null,"private":1,"password":"ei7ts8dmtklhztdrqf577nwqodgtwnx"}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

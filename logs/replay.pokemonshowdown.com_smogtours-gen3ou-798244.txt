@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: MeatballSpaghetti vs. LilBigBamSam - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between MeatballSpaghetti and LilBigBamSam! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798244">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728843447
+|gametype|singles
+|player|p1|MeatballSpaghetti|2|
+|player|p2|LilBigBamSam|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728843447
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆MeatballSpaghetti|glhf
+|c|☆LilBigBamSam|you too
+|
+|t:|1728843463
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Salamence|Brick Break|p2a: Swampert
+|-damage|p2a: Swampert|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728843485
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843511
+|move|p1a: Celebi|Leech Seed|p2a: Blissey|[miss]
+|-miss|p1a: Celebi|p2a: Blissey
+|move|p2a: Blissey|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843520
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843532
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843555
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Swampert|Curse|p1a: Swampert
+|-unboost|p1a: Swampert|spe|1
+|-boost|p1a: Swampert|atk|1
+|-boost|p1a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1728843570
+|move|p2a: Skarmory|Spikes|p1a: Swampert
+|-sidestart|p1: MeatballSpaghetti|Spikes
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728843582
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Swampert|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728843591
+|move|p2a: Skarmory|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|33/100|[from] item: Leftovers
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843601
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|39/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843615
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843630
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Skarmory|Skarmory, F|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843640
+|move|p2a: Gengar|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: LilBigBamSam|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|83/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843650
+|move|p2a: Gengar|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|28/100 brn
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: LilBigBamSam|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|22/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|LilBigBamSam has 270 seconds left.
+|
+|t:|1728843665
+|move|p2a: Gengar|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728843668
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|LilBigBamSam has 270 seconds left.
+|inactive|LilBigBamSam has 240 seconds left.
+|
+|t:|1728843726
+|move|p1a: Aerodactyl|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|28/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Aerodactyl|[miss]
+|-miss|p2a: Gengar|p1a: Aerodactyl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|22/100|[from] Sandstorm
+|-heal|p2a: Gengar|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728843737
+|switch|p2a: Swampert|Swampert, F|87/100
+|-damage|p2a: Swampert|71/100|[from] Spikes
+|move|p1a: Aerodactyl|Rock Slide|p2a: Swampert|[miss]
+|-miss|p1a: Aerodactyl|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728843749
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Swampert|Rock Slide|p1a: Celebi
+|-damage|p1a: Celebi|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|66/100|[from] Sandstorm
+|-heal|p1a: Celebi|72/100|[from] item: Leftovers
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728843772
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|66/100|[from] Spikes
+|move|p1a: Celebi|Leech Seed|p2a: Blissey
+|-start|p2a: Blissey|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|66/100|[from] Sandstorm
+|-damage|p2a: Blissey|60/100|[from] Sandstorm
+|-heal|p1a: Celebi|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|66/100|[from] item: Leftovers
+|-damage|p2a: Blissey|54/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|93/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1728843783
+|move|p1a: Celebi|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|38/100
+|-unboost|p2a: Blissey|spd|1
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|87/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Celebi|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|-damage|p2a: Blissey|75/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100|[silent]
+|upkeep
+|turn|21
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1728843804
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|move|p1a: Celebi|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1728843818
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|31/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|51/100|[from] Sandstorm
+|-heal|p1a: Celebi|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1728843839
+|move|p1a: Celebi|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|move|p2a: Tyranitar|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|1/100|[from] Sandstorm
+|-heal|p1a: Celebi|7/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|19/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|18/100|[silent]
+|upkeep
+|turn|24
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1728843849
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Celebi|26/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|inactive|LilBigBamSam has 210 seconds left.
+|
+|t:|1728843869
+|switch|p2a: Gengar|Gengar, M|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|22/100|[from] Sandstorm
+|-damage|p1a: Celebi|20/100|[from] Sandstorm
+|-heal|p2a: Gengar|28/100|[from] item: Leftovers
+|-heal|p1a: Celebi|26/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728843877
+|switch|p1a: Swampert|Swampert, F|76/100 tox
+|-damage|p1a: Swampert|63/100 tox|[from] Spikes
+|move|p2a: Gengar|Ice Punch|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|21/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|22/100|[from] Sandstorm
+|-heal|p2a: Gengar|28/100|[from] item: Leftovers
+|-heal|p1a: Swampert|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|21/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1728843891
+|move|p2a: Gengar|Giga Drain|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-heal|p2a: Gengar|41/100|[from] drain|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|t:|1728843901
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|35/100|[from] Sandstorm
+|-heal|p2a: Gengar|41/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|LilBigBamSam has 210 seconds left.
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728843944
+|switch|p2a: Skarmory|Skarmory, M|39/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|8/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728843954
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory|[miss]
+|-miss|p1a: Aerodactyl|p2a: Skarmory
+|move|p2a: Skarmory|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|95/100 tox|[from] psn
+|-heal|p2a: Skarmory|14/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728843964
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|20/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728843982
+|move|p1a: Salamence|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728843988
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|84/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728843996
+|move|p2a: Starmie|Thunder Wave|p1a: Salamence
+|-status|p1a: Salamence|par
+|move|p1a: Salamence|Dragon Claw|p2a: Starmie
+|-damage|p2a: Starmie|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|24/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|30/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728844014
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|80/100
+|move|p1a: Salamence|Dragon Claw|p2a: Starmie
+|-damage|p2a: Starmie|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|25/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|31/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728844024
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|75/100|[from] Sandstorm
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|LilBigBamSam has 180 seconds left.
+|
+|t:|1728844042
+|move|p2a: Starmie|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Hidden Power|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|8/100|[from] Sandstorm
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728844053
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|99/100 par
+|-sideend|p2: LilBigBamSam|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|8/100|[from] Sandstorm
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728844078
+|move|p2a: Starmie|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|c|☆MeatballSpaghetti|:(
+|c|☆LilBigBamSam|sry
+|inactive|MeatballSpaghetti has 270 seconds left.
+|
+|t:|1728844123
+|switch|p1a: Aerodactyl|Aerodactyl, F|95/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|8/100|[from] Sandstorm
+|-damage|p1a: Aerodactyl|89/100 tox|[from] psn
+|-heal|p2a: Starmie|14/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|LilBigBamSam has 150 seconds left.
+|
+|t:|1728844158
+|switch|p2a: Swampert|Swampert, F|83/100
+|move|p1a: Aerodactyl|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|77/100 tox|[from] psn
+|-heal|p2a: Swampert|52/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|MeatballSpaghetti has 270 seconds left.
+|inactive|LilBigBamSam has 150 seconds left.
+|
+|t:|1728844166
+|switch|p1a: Salamence|Salamence, F|100/100 par
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|inactive|MeatballSpaghetti has 270 seconds left.
+|
+|t:|1728844172
+|switch|p1a: Celebi|Celebi|26/100
+|-damage|p1a: Celebi|14/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|8/100|[from] Sandstorm
+|-heal|p1a: Celebi|14/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728844181
+|switch|p2a: Blissey|Blissey, F|75/100
+|move|p1a: Celebi|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|-heal|p1a: Celebi|23/100|[from] drain|[of] p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|17/100|[from] Sandstorm
+|-damage|p2a: Blissey|58/100|[from] Sandstorm
+|-heal|p1a: Celebi|23/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|LilBigBamSam has 150 seconds left.
+|inactive|LilBigBamSam has 120 seconds left.
+|
+|t:|1728844235
+|move|p1a: Celebi|Leech Seed|p2a: Blissey
+|-start|p2a: Blissey|move: Leech Seed
+|move|p2a: Blissey|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1728844239
+|switch|p1a: Aerodactyl|Aerodactyl, F|77/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|58/100|[from] Sandstorm
+|-damage|p1a: Aerodactyl|71/100 tox|[from] psn
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|-damage|p2a: Blissey|51/100|[from] Leech Seed|[of] p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|98/100 tox|[silent]
+|upkeep
+|turn|41
+|
+|t:|1728844250
+|switch|p2a: Starmie|Starmie|14/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|t:|1728844258
+|switch|p2a: Swampert|Swampert, F|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|86/100 tox|[from] psn
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728844264
+|move|p1a: Aerodactyl|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|43/100
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|68/100 tox|[from] psn
+|-heal|p2a: Swampert|50/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728844275
+|move|p1a: Aerodactyl|Rock Slide|p2a: Swampert|[miss]
+|-miss|p1a: Aerodactyl|p2a: Swampert
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|44/100 tox|[from] psn
+|-heal|p2a: Swampert|56/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728844285
+|move|p1a: Aerodactyl|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|45/100
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|14/100 tox|[from] psn
+|-heal|p2a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728844295
+|move|p1a: Aerodactyl|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|43/100
+|move|p2a: Swampert|Curse|p2a: Swampert
+|-unboost|p2a: Swampert|spe|1
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|0 fnt|[from] psn
+|faint|p1a: Aerodactyl
+|
+|win|LilBigBamSam
+|upkeep
+|c|☆MeatballSpaghetti|gg
+|c|☆LilBigBamSam|gg my guy
+|c|☆LilBigBamSam|well played
+|c|☆MeatballSpaghetti|can you upload the replays
+|c|☆LilBigBamSam|yes i will
+|c|☆MeatballSpaghetti|I'm salty about that surf crit lol
+|c|☆LilBigBamSam|good luck for the next matches
+|c|☆MeatballSpaghetti|I don't think it mattered in the long run
+|c|☆LilBigBamSam|understandbly
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798244">
+{"id":"smogtours-gen3ou-798244","format":"[Gen 3] OU","players":["MeatballSpaghetti","LilBigBamSam"],"uploadtime":1728844295,"views":94,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

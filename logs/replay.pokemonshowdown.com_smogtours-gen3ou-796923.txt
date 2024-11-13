@@ -1,0 +1,2419 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: when the 2) vs. Baptosta - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between when the 2) and Baptosta! Format: [Gen 3] OU; Date: Oct 10, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796923">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728580083
+|gametype|singles
+|player|p1|when the 2)|266|
+|player|p2|Baptosta|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728580083
+|start
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|turn|1
+|
+|t:|1728580103
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728580105
+|switch|p1a: Gengar|Gengar, M|100/100|[from] Baton Pass
+|move|p2a: Give me Bug|Megahorn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|61/100
+|
+|-heal|p1a: Gengar|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728580112
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: One|Celebi|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728580126
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: One|Leech Seed|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1728580132
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: One|Leech Seed|p1a: Metagross
+|-start|p1a: Metagross|move: Leech Seed
+|
+|-damage|p1a: Metagross|88/100|[from] Leech Seed|[of] p2a: One
+|upkeep
+|turn|5
+|
+|t:|1728580137
+|switch|p2a: Wyvern|Milotic, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Wyvern
+|-resisted|p2a: Wyvern
+|-damage|p2a: Wyvern|66/100
+|
+|-heal|p2a: Wyvern|72/100|[from] item: Leftovers
+|-damage|p1a: Metagross|76/100|[from] Leech Seed|[of] p2a: Wyvern
+|-heal|p2a: Wyvern|83/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1728580145
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Wyvern|Hypnosis|p1a: Blissey
+|-status|p1a: Blissey|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Wyvern|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728580156
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|cant|p1a: Blissey|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1728580162
+|-curestatus|p1a: Blissey|slp|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Give me Bug|Megahorn|p1a: Swampert|[miss]
+|-miss|p2a: Give me Bug|p1a: Swampert
+|
+|upkeep
+|turn|9
+|
+|t:|1728580173
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-crit|p2a: One
+|-damage|p2a: One|81/100
+|
+|-heal|p2a: One|87/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728580180
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|88/100
+|
+|-heal|p2a: One|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728580186
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: One|99/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-damage|p1a: Blissey|87/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|100/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728580194
+|switch|p2a: Champion|Hariyama, F|100/100
+|switch|p1a: Metagross|Metagross|76/100
+|
+|-heal|p1a: Metagross|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|13
+|
+|t:|1728580217
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Champion|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|99/100
+|-enditem|p1a: Swampert|Leftovers|[from] move: Knock Off|[of] p2a: Champion
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|14
+|
+|t:|1728580228
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Earthquake|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|86/100
+|
+|-heal|p2a: One|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728580247
+|switch|p1a: Blissey|Blissey, F|87/100
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|
+|-heal|p2a: One|98/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-damage|p1a: Blissey|81/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|100/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1728580260
+|switch|p2a: Champion|Hariyama, F|100/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|-damage|p1a: Blissey|75/100|[from] Leech Seed|[of] p2a: Champion
+|upkeep
+|turn|17
+|
+|t:|1728580266
+|-singleturn|p2a: Champion|move: Focus Punch
+|switch|p1a: Swampert|Swampert, M|99/100
+|move|p2a: Champion|Focus Punch|p1a: Swampert
+|-damage|p1a: Swampert|41/100
+|
+|-heal|p1a: Swampert|91/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|18
+|
+|t:|1728580275
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Give me Bug|Heracross, F|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1728580282
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728580289
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: One|Psychic|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728580294
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|switch|p1a: Blissey|Blissey, F|75/100
+|
+|-heal|p1a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728580311
+|switch|p1a: Cloyster|Cloyster, M, shiny|100/100
+|move|p2a: Give me Bug|Megahorn|p1a: Cloyster
+|-damage|p1a: Cloyster|15/100
+|
+|-heal|p1a: Cloyster|21/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728580318
+|move|p2a: Give me Bug|Megahorn|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|t:|1728580330
+|switch|p1a: Gengar|Gengar, M|68/100
+|
+|-heal|p1a: Gengar|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728580335
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Ice Punch|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|81/100
+|
+|-heal|p1a: Gengar|80/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|87/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728580345
+|switch|p1a: Blissey|Blissey, F|81/100
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-status|p1a: Blissey|frz
+|
+|-heal|p2a: Ugly Duckling|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100 frz|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728580352
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|-curestatus|p1a: Blissey|frz|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|91/100
+|
+|upkeep
+|turn|27
+|
+|t:|1728580360
+|switch|p2a: One|Celebi|100/100
+|switch|p1a: Blissey|Blissey, F|78/100
+|
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728580365
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Ice Beam|p2a: One
+|-supereffective|p2a: One
+|-crit|p2a: One
+|-damage|p2a: One|28/100
+|
+|-heal|p2a: One|34/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|-damage|p1a: Blissey|78/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|54/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1728580374
+|switch|p1a: Swampert|Swampert, M|91/100
+|move|p2a: One|Recover|p2a: One
+|-heal|p2a: One|100/100
+|
+|upkeep
+|turn|30
+|
+|t:|1728580377
+|switch|p1a: Blissey|Blissey, F|78/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728580381
+|switch|p2a: Champion|Hariyama, F|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1728580387
+|switch|p1a: Swampert|Swampert, M|91/100
+|move|p2a: Champion|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|89/100
+|
+|upkeep
+|turn|33
+|
+|t:|1728580391
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|97/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728580398
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: One|Psychic|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728580409
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|88/100
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728580411
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Ice Beam|p2a: One
+|-supereffective|p2a: One
+|-damage|p2a: One|66/100
+|
+|-heal|p2a: One|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-damage|p1a: Blissey|87/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|93/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1728580419
+|switch|p2a: Champion|Hariyama, F|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Champion
+|-damage|p2a: Champion|77/100
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-damage|p1a: Blissey|81/100|[from] Leech Seed|[of] p2a: Champion
+|-heal|p2a: Champion|96/100|[silent]
+|-heal|p2a: Champion|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728580425
+|-singleturn|p2a: Champion|move: Focus Punch
+|switch|p1a: Swampert|Swampert, M|89/100
+|move|p2a: Champion|Focus Punch|p1a: Swampert
+|-damage|p1a: Swampert|35/100
+|
+|upkeep
+|turn|39
+|
+|t:|1728580436
+|switch|p1a: Gengar|Gengar, M|80/100
+|move|p2a: Champion|Cross Chop|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p1a: Gengar|86/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728580444
+|switch|p2a: Ugly Duckling|Porygon2|94/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Thunderbolt|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|69/100
+|
+|-heal|p1a: Gengar|92/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|75/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728580449
+|switch|p1a: Blissey|Blissey, F|81/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-heal|p2a: Ugly Duckling|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728580455
+|switch|p2a: Champion|Hariyama, F|100/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728580475
+|-singleturn|p2a: Champion|move: Focus Punch
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|92/100
+|move|p2a: Champion|Focus Punch|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p1a: Gengar|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|44
+|
+|t:|1728580479
+|move|p1a: Gengar|Thunderbolt|p2a: Champion
+|-damage|p2a: Champion|70/100
+|-status|p2a: Champion|par
+|move|p2a: Champion|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|95/100
+|-enditem|p1a: Gengar|Leftovers|[from] move: Knock Off|[of] p2a: Champion
+|
+|-heal|p2a: Champion|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728580489
+|switch|p2a: Ugly Duckling|Porygon2|82/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Thunderbolt|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|57/100
+|
+|-heal|p2a: Ugly Duckling|63/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728580497
+|switch|p1a: Blissey|Blissey, F|93/100
+|move|p2a: Ugly Duckling|Recover|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728580510
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|
+|upkeep
+|turn|48
+|
+|t:|1728580521
+|move|p2a: Ugly Duckling|Thunder|p1a: Metagross|[miss]
+|-miss|p2a: Ugly Duckling|p1a: Metagross
+|move|p1a: Metagross|Earthquake|p2a: Ugly Duckling
+|-immune|p2a: Ugly Duckling
+|
+|upkeep
+|turn|49
+|
+|t:|1728580528
+|switch|p1a: Blissey|Blissey, F|99/100
+|move|p2a: Ugly Duckling|Thunder|p1a: Blissey|[miss]
+|-miss|p2a: Ugly Duckling|p1a: Blissey
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728580531
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|upkeep
+|turn|51
+|
+|t:|1728580542
+|switch|p2a: Champion|Hariyama, F|76/100 par
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|35/100
+|
+|-heal|p1a: Swampert|85/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Champion|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728580554
+|switch|p2a: One|Celebi|93/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-heal|p2a: One|99/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728580560
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|-unboost|p1a: Blissey|spd|1
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728580564
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Ice Beam|p2a: One
+|-supereffective|p2a: One
+|-damage|p2a: One|68/100
+|
+|-heal|p2a: One|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|95/100|[silent]
+|upkeep
+|turn|55
+|
+|t:|1728580574
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100
+|move|p2a: One|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|61/100
+|
+|-heal|p1a: Jolteon|67/100|[from] item: Leftovers
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728580580
+|move|p1a: Jolteon|Agility|p1a: Jolteon
+|-boost|p1a: Jolteon|spe|2
+|move|p2a: One|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|24/100
+|
+|-heal|p1a: Jolteon|30/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728580583
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728580590
+|switch|p1a: Blissey|Blissey, F|74/100|[from] Baton Pass
+|move|p2a: One|Perish Song|p2a: One
+|-start|p1a: Blissey|perish3|[silent]
+|-start|p2a: One|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-start|p1a: Blissey|perish3
+|-start|p2a: One|perish3
+|upkeep
+|turn|58
+|
+|t:|1728580609
+|move|p1a: Blissey|Wish|p1a: Blissey
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100|[from] Leech Seed|[of] p2a: One
+|-start|p1a: Blissey|perish2
+|-start|p2a: One|perish2
+|upkeep
+|turn|59
+|
+|t:|1728580626
+|switch|p1a: Swampert|Swampert, M|85/100
+|switch|p2a: Wyvern|Milotic, M|90/100
+|
+|-heal|p1a: Swampert|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Wyvern|96/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728580635
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|switch|p1a: Blissey|Blissey, F|74/100
+|
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728580647
+|switch|p1a: Gengar|Gengar, M|95/100
+|move|p2a: Give me Bug|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|32/100
+|
+|upkeep
+|turn|62
+|
+|t:|1728580654
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|
+|upkeep
+|turn|63
+|
+|t:|1728580667
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|98/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728580677
+|switch|p1a: Blissey|Blissey, F|80/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|-unboost|p1a: Blissey|spd|1
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728580680
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: One
+|upkeep
+|turn|66
+|
+|t:|1728580690
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|67
+|
+|t:|1728580696
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|98/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728580699
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: One|Perish Song|p2a: One
+|-start|p1a: Blissey|perish3|[silent]
+|-start|p2a: One|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-start|p2a: One|perish3
+|-start|p1a: Blissey|perish3
+|upkeep
+|turn|69
+|
+|t:|1728580704
+|switch|p2a: Give me Bug|Heracross, F|100/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-start|p1a: Blissey|perish2
+|upkeep
+|turn|70
+|
+|t:|1728580710
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Give me Bug|Megahorn|p1a: Swampert|[miss]
+|-miss|p2a: Give me Bug|p1a: Swampert
+|
+|upkeep
+|turn|71
+|
+|t:|1728580718
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Give me Bug|Heracross, F|100/100
+|
+|upkeep
+|turn|72
+|
+|t:|1728580724
+|-singleturn|p2a: Give me Bug|move: Focus Punch
+|move|p1a: Swampert|Surf|p2a: Give me Bug
+|-damage|p2a: Give me Bug|69/100
+|move|p2a: Give me Bug|Focus Punch||[still]
+|cant|p2a: Give me Bug|Focus Punch|Focus Punch
+|
+|upkeep
+|turn|73
+|
+|t:|1728580729
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|98/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728580733
+|switch|p1a: Blissey|Blissey, F|99/100
+|move|p2a: One|Perish Song|p2a: One
+|-start|p1a: Blissey|perish3|[silent]
+|-start|p2a: One|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-start|p2a: One|perish3
+|-start|p1a: Blissey|perish3
+|upkeep
+|turn|75
+|
+|t:|1728580738
+|move|p2a: One|Recover||[still]
+|-fail|p2a: One|heal
+|move|p1a: Blissey|Ice Beam|p2a: One
+|-supereffective|p2a: One
+|-damage|p2a: One|67/100
+|
+|-heal|p2a: One|74/100|[from] item: Leftovers
+|-start|p2a: One|perish2
+|-start|p1a: Blissey|perish2
+|upkeep
+|turn|76
+|
+|t:|1728580760
+|switch|p2a: Wyvern|Milotic, M|96/100
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|-heal|p2a: Wyvern|100/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728580775
+|switch|p2a: Champion|Hariyama, F|82/100 par
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-heal|p2a: Champion|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728580779
+|move|p1a: Swampert|Earthquake|p2a: Champion
+|-damage|p2a: Champion|54/100 par
+|cant|p2a: Champion|par
+|
+|-heal|p2a: Champion|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728580783
+|switch|p2a: One|Celebi|74/100
+|move|p1a: Swampert|Earthquake|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|59/100
+|
+|-heal|p2a: One|65/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728580791
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: One|Recover|p2a: One
+|-heal|p2a: One|100/100
+|
+|upkeep
+|turn|81
+|
+|t:|1728580795
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: One
+|upkeep
+|turn|82
+|
+|t:|1728580808
+|switch|p2a: Ball room toy|Claydol|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Ball room toy
+|-supereffective|p2a: Ball room toy
+|-damage|p2a: Ball room toy|53/100
+|-status|p2a: Ball room toy|frz
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Ball room toy|59/100 frz|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Ball room toy
+|-heal|p2a: Ball room toy|84/100 frz|[silent]
+|upkeep
+|turn|83
+|
+|t:|1728580817
+|cant|p2a: Ball room toy|frz
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: Ball room toy|90/100 frz|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100|[from] Leech Seed|[of] p2a: Ball room toy
+|-heal|p2a: Ball room toy|100/100 frz|[silent]
+|upkeep
+|turn|84
+|
+|t:|1728580825
+|switch|p2a: Champion|Hariyama, F|60/100 par
+|switch|p1a: Gengar|Gengar, M|32/100
+|
+|-heal|p1a: Gengar|82/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Champion|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728580832
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Ice Punch|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|79/100
+|
+|-heal|p2a: Ugly Duckling|86/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728580858
+|switch|p1a: Blissey|Blissey, F|82/100
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-heal|p2a: Ugly Duckling|92/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728580864
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|65/100
+|
+|-heal|p2a: Ugly Duckling|71/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728580872
+|move|p2a: Ugly Duckling|Thunder|p1a: Blissey
+|-damage|p1a: Blissey|72/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|44/100
+|
+|-heal|p2a: Ugly Duckling|50/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728580877
+|move|p2a: Ugly Duckling|Recover|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100
+|cant|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728580884
+|switch|p2a: Champion|Hariyama, F|66/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Champion
+|-damage|p2a: Champion|43/100 par
+|
+|-heal|p1a: Blissey|90/100 par|[from] item: Leftovers
+|-heal|p2a: Champion|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728580897
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|82/100
+|cant|p2a: Champion|par
+|
+|-heal|p2a: Champion|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1728580905
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Thunderbolt|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|77/100
+|
+|-heal|p2a: Ugly Duckling|83/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|inactive|when the 2) has 270 seconds left.
+|
+|t:|1728580949
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Ugly Duckling|Thunder|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-heal|p2a: Ugly Duckling|90/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728580954
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|81/100
+|move|p1a: Swampert|Surf|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|61/100
+|
+|-heal|p2a: Ugly Duckling|68/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|inactive|when the 2) has 270 seconds left.
+|
+|t:|1728580979
+|switch|p1a: Metagross|Metagross|100/100 par
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|90/100 par
+|
+|-heal|p2a: Ugly Duckling|74/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728580986
+|switch|p2a: Wyvern|Milotic, M|100/100
+|move|p1a: Metagross|Explosion|p2a: Wyvern
+|-damage|p2a: Wyvern|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Wyvern
+|
+|t:|1728581000
+|switch|p2a: Ugly Duckling|Porygon2|74/100
+|switch|p1a: Jolteon|Jolteon, F, shiny|30/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|
+|-heal|p1a: Jolteon|36/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|80/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728581004
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581007
+|switch|p1a: Blissey|Blissey, F|90/100|[from] Baton Pass
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-heal|p2a: Ugly Duckling|86/100|[from] item: Leftovers
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728581012
+|move|p2a: Ugly Duckling|Thunder|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|59/100
+|
+|-heal|p2a: Ugly Duckling|65/100|[from] item: Leftovers
+|-heal|p1a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728581018
+|move|p2a: Ugly Duckling|Recover|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|74/100
+|
+|-heal|p2a: Ugly Duckling|80/100|[from] item: Leftovers
+|-heal|p1a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728581023
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|60/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Ugly Duckling|86/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728581031
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|59/100
+|
+|-heal|p2a: Ugly Duckling|65/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728581038
+|move|p2a: Ugly Duckling|Recover|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|74/100
+|
+|-heal|p2a: Ugly Duckling|80/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728581045
+|switch|p2a: Ball room toy|Claydol|100/100 frz
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|81/100
+|
+|upkeep
+|turn|104
+|
+|t:|1728581048
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|91/100
+|
+|-heal|p2a: One|97/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1728581058
+|switch|p2a: Give me Bug|Heracross, F|69/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|106
+|
+|t:|1728581072
+|switch|p1a: Swampert|Swampert, M|81/100
+|move|p2a: Give me Bug|Megahorn|p1a: Swampert|[miss]
+|-miss|p2a: Give me Bug|p1a: Swampert
+|
+|upkeep
+|turn|107
+|
+|t:|1728581080
+|switch|p2a: One|Celebi|97/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|88/100
+|
+|-heal|p2a: One|95/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728581087
+|switch|p2a: Give me Bug|Heracross, F|69/100
+|move|p1a: Swampert|Roar|p2a: Give me Bug
+|drag|p2a: Ball room toy|Claydol|100/100 frz
+|
+|upkeep
+|turn|109
+|
+|t:|1728581095
+|switch|p1a: Blissey|Blissey, F|100/100
+|cant|p2a: Ball room toy|frz
+|
+|upkeep
+|turn|110
+|
+|t:|1728581098
+|cant|p2a: Ball room toy|frz
+|move|p1a: Blissey|Ice Beam|p2a: Ball room toy
+|-supereffective|p2a: Ball room toy
+|-damage|p2a: Ball room toy|60/100 frz
+|
+|-heal|p2a: Ball room toy|66/100 frz|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728581104
+|switch|p2a: Ugly Duckling|Porygon2|80/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|53/100
+|
+|-heal|p2a: Ugly Duckling|59/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728581128
+|switch|p1a: Swampert|Swampert, M|81/100
+|move|p2a: Ugly Duckling|Recover|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100
+|
+|upkeep
+|turn|113
+|
+|t:|1728581145
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|upkeep
+|turn|114
+|
+|t:|1728581159
+|switch|p2a: Give me Bug|Heracross, F|69/100
+|move|p1a: Swampert|Earthquake|p2a: Give me Bug
+|-resisted|p2a: Give me Bug
+|-damage|p2a: Give me Bug|43/100
+|
+|upkeep
+|turn|115
+|
+|t:|1728581164
+|switch|p2a: One|Celebi|95/100
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Give me Bug|Heracross, F|43/100
+|
+|upkeep
+|turn|116
+|
+|t:|1728581170
+|switch|p2a: One|Celebi|95/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|85/100
+|
+|-heal|p2a: One|91/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728581175
+|move|p2a: One|Leech Seed|p1a: Swampert
+|-start|p1a: Swampert|move: Leech Seed
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Champion|Hariyama, F|55/100 par
+|
+|-damage|p1a: Swampert|68/100|[from] Leech Seed|[of] p2a: Champion
+|-heal|p2a: Champion|66/100 par|[silent]
+|-heal|p2a: Champion|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1728581181
+|switch|p1a: Gengar|Gengar, M|82/100
+|move|p2a: Champion|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|76/100
+|
+|-heal|p2a: Champion|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1728581186
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|
+|upkeep
+|turn|120
+|
+|t:|1728581190
+|move|p2a: Ugly Duckling|Thunder|p1a: Blissey
+|-damage|p1a: Blissey|90/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728581193
+|switch|p1a: Swampert|Swampert, M|68/100
+|move|p2a: Ugly Duckling|Thunder|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-heal|p1a: Swampert|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|122
+|
+|t:|1728581206
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: Champion|Hariyama, F|79/100 par
+|
+|-heal|p2a: Champion|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1728581216
+|switch|p1a: Gengar|Gengar, M|76/100
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|
+|upkeep
+|turn|124
+|
+|t:|1728581220
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|125
+|
+|t:|1728581224
+|switch|p1a: Blissey|Blissey, F|96/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1728581227
+|switch|p2a: One|Celebi|91/100
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|-heal|p2a: One|97/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728581239
+|move|p2a: One|Psychic|p1a: Swampert
+|-damage|p1a: Swampert|73/100
+|-unboost|p1a: Swampert|spd|1
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|
+|upkeep
+|turn|128
+|
+|t:|1728581243
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1728581255
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|74/100
+|
+|-heal|p2a: Ugly Duckling|80/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1728581262
+|switch|p2a: Ball room toy|Claydol|66/100 frz
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|73/100
+|
+|-heal|p2a: Ball room toy|72/100 frz|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1728581271
+|switch|p2a: One|Celebi|97/100
+|switch|p1a: Gengar|Gengar, M|76/100
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1728581275
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: One|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728581288
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Seismic Toss|p2a: One
+|-damage|p2a: One|76/100
+|
+|-heal|p2a: One|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-damage|p1a: Blissey|87/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|100/100|[silent]
+|upkeep
+|turn|134
+|
+|t:|1728581294
+|switch|p2a: Give me Bug|Heracross, F|43/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-damage|p1a: Blissey|80/100|[from] Leech Seed|[of] p2a: Give me Bug
+|-heal|p2a: Give me Bug|70/100|[silent]
+|upkeep
+|turn|135
+|
+|t:|1728581299
+|switch|p1a: Swampert|Swampert, M|73/100
+|move|p2a: Give me Bug|Megahorn|p1a: Swampert
+|-damage|p1a: Swampert|9/100
+|
+|-heal|p1a: Swampert|59/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|136
+|
+|t:|1728581308
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Give me Bug|Megahorn|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|upkeep
+|turn|137
+|
+|t:|1728581312
+|switch|p1a: Gengar|Gengar, M|76/100
+|move|p2a: Give me Bug|Megahorn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|40/100
+|
+|upkeep
+|turn|138
+|
+|t:|1728581326
+|switch|p1a: Jolteon|Jolteon, F, shiny|36/100
+|switch|p2a: Ugly Duckling|Porygon2|80/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|
+|-heal|p1a: Jolteon|41/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|86/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1728581332
+|switch|p1a: Blissey|Blissey, F|80/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-heal|p2a: Ugly Duckling|92/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1728581343
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Jolteon|Jolteon, F, shiny|41/100
+|
+|-heal|p1a: Jolteon|47/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1728581348
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Jolteon|Thunderbolt|p2a: One
+|-resisted|p2a: One
+|-crit|p2a: One
+|-damage|p2a: One|73/100
+|
+|-heal|p1a: Jolteon|53/100|[from] item: Leftovers
+|-heal|p2a: One|79/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1728581353
+|switch|p1a: Blissey|Blissey, F|86/100
+|move|p2a: One|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|
+|-heal|p2a: One|85/100|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-damage|p1a: Blissey|80/100|[from] Leech Seed|[of] p2a: One
+|-heal|p2a: One|100/100|[silent]
+|upkeep
+|turn|143
+|
+|t:|1728581357
+|switch|p2a: Ball room toy|Claydol|72/100 frz
+|switch|p1a: Jolteon|Jolteon, F, shiny|53/100
+|
+|-heal|p1a: Jolteon|59/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|78/100 frz|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1728581363
+|move|p1a: Jolteon|Agility|p1a: Jolteon
+|-boost|p1a: Jolteon|spe|2
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Jolteon|65/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|84/100 frz|[from] item: Leftovers
+|upkeep
+|turn|145
+|
+|t:|1728581370
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581373
+|switch|p1a: Blissey|Blissey, F|80/100|[from] Baton Pass
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|91/100 frz|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1728581376
+|move|p1a: Blissey|Wish|p1a: Blissey
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|97/100 frz|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1728581378
+|switch|p1a: Swampert|Swampert, M|59/100
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Swampert|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Ball room toy|100/100 frz|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1728581387
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|90/100
+|
+|-heal|p2a: One|97/100|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1728581397
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|upkeep
+|turn|150
+|
+|t:|1728581403
+|switch|p2a: One|Celebi|97/100
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Ball room toy|Claydol|100/100 frz
+|
+|upkeep
+|turn|151
+|
+|t:|1728581416
+|switch|p2a: One|Celebi|97/100
+|switch|p1a: Blissey|Blissey, F|92/100
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1728581421
+|move|p2a: One|Perish Song|p2a: One
+|-start|p1a: Blissey|perish3|[silent]
+|-start|p2a: One|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-start|p2a: One|perish3
+|-start|p1a: Blissey|perish3
+|upkeep
+|turn|153
+|
+|t:|1728581428
+|switch|p1a: Gengar|Gengar, M|40/100
+|move|p2a: One|Recover||[still]
+|-fail|p2a: One|heal
+|
+|-heal|p1a: Gengar|90/100|[from] move: Wish|[wisher] Blissey
+|-start|p2a: One|perish2
+|upkeep
+|turn|154
+|
+|t:|1728581440
+|switch|p1a: Jolteon|Jolteon, F, shiny|65/100
+|switch|p2a: Ugly Duckling|Porygon2|92/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|
+|-heal|p1a: Jolteon|71/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|98/100|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1728581448
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|
+|upkeep
+|turn|156
+|
+|t:|1728581454
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|90/100
+|
+|-heal|p2a: One|96/100|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1728581471
+|switch|p2a: Ugly Duckling|Porygon2|98/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|switch|p1a: Gengar|Gengar, M|90/100
+|
+|-heal|p2a: Ugly Duckling|100/100|[from] item: Leftovers
+|upkeep
+|turn|158
+|
+|t:|1728581481
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|
+|upkeep
+|turn|159
+|
+|t:|1728581484
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: Champion|Hariyama, F|85/100 par
+|
+|-heal|p2a: Champion|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|160
+|
+|t:|1728581493
+|switch|p1a: Gengar|Gengar, M|90/100
+|switch|p2a: One|Celebi|96/100
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1728581508
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|
+|upkeep
+|turn|162
+|
+|t:|1728581529
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Roar|p2a: One
+|drag|p2a: Champion|Hariyama, F|91/100 par
+|
+|-heal|p2a: Champion|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1728581539
+|switch|p1a: Gengar|Gengar, M|90/100
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|
+|upkeep
+|turn|164
+|
+|t:|1728581553
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: One|[miss]
+|-miss|p1a: Gengar|p2a: One
+|
+|upkeep
+|turn|165
+|
+|t:|1728581563
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Ball room toy|Claydol|100/100 frz
+|
+|upkeep
+|turn|166
+|
+|t:|1728581574
+|switch|p2a: One|Celebi|100/100
+|switch|p1a: Jolteon|Jolteon, F, shiny|71/100
+|
+|-heal|p1a: Jolteon|77/100|[from] item: Leftovers
+|upkeep
+|turn|167
+|
+|t:|1728581589
+|switch|p2a: Ball room toy|Claydol|100/100 frz
+|move|p1a: Jolteon|Thunderbolt|p2a: Ball room toy
+|-immune|p2a: Ball room toy
+|
+|-heal|p1a: Jolteon|83/100|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1728581593
+|move|p1a: Jolteon|Hidden Power|p2a: Ball room toy
+|-supereffective|p2a: Ball room toy
+|-damage|p2a: Ball room toy|61/100 frz
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Jolteon|89/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|67/100 frz|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1728581598
+|move|p1a: Jolteon|Hidden Power|p2a: Ball room toy
+|-supereffective|p2a: Ball room toy
+|-damage|p2a: Ball room toy|28/100 frz
+|cant|p2a: Ball room toy|frz
+|
+|-heal|p1a: Jolteon|95/100|[from] item: Leftovers
+|-heal|p2a: Ball room toy|34/100 frz|[from] item: Leftovers
+|upkeep
+|turn|170
+|
+|t:|1728581600
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|move|p1a: Jolteon|Hidden Power|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|81/100
+|
+|-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p2a: Ugly Duckling|87/100|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1728581615
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: One|Celebi|100/100
+|
+|upkeep
+|turn|172
+|
+|t:|1728581620
+|switch|p2a: Ugly Duckling|Porygon2|87/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: Champion|Hariyama, F|97/100 par
+|
+|-heal|p2a: Champion|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|173
+|
+|t:|1728581634
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Earthquake|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|86/100
+|
+|-heal|p2a: One|92/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1728581641
+|switch|p2a: Champion|Hariyama, F|100/100 par
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100
+|
+|upkeep
+|turn|175
+|
+|t:|1728581645
+|move|p1a: Jolteon|Thunderbolt|p2a: Champion
+|-damage|p2a: Champion|43/100 par
+|move|p2a: Champion|Knock Off|p1a: Jolteon
+|-damage|p1a: Jolteon|98/100
+|-enditem|p1a: Jolteon|Leftovers|[from] move: Knock Off|[of] p2a: Champion
+|
+|-heal|p2a: Champion|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|176
+|
+|t:|1728581657
+|switch|p2a: One|Celebi|92/100
+|move|p1a: Jolteon|Thunderbolt|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|76/100
+|
+|-heal|p2a: One|83/100|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1728581668
+|switch|p2a: Ugly Duckling|Porygon2|87/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581674
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|
+|-heal|p2a: Ugly Duckling|93/100|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1728581677
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|80/100
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: Ball room toy|Claydol|34/100 frz
+|
+|-heal|p2a: Ball room toy|40/100 frz|[from] item: Leftovers
+|upkeep
+|turn|179
+|
+|t:|1728581683
+|switch|p2a: One|Celebi|83/100
+|switch|p1a: Jolteon|Jolteon, F, shiny|98/100
+|
+|-heal|p2a: One|89/100|[from] item: Leftovers
+|upkeep
+|turn|180
+|
+|t:|1728581688
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581695
+|switch|p1a: Blissey|Blissey, F|100/100|[from] Baton Pass
+|move|p2a: One|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|
+|-heal|p2a: One|95/100|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1728581710
+|switch|p2a: Ugly Duckling|Porygon2|93/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Ugly Duckling
+|-damage|p2a: Ugly Duckling|67/100
+|
+|-heal|p2a: Ugly Duckling|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|182
+|
+|t:|1728581717
+|switch|p1a: Jolteon|Jolteon, F, shiny|98/100
+|move|p2a: Ugly Duckling|Thunder|p1a: Jolteon
+|-heal|p1a: Jolteon|100/100|[from] ability: Volt Absorb|[of] p2a: Ugly Duckling
+|
+|-heal|p2a: Ugly Duckling|79/100|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1728581724
+|switch|p2a: One|Celebi|95/100
+|move|p1a: Jolteon|Thunderbolt|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|81/100
+|
+|-heal|p2a: One|88/100|[from] item: Leftovers
+|upkeep
+|turn|184
+|
+|t:|1728581729
+|switch|p2a: Ugly Duckling|Porygon2|79/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581733
+|switch|p1a: Swampert|Swampert, M|80/100|[from] Baton Pass
+|
+|-heal|p2a: Ugly Duckling|85/100|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1728581736
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|-heal|p2a: Ugly Duckling|91/100|[from] item: Leftovers
+|upkeep
+|turn|186
+|
+|t:|1728581745
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon|par
+|move|p1a: Jolteon|Thunderbolt|p2a: Ugly Duckling
+|-heal|p2a: Ugly Duckling|100/100|[from] ability: Volt Absorb|[of] p1a: Jolteon
+|
+|upkeep
+|turn|187
+|
+|t:|1728581753
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon|par
+|cant|p1a: Jolteon|par
+|
+|upkeep
+|turn|188
+|
+|t:|1728581757
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon|par
+|cant|p1a: Jolteon|par
+|
+|upkeep
+|turn|189
+|
+|t:|1728581761
+|switch|p2a: One|Celebi|88/100
+|cant|p1a: Jolteon|par
+|
+|-heal|p2a: One|94/100|[from] item: Leftovers
+|upkeep
+|turn|190
+|
+|t:|1728581766
+|move|p2a: One|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|61/100 par
+|cant|p1a: Jolteon|par
+|
+|-heal|p2a: One|99/100|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1728581777
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|switch|p1a: Swampert|Swampert, M|80/100
+|
+|upkeep
+|turn|192
+|
+|t:|1728581787
+|switch|p2a: One|Celebi|99/100
+|move|p1a: Swampert|Earthquake|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|85/100
+|
+|-heal|p2a: One|91/100|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1728581795
+|switch|p1a: Blissey|Blissey, F|99/100
+|move|p2a: One|Recover|p2a: One
+|-heal|p2a: One|100/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|194
+|
+|t:|1728581805
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|switch|p1a: Swampert|Swampert, M|80/100
+|
+|upkeep
+|turn|195
+|
+|t:|1728581816
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|196
+|
+|t:|1728581824
+|switch|p1a: Swampert|Swampert, M|80/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|197
+|
+|t:|1728581830
+|switch|p2a: One|Celebi|100/100
+|switch|p1a: Jolteon|Jolteon, F, shiny|61/100 par
+|
+|upkeep
+|turn|198
+|c|☆Baptosta|this is taking a while
+|
+|t:|1728581840
+|switch|p2a: Ball room toy|Claydol|40/100 frz
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|c|☆when the 2)|lowkey my fault
+|c|☆when the 2)|for killing my spiker
+|c|☆Baptosta|not really
+|
+|t:|1728581858
+|switch|p1a: Gengar|Gengar, M|90/100|[from] Baton Pass
+|
+|-heal|p2a: Ball room toy|46/100 frz|[from] item: Leftovers
+|upkeep
+|turn|199
+|c|☆Baptosta|i gave a spinner
+|c|☆Baptosta|but it got turn 1 frozen
+|
+|t:|1728581871
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Gengar|Ice Punch|p2a: One
+|-supereffective|p2a: One
+|-damage|p2a: One|69/100
+|
+|-heal|p2a: One|75/100|[from] item: Leftovers
+|upkeep
+|turn|200
+|
+|t:|1728581889
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Taunt|p2a: Ugly Duckling
+|-start|p2a: Ugly Duckling|move: Taunt
+|
+|upkeep
+|turn|201
+|
+|t:|1728581897
+|switch|p1a: Jolteon|Jolteon, F, shiny|61/100 par
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|
+|upkeep
+|turn|202
+|
+|t:|1728581905
+|switch|p1a: Gengar|Gengar, M|90/100
+|move|p2a: Give me Bug|Megahorn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|19/100
+|
+|upkeep
+|turn|203
+|inactive|when the 2) has 270 seconds left.
+|
+|t:|1728581935
+|switch|p1a: Jolteon|Jolteon, F, shiny|61/100 par
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|
+|upkeep
+|turn|204
+|
+|t:|1728581944
+|move|p2a: Ugly Duckling|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|33/100 par
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728581947
+|switch|p1a: Blissey|Blissey, F|97/100|[from] Baton Pass
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|205
+|
+|t:|1728581953
+|switch|p1a: Swampert|Swampert, M|80/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|206
+|
+|t:|1728581957
+|switch|p2a: One|Celebi|75/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: One|81/100|[from] item: Leftovers
+|upkeep
+|turn|207
+|
+|t:|1728581963
+|move|p2a: One|Perish Song|p2a: One
+|-start|p1a: Blissey|perish3|[silent]
+|-start|p2a: One|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: One|87/100|[from] item: Leftovers
+|-start|p2a: One|perish3
+|-start|p1a: Blissey|perish3
+|upkeep
+|turn|208
+|
+|t:|1728581970
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|switch|p1a: Swampert|Swampert, M|80/100
+|
+|-heal|p1a: Swampert|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|209
+|
+|t:|1728581981
+|switch|p2a: One|Celebi|87/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-heal|p2a: One|94/100|[from] item: Leftovers
+|upkeep
+|turn|210
+|
+|t:|1728581986
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: One|Celebi|94/100
+|
+|-heal|p2a: One|99/100|[from] item: Leftovers
+|upkeep
+|turn|211
+|
+|t:|1728581999
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|upkeep
+|turn|212
+|
+|t:|1728582005
+|switch|p2a: One|Celebi|99/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|213
+|
+|t:|1728582009
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|upkeep
+|turn|214
+|
+|t:|1728582019
+|switch|p1a: Jolteon|Jolteon, F, shiny|33/100 par
+|move|p2a: Ugly Duckling|Thunder|p1a: Jolteon
+|-heal|p1a: Jolteon|58/100 par|[from] ability: Volt Absorb|[of] p2a: Ugly Duckling
+|
+|-heal|p1a: Jolteon|100/100 par|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|215
+|
+|t:|1728582028
+|switch|p2a: One|Celebi|100/100
+|cant|p1a: Jolteon|par
+|
+|upkeep
+|turn|216
+|
+|t:|1728582034
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Volt Absorb|[from] ability: Trace|[of] p1a: Jolteon
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|217
+|
+|t:|1728582039
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|upkeep
+|turn|218
+|
+|t:|1728582044
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|219
+|
+|t:|1728582058
+|switch|p2a: One|Celebi|100/100
+|move|p1a: Swampert|Earthquake|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|87/100
+|
+|-heal|p2a: One|93/100|[from] item: Leftovers
+|upkeep
+|turn|220
+|
+|t:|1728582064
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|221
+|
+|t:|1728582089
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100 par
+|move|p2a: Give me Bug|Megahorn|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1728582093
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|222
+|
+|t:|1728582097
+|switch|p2a: One|Celebi|93/100
+|move|p1a: Swampert|Surf|p2a: One
+|-resisted|p2a: One
+|-damage|p2a: One|83/100
+|
+|-heal|p2a: One|89/100|[from] item: Leftovers
+|upkeep
+|turn|223
+|
+|t:|1728582101
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Ugly Duckling
+|drag|p2a: One|Celebi|89/100
+|
+|-heal|p2a: One|96/100|[from] item: Leftovers
+|upkeep
+|turn|224
+|
+|t:|1728582110
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|225
+|
+|t:|1728582117
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Ugly Duckling|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|226
+|
+|t:|1728582122
+|switch|p2a: One|Celebi|96/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: One|100/100|[from] item: Leftovers
+|upkeep
+|turn|227
+|
+|t:|1728582130
+|switch|p2a: Ugly Duckling|Porygon2|100/100
+|-ability|p2a: Ugly Duckling|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|228
+|
+|t:|1728582139
+|switch|p2a: Give me Bug|Heracross, F|70/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|229
+|
+|t:|1728582144
+|move|p2a: Give me Bug|Megahorn|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|-message|when the 2) forfeited.
+|
+|win|Baptosta
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796923">
+{"id":"smogtours-gen3ou-796923","format":"[Gen 3] OU","players":["when the 2)","Baptosta"],"uploadtime":1728582149,"views":105,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

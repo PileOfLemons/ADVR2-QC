@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: cyberas vs. Sepulo - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between cyberas and Sepulo! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800573">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729444134
+|gametype|singles
+|player|p1|cyberas|102|
+|player|p2|Sepulo|pokemonbreeder|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729444134
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|c|☆Sepulo|glhf
+|inactive|Sepulo has 270 seconds left.
+|
+|t:|1729444164
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Metagross|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|upkeep
+|turn|2
+|
+|t:|1729444176
+|move|p1a: Zapdos|Thunder Wave|p2a: Metagross
+|-status|p2a: Metagross|par
+|move|p2a: Metagross|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆cyberas|hf
+|
+|t:|1729444210
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|78/100
+|
+|-heal|p1a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729444219
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Swampert|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729444234
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Gengar|p1a: Blissey
+|
+|upkeep
+|turn|6
+|
+|t:|1729444247
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Blissey|Sing|p2a: Tyranitar|[miss]
+|-miss|p1a: Blissey|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729444256
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Swampert|Swampert, F|91/100
+|move|p2a: Tyranitar|Focus Punch|p1a: Swampert
+|-damage|p1a: Swampert|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729444267
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Swampert|Surf|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729444274
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Blissey|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|4/100
+|move|p1a: Swampert|Focus Punch||[still]
+|cant|p1a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|10/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729444291
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729444301
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729444325
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Forretress|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|-heal|p2a: Forretress|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729444330
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Charizard|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|cyberas has 270 seconds left.
+|
+|t:|1729444361
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|81/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729444373
+|switch|p2a: Metagross|Metagross|100/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Metagross
+|-damage|p2a: Metagross|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|-heal|p2a: Metagross|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729444384
+|switch|p1a: Swampert|Swampert, F|10/100
+|move|p2a: Metagross|Meteor Mash|p1a: Swampert
+|-resisted|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1729444394
+|switch|p1a: Zapdos|Zapdos|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|25/100|[from] Sandstorm
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|-heal|p2a: Metagross|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729444404
+|switch|p2a: Blissey|Blissey, F|87/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729444415
+|switch|p1a: Metagross|Metagross|85/100
+|move|p2a: Blissey|Fire Blast|p1a: Metagross|[miss]
+|-miss|p2a: Blissey|p1a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|cyberas has 270 seconds left.
+|
+|t:|1729444453
+|switch|p2a: Forretress|Forretress, M|84/100
+|move|p1a: Metagross|Meteor Mash|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|52/100
+|-boost|p1a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729444462
+|move|p1a: Metagross|Meteor Mash|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|15/100
+|move|p2a: Forretress|Spikes|p1a: Metagross
+|-sidestart|p1: cyberas|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|21/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|cyberas has 270 seconds left.
+|
+|t:|1729444475
+|move|p1a: Metagross|Meteor Mash|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|inactive|Sepulo has 270 seconds left.
+|
+|t:|1729444508
+|switch|p2a: Metagross|Metagross|85/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729444521
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|41/100 par
+|cant|p2a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729444531
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1729444540
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|cyberas has 270 seconds left.
+|
+|t:|1729444596
+|switch|p1a: Blissey|Blissey, F|87/100
+|-damage|p1a: Blissey|75/100|[from] Spikes
+|move|p2a: Gengar|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729444614
+|move|p2a: Gengar|Explosion|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Blissey
+|
+|t:|1729444631
+|switch|p2a: Starmie|Starmie|100/100
+|switch|p1a: Metagross|Metagross|85/100
+|-damage|p1a: Metagross|73/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Sepulo has 270 seconds left.
+|inactive|cyberas has 240 seconds left.
+|
+|t:|1729444677
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Metagross|Explosion|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Tyranitar
+|
+|t:|1729444687
+|switch|p1a: Zapdos|Zapdos|32/100
+|switch|p2a: Blissey|Blissey, F|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729444691
+|move|p1a: Zapdos|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729444695
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|55/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1729444701
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|49/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Sepulo has 270 seconds left.
+|c|☆Sepulo|man I'm so dumb, that was an obvious last
+|
+|t:|1729444724
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|49/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729444727
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Blissey|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|49/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729444744
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|cyberas has 270 seconds left.
+|
+|t:|1729444768
+|move|p1a: Tyranitar|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|12/100 par
+|move|p2a: Blissey|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729444774
+|move|p1a: Tyranitar|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|c|☆Sepulo|gg
+|
+|t:|1729444777
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729444780
+|move|p1a: Tyranitar|Rock Slide|p2a: Starmie|[miss]
+|-miss|p1a: Tyranitar|p2a: Starmie
+|move|p2a: Starmie|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|c|☆cyberas|gg
+|
+|t:|1729444783
+|switch|p1a: Charizard|Charizard, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Charizard|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆cyberas|misclicked that eq now put me out of my misery
+|inactive|Sepulo has 270 seconds left.
+|
+|t:|1729444821
+|move|p2a: Starmie|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|Sepulo
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800573">
+{"id":"smogtours-gen3ou-800573","format":"[Gen 3] OU","players":["cyberas","Sepulo"],"uploadtime":1729444821,"views":113,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

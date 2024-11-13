@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Quarante8 vs. blavand - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Quarante8 and blavand! Format: [Gen 3] OU; Date: Oct 29, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803317">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730233563
+|gametype|singles
+|player|p1|Quarante8|pilot|
+|player|p2|blavand|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730233563
+|start
+|switch|p1a: Router Start|Tyranitar, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆blavand|glhf 
+|c|☆Quarante8|hf
+|
+|t:|1730233593
+|move|p2a: Tyranitar|Earthquake|p1a: Router Start
+|-supereffective|p1a: Router Start
+|-damage|p1a: Router Start|47/100
+|move|p1a: Router Start|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Router Start|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730233614
+|switch|p1a: Engage Machine|Skarmory, F|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1730233619
+|move|p2a: Tyranitar|Rock Slide|p1a: Engage Machine
+|-damage|p1a: Engage Machine|53/100
+|move|p1a: Engage Machine|Roar|p2a: Tyranitar
+|drag|p2a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Engage Machine|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730233628
+|move|p1a: Engage Machine|Protect|p1a: Engage Machine
+|-singleturn|p1a: Engage Machine|Protect
+|move|p2a: Magneton|Thunderbolt|p1a: Engage Machine
+|-activate|p1a: Engage Machine|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Engage Machine|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Quarante8 has 270 seconds left.
+|
+|t:|1730233678
+|move|p2a: Magneton|Thunderbolt|p1a: Engage Machine
+|-supereffective|p1a: Engage Machine
+|-damage|p1a: Engage Machine|0 fnt
+|faint|p1a: Engage Machine
+|
+|t:|1730233696
+|switch|p1a: End of the Line|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1730233716
+|move|p2a: Magneton|Protect|p2a: Magneton
+|-singleturn|p2a: Magneton|Protect
+|move|p1a: End of the Line|Earthquake|p2a: Magneton
+|-activate|p2a: Magneton|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1730233725
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: End of the Line|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|79/100|[from] Sandstorm
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730233740
+|switch|p1a: In the Way|Blissey, F|100/100
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1730233765
+|switch|p2a: Tyranitar|Tyranitar, F|34/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|94/100|[from] Sandstorm
+|-heal|p1a: In the Way|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730233776
+|switch|p1a: Technodrome|Claydol|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Technodrome
+|-resisted|p1a: Technodrome
+|-damage|p1a: Technodrome|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Technodrome|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730233783
+|move|p2a: Tyranitar|Double-Edge|p1a: Technodrome
+|-crit|p1a: Technodrome
+|-damage|p1a: Technodrome|3/100
+|-damage|p2a: Tyranitar|8/100|[from] Recoil|[of] p1a: Technodrome
+|move|p1a: Technodrome|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|blavand has 270 seconds left.
+|
+|t:|1730233832
+|switch|p2a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Technodrome|9/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730233841
+|switch|p1a: In the Way|Blissey, F|100/100
+|move|p2a: Magneton|Hidden Power|p1a: In the Way
+|-damage|p1a: In the Way|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|84/100|[from] Sandstorm
+|-heal|p1a: In the Way|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730233850
+|move|p2a: Magneton|Toxic|p1a: In the Way
+|-status|p1a: In the Way|tox
+|move|p1a: In the Way|Calm Mind|p1a: In the Way
+|-boost|p1a: In the Way|spa|1
+|-boost|p1a: In the Way|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|84/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|90/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|84/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1730233853
+|move|p2a: Magneton|Thunderbolt|p1a: In the Way
+|-damage|p1a: In the Way|70/100 tox
+|move|p1a: In the Way|Ice Beam|p2a: Magneton
+|-resisted|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|64/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|70/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|58/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1730233862
+|move|p2a: Magneton|Hidden Power|p1a: In the Way
+|-damage|p1a: In the Way|51/100 tox
+|move|p1a: In the Way|Soft-Boiled|p1a: In the Way
+|-heal|p1a: In the Way|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|94/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|100/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1730233880
+|-curestatus|p1a: In the Way|tox|[from] ability: Natural Cure
+|switch|p1a: Technodrome|Claydol|9/100
+|move|p2a: Magneton|Hidden Power|p1a: Technodrome
+|-damage|p1a: Technodrome|0 fnt
+|faint|p1a: Technodrome
+|
+|t:|1730233883
+|switch|p1a: In the Way|Blissey, F|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|76/100|[from] Sandstorm
+|-heal|p1a: In the Way|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|blavand has 270 seconds left.
+|inactive|blavand has 240 seconds left.
+|
+|t:|1730233955
+|move|p2a: Magneton|Toxic|p1a: In the Way
+|-status|p1a: In the Way|tox
+|move|p1a: In the Way|Calm Mind|p1a: In the Way
+|-boost|p1a: In the Way|spa|1
+|-boost|p1a: In the Way|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|76/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|82/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1730233958
+|move|p2a: Magneton|Protect|p2a: Magneton
+|-singleturn|p2a: Magneton|Protect
+|move|p1a: In the Way|Ice Beam|p2a: Magneton
+|-activate|p2a: Magneton|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|70/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|76/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|64/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1730233965
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: In the Way|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: In the Way|57/100 tox|[from] Sandstorm
+|-heal|p1a: In the Way|64/100 tox|[from] item: Leftovers
+|-damage|p1a: In the Way|45/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1730233980
+|-curestatus|p1a: In the Way|tox|[from] ability: Natural Cure
+|switch|p1a: Spice of Life|Jirachi|100/100
+|move|p2a: Metagross|Earthquake|p1a: Spice of Life
+|-supereffective|p1a: Spice of Life
+|-damage|p1a: Spice of Life|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Spice of Life|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|blavand has 240 seconds left.
+|
+|t:|1730233996
+|switch|p2a: Celebi|Celebi|85/100
+|move|p1a: Spice of Life|Wish|p1a: Spice of Life
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|79/100|[from] Sandstorm
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|-heal|p1a: Spice of Life|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730234003
+|switch|p1a: Router Start|Tyranitar, F|53/100
+|move|p2a: Celebi|Swords Dance|p2a: Celebi
+|-boost|p2a: Celebi|atk|2
+|
+|-heal|p1a: Router Start|100/100|[from] move: Wish|[wisher] Spice of Life
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|79/100|[from] Sandstorm
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730234007
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1730234010
+|switch|p2a: Swampert|Swampert, F|100/100|[from] Baton Pass
+|move|p1a: Router Start|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|blavand has 270 seconds left.
+|
+|t:|1730234023
+|move|p2a: Swampert|Earthquake|p1a: Router Start
+|-supereffective|p1a: Router Start
+|-damage|p1a: Router Start|0 fnt
+|faint|p1a: Router Start
+|
+|t:|1730234033
+|switch|p1a: End of the Line|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|blavand has 270 seconds left.
+|
+|t:|1730234051
+|move|p1a: End of the Line|Double-Edge|p2a: Swampert
+|-damage|p2a: Swampert|11/100
+|move|p2a: Swampert|Hydro Pump|p1a: End of the Line
+|-supereffective|p1a: End of the Line
+|-damage|p1a: End of the Line|0 fnt
+|faint|p1a: End of the Line
+|c|☆Quarante8|Yeah whatever
+|-message|Quarante8 forfeited.
+|
+|win|blavand
+|player|p1|
+|c|☆blavand|gg
+|c|☆blavand|i got lucky
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803317">
+{"id":"smogtours-gen3ou-803317","format":"[Gen 3] OU","players":["Quarante8","blavand"],"uploadtime":1730234077,"views":99,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

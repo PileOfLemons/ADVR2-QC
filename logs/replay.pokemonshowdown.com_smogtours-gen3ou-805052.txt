@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Elian vs. Ghostfall22 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Elian and Ghostfall22! Format: [Gen 3] OU; Date: Nov 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-805052">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730937408
+|gametype|singles
+|player|p1|Elian|erika-gen2|
+|player|p2|Ghostfall22|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730937408
+|start
+|switch|p1a: Calafiori|Tyranitar, F|100/100
+|switch|p2a: Zaperino|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Calafiori
+|turn|1
+|c|☆Elian|hf
+|c|☆Ghostfall22|hf
+|
+|t:|1730937416
+|switch|p2a: Swamperino|Swampert, M|100/100
+|move|p1a: Calafiori|Rock Slide|p2a: Swamperino
+|-resisted|p2a: Swamperino
+|-damage|p2a: Swamperino|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swamperino|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730937426
+|switch|p1a: Huerta>Mbappe|Starmie|100/100
+|switch|p2a: Skarmorino|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|95/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730937435
+|switch|p2a: Celebino|Celebi|100/100
+|move|p1a: Huerta>Mbappe|Thunderbolt|p2a: Celebino
+|-resisted|p2a: Celebino
+|-damage|p2a: Celebino|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|95/100|[from] Sandstorm
+|-damage|p2a: Celebino|85/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|100/100|[from] item: Leftovers
+|-heal|p2a: Celebino|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730937442
+|move|p1a: Huerta>Mbappe|Ice Beam|p2a: Celebino
+|-supereffective|p2a: Celebino
+|-damage|p2a: Celebino|53/100
+|move|p2a: Celebino|Leech Seed|p1a: Huerta>Mbappe
+|-start|p1a: Huerta>Mbappe|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|95/100|[from] Sandstorm
+|-damage|p2a: Celebino|47/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|100/100|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|88/100|[from] Leech Seed|[of] p2a: Celebino
+|-heal|p2a: Celebino|56/100|[silent]
+|-heal|p2a: Celebino|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730937450
+|switch|p1a: El memote|Charizard, F|100/100
+|switch|p2a: Zaperino|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|94/100|[from] Sandstorm
+|-damage|p2a: Zaperino|94/100|[from] Sandstorm
+|-heal|p1a: El memote|100/100|[from] item: Leftovers
+|-heal|p2a: Zaperino|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730937457
+|switch|p1a: Timber|Claydol|100/100
+|move|p2a: Zaperino|Toxic|p1a: Timber
+|-status|p1a: Timber|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zaperino|94/100|[from] Sandstorm
+|-heal|p2a: Zaperino|100/100|[from] item: Leftovers
+|-damage|p1a: Timber|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1730937464
+|switch|p2a: Celebino|Celebi|62/100
+|switch|p1a: Me at 3 am|Snorlax, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebino|56/100|[from] Sandstorm
+|-damage|p1a: Me at 3 am|94/100|[from] Sandstorm
+|-heal|p2a: Celebino|62/100|[from] item: Leftovers
+|-heal|p1a: Me at 3 am|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730937469
+|-singleturn|p1a: Me at 3 am|move: Focus Punch
+|move|p2a: Celebino|Leech Seed|p1a: Me at 3 am
+|-start|p1a: Me at 3 am|move: Leech Seed
+|move|p1a: Me at 3 am|Focus Punch|p2a: Celebino
+|-resisted|p2a: Celebino
+|-damage|p2a: Celebino|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebino|40/100|[from] Sandstorm
+|-damage|p1a: Me at 3 am|94/100|[from] Sandstorm
+|-heal|p2a: Celebino|46/100|[from] item: Leftovers
+|-heal|p1a: Me at 3 am|100/100|[from] item: Leftovers
+|-damage|p1a: Me at 3 am|88/100|[from] Leech Seed|[of] p2a: Celebino
+|-heal|p2a: Celebino|60/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1730937474
+|switch|p2a: Skarmorino|Skarmory, F|100/100
+|switch|p1a: El memote|Charizard, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|94/100|[from] Sandstorm
+|-heal|p1a: El memote|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730937483
+|switch|p2a: Zaperino|Zapdos|100/100
+|move|p1a: El memote|Fire Blast|p2a: Zaperino
+|-damage|p2a: Zaperino|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|94/100|[from] Sandstorm
+|-damage|p2a: Zaperino|54/100|[from] Sandstorm
+|-heal|p1a: El memote|100/100|[from] item: Leftovers
+|-heal|p2a: Zaperino|60/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730937498
+|switch|p2a: Celebino|Celebi|60/100
+|move|p1a: El memote|Substitute|p1a: El memote
+|-start|p1a: El memote|Substitute
+|-damage|p1a: El memote|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-damage|p2a: Celebino|54/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|-heal|p2a: Celebino|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730937512
+|switch|p2a: Swamperino|Swampert, M|93/100
+|move|p1a: El memote|Fire Blast|p2a: Swamperino
+|-resisted|p2a: Swamperino
+|-crit|p2a: Swamperino
+|-damage|p2a: Swamperino|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|-heal|p2a: Swamperino|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730937517
+|move|p2a: Swamperino|Protect|p2a: Swamperino
+|-singleturn|p2a: Swamperino|Protect
+|move|p1a: El memote|Fire Blast|p2a: Swamperino
+|-activate|p2a: Swamperino|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|-heal|p2a: Swamperino|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730937524
+|switch|p2a: Zaperino|Zapdos|60/100
+|move|p1a: El memote|Hidden Power|p2a: Zaperino
+|-resisted|p2a: Zaperino
+|-damage|p2a: Zaperino|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-damage|p2a: Zaperino|47/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|-heal|p2a: Zaperino|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730937528
+|move|p1a: El memote|Fire Blast|p2a: Zaperino
+|-damage|p2a: Zaperino|13/100
+|move|p2a: Zaperino|Thunderbolt|p1a: El memote
+|-supereffective|p1a: El memote
+|-end|p1a: El memote|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-damage|p2a: Zaperino|6/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|-heal|p2a: Zaperino|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730937541
+|move|p1a: El memote|Fire Blast|p2a: Zaperino
+|-damage|p2a: Zaperino|0 fnt
+|faint|p2a: Zaperino
+|
+|t:|1730937545
+|switch|p2a: Tyranitard|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|70/100|[from] Sandstorm
+|-heal|p1a: El memote|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730937549
+|move|p1a: El memote|Substitute|p1a: El memote
+|-start|p1a: El memote|Substitute
+|-damage|p1a: El memote|51/100
+|move|p2a: Tyranitard|Hidden Power|p1a: El memote
+|-resisted|p1a: El memote
+|-activate|p1a: El memote|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|45/100|[from] Sandstorm
+|-heal|p1a: El memote|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Elian|tutorial
+|c|☆Ghostfall22|pq
+|c|☆Elian|tengo una duda existencial
+|c|☆Elian|ahorita te pido el tutorial
+|inactive|Ghostfall22 has 270 seconds left.
+|
+|t:|1730937595
+|-singleturn|p1a: El memote|move: Focus Punch
+|switch|p2a: Swamperino|Swampert, M|60/100
+|move|p1a: El memote|Focus Punch|p2a: Swamperino
+|-damage|p2a: Swamperino|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|45/100|[from] Sandstorm
+|-heal|p1a: El memote|51/100|[from] item: Leftovers
+|-heal|p2a: Swamperino|45/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730937601
+|move|p2a: Swamperino|Protect|p2a: Swamperino
+|-singleturn|p2a: Swamperino|Protect
+|move|p1a: El memote|Hidden Power|p2a: Swamperino
+|-activate|p2a: Swamperino|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|45/100|[from] Sandstorm
+|-heal|p1a: El memote|51/100|[from] item: Leftovers
+|-heal|p2a: Swamperino|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Ghostfall22 has 270 seconds left.
+|
+|t:|1730937606
+|move|p1a: El memote|Hidden Power|p2a: Swamperino
+|-supereffective|p2a: Swamperino
+|-damage|p2a: Swamperino|0 fnt
+|faint|p2a: Swamperino
+|inactive|Ghostfall22 has 270 seconds left.
+|
+|t:|1730937618
+|switch|p2a: Skarmorino|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|45/100|[from] Sandstorm
+|-heal|p1a: El memote|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆Elian|aun no te diste cuenta
+|c|☆Elian|lmao
+|
+|t:|1730937627
+|-singleturn|p1a: El memote|move: Focus Punch
+|move|p1a: El memote|Focus Punch|p2a: Skarmorino
+|-damage|p2a: Skarmorino|77/100
+|move|p2a: Skarmorino|Roar|p1a: El memote
+|drag|p1a: Timber|Claydol|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmorino|83/100|[from] item: Leftovers
+|-heal|p1a: Timber|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Timber|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|c|☆Ghostfall22|nah
+|
+|t:|1730937641
+|switch|p2a: Celebino|Celebi|60/100
+|switch|p1a: Huerta>Mbappe|Starmie|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|82/100|[from] Sandstorm
+|-damage|p2a: Celebino|54/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|88/100|[from] item: Leftovers
+|-heal|p2a: Celebino|60/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Elian|sabes pq no tiré fire blast?
+|c|☆Ghostfall22|si
+|
+|t:|1730937654
+|switch|p1a: Me at 3 am|Snorlax, M|88/100
+|move|p2a: Celebino|Calm Mind|p2a: Celebino
+|-boost|p2a: Celebino|spa|1
+|-boost|p2a: Celebino|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebino|54/100|[from] Sandstorm
+|-damage|p1a: Me at 3 am|82/100|[from] Sandstorm
+|-heal|p2a: Celebino|60/100|[from] item: Leftovers
+|-heal|p1a: Me at 3 am|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Elian|y pq no fuiste bi antes
+|
+|t:|1730937661
+|switch|p2a: Skarmorino|Skarmory, F|83/100
+|move|p1a: Me at 3 am|Body Slam|p2a: Skarmorino
+|-resisted|p2a: Skarmorino
+|-damage|p2a: Skarmorino|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Me at 3 am|82/100|[from] Sandstorm
+|-heal|p2a: Skarmorino|73/100|[from] item: Leftovers
+|-heal|p1a: Me at 3 am|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Ghostfall22|pq me di cuenta con el skarm
+|
+|t:|1730937671
+|switch|p1a: Huerta>Mbappe|Starmie|88/100
+|move|p2a: Skarmorino|Spikes|p1a: Huerta>Mbappe
+|-sidestart|p1: Elian|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|82/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmorino|79/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆Elian|lmao
+|
+|t:|1730937676
+|move|p1a: Huerta>Mbappe|Ice Beam|p2a: Skarmorino
+|-damage|p2a: Skarmorino|51/100
+|-status|p2a: Skarmorino|frz
+|-curestatus|p2a: Skarmorino|frz|[msg]
+|move|p2a: Skarmorino|Toxic|p1a: Huerta>Mbappe
+|-status|p1a: Huerta>Mbappe|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|82/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|82/100 tox|[from] psn
+|-heal|p2a: Skarmorino|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆Ghostfall22|lloro
+|
+|t:|1730937685
+|switch|p2a: Celebino|Celebi|60/100
+|move|p1a: Huerta>Mbappe|Ice Beam|p2a: Celebino
+|-supereffective|p2a: Celebino
+|-damage|p2a: Celebino|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|76/100 tox|[from] Sandstorm
+|-damage|p2a: Celebino|13/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|70/100 tox|[from] psn
+|-heal|p2a: Celebino|20/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730937692
+|switch|p2a: Skarmorino|Skarmory, F|57/100
+|move|p1a: Huerta>Mbappe|Ice Beam|p2a: Skarmorino
+|-damage|p2a: Skarmorino|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|65/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|53/100 tox|[from] psn
+|-heal|p2a: Skarmorino|39/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730937698
+|-curestatus|p1a: Huerta>Mbappe|tox|[from] ability: Natural Cure
+|switch|p1a: Timber|Claydol|94/100 tox
+|move|p2a: Skarmorino|Spikes|p1a: Timber
+|-sidestart|p1: Elian|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmorino|45/100|[from] item: Leftovers
+|-heal|p1a: Timber|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Timber|94/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1730937705
+|switch|p2a: Celebino|Celebi|20/100
+|move|p1a: Timber|Rapid Spin|p2a: Celebino
+|-crit|p2a: Celebino
+|-damage|p2a: Celebino|12/100
+|-sideend|p1: Elian|Spikes|[from] move: Rapid Spin|[of] p1a: Timber
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebino|6/100|[from] Sandstorm
+|-heal|p2a: Celebino|12/100|[from] item: Leftovers
+|-heal|p1a: Timber|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Timber|88/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1730937710
+|move|p2a: Celebino|Recover|p2a: Celebino
+|-heal|p2a: Celebino|62/100
+|move|p1a: Timber|Explosion|p2a: Celebino
+|-damage|p2a: Celebino|0 fnt
+|faint|p1a: Timber
+|faint|p2a: Celebino
+|
+|t:|1730937719
+|switch|p2a: Drugo|Dugtrio, F|100/100
+|switch|p1a: El memote|Charizard, F|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: El memote|45/100|[from] Sandstorm
+|-heal|p1a: El memote|51/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1730937725
+|switch|p1a: Ninjask?|Metagross|100/100
+|move|p2a: Drugo|Rock Slide|p1a: Ninjask?
+|-resisted|p1a: Ninjask?
+|-damage|p1a: Ninjask?|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ninjask?|96/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730937730
+|switch|p2a: Skarmorino|Skarmory, F|45/100
+|move|p1a: Ninjask?|Meteor Mash|p2a: Skarmorino|[miss]
+|-miss|p1a: Ninjask?|p2a: Skarmorino
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmorino|51/100|[from] item: Leftovers
+|-heal|p1a: Ninjask?|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730937735
+|move|p2a: Skarmorino|Spikes|p1a: Ninjask?
+|-sidestart|p1: Elian|Spikes
+|move|p1a: Ninjask?|Meteor Mash|p2a: Skarmorino
+|-resisted|p2a: Skarmorino
+|-damage|p2a: Skarmorino|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmorino|34/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730937740
+|move|p1a: Ninjask?|Meteor Mash|p2a: Skarmorino|[miss]
+|-miss|p1a: Ninjask?|p2a: Skarmorino
+|move|p2a: Skarmorino|Roar|p1a: Ninjask?
+|drag|p1a: Huerta>Mbappe|Starmie|53/100
+|-damage|p1a: Huerta>Mbappe|40/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|34/100|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|40/100|[from] item: Leftovers
+|-heal|p2a: Skarmorino|40/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730937750
+|move|p1a: Huerta>Mbappe|Recover|p1a: Huerta>Mbappe
+|-heal|p1a: Huerta>Mbappe|90/100
+|move|p2a: Skarmorino|Toxic|p1a: Huerta>Mbappe
+|-status|p1a: Huerta>Mbappe|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|84/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|84/100 tox|[from] psn
+|-heal|p2a: Skarmorino|46/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1730937757
+|switch|p2a: Drugo|Dugtrio, F|100/100
+|move|p1a: Huerta>Mbappe|Ice Beam|p2a: Drugo
+|-supereffective|p2a: Drugo
+|-crit|p2a: Drugo
+|-damage|p2a: Drugo|0 fnt
+|faint|p2a: Drugo
+|
+|t:|1730937766
+|switch|p2a: Tyranitard|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|78/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|72/100 tox|[from] psn
+|upkeep
+|turn|38
+|c|☆Elian|aqui vamos
+|
+|t:|1730937773
+|move|p1a: Huerta>Mbappe|Hydro Pump|p2a: Tyranitard
+|-supereffective|p2a: Tyranitard
+|-damage|p2a: Tyranitard|17/100
+|move|p2a: Tyranitard|Earthquake|p1a: Huerta>Mbappe
+|-damage|p1a: Huerta>Mbappe|26/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|20/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|8/100 tox|[from] psn
+|-heal|p2a: Tyranitard|24/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1730937782
+|switch|p2a: Skarmorino|Skarmory, F|46/100
+|move|p1a: Huerta>Mbappe|Thunderbolt|p2a: Skarmorino
+|-supereffective|p2a: Skarmorino
+|-damage|p2a: Skarmorino|0 fnt
+|faint|p2a: Skarmorino
+|
+|t:|1730937786
+|switch|p2a: Tyranitard|Tyranitar, M|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Huerta>Mbappe|2/100 tox|[from] Sandstorm
+|-heal|p1a: Huerta>Mbappe|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Huerta>Mbappe|0 fnt|[from] psn
+|faint|p1a: Huerta>Mbappe
+|-heal|p2a: Tyranitard|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1730937790
+|switch|p1a: Ninjask?|Metagross|100/100
+|-damage|p1a: Ninjask?|88/100|[from] Spikes
+|turn|40
+|
+|t:|1730937793
+|move|p1a: Ninjask?|Earthquake|p2a: Tyranitard
+|-supereffective|p2a: Tyranitard
+|-damage|p2a: Tyranitard|0 fnt
+|faint|p2a: Tyranitard
+|
+|win|Elian
+|c|☆Elian|ggs
+|c|☆Ghostfall22|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-805052">
+{"id":"smogtours-gen3ou-805052","format":"[Gen 3] OU","players":["Elian","Ghostfall22"],"uploadtime":1730937793,"views":55,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

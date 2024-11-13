@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TefoShark vs. guebor - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TefoShark and guebor! Format: [Gen 3] OU; Date: Oct 16, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799079">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729038122
+|gametype|singles
+|player|p1|TefoShark|acetrainer|
+|player|p2|guebor|colress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729038122
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Jacob|Forretress, M|100/100
+|turn|1
+|
+|t:|1729038131
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Jacob|Spikes|p1a: Magneton
+|-sidestart|p1: TefoShark|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1729038142
+|move|p1a: Magneton|Hidden Power|p2a: Jacob
+|-supereffective|p2a: Jacob
+|-damage|p2a: Jacob|6/100
+|move|p2a: Jacob|Spikes|p1a: Magneton
+|-sidestart|p1: TefoShark|Spikes
+|
+|-heal|p2a: Jacob|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729038148
+|move|p1a: Magneton|Hidden Power|p2a: Jacob
+|-supereffective|p2a: Jacob
+|-damage|p2a: Jacob|0 fnt
+|faint|p2a: Jacob
+|
+|t:|1729038153
+|switch|p2a: Benny|Dugtrio, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729038157
+|move|p2a: Benny|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1729038166
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Benny|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1729038172
+|switch|p2a: Cain the Main Man|Swampert, M|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Cain the Main Man
+|-damage|p2a: Cain the Main Man|66/100
+|
+|-heal|p2a: Cain the Main Man|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|TefoShark has 270 seconds left.
+|
+|t:|1729038206
+|move|p1a: Salamence|Hidden Power|p2a: Cain the Main Man
+|-supereffective|p2a: Cain the Main Man
+|-damage|p2a: Cain the Main Man|0 fnt
+|faint|p2a: Cain the Main Man
+|
+|t:|1729038214
+|switch|p2a: Andy|Zapdos|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1729038220
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|84/100|[from] Spikes
+|move|p2a: Andy|Hidden Power|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|
+|-heal|p1a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729038236
+|move|p2a: Andy|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|49/100
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|-heal|p1a: Snorlax|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆guebor|my b
+|c|☆TefoShark|its ok
+|
+|t:|1729038257
+|move|p2a: Andy|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|24/100 par
+|cant|p1a: Snorlax|par
+|
+|-heal|p1a: Snorlax|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729038271
+|move|p2a: Andy|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|4/100 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Andy
+|-damage|p2a: Andy|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Andy
+|
+|t:|1729038281
+|switch|p2a: Susie|Blissey, F|100/100
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729038288
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Susie|Sing|p1a: Suicune|[miss]
+|-miss|p2a: Susie|p1a: Suicune
+|
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729038297
+|move|p2a: Susie|Sing|p1a: Suicune|[miss]
+|-miss|p2a: Susie|p1a: Suicune
+|move|p1a: Suicune|Roar|p2a: Susie
+|drag|p2a: Benny|Dugtrio, M|100/100
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729038308
+|switch|p2a: Susie|Blissey, F|100/100
+|move|p1a: Suicune|Ice Beam|p2a: Susie
+|-damage|p2a: Susie|84/100
+|
+|-heal|p2a: Susie|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729038314
+|move|p1a: Suicune|Hydro Pump|p2a: Susie
+|-damage|p2a: Susie|62/100
+|move|p2a: Susie|Sing|p1a: Suicune|[miss]
+|-miss|p2a: Susie|p1a: Suicune
+|
+|-heal|p2a: Susie|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729038321
+|move|p1a: Suicune|Hydro Pump|p2a: Susie
+|-damage|p2a: Susie|36/100
+|move|p2a: Susie|Sing|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Sing
+|
+|-heal|p2a: Susie|43/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729038330
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Susie|atk|1
+|move|p2a: Susie|Wish|p2a: Susie
+|
+|-heal|p2a: Susie|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729038339
+|move|p1a: Salamence|Brick Break|p2a: Susie
+|-supereffective|p2a: Susie
+|-damage|p2a: Susie|10/100
+|move|p2a: Susie|Seismic Toss|p1a: Salamence
+|-damage|p1a: Salamence|70/100
+|
+|-heal|p2a: Susie|60/100|[from] move: Wish|[wisher] Susie
+|-heal|p1a: Salamence|76/100|[from] item: Leftovers
+|-heal|p2a: Susie|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729038350
+|move|p1a: Salamence|Brick Break|p2a: Susie
+|-supereffective|p2a: Susie
+|-damage|p2a: Susie|24/100
+|move|p2a: Susie|Soft-Boiled|p2a: Susie
+|-heal|p2a: Susie|74/100
+|
+|-heal|p1a: Salamence|82/100|[from] item: Leftovers
+|-heal|p2a: Susie|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729038362
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|84/100|[from] Spikes
+|move|p2a: Susie|Seismic Toss|p1a: Heracross
+|-damage|p1a: Heracross|50/100
+|
+|-heal|p2a: Susie|86/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729038375
+|move|p1a: Heracross|Substitute|p1a: Heracross
+|-start|p1a: Heracross|Substitute
+|-damage|p1a: Heracross|25/100
+|move|p2a: Susie|Seismic Toss|p1a: Heracross
+|-end|p1a: Heracross|Substitute
+|
+|-enditem|p1a: Heracross|Salac Berry|[eat]
+|-boost|p1a: Heracross|spe|1|[from] item: Salac Berry
+|-heal|p2a: Susie|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729038383
+|move|p1a: Heracross|Megahorn|p2a: Susie
+|-damage|p2a: Susie|7/100
+|move|p2a: Susie|Seismic Toss|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|t:|1729038387
+|switch|p1a: Salamence|Salamence, M|82/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Susie|atk|1
+|
+|-heal|p1a: Salamence|88/100|[from] item: Leftovers
+|-heal|p2a: Susie|14/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729038398
+|move|p1a: Salamence|Brick Break|p2a: Susie
+|-supereffective|p2a: Susie
+|-crit|p2a: Susie
+|-damage|p2a: Susie|0 fnt
+|faint|p2a: Susie
+|
+|t:|1729038403
+|switch|p2a: Jeri|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Jeri
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|82/100|[from] Sandstorm
+|-heal|p1a: Salamence|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729038411
+|move|p1a: Salamence|Brick Break|p2a: Jeri
+|-supereffective|p2a: Jeri
+|-damage|p2a: Jeri|32/100
+|move|p2a: Jeri|Crunch|p1a: Salamence
+|-damage|p1a: Salamence|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|35/100|[from] Sandstorm
+|-heal|p1a: Salamence|41/100|[from] item: Leftovers
+|-heal|p2a: Jeri|38/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729038421
+|move|p1a: Salamence|Brick Break|p2a: Jeri
+|-supereffective|p2a: Jeri
+|-damage|p2a: Jeri|0 fnt
+|faint|p2a: Jeri
+|
+|t:|1729038425
+|switch|p2a: Benny|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|35/100|[from] Sandstorm
+|-heal|p1a: Salamence|41/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729038430
+|move|p2a: Benny|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1729038433
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|c|☆guebor|ggs!
+|c|☆guebor|Good work!
+|
+|t:|1729038439
+|move|p2a: Benny|Rock Slide|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|73/100
+|cant|p1a: Metagross|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|c|☆TefoShark|gg!
+|c|☆TefoShark|i got a little lucky tho
+|c|☆TefoShark|gg wp
+|
+|t:|1729038448
+|move|p2a: Benny|Rock Slide|p1a: Metagross|[miss]
+|-miss|p2a: Benny|p1a: Metagross
+|move|p1a: Metagross|Earthquake|p2a: Benny
+|-damage|p2a: Benny|0 fnt
+|faint|p2a: Benny
+|
+|win|TefoShark
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799079">
+{"id":"smogtours-gen3ou-799079","format":"[Gen 3] OU","players":["TefoShark","guebor"],"uploadtime":1729038448,"views":101,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

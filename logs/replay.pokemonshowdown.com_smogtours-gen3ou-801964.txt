@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Rebatca vs. prof clue - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Rebatca and prof clue! Format: [Gen 3] OU; Date: Oct 25, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801964">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729896719
+|gametype|singles
+|player|p1|Rebatca|dawn|
+|player|p2|prof clue|ruinmaniac-gen3rs|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729896719
+|start
+|switch|p1a: General Manager|Marowak, F|100/100
+|switch|p2a: bell x-1|Skarmory, F|100/100
+|turn|1
+|c|☆prof clue|whelp you're about to learn my dark secret
+|c|☆Rebatca|oh?
+|c|☆prof clue|i only actually know how to pilot two teams :(
+|inactive|prof clue has 270 seconds left.
+|
+|t:|1729896760
+|-singleturn|p1a: General Manager|move: Focus Punch
+|move|p2a: bell x-1|Toxic|p1a: General Manager
+|-status|p1a: General Manager|tox
+|move|p1a: General Manager|Focus Punch|p2a: bell x-1
+|-damage|p2a: bell x-1|39/100
+|
+|-heal|p2a: bell x-1|45/100|[from] item: Leftovers
+|-damage|p1a: General Manager|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1729896771
+|switch|p1a: Third dan|Magneton, shiny|100/100
+|move|p2a: bell x-1|Protect||[still]
+|-fail|p2a: bell x-1
+|
+|-heal|p2a: bell x-1|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729896777
+|move|p1a: Third dan|Thunderbolt|p2a: bell x-1
+|-supereffective|p2a: bell x-1
+|-damage|p2a: bell x-1|0 fnt
+|faint|p2a: bell x-1
+|
+|t:|1729896801
+|switch|p2a: staples|Blissey, F, shiny|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729896819
+|move|p1a: Third dan|Toxic|p2a: staples
+|-status|p2a: staples|tox
+|move|p2a: staples|Fire Blast|p1a: Third dan
+|-supereffective|p1a: Third dan
+|-damage|p1a: Third dan|0 fnt
+|faint|p1a: Third dan
+|inactive|Rebatca has 270 seconds left.
+|
+|t:|1729896848
+|switch|p1a: General Manager|Marowak, F|94/100 tox
+|
+|-damage|p2a: staples|94/100 tox|[from] psn
+|-damage|p1a: General Manager|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Rebatca has 270 seconds left.
+|
+|t:|1729896863
+|-curestatus|p2a: staples|tox|[from] ability: Natural Cure
+|switch|p2a: nervous ned|Gengar, F|100/100
+|move|p1a: General Manager|Ancient Power|p2a: nervous ned
+|-damage|p2a: nervous ned|47/100
+|
+|-heal|p2a: nervous ned|53/100|[from] item: Leftovers
+|-damage|p1a: General Manager|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|Rebatca has 270 seconds left.
+|inactive|Rebatca has 240 seconds left.
+|
+|t:|1729896903
+|switch|p2a: sam shakeylegs|Swampert, F|100/100
+|switch|p1a: Chariman Regis|Registeel, shiny|100/100
+|
+|upkeep
+|turn|7
+|inactive|Rebatca has 240 seconds left.
+|
+|t:|1729896918
+|switch|p1a: The Duke of Spook|Gengar, M|100/100
+|move|p2a: sam shakeylegs|Protect||[still]
+|-fail|p2a: sam shakeylegs
+|
+|upkeep
+|turn|8
+|inactive|Rebatca has 240 seconds left.
+|
+|t:|1729896927
+|switch|p1a: Lt. Sleepyhead|Snorlax, M, shiny|100/100
+|switch|p2a: glhf|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: glhf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|inactive|Rebatca has 240 seconds left.
+|
+|t:|1729896951
+|move|p2a: glhf|Rock Slide|p1a: Lt. Sleepyhead
+|-damage|p1a: Lt. Sleepyhead|60/100
+|move|p1a: Lt. Sleepyhead|Earthquake|p2a: glhf
+|-supereffective|p2a: glhf
+|-damage|p2a: glhf|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|54/100|[from] Sandstorm
+|-heal|p2a: glhf|24/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆Rebatca|making my ptsd act up there
+|inactive|Rebatca has 210 seconds left.
+|inactive|prof clue has 270 seconds left.
+|c|☆prof clue|with the dark secret comment or the ttar?
+|
+|t:|1729896998
+|switch|p2a: sam shakeylegs|Swampert, F|100/100
+|switch|p1a: General Manager|Marowak, F|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: General Manager|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|prof clue has 270 seconds left.
+|c|☆Rebatca|rock slide
+|inactive|Rebatca has 180 seconds left.
+|
+|t:|1729897035
+|move|p2a: sam shakeylegs|Hydro Pump|p1a: General Manager
+|-supereffective|p1a: General Manager
+|-damage|p1a: General Manager|0 fnt
+|faint|p1a: General Manager
+|c|☆prof clue|oh, lol. nah im not getting bailed out like that again
+|
+|t:|1729897053
+|switch|p1a: The Duke of Spook|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Duke of Spook|95/100|[from] Sandstorm
+|-heal|p1a: The Duke of Spook|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729897062
+|move|p2a: sam shakeylegs|Protect|p2a: sam shakeylegs
+|-singleturn|p2a: sam shakeylegs|Protect
+|move|p1a: The Duke of Spook|Toxic|p2a: sam shakeylegs
+|-activate|p2a: sam shakeylegs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Duke of Spook|95/100|[from] Sandstorm
+|-heal|p1a: The Duke of Spook|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729897076
+|switch|p2a: staples|Blissey, F, shiny|94/100
+|move|p1a: The Duke of Spook|Thunderbolt|p2a: staples
+|-damage|p2a: staples|79/100
+|-status|p2a: staples|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Duke of Spook|95/100|[from] Sandstorm
+|-damage|p2a: staples|73/100 par|[from] Sandstorm
+|-heal|p1a: The Duke of Spook|100/100|[from] item: Leftovers
+|-heal|p2a: staples|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Rebatca has 180 seconds left.
+|inactive|prof clue has 270 seconds left.
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897113
+|switch|p1a: Lt. Sleepyhead|Snorlax, M, shiny|54/100
+|-curestatus|p2a: staples|par|[from] ability: Natural Cure
+|switch|p2a: sam shakeylegs|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|48/100|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|prof clue has 270 seconds left.
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897138
+|move|p2a: sam shakeylegs|Protect|p2a: sam shakeylegs
+|-singleturn|p2a: sam shakeylegs|Protect
+|move|p1a: Lt. Sleepyhead|Body Slam|p2a: sam shakeylegs
+|-activate|p2a: sam shakeylegs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|41/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|prof clue has 270 seconds left.
+|
+|t:|1729897150
+|move|p2a: sam shakeylegs|Hydro Pump|p1a: Lt. Sleepyhead
+|-damage|p1a: Lt. Sleepyhead|19/100
+|move|p1a: Lt. Sleepyhead|Body Slam|p2a: sam shakeylegs
+|-damage|p2a: sam shakeylegs|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|13/100|[from] Sandstorm
+|-heal|p2a: sam shakeylegs|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729897174
+|move|p2a: sam shakeylegs|Protect|p2a: sam shakeylegs
+|-singleturn|p2a: sam shakeylegs|Protect
+|move|p1a: Lt. Sleepyhead|Body Slam|p2a: sam shakeylegs
+|-activate|p2a: sam shakeylegs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|7/100|[from] Sandstorm
+|-heal|p2a: sam shakeylegs|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729897194
+|move|p2a: sam shakeylegs|Hydro Pump|p1a: Lt. Sleepyhead|[miss]
+|-miss|p2a: sam shakeylegs|p1a: Lt. Sleepyhead
+|move|p1a: Lt. Sleepyhead|Body Slam|p2a: sam shakeylegs
+|-damage|p2a: sam shakeylegs|14/100
+|-status|p2a: sam shakeylegs|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lt. Sleepyhead|1/100|[from] Sandstorm
+|-heal|p2a: sam shakeylegs|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Rebatca has 120 seconds left.
+|
+|t:|1729897236
+|switch|p1a: Chariman Regis|Registeel, shiny|100/100
+|move|p2a: sam shakeylegs|Protect||[still]
+|-fail|p2a: sam shakeylegs
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sam shakeylegs|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729897252
+|switch|p1a: The Duke of Spook|Gengar, M|100/100
+|cant|p2a: sam shakeylegs|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Duke of Spook|95/100|[from] Sandstorm
+|-heal|p1a: The Duke of Spook|100/100|[from] item: Leftovers
+|-heal|p2a: sam shakeylegs|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729897262
+|move|p2a: sam shakeylegs|Protect|p2a: sam shakeylegs
+|-singleturn|p2a: sam shakeylegs|Protect
+|move|p1a: The Duke of Spook|Thunderbolt|p2a: sam shakeylegs
+|-activate|p2a: sam shakeylegs|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Duke of Spook|95/100|[from] Sandstorm
+|-heal|p1a: The Duke of Spook|100/100|[from] item: Leftovers
+|-heal|p2a: sam shakeylegs|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729897271
+|switch|p2a: staples|Blissey, F, shiny|79/100
+|move|p1a: The Duke of Spook|Explosion|p2a: staples
+|-damage|p2a: staples|7/100
+|faint|p1a: The Duke of Spook
+|c|☆prof clue|not sure how to feel about that
+|inactive|Rebatca has 90 seconds left.
+|
+|t:|1729897297
+|switch|p1a: Father Sal|Salamence, M|100/100
+|-ability|p1a: Father Sal|Intimidate|boost
+|-unboost|p2a: staples|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Father Sal|94/100|[from] Sandstorm
+|-damage|p2a: staples|0 fnt|[from] Sandstorm
+|faint|p2a: staples
+|upkeep
+|
+|t:|1729897304
+|switch|p2a: its a livin|Starmie|100/100
+|turn|23
+|
+|t:|1729897317
+|switch|p1a: Lt. Sleepyhead|Snorlax, M, shiny|1/100
+|move|p2a: its a livin|Ice Beam|p1a: Lt. Sleepyhead
+|-damage|p1a: Lt. Sleepyhead|0 fnt
+|faint|p1a: Lt. Sleepyhead
+|
+|t:|1729897322
+|switch|p1a: Chariman Regis|Registeel, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729897337
+|switch|p2a: nervous ned|Gengar, F|53/100
+|move|p1a: Chariman Regis|Curse|p1a: Chariman Regis
+|-unboost|p1a: Chariman Regis|spe|1
+|-boost|p1a: Chariman Regis|atk|1
+|-boost|p1a: Chariman Regis|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|47/100|[from] Sandstorm
+|-heal|p2a: nervous ned|53/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729897350
+|move|p2a: nervous ned|Will-O-Wisp|p1a: Chariman Regis|[miss]
+|-miss|p2a: nervous ned|p1a: Chariman Regis
+|move|p1a: Chariman Regis|Hidden Power|p2a: nervous ned
+|-damage|p2a: nervous ned|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|9/100|[from] Sandstorm
+|-heal|p2a: nervous ned|15/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729897358
+|move|p2a: nervous ned|Will-O-Wisp|p1a: Chariman Regis
+|-status|p1a: Chariman Regis|brn
+|move|p1a: Chariman Regis|Curse|p1a: Chariman Regis
+|-unboost|p1a: Chariman Regis|spe|1
+|-boost|p1a: Chariman Regis|atk|1
+|-boost|p1a: Chariman Regis|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|9/100|[from] Sandstorm
+|-heal|p2a: nervous ned|15/100|[from] item: Leftovers
+|-damage|p1a: Chariman Regis|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|Rebatca has 120 seconds left.
+|
+|t:|1729897369
+|move|p2a: nervous ned|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|73/100 brn
+|move|p1a: Chariman Regis|Curse|p1a: Chariman Regis
+|-unboost|p1a: Chariman Regis|spe|1
+|-boost|p1a: Chariman Regis|atk|1
+|-boost|p1a: Chariman Regis|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|9/100|[from] Sandstorm
+|-heal|p2a: nervous ned|15/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Chariman Regis|66/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|Rebatca has 120 seconds left.
+|
+|t:|1729897383
+|move|p2a: nervous ned|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|51/100 brn
+|move|p1a: Chariman Regis|Curse|p1a: Chariman Regis
+|-unboost|p1a: Chariman Regis|spe|1
+|-boost|p1a: Chariman Regis|atk|1
+|-boost|p1a: Chariman Regis|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|9/100|[from] Sandstorm
+|-heal|p2a: nervous ned|15/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Chariman Regis|45/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1729897394
+|move|p2a: nervous ned|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|31/100 brn
+|move|p1a: Chariman Regis|Rest|p1a: Chariman Regis
+|-status|p1a: Chariman Regis|slp|[from] move: Rest
+|-heal|p1a: Chariman Regis|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: nervous ned|9/100|[from] Sandstorm
+|-heal|p2a: nervous ned|15/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729897403
+|move|p2a: nervous ned|Explosion|p1a: Chariman Regis
+|-resisted|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|93/100 slp
+|faint|p2a: nervous ned
+|
+|t:|1729897416
+|switch|p2a: its a livin|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897425
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|72/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897444
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|52/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897459
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|29/100 slp
+|-curestatus|p1a: Chariman Regis|slp|[msg]
+|move|p1a: Chariman Regis|Rest|p1a: Chariman Regis
+|-status|p1a: Chariman Regis|slp|[from] move: Rest
+|-heal|p1a: Chariman Regis|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729897481
+|switch|p2a: glhf|Tyranitar, F|24/100
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: glhf|30/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897487
+|-singleturn|p2a: glhf|move: Focus Punch
+|cant|p1a: Chariman Regis|slp
+|move|p2a: glhf|Focus Punch|p1a: Chariman Regis
+|-supereffective|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|76/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: glhf|36/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆prof clue|whelp
+|c|☆prof clue|im scared
+|
+|t:|1729897508
+|-singleturn|p2a: glhf|move: Focus Punch
+|-curestatus|p1a: Chariman Regis|slp|[msg]
+|move|p1a: Chariman Regis|Earthquake|p2a: glhf
+|-supereffective|p2a: glhf
+|-damage|p2a: glhf|0 fnt
+|faint|p2a: glhf
+|inactive|prof clue has 270 seconds left.
+|
+|t:|1729897518
+|switch|p2a: its a livin|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|94/100|[from] Sandstorm
+|-heal|p2a: its a livin|100/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|88/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆Rebatca|me too
+|
+|t:|1729897538
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|59/100
+|move|p1a: Chariman Regis|Earthquake|p2a: its a livin
+|-damage|p2a: its a livin|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|Rebatca has 150 seconds left.
+|
+|t:|1729897573
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|39/100
+|move|p1a: Chariman Regis|Rest|p1a: Chariman Regis
+|-status|p1a: Chariman Regis|slp|[from] move: Rest
+|-heal|p1a: Chariman Regis|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729897593
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|70/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729897601
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|48/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729897610
+|move|p2a: its a livin|Hydro Pump|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|26/100 slp
+|-curestatus|p1a: Chariman Regis|slp|[msg]
+|move|p1a: Chariman Regis|Rest|p1a: Chariman Regis
+|-status|p1a: Chariman Regis|slp|[from] move: Rest
+|-heal|p1a: Chariman Regis|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729897621
+|move|p2a: its a livin|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|86/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729897629
+|move|p2a: its a livin|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|76/100 slp
+|cant|p1a: Chariman Regis|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: its a livin|2/100|[from] Sandstorm
+|-heal|p2a: its a livin|8/100|[from] item: Leftovers
+|-heal|p1a: Chariman Regis|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729897638
+|move|p2a: its a livin|Thunderbolt|p1a: Chariman Regis
+|-damage|p1a: Chariman Regis|67/100 slp
+|-curestatus|p1a: Chariman Regis|slp|[msg]
+|move|p1a: Chariman Regis|Earthquake|p2a: its a livin
+|-damage|p2a: its a livin|0 fnt
+|faint|p2a: its a livin
+|
+|t:|1729897645
+|switch|p2a: sam shakeylegs|Swampert, F|39/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Chariman Regis|73/100|[from] item: Leftovers
+|-heal|p2a: sam shakeylegs|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|c|☆prof clue|outta juice
+|
+|t:|1729897657
+|move|p1a: Chariman Regis|Earthquake|p2a: sam shakeylegs
+|-damage|p2a: sam shakeylegs|0 fnt
+|faint|p2a: sam shakeylegs
+|
+|win|Rebatca
+|c|☆prof clue|gg
+|c|☆Rebatca|ahhh gg
+|c|☆Rebatca|gg
+|c|☆Rebatca|i was trembling lol
+|c|☆prof clue|m2m2
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801964">
+{"id":"smogtours-gen3ou-801964","format":"[Gen 3] OU","players":["Rebatca","prof clue"],"uploadtime":1729897657,"views":98,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

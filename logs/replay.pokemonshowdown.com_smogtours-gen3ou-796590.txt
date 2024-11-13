@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: qsns vs. no more bad dreams - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between qsns and no more bad dreams! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796590">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728450128
+|gametype|singles
+|player|p1|qsns|#scl4islanders2|
+|player|p2|no more bad dreams|skullgruntf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728450128
+|start
+|switch|p1a: Jynx|Jynx, F|100/100
+|switch|p2a: Airmure|Skarmory, M|100/100
+|turn|1
+|c|☆qsns|hf
+|c|☆no more bad dreams|hf
+|
+|t:|1728450139
+|move|p1a: Jynx|Lovely Kiss|p2a: Airmure
+|-status|p2a: Airmure|slp|[from] move: Lovely Kiss
+|cant|p2a: Airmure|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1728450142
+|switch|p2a: Tyranocif|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranocif
+|move|p1a: Jynx|Ice Beam|p2a: Tyranocif
+|-damage|p2a: Tyranocif|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jynx|94/100|[from] Sandstorm
+|-heal|p2a: Tyranocif|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728450170
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Tyranocif|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|63/100|[from] Sandstorm
+|-heal|p1a: Suicune|69/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728450181
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Leuphorie|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|94/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728450183
+|move|p1a: Dugtrio|Earthquake|p2a: Leuphorie
+|-damage|p2a: Leuphorie|49/100
+|move|p2a: Leuphorie|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leuphorie|43/100|[from] Sandstorm
+|-heal|p2a: Leuphorie|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728450185
+|move|p1a: Dugtrio|Earthquake|p2a: Leuphorie
+|-damage|p2a: Leuphorie|0 fnt
+|faint|p2a: Leuphorie
+|
+|t:|1728450190
+|switch|p2a: Kaorine|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1728450199
+|switch|p1a: Suicune|Suicune|69/100
+|move|p2a: Kaorine|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|32/100|[from] Sandstorm
+|-heal|p1a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728450203
+|move|p1a: Suicune|Hydro Pump|p2a: Kaorine
+|-supereffective|p2a: Kaorine
+|-damage|p2a: Kaorine|8/100
+|move|p2a: Kaorine|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|2/100|[from] Sandstorm
+|-heal|p1a: Suicune|8/100|[from] item: Leftovers
+|-heal|p2a: Kaorine|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728450207
+|move|p1a: Suicune|Ice Beam|p2a: Kaorine
+|-supereffective|p2a: Kaorine
+|-damage|p2a: Kaorine|0 fnt
+|faint|p2a: Kaorine
+|
+|t:|1728450209
+|switch|p2a: Ectoplasma|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ectoplasma|95/100|[from] Sandstorm
+|-damage|p1a: Suicune|2/100|[from] Sandstorm
+|-heal|p2a: Ectoplasma|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|8/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728450211
+|move|p2a: Ectoplasma|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1728450218
+|switch|p1a: Jynx|Jynx, F|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ectoplasma|95/100|[from] Sandstorm
+|-damage|p1a: Jynx|88/100|[from] Sandstorm
+|-heal|p2a: Ectoplasma|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728450222
+|move|p2a: Ectoplasma|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|55/100
+|move|p1a: Jynx|Ice Beam|p2a: Ectoplasma
+|-damage|p2a: Ectoplasma|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ectoplasma|34/100|[from] Sandstorm
+|-damage|p1a: Jynx|49/100|[from] Sandstorm
+|-heal|p2a: Ectoplasma|40/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728450227
+|move|p2a: Ectoplasma|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p2a: Ectoplasma
+|faint|p1a: Jynx
+|
+|t:|1728450233
+|switch|p2a: Laggron|Swampert, M|100/100
+|switch|p1a: Dugtrio|Dugtrio, F|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1728450238
+|move|p1a: Dugtrio|Earthquake|p2a: Laggron
+|-damage|p2a: Laggron|62/100
+|move|p2a: Laggron|Surf|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1728450243
+|switch|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Laggron|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728450245
+|move|p2a: Laggron|Protect|p2a: Laggron
+|-singleturn|p2a: Laggron|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Laggron
+|-activate|p2a: Laggron|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Laggron|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728450248
+|switch|p2a: Airmure|Skarmory, M|100/100 slp
+|move|p1a: Gengar|Hidden Power|p2a: Airmure
+|-resisted|p2a: Airmure
+|-damage|p2a: Airmure|96/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Airmure|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728450254
+|switch|p2a: Laggron|Swampert, M|74/100
+|move|p1a: Gengar|Hidden Power|p2a: Laggron
+|-supereffective|p2a: Laggron
+|-damage|p2a: Laggron|0 fnt
+|faint|p2a: Laggron
+|
+|t:|1728450258
+|switch|p2a: Tyranocif|Tyranitar, M|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728450264
+|move|p1a: Gengar|Hidden Power|p2a: Tyranocif
+|-supereffective|p2a: Tyranocif
+|-damage|p2a: Tyranocif|42/100
+|move|p2a: Tyranocif|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|22/100|[from] Sandstorm
+|-heal|p1a: Gengar|28/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728450270
+|move|p1a: Gengar|Hidden Power|p2a: Tyranocif
+|-supereffective|p2a: Tyranocif
+|-damage|p2a: Tyranocif|8/100
+|move|p2a: Tyranocif|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|t:|1728450275
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranocif|14/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728450277
+|move|p1a: Zapdos|Thunderbolt|p2a: Tyranocif
+|-damage|p2a: Tyranocif|0 fnt
+|faint|p2a: Tyranocif
+|
+|t:|1728450278
+|switch|p2a: Airmure|Skarmory, M|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728450280
+|move|p1a: Zapdos|Thunderbolt|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|2/100 slp
+|cant|p2a: Airmure|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Airmure|8/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728450282
+|move|p1a: Zapdos|Thunderbolt|p2a: Airmure
+|-supereffective|p2a: Airmure
+|-damage|p2a: Airmure|0 fnt
+|faint|p2a: Airmure
+|
+|win|qsns
+|c|☆no more bad dreams|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796590">
+{"id":"smogtours-gen3ou-796590","format":"[Gen 3] OU","players":["qsns","no more bad dreams"],"uploadtime":1728450282,"views":110,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

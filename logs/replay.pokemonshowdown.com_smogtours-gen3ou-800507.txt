@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TheLargestLad vs. xXEricXx - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TheLargestLad and xXEricXx! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800507">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729440839
+|gametype|singles
+|player|p1|TheLargestLad|wattson|
+|player|p2|xXEricXx|red|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729440839
+|start
+|switch|p1a: Soil Enthusiast|Tyranitar, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆xXEricXx|hf
+|
+|t:|1729440848
+|switch|p2a: Swampert|Swampert, M, shiny|100/100
+|move|p1a: Soil Enthusiast|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729440862
+|switch|p1a: Dashie Games|Skarmory, F|100/100
+|move|p2a: Swampert|Ice Beam|p1a: Dashie Games
+|-damage|p1a: Dashie Games|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Dashie Games|89/100|[from] item: Leftovers
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729440874
+|switch|p2a: Starmie|Starmie, shiny|100/100
+|move|p1a: Dashie Games|Spikes|p2a: Starmie
+|-sidestart|p2: xXEricXx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Dashie Games|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729440881
+|move|p2a: Starmie|Thunder Wave|p1a: Dashie Games
+|-status|p1a: Dashie Games|par
+|move|p1a: Dashie Games|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|-heal|p1a: Dashie Games|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729440886
+|move|p1a: Dashie Games|Protect|p1a: Dashie Games
+|-singleturn|p1a: Dashie Games|Protect
+|move|p2a: Starmie|Rapid Spin|p1a: Dashie Games
+|-activate|p1a: Dashie Games|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|88/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1729440889
+|switch|p1a: Lead Poisoning|Gengar, M|100/100
+|move|p2a: Starmie|Rapid Spin|p1a: Lead Poisoning
+|-immune|p1a: Lead Poisoning
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100 tox|[from] Sandstorm
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|63/100 tox|[from] psn
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729440896
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Spikes
+|move|p1a: Lead Poisoning|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|82/100 brn|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1729440905
+|switch|p1a: Soil Enthusiast|Tyranitar, F|100/100
+|move|p2a: Celebi|Psychic|p1a: Soil Enthusiast
+|-immune|p1a: Soil Enthusiast
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100 brn|[from] Sandstorm
+|-heal|p2a: Celebi|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|63/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1729440910
+|-activate|p2a: Celebi|move: Pursuit
+|move|p1a: Soil Enthusiast|Pursuit|p2a: Celebi|[from]Pursuit
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|9/100 brn
+|-curestatus|p2a: Celebi|brn|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, M, shiny|94/100
+|-damage|p2a: Swampert|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729440923
+|switch|p1a: Dashie Games|Skarmory, F|100/100 par
+|move|p2a: Swampert|Earthquake|p1a: Dashie Games
+|-immune|p1a: Dashie Games
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729440932
+|switch|p2a: Starmie|Starmie, shiny|63/100
+|-damage|p2a: Starmie|51/100|[from] Spikes
+|move|p1a: Dashie Games|Roar|p2a: Starmie
+|drag|p2a: Swampert|Swampert, M, shiny|94/100
+|-damage|p2a: Swampert|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729440941
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Dashie Games|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1729440946
+|switch|p1a: Lead Poisoning|Gengar, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Lead Poisoning
+|-sidestart|p1: TheLargestLad|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729440954
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Lead Poisoning|Taunt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729440962
+|move|p1a: Lead Poisoning|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|44/100
+|move|p2a: Skarmory|Drill Peck|p1a: Lead Poisoning
+|-damage|p1a: Lead Poisoning|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|59/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729440968
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Lead Poisoning|Will-O-Wisp|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|59/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1729441016
+|switch|p2a: Celebi|Celebi|9/100
+|-damage|p2a: Celebi|0 fnt|[from] Spikes
+|faint|p2a: Celebi
+|
+|t:|1729441019
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|59/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729441030
+|switch|p1a: Green.|Flygon, M|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Green.
+|-resisted|p1a: Green.
+|-damage|p1a: Green.|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Green.|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1729441061
+|switch|p2a: Skarmory|Skarmory, F|56/100
+|move|p1a: Green.|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Green.|93/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729441067
+|switch|p1a: Bucket|Moltres|100/100
+|move|p2a: Skarmory|Drill Peck|p1a: Bucket
+|-damage|p1a: Bucket|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|66/100|[from] Sandstorm
+|-heal|p1a: Bucket|72/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729441073
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Bucket|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|66/100|[from] Sandstorm
+|-heal|p1a: Bucket|72/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1729441131
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Bucket|Will-O-Wisp|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|66/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|88/100 brn|[from] brn
+|-heal|p1a: Bucket|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729441144
+|switch|p2a: Starmie|Starmie, shiny|51/100
+|-damage|p2a: Starmie|39/100|[from] Spikes
+|switch|p1a: Dashie Games|Skarmory, F|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|32/100|[from] Sandstorm
+|-heal|p2a: Starmie|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729441151
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|88/100
+|cant|p1a: Dashie Games|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729441156
+|move|p2a: Starmie|Surf|p1a: Dashie Games
+|-damage|p1a: Dashie Games|68/100 par
+|move|p1a: Dashie Games|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|-heal|p1a: Dashie Games|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1729441169
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|74/100
+|cant|p1a: Dashie Games|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p1a: Dashie Games|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1729441180
+|switch|p2a: Starmie|Starmie, shiny|82/100
+|-damage|p2a: Starmie|70/100|[from] Spikes
+|move|p1a: Dashie Games|Spikes|p2a: Starmie
+|-sidestart|p2: xXEricXx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|64/100|[from] Sandstorm
+|-heal|p2a: Starmie|70/100|[from] item: Leftovers
+|-heal|p1a: Dashie Games|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1729441189
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: Dashie Games|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|-heal|p1a: Dashie Games|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729441196
+|move|p1a: Dashie Games|Protect|p1a: Dashie Games
+|-singleturn|p1a: Dashie Games|Protect
+|move|p2a: Starmie|Rapid Spin|p1a: Dashie Games
+|-activate|p1a: Dashie Games|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|88/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|82/100 tox|[from] psn
+|-heal|p1a: Dashie Games|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729441202
+|move|p2a: Starmie|Rapid Spin|p1a: Dashie Games
+|-resisted|p1a: Dashie Games
+|-crit|p1a: Dashie Games
+|-damage|p1a: Dashie Games|95/100 par
+|-sideend|p2: xXEricXx|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|cant|p1a: Dashie Games|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|63/100 tox|[from] psn
+|-heal|p1a: Dashie Games|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729441207
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Dashie Games|Spikes|p2a: Tyranitar
+|-sidestart|p2: xXEricXx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1729441216
+|move|p2a: Tyranitar|Rock Slide|p1a: Dashie Games
+|-damage|p1a: Dashie Games|70/100 par
+|move|p1a: Dashie Games|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|-heal|p1a: Dashie Games|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1729441227
+|switch|p1a: Green.|Flygon, M|93/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 tox|[from] psn
+|-heal|p1a: Green.|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1729441239
+|move|p2a: Tyranitar|Hidden Power|p1a: Green.
+|-damage|p1a: Green.|71/100
+|move|p1a: Green.|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|23/100 tox|[from] psn
+|-heal|p1a: Green.|77/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1729441257
+|move|p1a: Green.|Protect|p1a: Green.
+|-singleturn|p1a: Green.|Protect
+|move|p2a: Tyranitar|Hidden Power|p1a: Green.
+|-activate|p1a: Green.|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|4/100 tox|[from] psn
+|-heal|p1a: Green.|83/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729441266
+|switch|p1a: Dashie Games|Skarmory, F|76/100 par
+|move|p2a: Tyranitar|Rock Slide|p1a: Dashie Games
+|-damage|p1a: Dashie Games|29/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|11/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|-heal|p1a: Dashie Games|35/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1729441270
+|switch|p2a: Starmie|Starmie, shiny|63/100
+|-damage|p2a: Starmie|51/100|[from] Spikes
+|turn|37
+|
+|t:|1729441276
+|switch|p1a: Green.|Flygon, M|83/100
+|move|p2a: Starmie|Surf|p1a: Green.
+|-damage|p1a: Green.|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|45/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: Green.|53/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729441283
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: Green.|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|55/100|[from] Sandstorm
+|-heal|p2a: Starmie|61/100|[from] item: Leftovers
+|-heal|p1a: Green.|59/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729441289
+|move|p1a: Green.|Protect|p1a: Green.
+|-singleturn|p1a: Green.|Protect
+|move|p2a: Starmie|Surf|p1a: Green.
+|-activate|p1a: Green.|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|55/100|[from] Sandstorm
+|-heal|p2a: Starmie|61/100|[from] item: Leftovers
+|-heal|p1a: Green.|65/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729441291
+|move|p2a: Starmie|Surf|p1a: Green.
+|-damage|p1a: Green.|29/100
+|move|p1a: Green.|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|55/100 tox|[from] Sandstorm
+|-heal|p2a: Starmie|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|55/100 tox|[from] psn
+|-heal|p1a: Green.|35/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729441300
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|80/100
+|switch|p1a: Starbaby|Jirachi|100/100
+|-damage|p1a: Starbaby|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729441307
+|move|p1a: Starbaby|Wish|p1a: Starbaby
+|move|p2a: Skarmory|Roar|p1a: Starbaby
+|drag|p1a: Soil Enthusiast|Tyranitar, F|100/100
+|-damage|p1a: Soil Enthusiast|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|-heal|p1a: Soil Enthusiast|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729441320
+|move|p2a: Skarmory|Spikes|p1a: Soil Enthusiast
+|-sidestart|p1: TheLargestLad|Spikes
+|move|p1a: Soil Enthusiast|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|63/100
+|
+|-heal|p1a: Soil Enthusiast|100/100|[from] move: Wish|[wisher] Starbaby
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729441326
+|move|p2a: Skarmory|Spikes|p1a: Soil Enthusiast
+|-sidestart|p1: TheLargestLad|Spikes
+|move|p1a: Soil Enthusiast|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729441330
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Soil Enthusiast|Crunch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729441336
+|move|p1a: Soil Enthusiast|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|21/100
+|move|p2a: Skarmory|Roar|p1a: Soil Enthusiast
+|drag|p1a: Starbaby|Jirachi|94/100
+|-damage|p1a: Starbaby|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|76/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|27/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729441360
+|switch|p2a: Starmie|Starmie, shiny|55/100
+|-damage|p2a: Starmie|43/100|[from] Spikes
+|move|p1a: Starbaby|Fire Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|28/100|[from] Sandstorm
+|-heal|p2a: Starmie|34/100|[from] item: Leftovers
+|-heal|p1a: Starbaby|82/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729441383
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|84/100
+|move|p1a: Starbaby|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|36/100
+|-status|p2a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|30/100 par|[from] Sandstorm
+|-heal|p1a: Starbaby|88/100|[from] item: Leftovers
+|-heal|p2a: Starmie|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729441400
+|-curestatus|p2a: Starmie|par|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, M, shiny|88/100
+|-damage|p2a: Swampert|76/100|[from] Spikes
+|move|p1a: Starbaby|Wish|p1a: Starbaby
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|94/100|[from] item: Leftovers
+|-heal|p2a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729441418
+|switch|p1a: Dashie Games|Skarmory, F|35/100 par
+|move|p2a: Swampert|Roar|p1a: Dashie Games
+|drag|p1a: Lead Poisoning|Gengar, M|65/100
+|
+|-heal|p1a: Lead Poisoning|100/100|[from] move: Wish|[wisher] Starbaby
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729441426
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Lead Poisoning|Will-O-Wisp|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729441433
+|switch|p2a: Aerodactyl|Aerodactyl, M|88/100 brn
+|move|p1a: Lead Poisoning|Will-O-Wisp|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|94/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|76/100 brn|[from] brn
+|-heal|p1a: Lead Poisoning|100/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729441440
+|switch|p1a: Starbaby|Jirachi|94/100
+|-damage|p1a: Starbaby|69/100|[from] Spikes
+|move|p2a: Aerodactyl|Rock Slide|p1a: Starbaby
+|-resisted|p1a: Starbaby
+|-damage|p1a: Starbaby|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aerodactyl|64/100 brn|[from] brn
+|-heal|p1a: Starbaby|66/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729441448
+|switch|p2a: Swampert|Swampert, M, shiny|94/100
+|-damage|p2a: Swampert|82/100|[from] Spikes
+|move|p1a: Starbaby|Wish|p1a: Starbaby
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|72/100|[from] item: Leftovers
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729441458
+|move|p1a: Starbaby|Body Slam|p2a: Swampert
+|-damage|p2a: Swampert|75/100
+|move|p2a: Swampert|Earthquake|p1a: Starbaby
+|-supereffective|p1a: Starbaby
+|-damage|p1a: Starbaby|12/100
+|
+|-heal|p1a: Starbaby|62/100|[from] move: Wish|[wisher] Starbaby
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|68/100|[from] item: Leftovers
+|-heal|p2a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729441469
+|switch|p1a: Bucket|Moltres|72/100
+|move|p2a: Swampert|Ice Beam|p1a: Bucket
+|-damage|p1a: Bucket|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|42/100|[from] Sandstorm
+|-heal|p1a: Bucket|48/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729441475
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Bucket|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|42/100|[from] Sandstorm
+|-heal|p1a: Bucket|48/100|[from] item: Leftovers
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729441480
+|switch|p2a: Aerodactyl|Aerodactyl, M|64/100 brn
+|move|p1a: Bucket|Hidden Power|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|28/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|42/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|16/100 brn|[from] brn
+|-heal|p1a: Bucket|48/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729441492
+|move|p1a: Bucket|Protect|p1a: Bucket
+|-singleturn|p1a: Bucket|Protect
+|move|p2a: Aerodactyl|Earthquake|p1a: Bucket
+|-activate|p1a: Bucket|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bucket|42/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|4/100 brn|[from] brn
+|-heal|p1a: Bucket|48/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729441502
+|move|p2a: Aerodactyl|Earthquake|p1a: Bucket
+|-immune|p1a: Bucket
+|move|p1a: Bucket|Hidden Power|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|t:|1729441508
+|switch|p2a: Starmie|Starmie, shiny|36/100
+|-damage|p2a: Starmie|23/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|17/100|[from] Sandstorm
+|-damage|p1a: Bucket|42/100|[from] Sandstorm
+|-heal|p2a: Starmie|23/100|[from] item: Leftovers
+|-heal|p1a: Bucket|48/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729441520
+|switch|p1a: Lead Poisoning|Gengar, M|100/100
+|move|p2a: Starmie|Surf|p1a: Lead Poisoning
+|-damage|p1a: Lead Poisoning|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|17/100|[from] Sandstorm
+|-damage|p1a: Lead Poisoning|58/100|[from] Sandstorm
+|-heal|p2a: Starmie|23/100|[from] item: Leftovers
+|-heal|p1a: Lead Poisoning|64/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729441543
+|switch|p2a: Swampert|Swampert, M, shiny|93/100
+|-damage|p2a: Swampert|81/100|[from] Spikes
+|move|p1a: Lead Poisoning|Will-O-Wisp|p2a: Swampert
+|-status|p2a: Swampert|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lead Poisoning|58/100|[from] Sandstorm
+|-heal|p1a: Lead Poisoning|64/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|75/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|t:|1729441555
+|switch|p1a: Dashie Games|Skarmory, F|35/100 par
+|move|p2a: Swampert|Ice Beam|p1a: Dashie Games
+|-damage|p1a: Dashie Games|18/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|68/100 brn|[from] brn
+|-heal|p1a: Dashie Games|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729441562
+|move|p2a: Swampert|Ice Beam|p1a: Dashie Games
+|-damage|p1a: Dashie Games|6/100 par
+|move|p1a: Dashie Games|Roar|p2a: Swampert
+|drag|p2a: Skarmory|Skarmory, F|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|33/100|[from] item: Leftovers
+|-heal|p1a: Dashie Games|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729441568
+|move|p2a: Skarmory|Drill Peck|p1a: Dashie Games
+|-resisted|p1a: Dashie Games
+|-damage|p1a: Dashie Games|3/100 par
+|move|p1a: Dashie Games|Spikes|p2a: Skarmory
+|-sidestart|p2: xXEricXx|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|39/100|[from] item: Leftovers
+|-heal|p1a: Dashie Games|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729441572
+|move|p2a: Skarmory|Drill Peck|p1a: Dashie Games
+|-resisted|p1a: Dashie Games
+|-damage|p1a: Dashie Games|0 fnt
+|faint|p1a: Dashie Games
+|
+|t:|1729441582
+|switch|p1a: Starbaby|Jirachi|68/100
+|-damage|p1a: Starbaby|43/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Starbaby|49/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729441596
+|move|p1a: Starbaby|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|12/100
+|move|p2a: Skarmory|Roar|p1a: Starbaby
+|drag|p1a: Soil Enthusiast|Tyranitar, F|100/100
+|-damage|p1a: Soil Enthusiast|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|18/100|[from] item: Leftovers
+|-heal|p1a: Soil Enthusiast|82/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729441623
+|move|p1a: Soil Enthusiast|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729441626
+|switch|p2a: Swampert|Swampert, M, shiny|68/100 brn
+|-damage|p2a: Swampert|52/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Soil Enthusiast|88/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|46/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1729441632
+|move|p1a: Soil Enthusiast|Crunch|p2a: Swampert
+|-damage|p2a: Swampert|11/100 brn
+|move|p2a: Swampert|Earthquake|p1a: Soil Enthusiast
+|-supereffective|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Soil Enthusiast|62/100|[from] item: Leftovers
+|-heal|p2a: Swampert|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|5/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1729441639
+|move|p1a: Soil Enthusiast|Crunch|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729441642
+|switch|p2a: Starmie|Starmie, shiny|23/100
+|-damage|p2a: Starmie|7/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|1/100|[from] Sandstorm
+|-heal|p2a: Starmie|7/100|[from] item: Leftovers
+|-heal|p1a: Soil Enthusiast|68/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729441646
+|move|p2a: Starmie|Surf|p1a: Soil Enthusiast
+|-supereffective|p1a: Soil Enthusiast
+|-damage|p1a: Soil Enthusiast|10/100
+|move|p1a: Soil Enthusiast|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|TheLargestLad
+|c|☆xXEricXx|gg
+|c|☆TheLargestLad|gg
+|player|p1|
+|player|p1|TheLargestLad|wattson|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800507">
+{"id":"smogtours-gen3ou-800507","format":"[Gen 3] OU","players":["TheLargestLad","xXEricXx"],"uploadtime":1729441646,"views":134,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: themessiah1 vs. woeishuen - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between themessiah1 and woeishuen! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798274">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728846368
+|gametype|singles
+|player|p1|themessiah1|1|
+|player|p2|woeishuen|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728846368
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|turn|1
+|c|☆woeishuen|hold up your Don Tonionie right?
+|c|☆themessiah1|no whos that
+|inactive|themessiah1 has 270 seconds left.
+|inactive|woeishuen has 270 seconds left.
+|c|☆themessiah1|hf
+|c|☆woeishuen|for jimvitational?
+|c|☆themessiah1|im joking
+|c|☆woeishuen|lmao
+|inactive|woeishuen has 240 seconds left.
+|
+|t:|1728846432
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|59/100
+|
+|-heal|p2a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846472
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Swampert|Toxic|p1a: Suicune|[miss]
+|-miss|p2a: Swampert|p1a: Suicune
+|
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846477
+|move|p1a: Suicune|Surf|p2a: Swampert
+|-damage|p2a: Swampert|42/100
+|move|p2a: Swampert|Toxic|p1a: Suicune
+|-status|p1a: Suicune|tox
+|
+|-damage|p1a: Suicune|94/100 tox|[from] psn
+|-heal|p2a: Swampert|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846504
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1728846515
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846526
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|51/100 tox
+|
+|-heal|p1a: Suicune|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|32/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1728846538
+|switch|p2a: Swampert|Swampert, F|48/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-heal|p2a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728846542
+|cant|p1a: Suicune|slp
+|move|p2a: Swampert|Roar|p1a: Suicune
+|drag|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728846549
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-heal|p2a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728846560
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|99/100
+|-enditem|p2a: Forretress|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|11
+|
+|t:|1728846570
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|move|p2a: Forretress|Hidden Power|p1a: Hariyama
+|-resisted|p1a: Hariyama
+|-damage|p1a: Hariyama|91/100
+|move|p1a: Hariyama|Focus Punch||[still]
+|cant|p1a: Hariyama|Focus Punch|Focus Punch
+|
+|-heal|p1a: Hariyama|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728846578
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Forretress|Spikes|p1a: Jirachi
+|-sidestart|p1: themessiah1|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1728846589
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Jirachi|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1728846611
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|67/100
+|
+|-heal|p2a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 tox|[from] psn
+|-heal|p1a: Claydol|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728846619
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728846624
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi|[from]Sleep Talk
+|-damage|p1a: Jirachi|59/100
+|
+|-heal|p1a: Jirachi|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728846652
+|switch|p1a: Claydol|Claydol|74/100
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Rest|p2a: Zapdos|[from]Sleep Talk
+|
+|-heal|p1a: Claydol|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|18
+|
+|t:|1728846658
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|67/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|95/100
+|-sideend|p1: themessiah1|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Claydol|74/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728846669
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|
+|-heal|p1a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728846691
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Hariyama|Hariyama, M|97/100
+|
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728846700
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|switch|p2a: Forretress|Forretress, F|99/100
+|move|p1a: Hariyama|Focus Punch|p2a: Forretress
+|-damage|p2a: Forretress|48/100
+|
+|upkeep
+|turn|22
+|
+|t:|1728846706
+|switch|p1a: Jirachi|Jirachi|65/100
+|move|p2a: Forretress|Hidden Power|p1a: Jirachi
+|-damage|p1a: Jirachi|52/100
+|
+|-heal|p1a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728846721
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|65/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728846730
+|move|p1a: Jirachi|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Pursuit|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|
+|-heal|p1a: Jirachi|99/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1728846739
+|switch|p2a: Forretress|Forretress, F|48/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1728846744
+|move|p1a: Jirachi|Fire Punch|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|t:|1728846748
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1728846753
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Jirachi|[miss]
+|-miss|p2a: Aerodactyl|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1728846763
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728846773
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|98/100
+|-enditem|p2a: Aerodactyl|Choice Band|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728846798
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728846804
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jirachi|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1728846811
+|switch|p1a: Blissey|Blissey, F|90/100
+|move|p2a: Blissey|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|84/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|-heal|p1a: Blissey|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728846817
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, F|67/100
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|84/100|[from] Sandstorm
+|-heal|p2a: Swampert|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728846830
+|move|p2a: Swampert|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: Swampert
+|-damage|p2a: Swampert|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|84/100 tox|[from] Sandstorm
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|-heal|p1a: Blissey|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|84/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1728846840
+|switch|p2a: Zapdos|Zapdos|100/100
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846877
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846915
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Hariyama
+|-damage|p1a: Hariyama|53/100
+|
+|-heal|p1a: Hariyama|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728846928
+|move|p2a: Zapdos|Thunderbolt|p1a: Hariyama
+|-damage|p1a: Hariyama|55/100
+|move|p1a: Hariyama|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|99/100
+|-enditem|p2a: Zapdos|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|93/100|[from] Sandstorm
+|-damage|p1a: Hariyama|49/100|[from] Sandstorm
+|-heal|p1a: Hariyama|55/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728846936
+|switch|p2a: Aerodactyl|Aerodactyl, M|98/100
+|switch|p1a: Blissey|Blissey, F|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728846953
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Suicune|80/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728846962
+|switch|p2a: Zapdos|Zapdos|93/100
+|move|p1a: Suicune|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|61/100|[from] Sandstorm
+|-damage|p1a: Suicune|73/100|[from] Sandstorm
+|-heal|p1a: Suicune|80/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728846969
+|switch|p1a: Blissey|Blissey, F|84/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|55/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728846974
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728846984
+|cant|p2a: Zapdos|slp
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|54/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728846996
+|cant|p2a: Zapdos|slp
+|move|p1a: Blissey|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|37/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|31/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728847004
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|62/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728847017
+|switch|p2a: Blissey|Blissey, F|82/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728847026
+|switch|p1a: Hariyama|Hariyama, M|55/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|49/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Hariyama|55/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728847031
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|32/100
+|move|p1a: Hariyama|Focus Punch||[still]
+|cant|p1a: Hariyama|Focus Punch|Focus Punch
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|26/100|[from] Sandstorm
+|-heal|p1a: Hariyama|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728847046
+|switch|p1a: Jirachi|Jirachi|73/100
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728847063
+|switch|p2a: Zapdos|Zapdos|62/100 slp
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|55/100 slp|[from] Sandstorm
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728847091
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Hidden Power|p1a: Jirachi|[from]Sleep Talk
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|52/100
+|move|p1a: Jirachi|Fire Punch|p2a: Zapdos
+|-damage|p2a: Zapdos|43/100 slp
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|37/100 slp|[from] Sandstorm
+|upkeep
+|turn|53
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728847112
+|switch|p1a: Blissey|Blissey, F|100/100
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Hidden Power|p1a: Blissey|[from]Sleep Talk
+|-damage|p1a: Blissey|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|31/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728847120
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|60/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728847128
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728847149
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|woeishuen has 270 seconds left.
+|
+|t:|1728847194
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728847200
+|switch|p2a: Zapdos|Zapdos|60/100 slp
+|switch|p1a: Hariyama|Hariyama, M|32/100
+|
+|-heal|p1a: Hariyama|82/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Zapdos|100/100 slp|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p1a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Hariyama|82/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|inactive|woeishuen has 270 seconds left.
+|
+|t:|1728847221
+|-singleturn|p1a: Hariyama|move: Focus Punch
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Rest|p2a: Zapdos|[from]Sleep Talk
+|move|p1a: Hariyama|Focus Punch|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|50/100 slp|[from] Sandstorm
+|-damage|p1a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Hariyama|82/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|inactive|woeishuen has 270 seconds left.
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728847242
+|switch|p1a: Blissey|Blissey, F|92/100
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Rest|p2a: Zapdos|[from]Sleep Talk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|44/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728847261
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728847272
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-damage|p1a: Blissey|86/100|[from] Sandstorm
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1728847281
+|switch|p1a: Suicune|Suicune|80/100
+|move|p2a: Blissey|Thunder Wave|p1a: Suicune
+|-status|p1a: Suicune|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-damage|p1a: Suicune|73/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|-heal|p1a: Suicune|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728847287
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|55/100 par
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-damage|p1a: Suicune|49/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|-heal|p1a: Suicune|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728847292
+|move|p2a: Blissey|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|30/100 par
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728847298
+|switch|p2a: Swampert|Swampert, F|58/100
+|cant|p1a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728847301
+|cant|p1a: Suicune|slp
+|move|p2a: Swampert|Roar|p1a: Suicune
+|drag|p1a: Hariyama|Hariyama, M|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Hariyama|82/100|[from] item: Leftovers
+|-heal|p2a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728847308
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Hariyama|Knock Off|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Hariyama|82/100|[from] item: Leftovers
+|-heal|p2a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728847319
+|switch|p1a: Salamence|Salamence, F|94/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|switch|p2a: Zapdos|Zapdos|94/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-damage|p2a: Zapdos|88/100 slp|[from] Sandstorm
+|upkeep
+|turn|70
+|
+|t:|1728847329
+|switch|p2a: Swampert|Swampert, F|76/100
+|move|p1a: Salamence|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|82/100|[from] Sandstorm
+|-heal|p2a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728847341
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: Swampert|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|86/100 tox|[from] Sandstorm
+|-heal|p2a: Swampert|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|86/100 tox|[from] psn
+|upkeep
+|turn|72
+|
+|t:|1728847357
+|switch|p2a: Zapdos|Zapdos|88/100 slp
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100 slp|[from] Sandstorm
+|upkeep
+|turn|73
+|
+|t:|1728847364
+|switch|p1a: Blissey|Blissey, F|86/100
+|cant|p2a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|75/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728847377
+|switch|p2a: Blissey|Blissey, F|91/100
+|switch|p1a: Salamence|Salamence, F|82/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|76/100|[from] Sandstorm
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728847400
+|switch|p1a: Hariyama|Hariyama, M|82/100
+|move|p2a: Blissey|Thunder Wave|p1a: Hariyama
+|-status|p1a: Hariyama|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-damage|p1a: Hariyama|76/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728847409
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|58/100 par
+|move|p1a: Hariyama|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1728847416
+|switch|p2a: Aerodactyl|Aerodactyl, M|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|52/100 par|[from] Sandstorm
+|-heal|p1a: Hariyama|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728847426
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728847432
+|switch|p2a: Swampert|Swampert, F|76/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|-heal|p2a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728847436
+|switch|p2a: Zapdos|Zapdos|75/100 slp
+|move|p1a: Jirachi|Toxic||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100 slp|[from] Sandstorm
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728847442
+|cant|p2a: Zapdos|slp
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|63/100 slp|[from] Sandstorm
+|-heal|p1a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728847449
+|switch|p1a: Claydol|Claydol|74/100
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p1a: Claydol|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|57/100|[from] Sandstorm
+|upkeep
+|turn|82
+|
+|t:|1728847454
+|switch|p2a: Tyranitar|Tyranitar, F|94/100 tox
+|move|p1a: Claydol|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|83
+|
+|t:|1728847458
+|move|p1a: Claydol|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728847464
+|switch|p2a: Swampert|Swampert, F|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728847471
+|switch|p1a: Blissey|Blissey, F|86/100
+|move|p2a: Swampert|Surf|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|68/100|[from] Sandstorm
+|-heal|p2a: Swampert|95/100|[from] item: Leftovers
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728847474
+|move|p2a: Swampert|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|68/100|[from] Sandstorm
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728847479
+|switch|p1a: Jirachi|Jirachi|91/100
+|move|p2a: Swampert|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|c|☆woeishuen|gg
+|-message|woeishuen forfeited.
+|
+|win|themessiah1
+|player|p2|
+|c|☆themessiah1|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798274">
+{"id":"smogtours-gen3ou-798274","format":"[Gen 3] OU","players":["themessiah1","woeishuen"],"uploadtime":1728847493,"views":98,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

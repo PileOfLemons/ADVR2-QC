@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: banyanya vs. stuckkkk - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between banyanya and stuckkkk! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796450">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728414840
+|gametype|singles
+|player|p1|banyanya|101|
+|player|p2|stuckkkk|swimmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728414840
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Transitional Bird|Skarmory, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Transitional Bird|atk|1
+|turn|1
+|c|☆stuckkkk|glhf
+|c|☆banyanya|u2
+|
+|t:|1728414865
+|switch|p2a: Fell in Love|Blissey, F|100/100
+|move|p1a: Salamence|Fire Blast|p2a: Fell in Love
+|-damage|p2a: Fell in Love|85/100
+|
+|-heal|p2a: Fell in Love|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728414892
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Into the Deep Time|Gengar, M|100/100
+|
+|upkeep
+|turn|3
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1728414908
+|switch|p2a: Transitional Bird|Skarmory, F|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Transitional Bird
+|-start|p2a: Transitional Bird|move: Leech Seed
+|
+|-damage|p2a: Transitional Bird|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|4
+|
+|t:|1728414915
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Transitional Bird|Spikes|p1a: Skarmory
+|-sidestart|p1: banyanya|Spikes
+|
+|-heal|p2a: Transitional Bird|94/100|[from] item: Leftovers
+|-damage|p2a: Transitional Bird|82/100|[from] Leech Seed|[of] p1a: Skarmory
+|upkeep
+|turn|5
+|inactive|stuckkkk has 270 seconds left.
+|
+|t:|1728414947
+|switch|p2a: Fell in Love|Blissey, F|91/100
+|move|p1a: Skarmory|Spikes|p2a: Fell in Love
+|-sidestart|p2: stuckkkk|Spikes
+|
+|-heal|p2a: Fell in Love|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728414967
+|switch|p2a: Transitional Bird|Skarmory, F|82/100
+|move|p1a: Skarmory|Spikes|p2a: Transitional Bird
+|-sidestart|p2: stuckkkk|Spikes
+|
+|-heal|p2a: Transitional Bird|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728414983
+|move|p2a: Transitional Bird|Spikes|p1a: Skarmory
+|-sidestart|p1: banyanya|Spikes
+|move|p1a: Skarmory|Roar|p2a: Transitional Bird
+|drag|p2a: White Seal|Tyranitar, M|100/100
+|-damage|p2a: White Seal|84/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: White Seal
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: White Seal|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728415002
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|84/100|[from] Spikes
+|move|p2a: White Seal|Fire Blast|p1a: Swampert|[miss]
+|-miss|p2a: White Seal|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: White Seal|97/100|[from] item: Leftovers
+|-heal|p1a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728415017
+|switch|p2a: Fell in Love|Blissey, F|97/100
+|-damage|p2a: Fell in Love|80/100|[from] Spikes
+|move|p1a: Swampert|Hydro Pump|p2a: Fell in Love
+|-damage|p2a: Fell in Love|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fell in Love|56/100|[from] Sandstorm
+|-heal|p2a: Fell in Love|63/100|[from] item: Leftovers
+|-heal|p1a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728415027
+|move|p2a: Fell in Love|Soft-Boiled|p2a: Fell in Love
+|-heal|p2a: Fell in Love|100/100
+|move|p1a: Swampert|Earthquake|p2a: Fell in Love
+|-damage|p2a: Fell in Love|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fell in Love|59/100|[from] Sandstorm
+|-heal|p2a: Fell in Love|65/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|stuckkkk has 240 seconds left.
+|
+|t:|1728415062
+|switch|p2a: New Forest|Zapdos|100/100
+|move|p1a: Swampert|Curse|p1a: Swampert
+|-unboost|p1a: Swampert|spe|1
+|-boost|p1a: Swampert|atk|1
+|-boost|p1a: Swampert|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|94/100|[from] Sandstorm
+|-heal|p2a: New Forest|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728415084
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|move|p2a: New Forest|Roar|p1a: Celebi
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|94/100|[from] Sandstorm
+|-heal|p2a: New Forest|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728415097
+|move|p1a: Skarmory|Toxic|p2a: New Forest
+|-status|p2a: New Forest|tox
+|move|p2a: New Forest|Roar|p1a: Skarmory
+|drag|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|94/100 tox|[from] Sandstorm
+|-heal|p2a: New Forest|100/100 tox|[from] item: Leftovers
+|-damage|p2a: New Forest|94/100 tox|[from] psn
+|-heal|p1a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|stuckkkk has 210 seconds left.
+|
+|t:|1728415138
+|switch|p2a: Transitional Bird|Skarmory, F|88/100
+|switch|p1a: Celebi|Celebi|84/100
+|-damage|p1a: Celebi|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|61/100|[from] Sandstorm
+|-heal|p1a: Celebi|68/100|[from] item: Leftovers
+|-heal|p2a: Transitional Bird|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728415148
+|move|p1a: Celebi|Leech Seed|p2a: Transitional Bird
+|-start|p2a: Transitional Bird|move: Leech Seed
+|move|p2a: Transitional Bird|Spikes|p1a: Celebi
+|-sidestart|p1: banyanya|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|61/100|[from] Sandstorm
+|-heal|p1a: Celebi|68/100|[from] item: Leftovers
+|-heal|p2a: Transitional Bird|99/100|[from] item: Leftovers
+|-damage|p2a: Transitional Bird|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|78/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1728415162
+|move|p1a: Celebi|Leech Seed||[still]
+|-fail|p1a: Celebi
+|move|p2a: Transitional Bird|Roar|p1a: Celebi
+|drag|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Transitional Bird|94/100|[from] item: Leftovers
+|-damage|p2a: Transitional Bird|81/100|[from] Leech Seed|[of] p1a: Aerodactyl
+|upkeep
+|turn|17
+|
+|t:|1728415188
+|move|p1a: Aerodactyl|Rock Slide|p2a: Transitional Bird
+|-crit|p2a: Transitional Bird
+|-damage|p2a: Transitional Bird|1/100
+|move|p2a: Transitional Bird|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|95/100 tox|[from] psn
+|-heal|p2a: Transitional Bird|7/100|[from] item: Leftovers
+|-damage|p2a: Transitional Bird|0 fnt|[from] Leech Seed|[of] p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|100/100 tox|[silent]
+|faint|p2a: Transitional Bird
+|upkeep
+|inactive|stuckkkk has 180 seconds left.
+|
+|t:|1728415224
+|switch|p2a: Pangaea Girls|Flygon, F|100/100
+|turn|18
+|
+|t:|1728415236
+|switch|p1a: Swampert|Swampert, M|90/100
+|-damage|p1a: Swampert|65/100|[from] Spikes
+|move|p2a: Pangaea Girls|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|65/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1728415246
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Swampert|Ice Beam|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|59/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|stuckkkk has 150 seconds left.
+|
+|t:|1728415285
+|switch|p2a: New Forest|Zapdos|94/100 tox
+|move|p1a: Swampert|Earthquake|p2a: New Forest
+|-immune|p2a: New Forest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|88/100 tox|[from] Sandstorm
+|-heal|p2a: New Forest|94/100 tox|[from] item: Leftovers
+|-damage|p2a: New Forest|88/100 tox|[from] psn
+|-heal|p1a: Swampert|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|47/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1728415311
+|move|p1a: Swampert|Ice Beam|p2a: New Forest
+|-supereffective|p2a: New Forest
+|-damage|p2a: New Forest|56/100 tox
+|move|p2a: New Forest|Roar|p1a: Swampert
+|drag|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: New Forest|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: New Forest|50/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: New Forest|56/100 tox|[from] item: Leftovers
+|-damage|p2a: New Forest|43/100 tox|[from] psn
+|upkeep
+|turn|22
+|inactive|stuckkkk has 120 seconds left.
+|
+|t:|1728415351
+|switch|p2a: Into the Deep Time|Gengar, M|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Into the Deep Time
+|-damage|p2a: Into the Deep Time|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Into the Deep Time|44/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Into the Deep Time|50/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|banyanya has 270 seconds left.
+|inactive|stuckkkk has 90 seconds left.
+|
+|t:|1728415387
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Into the Deep Time|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Into the Deep Time|44/100|[from] Sandstorm
+|-heal|p2a: Into the Deep Time|50/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1728415402
+|switch|p2a: Fell in Love|Blissey, F|65/100
+|-damage|p2a: Fell in Love|49/100|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Fell in Love
+|drag|p2a: Into the Deep Time|Gengar, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Into the Deep Time|44/100|[from] Sandstorm
+|-heal|p2a: Into the Deep Time|50/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1728415412
+|move|p2a: Into the Deep Time|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|28/100 brn
+|move|p1a: Skarmory|Roar|p2a: Into the Deep Time
+|drag|p2a: Pangaea Girls|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|22/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1728415425
+|move|p2a: Pangaea Girls|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728415435
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pangaea Girls|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|stuckkkk has 90 seconds left.
+|
+|t:|1728415447
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|stuckkkk has 90 seconds left.
+|
+|t:|1728415470
+|switch|p2a: Into the Deep Time|Gengar, M|50/100
+|move|p1a: Salamence|Dragon Claw|p2a: Into the Deep Time
+|-damage|p2a: Into the Deep Time|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Into the Deep Time|0 fnt|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|faint|p2a: Into the Deep Time
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415497
+|switch|p2a: New Forest|Zapdos|43/100 tox
+|turn|29
+|
+|t:|1728415508
+|switch|p1a: Celebi|Celebi|78/100
+|-damage|p1a: Celebi|53/100|[from] Spikes
+|move|p2a: New Forest|Rest|p2a: New Forest
+|-status|p2a: New Forest|slp|[from] move: Rest
+|-heal|p2a: New Forest|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|47/100|[from] Sandstorm
+|-damage|p2a: New Forest|94/100 slp|[from] Sandstorm
+|-heal|p1a: Celebi|53/100|[from] item: Leftovers
+|-heal|p2a: New Forest|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415528
+|switch|p2a: Fell in Love|Blissey, F|49/100
+|-damage|p2a: Fell in Love|32/100|[from] Spikes
+|move|p1a: Celebi|Leech Seed|p2a: Fell in Love
+|-start|p2a: Fell in Love|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|47/100|[from] Sandstorm
+|-damage|p2a: Fell in Love|26/100|[from] Sandstorm
+|-heal|p1a: Celebi|53/100|[from] item: Leftovers
+|-heal|p2a: Fell in Love|32/100|[from] item: Leftovers
+|-damage|p2a: Fell in Love|20/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|74/100|[silent]
+|upkeep
+|turn|31
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415539
+|move|p1a: Celebi|Giga Drain|p2a: Fell in Love
+|-damage|p2a: Fell in Love|9/100
+|-heal|p1a: Celebi|83/100|[from] drain|[of] p2a: Fell in Love
+|move|p2a: Fell in Love|Soft-Boiled|p2a: Fell in Love
+|-heal|p2a: Fell in Love|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|77/100|[from] Sandstorm
+|-damage|p2a: Fell in Love|53/100|[from] Sandstorm
+|-heal|p1a: Celebi|83/100|[from] item: Leftovers
+|-heal|p2a: Fell in Love|59/100|[from] item: Leftovers
+|-damage|p2a: Fell in Love|46/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100|[silent]
+|upkeep
+|turn|32
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415550
+|move|p1a: Celebi|Psychic|p2a: Fell in Love
+|-damage|p2a: Fell in Love|28/100
+|move|p2a: Fell in Love|Soft-Boiled|p2a: Fell in Love
+|-heal|p2a: Fell in Love|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Fell in Love|71/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Fell in Love|78/100|[from] item: Leftovers
+|-damage|p2a: Fell in Love|65/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|33
+|
+|t:|1728415555
+|move|p1a: Celebi|Psychic|p2a: Fell in Love
+|-damage|p2a: Fell in Love|49/100
+|move|p2a: Fell in Love|Soft-Boiled|p2a: Fell in Love
+|-heal|p2a: Fell in Love|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Fell in Love|92/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Fell in Love|99/100|[from] item: Leftovers
+|-damage|p2a: Fell in Love|86/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|34
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415582
+|switch|p1a: Swampert|Swampert, M|47/100 tox
+|-damage|p1a: Swampert|22/100 tox|[from] Spikes
+|switch|p2a: New Forest|Zapdos|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|94/100 slp|[from] Sandstorm
+|-heal|p2a: New Forest|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|28/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|22/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415589
+|cant|p2a: New Forest|slp
+|move|p2a: New Forest|Sleep Talk|p2a: New Forest
+|move|p2a: New Forest|Thunderbolt|p1a: Swampert|[from]Sleep Talk
+|-immune|p1a: Swampert
+|move|p1a: Swampert|Hydro Pump|p2a: New Forest
+|-damage|p2a: New Forest|55/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|49/100 slp|[from] Sandstorm
+|-heal|p2a: New Forest|55/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|28/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|16/100 tox|[from] psn
+|upkeep
+|turn|36
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415602
+|cant|p2a: New Forest|slp
+|move|p2a: New Forest|Sleep Talk|p2a: New Forest
+|move|p2a: New Forest|Thunderbolt|p1a: Swampert|[from]Sleep Talk
+|-immune|p1a: Swampert
+|move|p1a: Swampert|Hydro Pump|p2a: New Forest
+|-damage|p2a: New Forest|5/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: New Forest|0 fnt|[from] Sandstorm
+|faint|p2a: New Forest
+|-heal|p1a: Swampert|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|3/100 tox|[from] psn
+|upkeep
+|inactive|stuckkkk has 60 seconds left.
+|
+|t:|1728415631
+|switch|p2a: Fell in Love|Blissey, F|86/100
+|-damage|p2a: Fell in Love|69/100|[from] Spikes
+|turn|37
+|
+|t:|1728415640
+|move|p2a: Fell in Love|Soft-Boiled|p2a: Fell in Love
+|-heal|p2a: Fell in Love|100/100
+|move|p1a: Swampert|Earthquake|p2a: Fell in Love
+|-damage|p2a: Fell in Love|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fell in Love|58/100|[from] Sandstorm
+|-heal|p2a: Fell in Love|65/100|[from] item: Leftovers
+|-heal|p1a: Swampert|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|0 fnt|[from] psn
+|faint|p1a: Swampert
+|upkeep
+|
+|t:|1728415647
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|turn|38
+|
+|t:|1728415664
+|switch|p2a: Pangaea Girls|Flygon, F|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|banyanya has 270 seconds left.
+|
+|t:|1728415707
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pangaea Girls|atk|1
+|move|p2a: Pangaea Girls|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|upkeep
+|turn|40
+|inactive|banyanya has 270 seconds left.
+|
+|t:|1728415714
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|82/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1728415727
+|switch|p2a: Fell in Love|Blissey, F|65/100
+|-damage|p2a: Fell in Love|48/100|[from] Spikes
+|move|p1a: Salamence|Dragon Claw|p2a: Fell in Love
+|-damage|p2a: Fell in Love|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|76/100 tox|[from] Sandstorm
+|-damage|p2a: Fell in Love|27/100|[from] Sandstorm
+|-heal|p1a: Salamence|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|63/100 tox|[from] psn
+|-heal|p2a: Fell in Love|33/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415754
+|switch|p2a: Pangaea Girls|Flygon, F|100/100
+|move|p1a: Salamence|Brick Break|p2a: Pangaea Girls
+|-damage|p2a: Pangaea Girls|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|57/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|38/100 tox|[from] psn
+|-heal|p2a: Pangaea Girls|89/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728415764
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100 tox
+|move|p2a: Pangaea Girls|Protect||[still]
+|-fail|p2a: Pangaea Girls
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|95/100 tox|[from] psn
+|-heal|p2a: Pangaea Girls|95/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728415772
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Aerodactyl|Double-Edge|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|83/100 tox|[from] psn
+|-heal|p2a: Pangaea Girls|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728415788
+|switch|p2a: White Seal|Tyranitar, M|97/100
+|-damage|p2a: White Seal|80/100|[from] Spikes
+|move|p1a: Aerodactyl|Double-Edge|p2a: White Seal
+|-resisted|p2a: White Seal
+|-damage|p2a: White Seal|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|65/100 tox|[from] psn
+|-heal|p2a: White Seal|63/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728415802
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|76/100|[from] Spikes
+|move|p2a: White Seal|Crunch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|3/100|[from] Sandstorm
+|-heal|p1a: Celebi|9/100|[from] item: Leftovers
+|-heal|p2a: White Seal|70/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728415813
+|move|p1a: Celebi|Giga Drain|p2a: White Seal
+|-supereffective|p2a: White Seal
+|-damage|p2a: White Seal|19/100
+|-heal|p1a: Celebi|35/100|[from] drain|[of] p2a: White Seal
+|move|p2a: White Seal|Pursuit|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|0 fnt|[from] Sandstorm
+|faint|p1a: Celebi
+|-heal|p2a: White Seal|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728415828
+|switch|p1a: Aerodactyl|Aerodactyl, M|65/100 tox
+|turn|48
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415852
+|move|p1a: Aerodactyl|Double-Edge|p2a: White Seal
+|-resisted|p2a: White Seal
+|-damage|p2a: White Seal|1/100
+|move|p2a: White Seal|Crunch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|10/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|4/100 tox|[from] psn
+|-heal|p2a: White Seal|7/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415868
+|move|p1a: Aerodactyl|Double-Edge|p2a: White Seal
+|-resisted|p2a: White Seal
+|-damage|p2a: White Seal|0 fnt
+|faint|p2a: White Seal
+|inactive|stuckkkk has 30 seconds left this turn.
+|inactive|stuckkkk has 20 seconds left.
+|
+|t:|1728415881
+|switch|p2a: Pangaea Girls|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|0 fnt|[from] psn
+|faint|p1a: Aerodactyl
+|upkeep
+|inactive|stuckkkk has 25 seconds left this turn.
+|
+|t:|1728415893
+|switch|p1a: Salamence|Salamence, F|38/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pangaea Girls|atk|1
+|turn|50
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415902
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|32/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|32/100 tox|[from] psn
+|upkeep
+|turn|51
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415912
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|26/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|19/100 tox|[from] psn
+|upkeep
+|turn|52
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415929
+|switch|p2a: Fell in Love|Blissey, F|33/100
+|-damage|p2a: Fell in Love|16/100|[from] Spikes
+|move|p1a: Salamence|Dragon Claw|p2a: Fell in Love
+|-damage|p2a: Fell in Love|0 fnt
+|faint|p2a: Fell in Love
+|inactive|stuckkkk has 30 seconds left this turn.
+|
+|t:|1728415936
+|switch|p2a: Pangaea Girls|Flygon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|13/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|19/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|1/100 tox|[from] psn
+|upkeep
+|turn|53
+|inactive|stuckkkk has 30 seconds left.
+|
+|t:|1728415945
+|move|p2a: Pangaea Girls|Protect|p2a: Pangaea Girls
+|-singleturn|p2a: Pangaea Girls|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Pangaea Girls
+|-activate|p2a: Pangaea Girls|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|faint|p1a: Salamence
+|upkeep
+|
+|t:|1728415947
+|switch|p1a: Tyranitar|Tyranitar, F|82/100
+|-damage|p1a: Tyranitar|57/100|[from] Spikes
+|turn|54
+|
+|t:|1728415955
+|move|p2a: Pangaea Girls|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|stuckkkk
+|c|☆stuckkkk|gg!
+|player|p1|
+|c|☆stuckkkk|had fun
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796450">
+{"id":"smogtours-gen3ou-796450","format":"[Gen 3] OU","players":["banyanya","stuckkkk"],"uploadtime":1728415955,"views":78,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

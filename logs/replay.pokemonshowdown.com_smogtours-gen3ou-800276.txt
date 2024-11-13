@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Garpachi vs. tycarter - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Garpachi and tycarter! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800276">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729395770
+|gametype|singles
+|player|p1|Garpachi|maid|
+|player|p2|tycarter|#lcplxiiipipluppatrol|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729395770
+|start
+|switch|p1a: Dave|Salamence, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Dave|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆tycarter|hf
+|c|☆Garpachi|glhf
+|
+|t:|1729395795
+|switch|p1a: Kate|Metagross|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|Garpachi has 270 seconds left.
+|
+|t:|1729395831
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Kate|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|inactive|Garpachi has 270 seconds left.
+|inactive|tycarter has 270 seconds left.
+|inactive|Garpachi has 240 seconds left.
+|
+|t:|1729395879
+|switch|p2a: Forretress|Forretress, F|100/100
+|switch|p1a: Phil|Charizard, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|94/100|[from] Sandstorm
+|-heal|p1a: Phil|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Garpachi has 240 seconds left.
+|
+|t:|1729395886
+|-singleturn|p1a: Phil|move: Focus Punch
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Phil|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|31/100|[from] Sandstorm
+|-heal|p1a: Phil|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|tycarter has 270 seconds left.
+|inactive|Garpachi has 240 seconds left.
+|
+|t:|1729395900
+|move|p1a: Phil|Substitute|p1a: Phil
+|-start|p1a: Phil|Substitute
+|-damage|p1a: Phil|76/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|tycarter has 270 seconds left.
+|
+|t:|1729395913
+|-singleturn|p1a: Phil|move: Focus Punch
+|switch|p2a: Salamence|Salamence, F|100/100
+|move|p1a: Phil|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|77/100|[from] Sandstorm
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p2a: Salamence|83/100|[from] item: Leftovers
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729395925
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Phil|Fire Blast|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Swampert|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|tycarter has 270 seconds left.
+|
+|t:|1729395955
+|-singleturn|p1a: Phil|move: Focus Punch
+|switch|p2a: Salamence|Salamence, F|83/100
+|move|p1a: Phil|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|58/100|[from] Sandstorm
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p2a: Salamence|64/100|[from] item: Leftovers
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729395967
+|-singleturn|p1a: Phil|move: Focus Punch
+|move|p2a: Salamence|Dragon Claw|p1a: Phil
+|-end|p1a: Phil|Substitute
+|move|p1a: Phil|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] Sandstorm
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p2a: Salamence|45/100|[from] item: Leftovers
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|tycarter has 270 seconds left.
+|inactive|Garpachi has 240 seconds left.
+|inactive|Garpachi has 210 seconds left.
+|inactive|tycarter has 240 seconds left.
+|
+|t:|1729396034
+|switch|p1a: Kate|Metagross|100/100
+|move|p2a: Salamence|Dragon Claw|p1a: Kate
+|-resisted|p1a: Kate
+|-damage|p1a: Kate|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] Sandstorm
+|-heal|p2a: Salamence|45/100|[from] item: Leftovers
+|-heal|p1a: Kate|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|tycarter has 240 seconds left.
+|
+|t:|1729396058
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Kate|Protect||[still]
+|-fail|p1a: Kate
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Garpachi has 180 seconds left.
+|
+|t:|1729396079
+|switch|p1a: Dave|Salamence, M|100/100
+|-ability|p1a: Dave|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|move|p2a: Forretress|Spikes|p1a: Dave
+|-sidestart|p1: Garpachi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|94/100|[from] Sandstorm
+|-heal|p1a: Dave|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Garpachi has 180 seconds left.
+|inactive|tycarter has 240 seconds left.
+|
+|t:|1729396104
+|switch|p2a: Blissey|Blissey, F|87/100
+|move|p1a: Dave|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|63/100|[from] Sandstorm
+|-heal|p1a: Dave|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729396121
+|switch|p1a: Jeff|Snorlax, F|100/100
+|-damage|p1a: Jeff|88/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Jeff|82/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Jeff|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|tycarter has 240 seconds left.
+|
+|t:|1729396144
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jeff|Curse|p1a: Jeff
+|-unboost|p1a: Jeff|spe|1
+|-boost|p1a: Jeff|atk|1
+|-boost|p1a: Jeff|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jeff|82/100|[from] Sandstorm
+|-heal|p1a: Jeff|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729396153
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Jeff|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jeff|82/100|[from] Sandstorm
+|-heal|p2a: Forretress|71/100|[from] item: Leftovers
+|-heal|p1a: Jeff|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729396164
+|move|p1a: Jeff|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|37/100
+|move|p2a: Forretress|Counter|p1a: Jeff
+|-damage|p1a: Jeff|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jeff|32/100|[from] Sandstorm
+|-heal|p2a: Forretress|43/100|[from] item: Leftovers
+|-heal|p1a: Jeff|39/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|tycarter has 240 seconds left.
+|
+|t:|1729396179
+|move|p2a: Forretress|Hidden Power|p1a: Jeff
+|-damage|p1a: Jeff|27/100
+|move|p1a: Jeff|Curse|p1a: Jeff
+|-unboost|p1a: Jeff|spe|1
+|-boost|p1a: Jeff|atk|1
+|-boost|p1a: Jeff|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jeff|21/100|[from] Sandstorm
+|-heal|p2a: Forretress|49/100|[from] item: Leftovers
+|-heal|p1a: Jeff|27/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|tycarter has 240 seconds left.
+|inactive|Garpachi has 150 seconds left.
+|
+|t:|1729396211
+|move|p2a: Forretress|Hidden Power|p1a: Jeff
+|-damage|p1a: Jeff|18/100
+|move|p1a: Jeff|Self-Destruct|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p1a: Jeff
+|faint|p2a: Forretress
+|inactive|Garpachi has 150 seconds left.
+|inactive|tycarter has 210 seconds left.
+|inactive|Garpachi has 120 seconds left.
+|
+|t:|1729396276
+|switch|p2a: Salamence|Salamence, F|45/100
+|switch|p1a: Dave|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Dave|atk|1
+|-ability|p1a: Dave|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] Sandstorm
+|-damage|p1a: Dave|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|45/100|[from] item: Leftovers
+|-heal|p1a: Dave|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Garpachi has 90 seconds left.
+|inactive|tycarter has 180 seconds left.
+|inactive|Garpachi has 60 seconds left.
+|
+|t:|1729396332
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Jane|Tyranitar, M|100/100
+|-damage|p1a: Jane|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Jane|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Garpachi has 60 seconds left.
+|
+|t:|1729396360
+|switch|p1a: Phil|Charizard, F|76/100
+|switch|p2a: Swampert|Swampert, F|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Swampert|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|tycarter has 180 seconds left.
+|
+|t:|1729396383
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Phil|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Garpachi has 30 seconds left.
+|inactive|Garpachi has 20 seconds left.
+|inactive|Garpachi has 15 seconds left.
+|
+|t:|1729396415
+|switch|p1a: Kate|Metagross|93/100
+|-damage|p1a: Kate|80/100|[from] Spikes
+|move|p2a: Blissey|Thunderbolt|p1a: Kate
+|-damage|p1a: Kate|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|85/100|[from] Sandstorm
+|-heal|p1a: Kate|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Garpachi has 25 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|inactive|Garpachi has 15 seconds left.
+|inactive|Garpachi has 10 seconds left.
+|inactive|tycarter has 180 seconds left.
+|
+|t:|1729396432
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Kate|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|-heal|p1a: Kate|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Garpachi has 20 seconds left this turn.
+|inactive|Garpachi has 15 seconds left.
+|
+|t:|1729396441
+|switch|p1a: Jane|Tyranitar, M|94/100
+|-damage|p1a: Jane|82/100|[from] Spikes
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|-heal|p1a: Jane|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Garpachi has 25 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396451
+|move|p2a: Jirachi|Toxic|p1a: Jane|[miss]
+|-miss|p2a: Jirachi|p1a: Jane
+|move|p1a: Jane|Pursuit|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100
+|
+|-heal|p2a: Jirachi|81/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: Jane|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Garpachi has 30 seconds left this turn.
+|
+|t:|1729396462
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Jane|Crunch|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|30/100|[from] item: Leftovers
+|-heal|p1a: Jane|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396472
+|switch|p1a: Phil|Charizard, F|76/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|80/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396484
+|-singleturn|p1a: Phil|move: Focus Punch
+|switch|p2a: Salamence|Salamence, F|45/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Phil|atk|1
+|move|p1a: Phil|Focus Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|26/100|[from] Sandstorm
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p2a: Salamence|32/100|[from] item: Leftovers
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396496
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Phil|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|70/100|[from] Sandstorm
+|-heal|p1a: Phil|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396508
+|-activate|p1a: Phil|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Phil|[from]Pursuit
+|-damage|p1a: Phil|19/100
+|switch|p1a: Jane|Tyranitar, M|100/100
+|-damage|p1a: Jane|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|87/100|[from] item: Leftovers
+|-heal|p1a: Jane|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Garpachi has 30 seconds left.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396527
+|switch|p1a: Dave|Salamence, M|100/100
+|-ability|p1a: Dave|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Hidden Power|p1a: Dave
+|-resisted|p1a: Dave
+|-damage|p1a: Dave|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|87/100|[from] Sandstorm
+|-heal|p1a: Dave|93/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|Garpachi has 30 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396546
+|switch|p2a: Swampert|Swampert, F|86/100
+|move|p1a: Dave|Brick Break|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|87/100|[from] Sandstorm
+|-heal|p1a: Dave|93/100|[from] item: Leftovers
+|-heal|p2a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Garpachi has 30 seconds left this turn.
+|
+|t:|1729396554
+|switch|p2a: Blissey|Blissey, F|91/100
+|move|p1a: Dave|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|87/100|[from] Sandstorm
+|-damage|p2a: Blissey|75/100|[from] Sandstorm
+|-heal|p1a: Dave|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Garpachi has 30 seconds left.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396574
+|switch|p1a: Kate|Metagross|65/100
+|-damage|p1a: Kate|52/100|[from] Spikes
+|switch|p2a: Salamence|Salamence, F|32/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Kate|unboost|[from] ability: Clear Body|[of] p1a: Kate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|26/100|[from] Sandstorm
+|-heal|p2a: Salamence|32/100|[from] item: Leftovers
+|-heal|p1a: Kate|58/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Garpachi has 30 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396589
+|move|p1a: Kate|Protect|p1a: Kate
+|-singleturn|p1a: Kate|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Kate
+|-activate|p1a: Kate|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|26/100|[from] Sandstorm
+|-heal|p2a: Salamence|32/100|[from] item: Leftovers
+|-heal|p1a: Kate|64/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Garpachi has 30 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396599
+|switch|p1a: Jane|Tyranitar, M|94/100
+|-damage|p1a: Jane|82/100|[from] Spikes
+|move|p2a: Salamence|Fire Blast|p1a: Jane
+|-resisted|p1a: Jane
+|-damage|p1a: Jane|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|26/100|[from] Sandstorm
+|-heal|p2a: Salamence|32/100|[from] item: Leftovers
+|-heal|p1a: Jane|74/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|Garpachi has 30 seconds left this turn.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396610
+|move|p2a: Salamence|Brick Break|p1a: Jane
+|-supereffective|p1a: Jane
+|-damage|p1a: Jane|5/100
+|move|p1a: Jane|Pursuit|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|inactive|Garpachi has 25 seconds left this turn.
+|
+|t:|1729396630
+|switch|p2a: Tyranitar|Tyranitar, F|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|99/100|[from] item: Leftovers
+|-heal|p1a: Jane|11/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396636
+|move|p2a: Tyranitar|Pursuit|p1a: Jane
+|-resisted|p1a: Jane
+|-damage|p1a: Jane|4/100
+|move|p1a: Jane|Crunch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|-heal|p1a: Jane|10/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729396645
+|move|p1a: Jane|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100
+|move|p2a: Tyranitar|Hidden Power|p1a: Jane
+|-supereffective|p1a: Jane
+|-damage|p1a: Jane|0 fnt
+|faint|p1a: Jane
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396664
+|switch|p1a: Pete|Breloom, F|100/100
+|-damage|p1a: Pete|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pete|82/100|[from] Sandstorm
+|-heal|p1a: Pete|88/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Garpachi has 30 seconds left.
+|
+|t:|1729396674
+|move|p1a: Pete|Sky Uppercut|p2a: Tyranitar|[miss]
+|-miss|p1a: Pete|p2a: Tyranitar
+|move|p2a: Tyranitar|Fire Blast|p1a: Pete
+|-supereffective|p1a: Pete
+|-damage|p1a: Pete|0 fnt
+|faint|p1a: Pete
+|inactive|Garpachi has 30 seconds left.
+|c|☆tycarter|.
+|inactive|Garpachi has 20 seconds left.
+|
+|t:|1729396693
+|switch|p1a: Kate|Metagross|64/100
+|-damage|p1a: Kate|52/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|58/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|87/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|Garpachi has 30 seconds left this turn.
+|
+|t:|1729396703
+|move|p1a: Kate|Meteor Mash|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|Garpachi has 30 seconds left this turn.
+|
+|t:|1729396706
+|switch|p2a: Swampert|Swampert, F|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|64/100|[from] item: Leftovers
+|-heal|p2a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729396715
+|move|p1a: Kate|Protect|p1a: Kate
+|-singleturn|p1a: Kate|Protect
+|move|p2a: Swampert|Ice Beam|p1a: Kate
+|-activate|p1a: Kate|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|70/100|[from] item: Leftovers
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729396723
+|move|p1a: Kate|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|45/100
+|move|p2a: Swampert|Earthquake|p1a: Kate
+|-supereffective|p1a: Kate
+|-damage|p1a: Kate|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|25/100|[from] item: Leftovers
+|-heal|p2a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|tycarter has 270 seconds left.
+|
+|t:|1729396732
+|move|p1a: Kate|Protect|p1a: Kate
+|-singleturn|p1a: Kate|Protect
+|move|p2a: Swampert|Surf|p1a: Kate
+|-activate|p1a: Kate|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|31/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729396740
+|move|p1a: Kate|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|34/100
+|move|p2a: Swampert|Ice Beam|p1a: Kate
+|-resisted|p1a: Kate
+|-damage|p1a: Kate|21/100
+|-status|p1a: Kate|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kate|27/100 frz|[from] item: Leftovers
+|-heal|p2a: Swampert|41/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729396749
+|cant|p1a: Kate|frz
+|move|p2a: Swampert|Surf|p1a: Kate
+|-damage|p1a: Kate|0 fnt
+|faint|p1a: Kate
+|
+|t:|1729396757
+|switch|p1a: Phil|Charizard, F|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|13/100|[from] Sandstorm
+|-heal|p1a: Phil|19/100|[from] item: Leftovers
+|-heal|p2a: Swampert|47/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|Garpachi has 60 seconds left.
+|c|☆tycarter|wow wack set ngl
+|
+|t:|1729396765
+|move|p1a: Phil|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729396767
+|switch|p2a: Blissey|Blissey, F|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|13/100|[from] Sandstorm
+|-damage|p2a: Blissey|75/100|[from] Sandstorm
+|-heal|p1a: Phil|19/100|[from] item: Leftovers
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|c|☆Garpachi|there's so much haxx going on
+|c|☆Garpachi|more in my favor tbh
+|inactive|Garpachi has 60 seconds left.
+|inactive|tycarter has 270 seconds left.
+|
+|t:|1729396806
+|move|p1a: Phil|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|47/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Phil|13/100|[from] Sandstorm
+|-damage|p2a: Blissey|91/100|[from] Sandstorm
+|-heal|p1a: Phil|19/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|c|☆Garpachi|i dont think G3 is happening without some help
+|inactive|tycarter has 270 seconds left.
+|inactive|Garpachi has 60 seconds left.
+|
+|t:|1729396819
+|move|p1a: Phil|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|move|p2a: Blissey|Thunderbolt|p1a: Phil
+|-supereffective|p1a: Phil
+|-damage|p1a: Phil|0 fnt
+|faint|p1a: Phil
+|inactive|Garpachi has 60 seconds left.
+|
+|t:|1729396826
+|switch|p1a: Dave|Salamence, M|93/100
+|-ability|p1a: Dave|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dave|87/100|[from] Sandstorm
+|-damage|p2a: Blissey|56/100|[from] Sandstorm
+|-heal|p1a: Dave|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729396834
+|move|p1a: Dave|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|18/100
+|move|p2a: Blissey|Ice Beam|p1a: Dave
+|-supereffective|p1a: Dave
+|-damage|p1a: Dave|0 fnt
+|faint|p1a: Dave
+|
+|win|tycarter
+|c|☆Garpachi|gg
+|c|☆tycarter|ggs
+|c|☆tycarter|/log tycarter made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800276">
+{"id":"smogtours-gen3ou-800276","format":"[Gen 3] OU","players":["Garpachi","tycarter"],"uploadtime":1729396834,"views":124,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

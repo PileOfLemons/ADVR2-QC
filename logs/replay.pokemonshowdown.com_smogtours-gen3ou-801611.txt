@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: no more bad dreams vs. 3 blades - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between no more bad dreams and 3 blades! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801611">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729798310
+|gametype|singles
+|player|p1|no more bad dreams|169|
+|player|p2|3 blades|guzma|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729798310
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: SILVER CHARIOT|Skarmory, M|100/100
+|turn|1
+|c|☆3 blades|hf
+|c|☆no more bad dreams|hf
+|
+|t:|1729798321
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: SILVER CHARIOT|Spikes|p1a: Suicune
+|-sidestart|p1: no more bad dreams|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1729798323
+|move|p1a: Suicune|Hydro Pump|p2a: SILVER CHARIOT
+|-crit|p2a: SILVER CHARIOT
+|-damage|p2a: SILVER CHARIOT|0 fnt
+|faint|p2a: SILVER CHARIOT
+|c|☆no more bad dreams|mb
+|c|☆3 blades|nw
+|
+|t:|1729798334
+|switch|p2a: STONE FREE|Celebi|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1729798336
+|move|p1a: Suicune|Ice Beam|p2a: STONE FREE
+|-supereffective|p2a: STONE FREE
+|-damage|p2a: STONE FREE|32/100
+|move|p2a: STONE FREE|Perish Song|p2a: STONE FREE
+|-start|p1a: Suicune|perish3|[silent]
+|-start|p2a: STONE FREE|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: STONE FREE|38/100|[from] item: Leftovers
+|-start|p1a: Suicune|perish3
+|-start|p2a: STONE FREE|perish3
+|upkeep
+|turn|4
+|
+|t:|1729798342
+|switch|p2a: LOVE DELUXE|Blissey, F|100/100
+|move|p1a: Suicune|Hydro Pump|p2a: LOVE DELUXE|[miss]
+|-miss|p1a: Suicune|p2a: LOVE DELUXE
+|
+|-start|p1a: Suicune|perish2
+|upkeep
+|turn|5
+|
+|t:|1729798347
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Metagross
+|-damage|p1a: Metagross|61/100
+|
+|upkeep
+|turn|6
+|
+|t:|1729798350
+|switch|p2a: FUN FUN FUN|Magneton|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: FUN FUN FUN
+|-resisted|p2a: FUN FUN FUN
+|-damage|p2a: FUN FUN FUN|71/100
+|-boost|p1a: Metagross|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1729798353
+|move|p2a: FUN FUN FUN|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1729798356
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1729798358
+|move|p1a: Dugtrio|Earthquake|p2a: FUN FUN FUN
+|-supereffective|p2a: FUN FUN FUN
+|-damage|p2a: FUN FUN FUN|0 fnt
+|faint|p2a: FUN FUN FUN
+|
+|t:|1729798360
+|switch|p2a: STONE FREE|Celebi|38/100
+|
+|-heal|p2a: STONE FREE|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729798363
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: STONE FREE|Recover|p2a: STONE FREE
+|-heal|p2a: STONE FREE|94/100
+|
+|-heal|p2a: STONE FREE|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729798367
+|move|p1a: Zapdos|Thunderbolt|p2a: STONE FREE
+|-resisted|p2a: STONE FREE
+|-damage|p2a: STONE FREE|80/100
+|move|p2a: STONE FREE|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-damage|p1a: Zapdos|88/100|[from] Leech Seed|[of] p2a: STONE FREE
+|-heal|p2a: STONE FREE|90/100|[silent]
+|-heal|p2a: STONE FREE|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729798370
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: STONE FREE|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|20/100
+|
+|-heal|p1a: Starmie|26/100|[from] item: Leftovers
+|-heal|p2a: STONE FREE|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729798374
+|move|p1a: Starmie|Rapid Spin|p2a: STONE FREE
+|-damage|p2a: STONE FREE|99/100
+|-sideend|p1: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: STONE FREE|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729798378
+|switch|p1a: Suicune|Suicune|100/100
+|
+|-heal|p2a: STONE FREE|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729798380
+|move|p1a: Suicune|Ice Beam|p2a: STONE FREE
+|-supereffective|p2a: STONE FREE
+|-damage|p2a: STONE FREE|55/100
+|move|p2a: STONE FREE|Leech Seed|p1a: Suicune
+|-start|p1a: Suicune|move: Leech Seed
+|
+|-damage|p1a: Suicune|88/100|[from] Leech Seed|[of] p2a: STONE FREE
+|-heal|p2a: STONE FREE|66/100|[silent]
+|-heal|p2a: STONE FREE|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729798386
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|move|p2a: STONE FREE|Hidden Power|p1a: Jolteon
+|-damage|p1a: Jolteon|71/100
+|
+|-heal|p1a: Jolteon|78/100|[from] item: Leftovers
+|-heal|p2a: STONE FREE|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729798388
+|move|p1a: Jolteon|Thunder Wave|p2a: STONE FREE
+|-status|p2a: STONE FREE|par
+|move|p2a: STONE FREE|Hidden Power|p1a: Jolteon
+|-damage|p1a: Jolteon|44/100
+|
+|-heal|p1a: Jolteon|50/100|[from] item: Leftovers
+|-heal|p2a: STONE FREE|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729798394
+|switch|p1a: Zapdos|Zapdos|88/100
+|move|p2a: STONE FREE|Hidden Power|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|75/100
+|
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|-heal|p2a: STONE FREE|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729798398
+|-curestatus|p2a: STONE FREE|par|[from] ability: Natural Cure
+|switch|p2a: LOVE DELUXE|Blissey, F|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|56/100
+|
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729798413
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729798414
+|switch|p1a: Dugtrio|Dugtrio, F|88/100|[from] Baton Pass
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|upkeep
+|turn|19
+|
+|t:|1729798418
+|move|p1a: Dugtrio|Earthquake|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|54/100
+|move|p2a: LOVE DELUXE|Soft-Boiled|p2a: LOVE DELUXE
+|-heal|p2a: LOVE DELUXE|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1729798420
+|move|p1a: Dugtrio|Earthquake|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|58/100
+|move|p2a: LOVE DELUXE|Soft-Boiled|p2a: LOVE DELUXE
+|-heal|p2a: LOVE DELUXE|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1729798423
+|switch|p1a: Jolteon|Jolteon, F|50/100
+|move|p2a: LOVE DELUXE|Soft-Boiled||[still]
+|-fail|p2a: LOVE DELUXE|heal
+|
+|-heal|p1a: Jolteon|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729798427
+|move|p1a: Jolteon|Thunder Wave|p2a: LOVE DELUXE
+|-status|p2a: LOVE DELUXE|par
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Jolteon
+|-damage|p1a: Jolteon|20/100
+|
+|-heal|p1a: Jolteon|26/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729798430
+|move|p1a: Jolteon|Thunderbolt|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|84/100 par
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1729798433
+|switch|p1a: Suicune|Suicune|88/100
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729798438
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: LOVE DELUXE|par
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729798439
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: LOVE DELUXE|Thunder Wave|p1a: Suicune
+|-status|p1a: Suicune|par
+|
+|-heal|p2a: LOVE DELUXE|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729798451
+|-curestatus|p2a: LOVE DELUXE|par|[from] ability: Natural Cure
+|switch|p2a: STAR PLATINUM|Swampert, F|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|upkeep
+|turn|27
+|
+|t:|1729798454
+|move|p2a: STAR PLATINUM|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|66/100 par
+|move|p1a: Suicune|Hidden Power|p2a: STAR PLATINUM
+|-supereffective|p2a: STAR PLATINUM
+|-damage|p2a: STAR PLATINUM|0 fnt
+|faint|p2a: STAR PLATINUM
+|
+|t:|1729798457
+|switch|p2a: LOVE DELUXE|Blissey, F|100/100
+|
+|-heal|p1a: Suicune|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729798460
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|43/100 par
+|move|p1a: Suicune|Ice Beam|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|76/100
+|
+|-heal|p2a: LOVE DELUXE|82/100|[from] item: Leftovers
+|-heal|p1a: Suicune|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729798462
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|20/100 par
+|move|p1a: Suicune|Hydro Pump|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|31/100
+|
+|-heal|p2a: LOVE DELUXE|37/100|[from] item: Leftovers
+|-heal|p1a: Suicune|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729798471
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1729798473
+|switch|p1a: Zapdos|Zapdos|63/100
+|
+|-heal|p1a: Zapdos|69/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|43/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729798474
+|move|p1a: Zapdos|Thunderbolt|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|23/100
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|38/100
+|
+|-heal|p1a: Zapdos|44/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|29/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729798477
+|switch|p1a: Dugtrio|Dugtrio, F|88/100
+|move|p2a: LOVE DELUXE|Seismic Toss|p1a: Dugtrio
+|-damage|p1a: Dugtrio|45/100
+|
+|-heal|p2a: LOVE DELUXE|35/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729798478
+|move|p1a: Dugtrio|Earthquake|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|0 fnt
+|faint|p2a: LOVE DELUXE
+|
+|t:|1729798480
+|switch|p2a: HIGHWAY GOGO|Aerodactyl, M|100/100
+|
+|upkeep
+|turn|34
+|c|☆no more bad dreams|gg
+|c|☆3 blades|gg
+|
+|t:|1729798484
+|move|p2a: HIGHWAY GOGO|Double-Edge|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1729798485
+|switch|p1a: Zapdos|Zapdos|44/100
+|
+|-heal|p1a: Zapdos|50/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729798487
+|move|p2a: HIGHWAY GOGO|Double-Edge|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|3 blades
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801611">
+{"id":"smogtours-gen3ou-801611","format":"[Gen 3] OU","players":["no more bad dreams","3 blades"],"uploadtime":1729798487,"views":107,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

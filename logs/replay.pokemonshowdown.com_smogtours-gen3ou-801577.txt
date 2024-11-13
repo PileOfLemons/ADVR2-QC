@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: swordpeaceAD vs. EhtishamEX - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between swordpeaceAD and EhtishamEX! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801577">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729789837
+|gametype|singles
+|player|p1|swordpeaceAD|ethan|
+|player|p2|EhtishamEX|az|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729789837
+|start
+|switch|p1a: James Cool|Glalie, M|100/100
+|switch|p2a: Trini Man|Jynx, F, shiny|100/100
+|turn|1
+|inactive|swordpeaceAD has 270 seconds left.
+|
+|t:|1729789877
+|switch|p1a: Purple Flurp|Starmie|100/100
+|move|p2a: Trini Man|Substitute|p2a: Trini Man
+|-start|p2a: Trini Man|Substitute
+|-damage|p2a: Trini Man|76/100
+|
+|-heal|p2a: Trini Man|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729789887
+|move|p1a: Purple Flurp|Thunderbolt|p2a: Trini Man
+|-end|p2a: Trini Man|Substitute
+|move|p2a: Trini Man|Lovely Kiss|p1a: Purple Flurp
+|-status|p1a: Purple Flurp|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Trini Man|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|swordpeaceAD has 270 seconds left.
+|inactive|EhtishamEX has 270 seconds left.
+|
+|t:|1729789927
+|-curestatus|p1a: Purple Flurp|slp|[from] ability: Natural Cure
+|switch|p1a: James Cool|Glalie, M|100/100
+|move|p2a: Trini Man|Lovely Kiss|p1a: James Cool
+|-status|p1a: James Cool|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Trini Man|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|swordpeaceAD has 270 seconds left.
+|inactive|EhtishamEX has 270 seconds left.
+|inactive|EhtishamEX has 240 seconds left.
+|
+|t:|1729789973
+|switch|p2a: Gegnar|Gengar, F|100/100
+|cant|p1a: James Cool|slp
+|
+|upkeep
+|turn|5
+|inactive|swordpeaceAD has 240 seconds left.
+|
+|t:|1729790022
+|switch|p1a: Boo|Gengar, F|100/100
+|move|p2a: Gegnar|Mean Look|p1a: Boo
+|-activate|p1a: Boo|trapped
+|
+|upkeep
+|turn|6
+|
+|t:|1729790033
+|move|p2a: Gegnar|Perish Song|p2a: Gegnar
+|-start|p1a: Boo|perish3|[silent]
+|-start|p2a: Gegnar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Boo|Ice Punch|p2a: Gegnar
+|-damage|p2a: Gegnar|73/100
+|
+|-heal|p2a: Gegnar|79/100|[from] item: Leftovers
+|-start|p2a: Gegnar|perish3
+|-start|p1a: Boo|perish3
+|upkeep
+|turn|7
+|
+|t:|1729790045
+|move|p2a: Gegnar|Taunt|p1a: Boo
+|-start|p1a: Boo|move: Taunt
+|move|p1a: Boo|Ice Punch|p2a: Gegnar
+|-damage|p2a: Gegnar|49/100
+|
+|-heal|p2a: Gegnar|55/100|[from] item: Leftovers
+|-start|p2a: Gegnar|perish2
+|-start|p1a: Boo|perish2
+|upkeep
+|turn|8
+|inactive|EhtishamEX has 240 seconds left.
+|
+|t:|1729790085
+|move|p2a: Gegnar|Taunt||[still]
+|-fail|p2a: Gegnar
+|move|p1a: Boo|Fire Punch|p2a: Gegnar
+|-damage|p2a: Gegnar|27/100
+|-status|p2a: Gegnar|brn
+|
+|-heal|p2a: Gegnar|34/100 brn|[from] item: Leftovers
+|-damage|p2a: Gegnar|21/100 brn|[from] brn
+|-end|p1a: Boo|move: Taunt|[silent]
+|-start|p2a: Gegnar|perish1
+|-start|p1a: Boo|perish1
+|upkeep
+|turn|9
+|inactive|swordpeaceAD has 210 seconds left.
+|inactive|EhtishamEX has 210 seconds left.
+|
+|t:|1729790112
+|switch|p2a: Fils-Aimé|Regirock, shiny|100/100
+|move|p1a: Boo|Explosion|p2a: Fils-Aimé
+|-resisted|p2a: Fils-Aimé
+|-crit|p2a: Fils-Aimé
+|-damage|p2a: Fils-Aimé|64/100
+|faint|p1a: Boo
+|
+|t:|1729790123
+|switch|p1a: Purple Flurp|Starmie|100/100
+|
+|-heal|p2a: Fils-Aimé|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|EhtishamEX has 210 seconds left.
+|inactive|EhtishamEX has 180 seconds left.
+|inactive|EhtishamEX has 150 seconds left.
+|
+|t:|1729790222
+|switch|p2a: Peacemaker|Suicune|100/100
+|move|p1a: Purple Flurp|Hydro Pump|p2a: Peacemaker
+|-resisted|p2a: Peacemaker
+|-damage|p2a: Peacemaker|80/100
+|
+|-heal|p2a: Peacemaker|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729790245
+|switch|p2a: Jeomtodori|Claydol, shiny|100/100
+|move|p1a: Purple Flurp|Thunderbolt|p2a: Jeomtodori
+|-immune|p2a: Jeomtodori
+|
+|upkeep
+|turn|12
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729790285
+|move|p1a: Purple Flurp|Hydro Pump|p2a: Jeomtodori|[miss]
+|-miss|p1a: Purple Flurp|p2a: Jeomtodori
+|move|p2a: Jeomtodori|Explosion|p1a: Purple Flurp
+|-damage|p1a: Purple Flurp|0 fnt
+|faint|p2a: Jeomtodori
+|faint|p1a: Purple Flurp
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729790312
+|switch|p1a: Uh-Oh|Lanturn, F|100/100
+|switch|p2a: Fils-Aimé|Regirock, shiny|70/100
+|
+|-heal|p2a: Fils-Aimé|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|EhtishamEX has 120 seconds left.
+|inactive|EhtishamEX has 90 seconds left.
+|inactive|EhtishamEX has 60 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729790431
+|switch|p2a: Gegnar|Gengar, F|21/100 brn
+|move|p1a: Uh-Oh|Hydro Pump|p2a: Gegnar
+|-damage|p2a: Gegnar|0 fnt
+|faint|p2a: Gegnar
+|inactive|EhtishamEX has 30 seconds left this turn.
+|inactive|EhtishamEX has 20 seconds left.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1729790454
+|switch|p2a: MichaelsoftBinbows|Metagross|100/100
+|
+|upkeep
+|turn|14
+|inactive|EhtishamEX has 20 seconds left this turn.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1729790467
+|switch|p1a: Wings|Aerodactyl, F|100/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings|[miss]
+|-miss|p2a: MichaelsoftBinbows|p1a: Wings
+|
+|upkeep
+|turn|15
+|inactive|EhtishamEX has 20 seconds left this turn.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1729790478
+|move|p1a: Wings|Substitute|p1a: Wings
+|-start|p1a: Wings|Substitute
+|-damage|p1a: Wings|76/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings
+|-supereffective|p1a: Wings
+|-end|p1a: Wings|Substitute
+|
+|upkeep
+|turn|16
+|inactive|EhtishamEX has 20 seconds left this turn.
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729790483
+|move|p1a: Wings|Substitute|p1a: Wings
+|-start|p1a: Wings|Substitute
+|-damage|p1a: Wings|51/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings
+|-supereffective|p1a: Wings
+|-end|p1a: Wings|Substitute
+|
+|upkeep
+|turn|17
+|inactive|EhtishamEX has 30 seconds left this turn.
+|
+|t:|1729790488
+|move|p1a: Wings|Substitute|p1a: Wings
+|-start|p1a: Wings|Substitute
+|-damage|p1a: Wings|26/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings
+|-supereffective|p1a: Wings
+|-end|p1a: Wings|Substitute
+|
+|upkeep
+|turn|18
+|
+|t:|1729790492
+|move|p1a: Wings|Substitute|p1a: Wings
+|-start|p1a: Wings|Substitute
+|-damage|p1a: Wings|1/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings|[miss]
+|-miss|p2a: MichaelsoftBinbows|p1a: Wings
+|
+|-enditem|p1a: Wings|Liechi Berry|[eat]
+|-boost|p1a: Wings|atk|1|[from] item: Liechi Berry
+|upkeep
+|turn|19
+|
+|t:|1729790497
+|move|p1a: Wings|Earthquake|p2a: MichaelsoftBinbows
+|-supereffective|p2a: MichaelsoftBinbows
+|-damage|p2a: MichaelsoftBinbows|21/100
+|move|p2a: MichaelsoftBinbows|Rock Slide|p1a: Wings
+|-supereffective|p1a: Wings
+|-end|p1a: Wings|Substitute
+|
+|upkeep
+|turn|20
+|
+|t:|1729790506
+|move|p1a: Wings|Earthquake|p2a: MichaelsoftBinbows
+|-supereffective|p2a: MichaelsoftBinbows
+|-damage|p2a: MichaelsoftBinbows|0 fnt
+|faint|p2a: MichaelsoftBinbows
+|
+|t:|1729790519
+|switch|p2a: Fils-Aimé|Regirock, shiny|76/100
+|
+|-heal|p2a: Fils-Aimé|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729790543
+|move|p1a: Wings|Earthquake|p2a: Fils-Aimé
+|-supereffective|p2a: Fils-Aimé
+|-damage|p2a: Fils-Aimé|35/100
+|move|p2a: Fils-Aimé|Thunder Wave|p1a: Wings
+|-status|p1a: Wings|par
+|
+|-heal|p2a: Fils-Aimé|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729790551
+|move|p2a: Fils-Aimé|Rock Slide|p1a: Wings
+|-supereffective|p1a: Wings
+|-damage|p1a: Wings|0 fnt
+|faint|p1a: Wings
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729790561
+|switch|p1a: Uh-Oh|Lanturn, F|100/100
+|
+|-heal|p2a: Fils-Aimé|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729790596
+|move|p1a: Uh-Oh|Hydro Pump|p2a: Fils-Aimé
+|-supereffective|p2a: Fils-Aimé
+|-damage|p2a: Fils-Aimé|0 fnt
+|faint|p2a: Fils-Aimé
+|inactive|EhtishamEX has 60 seconds left.
+|
+|t:|1729790609
+|switch|p2a: Trini Man|Jynx, F, shiny|93/100
+|
+|-heal|p2a: Trini Man|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|EhtishamEX has 60 seconds left.
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729790644
+|move|p2a: Trini Man|Calm Mind|p2a: Trini Man
+|-boost|p2a: Trini Man|spa|1
+|-boost|p2a: Trini Man|spd|1
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Trini Man
+|-damage|p2a: Trini Man|63/100
+|
+|-heal|p2a: Trini Man|69/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|swordpeaceAD has 180 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|inactive|swordpeaceAD has 150 seconds left.
+|
+|t:|1729790695
+|move|p2a: Trini Man|Calm Mind|p2a: Trini Man
+|-boost|p2a: Trini Man|spa|1
+|-boost|p2a: Trini Man|spd|1
+|move|p1a: Uh-Oh|Hydro Pump|p2a: Trini Man
+|-damage|p2a: Trini Man|38/100
+|
+|-heal|p2a: Trini Man|44/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729790708
+|move|p2a: Trini Man|Ice Beam|p1a: Uh-Oh
+|-resisted|p1a: Uh-Oh
+|-damage|p1a: Uh-Oh|56/100
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Trini Man
+|-damage|p2a: Trini Man|18/100
+|-status|p2a: Trini Man|par
+|
+|-heal|p1a: Uh-Oh|62/100|[from] item: Leftovers
+|-heal|p2a: Trini Man|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|swordpeaceAD has 150 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729790716
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Trini Man
+|-damage|p2a: Trini Man|0 fnt
+|faint|p2a: Trini Man
+|
+|t:|1729790718
+|switch|p2a: Peacemaker|Suicune|87/100
+|
+|-heal|p1a: Uh-Oh|68/100|[from] item: Leftovers
+|-heal|p2a: Peacemaker|93/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1729790734
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Peacemaker
+|-supereffective|p2a: Peacemaker
+|-damage|p2a: Peacemaker|30/100
+|move|p2a: Peacemaker|Calm Mind|p2a: Peacemaker
+|-boost|p2a: Peacemaker|spa|1
+|-boost|p2a: Peacemaker|spd|1
+|
+|-heal|p1a: Uh-Oh|74/100|[from] item: Leftovers
+|-heal|p2a: Peacemaker|36/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729790738
+|move|p2a: Peacemaker|Rest|p2a: Peacemaker
+|-status|p2a: Peacemaker|slp|[from] move: Rest
+|-heal|p2a: Peacemaker|100/100 slp|[silent]
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Peacemaker
+|-supereffective|p2a: Peacemaker
+|-damage|p2a: Peacemaker|60/100 slp
+|
+|-heal|p1a: Uh-Oh|80/100|[from] item: Leftovers
+|-heal|p2a: Peacemaker|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729790751
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Peacemaker
+|-supereffective|p2a: Peacemaker
+|-damage|p2a: Peacemaker|25/100 slp
+|cant|p2a: Peacemaker|slp
+|move|p2a: Peacemaker|Sleep Talk|p2a: Peacemaker
+|move|p2a: Peacemaker|Surf|p1a: Uh-Oh|[from]Sleep Talk
+|-resisted|p1a: Uh-Oh
+|-damage|p1a: Uh-Oh|50/100
+|
+|-heal|p2a: Peacemaker|31/100 slp|[from] item: Leftovers
+|-heal|p1a: Uh-Oh|57/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729790759
+|cant|p2a: Peacemaker|slp
+|move|p2a: Peacemaker|Sleep Talk|p2a: Peacemaker
+|move|p2a: Peacemaker|Rest|p2a: Peacemaker|[from]Sleep Talk
+|move|p1a: Uh-Oh|Thunderbolt|p2a: Peacemaker
+|-supereffective|p2a: Peacemaker
+|-damage|p2a: Peacemaker|0 fnt
+|faint|p2a: Peacemaker
+|
+|win|swordpeaceAD
+|c|☆EhtishamEX|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801577">
+{"id":"smogtours-gen3ou-801577","format":"[Gen 3] OU","players":["swordpeaceAD","EhtishamEX"],"uploadtime":1729790759,"views":79,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

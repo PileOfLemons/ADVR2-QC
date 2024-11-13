@@ -1,0 +1,3042 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: social inclusion vs. Just_Leonardo - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between social inclusion and Just_Leonardo! Format: [Gen 3] OU; Date: Oct 25, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801883">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729883798
+|gametype|singles
+|player|p1|social inclusion|scientist-gen4dp|
+|player|p2|Just_Leonardo|hiker-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729883798
+|start
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|turn|1
+|c|☆Just_Leonardo|hf
+|c|☆Just_Leonardo|Btw
+|c|☆social inclusion|hf mate
+|c|☆Just_Leonardo|I'm don't even love running suicune usually ahahah
+|inactive|Just_Leonardo has 270 seconds left.
+|inactive|social inclusion has 270 seconds left.
+|c|☆social inclusion|well if it works it works
+|
+|t:|1729883853
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|move|p1a: Forretress|Spikes|p2a: Suicune
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729883878
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729883883
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729883888
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Just_Leonardo|Oh dear, this 1v1 ahaha
+|
+|t:|1729883900
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆social inclusion|hope your the same set, if your roar I loose
+|
+|t:|1729883917
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1729883922
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1729883927
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729883931
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|76/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729883936
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1729883941
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729883949
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|60/100
+|-status|p2a: Suicune|par
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Suicune|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729883959
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|29/100 par
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729883966
+|cant|p2a: Suicune|slp
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|62/100 slp
+|
+|-heal|p2a: Suicune|68/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729883972
+|cant|p2a: Suicune|slp
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|29/100 slp
+|
+|-heal|p2a: Suicune|36/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729883978
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|63/100 slp
+|
+|-heal|p2a: Suicune|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729883990
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729883995
+|cant|p2a: Suicune|slp
+|move|p1a: Skarmory|Roar|p2a: Suicune
+|drag|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1729884010
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Skarmory|Toxic|p2a: V
+|-immune|p2a: V
+|
+|upkeep
+|turn|20
+|
+|t:|1729884015
+|move|p1a: Skarmory|Spikes|p2a: V
+|-sidestart|p2: Just_Leonardo|Spikes
+|move|p2a: V|Spikes|p1a: Skarmory
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|21
+|
+|t:|1729884019
+|move|p1a: Skarmory|Spikes|p2a: V
+|-sidestart|p2: Just_Leonardo|Spikes
+|move|p2a: V|Spikes|p1a: Skarmory
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|22
+|
+|t:|1729884023
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: V|Spikes|p1a: Claydol
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|23
+|
+|t:|1729884026
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|98/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729884040
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|98/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729884055
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: V|Skarmory, F|100/100
+|
+|upkeep
+|turn|26
+|
+|t:|1729884059
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: V|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|27
+|
+|t:|1729884073
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729884081
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|upkeep
+|turn|29
+|
+|t:|1729884086
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Skarmory|Roar|p2a: V
+|drag|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|
+|upkeep
+|turn|30
+|
+|t:|1729884094
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Skarmory|Roar|p2a: V
+|drag|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|31
+|
+|t:|1729884106
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: V
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|upkeep
+|turn|32
+|
+|t:|1729884111
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: V|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|33
+|
+|t:|1729884116
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729884162
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729884189
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Skarmory|Spikes|p2a: Zapdos
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|upkeep
+|turn|36
+|inactive|social inclusion has 240 seconds left.
+|
+|t:|1729884220
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|46/100
+|
+|-heal|p1a: Milotic|52/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729884228
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1729884237
+|switch|p2a: Joy|Blissey, F|100/100
+|-damage|p2a: Joy|88/100|[from] Spikes
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Joy|94/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729884242
+|switch|p1a: Milotic|Milotic, F|52/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Milotic|58/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729884245
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|41
+|
+|t:|1729884252
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729884266
+|move|p2a: Zapdos|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100
+|
+|-heal|p2a: Zapdos|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|84/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1729884276
+|switch|p2a: Suicune|Suicune|75/100 slp
+|-damage|p2a: Suicune|63/100 slp|[from] Spikes
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Suicune|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729884298
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|44/100
+|move|p1a: Claydol|Psychic|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|50/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729884307
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Claydol|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|32/100
+|-unboost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|39/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729884336
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Claydol|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|20/100
+|
+|-heal|p2a: Suicune|26/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729884351
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|1/100
+|move|p1a: Claydol|Psychic|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|7/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729884391
+|switch|p1a: Milotic|Milotic, F|58/100
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|15/100
+|
+|-heal|p2a: Suicune|13/100|[from] item: Leftovers
+|-heal|p1a: Milotic|22/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|c|☆social inclusion|yikes
+|inactive|social inclusion has 270 seconds left.
+|c|☆social inclusion|the hax magnet doing its thing
+|c|☆Just_Leonardo|mb
+|
+|t:|1729884413
+|switch|p1a: Blissey|Blissey, F|84/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|
+|-heal|p2a: Suicune|20/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729884419
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729884423
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|52
+|
+|t:|1729884427
+|cant|p2a: Suicune|slp
+|move|p1a: Skarmory|Roar|p2a: Suicune
+|drag|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|53
+|
+|t:|1729884442
+|switch|p1a: Milotic|Milotic, F|22/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|19/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Milotic|25/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729884447
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|75/100
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729884479
+|switch|p1a: Blissey|Blissey, F|71/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729884485
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729884489
+|switch|p1a: Milotic|Milotic, F|81/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Milotic|87/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729884494
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729884498
+|switch|p1a: Milotic|Milotic, F|87/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|93/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729884500
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|61
+|
+|t:|1729884502
+|switch|p1a: Milotic|Milotic, F|93/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729884504
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|53/100
+|
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729884509
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|14/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|64/100
+|
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729884513
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|18/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|68/100
+|
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729884517
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|27/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|77/100
+|
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729884521
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|87/100
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729884526
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|97/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729884532
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|7/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|14/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729884537
+|switch|p1a: Milotic|Milotic, F|99/100
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|53/100
+|
+|-heal|p1a: Milotic|59/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729884543
+|switch|p2a: Zapdos|Zapdos|72/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729884550
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Zapdos|84/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729884559
+|move|p2a: Zapdos|Toxic|p1a: Claydol|[miss]
+|-miss|p2a: Zapdos|p1a: Claydol
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729884574
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100
+|
+|-heal|p2a: Zapdos|70/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|t:|1729884587
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729884622
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Suicune
+|-damage|p2a: Suicune|99/100
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729884646
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|89/100
+|
+|-heal|p1a: Milotic|95/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729884660
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|move|p1a: Milotic|Toxic||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729884667
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1729884671
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|c|☆Just_Leonardo|mb
+|
+|t:|1729884677
+|switch|p1a: Blissey|Blissey, F|14/100
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|20/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|c|☆social inclusion|all good
+|
+|t:|1729884690
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|c|☆social inclusion|damn mate
+|c|☆social inclusion|6% roll again
+|c|☆Just_Leonardo|I'm haxxing
+|
+|t:|1729884703
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|c|☆Just_Leonardo|Mb
+|
+|t:|1729884712
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1729884714
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|83
+|
+|t:|1729884718
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|84
+|
+|t:|1729884721
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|85
+|
+|t:|1729884723
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|86
+|
+|t:|1729884725
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|87
+|
+|t:|1729884727
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|88
+|
+|t:|1729884732
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: Milotic|Recover||[still]
+|-fail|p1a: Milotic|heal
+|
+|upkeep
+|turn|89
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729884763
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|58/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|64/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|inactive|Just_Leonardo has 270 seconds left.
+|c|☆social inclusion|Just crit it over with :*)
+|
+|t:|1729884778
+|switch|p2a: Zapdos|Zapdos|76/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|inactive|Just_Leonardo has 270 seconds left.
+|c|☆Just_Leonardo|Have to be mindful of surf pp
+|
+|t:|1729884798
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|92
+|
+|t:|1729884808
+|switch|p2a: Joy|Blissey, F|94/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Joy|99/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|c|☆social inclusion|the cirt on bliss on the worst moment as well, if I just had softboiled
+|c|☆social inclusion|and not cmed
+|c|☆social inclusion|bad missplay by me
+|c|☆Just_Leonardo|It happens
+|c|☆social inclusion|very stupid
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729884839
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Joy|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|87/100
+|
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|93/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|inactive|Just_Leonardo has 270 seconds left.
+|inactive|social inclusion has 270 seconds left.
+|inactive|Just_Leonardo has 240 seconds left.
+|c|☆Just_Leonardo|Honestly, haven't slept at all today and I've had a really freaking tiring day ahahahah I'm also playing like crap
+|c|☆Just_Leonardo|Don't worry about your mistakes
+|
+|t:|1729884891
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1729884901
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|98/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|inactive|Just_Leonardo has 240 seconds left.
+|
+|t:|1729884911
+|switch|p1a: Forretress|Forretress, F|99/100
+|switch|p2a: V|Skarmory, F|100/100
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729884917
+|switch|p2a: Eye see you|Claydol|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|98
+|
+|t:|1729884931
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: V|Skarmory, F|100/100
+|
+|upkeep
+|turn|99
+|
+|t:|1729884937
+|switch|p2a: Eye see you|Claydol|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|100
+|
+|t:|1729884943
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Eye see you|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|89/100
+|
+|-heal|p1a: Forretress|95/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|c|☆social inclusion|Im wondering if this could be a tie
+|
+|t:|1729884955
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|102
+|c|☆Just_Leonardo|Mmmmh possible
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729884969
+|switch|p1a: Forretress|Forretress, F|95/100
+|switch|p2a: Joy|Blissey, F|100/100
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|c|☆social inclusion|we both dont have breaking power anymore
+|c|☆social inclusion|only if suicune crits milo
+|c|☆social inclusion|maybe ice beam freeze
+|c|☆Just_Leonardo|Biggest issue for me is figuring out how to deal with the milot
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729885016
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|upkeep
+|turn|104
+|
+|t:|1729885024
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Claydol
+|-damage|p1a: Claydol|96/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|c|☆social inclusion|boom it with doll maybe
+|
+|t:|1729885034
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Eye see you|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|88/100
+|
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|inactive|social inclusion has 270 seconds left.
+|c|☆social inclusion|if you boom doll on this turn right here
+|c|☆social inclusion|zap wins
+|
+|t:|1729885062
+|move|p2a: Eye see you|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|81/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1729885083
+|move|p2a: Eye see you|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|86/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|93/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1729885093
+|move|p2a: Eye see you|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|76/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1729885096
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Claydol
+|-damage|p1a: Claydol|97/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1729885102
+|move|p1a: Claydol|Psychic|p2a: Eye see you
+|-resisted|p2a: Eye see you
+|-damage|p2a: Eye see you|88/100
+|move|p2a: Eye see you|Psychic|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|90/100
+|
+|-heal|p1a: Claydol|96/100|[from] item: Leftovers
+|-heal|p2a: Eye see you|94/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1729885108
+|move|p1a: Claydol|Psychic|p2a: Eye see you
+|-resisted|p2a: Eye see you
+|-damage|p2a: Eye see you|81/100
+|move|p2a: Eye see you|Psychic|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|85/100
+|-unboost|p1a: Claydol|spd|1
+|
+|-heal|p1a: Claydol|91/100|[from] item: Leftovers
+|-heal|p2a: Eye see you|87/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1729885118
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|81/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|-heal|p2a: Eye see you|93/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729885170
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|114
+|
+|t:|1729885176
+|switch|p1a: Forretress|Forretress, F|82/100
+|move|p2a: V|Spikes|p1a: Forretress
+|-sidestart|p1: social inclusion|Spikes
+|
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1729885179
+|switch|p2a: Eye see you|Claydol|93/100
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-crit|p2a: Eye see you
+|-damage|p2a: Eye see you|85/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Eye see you|91/100|[from] item: Leftovers
+|-heal|p1a: Forretress|95/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1729885185
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|82/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|-heal|p2a: Eye see you|97/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1729885199
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Milotic|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|87/100
+|
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1729885214
+|switch|p1a: Forretress|Forretress, F|95/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|68/100
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1729885225
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Forretress|Spikes|p2a: Suicune
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1729885231
+|switch|p2a: Zapdos|Zapdos|88/100
+|move|p1a: Forretress|Spikes|p2a: Zapdos
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1729885236
+|switch|p1a: Claydol|Claydol|91/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p1a: Claydol|97/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1729885243
+|switch|p2a: Eye see you|Claydol|97/100
+|switch|p1a: Forretress|Forretress, F|100/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|c|☆social inclusion|boom here?
+|c|☆Just_Leonardo|Funny that
+|c|☆Just_Leonardo|I uh
+|c|☆social inclusion|so hard to tell
+|inactive|social inclusion has 270 seconds left.
+|c|☆Just_Leonardo|I can't speak
+|
+|t:|1729885280
+|move|p2a: Eye see you|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1729885287
+|switch|p1a: Milotic|Milotic, F|94/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|92/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Milotic|98/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1729885299
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: Zapdos|Zapdos|99/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1729885307
+|switch|p1a: Claydol|Claydol|97/100
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-heal|p1a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|127
+|
+|t:|1729885311
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1729885315
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Joy|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|86/100
+|
+|-heal|p1a: Forretress|92/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1729885322
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|98/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1729885325
+|switch|p1a: Milotic|Milotic, F|98/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|95/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1729885332
+|switch|p1a: Forretress|Forretress, F|98/100
+|switch|p2a: V|Skarmory, F|100/100
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1729885336
+|switch|p2a: Eye see you|Claydol|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|133
+|
+|t:|1729885341
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Eye see you|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|87/100
+|
+|-heal|p1a: Forretress|93/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1729885344
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|80/100
+|
+|-heal|p1a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1729885351
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|136
+|
+|t:|1729885355
+|switch|p1a: Forretress|Forretress, F|93/100
+|move|p2a: Joy|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|79/100
+|
+|-heal|p1a: Forretress|85/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1729885363
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|91/100|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1729885367
+|move|p2a: Eye see you|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|90/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1729885375
+|move|p2a: Eye see you|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|84/100
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|90/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1729885381
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Earthquake|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|62/100
+|
+|-heal|p1a: Milotic|68/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1729885388
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|142
+|c|☆social inclusion|cant you just boom milo and trap with dug?
+|
+|t:|1729885404
+|switch|p1a: Forretress|Forretress, F|90/100
+|move|p2a: Joy|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|77/100
+|
+|-heal|p1a: Forretress|83/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|c|☆Just_Leonardo|Can't speak
+|c|☆Just_Leonardo|You'll understand at game end
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729885449
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Forretress|Spikes|p2a: Eye see you
+|-sidestart|p2: Just_Leonardo|Spikes
+|
+|-heal|p1a: Forretress|89/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1729885454
+|move|p2a: Eye see you|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|88/100
+|-sideend|p2: Just_Leonardo|Spikes|[from] move: Rapid Spin|[of] p2a: Eye see you
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|97/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|145
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729885460
+|move|p2a: Eye see you|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|77/100
+|move|p1a: Forretress|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|96/100
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|83/100|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1729885465
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|85/100
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1729885473
+|switch|p1a: Forretress|Forretress, F|83/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Forretress|89/100|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1729885477
+|switch|p2a: Joy|Blissey, F|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|149
+|
+|t:|1729885485
+|switch|p1a: Forretress|Forretress, F|89/100
+|move|p2a: Joy|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|76/100
+|-status|p1a: Forretress|frz
+|
+|-heal|p1a: Forretress|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|150
+|
+|t:|1729885492
+|switch|p1a: Milotic|Milotic, F|91/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|66/100
+|
+|-heal|p1a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|151
+|
+|t:|1729885504
+|move|p1a: Milotic|Toxic|p2a: Joy
+|-status|p2a: Joy|tox
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|46/100
+|
+|-heal|p1a: Milotic|53/100|[from] item: Leftovers
+|-damage|p2a: Joy|94/100 tox|[from] psn
+|upkeep
+|turn|152
+|
+|t:|1729885507
+|-curestatus|p2a: Joy|tox|[from] ability: Natural Cure
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|153
+|
+|t:|1729885512
+|switch|p2a: Joy|Blissey, F|94/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1729885518
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1729885524
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|56/100
+|
+|-heal|p1a: Milotic|62/100|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1729885529
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|68/100|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1729885536
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|158
+|
+|t:|1729885540
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|159
+|
+|t:|1729885548
+|switch|p1a: Milotic|Milotic, F|68/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|43/100
+|
+|-heal|p1a: Milotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|160
+|
+|t:|1729885557
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1729885583
+|switch|p2a: Suicune|Suicune|81/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1729885610
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1729885627
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|68/100
+|
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1729885633
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|165
+|
+|t:|1729885638
+|move|p1a: Dugtrio|Earthquake|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|166
+|
+|t:|1729885643
+|move|p1a: Dugtrio|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|72/100 slp
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|167
+|
+|t:|1729885671
+|switch|p1a: Milotic|Milotic, F|100/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|85/100
+|
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|168
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729885704
+|switch|p2a: V|Skarmory, F|100/100
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|169
+|
+|t:|1729885730
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: V|Spikes|p1a: Claydol
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|170
+|
+|t:|1729885747
+|switch|p2a: Eye see you|Claydol|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Eye see you
+|-damage|p2a: Eye see you|98/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Eye see you|100/100|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1729885759
+|switch|p1a: Milotic|Milotic, F|91/100
+|move|p2a: Eye see you|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|172
+|
+|t:|1729885764
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Milotic|Surf|p2a: V
+|-damage|p2a: V|68/100
+|
+|-heal|p1a: Milotic|87/100|[from] item: Leftovers
+|-heal|p2a: V|74/100|[from] item: Leftovers
+|upkeep
+|turn|173
+|
+|t:|1729885769
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: V|Protect||[still]
+|-fail|p2a: V
+|
+|-heal|p2a: V|80/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1729885772
+|move|p2a: V|Protect|p2a: V
+|-singleturn|p2a: V|Protect
+|move|p1a: Claydol|Hidden Power|p2a: V
+|-activate|p2a: V|Protect
+|
+|-heal|p2a: V|86/100|[from] item: Leftovers
+|upkeep
+|turn|175
+|
+|t:|1729885779
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Claydol|Hidden Power|p2a: Joy
+|-crit|p2a: Joy
+|-damage|p2a: Joy|86/100
+|
+|-heal|p2a: Joy|93/100|[from] item: Leftovers
+|upkeep
+|turn|176
+|
+|t:|1729885787
+|switch|p1a: Milotic|Milotic, F|87/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|61/100
+|
+|-heal|p1a: Milotic|68/100|[from] item: Leftovers
+|-heal|p2a: Joy|99/100|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1729885798
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|74/100|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1729885820
+|switch|p2a: Eye see you|Claydol|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|179
+|
+|t:|1729885828
+|switch|p1a: Milotic|Milotic, F|74/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Milotic|80/100|[from] item: Leftovers
+|upkeep
+|turn|180
+|
+|t:|1729885833
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Roar|p1a: Claydol
+|drag|p1a: Forretress|Forretress, F|82/100 frz
+|
+|-heal|p1a: Forretress|89/100 frz|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1729885839
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|182
+|
+|t:|1729885848
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|97/100
+|move|p2a: Zapdos|Roar|p1a: Claydol
+|drag|p1a: Milotic|Milotic, F|80/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1729885853
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Roar|p1a: Claydol
+|drag|p1a: Forretress|Forretress, F|89/100 frz
+|
+|-heal|p1a: Forretress|95/100 frz|[from] item: Leftovers
+|upkeep
+|turn|184
+|
+|t:|1729885859
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Roar|p1a: Claydol
+|drag|p1a: Milotic|Milotic, F|86/100
+|
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1729885863
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Toxic|p1a: Claydol|[miss]
+|-miss|p2a: Zapdos|p1a: Claydol
+|
+|upkeep
+|turn|186
+|
+|t:|1729885875
+|switch|p1a: Forretress|Forretress, F|95/100 frz
+|move|p2a: Zapdos|Roar|p1a: Forretress
+|drag|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|187
+|
+|t:|1729885882
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|188
+|
+|t:|1729885896
+|switch|p1a: Milotic|Milotic, F|92/100
+|switch|p2a: Joy|Blissey, F|99/100
+|
+|-heal|p1a: Milotic|98/100|[from] item: Leftovers
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|189
+|
+|t:|1729885909
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|73/100
+|
+|-heal|p1a: Milotic|79/100|[from] item: Leftovers
+|upkeep
+|turn|190
+|
+|t:|1729885912
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|53/100
+|
+|-heal|p1a: Milotic|59/100|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1729885917
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|34/100
+|
+|-heal|p1a: Milotic|40/100|[from] item: Leftovers
+|upkeep
+|turn|192
+|
+|t:|1729885930
+|switch|p2a: Suicune|Suicune|84/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|90/100
+|
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1729885940
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|194
+|
+|t:|1729885946
+|switch|p1a: Forretress|Forretress, F|95/100 frz
+|cant|p2a: Suicune|slp
+|
+|-heal|p1a: Forretress|100/100 frz|[from] item: Leftovers
+|upkeep
+|turn|195
+|
+|t:|1729885954
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|switch|p1a: Milotic|Milotic, F|96/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|196
+|
+|t:|1729885960
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Milotic|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|89/100 slp
+|
+|-heal|p2a: Suicune|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|197
+|
+|t:|1729885980
+|switch|p1a: Forretress|Forretress, F|100/100 frz
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1729885992
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|199
+|
+|t:|1729885999
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|200
+|
+|t:|1729886012
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|201
+|
+|t:|1729886017
+|switch|p2a: V|Skarmory, F|86/100
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|-heal|p2a: V|92/100|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1729886025
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|203
+|
+|t:|1729886034
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Suicune|Suicune|100/100 slp
+|
+|upkeep
+|turn|204
+|
+|t:|1729886053
+|switch|p1a: Claydol|Claydol|100/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|205
+|
+|t:|1729886063
+|switch|p1a: Forretress|Forretress, F|100/100 frz
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|206
+|
+|t:|1729886069
+|switch|p1a: Claydol|Claydol|100/100
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|207
+|
+|t:|1729886079
+|switch|p1a: Forretress|Forretress, F|100/100 frz
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|208
+|
+|t:|1729886085
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|209
+|
+|t:|1729886097
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|97/100 slp
+|
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|210
+|
+|t:|1729886114
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Forretress|Forretress, F|100/100 frz
+|
+|upkeep
+|turn|211
+|
+|t:|1729886119
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Roar|p1a: Claydol
+|drag|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|212
+|
+|t:|1729886125
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Suicune|Suicune|100/100 slp
+|
+|upkeep
+|turn|213
+|
+|t:|1729886133
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|214
+|
+|t:|1729886143
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|upkeep
+|turn|215
+|
+|t:|1729886168
+|switch|p2a: Joy|Blissey, F|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|216
+|
+|t:|1729886176
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|
+|upkeep
+|turn|217
+|
+|t:|1729886184
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Milotic|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|88/100 slp
+|
+|-heal|p2a: Suicune|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|218
+|
+|t:|1729886209
+|switch|p1a: Claydol|Claydol|100/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|45/100
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Claydol|51/100|[from] item: Leftovers
+|upkeep
+|turn|219
+|
+|t:|1729886220
+|switch|p2a: Pinky Middle Thumb|Dugtrio, M|100/100
+|move|p1a: Claydol|Psychic|p2a: Pinky Middle Thumb
+|-damage|p2a: Pinky Middle Thumb|30/100
+|
+|-heal|p1a: Claydol|58/100|[from] item: Leftovers
+|upkeep
+|turn|220
+|
+|t:|1729886238
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Pinky Middle Thumb|Hidden Power|p1a: Milotic
+|-damage|p1a: Milotic|82/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|221
+|
+|t:|1729886255
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Milotic|Toxic|p2a: Suicune|[miss]
+|-miss|p1a: Milotic|p2a: Suicune
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|222
+|inactive|social inclusion has 270 seconds left.
+|
+|t:|1729886282
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|223
+|
+|t:|1729886288
+|switch|p2a: Suicune|Suicune|100/100
+|switch|p1a: Claydol|Claydol|58/100
+|
+|-heal|p1a: Claydol|64/100|[from] item: Leftovers
+|upkeep
+|turn|224
+|
+|t:|1729886298
+|switch|p1a: Milotic|Milotic, F|99/100
+|move|p2a: Suicune|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|90/100
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|225
+|
+|t:|1729886305
+|switch|p1a: Claydol|Claydol|64/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-heal|p1a: Claydol|70/100|[from] item: Leftovers
+|upkeep
+|turn|226
+|
+|t:|1729886311
+|switch|p2a: V|Skarmory, F|92/100
+|switch|p1a: Milotic|Milotic, F|96/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: V|98/100|[from] item: Leftovers
+|upkeep
+|turn|227
+|
+|t:|1729886320
+|switch|p1a: Claydol|Claydol|70/100
+|move|p2a: V|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-heal|p1a: Claydol|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|70/100 tox|[from] psn
+|-heal|p2a: V|100/100|[from] item: Leftovers
+|upkeep
+|turn|228
+|
+|t:|1729886328
+|switch|p2a: Suicune|Suicune|82/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|upkeep
+|turn|229
+|
+|t:|1729886341
+|switch|p2a: V|Skarmory, F|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|230
+|
+|t:|1729886350
+|switch|p1a: Claydol|Claydol|76/100
+|move|p2a: V|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-heal|p1a: Claydol|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|231
+|
+|t:|1729886354
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|232
+|
+|t:|1729886375
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|233
+|
+|t:|1729886380
+|move|p1a: Milotic|Toxic|p2a: Joy
+|-status|p2a: Joy|tox
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|56/100
+|
+|-heal|p1a: Milotic|62/100|[from] item: Leftovers
+|-damage|p2a: Joy|94/100 tox|[from] psn
+|upkeep
+|turn|234
+|
+|t:|1729886398
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Joy|Seismic Toss|p1a: Dugtrio
+|-damage|p1a: Dugtrio|54/100
+|
+|-heal|p2a: Joy|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Joy|88/100 tox|[from] psn
+|upkeep
+|turn|235
+|
+|t:|1729886423
+|switch|p1a: Milotic|Milotic, F|62/100
+|move|p2a: Joy|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|52/100
+|
+|-heal|p1a: Milotic|58/100|[from] item: Leftovers
+|-heal|p2a: Joy|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Joy|76/100 tox|[from] psn
+|upkeep
+|turn|236
+|
+|t:|1729886429
+|-curestatus|p2a: Joy|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|88/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|237
+|
+|t:|1729886437
+|switch|p1a: Claydol|Claydol|82/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|upkeep
+|turn|238
+|
+|t:|1729886442
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|239
+|
+|t:|1729886450
+|switch|p2a: Joy|Blissey, F|76/100
+|switch|p1a: Claydol|Claydol|89/100
+|
+|-heal|p1a: Claydol|95/100|[from] item: Leftovers
+|-heal|p2a: Joy|82/100|[from] item: Leftovers
+|upkeep
+|turn|240
+|
+|t:|1729886460
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Joy|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|91/100
+|
+|-heal|p1a: Milotic|97/100|[from] item: Leftovers
+|-heal|p2a: Joy|88/100|[from] item: Leftovers
+|upkeep
+|turn|241
+|
+|t:|1729886473
+|move|p1a: Milotic|Toxic|p2a: Joy
+|-status|p2a: Joy|tox
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|72/100
+|
+|-heal|p1a: Milotic|78/100|[from] item: Leftovers
+|-heal|p2a: Joy|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Joy|88/100 tox|[from] psn
+|upkeep
+|turn|242
+|
+|t:|1729886487
+|-curestatus|p2a: Joy|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|81/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: Milotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|243
+|
+|t:|1729886501
+|switch|p2a: Joy|Blissey, F|88/100
+|switch|p1a: Claydol|Claydol|95/100
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Joy|94/100|[from] item: Leftovers
+|upkeep
+|turn|244
+|
+|t:|1729886505
+|switch|p1a: Milotic|Milotic, F|84/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|59/100
+|
+|-heal|p1a: Milotic|65/100|[from] item: Leftovers
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|245
+|
+|t:|1729886510
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|39/100
+|
+|-heal|p1a: Milotic|45/100|[from] item: Leftovers
+|upkeep
+|turn|246
+|
+|t:|1729886516
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|95/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|70/100
+|
+|-heal|p1a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|247
+|
+|t:|1729886522
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|-heal|p1a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|248
+|
+|t:|1729886528
+|switch|p2a: Joy|Blissey, F|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|249
+|
+|t:|1729886531
+|switch|p1a: Milotic|Milotic, F|82/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|57/100
+|
+|-heal|p1a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|250
+|
+|t:|1729886535
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Joy|Seismic Toss|p1a: Claydol
+|-damage|p1a: Claydol|69/100
+|
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|upkeep
+|turn|251
+|
+|t:|1729886538
+|switch|p1a: Milotic|Milotic, F|63/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|38/100
+|
+|-heal|p1a: Milotic|44/100|[from] item: Leftovers
+|upkeep
+|turn|252
+|
+|t:|1729886541
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|94/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|68/100
+|
+|-heal|p1a: Milotic|74/100|[from] item: Leftovers
+|upkeep
+|turn|253
+|
+|t:|1729886552
+|move|p1a: Milotic|Surf|p2a: Joy
+|-damage|p2a: Joy|87/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|49/100
+|
+|-heal|p1a: Milotic|55/100|[from] item: Leftovers
+|-heal|p2a: Joy|93/100|[from] item: Leftovers
+|upkeep
+|turn|254
+|
+|t:|1729886559
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|30/100
+|
+|-heal|p1a: Milotic|36/100|[from] item: Leftovers
+|-heal|p2a: Joy|99/100|[from] item: Leftovers
+|upkeep
+|turn|255
+|
+|t:|1729886572
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|86/100
+|move|p2a: Joy|Aromatherapy|p2a: Joy
+|-cureteam|p2a: Joy|[from] move: Aromatherapy
+|
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|256
+|
+|t:|1729886588
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Joy|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|82/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|257
+|
+|t:|1729886593
+|switch|p1a: Forretress|Forretress, F|100/100 frz
+|move|p2a: Joy|Seismic Toss|p1a: Forretress
+|-damage|p1a: Forretress|72/100 frz
+|
+|-heal|p1a: Forretress|78/100 frz|[from] item: Leftovers
+|upkeep
+|turn|258
+|
+|t:|1729886599
+|switch|p1a: Milotic|Milotic, F|88/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|63/100
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|259
+|
+|t:|1729886606
+|move|p1a: Milotic|Surf|p2a: Joy
+|-crit|p2a: Joy
+|-damage|p2a: Joy|74/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|43/100
+|
+|-heal|p1a: Milotic|49/100|[from] item: Leftovers
+|-heal|p2a: Joy|81/100|[from] item: Leftovers
+|upkeep
+|turn|260
+|
+|t:|1729886613
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|74/100
+|
+|-heal|p1a: Milotic|80/100|[from] item: Leftovers
+|-heal|p2a: Joy|87/100|[from] item: Leftovers
+|upkeep
+|turn|261
+|
+|t:|1729886623
+|switch|p2a: Suicune|Suicune|88/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|turn|262
+|
+|t:|1729886638
+|switch|p2a: Joy|Blissey, F|87/100
+|switch|p1a: Claydol|Claydol|76/100
+|
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|-heal|p2a: Joy|93/100|[from] item: Leftovers
+|upkeep
+|turn|263
+|
+|t:|1729886645
+|switch|p1a: Milotic|Milotic, F|86/100
+|move|p2a: Joy|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|
+|-heal|p1a: Milotic|83/100|[from] item: Leftovers
+|-heal|p2a: Joy|99/100|[from] item: Leftovers
+|upkeep
+|turn|264
+|
+|t:|1729886649
+|switch|p1a: Claydol|Claydol|82/100
+|switch|p2a: Suicune|Suicune|94/100
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|upkeep
+|turn|265
+|
+|t:|1729886659
+|switch|p2a: Eye see you|Claydol|100/100
+|switch|p1a: Milotic|Milotic, F|83/100
+|
+|-heal|p1a: Milotic|90/100|[from] item: Leftovers
+|upkeep
+|turn|266
+|
+|t:|1729886666
+|switch|p1a: Claydol|Claydol|88/100
+|switch|p2a: Joy|Blissey, F|99/100
+|
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|267
+|
+|t:|1729886670
+|switch|p1a: Milotic|Milotic, F|90/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|64/100
+|
+|-heal|p1a: Milotic|70/100|[from] item: Leftovers
+|upkeep
+|turn|268
+|
+|t:|1729886676
+|move|p1a: Milotic|Surf|p2a: Joy
+|-damage|p2a: Joy|87/100
+|move|p2a: Joy|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|45/100
+|
+|-heal|p1a: Milotic|51/100|[from] item: Leftovers
+|-heal|p2a: Joy|93/100|[from] item: Leftovers
+|upkeep
+|turn|269
+|
+|t:|1729886686
+|switch|p2a: V|Skarmory, F|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|270
+|
+|t:|1729886690
+|switch|p1a: Claydol|Claydol|94/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|271
+|
+|t:|1729886693
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Eye see you|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|98/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|272
+|
+|t:|1729886696
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Joy|Blissey, F|93/100
+|
+|-heal|p2a: Joy|99/100|[from] item: Leftovers
+|upkeep
+|turn|273
+|
+|t:|1729886699
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|274
+|
+|t:|1729886701
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Joy|Blissey, F|99/100
+|
+|-heal|p2a: Joy|100/100|[from] item: Leftovers
+|upkeep
+|turn|275
+|
+|t:|1729886703
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|276
+|
+|t:|1729886706
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Joy|Blissey, F|100/100
+|
+|upkeep
+|turn|277
+|c|☆social inclusion|tie?
+|
+|t:|1729886720
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Eye see you|Claydol|100/100
+|
+|upkeep
+|turn|278
+|inactive|Just_Leonardo has 270 seconds left.
+|c|☆Just_Leonardo|Mmmmh yeah not sure where this is going otherwise. I'll give it a little more time tho
+|inactive|Just_Leonardo has 240 seconds left.
+|
+|t:|1729886780
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Joy|Blissey, F|100/100
+|
+|upkeep
+|turn|279
+|
+|t:|1729886796
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: V|Skarmory, F|100/100
+|
+|upkeep
+|turn|280
+|
+|t:|1729886801
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: V|Spikes|p1a: Claydol
+|-sidestart|p1: social inclusion|Spikes
+|
+|upkeep
+|turn|281
+|
+|t:|1729886803
+|switch|p2a: Zapdos|Zapdos|94/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|92/100
+|-sideend|p1: social inclusion|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|98/100|[from] item: Leftovers
+|upkeep
+|turn|282
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729886819
+|switch|p2a: Joy|Blissey, F|100/100
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|upkeep
+|turn|283
+|
+|t:|1729886827
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Suicune|Suicune|99/100
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|284
+|inactive|Just_Leonardo has 270 seconds left.
+|
+|t:|1729886838
+|switch|p2a: Zapdos|Zapdos|98/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|285
+|
+|t:|1729886852
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-damage|p2a: Zapdos|89/100
+|
+|-heal|p2a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|286
+|
+|t:|1729886865
+|switch|p1a: Dugtrio|Dugtrio, F|54/100
+|move|p2a: Zapdos|Roar|p1a: Dugtrio
+|drag|p1a: Forretress|Forretress, F|78/100 frz
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|85/100 frz|[from] item: Leftovers
+|upkeep
+|turn|287
+|inactive|Just_Leonardo has 270 seconds left.
+|c|☆Just_Leonardo|yeah let's tie
+|c|☆Just_Leonardo|It's really late. Best to not keep going with this game lol
+|inactive|Just_Leonardo has 240 seconds left.
+|c|☆social inclusion|agree
+|c|+zacpz|Tie granted
+|c|☆Just_Leonardo|Thank you Zac
+|inactive|Just_Leonardo has 210 seconds left.
+|c|☆Just_Leonardo|What was the command to tie? I forgot
+|
+|t:|1729886961
+|switch|p2a: Joy|Blissey, F|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|288
+|c|☆social inclusion|Server doesnt allow it
+|inactive|Just_Leonardo has 180 seconds left.
+|inactive|social inclusion has 270 seconds left.
+|c|☆Just_Leonardo|Oh oks, so I just forfeit and it counts as a tie or what do we do?
+|c|☆social inclusion|agree
+|c|☆social inclusion|Its a Tie
+|inactive|Just_Leonardo has 150 seconds left.
+|c|☆Just_Leonardo|Well Zac said it's tie so we say it's tie
+|-message|Just_Leonardo forfeited.
+|
+|win|social inclusion
+|c|☆Just_Leonardo|If this is randomly counted as a loss I cry lol
+|c|☆social inclusion|ITs not
+|c|☆social inclusion|Not on my watch :D
+|player|p1|
+|player|p1|social inclusion|scientist-gen4dp|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801883">
+{"id":"smogtours-gen3ou-801883","format":"[Gen 3] OU","players":["social inclusion","Just_Leonardo"],"uploadtime":1729887045,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

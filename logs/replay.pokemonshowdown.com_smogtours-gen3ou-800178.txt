@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: metwally vs. allmovingshadows - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between metwally and allmovingshadows! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800178">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729382776
+|gametype|singles
+|player|p1|metwally|2|
+|player|p2|allmovingshadows|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729382776
+|start
+|switch|p1a: camel smooths|Camerupt, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|1
+|inactive|allmovingshadows has 270 seconds left.
+|c|☆allmovingshadows|lol i played this team on ladder
+|c|☆metwally|lmaooo
+|c|☆allmovingshadows|i only remember muk is "your lungs"
+|inactive|allmovingshadows has 240 seconds left.
+|c|☆metwally|YEAW
+|inactive|metwally has 270 seconds left.
+|
+|t:|1729382854
+|move|p2a: Blissey|Seismic Toss|p1a: camel smooths
+|-damage|p1a: camel smooths|65/100
+|move|p1a: camel smooths|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|allmovingshadows has 270 seconds left.
+|
+|t:|1729382887
+|switch|p1a: palmals|Snorlax, F|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: palmals
+|-damage|p1a: palmals|81/100
+|
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|allmovingshadows has 270 seconds left.
+|
+|t:|1729382897
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: palmals|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100
+|
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729382901
+|switch|p1a: camel smooths|Camerupt, M|65/100
+|move|p2a: Skarmory|Spikes|p1a: camel smooths
+|-sidestart|p1: metwally|Spikes
+|
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729382904
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: camel smooths|Overheat|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729382912
+|switch|p2a: Blissey|Blissey, F|77/100
+|switch|p1a: palmals|Snorlax, F|81/100
+|-damage|p1a: palmals|69/100|[from] Spikes
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729382914
+|move|p2a: Blissey|Seismic Toss|p1a: palmals
+|-damage|p1a: palmals|50/100
+|move|p1a: palmals|Self-Destruct|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p1a: palmals
+|faint|p2a: Blissey
+|
+|t:|1729382922
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|switch|p1a: camel smooths|Camerupt, M|65/100
+|-damage|p1a: camel smooths|53/100|[from] Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1729382936
+|move|p2a: Dugtrio|Earthquake|p1a: camel smooths
+|-supereffective|p1a: camel smooths
+|-damage|p1a: camel smooths|0 fnt
+|faint|p1a: camel smooths
+|
+|t:|1729382947
+|switch|p1a: marlborough reds|Claydol|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1729382958
+|switch|p2a: Skarmory|Skarmory, M|92/100
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729382964
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|53/100
+|move|p2a: Skarmory|Drill Peck|p1a: marlborough reds
+|-damage|p1a: marlborough reds|79/100
+|
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729382967
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729382971
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100
+|move|p2a: Skarmory|Spikes|p1a: marlborough reds
+|-sidestart|p1: metwally|Spikes
+|
+|-heal|p2a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729382974
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729382976
+|move|p1a: marlborough reds|Rock Slide|p2a: Skarmory|[miss]
+|-miss|p1a: marlborough reds|p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: marlborough reds
+|-sidestart|p1: metwally|Spikes
+|
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729382980
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: marlborough reds|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-crit|p2a: Claydol
+|-damage|p2a: Claydol|74/100
+|
+|-heal|p2a: Claydol|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729382993
+|switch|p1a: your lungs|Muk, M|100/100
+|-damage|p1a: your lungs|76/100|[from] Spikes
+|move|p2a: Claydol|Psychic|p1a: your lungs
+|-supereffective|p1a: your lungs
+|-damage|p1a: your lungs|33/100
+|
+|-heal|p2a: Claydol|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729383000
+|move|p2a: Claydol|Psychic|p1a: your lungs
+|-supereffective|p1a: your lungs
+|-damage|p1a: your lungs|0 fnt
+|faint|p1a: your lungs
+|
+|t:|1729383005
+|switch|p1a: marlborough reds|Claydol|79/100
+|
+|-heal|p2a: Claydol|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729383009
+|move|p1a: marlborough reds|Rapid Spin|p2a: Claydol
+|-damage|p2a: Claydol|85/100
+|-sideend|p1: metwally|Spikes|[from] move: Rapid Spin|[of] p1a: marlborough reds
+|move|p2a: Claydol|Psychic|p1a: marlborough reds
+|-resisted|p1a: marlborough reds
+|-damage|p1a: marlborough reds|67/100
+|
+|-heal|p2a: Claydol|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729383013
+|switch|p1a: marlborough golds|Metagross, shiny|100/100
+|move|p2a: Claydol|Psychic|p1a: marlborough golds
+|-resisted|p1a: marlborough golds
+|-damage|p1a: marlborough golds|94/100
+|
+|-heal|p2a: Claydol|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729383017
+|move|p1a: marlborough golds|Meteor Mash|p2a: Claydol
+|-damage|p2a: Claydol|21/100
+|move|p2a: Claydol|Earthquake|p1a: marlborough golds
+|-supereffective|p1a: marlborough golds
+|-damage|p1a: marlborough golds|53/100
+|
+|-heal|p2a: Claydol|27/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729383025
+|move|p1a: marlborough golds|Meteor Mash|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1729383027
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|upkeep
+|turn|22
+|
+|t:|1729383030
+|move|p2a: Dugtrio|Earthquake|p1a: marlborough golds
+|-supereffective|p1a: marlborough golds
+|-damage|p1a: marlborough golds|0 fnt
+|faint|p1a: marlborough golds
+|
+|t:|1729383032
+|switch|p1a: marlborough reds|Claydol|67/100
+|
+|upkeep
+|turn|23
+|
+|t:|1729383039
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: marlborough reds|Explosion|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p1a: marlborough reds
+|faint|p2a: Milotic
+|
+|t:|1729383044
+|switch|p2a: Suicune|Suicune|100/100
+|switch|p1a: zons|Suicune|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1729383048
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1729383056
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1729383061
+|move|p2a: Dugtrio|Screech|p1a: zons
+|-unboost|p1a: zons|def|2
+|move|p1a: zons|Surf|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1729383064
+|switch|p2a: Skarmory|Skarmory, M|61/100
+|
+|-heal|p2a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729383075
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|move|p2a: Skarmory|Drill Peck|p1a: zons
+|-damage|p1a: zons|74/100
+|
+|-heal|p1a: zons|80/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆allmovingshadows|wow i lose
+|
+|t:|1729383089
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|
+|-heal|p1a: zons|86/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729383110
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|
+|-heal|p1a: zons|93/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729383112
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|1
+|-boost|p1a: zons|spd|1
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|-heal|p1a: zons|99/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729383115
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Roar|p2a: Suicune
+|drag|p2a: Skarmory|Skarmory, M|73/100
+|
+|-heal|p1a: zons|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729383130
+|move|p1a: zons|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729383131
+|switch|p2a: Suicune|Suicune|100/100
+|
+|upkeep
+|turn|33
+|
+|t:|1729383143
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|54/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729383164
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|36/100
+|
+|-heal|p2a: Suicune|42/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆metwally|idk if i win
+|inactive|allmovingshadows has 270 seconds left.
+|c|☆allmovingshadows|it comes down to a crit or pp stall
+|c|☆allmovingshadows|if pp stall i win
+|c|☆allmovingshadows|if crit anyone can win
+|inactive|allmovingshadows has 240 seconds left.
+|
+|t:|1729383221
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|24/100
+|
+|-heal|p2a: Suicune|30/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729383228
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|16/100
+|
+|-heal|p2a: Suicune|22/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|allmovingshadows has 240 seconds left.
+|
+|t:|1729383246
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|6/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|13/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729383251
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|87/100 slp
+|
+|-heal|p2a: Suicune|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729383257
+|cant|p2a: Suicune|slp
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100 slp
+|
+|-heal|p2a: Suicune|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729383259
+|cant|p2a: Suicune|slp
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|72/100 slp
+|
+|-heal|p2a: Suicune|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729383261
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|66/100 slp
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|72/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729383264
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|60/100
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|90/100
+|
+|-heal|p2a: Suicune|66/100|[from] item: Leftovers
+|-heal|p1a: zons|96/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729383268
+|move|p1a: zons|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|54/100
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|85/100
+|
+|-heal|p1a: zons|91/100|[from] item: Leftovers
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729383271
+|move|p1a: zons|Rest|p1a: zons
+|-status|p1a: zons|slp|[from] move: Rest
+|-heal|p1a: zons|100/100 slp|[silent]
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-crit|p1a: zons
+|-damage|p1a: zons|16/100 slp
+|
+|-heal|p1a: zons|22/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729383275
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|10/100 slp
+|cant|p1a: zons|slp
+|
+|-heal|p1a: zons|16/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|73/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729383279
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|5/100 slp
+|
+|-heal|p1a: zons|11/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729383283
+|-curestatus|p1a: zons|slp|[msg]
+|move|p1a: zons|Rest|p1a: zons
+|-status|p1a: zons|slp|[from] move: Rest
+|-heal|p1a: zons|100/100 slp|[silent]
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|89/100 slp
+|
+|-heal|p1a: zons|96/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|85/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729383291
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|-heal|p1a: zons|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Suicune|91/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729383297
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|50
+|
+|t:|1729383301
+|-curestatus|p1a: zons|slp|[msg]
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|cant|p2a: Suicune|slp
+|
+|upkeep
+|turn|51
+|
+|t:|1729383307
+|cant|p2a: Suicune|slp
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|52
+|
+|t:|1729383311
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|53
+|
+|t:|1729383315
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|54
+|
+|t:|1729383317
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|55
+|
+|t:|1729383321
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|56
+|
+|t:|1729383325
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|57
+|
+|t:|1729383329
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|58
+|
+|t:|1729383332
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|59
+|
+|t:|1729383334
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|60
+|
+|t:|1729383336
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|61
+|
+|t:|1729383338
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|62
+|
+|t:|1729383340
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|63
+|
+|t:|1729383342
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|64
+|
+|t:|1729383345
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|65
+|
+|t:|1729383347
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|66
+|
+|t:|1729383349
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|67
+|
+|t:|1729383353
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|68
+|
+|t:|1729383360
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|69
+|
+|t:|1729383362
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|70
+|
+|t:|1729383365
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|71
+|
+|t:|1729383367
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|72
+|
+|t:|1729383369
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|73
+|
+|t:|1729383371
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|74
+|c|☆allmovingshadows|your friends are prolly loving this one
+|
+|t:|1729383383
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|75
+|
+|t:|1729383386
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|0
+|-boost|p2a: Suicune|spd|0
+|
+|upkeep
+|turn|76
+|
+|t:|1729383391
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Calm Mind|p1a: zons
+|-boost|p1a: zons|spa|0
+|-boost|p1a: zons|spd|0
+|
+|upkeep
+|turn|77
+|
+|t:|1729383420
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|78
+|
+|t:|1729383427
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|79
+|
+|t:|1729383429
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|80
+|
+|t:|1729383431
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|81
+|
+|t:|1729383433
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|82
+|
+|t:|1729383435
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|83
+|
+|t:|1729383437
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|84
+|
+|t:|1729383440
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|85
+|
+|t:|1729383442
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|86
+|
+|t:|1729383444
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|87
+|
+|t:|1729383449
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|88
+|c|☆metwally|use your surfs to find out if we tie
+|c|☆allmovingshadows|lol
+|c|☆metwally|go for the crit struggle will never kill lol
+|
+|t:|1729383465
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|89
+|
+|t:|1729383467
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|90
+|
+|t:|1729383470
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|move|p2a: Suicune|Roar||[still]
+|-fail|p2a: Suicune
+|
+|upkeep
+|turn|91
+|
+|t:|1729383477
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Roar||[still]
+|-fail|p1a: zons
+|
+|upkeep
+|turn|92
+|
+|t:|1729383484
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|93
+|
+|t:|1729383486
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|94
+|c|☆allmovingshadows|i think theres a 100 turn no kill tie clause
+|
+|t:|1729383503
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|95
+|c|☆metwally|yeah
+|
+|t:|1729383509
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|96
+|
+|t:|1729383514
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|97
+|
+|t:|1729383519
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|98
+|
+|t:|1729383521
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|99
+|
+|t:|1729383526
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|
+|upkeep
+|turn|100
+|
+|t:|1729383530
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|101
+|
+|t:|1729383534
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|102
+|
+|t:|1729383538
+|move|p1a: zons|Rest|p1a: zons
+|-fail|p1a: zons|heal
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-fail|p2a: Suicune|heal
+|
+|upkeep
+|turn|103
+|
+|t:|1729383541
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|90/100
+|move|p1a: zons|Rest|p1a: zons
+|-status|p1a: zons|slp|[from] move: Rest
+|-heal|p1a: zons|100/100 slp|[silent]
+|
+|upkeep
+|turn|104
+|
+|t:|1729383544
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|90/100 slp
+|
+|-heal|p1a: zons|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1729383548
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|84/100 slp
+|
+|-heal|p1a: zons|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1729383553
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|80/100 slp
+|-curestatus|p1a: zons|slp|[msg]
+|move|p1a: zons|Rest|p1a: zons
+|-status|p1a: zons|slp|[from] move: Rest
+|-heal|p1a: zons|100/100 slp|[silent]
+|
+|upkeep
+|turn|107
+|
+|t:|1729383557
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|89/100 slp
+|
+|-heal|p1a: zons|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1729383560
+|cant|p1a: zons|slp
+|move|p2a: Suicune|Surf|p1a: zons
+|-resisted|p1a: zons
+|-damage|p1a: zons|84/100 slp
+|
+|-heal|p1a: zons|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1729383566
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|82/100 slp
+|-damage|p2a: Suicune|99/100|[from] Recoil|[of] p1a: zons
+|-curestatus|p1a: zons|slp|[msg]
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|94/100
+|-damage|p1a: zons|81/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|88/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1729383576
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|96/100
+|-damage|p1a: zons|87/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|79/100
+|-damage|p2a: Suicune|94/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|85/100|[from] item: Leftovers
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|c|☆allmovingshadows|wait i will win bcv def drop
+|c|☆metwally|SCREECH
+|
+|t:|1729383586
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|78/100
+|-damage|p2a: Suicune|99/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|94/100
+|-damage|p1a: zons|77/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|-heal|p1a: zons|83/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|c|☆metwally|NOOOOOOOOOOOOOOOOOOOOO
+|c|☆metwally|NOOOOOOOOOO
+|c|☆metwally|LMAOOOOOOO
+|
+|t:|1729383596
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|75/100
+|-damage|p2a: Suicune|98/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|88/100
+|-damage|p1a: zons|73/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|79/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|c|☆metwally|kk ill ff ive seen enough
+|c|☆metwally|you legend
+|c|☆metwally|the scrugtrio
+|inactive|metwally has 270 seconds left.
+|
+|t:|1729383630
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|90/100
+|-damage|p1a: zons|78/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|70/100
+|-damage|p2a: Suicune|88/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|76/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|c|☆allmovingshadows|wow 
+|inactive|metwally has 270 seconds left.
+|c|☆metwally|do you wanna go all the way for fun or do you have places to be
+|
+|t:|1729383659
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|69/100
+|-damage|p2a: Suicune|92/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|87/100
+|-damage|p1a: zons|67/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|-heal|p1a: zons|74/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|c|☆allmovingshadows|idc rlly
+|c|☆allmovingshadows|i dont have anywhere to be
+|
+|t:|1729383672
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|89/100
+|-damage|p1a: zons|73/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|65/100
+|-damage|p2a: Suicune|87/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|-heal|p1a: zons|71/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|c|☆metwally|lmao i wanna see how long this goes
+|inactive|metwally has 270 seconds left.
+|
+|t:|1729383680
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|63/100
+|-damage|p2a: Suicune|91/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|87/100
+|-damage|p1a: zons|62/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|69/100|[from] item: Leftovers
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1729383687
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|61/100
+|-damage|p2a: Suicune|91/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|82/100
+|-damage|p1a: zons|59/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|65/100|[from] item: Leftovers
+|-heal|p2a: Suicune|89/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1729383690
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|57/100
+|-damage|p2a: Suicune|87/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|81/100
+|-damage|p1a: zons|56/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: zons|62/100|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1729383692
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|54/100
+|-damage|p2a: Suicune|86/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|81/100
+|-damage|p1a: zons|53/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|59/100|[from] item: Leftovers
+|-heal|p2a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1729383695
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|83/100
+|-damage|p1a: zons|58/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|51/100
+|-damage|p2a: Suicune|81/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|57/100|[from] item: Leftovers
+|-heal|p2a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1729383697
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|83/100
+|-damage|p1a: zons|56/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|48/100
+|-damage|p2a: Suicune|81/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|55/100|[from] item: Leftovers
+|-heal|p2a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1729383698
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|82/100
+|-damage|p1a: zons|53/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|46/100
+|-damage|p2a: Suicune|80/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|52/100|[from] item: Leftovers
+|-heal|p2a: Suicune|86/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1729383700
+|move|p2a: Suicune|Struggle|p1a: zons
+|-crit|p1a: zons
+|-damage|p1a: zons|37/100
+|-damage|p2a: Suicune|83/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|-damage|p1a: zons|36/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|42/100|[from] item: Leftovers
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1729383702
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|79/100
+|-damage|p1a: zons|41/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|33/100
+|-damage|p2a: Suicune|77/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|39/100|[from] item: Leftovers
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1729383704
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|32/100
+|-damage|p2a: Suicune|82/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|77/100
+|-damage|p1a: zons|31/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|37/100|[from] item: Leftovers
+|-heal|p2a: Suicune|83/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1729383708
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|-damage|p1a: zons|36/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|28/100
+|-damage|p2a: Suicune|77/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p2a: Suicune|83/100|[from] item: Leftovers
+|-heal|p1a: zons|35/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1729383711
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|-damage|p1a: zons|34/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|26/100
+|-damage|p2a: Suicune|76/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|33/100|[from] item: Leftovers
+|-heal|p2a: Suicune|83/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|c|☆allmovingshadows|there are crits
+|
+|t:|1729383716
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|-damage|p1a: zons|32/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-crit|p1a: zons
+|-damage|p1a: zons|16/100
+|-damage|p2a: Suicune|75/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|-heal|p1a: zons|23/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1729383719
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|75/100
+|-damage|p1a: zons|21/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-crit|p1a: zons
+|-damage|p1a: zons|7/100
+|-damage|p2a: Suicune|72/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p1a: zons|13/100|[from] item: Leftovers
+|-heal|p2a: Suicune|78/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|c|☆metwally|i would need 10 morbillion
+|
+|t:|1729383729
+|move|p1a: zons|Struggle|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|68/100
+|-damage|p1a: zons|10/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|3/100
+|-damage|p2a: Suicune|67/100|[from] Recoil|[of] p1a: zons
+|
+|-heal|p2a: Suicune|73/100|[from] item: Leftovers
+|-heal|p1a: zons|9/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1729383732
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|2/100
+|-damage|p2a: Suicune|71/100|[from] Recoil|[of] p1a: zons
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|67/100
+|-damage|p1a: zons|1/100|[from] Recoil|[of] p2a: Suicune
+|
+|-heal|p1a: zons|8/100|[from] item: Leftovers
+|-heal|p2a: Suicune|73/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1729383736
+|move|p1a: zons|Struggle|p2a: Suicune
+|-damage|p2a: Suicune|68/100
+|-damage|p1a: zons|6/100|[from] Recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Struggle|p1a: zons
+|-damage|p1a: zons|0 fnt
+|-damage|p2a: Suicune|66/100|[from] Recoil|[of] p1a: zons
+|faint|p1a: zons
+|
+|win|allmovingshadows
+|c|☆metwally|gg lma
+|c|☆metwally|o
+|c|☆allmovingshadows|wow
+|c|☆allmovingshadows|gg
+|c|☆metwally|i hope jim reviews this
+|c|☆allmovingshadows|lol submit it
+|player|p1|
+|c|☆allmovingshadows|#revival-roundup-submissions
+|player|p1|metwally|clown|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800178">
+{"id":"smogtours-gen3ou-800178","format":"[Gen 3] OU","players":["metwally","allmovingshadows"],"uploadtime":1729383736,"views":131,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

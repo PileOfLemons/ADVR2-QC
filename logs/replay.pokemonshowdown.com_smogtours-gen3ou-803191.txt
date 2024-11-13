@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: catmode vs. please ban rachi - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between catmode and please ban rachi! Format: [Gen 3] OU; Date: Oct 28, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803191">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730159708
+|gametype|singles
+|player|p1|catmode|miku-ground|
+|player|p2|please ban rachi|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730159708
+|start
+|switch|p1a: Grandad|Zapdos|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|c|☆catmode|glhf
+|
+|t:|1730159732
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730159737
+|switch|p2a: Celebi|Celebi|100/100|[from] Baton Pass
+|move|p1a: Grandad|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|74/100
+|
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730159743
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Grandad|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|46/100
+|
+|-heal|p2a: Celebi|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730159750
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|move|p1a: Grandad|Baton Pass|p1a: Grandad
+|
+|t:|1730159753
+|switch|p1a: Thugnificent|Dugtrio, M|100/100|[from] Baton Pass
+|
+|-heal|p2a: Celebi|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730159757
+|move|p1a: Thugnificent|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1730159761
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1730159763
+|move|p1a: Thugnificent|Hidden Power|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|c|☆catmode|ayo
+|
+|t:|1730159774
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1730159784
+|switch|p1a: APN Slickback|Celebi|100/100
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1730159805
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730159808
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Baton Pass
+|move|p1a: APN Slickback|Calm Mind|p1a: APN Slickback
+|-boost|p1a: APN Slickback|spa|1
+|-boost|p1a: APN Slickback|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1730159817
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: APN Slickback|Calm Mind|p1a: APN Slickback
+|-boost|p1a: APN Slickback|spa|1
+|-boost|p1a: APN Slickback|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1730159825
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: APN Slickback|Calm Mind|p1a: APN Slickback
+|-boost|p1a: APN Slickback|spa|1
+|-boost|p1a: APN Slickback|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1730159831
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: APN Slickback|Calm Mind|p1a: APN Slickback
+|-boost|p1a: APN Slickback|spa|1
+|-boost|p1a: APN Slickback|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1730159836
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: APN Slickback|Baton Pass|p1a: APN Slickback
+|
+|t:|1730159838
+|switch|p1a: Uncle Ruckus|Suicune, shiny|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|12
+|
+|t:|1730159845
+|move|p2a: Jirachi|Thunder|p1a: Uncle Ruckus|[miss]
+|-miss|p2a: Jirachi|p1a: Uncle Ruckus
+|move|p1a: Uncle Ruckus|Roar|p2a: Jirachi
+|drag|p2a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1730159851
+|move|p1a: Uncle Ruckus|Surf|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|c|☆catmode|sheesh
+|-message|please ban rachi forfeited.
+|
+|win|catmode
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803191">
+{"id":"smogtours-gen3ou-803191","format":"[Gen 3] OU","players":["catmode","please ban rachi"],"uploadtime":1730159853,"views":58,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Genexys vs. xXEricXx - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Genexys and xXEricXx! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798232">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728842975
+|gametype|singles
+|player|p1|Genexys|ghetsis|
+|player|p2|xXEricXx|red|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728842975
+|start
+|switch|p1a: Crackdos|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆xXEricXx|hf
+|c|☆Genexys|glhf
+|
+|t:|1728842989
+|switch|p1a: MetaGROSS #OWNED|Metagross, shiny|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: MetaGROSS #OWNED
+|-resisted|p1a: MetaGROSS #OWNED
+|-damage|p1a: MetaGROSS #OWNED|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1728843019
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: MetaGROSS #OWNED|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|xXEricXx has 270 seconds left.
+|inactive|Genexys has 270 seconds left.
+|
+|t:|1728843050
+|switch|p1a: Crackdos|Zapdos|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Crackdos|[miss]
+|-miss|p2a: Metagross|p1a: Crackdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|94/100|[from] Sandstorm
+|-heal|p1a: Crackdos|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728843060
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Crackdos|Substitute|p1a: Crackdos
+|-start|p1a: Crackdos|Substitute
+|-damage|p1a: Crackdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Crackdos|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728843065
+|move|p1a: Crackdos|Baton Pass|p1a: Crackdos
+|
+|t:|1728843067
+|switch|p1a: Soulja Boy|Heracross, F|100/100|[from] Baton Pass
+|move|p2a: Blissey|Ice Beam|p1a: Soulja Boy
+|-end|p1a: Soulja Boy|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Soulja Boy|95/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|xXEricXx has 270 seconds left.
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843123
+|-singleturn|p1a: Soulja Boy|move: Focus Punch
+|switch|p2a: IAmTheOneWhoRocks|Aerodactyl, M|100/100
+|move|p1a: Soulja Boy|Focus Punch|p2a: IAmTheOneWhoRocks
+|-damage|p2a: IAmTheOneWhoRocks|0 fnt
+|faint|p2a: IAmTheOneWhoRocks
+|
+|t:|1728843128
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-damage|p1a: Soulja Boy|89/100|[from] Sandstorm
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728843132
+|switch|p1a: glorp gnarp|Vaporeon, F|100/100
+|move|p2a: Charizard|Substitute|p2a: Charizard
+|-start|p2a: Charizard|Substitute
+|-damage|p2a: Charizard|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|70/100|[from] Sandstorm
+|-damage|p1a: glorp gnarp|94/100|[from] Sandstorm
+|-heal|p2a: Charizard|76/100|[from] item: Leftovers
+|-heal|p1a: glorp gnarp|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728843135
+|move|p2a: Charizard|Hidden Power|p1a: glorp gnarp
+|-supereffective|p1a: glorp gnarp
+|-damage|p1a: glorp gnarp|67/100
+|move|p1a: glorp gnarp|Roar|p2a: Charizard
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: glorp gnarp|61/100|[from] Sandstorm
+|-heal|p1a: glorp gnarp|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843154
+|switch|p1a: Crackdos|Zapdos|76/100
+|move|p2a: Skarmory|Spikes|p1a: Crackdos
+|-sidestart|p1: Genexys|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|69/100|[from] Sandstorm
+|-heal|p1a: Crackdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843171
+|move|p1a: Crackdos|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|11/100
+|move|p2a: Skarmory|Roar|p1a: Crackdos
+|drag|p1a: Soulja Boy|Heracross, F|89/100
+|-damage|p1a: Soulja Boy|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Soulja Boy|70/100|[from] Sandstorm
+|-heal|p2a: Skarmory|17/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843201
+|move|p1a: Soulja Boy|Brick Break|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728843208
+|switch|p2a: Charizard|Charizard, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|70/100|[from] Sandstorm
+|-damage|p1a: Soulja Boy|64/100|[from] Sandstorm
+|-heal|p2a: Charizard|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728843213
+|switch|p1a: kebab|Blissey, F|100/100
+|-damage|p1a: kebab|88/100|[from] Spikes
+|move|p2a: Charizard|Flamethrower|p1a: kebab
+|-damage|p1a: kebab|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|70/100|[from] Sandstorm
+|-damage|p1a: kebab|63/100|[from] Sandstorm
+|-heal|p2a: Charizard|76/100|[from] item: Leftovers
+|-heal|p1a: kebab|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728843235
+|switch|p2a: Metagross|Metagross|79/100
+|move|p1a: kebab|Wish|p1a: kebab
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: kebab|63/100|[from] Sandstorm
+|-heal|p2a: Metagross|85/100|[from] item: Leftovers
+|-heal|p1a: kebab|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728843247
+|switch|p1a: Crackdos|Zapdos|76/100
+|move|p2a: Metagross|Meteor Mash|p1a: Crackdos
+|-resisted|p1a: Crackdos
+|-damage|p1a: Crackdos|42/100
+|
+|-heal|p1a: Crackdos|92/100|[from] move: Wish|[wisher] kebab
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|86/100|[from] Sandstorm
+|-heal|p1a: Crackdos|92/100|[from] item: Leftovers
+|-heal|p2a: Metagross|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728843259
+|move|p1a: Crackdos|Substitute|p1a: Crackdos
+|-start|p1a: Crackdos|Substitute
+|-damage|p1a: Crackdos|68/100
+|move|p2a: Metagross|Meteor Mash|p1a: Crackdos
+|-resisted|p1a: Crackdos
+|-end|p1a: Crackdos|Substitute
+|-boost|p2a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|61/100|[from] Sandstorm
+|-heal|p1a: Crackdos|68/100|[from] item: Leftovers
+|-heal|p2a: Metagross|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728843270
+|move|p1a: Crackdos|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|45/100
+|move|p2a: Metagross|Meteor Mash|p1a: Crackdos|[miss]
+|-miss|p2a: Metagross|p1a: Crackdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|61/100|[from] Sandstorm
+|-heal|p1a: Crackdos|68/100|[from] item: Leftovers
+|-heal|p2a: Metagross|51/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728843275
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Crackdos|Thunderbolt|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crackdos|61/100|[from] Sandstorm
+|-heal|p1a: Crackdos|68/100|[from] item: Leftovers
+|-heal|p2a: Metagross|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728843289
+|move|p1a: Crackdos|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|4/100
+|move|p2a: Metagross|Explosion|p1a: Crackdos
+|-damage|p1a: Crackdos|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Crackdos
+|
+|t:|1728843299
+|switch|p1a: DaExtinctionAgenda|Claydol|100/100
+|switch|p2a: Charizard|Charizard, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|70/100|[from] Sandstorm
+|-heal|p2a: Charizard|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843305
+|move|p2a: Charizard|Flamethrower|p1a: DaExtinctionAgenda
+|-crit|p1a: DaExtinctionAgenda
+|-damage|p1a: DaExtinctionAgenda|6/100
+|move|p1a: DaExtinctionAgenda|Rapid Spin|p2a: Charizard
+|-damage|p2a: Charizard|68/100
+|-sideend|p1: Genexys|Spikes|[from] move: Rapid Spin|[of] p1a: DaExtinctionAgenda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|61/100|[from] Sandstorm
+|-heal|p2a: Charizard|68/100|[from] item: Leftovers
+|-heal|p1a: DaExtinctionAgenda|12/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843316
+|switch|p1a: glorp gnarp|Vaporeon, F|67/100
+|move|p2a: Charizard|Substitute|p2a: Charizard
+|-start|p2a: Charizard|Substitute
+|-damage|p2a: Charizard|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|37/100|[from] Sandstorm
+|-damage|p1a: glorp gnarp|61/100|[from] Sandstorm
+|-heal|p2a: Charizard|43/100|[from] item: Leftovers
+|-heal|p1a: glorp gnarp|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728843319
+|move|p2a: Charizard|Hidden Power|p1a: glorp gnarp
+|-supereffective|p1a: glorp gnarp
+|-damage|p1a: glorp gnarp|34/100
+|move|p1a: glorp gnarp|Roar|p2a: Charizard
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: glorp gnarp|27/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: glorp gnarp|34/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728843335
+|switch|p1a: kebab|Blissey, F|69/100
+|move|p2a: Blissey|Thunderbolt|p1a: kebab
+|-damage|p1a: kebab|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: kebab|53/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: kebab|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728843343
+|move|p2a: Blissey|Thunder Wave|p1a: kebab
+|-status|p1a: kebab|par
+|cant|p1a: kebab|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: kebab|53/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: kebab|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843372
+|switch|p2a: Charizard|Charizard, M|43/100
+|move|p1a: kebab|Wish|p1a: kebab
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|37/100|[from] Sandstorm
+|-damage|p1a: kebab|53/100 par|[from] Sandstorm
+|-heal|p2a: Charizard|43/100|[from] item: Leftovers
+|-heal|p1a: kebab|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843382
+|move|p2a: Charizard|Substitute|p2a: Charizard
+|-start|p2a: Charizard|Substitute
+|-damage|p2a: Charizard|18/100
+|cant|p1a: kebab|par
+|
+|-heal|p1a: kebab|100/100 par|[from] move: Wish|[wisher] kebab
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|12/100|[from] Sandstorm
+|-damage|p1a: kebab|94/100 par|[from] Sandstorm
+|-heal|p2a: Charizard|18/100|[from] item: Leftovers
+|-heal|p1a: kebab|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728843386
+|-singleturn|p2a: Charizard|move: Focus Punch
+|move|p1a: kebab|Seismic Toss|p2a: Charizard
+|-end|p2a: Charizard|Substitute
+|move|p2a: Charizard|Focus Punch|p1a: kebab
+|-supereffective|p1a: kebab
+|-damage|p1a: kebab|40/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|12/100|[from] Sandstorm
+|-damage|p1a: kebab|34/100 par|[from] Sandstorm
+|-heal|p2a: Charizard|18/100|[from] item: Leftovers
+|-heal|p1a: kebab|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728843399
+|-singleturn|p2a: Charizard|move: Focus Punch
+|move|p1a: kebab|Seismic Toss|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|t:|1728843402
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: kebab|34/100 par|[from] Sandstorm
+|-heal|p1a: kebab|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728843406
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: kebab|Wish|p1a: kebab
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: kebab|34/100 par|[from] Sandstorm
+|-heal|p1a: kebab|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|xXEricXx has 270 seconds left.
+|
+|t:|1728843437
+|-curestatus|p1a: kebab|par|[from] ability: Natural Cure
+|switch|p1a: glorp gnarp|Vaporeon, F|34/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-heal|p1a: glorp gnarp|83/100|[from] move: Wish|[wisher] kebab
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: glorp gnarp|77/100|[from] Sandstorm
+|-heal|p1a: glorp gnarp|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843463
+|move|p2a: Tyranitar|Rock Slide|p1a: glorp gnarp
+|-damage|p1a: glorp gnarp|25/100
+|cant|p1a: glorp gnarp|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: glorp gnarp|19/100|[from] Sandstorm
+|-heal|p1a: glorp gnarp|25/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆Genexys|ahhh
+|
+|t:|1728843472
+|switch|p1a: DaExtinctionAgenda|Claydol|12/100
+|move|p2a: Tyranitar|Earthquake|p1a: DaExtinctionAgenda
+|-immune|p1a: DaExtinctionAgenda
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: DaExtinctionAgenda|18/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆xXEricXx|sorry about that
+|inactive|xXEricXx has 240 seconds left.
+|
+|t:|1728843483
+|move|p2a: Tyranitar|Double-Edge|p1a: DaExtinctionAgenda
+|-damage|p1a: DaExtinctionAgenda|0 fnt
+|-damage|p2a: Tyranitar|96/100|[from] Recoil|[of] p1a: DaExtinctionAgenda
+|faint|p1a: DaExtinctionAgenda
+|
+|t:|1728843491
+|switch|p1a: MetaGROSS #OWNED|Metagross, shiny|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1728843494
+|move|p2a: Tyranitar|Earthquake|p1a: MetaGROSS #OWNED
+|-supereffective|p1a: MetaGROSS #OWNED
+|-damage|p1a: MetaGROSS #OWNED|0 fnt
+|faint|p1a: MetaGROSS #OWNED
+|
+|t:|1728843496
+|switch|p1a: Soulja Boy|Heracross, F|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Soulja Boy|58/100|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|t:|1728843500
+|move|p2a: Tyranitar|Double-Edge|p1a: Soulja Boy
+|-damage|p1a: Soulja Boy|0 fnt
+|-damage|p2a: Tyranitar|81/100|[from] Recoil|[of] p1a: Soulja Boy
+|faint|p1a: Soulja Boy
+|c|☆Genexys|gg
+|c|☆xXEricXx|gg
+|-message|Genexys forfeited.
+|
+|win|xXEricXx
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798232">
+{"id":"smogtours-gen3ou-798232","format":"[Gen 3] OU","players":["Genexys","xXEricXx"],"uploadtime":1728843505,"views":111,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

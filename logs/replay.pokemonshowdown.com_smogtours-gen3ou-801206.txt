@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Halbert Simpson vs. Dit Dus - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Halbert Simpson and Dit Dus! Format: [Gen 3] OU; Date: Oct 22, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801206">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729613456
+|gametype|singles
+|player|p1|Halbert Simpson|bugcatcher-gen4dp|
+|player|p2|Dit Dus|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729613456
+|start
+|switch|p1a: T-Bone|Tyranitar, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: T-Bone
+|turn|1
+|
+|t:|1729613470
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1729613473
+|switch|p2a: Hariyama|Hariyama, F|100/100|[from] Baton Pass
+|move|p1a: T-Bone|Rock Slide|p2a: Hariyama
+|-resisted|p2a: Hariyama
+|-damage|p2a: Hariyama|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|76/100|[from] Sandstorm
+|-heal|p2a: Hariyama|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613512
+|-singleturn|p2a: Hariyama|move: Focus Punch
+|switch|p1a: Milo Murphy|Milotic, M|100/100
+|move|p2a: Hariyama|Focus Punch|p1a: Milo Murphy
+|-damage|p1a: Milo Murphy|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milo Murphy|27/100|[from] Sandstorm
+|-damage|p2a: Hariyama|76/100|[from] Sandstorm
+|-heal|p1a: Milo Murphy|33/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613546
+|move|p1a: Milo Murphy|Surf|p2a: Hariyama
+|-damage|p2a: Hariyama|41/100
+|move|p2a: Hariyama|Brick Break|p1a: Milo Murphy
+|-damage|p1a: Milo Murphy|0 fnt
+|faint|p1a: Milo Murphy
+|
+|t:|1729613558
+|switch|p1a: Clayton|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|35/100|[from] Sandstorm
+|-heal|p2a: Hariyama|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613591
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Clayton|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|62/100|[from] Sandstorm
+|-heal|p2a: Zapdos|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613609
+|move|p2a: Zapdos|Hidden Power|p1a: Clayton
+|-supereffective|p1a: Clayton
+|-damage|p1a: Clayton|59/100
+|move|p1a: Clayton|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|-heal|p1a: Clayton|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729613622
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1729613624
+|switch|p2a: Houndoom|Houndoom, M|100/100|[from] Baton Pass
+|move|p1a: Clayton|Psychic|p2a: Houndoom
+|-immune|p2a: Houndoom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Houndoom|94/100|[from] Sandstorm
+|-heal|p2a: Houndoom|100/100|[from] item: Leftovers
+|-heal|p1a: Clayton|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613634
+|move|p2a: Houndoom|Crunch|p1a: Clayton
+|-supereffective|p1a: Clayton
+|-damage|p1a: Clayton|13/100
+|move|p1a: Clayton|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613642
+|switch|p2a: Zapdos|Zapdos|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|-heal|p1a: Clayton|19/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729613649
+|switch|p1a: T-Bone|Tyranitar, M|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: T-Bone
+|-supereffective|p1a: T-Bone
+|-damage|p1a: T-Bone|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|-heal|p1a: T-Bone|65/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Dit Dus has 270 seconds left.
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613684
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1729613686
+|switch|p2a: Claydol|Claydol|100/100|[from] Baton Pass
+|move|p1a: T-Bone|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|84/100|[from] item: Leftovers
+|-heal|p1a: T-Bone|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613698
+|switch|p1a: Metalhead|Skarmory, M|100/100
+|move|p2a: Claydol|Earthquake|p1a: Metalhead
+|-immune|p1a: Metalhead
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729613707
+|switch|p2a: Zapdos|Zapdos|39/100
+|move|p1a: Metalhead|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|33/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|33/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613723
+|switch|p1a: Clayton|Claydol|19/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1729613740
+|switch|p2a: Suicune|Suicune|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Clayton|25/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729613750
+|switch|p1a: Reggie's Brother|Jirachi|100/100
+|move|p2a: Suicune|Surf|p1a: Reggie's Brother
+|-damage|p1a: Reggie's Brother|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729613761
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|move|p1a: Reggie's Brother|Calm Mind|p1a: Reggie's Brother
+|-boost|p1a: Reggie's Brother|spa|1
+|-boost|p1a: Reggie's Brother|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|69/100|[from] Sandstorm
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729613771
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Reggie's Brother|Hidden Power|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|69/100|[from] Sandstorm
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613786
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Reggie's Brother|Calm Mind|p1a: Reggie's Brother
+|-boost|p1a: Reggie's Brother|spa|1
+|-boost|p1a: Reggie's Brother|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|69/100|[from] Sandstorm
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613795
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Reggie's Brother|Hidden Power|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|48/100|[from] Sandstorm
+|-heal|p2a: Suicune|54/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613807
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Reggie's Brother|Calm Mind|p1a: Reggie's Brother
+|-boost|p1a: Reggie's Brother|spa|1
+|-boost|p1a: Reggie's Brother|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|48/100|[from] Sandstorm
+|-heal|p2a: Suicune|54/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613817
+|move|p2a: Suicune|Surf|p1a: Reggie's Brother
+|-damage|p1a: Reggie's Brother|61/100
+|move|p1a: Reggie's Brother|Calm Mind|p1a: Reggie's Brother
+|-boost|p1a: Reggie's Brother|spa|1
+|-boost|p1a: Reggie's Brother|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|48/100|[from] Sandstorm
+|-heal|p2a: Suicune|54/100|[from] item: Leftovers
+|-heal|p1a: Reggie's Brother|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Dit Dus has 270 seconds left.
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613870
+|move|p2a: Suicune|Surf|p1a: Reggie's Brother
+|-crit|p1a: Reggie's Brother
+|-damage|p1a: Reggie's Brother|0 fnt
+|faint|p1a: Reggie's Brother
+|inactive|Halbert Simpson has 270 seconds left.
+|
+|t:|1729613879
+|switch|p1a: CJ|Altaria, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CJ|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|48/100|[from] Sandstorm
+|-heal|p1a: CJ|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729613887
+|move|p1a: CJ|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|52/100
+|move|p2a: Suicune|Ice Beam|p1a: CJ
+|-supereffective|p1a: CJ
+|-damage|p1a: CJ|0 fnt
+|faint|p1a: CJ
+|
+|t:|1729613897
+|switch|p1a: Metalhead|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|46/100|[from] Sandstorm
+|-heal|p2a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729613903
+|move|p2a: Suicune|Surf|p1a: Metalhead
+|-damage|p1a: Metalhead|1/100
+|move|p1a: Metalhead|Roar|p2a: Suicune
+|drag|p2a: Hariyama|Hariyama, F|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|35/100|[from] Sandstorm
+|-heal|p1a: Metalhead|7/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729613914
+|move|p1a: Metalhead|Spikes|p2a: Hariyama
+|-sidestart|p2: Dit Dus|Spikes
+|move|p2a: Hariyama|Brick Break|p1a: Metalhead
+|-damage|p1a: Metalhead|0 fnt
+|faint|p1a: Metalhead
+|
+|t:|1729613917
+|switch|p1a: Clayton|Claydol|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|35/100|[from] Sandstorm
+|-heal|p1a: Clayton|31/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|41/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Dit Dus has 270 seconds left.
+|
+|t:|1729613955
+|switch|p2a: Claydol|Claydol|90/100
+|move|p1a: Clayton|Psychic|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|85/100|[from] item: Leftovers
+|-heal|p1a: Clayton|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729613964
+|move|p2a: Claydol|Explosion|p1a: Clayton
+|-damage|p1a: Clayton|0 fnt
+|faint|p2a: Claydol
+|faint|p1a: Clayton
+|
+|t:|1729613968
+|switch|p2a: Suicune|Suicune|52/100
+|switch|p1a: T-Bone|Tyranitar, M|71/100
+|-damage|p2a: Suicune|40/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|-heal|p1a: T-Bone|77/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729613978
+|move|p2a: Suicune|Surf|p1a: T-Bone
+|-supereffective|p1a: T-Bone
+|-damage|p1a: T-Bone|11/100
+|move|p1a: T-Bone|Rock Slide|p2a: Suicune|[miss]
+|-miss|p1a: T-Bone|p2a: Suicune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|-heal|p1a: T-Bone|17/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729613989
+|move|p2a: Suicune|Surf|p1a: T-Bone
+|-supereffective|p1a: T-Bone
+|-damage|p1a: T-Bone|0 fnt
+|faint|p1a: T-Bone
+|
+|win|Dit Dus
+|player|p1|
+|c|☆Dit Dus|sorry man
+|c|☆Dit Dus|wishrachi?
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801206">
+{"id":"smogtours-gen3ou-801206","format":"[Gen 3] OU","players":["Halbert Simpson","Dit Dus"],"uploadtime":1729613989,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

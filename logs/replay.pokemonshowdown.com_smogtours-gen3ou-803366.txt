@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Emerald_Harrold vs. DancingAlong - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Emerald_Harrold and DancingAlong! Format: [Gen 3] OU; Date: Oct 29, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803366">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730238479
+|gametype|singles
+|player|p1|Emerald_Harrold|brandon-gen3|
+|player|p2|DancingAlong|jogger|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730238479
+|start
+|switch|p1a: Inattesa|Qwilfish, F, shiny|100/100
+|switch|p2a: Macigno|Medicham, M, shiny|100/100
+|turn|1
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1730238515
+|switch|p2a: Zabdos|Zapdos|100/100
+|move|p1a: Inattesa|Substitute|p1a: Inattesa
+|-start|p1a: Inattesa|Substitute
+|-damage|p1a: Inattesa|76/100
+|
+|-heal|p1a: Inattesa|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730238523
+|move|p1a: Inattesa|Rain Dance|p1a: Inattesa
+|-weather|RainDance
+|move|p2a: Zabdos|Roar|p1a: Inattesa
+|drag|p1a: Cavalluccio|Kingdra, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1730238532
+|move|p1a: Cavalluccio|Ice Beam|p2a: Zabdos
+|-supereffective|p2a: Zabdos
+|-damage|p2a: Zabdos|41/100
+|move|p2a: Zabdos|Thunder Wave|p1a: Cavalluccio
+|-status|p1a: Cavalluccio|par
+|-enditem|p1a: Cavalluccio|Lum Berry|[eat]
+|-curestatus|p1a: Cavalluccio|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zabdos|47/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730238545
+|switch|p2a: Sonoro|Snorlax, M|100/100
+|move|p1a: Cavalluccio|Surf|p2a: Sonoro
+|-damage|p2a: Sonoro|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sonoro|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730238558
+|switch|p1a: Cosa della Palude|Swampert, F|100/100
+|move|p2a: Sonoro|Body Slam|p1a: Cosa della Palude
+|-damage|p1a: Cosa della Palude|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cosa della Palude|76/100|[from] item: Leftovers
+|-heal|p2a: Sonoro|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730238566
+|move|p1a: Cosa della Palude|Surf|p2a: Sonoro
+|-damage|p2a: Sonoro|50/100
+|move|p2a: Sonoro|Body Slam|p1a: Cosa della Palude
+|-damage|p1a: Cosa della Palude|48/100
+|
+|-weather|none
+|-heal|p1a: Cosa della Palude|54/100|[from] item: Leftovers
+|-heal|p2a: Sonoro|56/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730238574
+|move|p2a: Sonoro|Body Slam|p1a: Cosa della Palude
+|-damage|p1a: Cosa della Palude|26/100
+|move|p1a: Cosa della Palude|Counter|p2a: Sonoro
+|-damage|p2a: Sonoro|9/100
+|
+|-heal|p1a: Cosa della Palude|32/100|[from] item: Leftovers
+|-heal|p2a: Sonoro|15/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730238586
+|move|p1a: Cosa della Palude|Surf|p2a: Sonoro
+|-damage|p2a: Sonoro|0 fnt
+|faint|p2a: Sonoro
+|
+|t:|1730238592
+|switch|p2a: Zabdos|Zapdos|47/100
+|
+|-heal|p2a: Zabdos|53/100|[from] item: Leftovers
+|-heal|p1a: Cosa della Palude|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730238597
+|switch|p1a: Anatra|Ludicolo, M|100/100
+|move|p2a: Zabdos|Hidden Power|p1a: Anatra
+|-damage|p1a: Anatra|75/100
+|
+|-heal|p2a: Zabdos|59/100|[from] item: Leftovers
+|-heal|p1a: Anatra|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730238604
+|move|p2a: Zabdos|Thunder Wave|p1a: Anatra
+|-status|p1a: Anatra|par
+|cant|p1a: Anatra|par
+|
+|-heal|p2a: Zabdos|66/100|[from] item: Leftovers
+|-heal|p1a: Anatra|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730238616
+|move|p2a: Zabdos|Thunderbolt|p1a: Anatra
+|-damage|p1a: Anatra|36/100 par
+|cant|p1a: Anatra|par
+|
+|-heal|p2a: Zabdos|72/100|[from] item: Leftovers
+|-heal|p1a: Anatra|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730238644
+|switch|p1a: Cosa della Palude|Swampert, F|38/100
+|move|p2a: Zabdos|Thunderbolt|p1a: Cosa della Palude
+|-immune|p1a: Cosa della Palude
+|
+|-heal|p2a: Zabdos|78/100|[from] item: Leftovers
+|-heal|p1a: Cosa della Palude|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730238652
+|switch|p1a: Inattesa|Qwilfish, F, shiny|82/100
+|move|p2a: Zabdos|Hidden Power|p1a: Inattesa
+|-damage|p1a: Inattesa|49/100
+|
+|-heal|p2a: Zabdos|84/100|[from] item: Leftovers
+|-heal|p1a: Inattesa|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730238660
+|switch|p1a: Cosa della Palude|Swampert, F|44/100
+|move|p2a: Zabdos|Thunderbolt|p1a: Cosa della Palude
+|-immune|p1a: Cosa della Palude
+|
+|-heal|p2a: Zabdos|91/100|[from] item: Leftovers
+|-heal|p1a: Cosa della Palude|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730238668
+|switch|p1a: Inattesa|Qwilfish, F, shiny|55/100
+|move|p2a: Zabdos|Hidden Power|p1a: Inattesa
+|-damage|p1a: Inattesa|19/100
+|
+|-heal|p2a: Zabdos|97/100|[from] item: Leftovers
+|-heal|p1a: Inattesa|25/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730238674
+|move|p2a: Zabdos|Hidden Power|p1a: Inattesa
+|-damage|p1a: Inattesa|0 fnt
+|faint|p1a: Inattesa
+|
+|t:|1730238682
+|switch|p1a: Cavalluccio|Kingdra, F|100/100
+|
+|-heal|p2a: Zabdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730238689
+|move|p2a: Zabdos|Thunder Wave|p1a: Cavalluccio
+|-status|p1a: Cavalluccio|par
+|move|p1a: Cavalluccio|Rain Dance|p1a: Cavalluccio
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1730238705
+|move|p2a: Zabdos|Thunderbolt|p1a: Cavalluccio
+|-damage|p1a: Cavalluccio|47/100 par
+|move|p1a: Cavalluccio|Surf|p2a: Zabdos
+|-damage|p2a: Zabdos|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zabdos|33/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730238713
+|switch|p1a: Cosa della Palude|Swampert, F|51/100
+|move|p2a: Zabdos|Thunderbolt|p1a: Cosa della Palude
+|-immune|p1a: Cosa della Palude
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zabdos|39/100|[from] item: Leftovers
+|-heal|p1a: Cosa della Palude|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730238725
+|move|p2a: Zabdos|Hidden Power|p1a: Cosa della Palude
+|-supereffective|p1a: Cosa della Palude
+|-crit|p1a: Cosa della Palude
+|-damage|p1a: Cosa della Palude|0 fnt
+|faint|p1a: Cosa della Palude
+|
+|t:|1730238727
+|switch|p1a: Selezione|Kabutops, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zabdos|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|DancingAlong has 270 seconds left.
+|inactive|Emerald_Harrold has 270 seconds left.
+|
+|t:|1730238782
+|switch|p2a: Torrente|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Torrente
+|move|p1a: Selezione|Rock Slide|p2a: Torrente
+|-damage|p2a: Torrente|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1730238803
+|switch|p1a: Cavalluccio|Kingdra, F|47/100 par
+|move|p2a: Torrente|Hidden Power|p1a: Cavalluccio
+|-damage|p1a: Cavalluccio|25/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cavalluccio|19/100 par|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1730238810
+|move|p2a: Torrente|Hidden Power|p1a: Cavalluccio
+|-damage|p1a: Cavalluccio|0 fnt
+|faint|p1a: Cavalluccio
+|
+|t:|1730238830
+|switch|p1a: Lagotto|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lagotto|94/100|[from] Sandstorm
+|-heal|p1a: Lagotto|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|DancingAlong has 270 seconds left.
+|
+|t:|1730238840
+|move|p1a: Lagotto|Substitute|p1a: Lagotto
+|-start|p1a: Lagotto|Substitute
+|-damage|p1a: Lagotto|75/100
+|move|p2a: Torrente|Hidden Power|p1a: Lagotto
+|-supereffective|p1a: Lagotto
+|-end|p1a: Lagotto|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lagotto|69/100|[from] Sandstorm
+|-heal|p1a: Lagotto|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730238851
+|move|p1a: Lagotto|Surf|p2a: Torrente
+|-supereffective|p2a: Torrente
+|-damage|p2a: Torrente|0 fnt
+|faint|p2a: Torrente
+|
+|t:|1730238853
+|switch|p2a: Zabdos|Zapdos|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zabdos|39/100|[from] Sandstorm
+|-damage|p1a: Lagotto|69/100|[from] Sandstorm
+|-heal|p2a: Zabdos|45/100|[from] item: Leftovers
+|-heal|p1a: Lagotto|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Emerald_Harrold has 270 seconds left.
+|
+|t:|1730238860
+|move|p2a: Zabdos|Thunderbolt|p1a: Lagotto
+|-supereffective|p1a: Lagotto
+|-crit|p1a: Lagotto
+|-damage|p1a: Lagotto|0 fnt
+|faint|p1a: Lagotto
+|inactive|Emerald_Harrold has 270 seconds left.
+|c|☆Emerald_Harrold|gg
+|
+|t:|1730238880
+|switch|p1a: Anatra|Ludicolo, M|42/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zabdos|39/100|[from] Sandstorm
+|-damage|p1a: Anatra|36/100 par|[from] Sandstorm
+|-heal|p2a: Zabdos|45/100|[from] item: Leftovers
+|-heal|p1a: Anatra|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730238884
+|move|p2a: Zabdos|Thunderbolt|p1a: Anatra
+|-damage|p1a: Anatra|0 fnt
+|faint|p1a: Anatra
+|
+|t:|1730238886
+|switch|p1a: Selezione|Kabutops, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zabdos|39/100|[from] Sandstorm
+|-heal|p2a: Zabdos|45/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730238892
+|move|p2a: Zabdos|Hidden Power|p1a: Selezione
+|-supereffective|p1a: Selezione
+|-damage|p1a: Selezione|0 fnt
+|faint|p1a: Selezione
+|
+|win|DancingAlong
+|c|☆DancingAlong|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803366">
+{"id":"smogtours-gen3ou-803366","format":"[Gen 3] OU","players":["Emerald_Harrold","DancingAlong"],"uploadtime":1730238892,"views":71,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

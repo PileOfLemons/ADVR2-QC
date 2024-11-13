@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: A Plague Doc vs. Spreek - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between A Plague Doc and Spreek! Format: [Gen 3] OU; Date: Oct 28, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803158">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730151847
+|gametype|singles
+|player|p1|A Plague Doc|#agplviblackpink|
+|player|p2|Spreek|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730151847
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆Spreek|hf
+|c|☆A Plague Doc|hf
+|
+|t:|1730151866
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1730151868
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730151876
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory|[miss]
+|-miss|p1a: Swampert|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730151891
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Charizard
+|-sidestart|p1: A Plague Doc|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Spreek has 270 seconds left.
+|
+|t:|1730151949
+|move|p1a: Charizard|Fire Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Charizard|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Charizard
+|drag|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|A Plague Doc has 270 seconds left.
+|inactive|Spreek has 240 seconds left.
+|
+|t:|1730151986
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Charizard
+|-sidestart|p1: A Plague Doc|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|A Plague Doc has 270 seconds left.
+|inactive|Spreek has 210 seconds left.
+|
+|t:|1730152034
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|move|p1a: Charizard|Fire Blast|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|A Plague Doc has 270 seconds left.
+|inactive|Spreek has 180 seconds left.
+|
+|t:|1730152062
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|inactive|A Plague Doc has 240 seconds left.
+|
+|t:|1730152086
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: A Plague Doc|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|inactive|Spreek has 180 seconds left.
+|c|☆A Plague Doc|insane
+|c|+hyogafodex|pelo que é isso
+|c|☆A Plague Doc|adv revival
+|c|☆A Plague Doc|jogo relativamente importante
+|c|☆Spreek|sry man 
+|inactive|Spreek has 150 seconds left.
+|c|☆A Plague Doc|1 dos melhores pra missclickar e errar 3 move em 9 turnos
+|
+|t:|1730152133
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Swampert|Swampert, M|94/100
+|-damage|p1a: Swampert|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆A Plague Doc|kkkkkkkkkkkkkk
+|
+|t:|1730152162
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|21/100
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|drag|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|27/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|A Plague Doc has 240 seconds left.
+|
+|t:|1730152190
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Skarmory|Roar|p1a: Salamence
+|drag|p1a: Swampert|Swampert, M|75/100
+|-damage|p1a: Swampert|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|33/100|[from] item: Leftovers
+|-heal|p1a: Swampert|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Spreek has 120 seconds left.
+|
+|t:|1730152209
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|inactive|Spreek has 120 seconds left.
+|
+|t:|1730152231
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|A Plague Doc has 240 seconds left.
+|
+|t:|1730152272
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-damage|p1a: Jolteon|76/100|[from] Spikes
+|move|p2a: Gengar|Giga Drain|p1a: Jolteon
+|-damage|p1a: Jolteon|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|43/100|[from] Sandstorm
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p1a: Jolteon|48/100|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152301
+|move|p1a: Jolteon|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|move|p2a: Gengar|Giga Drain|p1a: Jolteon
+|-damage|p1a: Jolteon|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|15/100|[from] Sandstorm
+|-damage|p2a: Gengar|95/100 par|[from] Sandstorm
+|-heal|p1a: Jolteon|21/100|[from] item: Leftovers
+|-heal|p2a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152314
+|move|p1a: Jolteon|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|48/100 par
+|cant|p2a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|15/100|[from] Sandstorm
+|-damage|p2a: Gengar|42/100 par|[from] Sandstorm
+|-heal|p1a: Jolteon|21/100|[from] item: Leftovers
+|-heal|p2a: Gengar|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152335
+|move|p1a: Jolteon|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730152341
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|15/100|[from] Sandstorm
+|-heal|p1a: Jolteon|21/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730152349
+|move|p1a: Jolteon|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|move|p2a: Tyranitar|Rock Slide|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|inactive|A Plague Doc has 210 seconds left.
+|
+|t:|1730152384
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|A Plague Doc has 210 seconds left.
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152401
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Spreek has 90 seconds left.
+|inactive|A Plague Doc has 210 seconds left.
+|
+|t:|1730152431
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|58/100
+|move|p2a: Swampert|Toxic|p1a: Salamence|[miss]
+|-miss|p2a: Swampert|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730152440
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|25/100
+|move|p2a: Swampert|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|-heal|p2a: Swampert|31/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730152448
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|82/100 tox|[from] psn
+|-heal|p2a: Swampert|37/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152477
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Salamence|Brick Break|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|76/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Salamence|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|64/100 tox|[from] psn
+|-heal|p2a: Zapdos|66/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730152492
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Salamence|Rock Slide|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|58/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|60/100|[from] Sandstorm
+|-heal|p1a: Salamence|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|39/100 tox|[from] psn
+|-heal|p2a: Zapdos|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|A Plague Doc has 180 seconds left.
+|
+|t:|1730152517
+|move|p2a: Zapdos|Protect||[still]
+|-fail|p2a: Zapdos
+|move|p1a: Salamence|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|33/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|16/100|[from] Sandstorm
+|-heal|p1a: Salamence|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|9/100 tox|[from] psn
+|-heal|p2a: Zapdos|22/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1730152523
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Salamence|Hidden Power|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|2/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|16/100|[from] Sandstorm
+|-heal|p1a: Salamence|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|0 fnt|[from] psn
+|faint|p1a: Salamence
+|-heal|p2a: Zapdos|22/100|[from] item: Leftovers
+|upkeep
+|inactive|A Plague Doc has 180 seconds left.
+|
+|t:|1730152555
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|turn|26
+|
+|t:|1730152583
+|move|p2a: Zapdos|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|16/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|34/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|22/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Spreek has 90 seconds left.
+|
+|t:|1730152600
+|move|p1a: Tyranitar|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1730152603
+|switch|p2a: Aerodactyl|Aerodactyl, F|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|40/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Spreek has 90 seconds left.
+|inactive|A Plague Doc has 150 seconds left.
+|inactive|Spreek has 60 seconds left.
+|inactive|A Plague Doc has 120 seconds left.
+|
+|t:|1730152688
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|t:|1730152696
+|switch|p1a: Metagross|Metagross|84/100
+|-damage|p1a: Metagross|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|inactive|Spreek has 30 seconds left.
+|inactive|Spreek has 20 seconds left.
+|
+|t:|1730152727
+|switch|p2a: Swampert|Swampert, F|37/100
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|12/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Spreek has 30 seconds left this turn.
+|
+|t:|1730152734
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|inactive|Spreek has 30 seconds left this turn.
+|
+|t:|1730152736
+|switch|p2a: Aerodactyl|Aerodactyl, F|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1730152752
+|switch|p1a: Tyranitar|Tyranitar, F|40/100
+|-damage|p1a: Tyranitar|15/100|[from] Spikes
+|move|p2a: Aerodactyl|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1730152758
+|switch|p1a: Swampert|Swampert, M|62/100
+|-damage|p1a: Swampert|37/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Spreek has 30 seconds left.
+|inactive|Spreek has 20 seconds left.
+|
+|t:|1730152796
+|move|p2a: Aerodactyl|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|5/100
+|move|p1a: Swampert|Hydro Pump|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|inactive|Spreek has 25 seconds left this turn.
+|
+|t:|1730152799
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|11/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730152807
+|move|p1a: Swampert|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|38/100 par
+|move|p2a: Tyranitar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1730152811
+|switch|p1a: Metagross|Metagross|59/100
+|-damage|p1a: Metagross|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆Spreek|ggs
+|
+|t:|1730152814
+|move|p1a: Metagross|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|A Plague Doc
+|c|☆A Plague Doc|ggs
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803158">
+{"id":"smogtours-gen3ou-803158","format":"[Gen 3] OU","players":["A Plague Doc","Spreek"],"uploadtime":1730152814,"views":105,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

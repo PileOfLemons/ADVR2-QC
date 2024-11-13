@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: wwwmonmon vs. hey its me riley - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between wwwmonmon and hey its me riley! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794507">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728015566
+|gametype|singles
+|player|p1|wwwmonmon|265|
+|player|p2|hey its me riley|bodybuilderf-gen9|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728015566
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|1
+|
+|t:|1728015574
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|upkeep
+|turn|2
+|
+|t:|1728015583
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728015587
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728015594
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Metagross
+|-start|p2a: Metagross|move: Leech Seed
+|
+|-damage|p2a: Metagross|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|5
+|
+|t:|1728015599
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Swampert|[miss]
+|-miss|p2a: Metagross|p1a: Swampert
+|
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|-damage|p2a: Metagross|82/100|[from] Leech Seed|[of] p1a: Swampert
+|upkeep
+|turn|6
+|
+|t:|1728015610
+|move|p2a: Metagross|Explosion|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Swampert
+|
+|t:|1728015621
+|switch|p2a: Salamence|Salamence, M|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1728015625
+|move|p1a: Zapdos|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|move|p2a: Salamence|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100
+|
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728015631
+|move|p1a: Zapdos|Thunderbolt|p2a: Salamence
+|-damage|p2a: Salamence|37/100 par
+|move|p2a: Salamence|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|21/100
+|
+|-heal|p1a: Zapdos|28/100|[from] item: Leftovers
+|-heal|p2a: Salamence|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728015638
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|72/100
+|
+|-heal|p1a: Zapdos|34/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728015645
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Celebi
+|-damage|p1a: Celebi|67/100
+|
+|-heal|p1a: Celebi|74/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728015653
+|switch|p2a: Salamence|Salamence, M|43/100 par
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Leech Seed|p2a: Salamence
+|-start|p2a: Salamence|move: Leech Seed
+|
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|-heal|p2a: Salamence|49/100 par|[from] item: Leftovers
+|-damage|p2a: Salamence|37/100 par|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|90/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728015659
+|move|p1a: Celebi|Psychic|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1728015681
+|switch|p2a: Snorlax|Snorlax, M|84/100
+|
+|-heal|p1a: Celebi|96/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728015685
+|move|p1a: Celebi|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|move|p2a: Snorlax|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|56/100
+|-unboost|p1a: Celebi|spd|1
+|
+|-heal|p1a: Celebi|62/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|97/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|84/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|76/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1728015692
+|move|p1a: Celebi|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|66/100
+|move|p2a: Snorlax|Body Slam|p1a: Celebi
+|-damage|p1a: Celebi|42/100
+|
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|72/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|59/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|62/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1728015700
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Celebi
+|
+|t:|1728015710
+|switch|p1a: Zapdos|Zapdos|34/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|28/100|[from] Sandstorm
+|-heal|p1a: Zapdos|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728015717
+|move|p1a: Zapdos|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|49/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|28/100|[from] Sandstorm
+|-heal|p1a: Zapdos|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728015721
+|move|p2a: Tyranitar|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1728015723
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1728015728
+|move|p2a: Tyranitar|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1728015732
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728015741
+|move|p2a: Tyranitar|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1728015749
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1728015753
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|move|p1a: Tyranitar|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728015757
+|switch|p2a: Zapdos|Zapdos|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|27/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728015760
+|move|p2a: Zapdos|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|hey its me riley
+|c|☆hey its me riley|ggs
+|c|☆wwwmonmon|Gg
+|c|☆hey its me riley|adamant dug?
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794507">
+{"id":"smogtours-gen3ou-794507","format":"[Gen 3] OU","players":["wwwmonmon","hey its me riley"],"uploadtime":1728015760,"views":116,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

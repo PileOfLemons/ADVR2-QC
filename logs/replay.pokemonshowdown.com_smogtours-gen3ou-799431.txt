@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: big will 2024 vs. billclintonlol - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between big will 2024 and billclintonlol! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799431">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729210294
+|gametype|singles
+|player|p1|big will 2024|morty-gen2|
+|player|p2|billclintonlol|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729210294
+|start
+|switch|p1a: Pretty Sweet|Jynx, F|100/100
+|switch|p2a: Medicham|Medicham, F|100/100
+|turn|1
+|inactive|big will 2024 also wants the timer to be on.
+|c|☆big will 2024|hf
+|c|☆billclintonlol|u2
+|inactive|big will 2024 has 270 seconds left.
+|inactive|billclintonlol has 270 seconds left.
+|inactive|big will 2024 has 240 seconds left.
+|
+|t:|1729210378
+|move|p1a: Pretty Sweet|Ice Beam|p2a: Medicham
+|-damage|p2a: Medicham|26/100
+|move|p2a: Medicham|Rock Slide|p1a: Pretty Sweet|[miss]
+|-miss|p2a: Medicham|p1a: Pretty Sweet
+|
+|upkeep
+|turn|2
+|c|☆big will 2024|ill fake out
+|c|☆big will 2024|just kill me
+|c|☆billclintonlol|LMAO dont
+|inactive|big will 2024 has 270 seconds left.
+|c|☆billclintonlol|im not tryna win like that
+|inactive|billclintonlol has 270 seconds left.
+|
+|t:|1729210412
+|-singleturn|p2a: Medicham|move: Focus Punch
+|move|p1a: Pretty Sweet|Ice Beam|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|inactive|billclintonlol has 270 seconds left.
+|c|☆big will 2024|well u said dont
+|c|☆billclintonlol|ye ur good
+|inactive|billclintonlol has 240 seconds left.
+|
+|t:|1729210455
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|
+|upkeep
+|turn|3
+|inactive|big will 2024 has 270 seconds left.
+|
+|t:|1729210471
+|move|p1a: Pretty Sweet|Lovely Kiss|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Lovely Kiss
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|4
+|inactive|big will 2024 has 270 seconds left.
+|
+|t:|1729210490
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Pretty Sweet|Ice Beam|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|60/100
+|
+|upkeep
+|turn|5
+|
+|t:|1729210506
+|switch|p1a: Seigfried|Claydol|100/100
+|move|p2a: Magneton|Thunderbolt|p1a: Seigfried
+|-immune|p1a: Seigfried
+|
+|upkeep
+|turn|6
+|
+|t:|1729210518
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Seigfried|atk|1
+|switch|p1a: Pretty Sweet|Jynx, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1729210528
+|move|p1a: Pretty Sweet|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729210534
+|switch|p2a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1729210539
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Pretty Sweet|Taunt|p2a: Suicune
+|-start|p2a: Suicune|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1729210548
+|switch|p1a: Ivy|Suicune|100/100
+|switch|p2a: Magneton|Magneton|60/100
+|
+|upkeep
+|turn|10
+|
+|t:|1729210553
+|switch|p1a: Self Control|Dugtrio, F|100/100
+|move|p2a: Magneton|Toxic|p1a: Self Control
+|-status|p1a: Self Control|tox
+|
+|-damage|p1a: Self Control|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1729210561
+|move|p1a: Self Control|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1729210566
+|switch|p2a: Suicune|Suicune|100/100
+|
+|-damage|p1a: Self Control|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1729210572
+|switch|p1a: Nights|Gengar, F|100/100
+|move|p2a: Suicune|Surf|p1a: Nights
+|-damage|p1a: Nights|61/100
+|
+|-heal|p1a: Nights|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729210577
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|move|p1a: Nights|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|85/100 slp
+|
+|-heal|p1a: Nights|73/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729210586
+|move|p1a: Nights|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|32/100 slp
+|faint|p1a: Nights
+|
+|t:|1729210588
+|switch|p1a: Self Control|Dugtrio, F|82/100 tox
+|
+|-damage|p1a: Self Control|76/100 tox|[from] psn
+|-heal|p2a: Snorlax|38/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729210591
+|move|p1a: Self Control|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|t:|1729210594
+|switch|p2a: Suicune|Suicune|100/100
+|
+|-damage|p1a: Self Control|64/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1729210597
+|move|p1a: Self Control|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|61/100
+|move|p2a: Suicune|Surf|p1a: Self Control
+|-supereffective|p1a: Self Control
+|-damage|p1a: Self Control|0 fnt
+|faint|p1a: Self Control
+|
+|t:|1729210599
+|switch|p1a: Ivy|Suicune|100/100
+|
+|-heal|p2a: Suicune|68/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729210603
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Ivy|Calm Mind|p1a: Ivy
+|-boost|p1a: Ivy|spa|1
+|-boost|p1a: Ivy|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1729210609
+|move|p1a: Ivy|Surf|p2a: Metagross
+|-damage|p2a: Metagross|37/100
+|move|p2a: Metagross|Explosion|p1a: Ivy
+|-damage|p1a: Ivy|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Ivy
+|
+|t:|1729210616
+|switch|p1a: Seigfried|Claydol|100/100
+|switch|p2a: Suicune|Suicune|68/100
+|
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729210623
+|move|p1a: Seigfried|Explosion|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p1a: Seigfried
+|faint|p2a: Suicune
+|
+|win|big will 2024
+|c|☆big will 2024|ggs
+|c|☆billclintonlol|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799431">
+{"id":"smogtours-gen3ou-799431","format":"[Gen 3] OU","players":["big will 2024","billclintonlol"],"uploadtime":1729210623,"views":102,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

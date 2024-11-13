@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: reptikrook vs. Surko - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between reptikrook and Surko! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801556">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729786014
+|gametype|singles
+|player|p1|reptikrook|266|
+|player|p2|Surko|blue-gen3two|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729786014
+|start
+|switch|p1a: Kalamet|Aerodactyl, F|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|t:|1729786021
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Kalamet|atk|1
+|move|p1a: Kalamet|Double-Edge|p2a: Salamence
+|-damage|p2a: Salamence|59/100
+|
+|-heal|p2a: Salamence|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729786032
+|switch|p1a: Wet Dog|Suicune|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1729786039
+|move|p2a: Breloom|Spore|p1a: Wet Dog
+|-status|p1a: Wet Dog|slp|[from] move: Spore
+|cant|p1a: Wet Dog|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1729786044
+|switch|p1a: Rubber Chicken|Moltres|100/100
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100
+|
+|-heal|p2a: Breloom|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729786054
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Stun Spore|p1a: Rubber Chicken
+|-status|p1a: Rubber Chicken|par
+|
+|-heal|p2a: Breloom|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729786063
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|63/100
+|cant|p1a: Rubber Chicken|par
+|
+|-heal|p2a: Breloom|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729786069
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Rubber Chicken
+|-resisted|p1a: Rubber Chicken
+|-damage|p1a: Rubber Chicken|65/100 par
+|
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729786082
+|switch|p2a: Blissey|Blissey, F|100/100
+|cant|p1a: Rubber Chicken|par
+|
+|-heal|p1a: Rubber Chicken|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729786095
+|switch|p1a: Wall Nut|Forretress, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Wall Nut
+|-resisted|p1a: Wall Nut
+|-damage|p1a: Wall Nut|90/100
+|
+|-heal|p1a: Wall Nut|96/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729786102
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Wall Nut|Spikes|p2a: Forretress
+|-sidestart|p2: Surko|Spikes
+|
+|-heal|p1a: Wall Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729786108
+|switch|p1a: Magnus Carlmon|Magneton|100/100
+|move|p2a: Forretress|Rapid Spin|p1a: Magnus Carlmon
+|-resisted|p1a: Magnus Carlmon
+|-damage|p1a: Magnus Carlmon|98/100
+|-sideend|p2: Surko|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|upkeep
+|turn|12
+|
+|t:|1729786114
+|move|p1a: Magnus Carlmon|Hidden Power|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|32/100
+|move|p2a: Forretress|Earthquake|p1a: Magnus Carlmon
+|-supereffective|p1a: Magnus Carlmon
+|-damage|p1a: Magnus Carlmon|0 fnt
+|faint|p1a: Magnus Carlmon
+|
+|t:|1729786122
+|switch|p1a: Kalamet|Aerodactyl, F|100/100
+|
+|-heal|p2a: Forretress|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729786127
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Kalamet|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|64/100
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729786135
+|switch|p1a: Wet Dog|Suicune|100/100 slp
+|move|p2a: Suicune|Surf|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|87/100 slp
+|
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729786144
+|switch|p2a: Breloom|Breloom, M|75/100
+|cant|p1a: Wet Dog|slp
+|
+|-heal|p2a: Breloom|81/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729786154
+|switch|p1a: Rubber Chicken|Moltres|78/100 par
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|57/100
+|
+|-heal|p2a: Breloom|63/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729786163
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Rubber Chicken
+|-resisted|p1a: Rubber Chicken
+|-damage|p1a: Rubber Chicken|49/100 par
+|
+|-heal|p2a: Breloom|69/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729786174
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|-status|p2a: Blissey|brn
+|
+|-heal|p2a: Blissey|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|74/100 brn|[from] brn
+|-heal|p1a: Rubber Chicken|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729786185
+|switch|p1a: Wall Nut|Forretress, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|68/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1729786195
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Forretress|Forretress, F|38/100
+|move|p1a: Wall Nut|Spikes|p2a: Forretress
+|-sidestart|p2: Surko|Spikes
+|
+|-heal|p2a: Forretress|88/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Forretress|95/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729786206
+|switch|p1a: Rubber Chicken|Moltres|61/100 par
+|move|p2a: Forretress|Rapid Spin|p1a: Rubber Chicken
+|-damage|p1a: Rubber Chicken|57/100 par
+|-sideend|p2: Surko|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729786214
+|switch|p2a: Blissey|Blissey, F|68/100
+|switch|p1a: Wall Nut|Forretress, M|100/100
+|
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729786220
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Wall Nut|Spikes|p2a: Forretress
+|-sidestart|p2: Surko|Spikes
+|
+|upkeep
+|turn|24
+|
+|t:|1729786227
+|move|p2a: Forretress|Rapid Spin|p1a: Wall Nut
+|-resisted|p1a: Wall Nut
+|-damage|p1a: Wall Nut|99/100
+|-sideend|p2: Surko|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|move|p1a: Wall Nut|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|86/100
+|
+|-heal|p2a: Forretress|93/100|[from] item: Leftovers
+|-heal|p1a: Wall Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729786235
+|move|p2a: Forretress|Spikes|p1a: Wall Nut
+|-sidestart|p1: reptikrook|Spikes
+|move|p1a: Wall Nut|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|78/100
+|
+|-heal|p2a: Forretress|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729786245
+|move|p2a: Forretress|Spikes|p1a: Wall Nut
+|-sidestart|p1: reptikrook|Spikes
+|move|p1a: Wall Nut|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|82/100
+|-sideend|p1: reptikrook|Spikes|[from] move: Rapid Spin|[of] p1a: Wall Nut
+|
+|-heal|p2a: Forretress|89/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729786254
+|move|p2a: Forretress|Spikes|p1a: Wall Nut
+|-sidestart|p1: reptikrook|Spikes
+|move|p1a: Wall Nut|Spikes|p2a: Forretress
+|-sidestart|p2: Surko|Spikes
+|
+|-heal|p2a: Forretress|95/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729786260
+|move|p2a: Forretress|Rapid Spin|p1a: Wall Nut
+|-resisted|p1a: Wall Nut
+|-damage|p1a: Wall Nut|99/100
+|-sideend|p2: Surko|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|move|p1a: Wall Nut|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|93/100
+|-sideend|p1: reptikrook|Spikes|[from] move: Rapid Spin|[of] p1a: Wall Nut
+|
+|-heal|p2a: Forretress|99/100|[from] item: Leftovers
+|-heal|p1a: Wall Nut|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729786269
+|switch|p2a: Suicune|Suicune|76/100
+|switch|p1a: Rubber Chicken|Moltres|63/100 par
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729786276
+|switch|p1a: Big Service|Snorlax, M|100/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|57/100
+|
+|-heal|p2a: Suicune|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729786282
+|move|p2a: Suicune|Ice Beam|p1a: Big Service
+|-damage|p1a: Big Service|86/100
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|-heal|p1a: Big Service|92/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729786292
+|move|p2a: Suicune|Ice Beam|p1a: Big Service
+|-crit|p1a: Big Service
+|-damage|p1a: Big Service|63/100
+|move|p1a: Big Service|Earthquake|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|-heal|p1a: Big Service|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729786301
+|switch|p2a: Salamence|Salamence, F|65/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Big Service|atk|1
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Salamence|71/100|[from] item: Leftovers
+|-heal|p1a: Big Service|75/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729786312
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|61/100
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Salamence|77/100|[from] item: Leftovers
+|-heal|p1a: Big Service|67/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729786326
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-crit|p1a: Big Service
+|-damage|p1a: Big Service|11/100
+|move|p1a: Big Service|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|28/100
+|
+|-heal|p2a: Salamence|34/100|[from] item: Leftovers
+|-heal|p1a: Big Service|17/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729786336
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|6/100
+|move|p1a: Big Service|Rest|p1a: Big Service
+|-status|p1a: Big Service|slp|[from] move: Rest
+|-heal|p1a: Big Service|100/100 slp|[silent]
+|
+|-heal|p2a: Salamence|40/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729786344
+|switch|p2a: Breloom|Breloom, M|69/100
+|cant|p1a: Big Service|slp
+|
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729786352
+|switch|p1a: Wall Nut|Forretress, M|100/100
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|50/100
+|
+|-heal|p2a: Breloom|56/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729786358
+|move|p2a: Breloom|Stun Spore|p1a: Wall Nut
+|-status|p1a: Wall Nut|par
+|move|p1a: Wall Nut|Spikes|p2a: Breloom
+|-sidestart|p2: Surko|Spikes
+|
+|-heal|p2a: Breloom|62/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729786364
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Wall Nut|Spikes|p2a: Breloom
+|-sidestart|p2: Surko|Spikes
+|move|p2a: Breloom|Focus Punch|p1a: Wall Nut
+|-damage|p1a: Wall Nut|42/100 par
+|
+|-heal|p2a: Breloom|68/100|[from] item: Leftovers
+|-heal|p1a: Wall Nut|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729786373
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Wall Nut|Explosion|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|faint|p1a: Wall Nut
+|
+|t:|1729786382
+|switch|p1a: Rubber Chicken|Moltres|70/100 par
+|
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729786388
+|switch|p2a: Blissey|Blissey, F|74/100
+|-damage|p2a: Blissey|58/100|[from] Spikes
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|38/100
+|
+|-heal|p2a: Blissey|44/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729786396
+|switch|p1a: Big Service|Snorlax, M|100/100 slp
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|94/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729786403
+|switch|p2a: Forretress|Forretress, F|99/100
+|-damage|p2a: Forretress|83/100|[from] Spikes
+|cant|p1a: Big Service|slp
+|
+|-heal|p2a: Forretress|89/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729786409
+|move|p2a: Forretress|Rapid Spin|p1a: Big Service
+|-damage|p1a: Big Service|97/100 slp
+|-sideend|p2: Surko|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|-curestatus|p1a: Big Service|slp|[msg]
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Forretress|95/100|[from] item: Leftovers
+|-heal|p1a: Big Service|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729786424
+|move|p2a: Forretress|Explosion|p1a: Big Service
+|-damage|p1a: Big Service|58/100
+|faint|p2a: Forretress
+|
+|t:|1729786432
+|switch|p2a: Salamence|Salamence, F|40/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Big Service|atk|1
+|
+|-heal|p2a: Salamence|47/100|[from] item: Leftovers
+|-heal|p1a: Big Service|64/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729786439
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|46/100
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Salamence|53/100|[from] item: Leftovers
+|-heal|p1a: Big Service|52/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729786451
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|39/100
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Salamence|59/100|[from] item: Leftovers
+|-heal|p1a: Big Service|46/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729786461
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|35/100
+|move|p1a: Big Service|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|16/100
+|
+|-heal|p2a: Salamence|22/100|[from] item: Leftovers
+|-heal|p1a: Big Service|41/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729786471
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|31/100
+|move|p1a: Big Service|Curse|p1a: Big Service
+|-unboost|p1a: Big Service|spe|1
+|-boost|p1a: Big Service|atk|1
+|-boost|p1a: Big Service|def|1
+|
+|-heal|p2a: Salamence|28/100|[from] item: Leftovers
+|-heal|p1a: Big Service|37/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729786482
+|move|p2a: Salamence|Hidden Power|p1a: Big Service
+|-damage|p1a: Big Service|28/100
+|move|p1a: Big Service|Shadow Ball|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729786485
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Big Service|22/100|[from] Sandstorm
+|-heal|p1a: Big Service|28/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729786494
+|move|p2a: Tyranitar|Crunch|p1a: Big Service
+|-damage|p1a: Big Service|5/100
+|move|p1a: Big Service|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Big Service|0 fnt|[from] Sandstorm
+|faint|p1a: Big Service
+|-heal|p2a: Tyranitar|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729786505
+|switch|p1a: Kalamet|Aerodactyl, F|100/100
+|turn|53
+|
+|t:|1729786510
+|move|p1a: Kalamet|Double-Edge|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729786518
+|switch|p2a: Suicune|Suicune|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|70/100|[from] Sandstorm
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729786523
+|switch|p1a: Wet Dog|Suicune|99/100 slp
+|move|p2a: Suicune|Surf|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|88/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|70/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|82/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729786532
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|51/100
+|cant|p1a: Wet Dog|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|45/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|82/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729786544
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|cant|p1a: Wet Dog|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|45/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|82/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729786554
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|-curestatus|p1a: Wet Dog|slp|[msg]
+|move|p1a: Wet Dog|Roar|p2a: Suicune
+|drag|p2a: Breloom|Breloom, M|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|68/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|82/100|[from] Sandstorm
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|88/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729786566
+|switch|p1a: Rubber Chicken|Moltres|82/100 par
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|44/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|76/100 par|[from] Sandstorm
+|-heal|p2a: Breloom|50/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729786576
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Rubber Chicken
+|-resisted|p1a: Rubber Chicken
+|-damage|p1a: Rubber Chicken|44/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|44/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|38/100 par|[from] Sandstorm
+|-heal|p2a: Breloom|50/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729786588
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Kalamet|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729786595
+|move|p1a: Kalamet|Double-Edge|p2a: Blissey
+|-damage|p2a: Blissey|53/100
+|move|p2a: Blissey|Ice Beam|p1a: Kalamet
+|-supereffective|p1a: Kalamet
+|-damage|p1a: Kalamet|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729786604
+|move|p1a: Kalamet|Double-Edge|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729786607
+|switch|p2a: Suicune|Suicune|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|45/100|[from] Sandstorm
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729786614
+|switch|p1a: Wet Dog|Suicune|88/100
+|move|p2a: Suicune|Surf|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|45/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|70/100|[from] Sandstorm
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|76/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729786624
+|move|p2a: Suicune|Ice Beam|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|69/100
+|move|p1a: Wet Dog|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|62/100|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|69/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729786639
+|move|p2a: Suicune|Ice Beam|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|60/100
+|-status|p1a: Wet Dog|frz
+|cant|p1a: Wet Dog|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|54/100 frz|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|60/100 frz|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729786649
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|-curestatus|p1a: Wet Dog|frz|[msg]
+|move|p1a: Wet Dog|Roar|p2a: Suicune
+|drag|p2a: Breloom|Breloom, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|44/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|54/100|[from] Sandstorm
+|-heal|p2a: Breloom|50/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|60/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729786661
+|switch|p1a: Rubber Chicken|Moltres|44/100 par
+|move|p2a: Breloom|Spore||[still]
+|-fail|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|44/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|38/100 par|[from] Sandstorm
+|-heal|p2a: Breloom|50/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729786671
+|switch|p2a: Suicune|Suicune|40/100
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|16/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|38/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|22/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729786681
+|switch|p1a: Wet Dog|Suicune|60/100
+|move|p2a: Suicune|Surf|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|16/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|42/100|[from] Sandstorm
+|-heal|p2a: Suicune|22/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|48/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729786695
+|move|p2a: Suicune|Ice Beam|p1a: Wet Dog
+|-resisted|p1a: Wet Dog
+|-damage|p1a: Wet Dog|40/100
+|-status|p1a: Wet Dog|frz
+|cant|p1a: Wet Dog|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|16/100|[from] Sandstorm
+|-damage|p1a: Wet Dog|33/100 frz|[from] Sandstorm
+|-heal|p2a: Suicune|22/100|[from] item: Leftovers
+|-heal|p1a: Wet Dog|40/100 frz|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729786706
+|switch|p2a: Breloom|Breloom, M|50/100
+|switch|p1a: Rubber Chicken|Moltres|44/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|44/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|38/100 par|[from] Sandstorm
+|-heal|p2a: Breloom|50/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729786714
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|25/100
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|19/100|[from] Sandstorm
+|-damage|p1a: Rubber Chicken|38/100 par|[from] Sandstorm
+|-heal|p2a: Breloom|25/100|[from] item: Leftovers
+|-heal|p1a: Rubber Chicken|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729786724
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Rubber Chicken|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-message|Surko forfeited.
+|
+|win|reptikrook
+|player|p2|
+|c|☆reptikrook|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801556">
+{"id":"smogtours-gen3ou-801556","format":"[Gen 3] OU","players":["reptikrook","Surko"],"uploadtime":1729786728,"views":70,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

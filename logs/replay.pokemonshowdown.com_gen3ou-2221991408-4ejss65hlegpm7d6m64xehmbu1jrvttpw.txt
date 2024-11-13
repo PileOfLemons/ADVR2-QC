@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: kug98 vs. strictsceptile1 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between kug98 and strictsceptile1! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2221991408-4ejss65hlegpm7d6m64xehmbu1jrvttpw">
+|j|☆kug98
+|j|☆strictsceptile1
+|t:|1728823848
+|gametype|singles
+|player|p1|kug98|policeman|
+|player|p2|strictsceptile1|camper|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728823848
+|start
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kug98)
+|inactive|strictsceptile1 also wants the timer to be on.
+|
+|t:|1728823861
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Nidoking|Sludge Bomb|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|80/100
+|
+|-heal|p2a: Swampert|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728823872
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-heal|p2a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728823881
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Milotic|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-damage|p2a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1728823892
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Celebi|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-damage|p1a: Charizard|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1728823904
+|-singleturn|p1a: Charizard|move: Focus Punch
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, F|92/100
+|move|p1a: Charizard|Focus Punch|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|49/100
+|
+|-heal|p1a: Charizard|94/100|[from] item: Leftovers
+|-damage|p1a: Charizard|82/100|[from] Leech Seed|[of] p2a: Swampert
+|-heal|p2a: Swampert|58/100|[silent]
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728823911
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: Milotic|[miss]
+|-miss|p2a: Swampert|p1a: Milotic
+|
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728823918
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Milotic|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1728823922
+|move|p2a: Starmie|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|60/100
+|move|p1a: Milotic|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|68/100 tox
+|
+|-heal|p2a: Starmie|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|62/100 tox|[from] psn
+|-heal|p1a: Milotic|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728823929
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Celebi|Celebi|88/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728823935
+|move|p2a: Celebi|Leech Seed|p1a: Milotic
+|-start|p1a: Milotic|move: Leech Seed
+|move|p1a: Milotic|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-heal|p2a: Celebi|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|94/100 tox|[from] psn
+|-damage|p1a: Milotic|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|upkeep
+|turn|11
+|
+|t:|1728823941
+|switch|p1a: Charizard|Charizard, M|82/100
+|move|p2a: Celebi|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|41/100
+|
+|-heal|p1a: Charizard|47/100|[from] item: Leftovers
+|-damage|p2a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1728823947
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, F|71/100
+|move|p1a: Charizard|Fire Blast|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|47/100
+|
+|-heal|p1a: Charizard|53/100|[from] item: Leftovers
+|-heal|p2a: Swampert|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728823956
+|move|p1a: Charizard|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1728823971
+|switch|p2a: Starmie|Starmie|62/100
+|
+|-heal|p2a: Starmie|68/100|[from] item: Leftovers
+|-heal|p1a: Charizard|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728823979
+|switch|p1a: Milotic|Milotic, M|88/100
+|move|p2a: Starmie|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|48/100
+|
+|-heal|p2a: Starmie|75/100|[from] item: Leftovers
+|-heal|p1a: Milotic|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728823986
+|move|p2a: Starmie|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|16/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|66/100
+|
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728823994
+|move|p2a: Starmie|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|36/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|86/100
+|
+|-heal|p2a: Starmie|87/100|[from] item: Leftovers
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728824000
+|move|p2a: Starmie|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|10/100
+|move|p1a: Milotic|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-heal|p2a: Starmie|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|87/100 tox|[from] psn
+|-heal|p1a: Milotic|16/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728824008
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Starmie|Hydro Pump|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|t:|1728824013
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-heal|p2a: Starmie|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|81/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1728824026
+|-curestatus|p2a: Starmie|tox|[from] ability: Natural Cure
+|switch|p2a: Celebi|Celebi|88/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|73/100
+|
+|-heal|p2a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728824031
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|50/100
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-damage|p1a: Zapdos|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|60/100|[silent]
+|-heal|p2a: Celebi|66/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728824040
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1728824046
+|switch|p2a: Dugtrio|Dugtrio, F|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1728824052
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16/100
+|move|p1a: Tyranitar|Hidden Power|p2a: Dugtrio
+|-damage|p2a: Dugtrio|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1728824058
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728824066
+|switch|p1a: Zapdos|Zapdos|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728824075
+|switch|p2a: Celebi|Celebi|66/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-damage|p2a: Celebi|45/100|[from] Sandstorm
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|-heal|p2a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728824085
+|switch|p1a: Milotic|Milotic, M|16/100
+|move|p2a: Celebi|Leech Seed|p1a: Milotic
+|-start|p1a: Milotic|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|45/100|[from] Sandstorm
+|-damage|p1a: Milotic|10/100|[from] Sandstorm
+|-heal|p2a: Celebi|51/100|[from] item: Leftovers
+|-heal|p1a: Milotic|16/100|[from] item: Leftovers
+|-damage|p1a: Milotic|4/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|64/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1728824095
+|move|p2a: Celebi|Psychic|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|t:|1728824100
+|switch|p1a: Charizard|Charizard, M|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|53/100|[from] Sandstorm
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Charizard|59/100|[from] item: Leftovers
+|-heal|p2a: Celebi|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728824113
+|switch|p2a: Dugtrio|Dugtrio, F|5/100
+|move|p1a: Charizard|Hidden Power|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1728824119
+|switch|p2a: Starmie|Starmie|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|75/100|[from] Sandstorm
+|-damage|p1a: Charizard|53/100|[from] Sandstorm
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Charizard|59/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728824129
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|17/100|[from] Sandstorm
+|-damage|p2a: Starmie|75/100|[from] Sandstorm
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Starmie|23/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728824140
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1728824142
+|switch|p1a: Zapdos|Zapdos|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|75/100|[from] Sandstorm
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728824149
+|switch|p2a: Celebi|Celebi|64/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-damage|p2a: Celebi|57/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|-heal|p2a: Celebi|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728824153
+|switch|p1a: Charizard|Charizard, M|59/100
+|cant|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|53/100|[from] Sandstorm
+|-damage|p2a: Celebi|57/100 par|[from] Sandstorm
+|-heal|p1a: Charizard|59/100|[from] item: Leftovers
+|-heal|p2a: Celebi|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728824159
+|move|p1a: Charizard|Hidden Power|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|57/100 par
+|move|p2a: Celebi|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|53/100|[from] Sandstorm
+|-damage|p2a: Celebi|51/100 par|[from] Sandstorm
+|-heal|p1a: Charizard|59/100|[from] item: Leftovers
+|-damage|p1a: Charizard|47/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|60/100 par|[silent]
+|-heal|p2a: Celebi|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728824167
+|-curestatus|p2a: Celebi|par|[from] ability: Natural Cure
+|switch|p2a: Starmie|Starmie|81/100
+|move|p1a: Charizard|Fire Blast|p2a: Starmie|[miss]
+|-miss|p1a: Charizard|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|75/100|[from] Sandstorm
+|-damage|p1a: Charizard|41/100|[from] Sandstorm
+|-heal|p2a: Starmie|81/100|[from] item: Leftovers
+|-heal|p1a: Charizard|47/100|[from] item: Leftovers
+|-damage|p1a: Charizard|34/100|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|95/100|[silent]
+|upkeep
+|turn|34
+|
+|t:|1728824172
+|move|p2a: Starmie|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|t:|1728824175
+|switch|p1a: Zapdos|Zapdos|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|89/100|[from] Sandstorm
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|95/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728824182
+|move|p2a: Starmie|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|28/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|22/100|[from] Sandstorm
+|-damage|p2a: Starmie|89/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|28/100|[from] item: Leftovers
+|-heal|p2a: Starmie|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728824187
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|t:|1728824191
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Zapdos|22/100|[from] Sandstorm
+|-heal|p1a: Zapdos|28/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728824194
+|move|p1a: Zapdos|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|strictsceptile1
+|c|☆kug98|gg
+|l|☆kug98
+|player|p1|
+|j|☆kug98
+|player|p1|kug98|policeman|
+|c|☆strictsceptile1|ggs
+|l|☆kug98
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2221991408-4ejss65hlegpm7d6m64xehmbu1jrvttpw">
+{"id":"gen3ou-2221991408","format":"[Gen 3] OU","players":["kug98","strictsceptile1"],"uploadtime":1728824198,"views":81,"formatid":"gen3ou","rating":null,"private":1,"password":"4ejss65hlegpm7d6m64xehmbu1jrvtt"}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

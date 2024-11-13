@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: crustaceus vs. CCGeek - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between crustaceus and CCGeek! Format: [Gen 3] OU; Date: Oct 30, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803445">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730314272
+|gametype|singles
+|player|p1|crustaceus|dawn|
+|player|p2|CCGeek|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730314272
+|start
+|switch|p1a: Kalni|Tyranitar, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Kalni
+|turn|1
+|inactive|CCGeek has 270 seconds left.
+|c|☆crustaceus|hf
+|c|☆CCGeek|u2!
+|
+|t:|1730314329
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Kalni|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730314349
+|switch|p1a: Juras|Milotic, F|100/100
+|move|p2a: Swampert|Earthquake|p1a: Juras
+|-damage|p1a: Juras|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|66/100|[from] Sandstorm
+|-heal|p1a: Juras|72/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|CCGeek has 270 seconds left.
+|
+|t:|1730314387
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Juras|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|66/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Juras|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1730314395
+|move|p1a: Juras|Recover|p1a: Juras
+|-heal|p1a: Juras|100/100
+|move|p2a: Blissey|Toxic|p1a: Juras
+|-status|p1a: Juras|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|94/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p1a: Juras|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Juras|94/100 tox|[from] psn
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|CCGeek has 270 seconds left.
+|
+|t:|1730314408
+|move|p1a: Juras|Refresh|p1a: Juras
+|-curestatus|p1a: Juras|tox|[msg]
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Juras|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|CCGeek has 270 seconds left.
+|
+|t:|1730314423
+|switch|p1a: Dundurs|Skarmory, M|100/100
+|move|p2a: Blissey|Toxic|p1a: Dundurs
+|-immune|p1a: Dundurs
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|57/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1730314428
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Dundurs|Spikes|p2a: Skarmory
+|-sidestart|p2: CCGeek|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1730314438
+|switch|p1a: Bumbas|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Bumbas
+|-sidestart|p1: crustaceus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1730314446
+|move|p1a: Bumbas|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-sideend|p1: crustaceus|Spikes|[from] move: Rapid Spin|[of] p1a: Bumbas
+|move|p2a: Skarmory|Toxic|p1a: Bumbas
+|-status|p1a: Bumbas|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bumbas|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730314452
+|move|p1a: Bumbas|Refresh|p1a: Bumbas
+|-curestatus|p1a: Bumbas|tox|[msg]
+|move|p2a: Skarmory|Spikes|p1a: Bumbas
+|-sidestart|p1: crustaceus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bumbas|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730314465
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Bumbas|Rapid Spin|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1730314470
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Bumbas|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730314485
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Olas|Blissey, F|100/100
+|-damage|p1a: Olas|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|82/100|[from] Sandstorm
+|-heal|p1a: Olas|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730314494
+|move|p2a: Skarmory|Spikes|p1a: Olas
+|-sidestart|p1: crustaceus|Spikes
+|move|p1a: Olas|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|11/100|[from] item: Leftovers
+|-heal|p1a: Olas|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆CCGeek|ouch
+|
+|t:|1730314508
+|switch|p1a: Dundurs|Skarmory, M|100/100
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730314516
+|move|p1a: Dundurs|Spikes|p2a: Skarmory
+|-sidestart|p2: CCGeek|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Dundurs
+|-sidestart|p1: crustaceus|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730314520
+|move|p1a: Dundurs|Spikes|p2a: Skarmory
+|-sidestart|p2: CCGeek|Spikes
+|move|p2a: Skarmory|Roar|p1a: Dundurs
+|drag|p1a: Juras|Milotic, F|94/100
+|-damage|p1a: Juras|70/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|63/100|[from] Sandstorm
+|-heal|p1a: Juras|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730314535
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Juras|Recover|p1a: Juras
+|-heal|p1a: Juras|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|94/100|[from] Sandstorm
+|-heal|p1a: Juras|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|35/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730314551
+|switch|p2a: Blissey|Blissey, F|57/100
+|-damage|p2a: Blissey|33/100|[from] Spikes
+|move|p1a: Juras|Surf|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|13/100|[from] Sandstorm
+|-heal|p1a: Juras|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|19/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730314559
+|switch|p1a: Zemene|Dugtrio, M|100/100
+|-damage|p1a: Zemene|76/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|63/100|[from] Sandstorm
+|-heal|p2a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730314569
+|move|p1a: Zemene|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|20/100
+|move|p2a: Blissey|Ice Beam|p1a: Zemene
+|-supereffective|p1a: Zemene
+|-damage|p1a: Zemene|0 fnt
+|faint|p1a: Zemene
+|
+|t:|1730314591
+|switch|p1a: Kalni|Tyranitar, M|100/100
+|-damage|p1a: Kalni|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|13/100|[from] Sandstorm
+|-heal|p1a: Kalni|82/100|[from] item: Leftovers
+|-heal|p2a: Blissey|20/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|crustaceus has 270 seconds left.
+|
+|t:|1730314619
+|move|p1a: Kalni|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Toxic|p1a: Kalni
+|-status|p1a: Kalni|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|13/100 tox|[from] Sandstorm
+|-heal|p1a: Kalni|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Kalni|82/100 tox|[from] psn
+|-heal|p2a: Blissey|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|13/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|crustaceus has 270 seconds left.
+|
+|t:|1730314646
+|move|p1a: Kalni|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Ice Beam|p1a: Kalni
+|-damage|p1a: Kalni|62/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|7/100 tox|[from] Sandstorm
+|-heal|p1a: Kalni|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Kalni|55/100 tox|[from] psn
+|-heal|p2a: Blissey|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|1/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|CCGeek has 270 seconds left.
+|inactive|crustaceus has 240 seconds left.
+|
+|t:|1730314683
+|switch|p1a: Dundurs|Skarmory, M|100/100
+|move|p2a: Blissey|Thunderbolt|p1a: Dundurs
+|-supereffective|p1a: Dundurs
+|-damage|p1a: Dundurs|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|0 fnt|[from] Sandstorm
+|faint|p2a: Blissey
+|-heal|p1a: Dundurs|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1730314698
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|25
+|
+|t:|1730314711
+|move|p1a: Dundurs|Protect|p1a: Dundurs
+|-singleturn|p1a: Dundurs|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Dundurs|[miss]
+|-miss|p2a: Gengar|p1a: Dundurs
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Dundurs|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|crustaceus has 240 seconds left.
+|
+|t:|1730314732
+|switch|p1a: Kalni|Tyranitar, M|55/100 tox
+|-damage|p1a: Kalni|31/100 tox|[from] Spikes
+|move|p2a: Gengar|Thunderbolt|p1a: Kalni
+|-damage|p1a: Kalni|8/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Kalni|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Kalni|8/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1730314738
+|move|p2a: Gengar|Thunderbolt|p1a: Kalni
+|-damage|p1a: Kalni|0 fnt
+|faint|p1a: Kalni
+|
+|t:|1730314741
+|switch|p1a: Olas|Blissey, F|88/100
+|-damage|p1a: Olas|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Olas|57/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Olas|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|CCGeek has 270 seconds left.
+|
+|t:|1730314771
+|move|p2a: Gengar|Taunt|p1a: Olas
+|-start|p1a: Olas|move: Taunt
+|cant|p1a: Olas|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Olas|57/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Olas|63/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730314781
+|move|p2a: Gengar|Will-O-Wisp|p1a: Olas
+|-status|p1a: Olas|brn
+|move|p1a: Olas|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|66/100|[from] Sandstorm
+|-damage|p1a: Olas|57/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|72/100|[from] item: Leftovers
+|-heal|p1a: Olas|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Olas|51/100 brn|[from] brn
+|-end|p1a: Olas|move: Taunt|[silent]
+|upkeep
+|turn|30
+|inactive|CCGeek has 270 seconds left.
+|inactive|crustaceus has 240 seconds left.
+|
+|t:|1730314823
+|move|p2a: Gengar|Taunt|p1a: Olas
+|-start|p1a: Olas|move: Taunt
+|move|p1a: Olas|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-damage|p1a: Olas|45/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Olas|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Olas|38/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|CCGeek has 270 seconds left.
+|inactive|CCGeek has 240 seconds left.
+|
+|t:|1730314885
+|move|p2a: Gengar|Thunderbolt|p1a: Olas
+|-damage|p1a: Olas|27/100 brn
+|move|p1a: Olas|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|12/100
+|-status|p2a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|21/100 brn|[from] Sandstorm
+|-damage|p2a: Gengar|5/100 par|[from] Sandstorm
+|-heal|p1a: Olas|27/100 brn|[from] item: Leftovers
+|-damage|p1a: Olas|15/100 brn|[from] brn
+|-end|p1a: Olas|move: Taunt|[silent]
+|-heal|p2a: Gengar|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1730314893
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|move|p1a: Olas|Soft-Boiled|p1a: Olas
+|-heal|p1a: Olas|65/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|59/100 brn|[from] Sandstorm
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p1a: Olas|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Olas|52/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1730314907
+|-curestatus|p1a: Olas|brn|[from] ability: Natural Cure
+|switch|p1a: Dundurs|Skarmory, M|67/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Dundurs
+|-damage|p1a: Dundurs|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Dundurs|41/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730314915
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p2a: Tyranitar|Focus Punch|p1a: Dundurs
+|-damage|p1a: Dundurs|0 fnt
+|faint|p1a: Dundurs
+|
+|t:|1730314932
+|switch|p1a: Juras|Milotic, F|100/100
+|-damage|p1a: Juras|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Juras|70/100|[from] Sandstorm
+|-heal|p1a: Juras|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730314937
+|switch|p2a: Gengar|Gengar, F|12/100 par
+|move|p1a: Juras|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730314942
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Juras|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Juras|76/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1730314948
+|switch|p1a: Bumbas|Claydol|100/100
+|move|p2a: Zapdos|Roar|p1a: Bumbas
+|drag|p1a: Juras|Milotic, F|76/100
+|-damage|p1a: Juras|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Juras|45/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Juras|51/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|CCGeek has 240 seconds left.
+|
+|t:|1730314987
+|move|p2a: Zapdos|Thunderbolt|p1a: Juras
+|-supereffective|p1a: Juras
+|-damage|p1a: Juras|0 fnt
+|faint|p1a: Juras
+|inactive|crustaceus has 240 seconds left.
+|
+|t:|1730314999
+|switch|p1a: Olas|Blissey, F|52/100
+|-damage|p1a: Olas|28/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Olas|21/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Olas|28/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1730315003
+|move|p1a: Olas|Soft-Boiled|p1a: Olas
+|-heal|p1a: Olas|77/100
+|move|p2a: Zapdos|Roar|p1a: Olas
+|drag|p1a: Bumbas|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1730315014
+|move|p2a: Zapdos|Hidden Power|p1a: Bumbas
+|-supereffective|p1a: Bumbas
+|-damage|p1a: Bumbas|53/100
+|move|p1a: Bumbas|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|94/100
+|-sideend|p1: crustaceus|Spikes|[from] move: Rapid Spin|[of] p1a: Bumbas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100|[from] Sandstorm
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|-heal|p1a: Bumbas|59/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1730315029
+|switch|p2a: Skarmory|Skarmory, M|35/100
+|switch|p1a: Olas|Blissey, F|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|71/100|[from] Sandstorm
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|-heal|p1a: Olas|77/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1730315038
+|move|p2a: Skarmory|Spikes|p1a: Olas
+|-sidestart|p1: crustaceus|Spikes
+|move|p1a: Olas|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1730315045
+|switch|p2a: Tyranitar|Tyranitar, F|94/100
+|-damage|p2a: Tyranitar|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|71/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|76/100|[from] item: Leftovers
+|-heal|p1a: Olas|77/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|crustaceus has 270 seconds left.
+|
+|t:|1730315066
+|move|p2a: Tyranitar|Rock Slide|p1a: Olas
+|-damage|p1a: Olas|31/100
+|move|p1a: Olas|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|25/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|60/100|[from] item: Leftovers
+|-heal|p1a: Olas|31/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|CCGeek has 240 seconds left.
+|
+|t:|1730315102
+|switch|p1a: Bumbas|Claydol|59/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Bumbas
+|-resisted|p1a: Bumbas
+|-damage|p1a: Bumbas|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bumbas|44/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|66/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|crustaceus has 270 seconds left.
+|inactive|CCGeek has 210 seconds left.
+|inactive|crustaceus has 240 seconds left.
+|
+|t:|1730315149
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|76/100|[from] Spikes
+|move|p1a: Bumbas|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bumbas|50/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1730315165
+|move|p1a: Bumbas|Explosion|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p1a: Bumbas
+|faint|p2a: Swampert
+|
+|t:|1730315169
+|switch|p1a: Olas|Blissey, F|31/100
+|switch|p2a: Tyranitar|Tyranitar, F|66/100
+|-damage|p2a: Tyranitar|41/100|[from] Spikes
+|-damage|p1a: Olas|18/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olas|12/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|47/100|[from] item: Leftovers
+|-heal|p1a: Olas|18/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|c|☆CCGeek|gg
+|inactive|crustaceus has 240 seconds left.
+|c|☆crustaceus|gg
+|c|☆crustaceus|wp
+|
+|t:|1730315179
+|move|p2a: Tyranitar|Earthquake|p1a: Olas
+|-damage|p1a: Olas|0 fnt
+|faint|p1a: Olas
+|
+|win|CCGeek
+|c|☆CCGeek|wp
+|c|☆crustaceus|I threw that one pretty hard
+|c|☆crustaceus|bad dug play early on :(
+|c|☆CCGeek|we all have those games
+|c|☆CCGeek|dw
+|c|☆crustaceus|anyway gl with your next rounds
+|c|☆CCGeek|tyty
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803445">
+{"id":"smogtours-gen3ou-803445","format":"[Gen 3] OU","players":["crustaceus","CCGeek"],"uploadtime":1730315179,"views":51,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

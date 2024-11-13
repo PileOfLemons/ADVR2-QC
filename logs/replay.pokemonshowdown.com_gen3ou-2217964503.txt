@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Yatagarasuwu vs. Himurabt - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Yatagarasuwu and Himurabt! Format: [Gen 3] OU; Date: Oct 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2217964503">
+|j|☆Yatagarasuwu
+|j|☆Himurabt
+|t:|1728324950
+|gametype|singles
+|player|p1|Yatagarasuwu|elesa-masters2|
+|player|p2|Himurabt|pilot|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728324950
+|start
+|switch|p1a: 👊|Machamp, M|100/100
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yatagarasuwu)
+|
+|t:|1728324961
+|move|p2a: Hariyama|Fake Out|p1a: 👊
+|-damage|p1a: 👊|83/100
+|cant|p1a: 👊|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1728324966
+|switch|p2a: Weezing|Weezing, M|100/100
+|move|p1a: 👊|Cross Chop|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|56/100
+|
+|-heal|p2a: Weezing|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728324974
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Weezing|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|84/100
+|
+|-heal|p2a: Weezing|68/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728324980
+|move|p2a: Weezing|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Weezing|74/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|83/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆Yatagarasuwu|it is weezing wendnesday.
+|
+|t:|1728324996
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|90/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|77/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1728325001
+|move|p2a: Hariyama|Brick Break|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|t:|1728325012
+|switch|p1a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1728325023
+|move|p1a: Metagross|Meteor Mash|p2a: Hariyama|[miss]
+|-miss|p1a: Metagross|p2a: Hariyama
+|move|p2a: Hariyama|Brick Break|p1a: Metagross
+|-damage|p1a: Metagross|72/100
+|
+|-heal|p1a: Metagross|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728325039
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|56/100
+|
+|-heal|p2a: Starmie|62/100|[from] item: Leftovers
+|-heal|p1a: Metagross|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728325053
+|move|p2a: Starmie|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|move|p1a: Metagross|Meteor Mash|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|15/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Starmie|22/100|[from] item: Leftovers
+|-heal|p1a: Metagross|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728325066
+|switch|p2a: Weezing|Weezing, M|74/100
+|move|p1a: Metagross|Meteor Mash|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|inactive|Himurabt has 270 seconds left.
+|
+|t:|1728325093
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|-heal|p1a: Metagross|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728325097
+|move|p2a: Dugtrio|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|15/100 par
+|cant|p1a: Metagross|par
+|
+|-heal|p1a: Metagross|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728325103
+|move|p2a: Dugtrio|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1728325105
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|upkeep
+|turn|13
+|
+|t:|1728325110
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Wish|p1a: Salamence
+|
+|upkeep
+|turn|14
+|
+|t:|1728325115
+|switch|p1a: 👊|Machamp, M|83/100
+|move|p2a: Tauros|Return|p1a: 👊
+|-damage|p1a: 👊|0 fnt
+|faint|p1a: 👊
+|
+|t:|1728325128
+|switch|p1a: Starmie|Starmie|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1728325136
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Hariyama|[miss]
+|-miss|p1a: Starmie|p2a: Hariyama
+|
+|upkeep
+|turn|16
+|
+|t:|1728325141
+|move|p2a: Hariyama|Fake Out|p1a: Starmie
+|-damage|p1a: Starmie|79/100
+|cant|p1a: Starmie|flinch
+|
+|-heal|p1a: Starmie|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728325148
+|move|p1a: Starmie|Hydro Pump|p2a: Hariyama
+|-damage|p2a: Hariyama|37/100
+|move|p2a: Hariyama|Knock Off|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|79/100
+|-enditem|p1a: Starmie|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-heal|p2a: Hariyama|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728325154
+|move|p1a: Starmie|Hydro Pump|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1728325157
+|switch|p2a: Starmie|Starmie|22/100
+|
+|-heal|p2a: Starmie|28/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728325159
+|move|p1a: Starmie|Hydro Pump|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|t:|1728325174
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1728325178
+|move|p2a: Dugtrio|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1728325185
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1728325190
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Houndoom|Fire Blast|p2a: Gengar|[miss]
+|-miss|p1a: Houndoom|p2a: Gengar
+|
+|upkeep
+|turn|22
+|
+|t:|1728325196
+|move|p2a: Gengar|Explosion|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Houndoom
+|
+|t:|1728325201
+|switch|p2a: Tauros|Tauros, M|100/100
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tauros|atk|1
+|
+|upkeep
+|turn|23
+|
+|t:|1728325206
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Salamence|Toxic|p2a: Dugtrio
+|-status|p2a: Dugtrio|tox
+|
+|-damage|p2a: Dugtrio|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1728325214
+|move|p1a: Salamence|Protect|p1a: Salamence
+|-singleturn|p1a: Salamence|Protect
+|move|p2a: Dugtrio|Rock Slide|p1a: Salamence
+|-activate|p1a: Salamence|Protect
+|
+|-damage|p2a: Dugtrio|82/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1728325216
+|move|p2a: Dugtrio|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|61/100
+|cant|p1a: Salamence|flinch
+|
+|-damage|p2a: Dugtrio|64/100 tox|[from] psn
+|-heal|p1a: Salamence|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728325221
+|move|p2a: Dugtrio|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|25/100
+|move|p1a: Salamence|Wish|p1a: Salamence
+|
+|-damage|p2a: Dugtrio|39/100 tox|[from] psn
+|-heal|p1a: Salamence|32/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728325228
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Protect||[still]
+|-fail|p1a: Salamence
+|
+|-heal|p1a: Salamence|81/100|[from] move: Wish|[wisher] Salamence
+|-heal|p1a: Salamence|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728325231
+|move|p2a: Tauros|Return|p1a: Salamence
+|-damage|p1a: Salamence|36/100
+|move|p1a: Salamence|Toxic|p2a: Tauros|[miss]
+|-miss|p1a: Salamence|p2a: Tauros
+|
+|-heal|p1a: Salamence|42/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728325236
+|move|p1a: Salamence|Protect|p1a: Salamence
+|-singleturn|p1a: Salamence|Protect
+|move|p2a: Tauros|Return|p1a: Salamence
+|-activate|p1a: Salamence|Protect
+|
+|-heal|p1a: Salamence|48/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728325240
+|move|p1a: Salamence|Protect||[still]
+|-fail|p1a: Salamence
+|move|p2a: Tauros|Return|p1a: Salamence
+|-damage|p1a: Salamence|2/100
+|
+|-heal|p1a: Salamence|8/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728325248
+|move|p2a: Tauros|Return|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|Himurabt
+|l|☆Yatagarasuwu
+|player|p1|
+|l|☆Himurabt
+|player|p2|
+|j|☆Yatagarasuwu
+|player|p1|Yatagarasuwu|elesa-masters2|
+|l|☆Yatagarasuwu
+|player|p1|
+|j|☆Himurabt
+|player|p2|Himurabt|pilot|
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2217964503">
+{"id":"gen3ou-2217964503","format":"[Gen 3] OU","players":["Yatagarasuwu","Himurabt"],"uploadtime":1728325940,"views":129,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

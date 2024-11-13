@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: DarthTyros vs. gaboelpro777 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between DarthTyros and gaboelpro777! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796788">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728512307
+|gametype|singles
+|player|p1|DarthTyros|#advpliv|
+|player|p2|gaboelpro777|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728512307
+|start
+|switch|p1a: Vaporeon|Vaporeon, M, shiny|100/100
+|switch|p2a: Mass Breaker|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Mass Breaker
+|turn|1
+|
+|t:|1728512327
+|switch|p2a: Scales of Horror|Swampert, M|100/100
+|move|p1a: Vaporeon|Hydro Pump|p2a: Scales of Horror|[miss]
+|-miss|p1a: Vaporeon|p2a: Scales of Horror
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1728512338
+|switch|p2a: Soul Manipulation|Blissey, F|100/100
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1728512341
+|switch|p1a: Dugtrio|Dugtrio, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Soul Manipulation|94/100|[from] Sandstorm
+|-heal|p2a: Soul Manipulation|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728512346
+|move|p1a: Dugtrio|Beat Up|p2a: Soul Manipulation
+|-damage|p2a: Soul Manipulation|91/100
+|-damage|p2a: Soul Manipulation|81/100
+|-damage|p2a: Soul Manipulation|66/100
+|-damage|p2a: Soul Manipulation|56/100
+|-damage|p2a: Soul Manipulation|48/100
+|-damage|p2a: Soul Manipulation|40/100
+|-hitcount|p2a: Soul Manipulation|6
+|move|p2a: Soul Manipulation|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Soul Manipulation|34/100|[from] Sandstorm
+|-heal|p2a: Soul Manipulation|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728512360
+|move|p1a: Dugtrio|Beat Up|p2a: Soul Manipulation
+|-damage|p2a: Soul Manipulation|32/100
+|-damage|p2a: Soul Manipulation|21/100
+|-damage|p2a: Soul Manipulation|5/100
+|-damage|p2a: Soul Manipulation|0 fnt
+|-hitcount|p2a: Soul Manipulation|4
+|faint|p2a: Soul Manipulation
+|
+|t:|1728512366
+|switch|p2a: Nightmare Dive|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nightmare Dive|94/100|[from] Sandstorm
+|-heal|p2a: Nightmare Dive|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728512370
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Nightmare Dive|Substitute|p2a: Nightmare Dive
+|-start|p2a: Nightmare Dive|Substitute
+|-damage|p2a: Nightmare Dive|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|94/100|[from] Sandstorm
+|-damage|p2a: Nightmare Dive|69/100|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p2a: Nightmare Dive|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728512385
+|move|p1a: Jolteon|Thunderbolt|p2a: Nightmare Dive
+|-end|p2a: Nightmare Dive|Substitute
+|move|p2a: Nightmare Dive|Baton Pass|p2a: Nightmare Dive
+|
+|t:|1728512390
+|switch|p2a: Mass Breaker|Tyranitar, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|94/100|[from] Sandstorm
+|-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728512402
+|-singleturn|p2a: Mass Breaker|move: Focus Punch
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728512412
+|switch|p1a: Dugtrio|Dugtrio, M|22/100|[from] Baton Pass
+|move|p2a: Mass Breaker|Focus Punch|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1728512414
+|switch|p1a: Vaporeon|Vaporeon, M, shiny|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1728512441
+|move|p1a: Vaporeon|Hydro Pump|p2a: Mass Breaker
+|-supereffective|p2a: Mass Breaker
+|-damage|p2a: Mass Breaker|0 fnt
+|faint|p2a: Mass Breaker
+|inactive|gaboelpro777 has 270 seconds left.
+|
+|t:|1728512457
+|switch|p2a: Nightmare Dive|Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Nightmare Dive|69/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p2a: Nightmare Dive|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728512461
+|move|p2a: Nightmare Dive|Hidden Power|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|37/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Nightmare Dive
+|-supereffective|p2a: Nightmare Dive
+|-damage|p2a: Nightmare Dive|0 fnt
+|faint|p2a: Nightmare Dive
+|inactive|gaboelpro777 has 270 seconds left.
+|
+|t:|1728512477
+|switch|p2a: Take A Chance|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|31/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1728512481
+|move|p2a: Take A Chance|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|t:|1728512483
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728512502
+|switch|p2a: Scales of Horror|Swampert, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Scales of Horror
+|-immune|p2a: Scales of Horror
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728512508
+|move|p1a: Zapdos|Hidden Power|p2a: Scales of Horror
+|-supereffective|p2a: Scales of Horror
+|-damage|p2a: Scales of Horror|3/100
+|move|p2a: Scales of Horror|Toxic|p1a: Zapdos|[miss]
+|-miss|p2a: Scales of Horror|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Scales of Horror|9/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728512516
+|switch|p2a: Diablo Vortex|Forretress, M|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Diablo Vortex
+|-resisted|p2a: Diablo Vortex
+|-damage|p2a: Diablo Vortex|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Diablo Vortex|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728512524
+|move|p1a: Zapdos|Thunderbolt|p2a: Diablo Vortex
+|-damage|p2a: Diablo Vortex|43/100
+|move|p2a: Diablo Vortex|Spikes|p1a: Zapdos
+|-sidestart|p1: DarthTyros|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Diablo Vortex|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728512543
+|switch|p2a: Scales of Horror|Swampert, M|9/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Scales of Horror
+|-immune|p2a: Scales of Horror
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Scales of Horror|15/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728512549
+|move|p1a: Zapdos|Hidden Power|p2a: Scales of Horror
+|-supereffective|p2a: Scales of Horror
+|-damage|p2a: Scales of Horror|0 fnt
+|faint|p2a: Scales of Horror
+|
+|t:|1728512554
+|switch|p2a: Take A Chance|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728512562
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-damage|p1a: Jolteon|88/100|[from] Spikes
+|move|p2a: Take A Chance|Rock Slide|p1a: Jolteon|[miss]
+|-miss|p2a: Take A Chance|p1a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|82/100|[from] Sandstorm
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728512573
+|move|p1a: Jolteon|Thunderbolt|p2a: Take A Chance
+|-supereffective|p2a: Take A Chance
+|-damage|p2a: Take A Chance|0 fnt
+|faint|p2a: Take A Chance
+|
+|t:|1728512576
+|switch|p2a: Diablo Vortex|Forretress, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|82/100|[from] Sandstorm
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|-heal|p2a: Diablo Vortex|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728512580
+|move|p1a: Jolteon|Thunderbolt|p2a: Diablo Vortex
+|-damage|p2a: Diablo Vortex|13/100
+|move|p2a: Diablo Vortex|Explosion|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p2a: Diablo Vortex
+|faint|p1a: Jolteon
+|
+|win|DarthTyros
+|c|☆DarthTyros|gg
+|c|☆gaboelpro777|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796788">
+{"id":"smogtours-gen3ou-796788","format":"[Gen 3] OU","players":["DarthTyros","gaboelpro777"],"uploadtime":1728512580,"views":100,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: GreenCity vs. I&#039;m the Dome Ace - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between GreenCity and I&#039;m the Dome Ace! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800212">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729385936
+|gametype|singles
+|player|p1|GreenCity|pokemonranger-gen4|
+|player|p2|I'm the Dome Ace|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729385936
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|GreenCity also wants the timer to be on.
+|c|☆I'm the Dome Ace|glhf
+|c|☆GreenCity|glhf
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729385983
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Salamence|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729385988
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Skarmory|Spikes|p1a: Magneton
+|-sidestart|p1: GreenCity|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1729385991
+|move|p1a: Magneton|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|1/100
+|move|p2a: Skarmory|Roar|p1a: Magneton
+|drag|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|7/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|I'm the Dome Ace has 270 seconds left.
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386041
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gyarados|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729386048
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386078
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729386095
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|88/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: Magneton
+|-status|p1a: Magneton|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-damage|p1a: Magneton|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1729386103
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729386109
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729386117
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|80/100
+|-status|p1a: Gyarados|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-damage|p1a: Gyarados|74/100 brn|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|c|☆I'm the Dome Ace|mb
+|inactive|I'm the Dome Ace has 270 seconds left.
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386148
+|switch|p2a: Flygon|Flygon, M|100/100
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|-damage|p1a: Jolteon|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|82/100|[from] Sandstorm
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386165
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1729386171
+|switch|p1a: Gyarados|Gyarados, M|68/100 brn|[from] Baton Pass
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|62/100 brn|[from] Sandstorm
+|-heal|p1a: Gyarados|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|55/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386183
+|switch|p1a: Snorlax|Snorlax, F|88/100
+|-damage|p1a: Snorlax|76/100|[from] Spikes
+|move|p2a: Flygon|Flamethrower|p1a: Snorlax
+|-damage|p1a: Snorlax|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|60/100|[from] Sandstorm
+|-heal|p1a: Snorlax|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729386188
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|60/100|[from] Sandstorm
+|-heal|p1a: Snorlax|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729386194
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|60/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729386214
+|move|p2a: Gengar|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386227
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|60/100 brn|[from] Sandstorm
+|-heal|p1a: Snorlax|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|54/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1729386234
+|move|p2a: Tyranitar|Crunch|p1a: Snorlax
+|-damage|p1a: Snorlax|33/100 brn
+|move|p1a: Snorlax|Self-Destruct|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|48/100
+|faint|p1a: Snorlax
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386265
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386291
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Salamence|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|56/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386302
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|56/100|[from] Sandstorm
+|-heal|p1a: Metagross|82/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|GreenCity has 270 seconds left.
+|
+|t:|1729386319
+|switch|p1a: Magneton|Magneton|76/100 brn
+|-damage|p1a: Magneton|63/100 brn|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, F|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Magneton|51/100 brn|[from] brn
+|-heal|p2a: Skarmory|13/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729386322
+|move|p1a: Magneton|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729386326
+|switch|p2a: Charizard|Charizard, F|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-damage|p1a: Magneton|38/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1729386337
+|move|p2a: Charizard|Flamethrower|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1729386340
+|switch|p1a: Jolteon|Jolteon, F|88/100
+|-damage|p1a: Jolteon|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|70/100|[from] Sandstorm
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386379
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|70/100|[from] Sandstorm
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729386389
+|move|p1a: Jolteon|Hidden Power|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|5/100
+|move|p2a: Flygon|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1729386407
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Flygon|11/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|I'm the Dome Ace has 270 seconds left.
+|inactive|GreenCity has 240 seconds left.
+|
+|t:|1729386467
+|move|p1a: Salamence|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1729386472
+|switch|p2a: Blissey|Blissey, F|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|56/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729386491
+|switch|p1a: Metagross|Metagross|82/100
+|-damage|p1a: Metagross|70/100|[from] Spikes
+|switch|p2a: Charizard|Charizard, F|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Metagross|76/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|GreenCity has 210 seconds left.
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386530
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|move|p2a: Charizard|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|75/100
+|-status|p1a: Salamence|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-damage|p1a: Salamence|68/100 brn|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Salamence|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Salamence|62/100 brn|[from] brn
+|upkeep
+|turn|28
+|c|☆I'm the Dome Ace|jfc
+|inactive|GreenCity has 210 seconds left.
+|
+|t:|1729386556
+|switch|p1a: Metagross|Metagross|76/100
+|-damage|p1a: Metagross|64/100|[from] Spikes
+|move|p2a: Charizard|Hidden Power|p1a: Metagross
+|-resisted|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Metagross|50/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆I'm the Dome Ace|if its any consolation the mence burn didnt matter because that is, in fact, ice
+|inactive|GreenCity has 180 seconds left.
+|
+|t:|1729386582
+|switch|p1a: Salamence|Salamence, F|62/100 brn
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|move|p2a: Charizard|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|37/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-damage|p1a: Salamence|31/100 brn|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Salamence|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Salamence|25/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1729386586
+|move|p2a: Charizard|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1729386587
+|switch|p1a: Gyarados|Gyarados, M|55/100 brn
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|53/100|[from] Sandstorm
+|-damage|p1a: Gyarados|49/100 brn|[from] Sandstorm
+|-heal|p2a: Charizard|59/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|43/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386606
+|move|p2a: Charizard|Substitute|p2a: Charizard
+|-start|p2a: Charizard|Substitute
+|-damage|p2a: Charizard|34/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|37/100 brn|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|30/100 brn|[from] brn
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386623
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|82/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|76/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|82/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|I'm the Dome Ace has 270 seconds left.
+|c|☆I'm the Dome Ace|lol im actually hosed
+|c|☆I'm the Dome Ace|my only elec move was on gar which got crit
+|c|☆I'm the Dome Ace|in the end, you did the lucking
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386668
+|cant|p1a: Gyarados|slp
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|57/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729386672
+|cant|p1a: Gyarados|slp
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|45/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|39/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|45/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|GreenCity has 210 seconds left.
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386703
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|move|p2a: Charizard|Toxic|p1a: Gyarados|[miss]
+|-miss|p2a: Charizard|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729386707
+|cant|p1a: Gyarados|slp
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|82/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|76/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|82/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729386708
+|cant|p1a: Gyarados|slp
+|move|p2a: Charizard|Flamethrower|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|57/100 slp|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100 slp|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729386715
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Hidden Power|p2a: Charizard
+|-end|p2a: Charizard|Substitute
+|move|p2a: Charizard|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|57/100 tox|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|57/100 tox|[from] psn
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729386722
+|switch|p2a: Blissey|Blissey, F|62/100
+|move|p1a: Gyarados|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|51/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|8/100|[from] Sandstorm
+|-heal|p1a: Gyarados|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|45/100 tox|[from] psn
+|-heal|p2a: Blissey|14/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|I'm the Dome Ace has 270 seconds left.
+|
+|t:|1729386748
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|move|p2a: Blissey|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|75/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|69/100 slp|[from] Sandstorm
+|-damage|p2a: Blissey|8/100|[from] Sandstorm
+|-heal|p1a: Gyarados|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Blissey|14/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729386764
+|switch|p2a: Tyranitar|Tyranitar, F|54/100
+|cant|p1a: Gyarados|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|69/100 slp|[from] Sandstorm
+|-heal|p1a: Gyarados|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Tyranitar|60/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729386767
+|cant|p1a: Gyarados|slp
+|move|p2a: Tyranitar|Crunch|p1a: Gyarados
+|-damage|p1a: Gyarados|40/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|34/100 slp|[from] Sandstorm
+|-heal|p1a: Gyarados|40/100 slp|[from] item: Leftovers
+|-heal|p2a: Tyranitar|67/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|GreenCity has 240 seconds left.
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386821
+|switch|p2a: Blissey|Blissey, F|14/100
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729386823
+|switch|p2a: Tyranitar|Tyranitar, F|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|34/100|[from] Sandstorm
+|-heal|p1a: Gyarados|40/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|73/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729386831
+|switch|p2a: Charizard|Charizard, F|34/100
+|move|p1a: Gyarados|Earthquake|p2a: Charizard
+|-immune|p2a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|34/100|[from] Sandstorm
+|-damage|p2a: Charizard|28/100|[from] Sandstorm
+|-heal|p1a: Gyarados|40/100|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386838
+|move|p1a: Gyarados|Hidden Power|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|t:|1729386839
+|switch|p2a: Tyranitar|Tyranitar, F|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|34/100|[from] Sandstorm
+|-heal|p1a: Gyarados|40/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|79/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|GreenCity has 270 seconds left.
+|inactive|I'm the Dome Ace has 240 seconds left.
+|
+|t:|1729386873
+|move|p1a: Gyarados|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100
+|move|p2a: Tyranitar|Crunch|p1a: Gyarados
+|-damage|p1a: Gyarados|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|3/100|[from] Sandstorm
+|-heal|p1a: Gyarados|9/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|8/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|c|☆I'm the Dome Ace|omg
+|c|☆I'm the Dome Ace|welp
+|-message|I'm the Dome Ace forfeited.
+|
+|win|GreenCity
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800212">
+{"id":"smogtours-gen3ou-800212","format":"[Gen 3] OU","players":["GreenCity","I'm the Dome Ace"],"uploadtime":1729386879,"views":186,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

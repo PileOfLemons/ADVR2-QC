@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: DraykOP vs. venik777 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between DraykOP and venik777! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798249">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728844065
+|gametype|singles
+|player|p1|DraykOP|hexmaniac-gen3|
+|player|p2|venik777|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728844065
+|start
+|switch|p1a: Regirock|Regirock, shiny|100/100
+|switch|p2a: вова|Zapdos|100/100
+|turn|1
+|c|☆DraykOP|glhf
+|inactive|venik777 has 270 seconds left.
+|inactive|venik777 has 240 seconds left.
+|c|☆venik777|same
+|inactive|venik777 has 210 seconds left.
+|
+|t:|1728844169
+|switch|p2a: пивас поддимас|Swampert, F|100/100
+|move|p1a: Regirock|Rock Slide|p2a: пивас поддимас
+|-resisted|p2a: пивас поддимас
+|-damage|p2a: пивас поддимас|88/100
+|
+|-heal|p2a: пивас поддимас|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|DraykOP has 270 seconds left.
+|
+|t:|1728844206
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|move|p2a: пивас поддимас|Protect||[still]
+|-fail|p2a: пивас поддимас
+|
+|-heal|p2a: пивас поддимас|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728844212
+|move|p2a: пивас поддимас|Toxic|p1a: Snorlax
+|-immune|p1a: Snorlax|[from] ability: Immunity
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|4
+|inactive|venik777 has 240 seconds left.
+|inactive|venik777 has 210 seconds left.
+|
+|t:|1728844289
+|switch|p2a: бебра|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: бебра
+|move|p1a: Snorlax|Earthquake|p2a: бебра
+|-supereffective|p2a: бебра
+|-damage|p2a: бебра|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728844302
+|move|p2a: бебра|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|61/100
+|move|p1a: Snorlax|Earthquake|p2a: бебра
+|-supereffective|p2a: бебра
+|-damage|p2a: бебра|0 fnt
+|faint|p2a: бебра
+|inactive|venik777 has 180 seconds left.
+|
+|t:|1728844345
+|switch|p2a: вова|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: вова|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|55/100|[from] Sandstorm
+|-heal|p2a: вова|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728844350
+|move|p2a: вова|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|39/100
+|move|p1a: Snorlax|Shadow Ball|p2a: вова
+|-damage|p2a: вова|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: вова|52/100|[from] Sandstorm
+|-damage|p1a: Snorlax|33/100|[from] Sandstorm
+|-heal|p2a: вова|58/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728844374
+|move|p2a: вова|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|15/100
+|move|p1a: Snorlax|Shadow Ball|p2a: вова
+|-damage|p2a: вова|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: вова|10/100|[from] Sandstorm
+|-damage|p1a: Snorlax|9/100|[from] Sandstorm
+|-heal|p2a: вова|16/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|15/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728844385
+|move|p2a: вова|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|t:|1728844403
+|switch|p1a: Magneton|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: вова|10/100|[from] Sandstorm
+|-heal|p2a: вова|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728844421
+|switch|p2a: фанаты бебры|Dugtrio, M, shiny|100/100
+|move|p1a: Magneton|Toxic|p2a: фанаты бебры
+|-status|p2a: фанаты бебры|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: фанаты бебры|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1728844430
+|move|p2a: фанаты бебры|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|inactive|DraykOP has 270 seconds left.
+|
+|t:|1728844463
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: фанаты бебры|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: фанаты бебры|82/100 tox|[from] psn
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|DraykOP has 270 seconds left.
+|inactive|venik777 has 150 seconds left.
+|inactive|DraykOP has 240 seconds left.
+|
+|t:|1728844518
+|switch|p2a: пивас поддимас|Swampert, F|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728844533
+|move|p1a: Salamence|Hidden Power|p2a: пивас поддимас
+|-damage|p2a: пивас поддимас|58/100
+|move|p2a: пивас поддимас|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|-heal|p2a: пивас поддимас|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728844555
+|move|p2a: пивас поддимас|Protect|p2a: пивас поддимас
+|-singleturn|p2a: пивас поддимас|Protect
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|82/100 tox|[from] psn
+|-heal|p2a: пивас поддимас|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|venik777 has 120 seconds left.
+|
+|t:|1728844586
+|move|p2a: пивас поддимас|Protect|p2a: пивас поддимас
+|-singleturn|p2a: пивас поддимас|Protect
+|move|p1a: Salamence|Hidden Power|p2a: пивас поддимас
+|-activate|p2a: пивас поддимас|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|76/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|64/100 tox|[from] psn
+|-heal|p2a: пивас поддимас|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|venik777 has 90 seconds left.
+|
+|t:|1728844621
+|switch|p2a: никита|Aerodactyl, M|100/100
+|move|p1a: Salamence|Hidden Power|p2a: никита
+|-resisted|p2a: никита
+|-damage|p2a: никита|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|58/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|39/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|venik777 has 90 seconds left.
+|
+|t:|1728844637
+|switch|p2a: пивас поддимас|Swampert, F|76/100
+|move|p1a: Salamence|Hidden Power|p2a: пивас поддимас
+|-damage|p2a: пивас поддимас|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|33/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|9/100 tox|[from] psn
+|-heal|p2a: пивас поддимас|30/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728844645
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: пивас поддимас|Protect||[still]
+|-fail|p2a: пивас поддимас
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: пивас поддимас|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|venik777 has 90 seconds left.
+|
+|t:|1728844651
+|move|p1a: Suicune|Surf|p2a: пивас поддимас
+|-damage|p2a: пивас поддимас|0 fnt
+|faint|p2a: пивас поддимас
+|inactive|venik777 has 90 seconds left.
+|inactive|venik777 has 60 seconds left.
+|
+|t:|1728844709
+|switch|p2a: едигер|Heracross, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: едигер|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: едигер|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728844719
+|switch|p1a: Salamence|Salamence, M|9/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: едигер|atk|1
+|move|p2a: едигер|Megahorn|p1a: Salamence|[miss]
+|-miss|p2a: едигер|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|3/100 tox|[from] Sandstorm
+|-damage|p2a: едигер|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|3/100 tox|[from] psn
+|-heal|p2a: едигер|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|venik777 has 30 seconds left.
+|inactive|venik777 has 20 seconds left.
+|inactive|venik777 has 15 seconds left.
+|
+|t:|1728844759
+|switch|p2a: никита|Aerodactyl, M|35/100
+|move|p1a: Salamence|Rock Slide|p2a: никита
+|-supereffective|p2a: никита
+|-crit|p2a: никита
+|-damage|p2a: никита|0 fnt
+|faint|p2a: никита
+|inactive|venik777 has 20 seconds left this turn.
+|inactive|venik777 has 15 seconds left.
+|inactive|venik777 has 10 seconds left.
+|
+|t:|1728844770
+|switch|p2a: фанаты бебры|Dugtrio, M, shiny|82/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|faint|p1a: Salamence
+|-damage|p2a: фанаты бебры|76/100 tox|[from] psn
+|upkeep
+|inactive|venik777 has 15 seconds left this turn.
+|
+|t:|1728844778
+|switch|p1a: Suicune|Suicune|100/100
+|turn|21
+|inactive|venik777 has 25 seconds left this turn.
+|inactive|venik777 has 20 seconds left.
+|
+|t:|1728844786
+|move|p2a: фанаты бебры|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|57/100
+|move|p1a: Suicune|Surf|p2a: фанаты бебры
+|-supereffective|p2a: фанаты бебры
+|-damage|p2a: фанаты бебры|0 fnt
+|faint|p2a: фанаты бебры
+|inactive|venik777 has 25 seconds left this turn.
+|
+|t:|1728844790
+|switch|p2a: едигер|Heracross, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: едигер|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|50/100|[from] Sandstorm
+|-heal|p2a: едигер|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|venik777 has 30 seconds left.
+|
+|t:|1728844803
+|move|p2a: едигер|Swords Dance|p2a: едигер
+|-boost|p2a: едигер|atk|2
+|move|p1a: Suicune|Surf|p2a: едигер
+|-damage|p2a: едигер|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: едигер|54/100|[from] Sandstorm
+|-damage|p1a: Suicune|50/100|[from] Sandstorm
+|-heal|p2a: едигер|60/100|[from] item: Leftovers
+|-heal|p1a: Suicune|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728844807
+|move|p2a: едигер|Megahorn|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1728844810
+|switch|p1a: Regirock|Regirock, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: едигер|54/100|[from] Sandstorm
+|-heal|p2a: едигер|60/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|venik777 has 30 seconds left.
+|inactive|venik777 has 20 seconds left.
+|inactive|venik777 has 15 seconds left.
+|inactive|venik777 has 10 seconds left.
+|
+|t:|1728844853
+|switch|p2a: вова|Zapdos|16/100
+|move|p1a: Regirock|Thunder Wave|p2a: вова
+|-status|p2a: вова|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: вова|10/100 par|[from] Sandstorm
+|-heal|p2a: вова|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|venik777 has 20 seconds left this turn.
+|inactive|venik777 has 15 seconds left.
+|
+|t:|1728844860
+|move|p1a: Regirock|Rock Slide|p2a: вова
+|-supereffective|p2a: вова
+|-crit|p2a: вова
+|-damage|p2a: вова|0 fnt
+|faint|p2a: вова
+|inactive|venik777 has 20 seconds left this turn.
+|
+|t:|1728844862
+|switch|p2a: едигер|Heracross, F|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: едигер|54/100|[from] Sandstorm
+|-heal|p2a: едигер|60/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|venik777 has 30 seconds left this turn.
+|
+|t:|1728844865
+|move|p2a: едигер|Megahorn|p1a: Regirock
+|-damage|p1a: Regirock|67/100
+|move|p1a: Regirock|Explosion|p2a: едигер
+|-damage|p2a: едигер|0 fnt
+|faint|p1a: Regirock
+|faint|p2a: едигер
+|
+|win|DraykOP
+|c|☆venik777|gg
+|c|☆DraykOP|ggwp 
+|player|p1|
+|player|p2|
+|player|p1|DraykOP|hexmaniac-gen3|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798249">
+{"id":"smogtours-gen3ou-798249","format":"[Gen 3] OU","players":["DraykOP","venik777"],"uploadtime":1728844865,"views":71,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: shitking vs. latlat1 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between shitking and latlat1! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799804">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729324786
+|gametype|singles
+|player|p1|shitking|1|
+|player|p2|latlat1|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729324786
+|start
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Medicham|Medicham, F|100/100
+|turn|1
+|c|☆latlat1|gl
+|inactive|latlat1 has 270 seconds left.
+|
+|t:|1729324820
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Medicham|Fake Out|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|2
+|
+|t:|1729324826
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1729324832
+|move|p2a: Zapdos|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Seismic Toss|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729324849
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|5
+|
+|t:|1729324854
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|56/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|6
+|
+|t:|1729324859
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|49/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100 par
+|
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729324863
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|53/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|8
+|
+|t:|1729324867
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|51/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|9
+|
+|t:|1729324871
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|52/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|10
+|
+|t:|1729324873
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|52/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|11
+|
+|t:|1729324876
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|53/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1729324878
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|49/100 par
+|cant|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729324882
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|8/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|58/100 par
+|
+|-heal|p1a: Blissey|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729324886
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|12/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|62/100 par
+|
+|-heal|p1a: Blissey|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729324890
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|20/100 par
+|cant|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729324893
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1729324895
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1729324901
+|move|p2a: Dugtrio|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1729324918
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Salamence|Hidden Power|p2a: Suicune
+|-damage|p2a: Suicune|50/100
+|
+|-heal|p2a: Suicune|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729324940
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|90/100
+|
+|-heal|p2a: Suicune|63/100|[from] item: Leftovers
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729324952
+|switch|p2a: Zapdos|Zapdos|76/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729324958
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Zapdos|Roar|p1a: Suicune
+|drag|p1a: Medicham|Medicham, F|100/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729324962
+|move|p2a: Zapdos|Thunder Wave|p1a: Medicham
+|-status|p1a: Medicham|par
+|cant|p1a: Medicham|par
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729324969
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|cant|p1a: Medicham|par
+|
+|upkeep
+|turn|24
+|
+|t:|1729324974
+|move|p2a: Dugtrio|Aerial Ace|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|23/100 par
+|move|p1a: Medicham|Brick Break|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1729324990
+|switch|p2a: Suicune|Suicune|63/100
+|
+|-heal|p2a: Suicune|69/100|[from] item: Leftovers
+|-enditem|p1a: Medicham|Salac Berry|[eat]
+|-boost|p1a: Medicham|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|25
+|
+|t:|1729324997
+|move|p2a: Suicune|Ice Beam|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|t:|1729325004
+|switch|p1a: Suicune|Suicune|100/100
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729325009
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Suicune|Roar|p1a: Suicune
+|drag|p1a: Starmie|Starmie|100/100
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729325012
+|move|p1a: Starmie|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|32/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729325019
+|move|p1a: Starmie|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|3/100
+|move|p2a: Suicune|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|66/100
+|
+|-heal|p1a: Starmie|73/100|[from] item: Leftovers
+|-heal|p2a: Suicune|9/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729325031
+|switch|p2a: Zapdos|Zapdos|94/100
+|move|p1a: Starmie|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|-heal|p1a: Starmie|79/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729325043
+|move|p1a: Starmie|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|11/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729325054
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-heal|p2a: Zapdos|18/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729325062
+|move|p2a: Zapdos|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1729325067
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-heal|p2a: Zapdos|24/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729325072
+|move|p2a: Zapdos|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-heal|p2a: Zapdos|30/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729325078
+|cant|p1a: Metagross|par
+|move|p2a: Zapdos|Roar|p1a: Metagross
+|drag|p1a: Suicune|Suicune|100/100
+|
+|-heal|p2a: Zapdos|36/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729325093
+|move|p2a: Zapdos|Thunder Wave|p1a: Suicune
+|-status|p1a: Suicune|par
+|cant|p1a: Suicune|par
+|
+|-heal|p2a: Zapdos|43/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729325122
+|move|p2a: Zapdos|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|34/100 par
+|cant|p1a: Suicune|par
+|
+|-heal|p2a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p1a: Suicune|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729325126
+|move|p2a: Zapdos|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1729325129
+|switch|p1a: Metagross|Metagross|100/100 par
+|
+|-heal|p2a: Zapdos|55/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729325135
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|44/100 par
+|move|p1a: Metagross|Meteor Mash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|20/100
+|
+|-heal|p2a: Zapdos|27/100|[from] item: Leftovers
+|-heal|p1a: Metagross|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729325138
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|win|latlat1
+|c|☆latlat1|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799804">
+{"id":"smogtours-gen3ou-799804","format":"[Gen 3] OU","players":["shitking","latlat1"],"uploadtime":1729325138,"views":75,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

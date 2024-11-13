@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: emma_emma_emma vs. Svejk97 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between emma_emma_emma and Svejk97! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796770">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728508761
+|gametype|singles
+|player|p1|emma_emma_emma|1|
+|player|p2|Svejk97|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728508761
+|start
+|switch|p1a: dallas|Aerodactyl, F|100/100
+|switch|p2a: Red Fish|Gyarados, F, shiny|100/100
+|-ability|p2a: Red Fish|Intimidate|boost
+|-unboost|p1a: dallas|atk|1
+|turn|1
+|c|☆emma_emma_emma|gl!!
+|
+|t:|1728508782
+|switch|p2a: Rukia|Scizor, F|100/100
+|move|p1a: dallas|Rock Slide|p2a: Rukia
+|-damage|p2a: Rukia|67/100
+|
+|-heal|p2a: Rukia|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728508791
+|switch|p1a: golden microphone|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: golden microphone
+|move|p2a: Rukia|Agility|p2a: Rukia
+|-boost|p2a: Rukia|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Rukia|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728508802
+|move|p2a: Rukia|Baton Pass|p2a: Rukia
+|
+|t:|1728508811
+|switch|p2a: Suicune|Suicune|100/100|[from] Baton Pass
+|move|p1a: golden microphone|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|84/100|[from] Sandstorm
+|-heal|p2a: Suicune|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728508822
+|switch|p1a: stone faces|Blissey, F|100/100
+|move|p2a: Suicune|Surf|p1a: stone faces
+|-damage|p1a: stone faces|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|84/100|[from] Sandstorm
+|-damage|p1a: stone faces|77/100|[from] Sandstorm
+|-heal|p2a: Suicune|90/100|[from] item: Leftovers
+|-heal|p1a: stone faces|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728508835
+|switch|p2a: Momma|Blissey, F|100/100
+|move|p1a: stone faces|Thunderbolt|p2a: Momma
+|-damage|p2a: Momma|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|87/100|[from] Sandstorm
+|-damage|p1a: stone faces|77/100|[from] Sandstorm
+|-heal|p2a: Momma|93/100|[from] item: Leftovers
+|-heal|p1a: stone faces|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728508847
+|switch|p1a: government cheque|Forretress, M|100/100
+|move|p2a: Momma|Thunder Wave|p1a: government cheque
+|-status|p1a: government cheque|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|87/100|[from] Sandstorm
+|-heal|p2a: Momma|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728508857
+|move|p2a: Momma|Flamethrower|p1a: government cheque
+|-supereffective|p1a: government cheque
+|-damage|p1a: government cheque|37/100 par
+|move|p1a: government cheque|Spikes|p2a: Momma
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|87/100|[from] Sandstorm
+|-heal|p2a: Momma|93/100|[from] item: Leftovers
+|-heal|p1a: government cheque|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728508875
+|switch|p1a: deepest blue|Zapdos|100/100
+|move|p2a: Momma|Thunder Wave|p1a: deepest blue
+|-status|p1a: deepest blue|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|87/100|[from] Sandstorm
+|-damage|p1a: deepest blue|94/100 par|[from] Sandstorm
+|-heal|p2a: Momma|93/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728508896
+|switch|p2a: Fav Dragon|Flygon, M|100/100
+|cant|p1a: deepest blue|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|94/100 par|[from] Sandstorm
+|-heal|p1a: deepest blue|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728508908
+|switch|p1a: stone faces|Blissey, F|84/100
+|move|p2a: Fav Dragon|Earthquake|p1a: stone faces
+|-damage|p1a: stone faces|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: stone faces|0 fnt|[from] Sandstorm
+|faint|p1a: stone faces
+|upkeep
+|
+|t:|1728508915
+|switch|p1a: all i want is you|Swampert, M|100/100
+|turn|11
+|
+|t:|1728508937
+|switch|p2a: Rukia|Scizor, F|80/100
+|-damage|p2a: Rukia|67/100|[from] Spikes
+|move|p1a: all i want is you|Toxic|p2a: Rukia|[miss]
+|-miss|p1a: all i want is you|p2a: Rukia
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Rukia|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728508947
+|move|p2a: Rukia|Agility|p2a: Rukia
+|-boost|p2a: Rukia|spe|2
+|move|p1a: all i want is you|Surf|p2a: Rukia
+|-damage|p2a: Rukia|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Rukia|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728508965
+|switch|p1a: deepest blue|Zapdos|100/100 par
+|move|p2a: Rukia|Silver Wind|p1a: deepest blue
+|-resisted|p1a: deepest blue
+|-damage|p1a: deepest blue|87/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p2a: Rukia|59/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728508980
+|move|p2a: Rukia|Baton Pass|p2a: Rukia
+|
+|t:|1728508983
+|switch|p2a: Fav Dragon|Flygon, M|100/100|[from] Baton Pass
+|move|p1a: deepest blue|Roar|p2a: Fav Dragon
+|drag|p2a: Red Fish|Gyarados, F, shiny|100/100
+|-ability|p2a: Red Fish|Intimidate|boost
+|-unboost|p1a: deepest blue|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Red Fish|94/100|[from] Sandstorm
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p2a: Red Fish|100/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509008
+|switch|p2a: Fav Dragon|Flygon, M|100/100
+|cant|p1a: deepest blue|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728509018
+|switch|p1a: government cheque|Forretress, M|43/100 par
+|move|p2a: Fav Dragon|Body Slam|p1a: government cheque
+|-resisted|p1a: government cheque
+|-damage|p1a: government cheque|28/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: government cheque|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509029
+|switch|p2a: Momma|Blissey, F|93/100
+|-damage|p2a: Momma|81/100|[from] Spikes
+|move|p1a: government cheque|Spikes|p2a: Momma
+|-sidestart|p2: Svejk97|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|75/100|[from] Sandstorm
+|-heal|p2a: Momma|81/100|[from] item: Leftovers
+|-heal|p1a: government cheque|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509040
+|switch|p1a: all i want is you|Swampert, M|100/100
+|move|p2a: Momma|Flamethrower|p1a: all i want is you
+|-resisted|p1a: all i want is you
+|-damage|p1a: all i want is you|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|75/100|[from] Sandstorm
+|-heal|p1a: all i want is you|99/100|[from] item: Leftovers
+|-heal|p2a: Momma|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509053
+|move|p1a: all i want is you|Surf|p2a: Momma
+|-damage|p2a: Momma|72/100
+|move|p2a: Momma|Soft-Boiled|p2a: Momma
+|-heal|p2a: Momma|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|94/100|[from] Sandstorm
+|-heal|p1a: all i want is you|100/100|[from] item: Leftovers
+|-heal|p2a: Momma|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509064
+|move|p1a: all i want is you|Surf|p2a: Momma
+|-damage|p2a: Momma|93/100
+|move|p2a: Momma|Flamethrower|p1a: all i want is you
+|-resisted|p1a: all i want is you
+|-damage|p1a: all i want is you|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|86/100|[from] Sandstorm
+|-heal|p1a: all i want is you|99/100|[from] item: Leftovers
+|-heal|p2a: Momma|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509075
+|move|p1a: all i want is you|Toxic|p2a: Momma
+|-status|p2a: Momma|tox
+|move|p2a: Momma|Flamethrower|p1a: all i want is you
+|-resisted|p1a: all i want is you
+|-damage|p1a: all i want is you|91/100
+|-status|p1a: all i want is you|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|86/100 tox|[from] Sandstorm
+|-heal|p1a: all i want is you|98/100 brn|[from] item: Leftovers
+|-damage|p1a: all i want is you|85/100 brn|[from] brn
+|-heal|p2a: Momma|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Momma|86/100 tox|[from] psn
+|upkeep
+|turn|22
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509090
+|move|p1a: all i want is you|Refresh|p1a: all i want is you
+|-curestatus|p1a: all i want is you|brn|[msg]
+|move|p2a: Momma|Flamethrower|p1a: all i want is you
+|-resisted|p1a: all i want is you
+|-damage|p1a: all i want is you|78/100
+|-status|p1a: all i want is you|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|80/100 tox|[from] Sandstorm
+|-heal|p1a: all i want is you|84/100 brn|[from] item: Leftovers
+|-damage|p1a: all i want is you|72/100 brn|[from] brn
+|-heal|p2a: Momma|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Momma|74/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509105
+|-curestatus|p2a: Momma|tox|[from] ability: Natural Cure
+|switch|p2a: Soul Reaper|Sceptile, M|100/100
+|-damage|p2a: Soul Reaper|84/100|[from] Spikes
+|move|p1a: all i want is you|Refresh|p1a: all i want is you
+|-curestatus|p1a: all i want is you|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Soul Reaper|78/100|[from] Sandstorm
+|-heal|p2a: Soul Reaper|84/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509131
+|switch|p1a: dallas|Aerodactyl, F|100/100
+|move|p2a: Soul Reaper|Substitute|p2a: Soul Reaper
+|-start|p2a: Soul Reaper|Substitute
+|-damage|p2a: Soul Reaper|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Soul Reaper|53/100|[from] Sandstorm
+|-heal|p2a: Soul Reaper|59/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509151
+|move|p1a: dallas|Hidden Power|p2a: Soul Reaper
+|-supereffective|p2a: Soul Reaper
+|-crit|p2a: Soul Reaper
+|-end|p2a: Soul Reaper|Substitute
+|move|p2a: Soul Reaper|Leech Seed|p1a: dallas
+|-start|p1a: dallas|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Soul Reaper|53/100|[from] Sandstorm
+|-damage|p1a: dallas|88/100|[from] Leech Seed|[of] p2a: Soul Reaper
+|-heal|p2a: Soul Reaper|66/100|[silent]
+|-heal|p2a: Soul Reaper|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Svejk97 has 240 seconds left.
+|
+|t:|1728509181
+|switch|p1a: government cheque|Forretress, M|41/100 par
+|switch|p2a: Fav Dragon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: government cheque|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728509190
+|move|p2a: Fav Dragon|Earthquake|p1a: government cheque
+|-damage|p1a: government cheque|0 fnt
+|faint|p1a: government cheque
+|
+|t:|1728509198
+|switch|p1a: dallas|Aerodactyl, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1728509204
+|move|p1a: dallas|Hidden Power|p2a: Fav Dragon
+|-damage|p2a: Fav Dragon|36/100
+|move|p2a: Fav Dragon|Earthquake|p1a: dallas
+|-immune|p1a: dallas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1728509213
+|switch|p2a: Red Fish|Gyarados, F, shiny|100/100
+|-ability|p2a: Red Fish|Intimidate|boost
+|-unboost|p1a: dallas|atk|1
+|move|p1a: dallas|Hidden Power|p2a: Red Fish
+|-damage|p2a: Red Fish|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Red Fish|52/100|[from] Sandstorm
+|-heal|p2a: Red Fish|58/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728509225
+|switch|p1a: all i want is you|Swampert, M|78/100
+|move|p2a: Red Fish|Dragon Dance|p2a: Red Fish
+|-boost|p2a: Red Fish|atk|1
+|-boost|p2a: Red Fish|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Red Fish|52/100|[from] Sandstorm
+|-heal|p2a: Red Fish|58/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|84/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728509243
+|move|p2a: Red Fish|Hidden Power|p1a: all i want is you
+|-damage|p1a: all i want is you|47/100
+|move|p1a: all i want is you|Toxic|p2a: Red Fish
+|-status|p2a: Red Fish|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Red Fish|52/100 tox|[from] Sandstorm
+|-heal|p2a: Red Fish|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Red Fish|52/100 tox|[from] psn
+|-heal|p1a: all i want is you|53/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728509255
+|move|p1a: all i want is you|Protect|p1a: all i want is you
+|-singleturn|p1a: all i want is you|Protect
+|move|p2a: Red Fish|Hidden Power|p1a: all i want is you
+|-activate|p1a: all i want is you|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Red Fish|46/100 tox|[from] Sandstorm
+|-heal|p2a: Red Fish|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Red Fish|40/100 tox|[from] psn
+|-heal|p1a: all i want is you|60/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728509267
+|switch|p2a: Momma|Blissey, F|74/100
+|-damage|p2a: Momma|57/100|[from] Spikes
+|switch|p1a: deepest blue|Zapdos|87/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|51/100|[from] Sandstorm
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p2a: Momma|57/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728509280
+|move|p2a: Momma|Heal Bell|p2a: Momma
+|-activate|p2a: Momma|move: Heal Bell
+|-curestatus|p2: Red Fish|tox|[silent]
+|move|p1a: deepest blue|Roar|p2a: Momma
+|drag|p2a: Rukia|Scizor, F|59/100
+|-damage|p2a: Rukia|42/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p2a: Rukia|48/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728509295
+|move|p2a: Rukia|Agility|p2a: Rukia
+|-boost|p2a: Rukia|spe|2
+|move|p1a: deepest blue|Hidden Power|p2a: Rukia
+|-resisted|p2a: Rukia
+|-damage|p2a: Rukia|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: deepest blue|80/100 par|[from] Sandstorm
+|-heal|p2a: Rukia|50/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728509306
+|move|p2a: Rukia|Silver Wind|p1a: deepest blue
+|-resisted|p1a: deepest blue
+|-damage|p1a: deepest blue|72/100 par
+|move|p1a: deepest blue|Roar|p2a: Rukia
+|drag|p2a: Momma|Blissey, F|57/100
+|-damage|p2a: Momma|41/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Momma|34/100|[from] Sandstorm
+|-damage|p1a: deepest blue|66/100 par|[from] Sandstorm
+|-heal|p2a: Momma|41/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728509320
+|move|p2a: Momma|Soft-Boiled|p2a: Momma
+|-heal|p2a: Momma|91/100
+|move|p1a: deepest blue|Roar|p2a: Momma
+|drag|p2a: Suicune|Suicune|90/100
+|-damage|p2a: Suicune|74/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|68/100|[from] Sandstorm
+|-damage|p1a: deepest blue|66/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728509334
+|move|p2a: Suicune|Ice Beam|p1a: deepest blue
+|-supereffective|p1a: deepest blue
+|-damage|p1a: deepest blue|35/100 par
+|cant|p1a: deepest blue|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|68/100|[from] Sandstorm
+|-damage|p1a: deepest blue|28/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|-heal|p1a: deepest blue|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728509345
+|move|p2a: Suicune|Surf|p1a: deepest blue
+|-damage|p1a: deepest blue|5/100 par
+|cant|p1a: deepest blue|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|68/100|[from] Sandstorm
+|-damage|p1a: deepest blue|0 fnt|[from] Sandstorm
+|faint|p1a: deepest blue
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728509357
+|switch|p1a: dallas|Aerodactyl, F|88/100
+|turn|40
+|
+|t:|1728509366
+|move|p1a: dallas|Double-Edge|p2a: Suicune
+|-damage|p2a: Suicune|27/100
+|move|p2a: Suicune|Surf|p1a: dallas
+|-supereffective|p1a: dallas
+|-damage|p1a: dallas|0 fnt
+|faint|p1a: dallas
+|
+|t:|1728509373
+|switch|p1a: all i want is you|Swampert, M|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|21/100|[from] Sandstorm
+|-heal|p2a: Suicune|27/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|66/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728509381
+|move|p2a: Suicune|Surf|p1a: all i want is you
+|-damage|p1a: all i want is you|28/100
+|move|p1a: all i want is you|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|6/100|[from] Sandstorm
+|-heal|p2a: Suicune|12/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|34/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728509392
+|move|p1a: all i want is you|Protect|p1a: all i want is you
+|-singleturn|p1a: all i want is you|Protect
+|move|p2a: Suicune|Surf|p1a: all i want is you
+|-activate|p1a: all i want is you|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|6/100|[from] Sandstorm
+|-heal|p2a: Suicune|12/100|[from] item: Leftovers
+|-heal|p1a: all i want is you|41/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728509403
+|move|p2a: Suicune|Surf|p1a: all i want is you
+|-damage|p1a: all i want is you|2/100
+|move|p1a: all i want is you|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|inactive|Svejk97 has 270 seconds left.
+|
+|t:|1728509414
+|switch|p2a: Fav Dragon|Flygon, M|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: all i want is you|9/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728509421
+|move|p1a: all i want is you|Protect|p1a: all i want is you
+|-singleturn|p1a: all i want is you|Protect
+|move|p2a: Fav Dragon|Earthquake|p1a: all i want is you
+|-activate|p1a: all i want is you|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: all i want is you|15/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728509429
+|move|p2a: Fav Dragon|Earthquake|p1a: all i want is you
+|-damage|p1a: all i want is you|0 fnt
+|faint|p1a: all i want is you
+|
+|t:|1728509432
+|switch|p1a: golden microphone|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|46
+|
+|t:|1728509438
+|move|p2a: Fav Dragon|Earthquake|p1a: golden microphone
+|-supereffective|p1a: golden microphone
+|-damage|p1a: golden microphone|0 fnt
+|faint|p1a: golden microphone
+|
+|win|Svejk97
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796770">
+{"id":"smogtours-gen3ou-796770","format":"[Gen 3] OU","players":["emma_emma_emma","Svejk97"],"uploadtime":1728509438,"views":127,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

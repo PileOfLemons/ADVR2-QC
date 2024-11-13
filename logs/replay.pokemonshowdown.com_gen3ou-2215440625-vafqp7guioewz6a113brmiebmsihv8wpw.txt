@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Outlandish Obloquy vs. EG Zelph - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Outlandish Obloquy and EG Zelph! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2215440625-vafqp7guioewz6a113brmiebmsihv8wpw">
+|j|☆Outlandish Obloquy
+|j|☆EG Zelph
+|t:|1728002167
+|gametype|singles
+|player|p1|Outlandish Obloquy|guitarist-gen4|
+|player|p2|EG Zelph|parasollady|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728002167
+|start
+|switch|p1a: Bellows|Salamence, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Bellows|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EG Zelph)
+|
+|t:|1728002183
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Bellows|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| EG Sato
+|
+|t:|1728002200
+|switch|p1a: De-Evolutionary|Snorlax, F|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: De-Evolutionary
+|-status|p1a: De-Evolutionary|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|94/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|100/100 brn|[from] item: Leftovers
+|-damage|p1a: De-Evolutionary|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1728002220
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: De-Evolutionary|Rest|p1a: De-Evolutionary
+|-status|p1a: De-Evolutionary|slp|[from] move: Rest
+|-heal|p1a: De-Evolutionary|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|94/100 slp|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728002231
+|switch|p1a: Bellows|Salamence, F|100/100
+|-ability|p1a: Bellows|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|move|p2a: Forretress|Earthquake|p1a: Bellows
+|-immune|p1a: Bellows
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728002241
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Bellows|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|46/100|[from] Sandstorm
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|52/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728002251
+|move|p1a: Bellows|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|4/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|48/100|[from] Sandstorm
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728002261
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Bellows|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Outlandish Obloquy has 270 seconds left.
+|
+|t:|1728002282
+|switch|p1a: J9AC9K|Suicune|100/100
+|move|p2a: Gengar|Ice Punch|p1a: J9AC9K
+|-resisted|p1a: J9AC9K
+|-damage|p1a: J9AC9K|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: J9AC9K|86/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: J9AC9K|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Outlandish Obloquy has 270 seconds left.
+|
+|t:|1728002293
+|switch|p2a: Blissey|Blissey, F|54/100
+|move|p1a: J9AC9K|Surf|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: J9AC9K|86/100|[from] Sandstorm
+|-damage|p2a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: J9AC9K|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Outlandish Obloquy has 270 seconds left.
+|
+|t:|1728002307
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|92/100
+|move|p1a: J9AC9K|Roar|p2a: Blissey
+|drag|p2a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: J9AC9K|86/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: J9AC9K|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Outlandish Obloquy has 270 seconds left.
+|
+|t:|1728002317
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: J9AC9K|Calm Mind|p1a: J9AC9K
+|-boost|p1a: J9AC9K|spa|1
+|-boost|p1a: J9AC9K|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: J9AC9K|86/100|[from] Sandstorm
+|-damage|p2a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: J9AC9K|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Outlandish Obloquy has 270 seconds left.
+|
+|t:|1728002328
+|switch|p1a: Dekko|Roselia, F|100/100
+|move|p2a: Blissey|Thunderbolt|p1a: Dekko
+|-resisted|p1a: Dekko
+|-crit|p1a: Dekko
+|-damage|p1a: Dekko|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dekko|63/100|[from] Sandstorm
+|-damage|p2a: Blissey|86/100|[from] Sandstorm
+|-heal|p1a: Dekko|69/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728002338
+|move|p1a: Dekko|Aromatherapy|p1a: Dekko
+|-cureteam|p1a: Dekko|[from] move: Aromatherapy
+|move|p2a: Blissey|Ice Beam|p1a: Dekko
+|-supereffective|p1a: Dekko
+|-damage|p1a: Dekko|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dekko|0 fnt|[from] Sandstorm
+|-damage|p2a: Blissey|86/100|[from] Sandstorm
+|faint|p1a: Dekko
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728002348
+|switch|p1a: De-Evolutionary|Snorlax, F|100/100
+|turn|14
+|
+|t:|1728002363
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: De-Evolutionary|Curse|p1a: De-Evolutionary
+|-unboost|p1a: De-Evolutionary|spe|1
+|-boost|p1a: De-Evolutionary|atk|1
+|-boost|p1a: De-Evolutionary|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728002373
+|move|p2a: Gengar|Will-O-Wisp|p1a: De-Evolutionary
+|-status|p1a: De-Evolutionary|brn
+|move|p1a: De-Evolutionary|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|25/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|94/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|31/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|100/100 brn|[from] item: Leftovers
+|-damage|p1a: De-Evolutionary|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1728002384
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: De-Evolutionary|Rest|p1a: De-Evolutionary
+|-status|p1a: De-Evolutionary|slp|[from] move: Rest
+|-heal|p1a: De-Evolutionary|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|94/100 slp|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728002398
+|move|p2a: Quagsire|Ice Beam|p1a: De-Evolutionary
+|-crit|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|84/100 slp
+|cant|p1a: De-Evolutionary|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|78/100 slp|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728002406
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|cant|p1a: De-Evolutionary|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|78/100 slp|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728002415
+|-curestatus|p1a: De-Evolutionary|slp|[msg]
+|move|p1a: De-Evolutionary|Body Slam|p2a: Quagsire
+|-damage|p2a: Quagsire|73/100
+|move|p2a: Quagsire|Earthquake|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|54/100|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|60/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728002426
+|move|p1a: De-Evolutionary|Curse|p1a: De-Evolutionary
+|-unboost|p1a: De-Evolutionary|spe|1
+|-boost|p1a: De-Evolutionary|atk|1
+|-boost|p1a: De-Evolutionary|def|1
+|move|p2a: Quagsire|Earthquake|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|36/100|[from] Sandstorm
+|-heal|p2a: Quagsire|85/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|42/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728002441
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|move|p1a: De-Evolutionary|Rest|p1a: De-Evolutionary
+|-status|p1a: De-Evolutionary|slp|[from] move: Rest
+|-heal|p1a: De-Evolutionary|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|94/100 slp|[from] Sandstorm
+|-heal|p1a: De-Evolutionary|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Quagsire|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728002462
+|switch|p1a: J9AC9K|Suicune|92/100
+|move|p2a: Quagsire|Earthquake|p1a: J9AC9K
+|-damage|p1a: J9AC9K|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: J9AC9K|50/100|[from] Sandstorm
+|-heal|p1a: J9AC9K|56/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|97/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728002474
+|move|p2a: Quagsire|Earthquake|p1a: J9AC9K
+|-crit|p1a: J9AC9K
+|-damage|p1a: J9AC9K|0 fnt
+|faint|p1a: J9AC9K
+|
+|t:|1728002479
+|switch|p1a: Bellows|Salamence, F|100/100
+|-ability|p1a: Bellows|Intimidate|boost
+|-unboost|p2a: Quagsire|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728002488
+|switch|p2a: Gengar|Gengar, F|31/100
+|move|p1a: Bellows|Hidden Power|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|10/100|[from] Sandstorm
+|-damage|p1a: Bellows|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|16/100|[from] item: Leftovers
+|-heal|p1a: Bellows|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728002501
+|switch|p1a: De-Evolutionary|Snorlax, F|100/100 slp
+|move|p2a: Gengar|Ice Punch|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|89/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|10/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|83/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|16/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728002513
+|move|p2a: Gengar|Thunderbolt|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|74/100 slp
+|cant|p1a: De-Evolutionary|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|10/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|68/100 slp|[from] Sandstorm
+|-heal|p2a: Gengar|16/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728002522
+|move|p2a: Gengar|Explosion|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|10/100 slp
+|faint|p2a: Gengar
+|
+|t:|1728002526
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: De-Evolutionary|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: De-Evolutionary|4/100 slp|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|10/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728002537
+|switch|p1a: Bellows|Salamence, F|100/100
+|-ability|p1a: Bellows|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Dragon Claw|p1a: Bellows
+|-supereffective|p1a: Bellows
+|-damage|p1a: Bellows|0 fnt
+|faint|p1a: Bellows
+|
+|t:|1728002548
+|switch|p1a: Zybox|Magneton|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728002556
+|move|p2a: Salamence|Fire Blast|p1a: Zybox
+|-supereffective|p1a: Zybox
+|-damage|p1a: Zybox|0 fnt
+|faint|p1a: Zybox
+|
+|t:|1728002563
+|switch|p1a: Blotch|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728002570
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Blotch|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|98/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728002578
+|move|p2a: Tyranitar|Crunch|p1a: Blotch
+|-supereffective|p1a: Blotch
+|-damage|p1a: Blotch|31/100
+|move|p1a: Blotch|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|-heal|p1a: Blotch|38/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728002589
+|move|p2a: Tyranitar|Crunch|p1a: Blotch
+|-supereffective|p1a: Blotch
+|-damage|p1a: Blotch|0 fnt
+|faint|p1a: Blotch
+|
+|t:|1728002594
+|switch|p1a: De-Evolutionary|Snorlax, F|10/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: De-Evolutionary|4/100 slp|[from] Sandstorm
+|-heal|p2a: Tyranitar|44/100|[from] item: Leftovers
+|-heal|p1a: De-Evolutionary|10/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728002601
+|move|p2a: Tyranitar|Brick Break|p1a: De-Evolutionary
+|-supereffective|p1a: De-Evolutionary
+|-damage|p1a: De-Evolutionary|0 fnt
+|faint|p1a: De-Evolutionary
+|
+|win|EG Zelph
+|c|☆EG Zelph|Ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2215440625-vafqp7guioewz6a113brmiebmsihv8wpw">
+{"id":"gen3ou-2215440625","format":"[Gen 3] OU","players":["Outlandish Obloquy","EG Zelph"],"uploadtime":1728002606,"views":97,"formatid":"gen3ou","rating":null,"private":1,"password":"vafqp7guioewz6a113brmiebmsihv8w"}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

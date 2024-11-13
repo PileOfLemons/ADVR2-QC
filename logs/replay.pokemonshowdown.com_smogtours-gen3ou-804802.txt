@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: ccczzx vs. EhtishamEX - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between ccczzx and EhtishamEX! Format: [Gen 3] OU; Date: Nov 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-804802">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730752515
+|gametype|singles
+|player|p1|ccczzx|102|
+|player|p2|EhtishamEX|az|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730752515
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|inactive|ccczzx has 270 seconds left.
+|c|☆ccczzx|glhf
+|
+|t:|1730752552
+|move|p1a: Metagross|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|43/100
+|move|p2a: Metagross|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|16/100
+|
+|-heal|p1a: Metagross|22/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|EhtishamEX has 270 seconds left.
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752603
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Metagross|Explosion|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Claydol
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752618
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|ccczzx has 270 seconds left.
+|c|☆ccczzx|i have grass coverage, jsyk
+|
+|t:|1730752639
+|switch|p2a: Metagross|Metagross|43/100
+|move|p1a: Celebi|Giga Drain|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|ccczzx has 270 seconds left.
+|inactive|EhtishamEX has 240 seconds left.
+|c|☆ccczzx|hello marth's glock
+|
+|t:|1730752681
+|switch|p1a: Magneton|Magneton|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆ccczzx|who may you be?
+|inactive|ccczzx has 270 seconds left.
+|inactive|EhtishamEX has 210 seconds left.
+|inactive|EhtishamEX has 180 seconds left.
+|inactive|EhtishamEX has 150 seconds left.
+|
+|t:|1730752770
+|switch|p2a: Metagross|Metagross|27/100
+|move|p1a: Magneton|Thunder Wave|p2a: Metagross
+|-status|p2a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1730752777
+|move|p1a: Magneton|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1730752782
+|switch|p2a: Reddy|Jynx, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reddy|95/100|[from] Sandstorm
+|-heal|p2a: Reddy|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|EhtishamEX has 150 seconds left.
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752814
+|move|p2a: Reddy|Lovely Kiss|p1a: Magneton
+|-status|p1a: Magneton|slp|[from] move: Lovely Kiss
+|cant|p1a: Magneton|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reddy|95/100|[from] Sandstorm
+|-heal|p2a: Reddy|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|EhtishamEX has 150 seconds left.
+|
+|t:|1730752845
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Reddy|Substitute|p2a: Reddy
+|-start|p2a: Reddy|Substitute
+|-damage|p2a: Reddy|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reddy|70/100|[from] Sandstorm
+|-damage|p1a: Snorlax|94/100|[from] Sandstorm
+|-heal|p2a: Reddy|76/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730752854
+|move|p2a: Reddy|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|75/100
+|move|p1a: Snorlax|Body Slam|p2a: Reddy
+|-end|p2a: Reddy|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reddy|70/100|[from] Sandstorm
+|-damage|p1a: Snorlax|69/100|[from] Sandstorm
+|-heal|p2a: Reddy|76/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752859
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Snorlax|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|11/100
+|-unboost|p2a: Gengar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-damage|p1a: Snorlax|69/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|EhtishamEX has 150 seconds left.
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752870
+|switch|p1a: Magneton|Magneton|100/100 slp
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|EhtishamEX has 150 seconds left.
+|c|☆ccczzx|please wake up lil mag!
+|
+|t:|1730752901
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|cant|p1a: Magneton|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1730752911
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|cant|p1a: Magneton|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1730752927
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730752936
+|move|p2a: Tyranitar|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|58/100
+|move|p1a: Suicune|Roar|p2a: Tyranitar
+|drag|p2a: Suicune|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|52/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730752971
+|switch|p2a: Gengar|Gengar, M|11/100
+|move|p1a: Suicune|Roar|p2a: Gengar
+|drag|p2a: Suicune|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|52/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|EhtishamEX has 120 seconds left.
+|inactive|EhtishamEX has 90 seconds left.
+|
+|t:|1730753029
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|40/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730753058
+|move|p2a: Suicune|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|36/100
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: Gengar|Gengar, M|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-damage|p1a: Suicune|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|-heal|p1a: Suicune|36/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|ccczzx has 270 seconds left.
+|
+|t:|1730753070
+|move|p2a: Gengar|Taunt|p1a: Suicune
+|-start|p1a: Suicune|move: Taunt
+|cant|p1a: Suicune|move: Taunt|Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-damage|p1a: Suicune|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|-heal|p1a: Suicune|36/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|EhtishamEX has 60 seconds left.
+|inactive|EhtishamEX has 30 seconds left.
+|inactive|EhtishamEX has 20 seconds left.
+|inactive|EhtishamEX has 15 seconds left.
+|
+|t:|1730753134
+|switch|p1a: Magneton|Magneton|100/100 slp
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|EhtishamEX has 25 seconds left this turn.
+|inactive|EhtishamEX has 20 seconds left.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|inactive|EhtishamEX has 5 seconds left.
+|
+|t:|1730753154
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Magneton|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Magneton|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|-start|p2a: Gengar|perish3
+|-start|p1a: Magneton|perish3
+|upkeep
+|turn|22
+|inactive|EhtishamEX has 15 seconds left this turn.
+|inactive|EhtishamEX has 10 seconds left.
+|inactive|EhtishamEX has 5 seconds left.
+|
+|t:|1730753167
+|switch|p1a: Snorlax|Snorlax, F|75/100
+|move|p2a: Gengar|Mean Look|p1a: Snorlax
+|-activate|p1a: Snorlax|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-damage|p1a: Snorlax|69/100|[from] Sandstorm
+|-heal|p2a: Gengar|11/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|75/100|[from] item: Leftovers
+|-start|p2a: Gengar|perish2
+|upkeep
+|turn|23
+|inactive|EhtishamEX has 15 seconds left this turn.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1730753172
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: Snorlax|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-activate|p2a: Gengar|move: Destiny Bond
+|faint|p1a: Snorlax
+|inactive|EhtishamEX has 20 seconds left this turn.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|inactive|EhtishamEX has 5 seconds left.
+|
+|t:|1730753188
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|switch|p1a: Magneton|Magneton|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|inactive|EhtishamEX has 15 seconds left this turn.
+|
+|t:|1730753196
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|-curestatus|p1a: Magneton|slp|[msg]
+|move|p1a: Magneton|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|inactive|EhtishamEX has 25 seconds left this turn.
+|inactive|EhtishamEX has 20 seconds left.
+|
+|t:|1730753202
+|move|p2a: Tyranitar|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|inactive|EhtishamEX has 25 seconds left this turn.
+|
+|t:|1730753228
+|switch|p1a: Heracross|Heracross, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|94/100|[from] Sandstorm
+|upkeep
+|turn|26
+|inactive|EhtishamEX has 30 seconds left.
+|inactive|ccczzx has 270 seconds left.
+|inactive|EhtishamEX has 20 seconds left.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1730753253
+|move|p2a: Tyranitar|Rock Slide|p1a: Heracross
+|-damage|p1a: Heracross|12/100
+|move|p1a: Heracross|Megahorn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|EhtishamEX has 15 seconds left this turn.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1730753261
+|switch|p2a: Reddy|Jynx, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reddy|70/100|[from] Sandstorm
+|-damage|p1a: Heracross|6/100|[from] Sandstorm
+|-heal|p2a: Reddy|76/100|[from] item: Leftovers
+|-enditem|p1a: Heracross|Salac Berry|[eat]
+|-boost|p1a: Heracross|spe|1|[from] item: Salac Berry
+|upkeep
+|turn|27
+|inactive|EhtishamEX has 20 seconds left this turn.
+|inactive|EhtishamEX has 15 seconds left.
+|inactive|EhtishamEX has 10 seconds left.
+|
+|t:|1730753275
+|move|p1a: Heracross|Reversal|p2a: Reddy
+|-damage|p2a: Reddy|0 fnt
+|faint|p2a: Reddy
+|inactive|EhtishamEX has 15 seconds left this turn.
+|
+|t:|1730753278
+|switch|p2a: Suicune|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|0 fnt|[from] Sandstorm
+|-damage|p2a: Suicune|94/100|[from] Sandstorm
+|faint|p1a: Heracross
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|inactive|EhtishamEX has 20 seconds left this turn.
+|
+|t:|1730753282
+|switch|p1a: Celebi|Celebi|100/100
+|turn|28
+|inactive|EhtishamEX has 30 seconds left this turn.
+|
+|t:|1730753291
+|move|p1a: Celebi|Giga Drain|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|60/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|54/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1730753326
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|54/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|EhtishamEX has 30 seconds left.
+|
+|t:|1730753335
+|move|p1a: Celebi|Giga Drain|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|29/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|23/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|29/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1730753342
+|move|p1a: Celebi|Giga Drain|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|win|ccczzx
+|c|☆ccczzx|gg
+|c|☆EhtishamEX|man
+|c|☆EhtishamEX|gg
+|c|☆ccczzx|were yu rest?
+|c|☆EhtishamEX|yeah
+|c|☆ccczzx|it was 25% to ko without crit
+|c|☆EhtishamEX|That crit was ridiculous
+|c|☆ccczzx|my cune was also rest
+|c|☆EhtishamEX|!showteam
+|c| EhtishamEX|/raw <div class="infobox"><details><summary>View team<\/summary>Metagross @ Choice Band  <br />Ability: Clear Body  <br />EVs: 128 HP &#x2f; 252 Atk &#x2f; 128 Spe  <br />Adamant Nature  <br />- Meteor Mash  <br />- Earthquake  <br />- Rock Slide  <br />- Explosion  <br /><br />Reddy (Jynx) (F) @ Leftovers  <br />Ability: Oblivious  <br />EVs: 252 SpA &#x2f; 4 SpD &#x2f; 252 Spe  <br />Timid Nature  <br />IVs: 0 Atk  <br />- Ice Beam  <br />- Lovely Kiss  <br />- Calm Mind  <br />- Substitute  <br /><br />Tyranitar (F) @ Lum Berry  <br />Ability: Sand Stream  <br />Shiny: Yes  <br />EVs: 4 HP &#x2f; 252 Atk &#x2f; 252 Spe  <br />Jolly Nature  <br />- Earthquake  <br />- Rock Slide  <br />- Thunder Wave  <br />- Dragon Dance  <br /><br />Claydol @ Leftovers  <br />Ability: Levitate  <br />EVs: 252 HP &#x2f; 216 Atk &#x2f; 32 SpA &#x2f; 8 Spe  <br />Adamant Nature  <br />- Earthquake  <br />- Rapid Spin  <br />- Rain Dance  <br />- Explosion  <br /><br />Gengar (M) @ Leftovers  <br />Ability: Levitate  <br />EVs: 248 HP &#x2f; 60 SpD &#x2f; 200 Spe  <br />Timid Nature  <br />IVs: 0 Atk  <br />- Mean Look  <br />- Perish Song  <br />- Taunt  <br />- Destiny Bond  <br /><br />Suicune @ Leftovers  <br />Ability: Pressure  <br />EVs: 240 HP &#x2f; 252 SpA &#x2f; 16 Spe  <br />Modest Nature  <br />IVs: 0 Atk  <br />- Surf  <br />- Calm Mind  <br />- Sleep Talk  <br />- Rest  <br /><br /><\/details><\/div>
+|c|☆ccczzx|it cam down to crit either which way
+|c|☆ccczzx|!showteam
+|c| ccczzx|/raw <div class="infobox"><details><summary>View team<\/summary>Metagross @ Leftovers  <br />Ability: Clear Body  <br />EVs: 168 HP &#x2f; 184 Atk &#x2f; 16 Def &#x2f; 140 Spe  <br />Adamant Nature  <br />- Meteor Mash  <br />- Earthquake  <br />- Explosion  <br />- Rock Slide  <br /><br />Magneton @ Magnet  <br />Ability: Magnet Pull  <br />Hidden Power: Fire  <br />EVs: 4 HP &#x2f; 252 SpA &#x2f; 252 Spe  <br />Modest Nature  <br />IVs: 2 Atk &#x2f; 30 SpA &#x2f; 30 Spe  <br />- Thunderbolt  <br />- Hidden Power [Fire]  <br />- Thunder Wave  <br />- Sunny Day  <br /><br />Celebi @ Leftovers  <br />Ability: Natural Cure  <br />Hidden Power: Ice  <br />EVs: 76 HP &#x2f; 252 SpA &#x2f; 180 Spe  <br />Timid Nature  <br />IVs: 2 Atk &#x2f; 30 Def  <br />- Calm Mind  <br />- Giga Drain  <br />- Psychic  <br />- Hidden Power [Ice]  <br /><br />Heracross (M) @ Salac Berry  <br />Ability: Swarm  <br />EVs: 252 Atk &#x2f; 4 Def &#x2f; 252 Spe  <br />Jolly Nature  <br />IVs: 30 HP  <br />- Substitute  <br />- Megahorn  <br />- Reversal  <br />- Swords Dance  <br /><br />Snorlax (F) @ Leftovers  <br />Ability: Immunity  <br />EVs: 200 Atk &#x2f; 108 Def &#x2f; 184 SpD &#x2f; 16 Spe  <br />Adamant Nature  <br />- Body Slam  <br />- Earthquake  <br />- Shadow Ball  <br />- Self-Destruct  <br /><br />Suicune @ Leftovers  <br />Ability: Pressure  <br />EVs: 240 HP &#x2f; 252 Def &#x2f; 16 Spe  <br />Bold Nature  <br />IVs: 0 Atk  <br />- Calm Mind  <br />- Surf  <br />- Roar  <br />- Rest  <br /><br /><\/details><\/div>
+|c|☆EhtishamEX|Nah I would've been set up already on Suicune surely
+|c|☆ccczzx|im saying whichever mon i went to
+|c|☆ccczzx|well, good set still! you played well
+|c|☆ccczzx|i would say to be a bit more mindful of the clock tho
+|c|☆EhtishamEX|tyty, you played well too
+|c|☆EhtishamEX|I never let the clock hit 0 at least 🙏
+|c|☆ccczzx|yeah, at least that, tho it probably made you make more rash decisions
+|c|☆ccczzx|you outplayed me a little with gar
+|c|☆ccczzx|if you wanna keep chatting, hmu on disc, tho i got my dnd sesh soon
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-804802">
+{"id":"smogtours-gen3ou-804802","format":"[Gen 3] OU","players":["ccczzx","EhtishamEX"],"uploadtime":1730753342,"views":48,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

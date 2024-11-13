@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: azepto vs. Capitao General ll - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between azepto and Capitao General ll! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800347">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729429496
+|gametype|singles
+|player|p1|azepto|officeworker|
+|player|p2|Capitao General ll|scientist-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729429496
+|start
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Capitao General ll has 270 seconds left.
+|c|☆azepto|glhf
+|
+|t:|1729429542
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Hariyama|Bulk Up|p1a: Hariyama
+|-boost|p1a: Hariyama|atk|1
+|-boost|p1a: Hariyama|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Capitao General ll|u2
+|
+|t:|1729429564
+|move|p2a: Skarmory|Thief|p1a: Hariyama
+|-resisted|p1a: Hariyama
+|-damage|p1a: Hariyama|99/100
+|-enditem|p1a: Hariyama|Leftovers|[silent]|[from] move: Thief|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Leftovers|[from] move: Thief|[of] p1a: Hariyama
+|move|p1a: Hariyama|Brick Break|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|93/100|[from] Sandstorm
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729429590
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hariyama|Knock Off|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|87/100|[from] Sandstorm
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729429633
+|move|p1a: Hariyama|Knock Off|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|move|p2a: Skarmory|Roar|p1a: Hariyama
+|drag|p1a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1729429647
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1729429656
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: azepto|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1729429674
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Capitao General ll has 240 seconds left.
+|inactive|azepto has 270 seconds left.
+|
+|t:|1729429714
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Capitao General ll has 240 seconds left.
+|inactive|azepto has 240 seconds left.
+|
+|t:|1729429769
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|82/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1729429783
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|82/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|95/100 par|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Capitao General ll has 240 seconds left.
+|inactive|azepto has 210 seconds left.
+|
+|t:|1729429816
+|switch|p1a: Hariyama|Hariyama, M|87/100
+|-damage|p1a: Hariyama|74/100|[from] Spikes
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|68/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1729429826
+|switch|p2a: Skarmory|Skarmory, M|45/100
+|move|p1a: Hariyama|Bulk Up|p1a: Hariyama
+|-boost|p1a: Hariyama|atk|1
+|-boost|p1a: Hariyama|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|62/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1729429833
+|move|p1a: Hariyama|Brick Break|p2a: Skarmory
+|-damage|p2a: Skarmory|9/100
+|move|p2a: Skarmory|Roar|p1a: Hariyama
+|drag|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1729429857
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|azepto has 210 seconds left.
+|inactive|azepto has 180 seconds left.
+|
+|t:|1729429903
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Hariyama|Hariyama, M|62/100
+|-damage|p1a: Hariyama|50/100|[from] Spikes
+|move|p2a: Tyranitar|Focus Punch|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|inactive|azepto has 180 seconds left.
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729429957
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729429967
+|switch|p2a: Skarmory|Skarmory, M|9/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729429975
+|switch|p2a: Metagross|Metagross|81/100
+|move|p1a: Metagross|Meteor Mash|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729429996
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Metagross|Protect||[still]
+|-fail|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|70/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729430011
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|76/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729430020
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729430033
+|move|p2a: Starmie|Surf|p1a: Swampert
+|-damage|p1a: Swampert|70/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|50/100|[from] Sandstorm
+|-heal|p2a: Starmie|56/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729430042
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|55/100|[from] Sandstorm
+|-heal|p2a: Starmie|61/100|[from] item: Leftovers
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729430046
+|move|p2a: Starmie|Surf|p1a: Swampert
+|-damage|p1a: Swampert|51/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729430052
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|69/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|22/100|[from] Sandstorm
+|-heal|p2a: Starmie|28/100|[from] item: Leftovers
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729430091
+|switch|p2a: Skarmory|Skarmory, M|9/100
+|move|p1a: Swampert|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729430107
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Swampert|Surf|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|83/100|[from] Sandstorm
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|azepto has 180 seconds left.
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729430164
+|switch|p1a: Snorlax|Snorlax, F|88/100 par
+|-damage|p1a: Snorlax|75/100 par|[from] Spikes
+|move|p2a: Blissey|Sing||[still]
+|-fail|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|83/100|[from] Sandstorm
+|-damage|p1a: Snorlax|69/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Capitao General ll has 270 seconds left.
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729430175
+|switch|p2a: Tyranitar|Tyranitar, F|88/100 par
+|switch|p1a: Metagross|Metagross|88/100
+|-damage|p1a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729430190
+|switch|p2a: Skarmory|Skarmory, M|9/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729430195
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1729430211
+|move|p2a: Dugtrio|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|inactive|azepto has 150 seconds left.
+|
+|t:|1729430241
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|azepto has 120 seconds left.
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729430291
+|switch|p2a: Starmie|Starmie|28/100
+|move|p1a: Salamence|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1729430298
+|switch|p2a: Blissey|Blissey, F|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|83/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729430316
+|switch|p1a: Blissey|Blissey, F|88/100
+|-damage|p1a: Blissey|76/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-damage|p2a: Blissey|83/100|[from] Sandstorm
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729430325
+|switch|p2a: Tyranitar|Tyranitar, F|94/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|azepto has 120 seconds left.
+|
+|t:|1729430359
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|51/100 par
+|move|p2a: Tyranitar|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|24/100|[from] Sandstorm
+|-heal|p1a: Blissey|30/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|azepto has 90 seconds left.
+|
+|t:|1729430383
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|80/100
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729430397
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|38/100 par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729430409
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|20/100 par
+|move|p2a: Tyranitar|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-heal|p1a: Blissey|41/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729430432
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100 par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-heal|p1a: Blissey|41/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729430444
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1729430447
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-heal|p1a: Blissey|41/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729430451
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|inactive|azepto has 90 seconds left.
+|inactive|azepto has 60 seconds left.
+|
+|t:|1729430529
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729430548
+|move|p2a: Dugtrio|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729430557
+|switch|p2a: Blissey|Blissey, F|90/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|83/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729430565
+|move|p1a: Salamence|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|5/100
+|move|p2a: Blissey|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|inactive|azepto has 60 seconds left.
+|
+|t:|1729430591
+|switch|p1a: Snorlax|Snorlax, F|75/100 par
+|-damage|p1a: Snorlax|63/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|0 fnt|[from] Sandstorm
+|-damage|p1a: Snorlax|57/100 par|[from] Sandstorm
+|faint|p2a: Blissey
+|-heal|p1a: Snorlax|63/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1729430598
+|switch|p2a: Metagross|Metagross|76/100
+|turn|44
+|inactive|azepto has 60 seconds left.
+|
+|t:|1729430619
+|move|p2a: Metagross|Meteor Mash|p1a: Snorlax
+|-damage|p1a: Snorlax|29/100 par
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|23/100 par|[from] Sandstorm
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729430628
+|move|p2a: Metagross|Meteor Mash|p1a: Snorlax
+|-damage|p1a: Snorlax|5/100 par
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|94/100 slp|[from] Sandstorm
+|-heal|p2a: Metagross|88/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729430637
+|move|p2a: Metagross|Meteor Mash|p1a: Snorlax
+|-damage|p1a: Snorlax|68/100 slp
+|cant|p1a: Snorlax|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|62/100 slp|[from] Sandstorm
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|azepto has 60 seconds left.
+|
+|t:|1729430660
+|move|p2a: Metagross|Meteor Mash|p1a: Snorlax
+|-damage|p1a: Snorlax|35/100 slp
+|cant|p1a: Snorlax|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|29/100 slp|[from] Sandstorm
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|35/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729430667
+|move|p2a: Metagross|Meteor Mash|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|t:|1729430669
+|switch|p1a: Swampert|Swampert, M|76/100
+|-damage|p1a: Swampert|64/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729430675
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Metagross|Earthquake|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729430685
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Metagross|Explosion|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|faint|p2a: Metagross
+|
+|t:|1729430689
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729430698
+|move|p2a: Dugtrio|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|41/100
+|move|p1a: Swampert|Surf|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|win|azepto
+|c|☆azepto|gg
+|c|☆Capitao General ll|gg
+|player|p2|
+|player|p2|Capitao General ll|scientist-gen3|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800347">
+{"id":"smogtours-gen3ou-800347","format":"[Gen 3] OU","players":["azepto","Capitao General ll"],"uploadtime":1729430698,"views":81,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

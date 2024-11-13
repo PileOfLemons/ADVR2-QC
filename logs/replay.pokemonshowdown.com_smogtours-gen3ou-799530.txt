@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: DanteADV vs. drogasas - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between DanteADV and drogasas! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799530">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729266459
+|gametype|singles
+|player|p1|DanteADV|fisherman-gen4|
+|player|p2|drogasas|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729266459
+|start
+|switch|p1a: stop breathing|Metagross, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|t:|1729266471
+|move|p1a: stop breathing|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|move|p2a: Skarmory|Spikes|p1a: stop breathing
+|-sidestart|p1: DanteADV|Spikes
+|
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729266479
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: stop breathing|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|drogasas has 270 seconds left.
+|
+|t:|1729266514
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-fail|p1a: stop breathing|unboost|[from] ability: Clear Body|[of] p1a: stop breathing
+|move|p1a: stop breathing|Hidden Power|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|90/100
+|
+|-heal|p2a: Gyarados|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|drogasas has 270 seconds left.
+|
+|t:|1729266533
+|switch|p2a: Skarmory|Skarmory, F|76/100
+|switch|p1a: eviljordan|Gengar, F, shiny|100/100
+|
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729266541
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: eviljordan|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1729266556
+|switch|p1a: pull up|Snorlax, M, shiny|100/100
+|-damage|p1a: pull up|88/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: pull up
+|-damage|p1a: pull up|72/100
+|
+|-heal|p2a: Blissey|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 brn|[from] brn
+|-heal|p1a: pull up|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729266567
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|82/100
+|move|p1a: pull up|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|54/100
+|-status|p2a: Skarmory|par
+|
+|-heal|p1a: pull up|85/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729266576
+|move|p1a: pull up|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|30/100 par
+|move|p2a: Skarmory|Spikes|p1a: pull up
+|-sidestart|p1: DanteADV|Spikes
+|
+|-heal|p1a: pull up|91/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729266591
+|move|p1a: pull up|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|23/100 par
+|move|p2a: Skarmory|Spikes|p1a: pull up
+|-sidestart|p1: DanteADV|Spikes
+|
+|-heal|p1a: pull up|97/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729266602
+|move|p1a: pull up|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1729266605
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-heal|p1a: pull up|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266636
+|switch|p1a: eviljordan|Gengar, F, shiny|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: eviljordan
+|-status|p1a: eviljordan|brn
+|
+|-damage|p1a: eviljordan|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266649
+|switch|p1a: sky|Claydol|100/100
+|switch|p2a: Blissey|Blissey, F|82/100
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266664
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: sky|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|44/100
+|
+|-heal|p2a: Gengar|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266678
+|move|p2a: Gengar|Giga Drain|p1a: sky
+|-supereffective|p1a: sky
+|-damage|p1a: sky|71/100
+|-heal|p2a: Gengar|66/100|[from] drain|[of] p1a: sky
+|move|p1a: sky|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-heal|p2a: Gengar|71/100|[from] item: Leftovers
+|-heal|p1a: sky|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729266684
+|move|p2a: Gengar|Giga Drain|p1a: sky
+|-supereffective|p1a: sky
+|-damage|p1a: sky|42/100
+|-heal|p2a: Gengar|90/100|[from] drain|[of] p1a: sky
+|move|p1a: sky|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|28/100
+|
+|-heal|p2a: Gengar|34/100|[from] item: Leftovers
+|-heal|p1a: sky|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729266694
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: sky|Psychic|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|24/100
+|
+|-heal|p1a: sky|55/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729266706
+|switch|p1a: eviljordan|Gengar, F, shiny|88/100 brn
+|move|p2a: Flygon|Hidden Power|p1a: eviljordan
+|-resisted|p1a: eviljordan
+|-damage|p1a: eviljordan|78/100 brn
+|
+|-heal|p1a: eviljordan|84/100 brn|[from] item: Leftovers
+|-damage|p1a: eviljordan|72/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1729266723
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: eviljordan|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-heal|p1a: eviljordan|78/100 brn|[from] item: Leftovers
+|-damage|p1a: eviljordan|66/100 brn|[from] brn
+|-heal|p2a: Blissey|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1729266738
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Flygon|Flygon, F|24/100
+|move|p1a: eviljordan|Giga Drain|p2a: Flygon
+|-damage|p2a: Flygon|1/100
+|-heal|p1a: eviljordan|76/100 brn|[from] drain|[of] p2a: Flygon
+|
+|-heal|p1a: eviljordan|83/100 brn|[from] item: Leftovers
+|-damage|p1a: eviljordan|70/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1729266749
+|switch|p2a: Blissey|Blissey, F|82/100
+|move|p1a: eviljordan|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|-heal|p1a: eviljordan|77/100 brn|[from] drain|[of] p2a: Blissey
+|
+|-heal|p1a: eviljordan|83/100 brn|[from] item: Leftovers
+|-damage|p1a: eviljordan|70/100 brn|[from] brn
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729266756
+|move|p1a: eviljordan|Explosion|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|faint|p1a: eviljordan
+|
+|t:|1729266762
+|switch|p1a: on that time|Dugtrio, M, shiny|100/100
+|-damage|p1a: on that time|76/100|[from] Spikes
+|
+|-heal|p2a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729266772
+|move|p1a: on that time|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729266774
+|switch|p2a: Gyarados|Gyarados, M|96/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: on that time|atk|1
+|
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729266803
+|switch|p1a: pull up|Snorlax, M, shiny|100/100
+|-damage|p1a: pull up|76/100|[from] Spikes
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p1a: pull up|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266825
+|switch|p2a: Gengar|Gengar, F|34/100
+|switch|p1a: sky|Claydol|55/100
+|
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: sky|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266832
+|move|p2a: Gengar|Giga Drain|p1a: sky
+|-supereffective|p1a: sky
+|-damage|p1a: sky|30/100
+|-heal|p2a: Gengar|56/100|[from] drain|[of] p1a: sky
+|move|p1a: sky|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1729266840
+|switch|p2a: Flygon|Flygon, F|1/100
+|
+|-heal|p1a: sky|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729266847
+|switch|p1a: on that time|Dugtrio, M, shiny|76/100
+|-damage|p1a: on that time|51/100|[from] Spikes
+|move|p2a: Flygon|Hidden Power|p1a: on that time
+|-damage|p1a: on that time|0 fnt
+|faint|p1a: on that time
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266864
+|switch|p1a: stop breathing|Metagross, shiny|100/100
+|-damage|p1a: stop breathing|75/100|[from] Spikes
+|
+|-heal|p1a: stop breathing|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729266883
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: stop breathing|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|43/100
+|
+|-heal|p2a: Charizard|49/100|[from] item: Leftovers
+|-heal|p1a: stop breathing|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|DanteADV has 270 seconds left.
+|
+|t:|1729266923
+|move|p2a: Charizard|Fire Blast|p1a: stop breathing|[miss]
+|-miss|p2a: Charizard|p1a: stop breathing
+|move|p1a: stop breathing|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|t:|1729266928
+|switch|p2a: Flygon|Flygon, F|1/100
+|
+|-heal|p1a: stop breathing|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729266950
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-fail|p1a: stop breathing|unboost|[from] ability: Clear Body|[of] p1a: stop breathing
+|switch|p1a: fell in luv|Blissey, F, shiny|100/100
+|-damage|p1a: fell in luv|75/100|[from] Spikes
+|
+|-heal|p1a: fell in luv|82/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|DanteADV has 240 seconds left.
+|
+|t:|1729266967
+|switch|p1a: pull up|Snorlax, M, shiny|82/100
+|-damage|p1a: pull up|57/100|[from] Spikes
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p1a: pull up|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|DanteADV has 240 seconds left.
+|inactive|drogasas has 270 seconds left.
+|inactive|drogasas has 240 seconds left.
+|inactive|drogasas has 210 seconds left.
+|
+|t:|1729267058
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: pull up|Self-Destruct|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p1a: pull up
+|faint|p2a: Gyarados
+|
+|t:|1729267067
+|switch|p2a: Flygon|Flygon, F|1/100
+|switch|p1a: stop breathing|Metagross, shiny|94/100
+|-damage|p1a: stop breathing|69/100|[from] Spikes
+|
+|-heal|p1a: stop breathing|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|drogasas has 210 seconds left.
+|
+|t:|1729267085
+|move|p2a: Flygon|Rock Slide|p1a: stop breathing
+|-resisted|p1a: stop breathing
+|-damage|p1a: stop breathing|63/100
+|move|p1a: stop breathing|Psychic|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|win|DanteADV
+|c|☆DanteADV|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799530">
+{"id":"smogtours-gen3ou-799530","format":"[Gen 3] OU","players":["DanteADV","drogasas"],"uploadtime":1729267085,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

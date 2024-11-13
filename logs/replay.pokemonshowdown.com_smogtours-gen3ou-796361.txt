@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: kingkpak vs. SmoGonagall - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between kingkpak and SmoGonagall! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796361">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728399904
+|gametype|singles
+|player|p1|kingkpak|169|
+|player|p2|SmoGonagall|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728399904
+|start
+|switch|p1a: RBV Frightens|Metagross|100/100
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|1
+|
+|t:|1728399929
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: RBV Frightens|Explosion|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|2/100
+|faint|p1a: RBV Frightens
+|
+|t:|1728399936
+|switch|p1a: free ninjask|Celebi|100/100
+|
+|-heal|p2a: Rhydon|8/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728399941
+|move|p1a: free ninjask|Hidden Power|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|t:|1728399948
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728399952
+|move|p1a: free ninjask|Swords Dance|p1a: free ninjask
+|-boost|p1a: free ninjask|atk|2
+|move|p2a: Jirachi|Fire Punch|p1a: free ninjask
+|-supereffective|p1a: free ninjask
+|-damage|p1a: free ninjask|75/100
+|
+|-heal|p1a: free ninjask|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728399961
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|move|p1a: free ninjask|Substitute|p1a: free ninjask
+|-start|p1a: free ninjask|Substitute
+|-damage|p1a: free ninjask|56/100
+|
+|-heal|p1a: free ninjask|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728399971
+|-singleturn|p2a: Hariyama|move: Focus Punch
+|move|p1a: free ninjask|Hidden Power|p2a: Hariyama
+|-damage|p2a: Hariyama|68/100
+|move|p2a: Hariyama|Focus Punch||[still]
+|cant|p2a: Hariyama|Focus Punch|Focus Punch
+|
+|-heal|p1a: free ninjask|68/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728399980
+|move|p1a: free ninjask|Swords Dance|p1a: free ninjask
+|-boost|p1a: free ninjask|atk|2
+|move|p2a: Hariyama|Hidden Power|p1a: free ninjask
+|-supereffective|p1a: free ninjask
+|-end|p1a: free ninjask|Substitute
+|
+|-heal|p1a: free ninjask|74/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728399990
+|move|p1a: free ninjask|Substitute|p1a: free ninjask
+|-start|p1a: free ninjask|Substitute
+|-damage|p1a: free ninjask|49/100
+|move|p2a: Hariyama|Hidden Power|p1a: free ninjask
+|-supereffective|p1a: free ninjask
+|-end|p1a: free ninjask|Substitute
+|
+|-heal|p1a: free ninjask|55/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728399998
+|move|p1a: free ninjask|Hidden Power|p2a: Hariyama
+|-damage|p2a: Hariyama|41/100
+|move|p2a: Hariyama|Hidden Power|p1a: free ninjask
+|-supereffective|p1a: free ninjask
+|-damage|p1a: free ninjask|0 fnt
+|faint|p1a: free ninjask
+|
+|t:|1728400005
+|switch|p1a: Carlson|Magneton|100/100
+|
+|-heal|p2a: Hariyama|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728400032
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Carlson|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|80/100
+|
+|-heal|p2a: Celebi|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728400040
+|move|p2a: Celebi|Leech Seed|p1a: Carlson
+|-start|p1a: Carlson|move: Leech Seed
+|move|p1a: Carlson|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|44/100
+|
+|-heal|p2a: Celebi|50/100|[from] item: Leftovers
+|-damage|p1a: Carlson|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|57/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1728400058
+|switch|p1a: digtrio|Dugtrio, F|100/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1728400066
+|move|p1a: digtrio|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|30/100
+|move|p2a: Celebi|Hidden Power|p1a: digtrio
+|-supereffective|p1a: digtrio
+|-damage|p1a: digtrio|0 fnt
+|faint|p1a: digtrio
+|
+|t:|1728400081
+|switch|p1a: zoomy|Aerodactyl, M|100/100
+|
+|-heal|p2a: Celebi|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728400089
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: zoomy|atk|1
+|move|p1a: zoomy|Double-Edge|p2a: Salamence
+|-damage|p2a: Salamence|83/100
+|
+|-heal|p2a: Salamence|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728400097
+|switch|p1a: me|Blissey, F|100/100
+|move|p2a: Salamence|Toxic|p1a: me
+|-status|p1a: me|tox
+|
+|-heal|p2a: Salamence|95/100|[from] item: Leftovers
+|-damage|p1a: me|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1728400109
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: me|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-heal|p1a: me|100/100 tox|[from] item: Leftovers
+|-damage|p1a: me|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1728400118
+|-curestatus|p1a: me|tox|[from] ability: Natural Cure
+|switch|p1a: Carlson|Magneton|88/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|upkeep
+|turn|17
+|
+|t:|1728400124
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|67/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|18
+|
+|t:|1728400130
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728400136
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|43/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Carlson
+|-supereffective|p1a: Carlson
+|-damage|p1a: Carlson|25/100
+|
+|-enditem|p1a: Carlson|Salac Berry|[eat]
+|-boost|p1a: Carlson|spe|1|[from] item: Salac Berry
+|-heal|p2a: Jirachi|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728400145
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|14/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728400157
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|70/100 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728400165
+|move|p1a: Carlson|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|42/100 par
+|move|p2a: Jirachi|Fire Punch|p1a: Carlson
+|-supereffective|p1a: Carlson
+|-damage|p1a: Carlson|0 fnt
+|faint|p1a: Carlson
+|
+|t:|1728400175
+|switch|p1a: zoomy|Aerodactyl, M|100/100
+|
+|-heal|p2a: Jirachi|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728400185
+|move|p1a: zoomy|Rock Slide|p2a: Jirachi|[miss]
+|-miss|p1a: zoomy|p2a: Jirachi
+|move|p2a: Jirachi|Body Slam|p1a: zoomy
+|-resisted|p1a: zoomy
+|-damage|p1a: zoomy|86/100
+|-status|p1a: zoomy|par
+|
+|-heal|p1a: zoomy|92/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728400196
+|cant|p1a: zoomy|par
+|cant|p2a: Jirachi|par
+|
+|-heal|p1a: zoomy|98/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728400202
+|move|p1a: zoomy|Rock Slide|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|48/100 par
+|cant|p2a: Jirachi|flinch
+|
+|-heal|p1a: zoomy|100/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728400212
+|move|p1a: zoomy|Rock Slide|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|43/100 par
+|cant|p2a: Jirachi|flinch
+|
+|-heal|p2a: Jirachi|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728400229
+|move|p1a: zoomy|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|7/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728400244
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: zoomy|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|70/100
+|
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆kingkpak|i feel like pain is a good description for this match as a whole lol
+|
+|t:|1728400261
+|switch|p1a: me|Blissey, F|88/100
+|move|p2a: Starmie|Surf|p1a: me
+|-damage|p1a: me|75/100
+|
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: me|81/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728400275
+|move|p2a: Starmie|Thunder Wave|p1a: me
+|-status|p1a: me|par
+|move|p1a: me|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|-heal|p2a: Starmie|88/100 par|[from] item: Leftovers
+|-heal|p1a: me|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728400286
+|switch|p2a: Hariyama|Hariyama, M|47/100
+|cant|p1a: me|par
+|
+|-heal|p2a: Hariyama|53/100|[from] item: Leftovers
+|-heal|p1a: me|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728400294
+|move|p2a: Hariyama|Brick Break|p1a: me
+|-supereffective|p1a: me
+|-damage|p1a: me|30/100 par
+|move|p1a: me|Counter|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|c|☆SmoGonagall|nice!
+|c|☆kingkpak|SOMETHING WORKED!
+|c|☆kingkpak|ayyyyy!
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400325
+|switch|p2a: Celebi|Celebi|36/100
+|
+|-heal|p2a: Celebi|42/100|[from] item: Leftovers
+|-heal|p1a: me|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|SmoGonagall has 240 seconds left.
+|
+|t:|1728400359
+|move|p2a: Celebi|Psychic|p1a: me
+|-damage|p1a: me|24/100 par
+|cant|p1a: me|par
+|
+|-heal|p2a: Celebi|49/100|[from] item: Leftovers
+|-heal|p1a: me|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728400365
+|move|p2a: Celebi|Leech Seed|p1a: me
+|-start|p1a: me|move: Leech Seed
+|cant|p1a: me|par
+|
+|-heal|p2a: Celebi|55/100|[from] item: Leftovers
+|-heal|p1a: me|36/100 par|[from] item: Leftovers
+|-damage|p1a: me|24/100 par|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|77/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1728400374
+|-curestatus|p1a: me|par|[from] ability: Natural Cure
+|switch|p1a: zoomy|Aerodactyl, M|100/100 par
+|move|p2a: Celebi|Psychic|p1a: zoomy
+|-damage|p1a: zoomy|56/100 par
+|
+|-heal|p2a: Celebi|83/100|[from] item: Leftovers
+|-heal|p1a: zoomy|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728400387
+|move|p2a: Celebi|Leech Seed|p1a: zoomy
+|-start|p1a: zoomy|move: Leech Seed
+|move|p1a: zoomy|Rock Slide|p2a: Celebi
+|-damage|p2a: Celebi|59/100
+|
+|-heal|p2a: Celebi|65/100|[from] item: Leftovers
+|-heal|p1a: zoomy|68/100 par|[from] item: Leftovers
+|-damage|p1a: zoomy|55/100 par|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|74/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1728400398
+|switch|p1a: me|Blissey, F|24/100
+|move|p2a: Celebi|Psychic|p1a: me
+|-damage|p1a: me|13/100
+|
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|-heal|p1a: me|19/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728400409
+|move|p2a: Celebi|Psychic|p1a: me
+|-damage|p1a: me|6/100
+|move|p1a: me|Soft-Boiled|p1a: me
+|-heal|p1a: me|56/100
+|
+|-heal|p2a: Celebi|86/100|[from] item: Leftovers
+|-heal|p1a: me|63/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728400416
+|move|p2a: Celebi|Leech Seed|p1a: me
+|-start|p1a: me|move: Leech Seed
+|move|p1a: me|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-heal|p1a: me|69/100|[from] item: Leftovers
+|-damage|p1a: me|56/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 par|[silent]
+|upkeep
+|turn|40
+|
+|t:|1728400424
+|move|p1a: me|Soft-Boiled|p1a: me
+|-heal|p1a: me|100/100
+|move|p2a: Celebi|Psychic|p1a: me
+|-damage|p1a: me|88/100
+|
+|-heal|p1a: me|94/100|[from] item: Leftovers
+|-damage|p1a: me|82/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|41
+|
+|t:|1728400441
+|switch|p1a: zoomy|Aerodactyl, M|55/100 par
+|-curestatus|p2a: Celebi|par|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, M|95/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: zoomy|atk|1
+|
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: zoomy|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728400451
+|move|p2a: Salamence|Wish|p2a: Salamence
+|move|p1a: zoomy|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|64/100
+|
+|-heal|p2a: Salamence|70/100|[from] item: Leftovers
+|-heal|p1a: zoomy|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728400458
+|switch|p1a: me|Blissey, F|82/100
+|move|p2a: Salamence|Flamethrower|p1a: me
+|-damage|p1a: me|73/100
+|
+|-heal|p2a: Salamence|100/100|[from] move: Wish|[wisher] Salamence
+|-heal|p1a: me|79/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728400467
+|move|p2a: Salamence|Wish|p2a: Salamence
+|move|p1a: me|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|
+|-heal|p1a: me|86/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400473
+|switch|p2a: Jirachi|Jirachi|13/100 par
+|move|p1a: me|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400484
+|switch|p2a: Celebi|Celebi|100/100
+|
+|-heal|p1a: me|92/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|SmoGonagall has 270 seconds left.
+|c|☆SmoGonagall|not gunna lie i think counter won you this match on the spot
+|
+|t:|1728400512
+|move|p2a: Celebi|Leech Seed|p1a: me
+|-start|p1a: me|move: Leech Seed
+|move|p1a: me|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-heal|p1a: me|98/100|[from] item: Leftovers
+|-damage|p1a: me|85/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|47
+|c|☆kingkpak|im fine with going to game 3 XD
+|inactive|SmoGonagall has 240 seconds left.
+|c|☆SmoGonagall|yeah you got this im not gunna be able to break bliss without going to like 300 turns lol
+|-message|SmoGonagall forfeited.
+|
+|win|kingkpak
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796361">
+{"id":"smogtours-gen3ou-796361","format":"[Gen 3] OU","players":["kingkpak","SmoGonagall"],"uploadtime":1728400553,"views":78,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

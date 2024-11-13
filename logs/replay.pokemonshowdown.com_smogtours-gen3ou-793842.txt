@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Segale vs. KingWafl - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Segale and KingWafl! Format: [Gen 3] OU; Date: Oct 1, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-793842">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727817243
+|gametype|singles
+|player|p1|Segale|blue|
+|player|p2|KingWafl|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727817243
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|c|☆KingWafl|glhf
+|c|☆Segale|u2
+|
+|t:|1727817262
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1727817268
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1727817281
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1727817286
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: KingWafl|Spikes
+|
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727817291
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Skarmory|Roar|p1a: Starmie
+|drag|p1a: Skarmory|Skarmory, M|68/100
+|
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727817295
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Skarmory|Thief|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|89/100
+|-enditem|p1a: Starmie|Leftovers|[silent]|[from] move: Thief|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Leftovers|[from] move: Thief|[of] p1a: Starmie
+|
+|upkeep
+|turn|7
+|
+|t:|1727817312
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727817330
+|switch|p1a: Skarmory|Skarmory, M|74/100
+|cant|p2a: Blissey|par
+|
+|-heal|p1a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1727817335
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: KingWafl|Spikes
+|
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1727817338
+|switch|p1a: Starmie|Starmie|89/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Segale|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1727817342
+|move|p1a: Starmie|Surf|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|44/100
+|move|p2a: Skarmory|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|83/100 tox|[from] psn
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1727817347
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|86/100
+|switch|p2a: Blissey|Blissey, F|99/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1727817353
+|switch|p2a: Skarmory|Skarmory, F|50/100
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: KingWafl|Spikes
+|
+|-heal|p1a: Skarmory|98/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1727817364
+|switch|p1a: Starmie|Starmie|83/100
+|-damage|p1a: Starmie|71/100|[from] Spikes
+|move|p2a: Skarmory|Roar|p1a: Starmie
+|drag|p1a: Blissey|Blissey, F|98/100
+|-damage|p1a: Blissey|85/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727817378
+|switch|p2a: Blissey|Blissey, F|90/100
+|-damage|p2a: Blissey|65/100|[from] Spikes
+|move|p1a: Blissey|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|55/100
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|-heal|p2a: Blissey|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727817392
+|switch|p1a: Starmie|Starmie|71/100
+|-damage|p1a: Starmie|58/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 par
+|
+|upkeep
+|turn|17
+|
+|t:|1727817396
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|97/100 par
+|-sideend|p1: Segale|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|52/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727817410
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Blissey|Blissey, F|97/100
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727817423
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|75/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|98/100
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1727817430
+|switch|p1a: Starmie|Starmie|52/100
+|switch|p2a: Skarmory|Skarmory, F|62/100
+|
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727817432
+|switch|p2a: Blissey|Blissey, F|82/100
+|-damage|p2a: Blissey|57/100|[from] Spikes
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727817437
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|move|p2a: Blissey|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Blissey|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727817445
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|68/100
+|
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1727817454
+|switch|p1a: Starmie|Starmie|94/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Segale|Spikes
+|
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727817468
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Starmie|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|upkeep
+|turn|26
+|
+|t:|1727817478
+|move|p1a: Starmie|Rapid Spin|p2a: Flygon
+|-damage|p2a: Flygon|98/100
+|-sideend|p1: Segale|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Flygon|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|69/100
+|
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1727817493
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|move|p2a: Flygon|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|73/100
+|
+|upkeep
+|turn|28
+|
+|t:|1727817498
+|switch|p2a: Blissey|Blissey, F|69/100
+|-damage|p2a: Blissey|44/100|[from] Spikes
+|move|p1a: Starmie|Surf|p2a: Blissey
+|-damage|p2a: Blissey|30/100
+|
+|-heal|p2a: Blissey|37/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1727817502
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|87/100
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1727817513
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Flygon
+|-damage|p2a: Flygon|67/100
+|
+|-heal|p2a: Flygon|73/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1727817529
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Flygon|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|93/100
+|
+|-heal|p2a: Flygon|79/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1727817534
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Blissey|Ice Beam|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p2a: Flygon|85/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1727817542
+|switch|p2a: Blissey|Blissey, F|93/100
+|-damage|p2a: Blissey|68/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1727817558
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Skarmory|Skarmory, F|80/100
+|
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1727817562
+|switch|p1a: Starmie|Starmie|73/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Segale|Spikes
+|
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1727817565
+|move|p1a: Starmie|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|move|p2a: Skarmory|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|67/100 tox|[from] psn
+|-heal|p2a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1727817575
+|switch|p2a: Blissey|Blissey, F|63/100
+|-damage|p2a: Blissey|38/100|[from] Spikes
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|34/100
+|-sideend|p1: Segale|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-damage|p1a: Starmie|55/100 tox|[from] psn
+|-heal|p2a: Blissey|40/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727817583
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|90/100
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1727817603
+|switch|p2a: Skarmory|Skarmory, F|98/100 par
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100 par
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Skarmory|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1727817613
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|62/100 par
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p2a: Skarmory|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1727817617
+|switch|p1a: Starmie|Starmie|55/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Segale|Spikes
+|
+|-heal|p2a: Skarmory|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1727817620
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Starmie|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|
+|-heal|p2a: Zapdos|84/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1727817626
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Zapdos|Roar|p1a: Blissey
+|drag|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-heal|p2a: Zapdos|90/100|[from] item: Leftovers
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1727817635
+|switch|p1a: Blissey|Blissey, F|88/100
+|-damage|p1a: Blissey|76/100|[from] Spikes
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|
+|-heal|p2a: Zapdos|96/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1727817640
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|move|p2a: Zapdos|Roar|p1a: Blissey
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p2a: Zapdos|65/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1727817647
+|switch|p2a: Gengar|Gengar, F|100/100
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1727817662
+|switch|p2a: Blissey|Blissey, F|97/100
+|-damage|p2a: Blissey|72/100|[from] Spikes
+|move|p1a: Celebi|Leech Seed|p2a: Blissey
+|-start|p2a: Blissey|move: Leech Seed
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|-damage|p2a: Blissey|65/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|48
+|
+|t:|1727817677
+|move|p1a: Celebi|Leech Seed||[still]
+|-fail|p1a: Celebi
+|move|p2a: Blissey|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|-damage|p2a: Blissey|59/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100 tox|[silent]
+|upkeep
+|turn|49
+|
+|t:|1727817683
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Starmie|Starmie|55/100
+|-damage|p1a: Starmie|42/100|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, F|74/100 par
+|
+|-heal|p2a: Skarmory|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1727817693
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|92/100
+|move|p2a: Skarmory|Toxic|p1a: Starmie|[miss]
+|-miss|p2a: Skarmory|p1a: Starmie
+|
+|-heal|p2a: Skarmory|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1727817700
+|switch|p2a: Blissey|Blissey, F|59/100
+|-damage|p2a: Blissey|34/100|[from] Spikes
+|move|p1a: Starmie|Surf|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|
+|-heal|p2a: Blissey|25/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1727817703
+|move|p1a: Starmie|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1727817709
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|28/100 par
+|-sideend|p1: Segale|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|78/100 par
+|
+|-heal|p2a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1727817726
+|switch|p1a: Metagross|Metagross|94/100
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Flygon|Flygon, M|85/100
+|
+|-heal|p2a: Flygon|91/100|[from] item: Leftovers
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1727817734
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|-heal|p2a: Flygon|97/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1727817746
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1727817755
+|move|p1a: Salamence|Dragon Claw|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|2/100
+|move|p2a: Flygon|Dragon Claw|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|33/100
+|
+|-heal|p1a: Salamence|39/100|[from] item: Leftovers
+|-heal|p2a: Flygon|8/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1727817764
+|switch|p2a: Blissey|Blissey, F|84/100
+|-damage|p2a: Blissey|59/100|[from] Spikes
+|move|p1a: Salamence|Dragon Claw|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|
+|-heal|p1a: Salamence|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1727817769
+|switch|p1a: Metagross|Metagross|99/100
+|move|p2a: Blissey|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|88/100
+|
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1727817778
+|switch|p2a: Skarmory|Skarmory, F|86/100 par
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1727817784
+|switch|p1a: Salamence|Salamence, M|45/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|cant|p2a: Skarmory|par
+|
+|-heal|p1a: Salamence|51/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1727817799
+|switch|p2a: Zapdos|Zapdos|65/100
+|move|p1a: Salamence|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|
+|-heal|p1a: Salamence|57/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|48/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1727817822
+|switch|p1a: Blissey|Blissey, F|65/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|
+|-heal|p2a: Zapdos|54/100|[from] item: Leftovers
+|-heal|p1a: Blissey|54/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|inactive|KingWafl has 270 seconds left.
+|
+|t:|1727817845
+|switch|p1a: Metagross|Metagross|99/100
+|move|p2a: Zapdos|Roar|p1a: Metagross
+|drag|p1a: Starmie|Starmie|92/100
+|
+|-heal|p2a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|inactive|KingWafl has 270 seconds left.
+|
+|t:|1727817863
+|switch|p1a: Blissey|Blissey, F|54/100
+|switch|p2a: Flygon|Flygon, M|8/100
+|
+|-heal|p2a: Flygon|14/100|[from] item: Leftovers
+|-heal|p1a: Blissey|60/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1727817867
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Blissey|Ice Beam|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p2a: Flygon|20/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1727817872
+|switch|p2a: Blissey|Blissey, F|56/100
+|-damage|p2a: Blissey|31/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|21/100
+|
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|27/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1727817875
+|switch|p1a: Metagross|Metagross|99/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|77/100
+|
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1727817877
+|switch|p2a: Skarmory|Skarmory, F|98/100 par
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1727817885
+|switch|p1a: Starmie|Starmie|92/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Segale|Spikes
+|
+|upkeep
+|turn|71
+|
+|t:|1727817906
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Starmie|Surf|p2a: Gengar
+|-damage|p2a: Gengar|43/100
+|
+|-heal|p2a: Gengar|49/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1727817925
+|move|p2a: Gengar|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Starmie
+|
+|t:|1727817938
+|switch|p2a: Flygon|Flygon, M|20/100
+|switch|p1a: Salamence|Salamence, M|57/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|
+|-heal|p1a: Salamence|63/100|[from] item: Leftovers
+|-heal|p2a: Flygon|26/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1727817943
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p1a: Salamence|69/100|[from] item: Leftovers
+|-heal|p2a: Flygon|32/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1727817949
+|switch|p2a: Zapdos|Zapdos|60/100
+|move|p1a: Salamence|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100
+|
+|-heal|p1a: Salamence|75/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|40/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1727817955
+|move|p1a: Salamence|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|11/100
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|
+|-heal|p1a: Salamence|81/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1727817959
+|switch|p1a: Blissey|Blissey, F|73/100
+|-damage|p1a: Blissey|60/100|[from] Spikes
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Roar|p1a: Blissey|[from]Sleep Talk
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|77
+|
+|t:|1727817967
+|switch|p1a: Blissey|Blissey, F|60/100
+|-damage|p1a: Blissey|48/100|[from] Spikes
+|cant|p2a: Zapdos|slp
+|move|p2a: Zapdos|Sleep Talk|p2a: Zapdos
+|move|p2a: Zapdos|Roar|p1a: Blissey|[from]Sleep Talk
+|drag|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1727817978
+|switch|p2a: Skarmory|Skarmory, F|100/100 par
+|move|p1a: Celebi|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|88/100 par|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|79
+|
+|t:|1727817985
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Segale|Spikes
+|
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100 par|[from] item: Leftovers
+|-damage|p2a: Skarmory|82/100 par|[from] Leech Seed|[of] p1a: Metagross
+|-heal|p1a: Metagross|100/100|[silent]
+|upkeep
+|turn|80
+|
+|t:|1727817988
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100 par
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|
+|-heal|p1a: Celebi|90/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|70/100 par|[from] item: Leftovers
+|-damage|p2a: Skarmory|58/100 par|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|99/100|[silent]
+|upkeep
+|turn|81
+|
+|t:|1727817992
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|84/100|[from] Spikes
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|58/100|[from] Spikes
+|
+|-heal|p1a: Metagross|90/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1727818009
+|move|p1a: Metagross|Meteor Mash|p2a: Blissey
+|-damage|p2a: Blissey|22/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-heal|p1a: Metagross|96/100|[from] item: Leftovers
+|-heal|p2a: Blissey|28/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1727818016
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Zapdos|74/100|[from] item: Leftovers
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1727818020
+|move|p1a: Metagross|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Zapdos
+|
+|t:|1727818035
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|switch|p1a: Salamence|Salamence, M|81/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-heal|p1a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1727818041
+|switch|p1a: Celebi|Celebi|99/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|move|p2a: Aerodactyl|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-heal|p1a: Celebi|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|84/100 tox|[from] psn
+|upkeep
+|turn|86
+|
+|t:|1727818048
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|76/100
+|move|p1a: Celebi|Hidden Power|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|
+|-heal|p2a: Aerodactyl|82/100|[from] item: Leftovers
+|-heal|p1a: Celebi|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|77/100 tox|[from] psn
+|upkeep
+|turn|87
+|
+|t:|1727818052
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|57/100
+|
+|-heal|p2a: Aerodactyl|63/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1727818057
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|-heal|p2a: Aerodactyl|69/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1727818060
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|82/100
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|drag|p2a: Skarmory|Skarmory, F|58/100
+|
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1727818072
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Flygon|Flygon, M|32/100
+|
+|-heal|p2a: Flygon|38/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1727818090
+|switch|p1a: Salamence|Salamence, M|87/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|move|p2a: Flygon|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|75/100
+|
+|-heal|p1a: Salamence|81/100|[from] item: Leftovers
+|-heal|p2a: Flygon|44/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1727818096
+|move|p2a: Flygon|Protect|p2a: Flygon
+|-singleturn|p2a: Flygon|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Flygon
+|-activate|p2a: Flygon|Protect
+|
+|-heal|p1a: Salamence|87/100|[from] item: Leftovers
+|-heal|p2a: Flygon|50/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1727818112
+|switch|p2a: Skarmory|Skarmory, F|64/100
+|move|p1a: Salamence|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|
+|-heal|p1a: Salamence|93/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1727818128
+|move|p1a: Salamence|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1727818132
+|switch|p2a: Aerodactyl|Aerodactyl, M|69/100
+|
+|-heal|p2a: Aerodactyl|75/100|[from] item: Leftovers
+|-heal|p1a: Salamence|99/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1727818148
+|switch|p2a: Blissey|Blissey, F|28/100
+|-damage|p2a: Blissey|3/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|94/100
+|
+|-heal|p1a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p2a: Blissey|9/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1727818151
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1727818159
+|switch|p2a: Flygon|Flygon, M|50/100
+|
+|-heal|p2a: Flygon|57/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1727818169
+|switch|p1a: Blissey|Blissey, F|48/100
+|-damage|p1a: Blissey|31/100|[from] Spikes
+|move|p2a: Flygon|Dragon Claw|p1a: Blissey
+|-damage|p1a: Blissey|22/100
+|
+|-heal|p2a: Flygon|63/100|[from] item: Leftovers
+|-heal|p1a: Blissey|28/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1727818174
+|move|p2a: Flygon|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|t:|1727818176
+|switch|p1a: Salamence|Salamence, M|99/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Flygon|atk|1
+|
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Flygon|69/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1727818179
+|move|p1a: Salamence|Dragon Claw|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|t:|1727818181
+|switch|p2a: Aerodactyl|Aerodactyl, M|75/100
+|
+|-heal|p2a: Aerodactyl|81/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1727818184
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|-heal|p2a: Aerodactyl|87/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1727818195
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: Aerodactyl|p1a: Skarmory
+|
+|-heal|p2a: Aerodactyl|93/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1727818202
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|68/100
+|
+|-heal|p2a: Aerodactyl|74/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1727818206
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|18/100
+|
+|-heal|p2a: Aerodactyl|80/100|[from] item: Leftovers
+|-heal|p1a: Salamence|24/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1727818213
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|73/100
+|
+|-heal|p2a: Aerodactyl|86/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1727818216
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|92/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1727818219
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|cant|p1a: Skarmory|flinch
+|
+|-heal|p2a: Aerodactyl|98/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1727818225
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory|[miss]
+|-miss|p2a: Aerodactyl|p1a: Skarmory
+|
+|-heal|p2a: Aerodactyl|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1727818230
+|switch|p1a: Salamence|Salamence, M|24/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1727818232
+|switch|p1a: Skarmory|Skarmory, M|73/100
+|
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1727818234
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1727818237
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1727818242
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1727818247
+|switch|p1a: Celebi|Celebi|77/100
+|-damage|p1a: Celebi|61/100|[from] Spikes
+|move|p2a: Aerodactyl|Rock Slide|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|8/100
+|
+|-heal|p1a: Celebi|14/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1727818255
+|move|p2a: Aerodactyl|Rock Slide|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1727818257
+|switch|p1a: Skarmory|Skarmory, M|73/100
+|
+|-heal|p1a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1727818265
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1727818270
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1727818273
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory|[miss]
+|-miss|p2a: Aerodactyl|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1727818276
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1727818287
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|119
+|
+|t:|1727818292
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|120
+|
+|t:|1727818294
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|121
+|
+|t:|1727818296
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|122
+|
+|t:|1727818298
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|123
+|
+|t:|1727818299
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|124
+|
+|t:|1727818301
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|125
+|
+|t:|1727818307
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|126
+|
+|t:|1727818309
+|move|p2a: Aerodactyl|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|127
+|
+|t:|1727818313
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|128
+|
+|t:|1727818315
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|129
+|
+|t:|1727818317
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|130
+|
+|t:|1727818323
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|72/100
+|cant|p1a: Skarmory|flinch
+|
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1727818326
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1727818328
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory|[miss]
+|-miss|p2a: Aerodactyl|p1a: Skarmory
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1727818331
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1727818333
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1727818336
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|136
+|
+|t:|1727818338
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|137
+|
+|t:|1727818341
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|138
+|
+|t:|1727818343
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|139
+|
+|t:|1727818347
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|140
+|
+|t:|1727818349
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|141
+|
+|t:|1727818351
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|142
+|
+|t:|1727818356
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|143
+|
+|t:|1727818367
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Roar|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|144
+|
+|t:|1727818369
+|move|p2a: Aerodactyl|Protect||[still]
+|-fail|p2a: Aerodactyl
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|145
+|
+|t:|1727818371
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Roar||[still]
+|-fail|p1a: Skarmory
+|
+|upkeep
+|turn|146
+|
+|t:|1727818374
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|147
+|
+|t:|1727818376
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Substitute|[damage]
+|
+|upkeep
+|turn|148
+|
+|t:|1727818377
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|149
+|
+|t:|1727818379
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-fail|p2a: Aerodactyl|move: Substitute
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|
+|upkeep
+|turn|150
+|
+|t:|1727818381
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|upkeep
+|turn|151
+|
+|t:|1727818386
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|76/100
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|82/100
+|
+|-heal|p2a: Aerodactyl|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1727818389
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Aerodactyl|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|t:|1727818391
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|60/100
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|76/100
+|
+|-heal|p2a: Aerodactyl|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1727818395
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1727818398
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Aerodactyl|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1727818402
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|69/100
+|
+|-heal|p2a: Aerodactyl|75/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1727818405
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|-heal|p2a: Aerodactyl|81/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|158
+|
+|t:|1727818407
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-activate|p2a: Aerodactyl|Protect
+|
+|-heal|p2a: Aerodactyl|87/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|159
+|
+|t:|1727818409
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|85/100
+|-damage|p2a: Aerodactyl|84/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|
+|-heal|p2a: Aerodactyl|90/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|160
+|
+|t:|1727818413
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100
+|-damage|p2a: Aerodactyl|87/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|68/100
+|
+|-heal|p2a: Aerodactyl|74/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1727818416
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|80/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1727818418
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|82/100
+|-damage|p2a: Aerodactyl|77/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|59/100
+|
+|-heal|p2a: Aerodactyl|65/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1727818422
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|71/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1727818426
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|82/100
+|-damage|p2a: Aerodactyl|68/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|50/100
+|
+|-heal|p2a: Aerodactyl|56/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1727818428
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|62/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|166
+|
+|t:|1727818433
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|83/100
+|-damage|p2a: Aerodactyl|59/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|42/100
+|
+|-heal|p2a: Aerodactyl|48/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|167
+|
+|t:|1727818435
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Aerodactyl|54/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1727818437
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|84/100
+|-damage|p2a: Aerodactyl|51/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|32/100
+|
+|-heal|p2a: Aerodactyl|38/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1727818439
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|78/100
+|-damage|p2a: Aerodactyl|35/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Drill Peck|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|17/100
+|
+|-heal|p2a: Aerodactyl|23/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|170
+|
+|t:|1727818440
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|-damage|p2a: Aerodactyl|19/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Struggle|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|5/100
+|-damage|p1a: Skarmory|68/100|[from] Recoil|[of] p2a: Aerodactyl
+|
+|-heal|p2a: Aerodactyl|11/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1727818444
+|move|p2a: Aerodactyl|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|-damage|p2a: Aerodactyl|7/100|[from] Recoil|[of] p1a: Skarmory
+|move|p1a: Skarmory|Struggle|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p1a: Skarmory|60/100|[from] Recoil|[of] p2a: Aerodactyl
+|faint|p2a: Aerodactyl
+|
+|win|Segale
+|c|☆KingWafl|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-793842">
+{"id":"smogtours-gen3ou-793842","format":"[Gen 3] OU","players":["Segale","KingWafl"],"uploadtime":1727818444,"views":123,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

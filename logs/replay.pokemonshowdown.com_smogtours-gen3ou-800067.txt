@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: advwtrainingwheels vs. Big_Squatto - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between advwtrainingwheels and Big_Squatto! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800067">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729368353
+|gametype|singles
+|player|p1|advwtrainingwheels|cyclistf-gen4|
+|player|p2|Big_Squatto|barry|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729368353
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Slaking|Slaking, M|100/100
+|turn|1
+|
+|t:|1729368369
+|-singleturn|p2a: Slaking|move: Focus Punch
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Slaking|Focus Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729368379
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1729368384
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729368400
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|44/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: advwtrainingwheels|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729368408
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729368419
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Jirachi|[miss]
+|-miss|p1a: Metagross|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1729368426
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Metagross|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729368433
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Jirachi|Fire Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729368443
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|83/100|[from] Sandstorm
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p1a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729368453
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-damage|p2a: Blissey|78/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|78/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1729368470
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729368485
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Claydol|Shadow Ball|p1a: Metagross
+|-damage|p1a: Metagross|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1729368497
+|switch|p1a: Zapdos|Zapdos|70/100
+|move|p2a: Claydol|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729368505
+|switch|p2a: Blissey|Blissey, F|78/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-damage|p2a: Blissey|72/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|72/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1729368517
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Blissey|Flamethrower|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|66/100 tox|[from] Sandstorm
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|-heal|p2a: Blissey|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|60/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1729368538
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Surf|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729368555
+|switch|p2a: Slaking|Slaking, M|94/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|88/100|[from] Sandstorm
+|-heal|p1a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729368562
+|switch|p2a: Skarmory|Skarmory, F|56/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729368570
+|switch|p1a: Zapdos|Zapdos|70/100
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729368578
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapdos|Toxic|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729368587
+|switch|p2a: Blissey|Blissey, F|60/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-damage|p2a: Blissey|38/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729368597
+|switch|p1a: Dugtrio|Dugtrio, F, shiny|100/100
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|38/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729368605
+|move|p1a: Dugtrio|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729368609
+|switch|p2a: Salamence|Salamence, M|87/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Dugtrio|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729368619
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Salamence|Roar|p1a: Swampert
+|drag|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729368629
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729368640
+|switch|p1a: Swampert|Swampert, F|88/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|move|p2a: Claydol|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|55/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729368665
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Swampert|Protect||[still]
+|-fail|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729368676
+|move|p2a: Jirachi|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|80/100|[from] item: Leftovers
+|-heal|p1a: Swampert|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|61/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1729368685
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729368702
+|switch|p2a: Skarmory|Skarmory, F|74/100
+|switch|p1a: Dugtrio|Dugtrio, F, shiny|88/100
+|-damage|p1a: Dugtrio|76/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1729368710
+|switch|p1a: Swampert|Swampert, F|67/100
+|-damage|p1a: Swampert|55/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Swampert
+|-sidestart|p1: advwtrainingwheels|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729368717
+|move|p2a: Skarmory|Spikes|p1a: Swampert
+|-sidestart|p1: advwtrainingwheels|Spikes
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p1a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729368725
+|move|p2a: Skarmory|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|-heal|p1a: Swampert|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|67/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1729368735
+|switch|p2a: Jirachi|Jirachi|87/100
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|93/100|[from] item: Leftovers
+|-heal|p1a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729368743
+|move|p2a: Jirachi|Toxic|p1a: Swampert|[miss]
+|-miss|p2a: Jirachi|p1a: Swampert
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|-heal|p1a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729368751
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|-heal|p1a: Swampert|86/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729368765
+|move|p2a: Jirachi|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729368774
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|80/100|[from] item: Leftovers
+|-heal|p1a: Swampert|98/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729368781
+|switch|p2a: Skarmory|Skarmory, F|61/100
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|
+|-heal|p2a: Skarmory|86/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729368790
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|drag|p1a: Zapdos|Zapdos|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729368800
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729368818
+|switch|p2a: Slaking|Slaking, M|88/100
+|move|p1a: Zapdos|Toxic|p2a: Slaking|[miss]
+|-miss|p1a: Zapdos|p2a: Slaking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|82/100|[from] Sandstorm
+|-damage|p1a: Zapdos|64/100|[from] Sandstorm
+|-heal|p1a: Zapdos|70/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729368826
+|move|p2a: Slaking|Double-Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p2a: Slaking|62/100|[from] Recoil|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|t:|1729368829
+|switch|p1a: Dugtrio|Dugtrio, F, shiny|76/100
+|-damage|p1a: Dugtrio|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|56/100|[from] Sandstorm
+|upkeep
+|turn|43
+|
+|t:|1729368836
+|move|p1a: Dugtrio|Earthquake|p2a: Slaking
+|-damage|p2a: Slaking|14/100
+|cant|p2a: Slaking|ability: Truant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|8/100|[from] Sandstorm
+|upkeep
+|turn|44
+|
+|t:|1729368842
+|move|p1a: Dugtrio|Earthquake|p2a: Slaking
+|-damage|p2a: Slaking|0 fnt
+|faint|p2a: Slaking
+|
+|t:|1729368846
+|switch|p2a: Salamence|Salamence, M|87/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Dugtrio|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729368855
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|75/100|[from] Spikes
+|move|p2a: Salamence|Roar|p1a: Swampert
+|drag|p1a: Metagross|Metagross, shiny|73/100
+|-damage|p1a: Metagross|48/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729368866
+|move|p2a: Salamence|Flamethrower|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1729368873
+|switch|p1a: Swampert|Swampert, F|75/100
+|-damage|p1a: Swampert|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|81/100|[from] Sandstorm
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729368886
+|switch|p2a: Skarmory|Skarmory, F|78/100
+|move|p1a: Swampert|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729368893
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|drag|p1a: Dugtrio|Dugtrio, F, shiny|51/100
+|-damage|p1a: Dugtrio|27/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729368902
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Dugtrio|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729368910
+|switch|p2a: Claydol|Claydol|87/100
+|move|p1a: Dugtrio|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-crit|p2a: Claydol
+|-damage|p2a: Claydol|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|66/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729368918
+|switch|p1a: Swampert|Swampert, F|63/100
+|-damage|p1a: Swampert|38/100|[from] Spikes
+|move|p2a: Claydol|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|72/100|[from] item: Leftovers
+|-heal|p1a: Swampert|18/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729368927
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Claydol|Earthquake|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|78/100|[from] item: Leftovers
+|-heal|p1a: Swampert|24/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729368940
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Claydol|Earthquake|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|30/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729368951
+|switch|p2a: Jirachi|Jirachi|80/100
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|36/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729368959
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|32/100|[from] item: Leftovers
+|-heal|p1a: Swampert|42/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729368966
+|move|p2a: Jirachi|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|7/100
+|
+|-heal|p2a: Jirachi|57/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p1a: Swampert|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|42/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1729368977
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: Swampert|49/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729368984
+|move|p2a: Jirachi|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|43/100
+|
+|-heal|p2a: Jirachi|93/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Swampert|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|49/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|t:|1729368997
+|switch|p1a: Dugtrio|Dugtrio, F, shiny|27/100
+|-damage|p1a: Dugtrio|2/100|[from] Spikes
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729369004
+|move|p1a: Dugtrio|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|t:|1729369014
+|switch|p2a: Skarmory|Skarmory, F|71/100
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|61
+|
+|t:|1729369019
+|move|p1a: Dugtrio|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Dugtrio
+|drag|p1a: Swampert|Swampert, F|49/100 tox
+|-damage|p1a: Swampert|24/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|24/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1729369028
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|move|p2a: Skarmory|Roar|p1a: Swampert
+|drag|p1a: Dugtrio|Dugtrio, F, shiny|2/100
+|-damage|p1a: Dugtrio|0 fnt|[from] Spikes
+|faint|p1a: Dugtrio
+|
+|t:|1729369037
+|switch|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|63
+|
+|t:|1729369045
+|switch|p1a: Swampert|Swampert, F|24/100
+|-damage|p1a: Swampert|0 fnt|[from] Spikes
+|faint|p1a: Swampert
+|
+|t:|1729369047
+|switch|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|64
+|
+|t:|1729369061
+|switch|p2a: Salamence|Salamence, M|87/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|36/100|[from] Sandstorm
+|-heal|p2a: Salamence|42/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1729369071
+|switch|p2a: Claydol|Claydol|84/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|71/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729369078
+|switch|p2a: Salamence|Salamence, M|42/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|0 fnt|[from] Sandstorm
+|faint|p2a: Salamence
+|upkeep
+|
+|t:|1729369087
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|67
+|
+|t:|1729369091
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|move|p2a: Skarmory|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|95/100 tox|[from] psn
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729369099
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|83/100 tox|[from] psn
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|c|☆advwtrainingwheels|ggs wp. good luck the rest of the way!
+|
+|t:|1729369112
+|switch|p2a: Claydol|Claydol|71/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|65/100 tox|[from] psn
+|-heal|p2a: Claydol|65/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|c|☆Big_Squatto|gg was v fun
+|
+|t:|1729369121
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|52/100
+|cant|p2a: Claydol|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|41/100 tox|[from] psn
+|-heal|p2a: Claydol|58/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729369129
+|move|p1a: Aerodactyl|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|46/100
+|move|p2a: Claydol|Shadow Ball|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|8/100 tox
+|-unboost|p1a: Aerodactyl|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|0 fnt|[from] psn
+|faint|p1a: Aerodactyl
+|
+|win|Big_Squatto
+|upkeep
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800067">
+{"id":"smogtours-gen3ou-800067","format":"[Gen 3] OU","players":["advwtrainingwheels","Big_Squatto"],"uploadtime":1729369129,"views":98,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

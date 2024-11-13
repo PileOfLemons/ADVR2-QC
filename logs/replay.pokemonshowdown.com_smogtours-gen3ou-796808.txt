@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: mrsunsmash vs. bugcondition - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between mrsunsmash and bugcondition! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796808">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728516151
+|gametype|singles
+|player|p1|mrsunsmash|102|
+|player|p2|bugcondition|misty|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728516151
+|start
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Luna-T|Skarmory, F|100/100
+|turn|1
+|
+|t:|1728516178
+|switch|p2a: Ganymede|Regice, shiny|100/100
+|move|p1a: Vaporeon|Hydro Pump|p2a: Ganymede
+|-damage|p2a: Ganymede|68/100
+|
+|-heal|p2a: Ganymede|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728516196
+|move|p1a: Vaporeon|Substitute|p1a: Vaporeon
+|-start|p1a: Vaporeon|Substitute
+|-damage|p1a: Vaporeon|75/100
+|move|p2a: Ganymede|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Substitute|[damage]
+|
+|-heal|p1a: Vaporeon|82/100|[from] item: Leftovers
+|-heal|p2a: Ganymede|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728516199
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1728516211
+|switch|p1a: Jolteon|Jolteon, M|100/100|[from] Baton Pass
+|move|p2a: Ganymede|Thunderbolt|p1a: Jolteon
+|-immune|p1a: Jolteon|[from] ability: Volt Absorb
+|
+|-heal|p2a: Ganymede|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1728516248
+|switch|p2a: Halimede|Claydol, shiny|100/100
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1728516265
+|switch|p1a: Vaporeon|Vaporeon, M|82/100|[from] Baton Pass
+|
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1728516275
+|switch|p2a: Ganymede|Regice, shiny|86/100
+|move|p1a: Vaporeon|Hydro Pump|p2a: Ganymede
+|-damage|p2a: Ganymede|52/100
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p2a: Ganymede|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728516282
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1728516286
+|switch|p1a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p2a: Ganymede|Thunderbolt|p1a: Metagross
+|-end|p1a: Metagross|Substitute
+|
+|-heal|p2a: Ganymede|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|bugcondition has 270 seconds left.
+|
+|t:|1728516333
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Neith|Metagross|100/100
+|
+|upkeep
+|turn|8
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1728516366
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|move|p2a: Neith|Agility|p2a: Neith
+|-boost|p2a: Neith|spe|2
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728516379
+|move|p2a: Neith|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|move|p1a: Zapdos|Thunderbolt|p2a: Neith
+|-damage|p2a: Neith|38/100
+|
+|-heal|p2a: Neith|44/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728516386
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Neith|Rock Slide|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|88/100
+|
+|-heal|p2a: Neith|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|bugcondition has 240 seconds left.
+|
+|t:|1728516406
+|switch|p2a: Luna-T|Skarmory, F|100/100
+|move|p1a: Metagross|Explosion|p2a: Luna-T
+|-resisted|p2a: Luna-T
+|-damage|p2a: Luna-T|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Luna-T
+|inactive|bugcondition has 240 seconds left.
+|inactive|bugcondition has 210 seconds left.
+|
+|t:|1728516461
+|switch|p1a: Vaporeon|Vaporeon, M|94/100
+|switch|p2a: Saturn|Gengar, F|100/100
+|
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728516476
+|move|p2a: Saturn|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|70/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Saturn
+|-damage|p2a: Saturn|48/100
+|
+|-heal|p2a: Saturn|54/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|bugcondition has 210 seconds left.
+|
+|t:|1728516501
+|switch|p1a: Zapdos|Zapdos|88/100
+|move|p2a: Saturn|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p2a: Saturn
+|faint|p1a: Zapdos
+|inactive|mrsunsmash has 270 seconds left.
+|inactive|bugcondition has 180 seconds left.
+|
+|t:|1728516554
+|switch|p2a: Ganymede|Regice, shiny|64/100
+|switch|p1a: Vaporeon|Vaporeon, M|76/100
+|
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|-heal|p2a: Ganymede|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|mrsunsmash has 270 seconds left.
+|
+|t:|1728516568
+|move|p1a: Vaporeon|Hydro Pump|p2a: Ganymede
+|-damage|p2a: Ganymede|40/100
+|move|p2a: Ganymede|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|41/100
+|
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|-heal|p2a: Ganymede|46/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|mrsunsmash has 270 seconds left.
+|
+|t:|1728516587
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Ganymede|Thunderbolt|p1a: Jolteon
+|-immune|p1a: Jolteon|[from] ability: Volt Absorb
+|
+|-heal|p2a: Ganymede|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|mrsunsmash has 270 seconds left.
+|
+|t:|1728516606
+|switch|p2a: Halimede|Claydol, shiny|100/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Halimede
+|-immune|p2a: Halimede
+|
+|upkeep
+|turn|17
+|inactive|mrsunsmash has 270 seconds left.
+|
+|t:|1728516627
+|move|p1a: Jolteon|Wish|p1a: Jolteon
+|move|p2a: Halimede|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1728516631
+|switch|p1a: Vaporeon|Vaporeon, M|47/100
+|
+|-heal|p1a: Vaporeon|53/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|mrsunsmash has 270 seconds left.
+|
+|t:|1728516651
+|switch|p2a: Triton|Suicune|100/100
+|move|p1a: Vaporeon|Substitute|p1a: Vaporeon
+|-start|p1a: Vaporeon|Substitute
+|-damage|p1a: Vaporeon|28/100
+|
+|-heal|p1a: Vaporeon|78/100|[from] move: Wish|[wisher] Jolteon
+|-heal|p1a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728516654
+|move|p2a: Triton|Calm Mind|p2a: Triton
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|move|p1a: Vaporeon|Baton Pass|p1a: Vaporeon
+|
+|t:|1728516656
+|switch|p1a: Suicune|Suicune|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|20
+|inactive|bugcondition has 180 seconds left.
+|
+|t:|1728516678
+|switch|p2a: Ganymede|Regice, shiny|52/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Ganymede|58/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728516683
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Ganymede|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Ganymede|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728516696
+|move|p1a: Suicune|Hydro Pump|p2a: Ganymede
+|-damage|p2a: Ganymede|11/100
+|move|p2a: Ganymede|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|
+|-heal|p2a: Ganymede|17/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|bugcondition has 180 seconds left.
+|
+|t:|1728516711
+|move|p1a: Suicune|Hidden Power|p2a: Ganymede
+|-damage|p2a: Ganymede|0 fnt
+|faint|p2a: Ganymede
+|inactive|bugcondition has 180 seconds left.
+|
+|t:|1728516743
+|switch|p2a: Triton|Suicune|100/100
+|
+|upkeep
+|turn|24
+|inactive|bugcondition has 150 seconds left.
+|
+|t:|1728516783
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|41/100
+|move|p2a: Triton|Calm Mind|p2a: Triton
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|
+|-heal|p2a: Triton|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728516787
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|5/100
+|move|p2a: Triton|Rest|p2a: Triton
+|-status|p2a: Triton|slp|[from] move: Rest
+|-heal|p2a: Triton|100/100 slp|[silent]
+|
+|upkeep
+|turn|26
+|
+|t:|1728516794
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Rest|p2a: Triton|[from]Sleep Talk
+|
+|upkeep
+|turn|27
+|
+|t:|1728516798
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|51/100 slp
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Calm Mind|p2a: Triton|[from]Sleep Talk
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|
+|-heal|p2a: Triton|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728516803
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|-curestatus|p2a: Triton|slp|[msg]
+|move|p2a: Triton|Rest|p2a: Triton
+|-status|p2a: Triton|slp|[from] move: Rest
+|-heal|p2a: Triton|100/100 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|t:|1728516807
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Calm Mind|p2a: Triton|[from]Sleep Talk
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|
+|upkeep
+|turn|30
+|
+|t:|1728516810
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Surf|p1a: Suicune|[from]Sleep Talk
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|89/100
+|
+|-heal|p1a: Suicune|95/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|bugcondition has 180 seconds left.
+|
+|t:|1728516830
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|46/100 slp
+|-curestatus|p2a: Triton|slp|[msg]
+|move|p2a: Triton|Calm Mind|p2a: Triton
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Triton|52/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728516834
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|8/100
+|move|p2a: Triton|Rest|p2a: Triton
+|-status|p2a: Triton|slp|[from] move: Rest
+|-heal|p2a: Triton|100/100 slp|[silent]
+|
+|upkeep
+|turn|33
+|
+|t:|1728516839
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|56/100 slp
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Surf|p1a: Suicune|[from]Sleep Talk
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|86/100
+|
+|-heal|p1a: Suicune|92/100|[from] item: Leftovers
+|-heal|p2a: Triton|62/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728516843
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|17/100 slp
+|cant|p2a: Triton|slp
+|move|p2a: Triton|Sleep Talk|p2a: Triton
+|move|p2a: Triton|Calm Mind|p2a: Triton|[from]Sleep Talk
+|-boost|p2a: Triton|spa|1
+|-boost|p2a: Triton|spd|1
+|
+|-heal|p1a: Suicune|98/100|[from] item: Leftovers
+|-heal|p2a: Triton|23/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|bugcondition has 210 seconds left.
+|
+|t:|1728516856
+|move|p1a: Suicune|Hidden Power|p2a: Triton
+|-supereffective|p2a: Triton
+|-damage|p2a: Triton|0 fnt
+|faint|p2a: Triton
+|
+|t:|1728516858
+|switch|p2a: Halimede|Claydol, shiny|100/100
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728516863
+|move|p1a: Suicune|Ice Beam|p2a: Halimede
+|-supereffective|p2a: Halimede
+|-damage|p2a: Halimede|0 fnt
+|faint|p2a: Halimede
+|
+|t:|1728516865
+|switch|p2a: Neith|Metagross|50/100
+|
+|-heal|p2a: Neith|56/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728516892
+|move|p1a: Suicune|Ice Beam|p2a: Neith
+|-resisted|p2a: Neith
+|-damage|p2a: Neith|0 fnt
+|faint|p2a: Neith
+|
+|win|mrsunsmash
+|c|☆bugcondition|gg wp
+|c|☆mrsunsmash|gg!
+|c|☆mrsunsmash|gl with the rest of your tourney
+|c|☆bugcondition|you too!
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796808">
+{"id":"smogtours-gen3ou-796808","format":"[Gen 3] OU","players":["mrsunsmash","bugcondition"],"uploadtime":1728516892,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

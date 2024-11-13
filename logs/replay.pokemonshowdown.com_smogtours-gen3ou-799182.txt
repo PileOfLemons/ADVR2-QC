@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: NekuYagokoro vs. Thebadger1230 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between NekuYagokoro and Thebadger1230! Format: [Gen 3] OU; Date: Oct 16, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799182">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729116331
+|gametype|singles
+|player|p1|NekuYagokoro|102|
+|player|p2|Thebadger1230|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729116331
+|start
+|switch|p1a: rawr|Salamence, F|100/100
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|-ability|p1a: rawr|Intimidate|boost
+|-unboost|p2a: Hariyama|atk|1
+|turn|1
+|
+|t:|1729116342
+|move|p1a: rawr|Fire Blast|p2a: Hariyama
+|-damage|p2a: Hariyama|63/100
+|move|p2a: Hariyama|Knock Off|p1a: rawr
+|-damage|p1a: rawr|97/100
+|-enditem|p1a: rawr|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-heal|p2a: Hariyama|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729116353
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: rawr|Dragon Claw|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729116372
+|switch|p2a: Hariyama|Hariyama, M|69/100
+|move|p1a: rawr|Brick Break|p2a: Hariyama
+|-damage|p2a: Hariyama|50/100
+|
+|-heal|p2a: Hariyama|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729116381
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: rawr|atk|1
+|move|p1a: rawr|Fire Blast|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|81/100
+|
+|-heal|p2a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729116387
+|move|p1a: rawr|Dragon Claw|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|5/100
+|move|p2a: Salamence|Rock Slide|p1a: rawr
+|-supereffective|p1a: rawr
+|-damage|p1a: rawr|21/100
+|
+|-heal|p2a: Salamence|11/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729116399
+|switch|p2a: Blissey|Blissey, F|93/100
+|move|p1a: rawr|Dragon Claw|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729116404
+|move|p1a: rawr|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|51/100
+|move|p2a: Blissey|Ice Beam|p1a: rawr
+|-supereffective|p1a: rawr
+|-crit|p1a: rawr
+|-damage|p1a: rawr|0 fnt
+|faint|p1a: rawr
+|
+|t:|1729116410
+|switch|p1a: hi yt!!|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: hi yt!!
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|45/100|[from] Sandstorm
+|-heal|p2a: Blissey|51/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729116420
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: hi yt!!|Dragon Dance|p1a: hi yt!!
+|-boost|p1a: hi yt!!|atk|1
+|-boost|p1a: hi yt!!|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1729116424
+|move|p1a: hi yt!!|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|25/100
+|move|p2a: Claydol|Earthquake|p1a: hi yt!!
+|-supereffective|p1a: hi yt!!
+|-damage|p1a: hi yt!!|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729116433
+|switch|p2a: Salamence|Salamence, F|11/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: hi yt!!|atk|1
+|move|p1a: hi yt!!|Hidden Power|p2a: Salamence
+|-resisted|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729116436
+|switch|p2a: Claydol|Claydol|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729116444
+|move|p1a: hi yt!!|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1729116451
+|switch|p2a: Hariyama|Hariyama, M|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|50/100|[from] Sandstorm
+|-heal|p2a: Hariyama|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729116459
+|move|p1a: hi yt!!|Rock Slide|p2a: Hariyama
+|-resisted|p2a: Hariyama
+|-damage|p2a: Hariyama|38/100
+|cant|p2a: Hariyama|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|32/100|[from] Sandstorm
+|-heal|p2a: Hariyama|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729116464
+|move|p1a: hi yt!!|Earthquake|p2a: Hariyama
+|-damage|p2a: Hariyama|7/100
+|move|p2a: Hariyama|Brick Break|p1a: hi yt!!
+|-supereffective|p1a: hi yt!!
+|-damage|p1a: hi yt!!|0 fnt
+|faint|p1a: hi yt!!
+|
+|t:|1729116469
+|switch|p1a: grilled.|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|94/100|[from] Sandstorm
+|-damage|p2a: Hariyama|1/100|[from] Sandstorm
+|-heal|p1a: grilled.|100/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|7/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729116475
+|switch|p2a: Blissey|Blissey, F|51/100
+|move|p1a: grilled.|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|25/100|[from] Sandstorm
+|-heal|p1a: grilled.|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729116481
+|switch|p1a: lets go gambling!|Metagross|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|75/100|[from] Sandstorm
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729116489
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: lets go gambling!|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729116498
+|move|p2a: Jirachi|Fire Punch|p1a: lets go gambling!
+|-supereffective|p1a: lets go gambling!
+|-damage|p1a: lets go gambling!|49/100
+|-status|p1a: lets go gambling!|brn
+|move|p1a: lets go gambling!|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|62/100|[from] item: Leftovers
+|-heal|p1a: lets go gambling!|55/100 brn|[from] item: Leftovers
+|-damage|p1a: lets go gambling!|43/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1729116504
+|switch|p1a: mmm yummy elc|Swampert, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729116511
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: mmm yummy elc|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729116520
+|move|p2a: Jirachi|Toxic|p1a: mmm yummy elc|[miss]
+|-miss|p2a: Jirachi|p1a: mmm yummy elc
+|move|p1a: mmm yummy elc|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729116529
+|switch|p1a: is this gen 2 ou|Snorlax, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|94/100|[from] Sandstorm
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729116534
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: is this gen 2 ou|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|94/100|[from] Sandstorm
+|-heal|p2a: Jirachi|33/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729116539
+|-singleturn|p1a: is this gen 2 ou|move: Focus Punch
+|move|p2a: Jirachi|Fire Punch|p1a: is this gen 2 ou
+|-damage|p1a: is this gen 2 ou|91/100
+|move|p1a: is this gen 2 ou|Focus Punch||[still]
+|cant|p1a: is this gen 2 ou|Focus Punch|Focus Punch
+|
+|-heal|p2a: Jirachi|83/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|85/100|[from] Sandstorm
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|91/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729116548
+|move|p2a: Jirachi|Fire Punch|p1a: is this gen 2 ou
+|-damage|p1a: is this gen 2 ou|80/100
+|-status|p1a: is this gen 2 ou|brn
+|move|p1a: is this gen 2 ou|Body Slam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|74/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|80/100 brn|[from] item: Leftovers
+|-damage|p1a: is this gen 2 ou|67/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1729116557
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: is this gen 2 ou|Shadow Ball|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|61/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|67/100 brn|[from] item: Leftovers
+|-damage|p1a: is this gen 2 ou|55/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1729116562
+|move|p2a: Jirachi|Fire Punch|p1a: is this gen 2 ou
+|-damage|p1a: is this gen 2 ou|44/100 brn
+|move|p1a: is this gen 2 ou|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|38/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|44/100 brn|[from] item: Leftovers
+|-damage|p1a: is this gen 2 ou|32/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1729116568
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: is this gen 2 ou|Shadow Ball|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: is this gen 2 ou|26/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|85/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|32/100 brn|[from] item: Leftovers
+|-damage|p1a: is this gen 2 ou|19/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1729116575
+|switch|p1a: grilled.|Zapdos|100/100
+|move|p2a: Jirachi|Fire Punch|p1a: grilled.
+|-damage|p1a: grilled.|82/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|76/100|[from] Sandstorm
+|-heal|p1a: grilled.|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729116581
+|move|p1a: grilled.|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|move|p2a: Jirachi|Toxic|p1a: grilled.
+|-status|p1a: grilled.|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|76/100 tox|[from] Sandstorm
+|-heal|p1a: grilled.|82/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1729116588
+|switch|p1a: is this gen 2 ou|Snorlax, M|19/100 brn
+|switch|p2a: Blissey|Blissey, F|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|75/100|[from] Sandstorm
+|-damage|p1a: is this gen 2 ou|13/100 brn|[from] Sandstorm
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|-heal|p1a: is this gen 2 ou|19/100 brn|[from] item: Leftovers
+|-damage|p1a: is this gen 2 ou|7/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1729116595
+|move|p2a: Blissey|Ice Beam|p1a: is this gen 2 ou
+|-damage|p1a: is this gen 2 ou|0 fnt
+|faint|p1a: is this gen 2 ou
+|
+|t:|1729116601
+|switch|p1a: lets go gambling!|Metagross|43/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|75/100|[from] Sandstorm
+|-heal|p1a: lets go gambling!|49/100 brn|[from] item: Leftovers
+|-damage|p1a: lets go gambling!|37/100 brn|[from] brn
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729116608
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|move|p1a: lets go gambling!|Explosion|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100 par
+|faint|p1a: lets go gambling!
+|
+|t:|1729116610
+|switch|p1a: mmm yummy elc|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729116619
+|move|p1a: mmm yummy elc|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|37/100 par
+|move|p2a: Jirachi|Toxic|p1a: mmm yummy elc
+|-status|p1a: mmm yummy elc|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: mmm yummy elc|94/100 tox|[from] psn
+|-heal|p2a: Jirachi|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729116626
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: mmm yummy elc|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: mmm yummy elc|100/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|88/100 tox|[from] psn
+|-heal|p2a: Jirachi|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729116632
+|switch|p2a: Hariyama|Hariyama, M|7/100
+|move|p1a: mmm yummy elc|Earthquake|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1729116633
+|switch|p2a: Jirachi|Jirachi|50/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: mmm yummy elc|94/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|76/100 tox|[from] psn
+|-heal|p2a: Jirachi|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729116639
+|switch|p1a: grilled.|Zapdos|76/100 tox
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|69/100 tox|[from] Sandstorm
+|-heal|p1a: grilled.|76/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|69/100 tox|[from] psn
+|-heal|p2a: Jirachi|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729116647
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: grilled.|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|63/100 tox|[from] Sandstorm
+|-heal|p1a: grilled.|69/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|57/100 tox|[from] psn
+|-heal|p2a: Jirachi|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729116651
+|switch|p2a: Blissey|Blissey, F|81/100
+|move|p1a: grilled.|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|51/100 tox|[from] Sandstorm
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p1a: grilled.|57/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|38/100 tox|[from] psn
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729116658
+|switch|p1a: mmm yummy elc|Swampert, M|76/100 tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: mmm yummy elc|82/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|76/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729116662
+|-singleturn|p1a: mmm yummy elc|move: Focus Punch
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: mmm yummy elc|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729116668
+|switch|p2a: Jirachi|Jirachi|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|-heal|p1a: mmm yummy elc|82/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|70/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1729116674
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: mmm yummy elc|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|-heal|p1a: mmm yummy elc|76/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|57/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729116678
+|-singleturn|p1a: mmm yummy elc|move: Focus Punch
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: mmm yummy elc|Focus Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|81/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: mmm yummy elc|64/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|39/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1729116688
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: mmm yummy elc|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|69/100|[from] Sandstorm
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: mmm yummy elc|45/100 tox|[from] item: Leftovers
+|-damage|p1a: mmm yummy elc|14/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1729116692
+|-singleturn|p1a: mmm yummy elc|move: Focus Punch
+|move|p2a: Suicune|Surf|p1a: mmm yummy elc
+|-damage|p1a: mmm yummy elc|0 fnt
+|faint|p1a: mmm yummy elc
+|
+|t:|1729116694
+|switch|p1a: grilled.|Zapdos|38/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|32/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|69/100|[from] Sandstorm
+|-heal|p1a: grilled.|38/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|32/100 tox|[from] psn
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729116696
+|move|p1a: grilled.|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1729116698
+|switch|p2a: Jirachi|Jirachi|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|26/100 tox|[from] Sandstorm
+|-heal|p1a: grilled.|32/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|20/100 tox|[from] psn
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729116703
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: grilled.|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: grilled.|13/100 tox|[from] Sandstorm
+|-heal|p1a: grilled.|20/100 tox|[from] item: Leftovers
+|-damage|p1a: grilled.|1/100 tox|[from] psn
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729116705
+|move|p2a: Jirachi|Fire Punch|p1a: grilled.
+|-damage|p1a: grilled.|0 fnt
+|faint|p1a: grilled.
+|
+|win|Thebadger1230
+|c|☆NekuYagokoro|gg!
+|c|☆Thebadger1230|gg
+|c|☆Thebadger1230|gl on next round!
+|c|☆NekuYagokoro|thanks man u 2 :>
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799182">
+{"id":"smogtours-gen3ou-799182","format":"[Gen 3] OU","players":["NekuYagokoro","Thebadger1230"],"uploadtime":1729116705,"views":89,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

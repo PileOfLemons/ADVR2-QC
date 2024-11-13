@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: scald&gt;focusmiss vs. jerdgerd - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between scald&gt;focusmiss and jerdgerd! Format: [Gen 3] OU; Date: Oct 29, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803206">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730164376
+|gametype|singles
+|player|p1|scald>focusmiss|265|
+|player|p2|jerdgerd|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730164376
+|start
+|switch|p1a: Jynx|Jynx, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1730164402
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Jynx|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|82/100
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|scald>focusmiss has 270 seconds left.
+|inactive|scald>focusmiss has 240 seconds left.
+|inactive|scald>focusmiss has 210 seconds left.
+|
+|t:|1730164511
+|move|p1a: Jynx|Lovely Kiss|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Lovely Kiss
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|scald>focusmiss has 180 seconds left.
+|inactive|scald>focusmiss has 150 seconds left.
+|
+|t:|1730164567
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jynx|Mean Look|p2a: Jirachi
+|-activate|p2a: Jirachi|trapped
+|
+|upkeep
+|turn|4
+|
+|t:|1730164574
+|move|p1a: Jynx|Perish Song|p1a: Jynx
+|-start|p1a: Jynx|perish3|[silent]
+|-start|p2a: Jirachi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-start|p1a: Jynx|perish3
+|-start|p2a: Jirachi|perish3
+|upkeep
+|turn|5
+|
+|t:|1730164585
+|move|p1a: Jynx|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|86/100
+|move|p2a: Jirachi|Fire Punch|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|22/100
+|
+|-heal|p1a: Jynx|27/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|-start|p1a: Jynx|perish2
+|-start|p2a: Jirachi|perish2
+|upkeep
+|turn|6
+|inactive|scald>focusmiss has 150 seconds left.
+|inactive|scald>focusmiss has 120 seconds left.
+|inactive|scald>focusmiss has 90 seconds left.
+|inactive|jerdgerd has 270 seconds left.
+|
+|t:|1730164684
+|move|p1a: Jynx|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|78/100
+|move|p2a: Jirachi|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|inactive|scald>focusmiss has 90 seconds left.
+|
+|t:|1730164703
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|-heal|p2a: Jirachi|84/100|[from] item: Leftovers
+|-start|p2a: Jirachi|perish1
+|upkeep
+|turn|7
+|inactive|jerdgerd has 270 seconds left.
+|
+|t:|1730164708
+|move|p1a: Dugtrio|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|inactive|jerdgerd has 270 seconds left.
+|
+|t:|1730164717
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1730164729
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1730164736
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730164741
+|switch|p2a: Celebi|Celebi|100/100|[from] Baton Pass
+|move|p1a: Jolteon|Roar|p2a: Celebi
+|drag|p2a: Zapdos|Zapdos|82/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730164764
+|move|p1a: Jolteon|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|51/100
+|move|p2a: Zapdos|Hidden Power|p1a: Jolteon
+|-damage|p1a: Jolteon|73/100
+|
+|-heal|p1a: Jolteon|79/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730164783
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1730164788
+|switch|p1a: Celebi|Celebi|100/100|[from] Baton Pass
+|move|p2a: Zapdos|Hidden Power|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|90/100
+|
+|-heal|p1a: Celebi|96/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730164804
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730164811
+|move|p1a: Celebi|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|55/100
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|-heal|p2a: Celebi|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|scald>focusmiss has 120 seconds left.
+|inactive|scald>focusmiss has 90 seconds left.
+|
+|t:|1730164884
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|t:|1730164898
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|15
+|
+|t:|1730164904
+|move|p2a: Dugtrio|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|move|p1a: Celebi|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Celebi|47/100|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|t:|1730164911
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-heal|p1a: Celebi|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730164918
+|move|p2a: Gengar|Ice Punch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|33/100
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1730164920
+|switch|p1a: Jolteon|Jolteon, M|79/100|[from] Baton Pass
+|
+|-heal|p1a: Jolteon|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730164927
+|move|p1a: Jolteon|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1730164931
+|switch|p2a: Celebi|Celebi|62/100
+|
+|-heal|p1a: Jolteon|92/100|[from] item: Leftovers
+|-heal|p2a: Celebi|68/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|scald>focusmiss has 90 seconds left.
+|
+|t:|1730164973
+|move|p1a: Jolteon|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|4/100
+|move|p2a: Celebi|Giga Drain|p1a: Jolteon
+|-damage|p1a: Jolteon|77/100
+|-heal|p2a: Celebi|9/100|[from] drain|[of] p1a: Jolteon
+|
+|-heal|p1a: Jolteon|84/100|[from] item: Leftovers
+|-heal|p2a: Celebi|16/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730164983
+|move|p1a: Jolteon|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1730164987
+|switch|p2a: Suicune|Suicune|94/100 slp
+|
+|-heal|p1a: Jolteon|90/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|scald>focusmiss has 90 seconds left.
+|
+|t:|1730165019
+|move|p1a: Jolteon|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1730165023
+|switch|p2a: Zapdos|Zapdos|63/100
+|
+|-heal|p1a: Jolteon|96/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1730165028
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|scald>focusmiss
+|c|☆jerdgerd|gg
+|player|p2|
+|c|☆scald>focusmiss|Gg
+|player|p2|jerdgerd|265|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803206">
+{"id":"smogtours-gen3ou-803206","format":"[Gen 3] OU","players":["scald>focusmiss","jerdgerd"],"uploadtime":1730165028,"views":54,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

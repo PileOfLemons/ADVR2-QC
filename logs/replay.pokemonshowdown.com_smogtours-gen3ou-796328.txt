@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: VZR vs. Gen 1 for eva - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between VZR and Gen 1 for eva! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796328">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728358453
+|gametype|singles
+|player|p1|VZR|veteran|
+|player|p2|Gen 1 for eva|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728358453
+|start
+|switch|p1a: 썬더|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆VZR|hf!
+|c|☆Gen 1 for eva|U2 
+|inactive|VZR has 270 seconds left.
+|
+|t:|1728358492
+|switch|p1a: 무장조|Skarmory, M|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: 무장조
+|-damage|p1a: 무장조|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: 무장조|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Gen 1 for eva has 270 seconds left.
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358556
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: 무장조|Spikes|p2a: Celebi
+|-sidestart|p2: Gen 1 for eva|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 무장조|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|VZR has 270 seconds left.
+|
+|t:|1728358588
+|move|p1a: 무장조|Protect|p1a: 무장조
+|-singleturn|p1a: 무장조|Protect
+|move|p2a: Celebi|Leech Seed|p1a: 무장조
+|-activate|p1a: 무장조|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 무장조|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|VZR has 270 seconds left.
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358621
+|move|p2a: Celebi|Hidden Power|p1a: 무장조
+|-supereffective|p1a: 무장조
+|-damage|p1a: 무장조|47/100
+|move|p1a: 무장조|Spikes|p2a: Celebi
+|-sidestart|p2: Gen 1 for eva|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 무장조|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728358627
+|move|p1a: 무장조|Protect|p1a: 무장조
+|-singleturn|p1a: 무장조|Protect
+|move|p2a: Celebi|Leech Seed|p1a: 무장조
+|-activate|p1a: 무장조|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 무장조|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728358634
+|switch|p1a: 썬더|Zapdos|100/100
+|move|p2a: Celebi|Leech Seed|p1a: 썬더
+|-start|p1a: 썬더|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-damage|p1a: 썬더|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 썬더|100/100|[from] item: Leftovers
+|-damage|p1a: 썬더|88/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|7
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358647
+|move|p2a: Celebi|Psychic|p1a: 썬더
+|-damage|p1a: 썬더|60/100
+|move|p1a: 썬더|Light Screen|p1a: 썬더
+|-sidestart|p1: VZR|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-damage|p1a: 썬더|54/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: 썬더|60/100|[from] item: Leftovers
+|-damage|p1a: 썬더|48/100|[from] Leech Seed|[of] p2a: Celebi
+|upkeep
+|turn|8
+|inactive|Gen 1 for eva has 240 seconds left.
+|inactive|VZR has 270 seconds left.
+|inactive|Gen 1 for eva has 210 seconds left.
+|
+|t:|1728358691
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: 썬더|atk|1
+|switch|p1a: 프테라|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Gen 1 for eva has 210 seconds left.
+|
+|t:|1728358706
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: 프테라|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728358731
+|switch|p1a: 썬더|Zapdos|48/100
+|move|p2a: Skarmory|Spikes|p1a: 썬더
+|-sidestart|p1: VZR|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Gen 1 for eva has 210 seconds left.
+|
+|t:|1728358747
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|84/100|[from] Spikes
+|move|p1a: 썬더|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|68/100
+|
+|-sideend|p1: VZR|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|62/100|[from] Sandstorm
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p2a: Celebi|68/100|[from] item: Leftovers
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728358755
+|switch|p1a: 프테라|Aerodactyl, M|100/100
+|move|p2a: Celebi|Leech Seed|p1a: 프테라
+|-start|p1a: 프테라|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|62/100|[from] Sandstorm
+|-damage|p1a: 프테라|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|71/100|[silent]
+|-heal|p2a: Celebi|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728358763
+|switch|p1a: 팬텀|Gengar, M, shiny|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: 팬텀|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|94/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: 팬텀|100/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|VZR has 270 seconds left.
+|
+|t:|1728358774
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|84/100|[from] Spikes
+|move|p1a: 팬텀|Ice Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|63/100|[from] Sandstorm
+|-damage|p1a: 팬텀|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|69/100|[from] item: Leftovers
+|-heal|p1a: 팬텀|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|VZR has 270 seconds left.
+|
+|t:|1728358790
+|move|p2a: Starmie|Hydro Pump|p1a: 팬텀
+|-damage|p1a: 팬텀|40/100
+|move|p1a: 팬텀|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|Gen 1 for eva has 210 seconds left.
+|
+|t:|1728358806
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|33/100|[from] Sandstorm
+|-heal|p1a: 팬텀|40/100|[from] item: Leftovers
+|-heal|p2a: Metagross|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|VZR has 270 seconds left.
+|
+|t:|1728358836
+|switch|p1a: 대짱이|Swampert, M|100/100
+|-damage|p1a: 대짱이|88/100|[from] Spikes
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|96/100|[from] item: Leftovers
+|-heal|p1a: 대짱이|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Gen 1 for eva has 210 seconds left.
+|
+|t:|1728358852
+|switch|p2a: Skarmory|Skarmory, F|74/100
+|move|p1a: 대짱이|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p1a: 대짱이|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|VZR has 240 seconds left.
+|
+|t:|1728358875
+|switch|p1a: 썬더|Zapdos|48/100
+|move|p2a: Skarmory|Spikes|p1a: 썬더
+|-sidestart|p1: VZR|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728358888
+|switch|p2a: Metagross|Metagross|96/100
+|-damage|p2a: Metagross|80/100|[from] Spikes
+|move|p1a: 썬더|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|-heal|p2a: Metagross|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728358896
+|move|p1a: 썬더|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1728358901
+|switch|p2a: Celebi|Celebi|77/100
+|-damage|p2a: Celebi|61/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|55/100|[from] Sandstorm
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p2a: Celebi|61/100|[from] item: Leftovers
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728358918
+|move|p2a: Celebi|Leech Seed|p1a: 썬더
+|-start|p1a: 썬더|move: Leech Seed
+|move|p1a: 썬더|Roar|p2a: Celebi
+|drag|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 썬더|41/100|[from] Sandstorm
+|-heal|p1a: 썬더|48/100|[from] item: Leftovers
+|-damage|p1a: 썬더|35/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|98/100|[silent]
+|upkeep
+|turn|22
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358939
+|switch|p1a: 대짱이|Swampert, M|100/100
+|-damage|p1a: 대짱이|84/100|[from] Spikes
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: 대짱이|90/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728358945
+|move|p2a: Tyranitar|Double-Edge|p1a: 대짱이
+|-damage|p1a: 대짱이|44/100
+|-damage|p2a: Tyranitar|80/100|[from] Recoil|[of] p1a: 대짱이
+|move|p1a: 대짱이|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: 대짱이|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|VZR has 270 seconds left.
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358956
+|move|p2a: Tyranitar|Double-Edge|p1a: 대짱이
+|-damage|p1a: 대짱이|3/100
+|-damage|p2a: Tyranitar|4/100|[from] Recoil|[of] p1a: 대짱이
+|move|p1a: 대짱이|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|Gen 1 for eva has 240 seconds left.
+|
+|t:|1728358963
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: 대짱이|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: 대짱이|10/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728358966
+|move|p2a: Salamence|Dragon Claw|p1a: 대짱이
+|-damage|p1a: 대짱이|0 fnt
+|faint|p1a: 대짱이
+|
+|t:|1728358969
+|switch|p1a: 팬텀|Gengar, M, shiny|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|33/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: 팬텀|40/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728358991
+|switch|p2a: Skarmory|Skarmory, F|58/100
+|move|p1a: 팬텀|Ice Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|33/100|[from] Sandstorm
+|-heal|p1a: 팬텀|40/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728358997
+|move|p1a: 팬텀|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728359000
+|switch|p2a: Celebi|Celebi|61/100
+|-damage|p2a: Celebi|44/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|33/100|[from] Sandstorm
+|-damage|p2a: Celebi|38/100|[from] Sandstorm
+|-heal|p1a: 팬텀|40/100|[from] item: Leftovers
+|-heal|p2a: Celebi|44/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728359021
+|switch|p1a: 썬더|Zapdos|35/100
+|move|p2a: Celebi|Psychic|p1a: 썬더
+|-damage|p1a: 썬더|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|38/100|[from] Sandstorm
+|-damage|p1a: 썬더|1/100|[from] Sandstorm
+|-heal|p2a: Celebi|44/100|[from] item: Leftovers
+|-heal|p1a: 썬더|7/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Gen 1 for eva has 270 seconds left.
+|
+|t:|1728359034
+|move|p2a: Celebi|Psychic|p1a: 썬더
+|-damage|p1a: 썬더|0 fnt
+|faint|p1a: 썬더
+|
+|t:|1728359036
+|switch|p1a: 마기라스|Tyranitar, F|100/100
+|-damage|p1a: 마기라스|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|38/100|[from] Sandstorm
+|-heal|p2a: Celebi|44/100|[from] item: Leftovers
+|-heal|p1a: 마기라스|90/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728359047
+|move|p2a: Celebi|Giga Drain|p1a: 마기라스
+|-supereffective|p1a: 마기라스
+|-damage|p1a: 마기라스|43/100
+|-heal|p2a: Celebi|69/100|[from] drain|[of] p1a: 마기라스
+|move|p1a: 마기라스|Dragon Dance|p1a: 마기라스
+|-boost|p1a: 마기라스|atk|1
+|-boost|p1a: 마기라스|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|62/100|[from] Sandstorm
+|-heal|p1a: 마기라스|49/100|[from] item: Leftovers
+|-heal|p2a: Celebi|69/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728359052
+|move|p1a: 마기라스|Rock Slide|p2a: Celebi|[miss]
+|-miss|p1a: 마기라스|p2a: Celebi
+|move|p2a: Celebi|Giga Drain|p1a: 마기라스
+|-supereffective|p1a: 마기라스
+|-damage|p1a: 마기라스|5/100
+|-heal|p2a: Celebi|92/100|[from] drain|[of] p1a: 마기라스
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|86/100|[from] Sandstorm
+|-heal|p1a: 마기라스|11/100|[from] item: Leftovers
+|-heal|p2a: Celebi|92/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728359054
+|move|p1a: 마기라스|Rock Slide|p2a: Celebi
+|-damage|p2a: Celebi|39/100
+|move|p2a: Celebi|Giga Drain|p1a: 마기라스
+|-supereffective|p1a: 마기라스
+|-damage|p1a: 마기라스|0 fnt
+|-heal|p2a: Celebi|45/100|[from] drain|[of] p1a: 마기라스
+|faint|p1a: 마기라스
+|
+|t:|1728359059
+|switch|p1a: 프테라|Aerodactyl, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|39/100|[from] Sandstorm
+|-heal|p2a: Celebi|45/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728359071
+|move|p1a: 프테라|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1728359073
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: 프테라|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728359079
+|switch|p1a: 무장조|Skarmory, M|59/100
+|move|p2a: Salamence|Dragon Claw|p1a: 무장조
+|-resisted|p1a: 무장조
+|-damage|p1a: 무장조|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: 무장조|45/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728359085
+|move|p2a: Salamence|Fire Blast|p1a: 무장조
+|-supereffective|p1a: 무장조
+|-damage|p1a: 무장조|0 fnt
+|faint|p1a: 무장조
+|
+|t:|1728359088
+|switch|p1a: 팬텀|Gengar, M, shiny|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 팬텀|33/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: 팬텀|40/100|[from] item: Leftovers
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728359091
+|move|p1a: 팬텀|Ice Punch|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|VZR
+|c|☆Gen 1 for eva|I didn’t put up much of a fight but gg
+|c|☆VZR|ggs! thanks for the games, i had fun playing ^^
+|c|☆VZR|nah, i think you played well
+|c|☆VZR|just got a bit ambitious with some reads 
+|c|☆Gen 1 for eva|Me too, sorry for making you stay up so late lmao 
+|c|☆VZR|nahh man
+|c|☆VZR|i'm usually up on yt around this time
+|c|☆Gen 1 for eva|True, I’m at work so o wanted it to be over quick 
+|c|☆Gen 1 for eva|Anyways gotta go, nice chats
+|player|p2|
+|c|☆VZR|np, take care! ill post replays for us
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796328">
+{"id":"smogtours-gen3ou-796328","format":"[Gen 3] OU","players":["VZR","Gen 1 for eva"],"uploadtime":1728359091,"views":105,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

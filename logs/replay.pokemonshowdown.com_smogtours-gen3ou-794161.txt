@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: otael vs. aquafier - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between otael and aquafier! Format: [Gen 3] OU; Date: Oct 3, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794161">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727921732
+|gametype|singles
+|player|p1|otael|miku-ground|
+|player|p2|aquafier|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727921732
+|start
+|switch|p1a: Zaptwo|Zapdos|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|c|☆aquafier|glhf
+|c|☆otael|gl hf
+|inactive|otael has 270 seconds left.
+|
+|t:|1727921764
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Zaptwo|Baton Pass|p1a: Zaptwo
+|
+|t:|1727921767
+|switch|p1a: Sellebi|Celebi|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|2
+|
+|t:|1727921770
+|move|p2a: Jolteon|Thunder Wave|p1a: Sellebi
+|-status|p1a: Sellebi|par
+|cant|p1a: Sellebi|par
+|
+|upkeep
+|turn|3
+|
+|t:|1727921808
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Sellebi|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-damage|p2a: Skarmory|88/100|[from] Leech Seed|[of] p1a: Sellebi
+|upkeep
+|turn|4
+|
+|t:|1727921822
+|-curestatus|p1a: Sellebi|par|[from] ability: Natural Cure
+|switch|p1a: Zaptwo|Zapdos|100/100
+|move|p2a: Skarmory|Spikes|p1a: Zaptwo
+|-sidestart|p1: otael|Spikes
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|82/100|[from] Leech Seed|[of] p1a: Zaptwo
+|upkeep
+|turn|5
+|inactive|aquafier has 270 seconds left.
+|
+|t:|1727921845
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Zaptwo|Baton Pass|p1a: Zaptwo
+|
+|t:|1727921848
+|switch|p1a: Sellebi|Celebi|100/100|[from] Baton Pass
+|-damage|p1a: Sellebi|88/100|[from] Spikes
+|
+|-heal|p1a: Sellebi|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|76/100|[from] Leech Seed|[of] p1a: Sellebi
+|-heal|p1a: Sellebi|100/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1727921850
+|move|p1a: Sellebi|Swords Dance|p1a: Sellebi
+|-boost|p1a: Sellebi|atk|2
+|move|p2a: Skarmory|Toxic|p1a: Sellebi
+|-status|p1a: Sellebi|tox
+|
+|-damage|p1a: Sellebi|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|69/100|[from] Leech Seed|[of] p1a: Sellebi
+|-heal|p1a: Sellebi|100/100 tox|[silent]
+|upkeep
+|turn|7
+|
+|t:|1727921856
+|move|p1a: Sellebi|Swords Dance|p1a: Sellebi
+|-boost|p1a: Sellebi|atk|2
+|move|p2a: Skarmory|Roar|p1a: Sellebi
+|-curestatus|p1a: Sellebi|tox|[from] ability: Natural Cure
+|drag|p1a: Zaptwo|Zapdos|100/100
+|
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|63/100|[from] Leech Seed|[of] p1a: Zaptwo
+|upkeep
+|turn|8
+|
+|t:|1727921867
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Zaptwo|Thunderbolt|p2a: Jolteon
+|-immune|p2a: Jolteon|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|9
+|
+|t:|1727921875
+|switch|p1a: Sellebi|Celebi|100/100
+|-damage|p1a: Sellebi|88/100|[from] Spikes
+|move|p2a: Jolteon|Thunder Wave|p1a: Sellebi
+|-status|p1a: Sellebi|par
+|
+|-heal|p1a: Sellebi|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|aquafier has 270 seconds left.
+|
+|t:|1727921913
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Sellebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sellebi|88/100 par|[from] Sandstorm
+|-heal|p1a: Sellebi|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1727921920
+|move|p2a: Tyranitar|Hidden Power|p1a: Sellebi
+|-supereffective|p1a: Sellebi
+|-damage|p1a: Sellebi|24/100 par
+|move|p1a: Sellebi|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sellebi|18/100 par|[from] Sandstorm
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Sellebi
+|-heal|p1a: Sellebi|30/100 par|[silent]
+|-heal|p1a: Sellebi|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|aquafier has 270 seconds left.
+|
+|t:|1727921965
+|-curestatus|p1a: Sellebi|par|[from] ability: Natural Cure
+|switch|p1a: Fliegone|Flygon, F|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Fliegone
+|-resisted|p1a: Fliegone
+|-damage|p1a: Fliegone|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fliegone|75/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100|[from] Leech Seed|[of] p1a: Fliegone
+|-heal|p1a: Fliegone|92/100|[silent]
+|upkeep
+|turn|13
+|inactive|otael has 270 seconds left.
+|inactive|aquafier has 240 seconds left.
+|
+|t:|1727921991
+|switch|p2a: Skarmory|Skarmory, F|63/100
+|move|p1a: Fliegone|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fliegone|98/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|otael has 270 seconds left.
+|
+|t:|1727922003
+|switch|p1a: Sellebi|Celebi|37/100
+|-damage|p1a: Sellebi|24/100|[from] Spikes
+|move|p2a: Skarmory|Toxic|p1a: Sellebi
+|-status|p1a: Sellebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sellebi|18/100 tox|[from] Sandstorm
+|-heal|p1a: Sellebi|24/100 tox|[from] item: Leftovers
+|-damage|p1a: Sellebi|18/100 tox|[from] psn
+|-heal|p2a: Skarmory|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727922011
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Sellebi|Recover|p1a: Sellebi
+|-heal|p1a: Sellebi|68/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sellebi|62/100 tox|[from] Sandstorm
+|-heal|p1a: Sellebi|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Sellebi|55/100 tox|[from] psn
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727922016
+|move|p1a: Sellebi|Recover|p1a: Sellebi
+|-heal|p1a: Sellebi|100/100 tox
+|move|p2a: Skarmory|Spikes|p1a: Sellebi
+|-sidestart|p1: otael|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sellebi|94/100 tox|[from] Sandstorm
+|-heal|p1a: Sellebi|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sellebi|82/100 tox|[from] psn
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|aquafier has 270 seconds left.
+|
+|t:|1727922024
+|move|p1a: Sellebi|Baton Pass|p1a: Sellebi
+|
+|t:|1727922031
+|-curestatus|p1a: Sellebi|tox|[from] ability: Natural Cure
+|switch|p1a: Scarmori|Skarmory, M|100/100|[from] Baton Pass
+|move|p2a: Skarmory|Spikes|p1a: Scarmori
+|-sidestart|p1: otael|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|aquafier has 270 seconds left.
+|
+|t:|1727922060
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Scarmori|Spikes|p2a: Jolteon
+|-sidestart|p2: aquafier|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727922087
+|move|p1a: Scarmori|Protect|p1a: Scarmori
+|-singleturn|p1a: Scarmori|Protect
+|move|p2a: Jolteon|Thunderbolt|p1a: Scarmori
+|-activate|p1a: Scarmori|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1727922096
+|move|p2a: Jolteon|Thunderbolt|p1a: Scarmori
+|-supereffective|p1a: Scarmori
+|-damage|p1a: Scarmori|21/100
+|move|p1a: Scarmori|Spikes|p2a: Jolteon
+|-sidestart|p2: aquafier|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|27/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1727922103
+|move|p1a: Scarmori|Protect|p1a: Scarmori
+|-singleturn|p1a: Scarmori|Protect
+|move|p2a: Jolteon|Thunderbolt|p1a: Scarmori
+|-activate|p1a: Scarmori|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727922113
+|switch|p1a: Fliegone|Flygon, F|98/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Fliegone
+|-immune|p1a: Fliegone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-heal|p1a: Fliegone|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727922119
+|switch|p2a: Skarmory|Skarmory, F|75/100
+|move|p1a: Fliegone|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1727922141
+|switch|p1a: Scarmori|Skarmory, M|33/100
+|move|p2a: Skarmory|Toxic|p1a: Scarmori
+|-immune|p1a: Scarmori
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|39/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|aquafier has 270 seconds left.
+|inactive|aquafier has 240 seconds left.
+|
+|t:|1727922207
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|84/100|[from] Spikes
+|move|p1a: Scarmori|Spikes|p2a: Starmie
+|-sidestart|p2: aquafier|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-heal|p2a: Starmie|84/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|45/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1727922211
+|move|p1a: Scarmori|Protect|p1a: Scarmori
+|-singleturn|p1a: Scarmori|Protect
+|move|p2a: Starmie|Thunderbolt|p1a: Scarmori
+|-activate|p1a: Scarmori|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-heal|p2a: Starmie|84/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|50/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|aquafier has 240 seconds left.
+|inactive|otael has 270 seconds left.
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922284
+|switch|p1a: Zaptwo|Zapdos|100/100
+|move|p2a: Starmie|Thunderbolt|p1a: Zaptwo
+|-damage|p1a: Zaptwo|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-damage|p1a: Zaptwo|67/100|[from] Sandstorm
+|-heal|p2a: Starmie|84/100|[from] item: Leftovers
+|-heal|p1a: Zaptwo|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|aquafier has 240 seconds left.
+|inactive|aquafier has 210 seconds left.
+|
+|t:|1727922351
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-damage|p2a: Jolteon|75/100|[from] Spikes
+|move|p1a: Zaptwo|Roar|p2a: Jolteon
+|drag|p2a: Starmie|Starmie|84/100
+|-damage|p2a: Starmie|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|53/100|[from] Sandstorm
+|-damage|p1a: Zaptwo|67/100|[from] Sandstorm
+|-heal|p2a: Starmie|59/100|[from] item: Leftovers
+|-heal|p1a: Zaptwo|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922360
+|move|p2a: Starmie|Ice Beam|p1a: Zaptwo
+|-supereffective|p1a: Zaptwo
+|-damage|p1a: Zaptwo|20/100
+|move|p1a: Zaptwo|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|inactive|aquafier has 180 seconds left.
+|inactive|aquafier has 150 seconds left.
+|
+|t:|1727922407
+|switch|p2a: Jolteon|Jolteon, F|75/100
+|-damage|p2a: Jolteon|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|44/100|[from] Sandstorm
+|-damage|p1a: Zaptwo|14/100|[from] Sandstorm
+|-heal|p2a: Jolteon|50/100|[from] item: Leftovers
+|-heal|p1a: Zaptwo|20/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922425
+|switch|p1a: Fliegone|Flygon, F|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Fliegone
+|-immune|p1a: Fliegone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|44/100|[from] Sandstorm
+|-heal|p2a: Jolteon|50/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1727922432
+|switch|p2a: Skarmory|Skarmory, F|69/100
+|move|p1a: Fliegone|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1727922438
+|switch|p1a: Scarmori|Skarmory, M|50/100
+|move|p2a: Skarmory|Roar|p1a: Scarmori
+|drag|p1a: Arrowdactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1727922458
+|switch|p1a: Sellebi|Celebi|82/100
+|-damage|p1a: Sellebi|57/100|[from] Spikes
+|move|p2a: Skarmory|Roar|p1a: Sellebi
+|drag|p1a: Scarmori|Skarmory, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|-heal|p1a: Scarmori|56/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|aquafier has 150 seconds left.
+|
+|t:|1727922485
+|move|p1a: Scarmori|Protect|p1a: Scarmori
+|-singleturn|p1a: Scarmori|Protect
+|move|p2a: Skarmory|Roar|p1a: Scarmori
+|-activate|p1a: Scarmori|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scarmori|62/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922519
+|move|p1a: Scarmori|Roar|p2a: Skarmory
+|drag|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scarmori|68/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922529
+|move|p1a: Scarmori|Protect|p1a: Scarmori
+|-singleturn|p1a: Scarmori|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Scarmori
+|-activate|p1a: Scarmori|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scarmori|74/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1727922538
+|move|p2a: Metagross|Meteor Mash|p1a: Scarmori
+|-resisted|p1a: Scarmori
+|-damage|p1a: Scarmori|39/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Scarmori|Roar|p2a: Metagross
+|drag|p2a: Tyranitar|Tyranitar, F|82/100
+|-damage|p2a: Tyranitar|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scarmori|45/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727922551
+|move|p1a: Scarmori|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Rock Slide|p1a: Scarmori
+|-damage|p1a: Scarmori|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scarmori|19/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|63/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1727922561
+|switch|p1a: Fliegone|Flygon, F|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1727922575
+|switch|p1a: Scarmori|Skarmory, M|19/100
+|move|p2a: Gengar|Ice Punch|p1a: Scarmori
+|-damage|p1a: Scarmori|0 fnt
+|faint|p1a: Scarmori
+|inactive|otael has 240 seconds left.
+|
+|t:|1727922609
+|switch|p1a: Charrezard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Charrezard|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Charrezard|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|aquafier has 150 seconds left.
+|
+|t:|1727922639
+|switch|p2a: Skarmory|Skarmory, F|76/100
+|move|p1a: Charrezard|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1727922643
+|switch|p2a: Jolteon|Jolteon, F|50/100
+|-damage|p2a: Jolteon|25/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|19/100|[from] Sandstorm
+|-damage|p1a: Charrezard|94/100|[from] Sandstorm
+|-heal|p2a: Jolteon|25/100|[from] item: Leftovers
+|-heal|p1a: Charrezard|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1727922653
+|switch|p1a: Fliegone|Flygon, F|100/100
+|move|p2a: Jolteon|Baton Pass|p2a: Jolteon
+|
+|t:|1727922658
+|switch|p2a: Gengar|Gengar, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|aquafier has 150 seconds left.
+|
+|t:|1727922667
+|move|p2a: Gengar|Ice Punch|p1a: Fliegone
+|-supereffective|p1a: Fliegone
+|-damage|p1a: Fliegone|0 fnt
+|faint|p1a: Fliegone
+|
+|t:|1727922671
+|switch|p1a: Charrezard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Charrezard|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Charrezard|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|aquafier has 150 seconds left.
+|inactive|aquafier has 120 seconds left.
+|inactive|aquafier has 90 seconds left.
+|
+|t:|1727922768
+|switch|p2a: Jolteon|Jolteon, F|25/100
+|-damage|p2a: Jolteon|0 fnt|[from] Spikes
+|faint|p2a: Jolteon
+|
+|t:|1727922770
+|switch|p2a: Tyranitar|Tyranitar, F|63/100 tox
+|-damage|p2a: Tyranitar|38/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charrezard|94/100|[from] Sandstorm
+|-heal|p1a: Charrezard|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|38/100 tox|[from] psn
+|upkeep
+|turn|45
+|inactive|otael has 270 seconds left.
+|
+|t:|1727922776
+|move|p1a: Charrezard|Substitute|p1a: Charrezard
+|-start|p1a: Charrezard|Substitute
+|-damage|p1a: Charrezard|76/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Charrezard
+|-supereffective|p1a: Charrezard
+|-end|p1a: Charrezard|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charrezard|70/100|[from] Sandstorm
+|-heal|p1a: Charrezard|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|32/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|aquafier has 90 seconds left.
+|
+|t:|1727922791
+|move|p1a: Charrezard|Substitute|p1a: Charrezard
+|-start|p1a: Charrezard|Substitute
+|-damage|p1a: Charrezard|51/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Charrezard
+|-supereffective|p1a: Charrezard
+|-end|p1a: Charrezard|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charrezard|45/100|[from] Sandstorm
+|-heal|p1a: Charrezard|51/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|20/100 tox|[from] psn
+|upkeep
+|turn|47
+|inactive|otael has 270 seconds left.
+|inactive|aquafier has 60 seconds left.
+|
+|t:|1727922824
+|move|p1a: Charrezard|Substitute|p1a: Charrezard
+|-start|p1a: Charrezard|Substitute
+|-damage|p1a: Charrezard|26/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Charrezard
+|-supereffective|p1a: Charrezard
+|-end|p1a: Charrezard|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charrezard|20/100|[from] Sandstorm
+|-heal|p1a: Charrezard|26/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|26/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|1/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1727922830
+|move|p1a: Charrezard|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|aquafier has 60 seconds left.
+|
+|t:|1727922850
+|switch|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Charrezard|20/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Charrezard|26/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1727922854
+|move|p2a: Gengar|Ice Punch|p1a: Charrezard
+|-damage|p1a: Charrezard|0 fnt
+|faint|p1a: Charrezard
+|inactive|otael has 270 seconds left.
+|
+|t:|1727922881
+|switch|p1a: Sellebi|Celebi|57/100
+|-damage|p1a: Sellebi|32/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-damage|p1a: Sellebi|26/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Sellebi|32/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|otael has 270 seconds left.
+|
+|t:|1727922899
+|move|p2a: Gengar|Ice Punch|p1a: Sellebi
+|-supereffective|p1a: Sellebi
+|-damage|p1a: Sellebi|0 fnt
+|faint|p1a: Sellebi
+|
+|t:|1727922901
+|switch|p1a: Arrowdactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|aquafier has 60 seconds left.
+|
+|t:|1727922941
+|move|p1a: Arrowdactyl|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|23/100
+|move|p2a: Gengar|Ice Punch|p1a: Arrowdactyl
+|-supereffective|p1a: Arrowdactyl
+|-damage|p1a: Arrowdactyl|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|17/100|[from] Sandstorm
+|-heal|p2a: Gengar|23/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|inactive|otael has 270 seconds left.
+|
+|t:|1727922961
+|switch|p2a: Metagross|Metagross|76/100
+|-damage|p2a: Metagross|51/100|[from] Spikes
+|move|p1a: Arrowdactyl|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|53
+|
+|t:|1727922976
+|move|p1a: Arrowdactyl|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1727922986
+|switch|p2a: Gengar|Gengar, M|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|17/100|[from] Sandstorm
+|-heal|p2a: Gengar|23/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1727922989
+|move|p1a: Arrowdactyl|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|otael
+|c|☆aquafier|gg
+|c|☆otael|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794161">
+{"id":"smogtours-gen3ou-794161","format":"[Gen 3] OU","players":["otael","aquafier"],"uploadtime":1727922989,"views":117,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

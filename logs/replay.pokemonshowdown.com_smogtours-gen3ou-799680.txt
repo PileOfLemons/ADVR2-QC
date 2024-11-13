@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: TheComanderXD vs. Fakes - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between TheComanderXD and Fakes! Format: [Gen 3] OU; Date: Oct 18, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799680">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729282506
+|gametype|singles
+|player|p1|TheComanderXD|red|
+|player|p2|Fakes|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729282506
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Cune|Suicune|100/100
+|turn|1
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1729282542
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Jira|Jirachi|100/100
+|
+|upkeep
+|turn|2
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1729282584
+|switch|p2a: Cune|Suicune|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1729282596
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Cune|Roar|p1a: Celebi
+|drag|p1a: Snorlax|Snorlax, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729282603
+|switch|p2a: Cele|Celebi|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|75/100
+|
+|-heal|p2a: Cele|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1729282619
+|move|p2a: Cele|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|move|p1a: Snorlax|Shadow Ball|p2a: Cele
+|-supereffective|p2a: Cele
+|-damage|p2a: Cele|51/100
+|
+|-heal|p2a: Cele|58/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100|[from] Leech Seed|[of] p2a: Cele
+|-heal|p2a: Cele|73/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1729282633
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Cele|Leech Seed|p1a: Celebi
+|-immune|p1a: Celebi
+|
+|-heal|p2a: Cele|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729282641
+|switch|p2a: Cune|Suicune|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|upkeep
+|turn|8
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1729282647
+|move|p1a: Celebi|Giga Drain|p2a: Cune
+|-supereffective|p2a: Cune
+|-damage|p2a: Cune|44/100
+|move|p2a: Cune|Roar|p1a: Celebi
+|drag|p1a: Slaking|Slaking, M|100/100
+|
+|-heal|p2a: Cune|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|TheComanderXD has 270 seconds left.
+|
+|t:|1729282678
+|switch|p2a: Jira|Jirachi|100/100
+|move|p1a: Slaking|Earthquake|p2a: Jira
+|-supereffective|p2a: Jira
+|-damage|p2a: Jira|22/100
+|
+|-heal|p2a: Jira|28/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729282687
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Jira|Wish|p2a: Jira
+|
+|-heal|p2a: Jira|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729282708
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Magneton|Substitute|p1a: Magneton
+|-start|p1a: Magneton|Substitute
+|-damage|p1a: Magneton|76/100
+|
+|-heal|p2a: Jira|85/100|[from] move: Wish|[wisher] Jira
+|-heal|p2a: Jira|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729282717
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-damage|p2a: Jira|41/100
+|move|p2a: Jira|Calm Mind|p2a: Jira
+|-boost|p2a: Jira|spa|1
+|-boost|p2a: Jira|spd|1
+|
+|-heal|p2a: Jira|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729282726
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-damage|p2a: Jira|16/100
+|move|p2a: Jira|Wish|p2a: Jira
+|
+|-heal|p2a: Jira|23/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729282732
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-activate|p2a: Jira|Protect
+|
+|-heal|p2a: Jira|73/100|[from] move: Wish|[wisher] Jira
+|-heal|p2a: Jira|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729282749
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Jira|Wish|p2a: Jira
+|
+|-heal|p2a: Jira|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|TheComanderXD has 240 seconds left.
+|
+|t:|1729282775
+|switch|p2a: Cune|Suicune|50/100
+|move|p1a: Metagross|Earthquake|p2a: Cune
+|-damage|p2a: Cune|15/100
+|
+|-heal|p2a: Cune|65/100|[from] move: Wish|[wisher] Jira
+|-heal|p2a: Cune|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|TheComanderXD has 240 seconds left.
+|inactive|TheComanderXD has 210 seconds left.
+|
+|t:|1729282841
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Zap|Zapdos|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1729282853
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Zap|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1729282862
+|move|p1a: Celebi|Psychic|p2a: Zap
+|-damage|p2a: Zap|59/100
+|move|p2a: Zap|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|82/100 tox
+|
+|-heal|p1a: Celebi|89/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|76/100 tox|[from] psn
+|-heal|p2a: Zap|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1729282889
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Snorlax|Snorlax, F|88/100
+|move|p2a: Zap|Rest|p2a: Zap
+|-status|p2a: Zap|slp|[from] move: Rest
+|-heal|p2a: Zap|100/100 slp|[silent]
+|
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|TheComanderXD has 180 seconds left.
+|
+|t:|1729282899
+|switch|p2a: Cele|Celebi|79/100
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|55/100
+|
+|-heal|p2a: Cele|62/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729282908
+|switch|p1a: Celebi|Celebi|76/100
+|move|p2a: Cele|Heal Bell|p2a: Cele
+|-activate|p2a: Cele|move: Heal Bell
+|-curestatus|p2: Zap|slp|[silent]
+|
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|-heal|p2a: Cele|68/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|TheComanderXD has 180 seconds left.
+|inactive|Fakes has 270 seconds left.
+|
+|t:|1729282948
+|switch|p1a: Slaking|Slaking, M|100/100
+|switch|p2a: Mag|Magneton|100/100
+|
+|upkeep
+|turn|24
+|inactive|Fakes has 270 seconds left.
+|inactive|TheComanderXD has 150 seconds left.
+|
+|t:|1729282983
+|switch|p2a: Cune|Suicune|71/100
+|move|p1a: Slaking|Earthquake|p2a: Cune
+|-damage|p2a: Cune|31/100
+|
+|-heal|p2a: Cune|37/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1729283013
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|switch|p2a: Dug|Dugtrio, F|100/100
+|
+|upkeep
+|turn|26
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1729283032
+|switch|p2a: Cele|Celebi|68/100
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|42/100
+|
+|-heal|p2a: Cele|48/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1729283045
+|move|p2a: Cele|Recover|p2a: Cele
+|-heal|p2a: Cele|98/100
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|74/100
+|
+|-heal|p2a: Cele|80/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|TheComanderXD has 120 seconds left.
+|
+|t:|1729283070
+|move|p2a: Cele|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|53/100
+|
+|-heal|p2a: Cele|59/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100|[from] Leech Seed|[of] p2a: Cele
+|-heal|p2a: Cele|74/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1729283086
+|switch|p1a: Celebi|Celebi|82/100
+|move|p2a: Cele|Hidden Power|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|71/100
+|
+|-heal|p1a: Celebi|77/100|[from] item: Leftovers
+|-heal|p2a: Cele|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729283103
+|switch|p2a: Zap|Zapdos|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Zap
+|-resisted|p2a: Zap
+|-damage|p2a: Zap|92/100
+|-heal|p1a: Celebi|82/100|[from] drain|[of] p2a: Zap
+|
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|-heal|p2a: Zap|98/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|TheComanderXD has 90 seconds left.
+|inactive|Fakes has 270 seconds left.
+|
+|t:|1729283140
+|switch|p1a: Snorlax|Snorlax, F|88/100
+|move|p2a: Zap|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|66/100
+|
+|-heal|p2a: Zap|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|72/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729283153
+|switch|p2a: Cele|Celebi|80/100
+|move|p1a: Snorlax|Body Slam|p2a: Cele
+|-damage|p2a: Cele|56/100
+|
+|-heal|p2a: Cele|62/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729283172
+|move|p2a: Cele|Recover|p2a: Cele
+|-heal|p2a: Cele|100/100
+|move|p1a: Snorlax|Self-Destruct|p2a: Cele
+|-damage|p2a: Cele|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Cele
+|
+|t:|1729283186
+|switch|p2a: Jira|Jirachi|85/100
+|switch|p1a: Slaking|Slaking, M|100/100
+|
+|-heal|p2a: Jira|91/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Fakes has 270 seconds left.
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283227
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Jira|Calm Mind|p2a: Jira
+|-boost|p2a: Jira|spa|1
+|-boost|p2a: Jira|spd|1
+|
+|-heal|p2a: Jira|97/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729283234
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Metagross|Earthquake|p2a: Jira
+|-activate|p2a: Jira|Protect
+|
+|-heal|p2a: Jira|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729283241
+|switch|p2a: Zap|Zapdos|100/100
+|move|p1a: Metagross|Earthquake|p2a: Zap
+|-immune|p2a: Zap
+|
+|upkeep
+|turn|37
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283249
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Zap|Thunderbolt|p1a: Regirock
+|-damage|p1a: Regirock|63/100
+|
+|-heal|p1a: Regirock|69/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283279
+|switch|p2a: Cune|Suicune|37/100
+|switch|p1a: Celebi|Celebi|88/100
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|-heal|p2a: Cune|43/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729283287
+|switch|p2a: Zap|Zapdos|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Zap
+|-resisted|p2a: Zap
+|-damage|p2a: Zap|91/100
+|-heal|p1a: Celebi|99/100|[from] drain|[of] p2a: Zap
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Zap|97/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729283296
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Zap|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|-heal|p2a: Zap|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283316
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Zap|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|52/100
+|-status|p1a: Metagross|par
+|
+|upkeep
+|turn|42
+|
+|t:|1729283333
+|switch|p2a: Mag|Magneton|100/100
+|move|p1a: Metagross|Explosion|p2a: Mag
+|-resisted|p2a: Mag
+|-damage|p2a: Mag|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Mag
+|
+|t:|1729283343
+|switch|p1a: Celebi|Celebi|94/100
+|switch|p2a: Dug|Dugtrio, F|100/100
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729283349
+|switch|p2a: Zap|Zapdos|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Zap
+|-resisted|p2a: Zap
+|-damage|p2a: Zap|91/100
+|
+|-heal|p2a: Zap|98/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283357
+|switch|p1a: Regirock|Regirock|69/100
+|move|p2a: Zap|Toxic|p1a: Regirock
+|-status|p1a: Regirock|tox
+|
+|-heal|p2a: Zap|100/100|[from] item: Leftovers
+|-heal|p1a: Regirock|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|69/100 tox|[from] psn
+|upkeep
+|turn|45
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283367
+|-singleturn|p1a: Regirock|move: Focus Punch
+|switch|p2a: Cune|Suicune|43/100
+|move|p1a: Regirock|Focus Punch|p2a: Cune
+|-damage|p2a: Cune|17/100
+|
+|-heal|p2a: Cune|24/100|[from] item: Leftovers
+|-heal|p1a: Regirock|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|63/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283377
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Cune|Rest|p2a: Cune
+|-status|p2a: Cune|slp|[from] move: Rest
+|-heal|p2a: Cune|100/100 slp|[silent]
+|
+|upkeep
+|turn|47
+|
+|t:|1729283385
+|switch|p2a: Zap|Zapdos|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|upkeep
+|turn|48
+|
+|t:|1729283391
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Zap|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|49
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283419
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|move|p2a: Zap|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|87/100 tox
+|
+|-heal|p1a: Celebi|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|81/100 tox|[from] psn
+|upkeep
+|turn|50
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283428
+|move|p1a: Celebi|Psychic|p2a: Zap
+|-damage|p2a: Zap|29/100
+|move|p2a: Zap|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|74/100 tox
+|
+|-heal|p1a: Celebi|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|62/100 tox|[from] psn
+|-heal|p2a: Zap|36/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283442
+|move|p1a: Celebi|Hidden Power|p2a: Zap
+|-damage|p2a: Zap|1/100
+|move|p2a: Zap|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|54/100 tox
+|
+|-heal|p1a: Celebi|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|36/100 tox|[from] psn
+|-heal|p2a: Zap|7/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283454
+|move|p1a: Celebi|Psychic|p2a: Zap
+|-damage|p2a: Zap|0 fnt
+|faint|p2a: Zap
+|
+|t:|1729283457
+|switch|p2a: Dug|Dugtrio, F|100/100
+|
+|-heal|p1a: Celebi|42/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|11/100 tox|[from] psn
+|upkeep
+|turn|53
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283476
+|move|p2a: Dug|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1729283481
+|switch|p1a: Slaking|Slaking, M|100/100
+|
+|upkeep
+|turn|54
+|
+|t:|1729283486
+|move|p2a: Dug|Earthquake|p1a: Slaking
+|-damage|p1a: Slaking|51/100
+|move|p1a: Slaking|Return|p2a: Dug
+|-damage|p2a: Dug|0 fnt
+|faint|p2a: Dug
+|
+|t:|1729283489
+|switch|p2a: Jira|Jirachi|100/100
+|
+|upkeep
+|turn|55
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283520
+|switch|p1a: Regirock|Regirock|63/100 tox
+|move|p2a: Jira|Calm Mind|p2a: Jira
+|-boost|p2a: Jira|spa|1
+|-boost|p2a: Jira|spd|1
+|
+|-heal|p1a: Regirock|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|63/100 tox|[from] psn
+|upkeep
+|turn|56
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283531
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Regirock|Hidden Power|p2a: Jira
+|-activate|p2a: Jira|Protect
+|
+|-heal|p1a: Regirock|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|57/100 tox|[from] psn
+|upkeep
+|turn|57
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283540
+|move|p2a: Jira|Wish|p2a: Jira
+|move|p1a: Regirock|Explosion|p2a: Jira
+|-resisted|p2a: Jira
+|-damage|p2a: Jira|53/100
+|faint|p1a: Regirock
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283545
+|switch|p1a: Slaking|Slaking, M|51/100
+|
+|-heal|p2a: Jira|59/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729283554
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Slaking|Earthquake|p2a: Jira
+|-activate|p2a: Jira|Protect
+|
+|-heal|p2a: Jira|100/100|[from] move: Wish|[wisher] Jira
+|upkeep
+|turn|59
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283583
+|cant|p1a: Slaking|ability: Truant
+|move|p2a: Jira|Wish|p2a: Jira
+|
+|upkeep
+|turn|60
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283589
+|switch|p1a: Magneton|Magneton|76/100
+|move|p2a: Jira|Protect||[still]
+|-fail|p2a: Jira
+|
+|upkeep
+|turn|61
+|inactive|TheComanderXD has 60 seconds left.
+|
+|t:|1729283600
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-damage|p2a: Jira|71/100
+|move|p2a: Jira|Wish|p2a: Jira
+|
+|-heal|p2a: Jira|77/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729283613
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-damage|p2a: Jira|43/100
+|move|p2a: Jira|Psychic|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|31/100
+|
+|-heal|p2a: Jira|93/100|[from] move: Wish|[wisher] Jira
+|-heal|p2a: Jira|99/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729283622
+|move|p1a: Magneton|Thunderbolt|p2a: Jira
+|-damage|p2a: Jira|69/100
+|move|p2a: Jira|Psychic|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|t:|1729283628
+|switch|p1a: Slaking|Slaking, M|51/100
+|
+|-heal|p2a: Jira|75/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1729283633
+|move|p2a: Jira|Protect|p2a: Jira
+|-singleturn|p2a: Jira|Protect
+|move|p1a: Slaking|Earthquake|p2a: Jira
+|-activate|p2a: Jira|Protect
+|
+|-heal|p2a: Jira|81/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|c|☆Fakes|ggs
+|c|☆TheComanderXD|ggs
+|
+|t:|1729283647
+|cant|p1a: Slaking|ability: Truant
+|move|p2a: Jira|Psychic|p1a: Slaking
+|-crit|p1a: Slaking
+|-damage|p1a: Slaking|0 fnt
+|faint|p1a: Slaking
+|
+|win|Fakes
+|c|☆Fakes|/log Fakes made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799680">
+{"id":"smogtours-gen3ou-799680","format":"[Gen 3] OU","players":["TheComanderXD","Fakes"],"uploadtime":1729283647,"views":116,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

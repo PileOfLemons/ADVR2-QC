@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Yuiis vs. UDM31 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Yuiis and UDM31! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798041">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728830910
+|gametype|singles
+|player|p1|Yuiis|camper|
+|player|p2|UDM31|#advpliv|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728830910
+|start
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|t:|1728830928
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Hariyama|Cross Chop|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1728830956
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Hariyama|Knock Off|p2a: Jirachi
+|-damage|p2a: Jirachi|99/100
+|-enditem|p2a: Jirachi|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|upkeep
+|turn|3
+|
+|t:|1728830975
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Jirachi|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1728830987
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Blissey|Thunder Wave|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1728831009
+|switch|p2a: Blissey|Blissey, F|100/100
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1728831014
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: UDM31|Spikes
+|move|p2a: Blissey|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|upkeep
+|turn|7
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831060
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: UDM31|Spikes
+|
+|-heal|p1a: Skarmory|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728831076
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|77/100
+|
+|-heal|p1a: Hariyama|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831085
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|move|p1a: Hariyama|Cross Chop|p2a: Jirachi
+|-damage|p2a: Jirachi|51/100
+|
+|-heal|p1a: Hariyama|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831113
+|switch|p1a: Skarmory|Skarmory, F|76/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Skarmory|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728831119
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Skarmory|Spikes|p2a: Jirachi
+|-sidestart|p2: UDM31|Spikes
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Skarmory|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728831129
+|move|p2a: Jirachi|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100 par
+|move|p1a: Skarmory|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|
+|-heal|p1a: Skarmory|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728831144
+|move|p2a: Jirachi|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|31/100 par
+|move|p1a: Skarmory|Roar|p2a: Jirachi
+|drag|p2a: Claydol|Claydol|100/100
+|
+|-heal|p1a: Skarmory|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728831161
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p1a: Skarmory|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728831171
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Yuiis|Spikes
+|
+|upkeep
+|turn|16
+|
+|t:|1728831184
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Starmie|Rapid Spin|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1728831201
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|76/100|[from] Spikes
+|move|p1a: Starmie|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|32/100
+|
+|-heal|p2a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728831220
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|move|p1a: Starmie|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831237
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|69/100
+|-sideend|p1: Yuiis|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|83/100
+|
+|-heal|p1a: Starmie|89/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831252
+|switch|p1a: Hariyama|Hariyama, M|89/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|66/100
+|
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|UDM31 has 270 seconds left.
+|
+|t:|1728831280
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Hariyama|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|54/100
+|
+|-heal|p2a: Claydol|60/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728831309
+|switch|p1a: Starmie|Starmie|89/100
+|move|p2a: Claydol|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|70/100
+|
+|-heal|p1a: Starmie|76/100|[from] item: Leftovers
+|-heal|p2a: Claydol|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728831327
+|switch|p2a: Blissey|Blissey, F|81/100
+|-damage|p2a: Blissey|56/100|[from] Spikes
+|move|p1a: Starmie|Surf|p2a: Blissey
+|-damage|p2a: Blissey|40/100
+|
+|-heal|p1a: Starmie|83/100|[from] item: Leftovers
+|-heal|p2a: Blissey|46/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728831335
+|switch|p1a: Hariyama|Hariyama, M|78/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|96/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728831344
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|76/100|[from] Spikes
+|move|p1a: Hariyama|Knock Off|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100
+|
+|-heal|p1a: Hariyama|90/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831369
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728831379
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831402
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831414
+|switch|p1a: Hariyama|Hariyama, M|90/100
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Claydol|Claydol|67/100
+|
+|-heal|p2a: Claydol|73/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|96/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728831422
+|move|p2a: Claydol|Rapid Spin|p1a: Hariyama
+|-damage|p1a: Hariyama|91/100
+|-sideend|p2: UDM31|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Hariyama|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|30/100
+|
+|-heal|p2a: Claydol|36/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|97/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831440
+|switch|p2a: Jirachi|Jirachi|100/100
+|switch|p1a: Metagross|Metagross|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1728831453
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Metagross|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|upkeep
+|turn|33
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831474
+|switch|p1a: Starmie|Starmie|83/100
+|move|p2a: Skarmory|Drill Peck|p1a: Starmie
+|-damage|p1a: Starmie|48/100
+|
+|-heal|p1a: Starmie|54/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831493
+|switch|p1a: Skarmory|Skarmory, F|43/100 par
+|switch|p2a: Blissey|Blissey, F|82/100
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728831501
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100 par
+|cant|p1a: Skarmory|par
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆UDM31|mb
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831525
+|switch|p1a: Hariyama|Hariyama, M|97/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|74/100
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|80/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831543
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Hariyama|Knock Off|p2a: Jirachi
+|-damage|p2a: Jirachi|99/100
+|
+|-heal|p1a: Hariyama|86/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1728831565
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Jirachi|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1728831585
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|40
+|inactive|UDM31 has 210 seconds left.
+|
+|t:|1728831611
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Blissey|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728831628
+|move|p1a: Blissey|Wish|p1a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|68/100 tox
+|
+|-heal|p1a: Blissey|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|50/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1728831643
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Hariyama|Hariyama, M|86/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|63/100
+|
+|-heal|p1a: Hariyama|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|43
+|
+|t:|1728831655
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Jirachi|Jirachi|99/100
+|move|p1a: Hariyama|Cross Chop|p2a: Jirachi
+|-damage|p2a: Jirachi|68/100
+|
+|upkeep
+|turn|44
+|
+|t:|1728831683
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Hariyama|Cross Chop|p2a: Jirachi|[miss]
+|-miss|p1a: Hariyama|p2a: Jirachi
+|
+|upkeep
+|turn|45
+|inactive|UDM31 has 180 seconds left.
+|
+|t:|1728831711
+|switch|p1a: Blissey|Blissey, F|50/100
+|move|p2a: Jirachi|Toxic|p1a: Blissey|[miss]
+|-miss|p2a: Jirachi|p1a: Blissey
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|UDM31 has 180 seconds left.
+|
+|t:|1728831727
+|switch|p2a: Claydol|Claydol|36/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Claydol|42/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|UDM31 has 180 seconds left.
+|
+|t:|1728831737
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Skarmory|Skarmory, F|25/100 par
+|
+|-heal|p1a: Skarmory|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728831745
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|1/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: UDM31|Spikes
+|
+|-heal|p1a: Skarmory|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|UDM31 has 180 seconds left.
+|inactive|Yuiis has 270 seconds left.
+|
+|t:|1728831778
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|50
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831806
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728831815
+|switch|p1a: Starmie|Starmie|54/100
+|move|p2a: Blissey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|16/100
+|
+|-heal|p1a: Starmie|66/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Starmie|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728831828
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|77/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|83/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|Yuiis has 270 seconds left.
+|
+|t:|1728831865
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|54
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831895
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|73/100
+|
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|inactive|Yuiis has 270 seconds left.
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831913
+|move|p1a: Blissey|Wish|p1a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|Yuiis has 270 seconds left.
+|
+|t:|1728831936
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Metagross
+|-damage|p1a: Metagross|67/100
+|
+|-heal|p1a: Metagross|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728831941
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831964
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Yuiis|Spikes
+|
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831977
+|switch|p1a: Blissey|Blissey, F|93/100
+|-damage|p1a: Blissey|80/100|[from] Spikes
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728831994
+|switch|p2a: Blissey|Blissey, F|91/100
+|-damage|p2a: Blissey|79/100|[from] Spikes
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|inactive|Yuiis has 270 seconds left.
+|inactive|UDM31 has 150 seconds left.
+|inactive|Yuiis has 240 seconds left.
+|
+|t:|1728832033
+|switch|p1a: Hariyama|Hariyama, M|83/100
+|-damage|p1a: Hariyama|71/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Hariyama
+|-damage|p1a: Hariyama|51/100
+|
+|-heal|p1a: Hariyama|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|inactive|UDM31 has 150 seconds left.
+|inactive|Yuiis has 240 seconds left.
+|
+|t:|1728832073
+|switch|p2a: Jirachi|Jirachi|88/100
+|-damage|p2a: Jirachi|76/100|[from] Spikes
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1728832103
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Metagross|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|
+|-heal|p1a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832140
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728832146
+|switch|p2a: Skarmory|Skarmory, F|77/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|inactive|UDM31 has 120 seconds left.
+|
+|t:|1728832204
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728832215
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|47/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Yuiis|Spikes
+|
+|-heal|p2a: Skarmory|53/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728832221
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728832227
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|31/100
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Hariyama|Hariyama, M|100/100
+|-damage|p1a: Hariyama|84/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|37/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|90/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832243
+|switch|p1a: Blissey|Blissey, F|93/100
+|-damage|p1a: Blissey|76/100|[from] Spikes
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|43/100|[from] item: Leftovers
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|inactive|UDM31 has 120 seconds left.
+|
+|t:|1728832267
+|switch|p2a: Blissey|Blissey, F|91/100
+|-damage|p2a: Blissey|79/100|[from] Spikes
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|inactive|UDM31 has 90 seconds left.
+|
+|t:|1728832313
+|move|p1a: Blissey|Wish|p1a: Blissey
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|-heal|p2a: Blissey|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832334
+|switch|p1a: Starmie|Starmie|72/100
+|-damage|p1a: Starmie|55/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|17/100
+|
+|-heal|p1a: Starmie|67/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Starmie|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728832344
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|92/100 par
+|-sideend|p1: Yuiis|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|35/100
+|
+|-heal|p1a: Starmie|41/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|75
+|inactive|Yuiis has 210 seconds left.
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832377
+|switch|p1a: Hariyama|Hariyama, M|90/100
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|43/100
+|
+|-heal|p2a: Skarmory|49/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|96/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|inactive|UDM31 has 60 seconds left.
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832390
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hariyama|Cross Chop|p2a: Skarmory|[miss]
+|-miss|p1a: Hariyama|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832404
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|switch|p1a: Starmie|Starmie|41/100
+|
+|-heal|p1a: Starmie|47/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832431
+|move|p1a: Starmie|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Starmie|54/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728832450
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Starmie|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Starmie|60/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832472
+|switch|p2a: Blissey|Blissey, F|98/100
+|-damage|p2a: Blissey|86/100|[from] Spikes
+|move|p1a: Starmie|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|
+|-heal|p1a: Starmie|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832496
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Hariyama
+|-damage|p1a: Hariyama|77/100
+|
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|83/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832506
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: Hariyama|Hidden Power|p2a: Jirachi
+|-damage|p2a: Jirachi|75/100
+|
+|-heal|p1a: Hariyama|89/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832522
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|88/100|[from] Spikes
+|switch|p1a: Blissey|Blissey, F|87/100
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832530
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|41/100
+|move|p1a: Blissey|Seismic Toss|p2a: Dugtrio
+|-damage|p2a: Dugtrio|41/100
+|
+|-heal|p1a: Blissey|47/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832541
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832547
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|upkeep
+|turn|86
+|inactive|UDM31 has 60 seconds left.
+|inactive|Yuiis has 210 seconds left.
+|inactive|Yuiis has 180 seconds left.
+|
+|t:|1728832593
+|switch|p2a: Skarmory|Skarmory, F|55/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832605
+|move|p1a: Salamence|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|27/100
+|move|p2a: Skarmory|Roar|p1a: Salamence
+|drag|p1a: Hariyama|Hariyama, M|89/100
+|
+|-heal|p2a: Skarmory|33/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|95/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832619
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hariyama|Rock Slide|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|39/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728832644
+|switch|p2a: Claydol|Claydol|42/100
+|move|p1a: Hariyama|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728832668
+|switch|p2a: Jirachi|Jirachi|75/100
+|-damage|p2a: Jirachi|62/100|[from] Spikes
+|
+|upkeep
+|turn|90
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728832685
+|switch|p1a: Skarmory|Skarmory, F|7/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Skarmory|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|91
+|inactive|Yuiis has 210 seconds left.
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728832699
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Jirachi|Fire Punch|p1a: Hariyama
+|-damage|p1a: Hariyama|85/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Hariyama|91/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|inactive|Yuiis has 210 seconds left.
+|
+|t:|1728832714
+|move|p2a: Jirachi|Toxic|p1a: Hariyama
+|-status|p1a: Hariyama|tox
+|move|p1a: Hariyama|Hidden Power|p2a: Jirachi
+|-damage|p2a: Jirachi|80/100
+|
+|-heal|p1a: Hariyama|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|91/100 tox|[from] psn
+|upkeep
+|turn|93
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728832737
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Hariyama|Hidden Power|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|
+|-heal|p1a: Hariyama|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|85/100 tox|[from] psn
+|upkeep
+|turn|94
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|
+|t:|1728832767
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|95
+|inactive|UDM31 has 20 seconds left this turn.
+|inactive|UDM31 has 15 seconds left.
+|
+|t:|1728832777
+|switch|p2a: Skarmory|Skarmory, F|39/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1728832784
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Earthquake|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728832792
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|32/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Yuiis|Spikes
+|
+|-heal|p2a: Skarmory|38/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728832800
+|switch|p1a: Skarmory|Skarmory, F|13/100 par
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|99
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|
+|t:|1728832832
+|switch|p2a: Suicune|Suicune|38/100
+|-damage|p2a: Suicune|25/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Suicune
+|-sidestart|p2: UDM31|Spikes
+|
+|-heal|p2a: Suicune|32/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|100
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|inactive|Yuiis has 240 seconds left.
+|
+|t:|1728832852
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|inactive|UDM31 has 25 seconds left this turn.
+|
+|t:|1728832859
+|switch|p1a: Starmie|Starmie|66/100
+|-damage|p1a: Starmie|54/100|[from] Spikes
+|
+|-heal|p1a: Starmie|60/100|[from] item: Leftovers
+|-heal|p2a: Suicune|38/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|
+|t:|1728832888
+|move|p1a: Starmie|Rapid Spin|p2a: Suicune
+|-damage|p2a: Suicune|36/100
+|-sideend|p1: Yuiis|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Suicune|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|37/100
+|
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|-heal|p2a: Suicune|42/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|inactive|UDM31 has 20 seconds left this turn.
+|
+|t:|1728832893
+|move|p1a: Starmie|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|3/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Starmie|49/100|[from] item: Leftovers
+|-heal|p2a: Suicune|10/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728832901
+|move|p1a: Starmie|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1728832904
+|switch|p2a: Dugtrio|Dugtrio, M|41/100
+|-damage|p2a: Dugtrio|24/100|[from] Spikes
+|
+|-heal|p1a: Starmie|55/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728832911
+|move|p2a: Dugtrio|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1728832915
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|upkeep
+|turn|105
+|
+|t:|1728832921
+|switch|p2a: Blissey|Blissey, F|87/100
+|-damage|p2a: Blissey|71/100|[from] Spikes
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1728832932
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|inactive|Yuiis has 270 seconds left.
+|
+|t:|1728832952
+|switch|p2a: Skarmory|Skarmory, F|44/100
+|cant|p1a: Metagross|par
+|
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728832960
+|switch|p1a: Hariyama|Hariyama, M|85/100 tox
+|move|p2a: Skarmory|Spikes|p1a: Hariyama
+|-sidestart|p1: Yuiis|Spikes
+|
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|85/100 tox|[from] psn
+|upkeep
+|turn|109
+|
+|t:|1728832968
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Hariyama|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|79/100 tox|[from] psn
+|upkeep
+|turn|110
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728833006
+|move|p2a: Skarmory|Drill Peck|p1a: Hariyama
+|-supereffective|p1a: Hariyama
+|-damage|p1a: Hariyama|38/100 tox
+|move|p1a: Hariyama|Cross Chop|p2a: Skarmory
+|-damage|p2a: Skarmory|9/100
+|
+|-heal|p2a: Skarmory|15/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|26/100 tox|[from] psn
+|upkeep
+|turn|111
+|
+|t:|1728833017
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|21/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1728833057
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|67/100|[from] Spikes
+|move|p1a: Salamence|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|40/100
+|
+|-heal|p2a: Blissey|47/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1728833075
+|switch|p1a: Metagross|Metagross|100/100 par
+|-damage|p1a: Metagross|88/100 par|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|96/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Metagross|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|114
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|inactive|UDM31 has 5 seconds left.
+|
+|t:|1728833127
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|cant|p1a: Metagross|par
+|
+|-heal|p1a: Metagross|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|115
+|inactive|UDM31 has 15 seconds left this turn.
+|
+|t:|1728833137
+|move|p2a: Jirachi|Fire Punch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|54/100 par
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|36/100
+|
+|-heal|p1a: Metagross|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|116
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|inactive|Yuiis has 270 seconds left.
+|inactive|UDM31 has 5 seconds left.
+|
+|t:|1728833157
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|inactive|UDM31 has 10 seconds left this turn.
+|
+|t:|1728833161
+|switch|p2a: Skarmory|Skarmory, F|21/100
+|
+|-heal|p2a: Skarmory|27/100|[from] item: Leftovers
+|-heal|p1a: Metagross|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|117
+|inactive|UDM31 has 20 seconds left this turn.
+|inactive|UDM31 has 15 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|inactive|Yuiis has 270 seconds left.
+|
+|t:|1728833178
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Yuiis|Spikes
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|8/100
+|
+|-heal|p2a: Skarmory|58/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p1a: Metagross|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|118
+|inactive|UDM31 has 20 seconds left this turn.
+|inactive|UDM31 has 15 seconds left.
+|inactive|Yuiis has 270 seconds left.
+|inactive|UDM31 has 10 seconds left.
+|
+|t:|1728833191
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Yuiis|Spikes
+|cant|p1a: Metagross|par
+|
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|-heal|p1a: Metagross|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|119
+|inactive|UDM31 has 20 seconds left this turn.
+|
+|t:|1728833195
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728833199
+|move|p1a: Salamence|Rock Slide|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|28/100
+|move|p2a: Skarmory|Roar|p1a: Salamence
+|drag|p1a: Metagross|Metagross|78/100 par
+|-damage|p1a: Metagross|53/100 par|[from] Spikes
+|
+|-heal|p2a: Skarmory|34/100|[from] item: Leftovers
+|-heal|p1a: Metagross|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728833210
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|40/100|[from] item: Leftovers
+|-heal|p1a: Metagross|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1728833215
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|18/100
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p2a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728833236
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|move|p1a: Salamence|Rock Slide|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1728833250
+|switch|p1a: Metagross|Metagross|65/100 par
+|-damage|p1a: Metagross|40/100 par|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Metagross|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|125
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728833265
+|switch|p2a: Skarmory|Skarmory, F|24/100
+|cant|p1a: Metagross|par
+|
+|-heal|p2a: Skarmory|30/100|[from] item: Leftovers
+|-heal|p1a: Metagross|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|126
+|inactive|UDM31 has 30 seconds left.
+|
+|t:|1728833278
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-heal|p2a: Skarmory|36/100|[from] item: Leftovers
+|-heal|p1a: Metagross|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728833283
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|16/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p2a: Skarmory|22/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1728833301
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|move|p1a: Salamence|Rock Slide|p2a: Blissey|[miss]
+|-miss|p1a: Salamence|p2a: Blissey
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1728833331
+|switch|p1a: Metagross|Metagross|58/100 par
+|-damage|p1a: Metagross|33/100 par|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|17/100 par
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|-heal|p1a: Metagross|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|130
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728833341
+|move|p2a: Blissey|Seismic Toss|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728833344
+|switch|p1a: Hariyama|Hariyama, M|26/100 tox
+|-damage|p1a: Hariyama|1/100 tox|[from] Spikes
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|1/100 tox|[from] psn
+|upkeep
+|turn|131
+|inactive|UDM31 has 30 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1728833366
+|switch|p2a: Dugtrio|Dugtrio, M|24/100
+|-damage|p2a: Dugtrio|8/100|[from] Spikes
+|move|p1a: Hariyama|Cross Chop|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|UDM31 has 25 seconds left this turn.
+|
+|t:|1728833370
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Hariyama|0 fnt|[from] psn
+|faint|p1a: Hariyama
+|upkeep
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1728833380
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|turn|132
+|
+|t:|1728833384
+|move|p1a: Salamence|Rock Slide|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|move|p2a: Blissey|Thunder Wave|p1a: Salamence
+|-status|p1a: Salamence|par
+|
+|-heal|p2a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728833393
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|93/100
+|cant|p1a: Salamence|par
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1728833398
+|move|p2a: Blissey|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|UDM31
+|c|☆UDM31|ggs that was a really close battle
+|c|☆Yuiis|thx
+|c|☆UDM31|I had a lot of fun and yama was really frustrating
+|c|☆Yuiis|Really ? That's a really nice thing that you had fun aha
+|c|☆Yuiis|I mean me too but i felt overwhelmed 
+|c|☆Yuiis|I know that you are better than me so i feel very frustrated
+|c|☆UDM31|my friend muks said you were more of a challenge than the average opponents in his bracket
+|c|☆Yuiis|Really ? 
+|c|☆Yuiis|That's a really nice thing to heard 
+|c|☆Yuiis|Thank's
+|c|☆Yuiis|I will do my best to get better
+|c|☆Yuiis|Did you do other tournament ? I thought I had seen you're character and name somewhere else
+|c|☆UDM31|maybe
+|c|☆UDM31|I do play in a few tours but I don't go very far most of the time
+|c|☆Yuiis|Oh I thought aha 
+|c|☆UDM31|aside from team tours
+|c|☆UDM31|in which case this avatar is from advpl
+|c|☆Yuiis|That's why aha, could be why I thought you were someone else
+|c|☆UDM31|but my teammates were mostly doing the work
+|c|☆UDM31|I did play in advr last year
+|c|☆Yuiis|You did do advr aha
+|c|☆UDM31|I only made it to 2nd round of bracket
+|c|☆UDM31|(not swiss)
+|c|☆Yuiis|Still a thing, players are really good in here aha
+|c|☆UDM31|/log UDM31 made the replay of this battle unlisted.
+|c|☆Yuiis|I'm hoping you will do great in this tournament; I really appreciated the fact that you told me you had fun, I can easily feel  frustrated so that's still that aha 
+|c|☆UDM31|ngl I was really frustrated
+|c|☆UDM31|by the yama
+|c|☆Yuiis|I should have played around gust
+|c|☆UDM31|guts?
+|c|☆Yuiis|Taking any t wave would have creat a pokemon that Jirachi without leftovers could not stop
+|c|☆UDM31|yeah
+|c|☆Yuiis|Yeah, the ability of hari
+|c|☆UDM31|that play sent this to game 3
+|c|☆Yuiis|I got it with toxic but way too late
+|c|☆UDM31|or
+|c|☆Yuiis|I was really hoping for a burn fire punch lol
+|c|☆UDM31|my plan was to let yama be statused
+|c|☆UDM31|for one reason
+|c|☆UDM31|to wear it down, likely for dug
+|c|☆Yuiis|The dug on the fact you knew that blissey has no beam was great 
+|c|☆UDM31|because without it's threat factor then this was really hard for you to get going
+|c|☆UDM31|I saw that it had no beam
+|c|☆UDM31|thing is
+|c|☆UDM31|if you spammed tstoss with a spike up
+|c|☆UDM31|then you beat it
+|c|☆UDM31|so I needed to double it in
+|c|☆Yuiis|Yeah 
+|c|☆Yuiis|3 toss on a 134 turn is something lol
+|c|☆Yuiis|I don't know why i did not abuse it
+|c|☆Yuiis|I just sucked you were better 
+|c|☆UDM31|eh
+|c|☆UDM31|you play better than the average ladder player, you actually think about gamestate
+|c|☆UDM31|you just missed a few things
+|c|☆UDM31|this was a good bring from you I think it was more of a teambuilding error not having ice beam on bliss
+|c|☆Yuiis|T wave was useless
+|c|☆UDM31|well
+|c|☆UDM31|no twave means I could have played around bliss a lot more easily
+|c|☆UDM31|it's just that ice beam is mandatory 95-99% of the time
+|c|☆UDM31|because of dug but also for random things like mence
+|c|☆UDM31|twave helps
+|c|☆UDM31|but then you don't work against dug
+|c|☆UDM31|if you used hp grass then you'd have the same issue
+|c|☆UDM31|only real exception I've seen is twave grass fire and even then that's pushing it
+|c|☆Yuiis|Gross has hp grass ahaha
+|c|☆UDM31|ah
+|c|☆UDM31|I was thinking it was explosion last
+|c|☆UDM31|agility isn't a bad idea by itself
+|c|☆UDM31|I like that idea
+|c|☆UDM31|my main blunder was assuming you were defensive starmie
+|c|☆UDM31|and letting my suicune do nothing
+|c|☆Yuiis|i was offensive :'(
+|c|☆Yuiis|the pressure of agility was here
+|c|☆Yuiis|with the read of twave i knew it was over aha
+|c|☆Yuiis|in game 1, I swap my donphan lead for skar
+|c|☆UDM31|well agility didn't do anything to me aside from dug
+|c|☆Yuiis|i forgot about roar
+|c|☆Yuiis|I was so frustrated
+|c|☆UDM31|it's just a good idea in general I think
+|c|☆UDM31|specifically because I find these teams rely too much on cb mence
+|c|☆UDM31|like bkc has the same 6
+|c|☆UDM31|but it's bulky metagross
+|c|☆Yuiis|The same as me ?
+|c|☆UDM31|and cb mence
+|c|☆UDM31|yeah his original was mag over yama
+|c|☆UDM31|but then he put yama on it
+|c|☆Yuiis|I really think 
+|c|☆UDM31|it's mostly associated with him
+|c|☆Yuiis|Yama is still underrated
+|c|☆UDM31|it's an interesting pokemon
+|c|☆Yuiis|knock fighting type coverage cool stats
+|c|☆Yuiis|love it
+|c|☆UDM31|if I didn't have fear rachi it would be a lot harder to check
+|c|☆Yuiis|Yeah fuck that set (it was great)
+|c|☆UDM31|lol it was the one reason why this team works into yama
+|c|☆UDM31|because you only have 8 cross chop pp
+|c|☆Yuiis|I trully think that Jirachi was the pokemon that made my game hell (and 134 turns)
+|c|☆Yuiis|We could even say 7, i needed one for bli T-T
+|c|☆UDM31|well
+|c|☆UDM31|yeah but idk if I had no fear rachi and you had no cross chops that benefits you
+|c|☆Yuiis|Def Staross would have made the game easier too
+|c|☆UDM31|because you just knock
+|c|☆Yuiis|Starmie lol sorry
+|c|☆UDM31|like skarm checks it but still gets worn down
+|c|☆UDM31|I got impatient by the end
+|c|☆Yuiis|Having to relly on wish with a mon that have no hp is terrible
+|c|☆Yuiis|yeah we did both
+|c|☆Yuiis|My friends wanted to see the match
+|c|☆UDM31|oh
+|c|☆Yuiis|After 40 minutes thay start checking their phone xD
+|c|☆Yuiis|After 40 turns**
+|c|☆Yuiis|After 60 they leaved the room xD
+|c|☆UDM31|lol
+|c|☆UDM31|what would they have done if they watched the first game
+|c|☆Yuiis|Everything was so upsetting but you did help me to put things in perspective. I'm a passionate new comer, but I'm a new comer that's normal to have difficulties
+|c|☆Yuiis|They did see game 1, and I explain after turn 3 that the game was over
+|c|☆UDM31|tbh
+|c|☆UDM31|I think that team might have been a low key autoloss matchup
+|c|☆UDM31|or highkey even
+|c|☆Yuiis|Which one ? Game 1 auto loss for me ?
+|c|☆UDM31|if you couldn't stop mag into sd pass celebi
+|c|☆UDM31|yes
+|c|☆Yuiis|Oh yeah
+|c|☆UDM31|like
+|c|☆UDM31|even if you got the spike
+|c|☆Yuiis|Really, the Skar lead and changing hp fire for psychic on bi last min was the worth idea ever*
+|c|☆UDM31|I am not sure if hp fire was enough I feel like the team is fundamentally a bit flawed
+|c|☆UDM31|this team though works
+|c|☆UDM31|it gave me a good amount of trouble
+|c|☆Yuiis|And I can't even be upsetting about myself on the protect, roar would clearly be better, but checking the tar set can be understansable
+|c|☆UDM31|or
+|c|☆UDM31|spike
+|c|☆UDM31|if you have no dug
+|c|☆Yuiis|Yeah spike instantly shoud lave been the play
+|c|☆UDM31|what can you do to block mag?
+|c|☆Yuiis|Porygon 2 trace hp fire
+|c|☆UDM31|huh
+|c|☆UDM31|interesting
+|c|☆UDM31|never seen that one before
+|c|☆Yuiis|I think the turn 2 make me in a looser mindset
+|c|☆Yuiis|And I should have revenge kill with pory
+|c|☆UDM31|well
+|c|☆UDM31|idk if p2 would actually take 2 hits from magnet magneton
+|c|☆UDM31|it's thunderbolt with the magnet becomes stronger than zapdos's
+|c|☆UDM31|not impossible
+|c|☆Yuiis|252+ SpA 30 IVs Magnet Magneton Thunderbolt vs. 252 HP / 56 SpD Porygon2: 174-205 (46.5 - 54.8%) -- 9% chance to 2HKO after Leftovers recovery
+|c|☆Yuiis|0 SpA 30 IVs Porygon2 Hidden Power Fire vs. 4 HP / 0 SpD Magneton: 141-166 (58.2 - 68.5%) -- guaranteed 2HKO
+|c|☆UDM31|okay so like
+|c|☆UDM31|in your favor
+|c|☆Yuiis|It does only work in revenge kill tho
+|c|☆UDM31|or a double
+|c|☆UDM31|even though it's not a guarentee
+|c|☆UDM31|if you double then you have a shot
+|c|☆Yuiis|Really hard
+|c|☆UDM31|that's one of those turns where given what was about to come you had no other choice
+|c|☆UDM31|it's easier if you aren't lead skarm, you can tweak the evs a small amount as well
+|c|☆UDM31|oh wait
+|c|☆UDM31|your calc doesn't account for the sand on the battlefeild
+|c|☆UDM31|that's what makes p2 hard to pull off
+|c|☆UDM31|let's switch this over to dms
+|c|☆UDM31|if you like
+|player|p1|
+|player|p1|Yuiis|camper|
+|c|☆Yuiis|Yes !
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798041">
+{"id":"smogtours-gen3ou-798041","format":"[Gen 3] OU","players":["Yuiis","UDM31"],"uploadtime":1728833398,"views":134,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

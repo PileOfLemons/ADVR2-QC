@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: JensenDale vs. KoboldSorcerer - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between JensenDale and KoboldSorcerer! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798808">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728944458
+|gametype|singles
+|player|p1|JensenDale|larry|
+|player|p2|KoboldSorcerer|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728944458
+|start
+|switch|p1a: Hariyama|Hariyama, F|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Hariyama|atk|1
+|turn|1
+|c|☆JensenDale|glhf!
+|c|☆KoboldSorcerer|u2!
+|
+|t:|1728944483
+|move|p2a: Salamence|Dragon Claw|p1a: Hariyama
+|-damage|p1a: Hariyama|53/100
+|move|p1a: Hariyama|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|98/100
+|-enditem|p2a: Salamence|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-heal|p1a: Hariyama|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728944498
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Salamence|Roar|p1a: Jirachi
+|drag|p1a: Marowak|Marowak, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1728944513
+|-singleturn|p1a: Marowak|move: Focus Punch
+|move|p2a: Salamence|Dragon Claw|p1a: Marowak
+|-damage|p1a: Marowak|36/100
+|move|p1a: Marowak|Focus Punch||[still]
+|cant|p1a: Marowak|Focus Punch|Focus Punch
+|
+|upkeep
+|turn|4
+|
+|t:|1728944525
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Salamence|Brick Break|p1a: Jirachi
+|-damage|p1a: Jirachi|85/100
+|
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728944531
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi|[miss]
+|-miss|p2a: Salamence|p1a: Jirachi
+|move|p1a: Jirachi|Body Slam|p2a: Salamence
+|-damage|p2a: Salamence|76/100
+|
+|-heal|p1a: Jirachi|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728944539
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728944544
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|upkeep
+|turn|8
+|
+|t:|1728944550
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|33/100
+|move|p2a: Skarmory|Roar|p1a: Jirachi
+|drag|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-heal|p2a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728944556
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salamence|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728944568
+|switch|p2a: Salamence|Salamence, F|76/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Protect||[still]
+|-fail|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728944579
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Salamence|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|64/100|[from] Sandstorm
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728944589
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728944593
+|move|p1a: Jirachi|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|59/100
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|90/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|53/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728944610
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|39/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728944620
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728944637
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: JensenDale|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|JensenDale has 270 seconds left.
+|inactive|KoboldSorcerer has 270 seconds left.
+|
+|t:|1728944689
+|switch|p1a: Marowak|Marowak, M|36/100
+|-damage|p1a: Marowak|23/100|[from] Spikes
+|switch|p2a: Salamence|Salamence, F|64/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Marowak|atk|1
+|
+|-heal|p1a: Marowak|73/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|58/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1728944705
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|35/100|[from] Sandstorm
+|-damage|p2a: Salamence|52/100|[from] Sandstorm
+|-heal|p1a: Starmie|42/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728944717
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|92/100
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|37/100|[from] Sandstorm
+|-damage|p2a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728944728
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|93/100
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|37/100|[from] Sandstorm
+|-damage|p2a: Salamence|40/100|[from] Sandstorm
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728944737
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|93/100
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|39/100|[from] Sandstorm
+|-damage|p2a: Salamence|35/100|[from] Sandstorm
+|-heal|p1a: Starmie|45/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728944743
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|95/100
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|0 fnt|[from] Sandstorm
+|-damage|p2a: Salamence|29/100|[from] Sandstorm
+|faint|p1a: Starmie
+|upkeep
+|
+|t:|1728944760
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|turn|23
+|
+|t:|1728944763
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|28/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|23/100|[from] Sandstorm
+|-heal|p1a: Jirachi|34/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|JensenDale has 270 seconds left.
+|
+|t:|1728944771
+|switch|p2a: Skarmory|Skarmory, M|56/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|84/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728944777
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|32/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: JensenDale|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|25/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1728944784
+|switch|p2a: Blissey|Blissey, F|59/100
+|move|p1a: Jirachi|Fire Punch|p2a: Blissey
+|-damage|p2a: Blissey|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728944791
+|move|p1a: Jirachi|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|15/100
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|8/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728944797
+|move|p1a: Jirachi|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1728944800
+|switch|p2a: Salamence|Salamence, F|23/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|17/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1728944805
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|44/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|11/100|[from] Sandstorm
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728944812
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|99/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|5/100|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728944828
+|move|p2a: Salamence|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|87/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|0 fnt|[from] Sandstorm
+|faint|p2a: Salamence
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728944841
+|switch|p2a: Tyranitar|Tyranitar, F|90/100
+|turn|32
+|
+|t:|1728944845
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Jirachi|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1728944862
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728944868
+|move|p2a: Tyranitar|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|9/100
+|move|p1a: Salamence|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|3/100|[from] Sandstorm
+|-heal|p1a: Salamence|9/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728944887
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Salamence|Wish|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|3/100|[from] Sandstorm
+|-heal|p1a: Salamence|9/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728944900
+|move|p2a: Tyranitar|Hidden Power|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1728944903
+|switch|p1a: Marowak|Marowak, M|73/100
+|-damage|p1a: Marowak|57/100|[from] Spikes
+|
+|-heal|p1a: Marowak|100/100|[from] move: Wish|[wisher] Salamence
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1728944913
+|move|p2a: Tyranitar|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|11/100
+|move|p1a: Marowak|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728944927
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1728944935
+|move|p2a: Aerodactyl|Earthquake|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|t:|1728944939
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728944943
+|switch|p2a: Skarmory|Skarmory, M|25/100 brn
+|move|p1a: Celebi|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|10/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|3/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1728944954
+|move|p1a: Celebi|Leech Seed|p2a: Skarmory|[miss]
+|-miss|p1a: Celebi|p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Celebi
+|-sidestart|p1: JensenDale|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|0 fnt|[from] brn
+|faint|p2a: Skarmory
+|upkeep
+|
+|t:|1728944959
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|41
+|
+|t:|1728944964
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Celebi|Leech Seed||[still]
+|-fail|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728944975
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|64/100
+|move|p1a: Celebi|Psychic|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-damage|p1a: Celebi|58/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|64/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728944983
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|42/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-damage|p1a: Celebi|86/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728944988
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|51/100
+|move|p1a: Celebi|Psychic|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|44/100|[from] Sandstorm
+|-damage|p1a: Celebi|86/100|[from] Sandstorm
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728944994
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|70/100
+|move|p1a: Celebi|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|6/100|[from] Sandstorm
+|-damage|p1a: Celebi|64/100|[from] Sandstorm
+|-heal|p2a: Zapdos|12/100|[from] item: Leftovers
+|-heal|p1a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728944999
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|-status|p1a: Celebi|par
+|move|p1a: Celebi|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|6/100|[from] Sandstorm
+|-damage|p1a: Celebi|42/100 par|[from] Sandstorm
+|-heal|p2a: Zapdos|12/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|0 fnt|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|51/100 par|[silent]
+|faint|p2a: Zapdos
+|-heal|p1a: Celebi|58/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1728945003
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|turn|47
+|
+|t:|1728945010
+|move|p2a: Aerodactyl|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|43/100 par
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|93/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|87/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728945018
+|-curestatus|p1a: Celebi|par|[from] ability: Natural Cure
+|switch|p1a: Hariyama|Hariyama, F|59/100
+|-damage|p1a: Hariyama|34/100|[from] Spikes
+|move|p2a: Aerodactyl|Earthquake|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|t:|1728945026
+|switch|p1a: Celebi|Celebi|93/100
+|-damage|p1a: Celebi|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|62/100|[from] Sandstorm
+|-heal|p1a: Celebi|68/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728945028
+|move|p2a: Aerodactyl|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|53/100
+|move|p1a: Celebi|Leech Seed|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|47/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|56/100|[silent]
+|-heal|p1a: Celebi|62/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|c|☆JensenDale|gg
+|
+|t:|1728945038
+|move|p2a: Aerodactyl|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|46/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|90/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|76/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|99/100|[silent]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728945041
+|move|p2a: Aerodactyl|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|84/100
+|move|p1a: Celebi|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|32/100
+|-unboost|p2a: Aerodactyl|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-damage|p2a: Aerodactyl|20/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|87/100|[silent]
+|-heal|p1a: Celebi|93/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728945045
+|move|p2a: Aerodactyl|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|78/100
+|move|p1a: Celebi|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|win|JensenDale
+|c|☆KoboldSorcerer|ggwp
+|c|☆JensenDale|vwp
+|c|☆JensenDale|very well played all 3 games
+|c|☆KoboldSorcerer|some close games
+|c|☆JensenDale|absolutely
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798808">
+{"id":"smogtours-gen3ou-798808","format":"[Gen 3] OU","players":["JensenDale","KoboldSorcerer"],"uploadtime":1728945045,"views":88,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

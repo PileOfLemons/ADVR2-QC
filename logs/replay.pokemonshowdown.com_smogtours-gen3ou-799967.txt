@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: leng loi vs. UDM31 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between leng loi and UDM31! Format: [Gen 3] OU; Date: Oct 19, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-799967">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729358628
+|gametype|singles
+|player|p1|leng loi|#scl4machines2|
+|player|p2|UDM31|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729358628
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|
+|t:|1729358649
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729358651
+|switch|p1a: Swampert|Swampert, M|100/100|[from] Baton Pass
+|move|p2a: Regirock|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|85/100
+|
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729358662
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|
+|upkeep
+|turn|3
+|inactive|UDM31 has 270 seconds left.
+|inactive|leng loi has 270 seconds left.
+|inactive|UDM31 has 240 seconds left.
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729358748
+|move|p1a: Metagross|Meteor Mash|p2a: Cloyster
+|-damage|p2a: Cloyster|41/100
+|move|p2a: Cloyster|Spikes|p1a: Metagross
+|-sidestart|p1: leng loi|Spikes
+|
+|-heal|p2a: Cloyster|47/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|UDM31 has 240 seconds left.
+|
+|t:|1729358782
+|move|p1a: Metagross|Meteor Mash|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|t:|1729358785
+|switch|p2a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|5
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729358801
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: Zapdos|[miss]
+|-miss|p2a: Swampert|p1a: Zapdos
+|
+|upkeep
+|turn|6
+|
+|t:|1729358806
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|UDM31 has 210 seconds left.
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729358839
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729358848
+|switch|p1a: Salamence|Salamence, F|100/100|[from] Baton Pass
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|
+|upkeep
+|turn|8
+|inactive|UDM31 has 210 seconds left.
+|
+|t:|1729358872
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Salamence|Hidden Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|57/100
+|
+|upkeep
+|turn|9
+|inactive|UDM31 has 210 seconds left.
+|
+|t:|1729358881
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Gengar
+|-damage|p2a: Gengar|55/100
+|
+|-heal|p2a: Gengar|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729358903
+|move|p2a: Gengar|Ice Punch|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-end|p1a: Salamence|Substitute
+|move|p1a: Salamence|Dragon Claw|p2a: Gengar
+|-damage|p2a: Gengar|18/100
+|
+|-heal|p2a: Gengar|24/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|leng loi has 240 seconds left.
+|inactive|leng loi has 210 seconds left.
+|
+|t:|1729358955
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: Gengar|Ice Punch|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|76/100
+|
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|leng loi has 210 seconds left.
+|inactive|UDM31 has 210 seconds left.
+|
+|t:|1729358998
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|68/100
+|
+|-heal|p2a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729359008
+|switch|p1a: Zapdos|Zapdos|82/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|76/100|[from] Sandstorm
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|leng loi has 210 seconds left.
+|
+|t:|1729359013
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729359015
+|switch|p1a: Swampert|Swampert, M|91/100|[from] Baton Pass
+|-damage|p1a: Swampert|78/100|[from] Spikes
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|UDM31 has 210 seconds left.
+|
+|t:|1729359036
+|move|p2a: Tyranitar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|34/100
+|move|p1a: Swampert|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729359069
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|UDM31 has 180 seconds left.
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1729359115
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|53/100|[from] Sandstorm
+|-heal|p1a: Breloom|60/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|UDM31 has 150 seconds left.
+|
+|t:|1729359134
+|move|p1a: Breloom|Mach Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|UDM31 has 120 seconds left.
+|
+|t:|1729359177
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|53/100|[from] Sandstorm
+|-heal|p1a: Breloom|60/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729359198
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|75/100
+|move|p1a: Breloom|Spore||[still]
+|-fail|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|53/100|[from] Sandstorm
+|-heal|p1a: Breloom|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729359206
+|move|p1a: Breloom|Mach Punch|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|move|p2a: Aerodactyl|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|t:|1729359217
+|switch|p1a: Metagross|Metagross|76/100
+|-damage|p1a: Metagross|64/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|inactive|UDM31 has 120 seconds left.
+|inactive|UDM31 has 90 seconds left.
+|inactive|leng loi has 210 seconds left.
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1729359297
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|50/100
+|move|p1a: Metagross|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1729359303
+|switch|p2a: Swampert|Swampert, M|75/100
+|move|p1a: Metagross|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|65/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1729359331
+|switch|p1a: Zapdos|Zapdos|82/100
+|move|p2a: Swampert|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|30/100|[from] Sandstorm
+|-heal|p1a: Zapdos|36/100|[from] item: Leftovers
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729359347
+|switch|p2a: Regirock|Regirock|57/100
+|move|p1a: Zapdos|Hidden Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|30/100|[from] Sandstorm
+|-heal|p1a: Zapdos|36/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729359356
+|move|p1a: Zapdos|Thunderbolt|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|t:|1729359369
+|switch|p2a: Gengar|Gengar, F|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-damage|p1a: Zapdos|30/100|[from] Sandstorm
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729359391
+|switch|p1a: Swampert|Swampert, M|40/100
+|-damage|p1a: Swampert|28/100|[from] Spikes
+|move|p2a: Gengar|Ice Punch|p1a: Swampert
+|-damage|p1a: Swampert|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|-heal|p1a: Swampert|13/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729359396
+|move|p2a: Gengar|Ice Punch|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1729359401
+|switch|p1a: Metagross|Metagross|64/100
+|-damage|p1a: Metagross|52/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|UDM31 has 60 seconds left.
+|inactive|UDM31 has 30 seconds left.
+|inactive|leng loi has 210 seconds left.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|
+|t:|1729359456
+|switch|p2a: Swampert|Swampert, M|71/100
+|move|p1a: Metagross|Explosion|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Swampert
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1729359465
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Gengar|Gengar, F|30/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|UDM31 has 30 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|inactive|UDM31 has 15 seconds left.
+|
+|t:|1729359481
+|move|p2a: Gengar|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-heal|p2a: Gengar|30/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1729359489
+|move|p2a: Gengar|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|61/100 brn
+|faint|p2a: Gengar
+|inactive|UDM31 has 25 seconds left this turn.
+|inactive|UDM31 has 20 seconds left.
+|
+|t:|1729359495
+|switch|p2a: Aerodactyl|Aerodactyl, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|55/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|UDM31 has 30 seconds left this turn.
+|
+|t:|1729359499
+|move|p2a: Aerodactyl|Substitute|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Substitute
+|-damage|p2a: Aerodactyl|25/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-end|p2a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-enditem|p2a: Aerodactyl|Liechi Berry|[eat]
+|-boost|p2a: Aerodactyl|atk|1|[from] item: Liechi Berry
+|-heal|p1a: Tyranitar|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|48/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|leng loi has 240 seconds left.
+|
+|t:|1729359504
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|move|p2a: Aerodactyl|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729359513
+|switch|p1a: Zapdos|Zapdos|36/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1729359515
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729359521
+|switch|p1a: Tyranitar|Tyranitar, F|48/100 brn
+|-damage|p1a: Tyranitar|36/100 brn|[from] Spikes
+|move|p2a: Aerodactyl|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|17/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|23/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|11/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1729359535
+|move|p2a: Aerodactyl|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729359538
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|UDM31 has 60 seconds left.
+|
+|t:|1729359545
+|move|p2a: Aerodactyl|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|54/100
+|move|p1a: Salamence|Dragon Claw|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|win|leng loi
+|c|☆UDM31|gg
+|c|☆leng loi|ggs
+|c|☆UDM31|cya
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-799967">
+{"id":"smogtours-gen3ou-799967","format":"[Gen 3] OU","players":["leng loi","UDM31"],"uploadtime":1729359545,"views":117,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

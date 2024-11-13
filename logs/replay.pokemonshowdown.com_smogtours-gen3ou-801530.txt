@@ -1,0 +1,3106 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Violet River vs. RedCrimp - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Violet River and RedCrimp! Format: [Gen 3] OU; Date: Oct 24, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801530">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729752551
+|gametype|singles
+|player|p1|Violet River|jasmine-masters2|
+|player|p2|RedCrimp|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729752551
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆RedCrimp|hf
+|c|☆Violet River|hfhf
+|
+|t:|1729752573
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Hariyama|Knock Off|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729752589
+|-singleturn|p2a: Hariyama|move: Focus Punch
+|move|p1a: Skarmory|Spikes|p2a: Hariyama
+|-sidestart|p2: RedCrimp|Spikes
+|move|p2a: Hariyama|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729752609
+|-singleturn|p2a: Hariyama|move: Focus Punch
+|move|p1a: Skarmory|Spikes|p2a: Hariyama
+|-sidestart|p2: RedCrimp|Spikes
+|move|p2a: Hariyama|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1729752615
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729752625
+|move|p1a: Zapdos|Thunderbolt|p2a: Hariyama
+|-crit|p2a: Hariyama
+|-damage|p2a: Hariyama|6/100
+|move|p2a: Hariyama|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Hariyama|0 fnt|[from] Sandstorm
+|faint|p2a: Hariyama
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|upkeep
+|c|☆Violet River|my b
+|inactive|RedCrimp has 270 seconds left.
+|inactive|RedCrimp has 240 seconds left.
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729752716
+|switch|p2a: Claydol|Claydol|100/100
+|turn|5
+|
+|t:|1729752724
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Claydol|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|45/100|[from] Sandstorm
+|-heal|p1a: Gengar|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729752738
+|switch|p1a: Swampert|Swampert, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|RedCrimp has 210 seconds left.
+|c|☆Violet River|nice play
+|
+|t:|1729752764
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|84/100|[from] Spikes
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|RedCrimp has 180 seconds left.
+|
+|t:|1729752789
+|move|p2a: Salamence|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|48/100
+|move|p1a: Swampert|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1729752811
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729752814
+|move|p2a: Claydol|Rapid Spin|p1a: Swampert
+|-damage|p1a: Swampert|50/100
+|-sideend|p2: RedCrimp|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Swampert|Hydro Pump|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|22/100|[from] item: Leftovers
+|-heal|p1a: Swampert|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729752823
+|switch|p2a: Blissey|Blissey, F|84/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|RedCrimp has 180 seconds left.
+|
+|t:|1729752829
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Tyranitar|Focus Punch|p2a: Metagross
+|-damage|p2a: Metagross|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|RedCrimp has 180 seconds left.
+|
+|t:|1729752867
+|switch|p1a: Zapdos|Zapdos|45/100
+|move|p2a: Metagross|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Metagross|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729752872
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Metagross|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729752879
+|switch|p2a: Claydol|Claydol|22/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Claydol|28/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729752886
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Blissey|Blissey, F|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729752892
+|switch|p2a: Claydol|Claydol|28/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|RedCrimp has 180 seconds left.
+|
+|t:|1729752898
+|move|p1a: Tyranitar|Rock Slide|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1729752901
+|switch|p2a: Metagross|Metagross|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729752905
+|move|p1a: Tyranitar|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|11/100
+|move|p2a: Metagross|Meteor Mash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|30/100|[from] item: Leftovers
+|-heal|p2a: Metagross|18/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729752914
+|move|p1a: Tyranitar|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1729752917
+|switch|p2a: Suicune|Suicune|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|78/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|36/100|[from] item: Leftovers
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729752926
+|move|p1a: Tyranitar|Rock Slide|p2a: Suicune|[miss]
+|-miss|p1a: Tyranitar|p2a: Suicune
+|move|p2a: Suicune|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729752929
+|switch|p1a: Zapdos|Zapdos|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|78/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729752937
+|switch|p1a: Swampert|Swampert, F|56/100
+|switch|p2a: Blissey|Blissey, F|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729752949
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|40/100|[from] Sandstorm
+|-heal|p2a: Blissey|46/100|[from] item: Leftovers
+|-heal|p1a: Swampert|68/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729752964
+|switch|p2a: Suicune|Suicune|84/100
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|46/100
+|
+|-heal|p2a: Blissey|96/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|90/100|[from] Sandstorm
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729752971
+|switch|p2a: Suicune|Suicune|84/100
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|58/100|[from] Sandstorm
+|-heal|p2a: Suicune|64/100|[from] item: Leftovers
+|-heal|p1a: Swampert|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729752987
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|55/100
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|35/100|[from] Sandstorm
+|-heal|p2a: Suicune|42/100|[from] item: Leftovers
+|-heal|p1a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1729753002
+|switch|p1a: Zapdos|Zapdos|45/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729753006
+|switch|p2a: Blissey|Blissey, F|96/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|90/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|96/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|90/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1729753011
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|84/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|77/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1729753016
+|switch|p1a: Gengar|Gengar, M|51/100
+|move|p2a: Blissey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|32/100
+|
+|-heal|p2a: Blissey|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|26/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|RedCrimp has 240 seconds left.
+|
+|t:|1729753043
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|71/100 tox
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|26/100|[from] Sandstorm
+|-damage|p2a: Blissey|65/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|46/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1729753047
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|56/100 slp
+|
+|-heal|p2a: Suicune|100/100 slp|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|26/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|32/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729753060
+|switch|p2a: Blissey|Blissey, F|46/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|26/100|[from] Sandstorm
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p1a: Gengar|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729753067
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729753081
+|switch|p1a: Swampert|Swampert, F|61/100
+|move|p2a: Blissey|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|-heal|p1a: Swampert|42/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729753092
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|86/100
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|4/100|[from] Sandstorm
+|-heal|p2a: Blissey|10/100|[from] item: Leftovers
+|-heal|p1a: Swampert|48/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729753099
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|60/100
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|18/100|[from] Sandstorm
+|-heal|p2a: Blissey|24/100|[from] item: Leftovers
+|-heal|p1a: Swampert|55/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729753108
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|74/100
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|36/100|[from] Sandstorm
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|-heal|p1a: Swampert|61/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729753116
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|92/100
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|-heal|p1a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729753129
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Swampert|Roar|p2a: Blissey
+|drag|p2a: Suicune|Suicune|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729753135
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729753141
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1729753147
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1729753156
+|switch|p1a: Swampert|Swampert, F|73/100
+|move|p2a: Blissey|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|64/100 tox|[from] psn
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729753162
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|switch|p1a: Zapdos|Zapdos|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729753167
+|switch|p2a: Blissey|Blissey, F|64/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|57/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|57/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1729753172
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|36/100 tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|86/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|80/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|74/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1729753175
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|68/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|55/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1729753191
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1729753198
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|56/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|49/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729753206
+|switch|p2a: Blissey|Blissey, F|76/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|70/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729753223
+|switch|p1a: Swampert|Swampert, F|64/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729753229
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Blissey|65/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729753232
+|switch|p2a: Suicune|Suicune|56/100 slp
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|65/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729753238
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Swampert|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Blissey|66/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729753244
+|switch|p2a: Suicune|Suicune|56/100 slp
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|34/100 slp
+|
+|-heal|p2a: Suicune|84/100 slp|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|78/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|84/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|95/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729753250
+|cant|p2a: Suicune|slp
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|62/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|56/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|62/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729753264
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|33/100|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729753272
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729753280
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729753291
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|93/100
+|move|p1a: Blissey|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|87/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1729753300
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|92/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|87/100|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1729753306
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1729753311
+|switch|p2a: Blissey|Blissey, F|94/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|t:|1729753320
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|t:|1729753338
+|switch|p1a: Blissey|Blissey, F|93/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|-status|p1a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|70/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|79/100 frz|[from] Sandstorm
+|-heal|p2a: Blissey|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|57/100 tox|[from] psn
+|-heal|p1a: Blissey|85/100 frz|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1729753346
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|92/100 slp
+|-curestatus|p1a: Blissey|frz|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1729753364
+|switch|p2a: Blissey|Blissey, F|57/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|41/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|47/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1729753373
+|switch|p1a: Blissey|Blissey, F|85/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1729753379
+|switch|p2a: Suicune|Suicune|92/100 slp
+|move|p1a: Blissey|Toxic||[still]
+|-fail|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1729753383
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1729753392
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1729753406
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1729753412
+|switch|p1a: Blissey|Blissey, F|85/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100|[from] Sandstorm
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1729753429
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|move|p1a: Blissey|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|71/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p2a: Blissey|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|71/100 tox|[from] psn
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1729753437
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|92/100 slp
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|83/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|77/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p2a: Suicune|83/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1729753458
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|77/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p2a: Suicune|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|77/100 tox|[from] psn
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1729753467
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|70/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|81/100|[from] Sandstorm
+|-heal|p2a: Suicune|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|64/100 tox|[from] psn
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1729753472
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Blissey|Fire Blast|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|92/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|81/100|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1729753480
+|switch|p1a: Swampert|Swampert, F|100/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|86/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1729753485
+|cant|p2a: Suicune|slp
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|65/100|[from] Sandstorm
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1729753497
+|switch|p1a: Blissey|Blissey, F|87/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|65/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1729753503
+|switch|p2a: Suicune|Suicune|92/100 slp
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|83/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|77/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Suicune|83/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1729753509
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|77/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Suicune|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|77/100 tox|[from] psn
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1729753519
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|71/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|64/100 tox|[from] psn
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1729753530
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|65/100|[from] Sandstorm
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|-heal|p1a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1729753536
+|switch|p1a: Blissey|Blissey, F|72/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|65/100|[from] Sandstorm
+|-damage|p1a: Blissey|50/100|[from] Sandstorm
+|-heal|p2a: Blissey|71/100|[from] item: Leftovers
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1729753546
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1729753554
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Blissey|Fire Blast|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|89/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|89/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1729753559
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|82/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1729753562
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|91
+|
+|t:|1729753568
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|92
+|
+|t:|1729753572
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|64/100 tox|[from] psn
+|upkeep
+|turn|93
+|
+|t:|1729753578
+|switch|p1a: Blissey|Blissey, F|100/100
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|89/100 slp
+|
+|-heal|p2a: Suicune|100/100 slp|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1729753581
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1729753586
+|switch|p2a: Blissey|Blissey, F|64/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|57/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|57/100 tox|[from] psn
+|upkeep
+|turn|96
+|
+|t:|1729753597
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|38/100 tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|88/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|75/100 tox|[from] psn
+|upkeep
+|turn|97
+|
+|t:|1729753601
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Zapdos|Protect||[still]
+|-fail|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1729753606
+|switch|p2a: Blissey|Blissey, F|75/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|69/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|69/100 tox|[from] psn
+|upkeep
+|turn|99
+|
+|t:|1729753611
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|63/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|57/100 tox|[from] psn
+|upkeep
+|turn|100
+|
+|t:|1729753617
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|94/100
+|
+|-heal|p2a: Blissey|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1729753622
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|switch|p1a: Zapdos|Zapdos|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1729753631
+|switch|p2a: Blissey|Blissey, F|82/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|103
+|
+|t:|1729753636
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|70/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|64/100 tox|[from] psn
+|upkeep
+|turn|104
+|
+|t:|1729753639
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|105
+|
+|t:|1729753662
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|60/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|54/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1729753670
+|switch|p2a: Blissey|Blissey, F|82/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|64/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1729753677
+|switch|p1a: Swampert|Swampert, F|71/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|64/100|[from] Sandstorm
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|-heal|p1a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1729753683
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1729753690
+|switch|p2a: Suicune|Suicune|60/100 slp
+|switch|p1a: Swampert|Swampert, F|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|54/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|60/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1729753695
+|switch|p1a: Blissey|Blissey, F|78/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|54/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1729753700
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|54/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1729753707
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|54/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|54/100 tox|[from] psn
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1729753714
+|switch|p1a: Swampert|Swampert, F|83/100
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|47/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|41/100 tox|[from] psn
+|-heal|p1a: Swampert|33/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1729753724
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1729753734
+|switch|p2a: Suicune|Suicune|100/100 slp
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1729753739
+|switch|p1a: Zapdos|Zapdos|45/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1729753752
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|118
+|
+|t:|1729753760
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-activate|p1a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|39/100|[from] Sandstorm
+|-damage|p2a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|45/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|119
+|
+|t:|1729753764
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|59/100 tox
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|0 fnt|[from] Sandstorm
+|-damage|p2a: Blissey|53/100 tox|[from] Sandstorm
+|faint|p1a: Zapdos
+|-heal|p2a: Blissey|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|41/100 tox|[from] psn
+|upkeep
+|
+|t:|1729753771
+|switch|p1a: Gengar|Gengar, M|10/100
+|turn|120
+|
+|t:|1729753783
+|switch|p1a: Swampert|Swampert, F|39/100
+|move|p2a: Blissey|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|35/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|16/100 tox|[from] psn
+|-heal|p1a: Swampert|29/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1729753787
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|66/100 tox
+|move|p1a: Swampert|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|39/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|33/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|9/100 tox|[from] psn
+|-heal|p1a: Swampert|36/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729753826
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Swampert|Hydro Pump|p2a: Suicune|[miss]
+|-miss|p1a: Swampert|p2a: Suicune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|42/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729753838
+|cant|p2a: Suicune|slp
+|move|p1a: Swampert|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|90/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|84/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|90/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|48/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729753848
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|20/100
+|move|p1a: Swampert|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|75/100|[from] Sandstorm
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|-heal|p1a: Swampert|26/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1729753856
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Swampert|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|56/100|[from] Sandstorm
+|-heal|p2a: Suicune|62/100|[from] item: Leftovers
+|-heal|p1a: Swampert|32/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|inactive|RedCrimp has 270 seconds left.
+|inactive|RedCrimp has 240 seconds left.
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729753936
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|56/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Suicune|62/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729753964
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|56/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Suicune|62/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|56/100 tox|[from] psn
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1729753969
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|52/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|46/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Suicune|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|40/100 tox|[from] psn
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1729753978
+|switch|p1a: Swampert|Swampert, F|32/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1729753980
+|cant|p2a: Suicune|slp
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|2/100|[from] Sandstorm
+|-heal|p2a: Blissey|9/100|[from] item: Leftovers
+|-heal|p1a: Swampert|45/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1729753989
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729754023
+|switch|p1a: Blissey|Blissey, F|83/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|52/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1729754034
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1729754059
+|switch|p1a: Blissey|Blissey, F|83/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1729754064
+|switch|p2a: Suicune|Suicune|100/100 slp
+|switch|p1a: Gengar|Gengar, M|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|t:|1729754073
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1729754090
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Taunt|p2a: Suicune
+|-start|p2a: Suicune|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1729754102
+|switch|p2a: Blissey|Blissey, F|79/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1729754121
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1729754128
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|68/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|141
+|
+|t:|1729754137
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1729754152
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|
+|t:|1729754166
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1729754171
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|145
+|
+|t:|1729754177
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|76/100 brn|[from] brn
+|upkeep
+|turn|146
+|
+|t:|1729754182
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|67/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|60/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|54/100 brn|[from] brn
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|147
+|inactive|RedCrimp has 210 seconds left.
+|
+|t:|1729754202
+|switch|p1a: Blissey|Blissey, F|68/100
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1729754211
+|cant|p2a: Suicune|slp
+|move|p1a: Blissey|Fire Blast|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|88/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Suicune|88/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1729754222
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-heal|p2a: Suicune|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|82/100 tox|[from] psn
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|150
+|
+|t:|1729754230
+|switch|p1a: Swampert|Swampert, F|45/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|76/100 tox|[from] Sandstorm
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|70/100 tox|[from] psn
+|-heal|p1a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|151
+|
+|t:|1729754234
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|63/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|39/100|[from] Sandstorm
+|-heal|p2a: Suicune|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|51/100 tox|[from] psn
+|-heal|p1a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1729754241
+|switch|p1a: Swampert|Swampert, F|51/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|t:|1729754244
+|cant|p2a: Suicune|slp
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Blissey|Blissey, F|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|48/100|[from] Sandstorm
+|-heal|p2a: Blissey|54/100|[from] item: Leftovers
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1729754251
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1729754259
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Taunt|p2a: Suicune
+|-start|p2a: Suicune|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1729754263
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|157
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729754271
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|76/100 brn
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|70/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|64/100 brn|[from] brn
+|upkeep
+|turn|158
+|inactive|RedCrimp has 270 seconds left.
+|
+|t:|1729754285
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|47/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|97/100 brn|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|91/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|85/100 brn|[from] brn
+|upkeep
+|turn|159
+|
+|t:|1729754289
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|78/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|72/100 brn|[from] brn
+|upkeep
+|turn|160
+|
+|t:|1729754294
+|switch|p1a: Blissey|Blissey, F|45/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|66/100 brn|[from] Sandstorm
+|-damage|p1a: Blissey|31/100|[from] Sandstorm
+|-heal|p2a: Blissey|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|60/100 brn|[from] brn
+|-end|p2a: Blissey|move: Taunt|[silent]
+|-heal|p1a: Blissey|37/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|c|☆Violet River|WINNABLEW
+|
+|t:|1729754303
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|100/100 slp
+|switch|p1a: Gengar|Gengar, M|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1729754320
+|switch|p2a: Blissey|Blissey, F|60/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|41/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1729754330
+|switch|p2a: Suicune|Suicune|100/100 slp
+|move|p1a: Gengar|Taunt|p2a: Suicune
+|-start|p2a: Suicune|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1729754353
+|switch|p2a: Blissey|Blissey, F|48/100
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|31/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1729754362
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|31/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|166
+|
+|t:|1729754376
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|29/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|23/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|29/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|167
+|
+|t:|1729754381
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|18/100 par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|68/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|62/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1729754386
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|62/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1729754389
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|59/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|53/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|59/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|170
+|
+|t:|1729754392
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|53/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1729754394
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|50/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|44/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|50/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|172
+|
+|t:|1729754399
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|44/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|173
+|
+|t:|1729754401
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|40/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|34/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|40/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|174
+|
+|t:|1729754405
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|34/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|175
+|
+|t:|1729754417
+|move|p1a: Gengar|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|28/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|22/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|28/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|176
+|
+|t:|1729754422
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|22/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1729754425
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|20/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|13/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|20/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|178
+|
+|t:|1729754445
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|13/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|179
+|
+|t:|1729754450
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|11/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|180
+|
+|t:|1729754454
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1729754461
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|182
+|
+|t:|1729754469
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1729754472
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|184
+|
+|t:|1729754483
+|move|p1a: Gengar|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Wish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1729754487
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|3/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Blissey|0 fnt|[from] Sandstorm
+|faint|p2a: Blissey
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729754489
+|switch|p2a: Suicune|Suicune|100/100 slp
+|turn|186
+|
+|t:|1729754491
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|57/100 slp
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|50/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|187
+|
+|t:|1729754519
+|switch|p1a: Blissey|Blissey, F|37/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|50/100|[from] Sandstorm
+|-damage|p1a: Blissey|18/100|[from] Sandstorm
+|-heal|p2a: Suicune|57/100|[from] item: Leftovers
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|upkeep
+|turn|188
+|
+|t:|1729754526
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|50/100 tox|[from] Sandstorm
+|-damage|p1a: Blissey|18/100|[from] Sandstorm
+|-heal|p2a: Suicune|57/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|50/100 tox|[from] psn
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|upkeep
+|turn|189
+|
+|t:|1729754532
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|44/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|38/100 tox|[from] psn
+|upkeep
+|turn|190
+|
+|t:|1729754538
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|16/100 tox
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|191
+|c|☆Violet River|wp
+|c|☆Violet River|got it to a 5050 in the end
+|c|☆Violet River|gg
+|
+|t:|1729754547
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|80/100 slp
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|74/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|192
+|
+|t:|1729754556
+|move|p1a: Gengar|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|60/100 slp
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|53/100 slp|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1729754564
+|switch|p1a: Swampert|Swampert, F|64/100
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|53/100|[from] Sandstorm
+|-heal|p2a: Suicune|60/100|[from] item: Leftovers
+|-heal|p1a: Swampert|15/100|[from] item: Leftovers
+|upkeep
+|turn|194
+|
+|t:|1729754574
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Swampert|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|42/100|[from] Sandstorm
+|-heal|p2a: Suicune|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|21/100|[from] item: Leftovers
+|upkeep
+|turn|195
+|
+|t:|1729754588
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Swampert|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|39/100|[from] Sandstorm
+|-heal|p2a: Suicune|45/100|[from] item: Leftovers
+|-heal|p1a: Swampert|28/100|[from] item: Leftovers
+|upkeep
+|turn|196
+|
+|t:|1729754596
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Swampert|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|97/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100 slp|[from] Sandstorm
+|-heal|p2a: Suicune|97/100 slp|[from] item: Leftovers
+|-heal|p1a: Swampert|34/100|[from] item: Leftovers
+|upkeep
+|turn|197
+|
+|t:|1729754602
+|switch|p1a: Blissey|Blissey, F|24/100
+|cant|p2a: Suicune|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|18/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1729754606
+|cant|p2a: Suicune|slp
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|199
+|
+|t:|1729754614
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|200
+|
+|t:|1729754621
+|switch|p1a: Gengar|Gengar, M|10/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|upkeep
+|turn|201
+|
+|t:|1729754638
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1729754648
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|4/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|48/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|54/100|[from] item: Leftovers
+|upkeep
+|turn|203
+|
+|t:|1729754657
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|2/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|46/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|52/100|[from] item: Leftovers
+|upkeep
+|turn|204
+|
+|t:|1729754665
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|5/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-damage|p1a: Blissey|49/100|[from] Sandstorm
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|205
+|
+|t:|1729754671
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|c|☆Violet River|damn
+|c|☆Violet River|another 5050ish 
+|
+|t:|1729754683
+|switch|p1a: Gengar|Gengar, M|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|4/100|[from] Sandstorm
+|-damage|p2a: Suicune|91/100|[from] Sandstorm
+|-heal|p1a: Gengar|10/100|[from] item: Leftovers
+|-heal|p2a: Suicune|97/100|[from] item: Leftovers
+|upkeep
+|turn|206
+|
+|t:|1729754707
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|95/100
+|move|p2a: Suicune|Surf|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|t:|1729754711
+|switch|p1a: Swampert|Swampert, F|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|89/100|[from] Sandstorm
+|-heal|p2a: Suicune|95/100|[from] item: Leftovers
+|-heal|p1a: Swampert|40/100|[from] item: Leftovers
+|upkeep
+|turn|207
+|
+|t:|1729754718
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|win|RedCrimp
+|c|☆Violet River|ggs <3 you played excellent 
+|c|☆RedCrimp|ggs
+|c|☆RedCrimp|that was super intense
+|c|☆RedCrimp|thanks for a great set
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801530">
+{"id":"smogtours-gen3ou-801530","format":"[Gen 3] OU","players":["Violet River","RedCrimp"],"uploadtime":1729754718,"views":250,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

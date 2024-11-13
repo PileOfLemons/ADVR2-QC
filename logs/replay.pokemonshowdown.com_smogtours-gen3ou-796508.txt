@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: crab person vs. OOF_MAXIMA - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between crab person and OOF_MAXIMA! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796508">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728424134
+|gametype|singles
+|player|p1|crab person|265|
+|player|p2|OOF_MAXIMA|cress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728424134
+|start
+|switch|p1a: Lubellion|Tyranitar, M|100/100
+|switch|p2a: angry goober|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Lubellion
+|turn|1
+|c|☆crab person|glhf
+|
+|t:|1728424154
+|move|p2a: angry goober|Protect|p2a: angry goober
+|-singleturn|p2a: angry goober|Protect
+|move|p1a: Lubellion|Rock Slide|p2a: angry goober
+|-activate|p2a: angry goober|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|94/100|[from] Sandstorm
+|-heal|p2a: angry goober|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728424160
+|move|p2a: angry goober|Baton Pass|p2a: angry goober
+|
+|t:|1728424165
+|switch|p2a: forehead goober|Suicune|100/100|[from] Baton Pass
+|move|p1a: Lubellion|Crunch|p2a: forehead goober
+|-damage|p2a: forehead goober|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: forehead goober|64/100|[from] Sandstorm
+|-heal|p2a: forehead goober|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728424177
+|switch|p1a: Coral Anemone|Starmie|100/100
+|move|p2a: forehead goober|Surf|p1a: Coral Anemone
+|-resisted|p1a: Coral Anemone
+|-damage|p1a: Coral Anemone|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-damage|p2a: forehead goober|64/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: forehead goober|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728424190
+|switch|p2a: diggy goober|Dugtrio, M|100/100
+|move|p1a: Coral Anemone|Thunderbolt|p2a: diggy goober
+|-immune|p2a: diggy goober
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728424214
+|switch|p2a: genie goober|Jirachi|100/100
+|move|p1a: Coral Anemone|Ice Beam|p2a: genie goober
+|-resisted|p2a: genie goober
+|-damage|p2a: genie goober|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: genie goober|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728424221
+|switch|p1a: Magical Hats|Dugtrio, F|100/100
+|move|p2a: genie goober|Hidden Power|p1a: Magical Hats
+|-supereffective|p1a: Magical Hats
+|-damage|p1a: Magical Hats|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: genie goober|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728424226
+|move|p1a: Magical Hats|Earthquake|p2a: genie goober
+|-supereffective|p2a: genie goober
+|-damage|p2a: genie goober|0 fnt
+|faint|p2a: genie goober
+|
+|t:|1728424230
+|switch|p2a: angry goober|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|94/100|[from] Sandstorm
+|-heal|p2a: angry goober|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728424237
+|switch|p1a: Lubellion|Tyranitar, M|100/100
+|move|p2a: angry goober|Thunderbolt|p1a: Lubellion
+|-damage|p1a: Lubellion|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|94/100|[from] Sandstorm
+|-heal|p2a: angry goober|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728424242
+|move|p2a: angry goober|Protect|p2a: angry goober
+|-singleturn|p2a: angry goober|Protect
+|move|p1a: Lubellion|Rock Slide|p2a: angry goober
+|-activate|p2a: angry goober|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|94/100|[from] Sandstorm
+|-heal|p2a: angry goober|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728424248
+|move|p2a: angry goober|Thunderbolt|p1a: Lubellion
+|-damage|p1a: Lubellion|22/100
+|move|p1a: Lubellion|Rock Slide|p2a: angry goober
+|-supereffective|p2a: angry goober
+|-damage|p2a: angry goober|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728424254
+|switch|p1a: Magical Hats|Dugtrio, F|14/100
+|move|p2a: angry goober|Protect||[still]
+|-fail|p2a: angry goober
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728424260
+|move|p2a: angry goober|Protect|p2a: angry goober
+|-singleturn|p2a: angry goober|Protect
+|move|p1a: Magical Hats|Rock Slide|p2a: angry goober
+|-activate|p2a: angry goober|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728424265
+|switch|p2a: sandy goober|Tyranitar, M|100/100
+|move|p1a: Magical Hats|Rock Slide|p2a: sandy goober
+|-damage|p2a: sandy goober|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sandy goober|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728424270
+|switch|p1a: Simorgh|Skarmory, M|100/100
+|move|p2a: sandy goober|Double-Edge|p1a: Simorgh
+|-resisted|p1a: Simorgh
+|-damage|p1a: Simorgh|85/100
+|-damage|p2a: sandy goober|82/100|[from] Recoil|[of] p1a: Simorgh
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|91/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728424276
+|switch|p2a: angry goober|Zapdos|24/100
+|move|p1a: Simorgh|Spikes|p2a: angry goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|-heal|p1a: Simorgh|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728424282
+|switch|p1a: Lubellion|Tyranitar, M|22/100
+|move|p2a: angry goober|Thunderbolt|p1a: Lubellion
+|-damage|p1a: Lubellion|0 fnt
+|faint|p1a: Lubellion
+|
+|t:|1728424286
+|switch|p1a: Coral Anemone|Starmie|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728424288
+|move|p2a: angry goober|Protect|p2a: angry goober
+|-singleturn|p2a: angry goober|Protect
+|move|p1a: Coral Anemone|Ice Beam|p2a: angry goober
+|-activate|p2a: angry goober|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-damage|p2a: angry goober|17/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: angry goober|24/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728424299
+|move|p1a: Coral Anemone|Ice Beam|p2a: angry goober
+|-supereffective|p2a: angry goober
+|-damage|p2a: angry goober|0 fnt
+|faint|p2a: angry goober
+|
+|t:|1728424303
+|switch|p2a: forehead goober|Suicune|70/100
+|-damage|p2a: forehead goober|58/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-damage|p2a: forehead goober|51/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: forehead goober|58/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728424313
+|switch|p1a: Magical Hats|Dugtrio, F|14/100
+|move|p2a: forehead goober|Hidden Power|p1a: Magical Hats
+|-immune|p1a: Magical Hats
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: forehead goober|51/100|[from] Sandstorm
+|-heal|p2a: forehead goober|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728424318
+|move|p1a: Magical Hats|Earthquake|p2a: forehead goober
+|-damage|p2a: forehead goober|15/100
+|move|p2a: forehead goober|Surf|p1a: Magical Hats
+|-supereffective|p1a: Magical Hats
+|-damage|p1a: Magical Hats|0 fnt
+|faint|p1a: Magical Hats
+|
+|t:|1728424334
+|switch|p1a: E.V.A|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: forehead goober|9/100|[from] Sandstorm
+|-heal|p2a: forehead goober|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728424336
+|move|p1a: E.V.A|Calm Mind|p1a: E.V.A
+|-boost|p1a: E.V.A|spa|1
+|-boost|p1a: E.V.A|spd|1
+|move|p2a: forehead goober|Surf|p1a: E.V.A
+|-damage|p1a: E.V.A|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: forehead goober|9/100|[from] Sandstorm
+|-heal|p1a: E.V.A|85/100|[from] item: Leftovers
+|-heal|p2a: forehead goober|15/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728424342
+|move|p1a: E.V.A|Thunderbolt|p2a: forehead goober
+|-supereffective|p2a: forehead goober
+|-damage|p2a: forehead goober|0 fnt
+|faint|p2a: forehead goober
+|
+|t:|1728424343
+|switch|p2a: diggy goober|Dugtrio, M|100/100
+|-damage|p2a: diggy goober|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: E.V.A|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728424347
+|move|p2a: diggy goober|Earthquake|p1a: E.V.A
+|-supereffective|p1a: E.V.A
+|-damage|p1a: E.V.A|5/100
+|move|p1a: E.V.A|Ice Punch|p2a: diggy goober
+|-supereffective|p2a: diggy goober
+|-damage|p2a: diggy goober|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: E.V.A|11/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728424351
+|move|p2a: diggy goober|Earthquake|p1a: E.V.A
+|-supereffective|p1a: E.V.A
+|-damage|p1a: E.V.A|0 fnt
+|faint|p1a: E.V.A
+|
+|t:|1728424353
+|switch|p1a: Simorgh|Skarmory, M|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728424360
+|move|p2a: diggy goober|Earthquake|p1a: Simorgh
+|-immune|p1a: Simorgh
+|move|p1a: Simorgh|Spikes|p2a: diggy goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1728424362
+|move|p2a: diggy goober|Earthquake|p1a: Simorgh
+|-immune|p1a: Simorgh
+|move|p1a: Simorgh|Spikes|p2a: diggy goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1728424366
+|move|p2a: diggy goober|Earthquake|p1a: Simorgh
+|-immune|p1a: Simorgh
+|move|p1a: Simorgh|Roar|p2a: diggy goober
+|drag|p2a: silly goober|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1728424369
+|move|p2a: silly goober|Rapid Spin|p1a: Simorgh
+|-resisted|p1a: Simorgh
+|-damage|p1a: Simorgh|99/100
+|-sideend|p2: OOF_MAXIMA|Spikes|[from] move: Rapid Spin|[of] p2a: silly goober
+|move|p1a: Simorgh|Toxic|p2a: silly goober
+|-status|p2a: silly goober|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: silly goober|94/100 tox|[from] psn
+|-heal|p1a: Simorgh|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728424373
+|switch|p2a: sandy goober|Tyranitar, M|88/100
+|move|p1a: Simorgh|Spikes|p2a: sandy goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sandy goober|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728424375
+|move|p1a: Simorgh|Toxic|p2a: sandy goober
+|-status|p2a: sandy goober|tox
+|move|p2a: sandy goober|Rock Slide|p1a: Simorgh
+|-damage|p1a: Simorgh|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|79/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|100/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1728424380
+|move|p1a: Simorgh|Spikes|p2a: sandy goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|move|p2a: sandy goober|Rock Slide|p1a: Simorgh
+|-damage|p1a: Simorgh|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|60/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|100/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|88/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1728424383
+|move|p1a: Simorgh|Protect|p1a: Simorgh
+|-singleturn|p1a: Simorgh|Protect
+|move|p2a: sandy goober|Rock Slide|p1a: Simorgh
+|-activate|p1a: Simorgh|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|66/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|94/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|76/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1728424386
+|switch|p2a: diggy goober|Dugtrio, M|1/100
+|-damage|p2a: diggy goober|0 fnt|[from] Spikes
+|faint|p2a: diggy goober
+|
+|t:|1728424388
+|switch|p2a: silly goober|Claydol|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: silly goober|100/100 tox|[from] item: Leftovers
+|-damage|p2a: silly goober|94/100 tox|[from] psn
+|-heal|p1a: Simorgh|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728424393
+|move|p1a: Simorgh|Protect|p1a: Simorgh
+|-singleturn|p1a: Simorgh|Protect
+|move|p2a: silly goober|Rapid Spin|p1a: Simorgh
+|-activate|p1a: Simorgh|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: silly goober|100/100 tox|[from] item: Leftovers
+|-damage|p2a: silly goober|88/100 tox|[from] psn
+|-heal|p1a: Simorgh|78/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728424395
+|move|p1a: Simorgh|Protect||[still]
+|-fail|p1a: Simorgh
+|move|p2a: silly goober|Rapid Spin|p1a: Simorgh
+|-resisted|p1a: Simorgh
+|-crit|p1a: Simorgh
+|-damage|p1a: Simorgh|75/100
+|-sideend|p2: OOF_MAXIMA|Spikes|[from] move: Rapid Spin|[of] p2a: silly goober
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: silly goober|94/100 tox|[from] item: Leftovers
+|-damage|p2a: silly goober|76/100 tox|[from] psn
+|-heal|p1a: Simorgh|81/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728424398
+|switch|p2a: sandy goober|Tyranitar, M|76/100 tox
+|move|p1a: Simorgh|Spikes|p2a: sandy goober
+|-sidestart|p2: OOF_MAXIMA|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|87/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|82/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|76/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1728424400
+|move|p1a: Simorgh|Protect|p1a: Simorgh
+|-singleturn|p1a: Simorgh|Protect
+|move|p2a: sandy goober|Dragon Dance|p2a: sandy goober
+|-boost|p2a: sandy goober|atk|1
+|-boost|p2a: sandy goober|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sandy goober|82/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|70/100 tox|[from] psn
+|-heal|p1a: Simorgh|94/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728424403
+|move|p2a: sandy goober|Rock Slide|p1a: Simorgh
+|-damage|p1a: Simorgh|50/100
+|move|p1a: Simorgh|Roar|p2a: sandy goober
+|drag|p2a: silly goober|Claydol|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: silly goober|82/100 tox|[from] item: Leftovers
+|-damage|p2a: silly goober|76/100 tox|[from] psn
+|-heal|p1a: Simorgh|56/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728424414
+|move|p1a: Simorgh|Protect|p1a: Simorgh
+|-singleturn|p1a: Simorgh|Protect
+|move|p2a: silly goober|Psychic|p1a: Simorgh
+|-activate|p1a: Simorgh|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: silly goober|82/100 tox|[from] item: Leftovers
+|-damage|p2a: silly goober|70/100 tox|[from] psn
+|-heal|p1a: Simorgh|63/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728424421
+|move|p2a: silly goober|Explosion|p1a: Simorgh
+|-resisted|p1a: Simorgh
+|-damage|p1a: Simorgh|27/100
+|faint|p2a: silly goober
+|
+|t:|1728424422
+|switch|p2a: sandy goober|Tyranitar, M|70/100 tox
+|-damage|p2a: sandy goober|57/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Simorgh|33/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|63/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|57/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1728424431
+|switch|p1a: Coral Anemone|Starmie|74/100
+|move|p2a: sandy goober|Dragon Dance|p2a: sandy goober
+|-boost|p2a: sandy goober|atk|1
+|-boost|p2a: sandy goober|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Coral Anemone|68/100|[from] Sandstorm
+|-heal|p1a: Coral Anemone|74/100|[from] item: Leftovers
+|-heal|p2a: sandy goober|63/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|51/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1728424435
+|move|p1a: Coral Anemone|Ice Beam|p2a: sandy goober
+|-damage|p2a: sandy goober|27/100 tox
+|move|p2a: sandy goober|Earthquake|p1a: Coral Anemone
+|-damage|p1a: Coral Anemone|0 fnt
+|faint|p1a: Coral Anemone
+|
+|t:|1728424441
+|switch|p1a: Simorgh|Skarmory, M|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: sandy goober|34/100 tox|[from] item: Leftovers
+|-damage|p2a: sandy goober|15/100 tox|[from] psn
+|-heal|p1a: Simorgh|39/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|-message|OOF_MAXIMA forfeited.
+|
+|win|crab person
+|c|☆crab person|gg
+|c|☆OOF_MAXIMA|gg
+|c|☆crab person|wp
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796508">
+{"id":"smogtours-gen3ou-796508","format":"[Gen 3] OU","players":["crab person","OOF_MAXIMA"],"uploadtime":1728424442,"views":116,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

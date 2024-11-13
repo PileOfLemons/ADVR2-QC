@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Capitao General ll vs. deno_nemesis - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Capitao General ll and deno_nemesis! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796603">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728474490
+|gametype|singles
+|player|p1|Capitao General ll|scientist-gen3|
+|player|p2|deno_nemesis|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728474490
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆deno_nemesis|glhf
+|
+|t:|1728474516
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Hariyama|Cross Chop|p1a: Skarmory
+|-damage|p1a: Skarmory|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Capitao General ll|U2
+|
+|t:|1728474536
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Hariyama|Cross Chop|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Hariyama|88/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728474547
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|move|p1a: Gengar|Will-O-Wisp|p2a: Porygon2
+|-status|p2a: Porygon2|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Porygon2|94/100 brn|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Capitao General ll disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|Capitao General ll reconnected and has 280 seconds left.
+|player|p1|Capitao General ll|scientist-gen3|
+|inactive|Capitao General ll has 270 seconds left.
+|inactive|Capitao General ll has 240 seconds left.
+|
+|t:|1728474627
+|move|p1a: Gengar|Thunderbolt|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100 brn
+|move|p2a: Porygon2|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|55/100 brn|[from] Sandstorm
+|-damage|p1a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p2a: Porygon2|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|49/100 brn|[from] brn
+|-heal|p1a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728474631
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|99/100 brn
+|cant|p1a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|93/100 brn|[from] Sandstorm
+|-damage|p1a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p2a: Porygon2|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|87/100 brn|[from] brn
+|-heal|p1a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728474636
+|move|p2a: Porygon2|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|72/100 par
+|cant|p1a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|80/100 brn|[from] Sandstorm
+|-damage|p1a: Gengar|66/100 par|[from] Sandstorm
+|-heal|p2a: Porygon2|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|74/100 brn|[from] brn
+|-heal|p1a: Gengar|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728474655
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|68/100 brn|[from] Sandstorm
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-heal|p2a: Porygon2|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|62/100 brn|[from] brn
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728474664
+|switch|p2a: Jirachi|Jirachi|100/100
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728474680
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1728474695
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Tyranitar|Focus Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1728474705
+|switch|p2a: Weezing|Weezing, F|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|95/100|[from] Sandstorm
+|-heal|p2a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728474716
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: Weezing|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-damage|p2a: Weezing|95/100|[from] Sandstorm
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|-heal|p2a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728474731
+|move|p1a: Blissey|Thunderbolt|p2a: Weezing
+|-damage|p2a: Weezing|67/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|36/100|[from] Sandstorm
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728474747
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|92/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728474756
+|switch|p1a: Skarmory|Skarmory, M|45/100
+|switch|p2a: Hariyama|Hariyama, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Capitao General ll has 270 seconds left.
+|
+|t:|1728474772
+|switch|p1a: Gengar|Gengar, F|72/100 par
+|move|p2a: Hariyama|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|17/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|76/100|[from] Sandstorm
+|-damage|p1a: Gengar|10/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728474786
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Hariyama|Rock Slide|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|70/100|[from] Sandstorm
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728474803
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Hariyama|atk|1
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728474810
+|switch|p1a: Blissey|Blissey, F|51/100
+|move|p2a: Starmie|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|44/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728474817
+|switch|p2a: Porygon2|Porygon2|62/100 brn
+|-ability|p2a: Porygon2|Natural Cure|[from] ability: Trace|[of] p1a: Blissey
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Porygon2|56/100 brn|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Porygon2|50/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1728474832
+|switch|p1a: Blissey|Blissey, F|51/100
+|-curestatus|p2a: Porygon2|brn|[from] ability: Natural Cure
+|switch|p2a: Weezing|Weezing, F|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728474838
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|55/100|[from] Sandstorm
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728474845
+|switch|p1a: Swampert|Swampert, M|94/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728474855
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Swampert|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728474860
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Starmie|Surf|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728474867
+|switch|p1a: Blissey|Blissey, F|61/100
+|move|p2a: Starmie|Surf|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-damage|p1a: Blissey|29/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|36/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728474874
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728474885
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1728474895
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Hariyama|Hariyama, F|70/100
+|move|p1a: Tyranitar|Focus Punch|p2a: Hariyama
+|-damage|p2a: Hariyama|9/100
+|
+|-heal|p2a: Hariyama|59/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|53/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|t:|1728474905
+|switch|p1a: Gengar|Gengar, F|17/100 par
+|move|p2a: Hariyama|Cross Chop|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|47/100|[from] Sandstorm
+|-damage|p1a: Gengar|10/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728474926
+|switch|p2a: Porygon2|Porygon2|50/100
+|-ability|p2a: Porygon2|Levitate|[from] ability: Trace|[of] p1a: Gengar
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|44/100|[from] Sandstorm
+|-heal|p2a: Porygon2|50/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728474935
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Porygon2|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|-status|p1a: Tyranitar|frz
+|cant|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|44/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|89/100 frz|[from] item: Leftovers
+|-heal|p2a: Porygon2|50/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728474943
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|99/100
+|cant|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|95/100 frz|[from] item: Leftovers
+|-heal|p2a: Porygon2|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728474949
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Starmie|Starmie|82/100
+|cant|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100 frz|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728474957
+|switch|p1a: Blissey|Blissey, F|85/100
+|move|p2a: Starmie|Surf|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728474968
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728474971
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|88/100
+|-status|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Swampert|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728474978
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Swampert|Surf|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Swampert|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728474983
+|switch|p2a: Starmie|Starmie|82/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|33/100|[from] Sandstorm
+|-heal|p2a: Starmie|39/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728474991
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|89/100
+|move|p1a: Swampert|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|36/100|[from] Sandstorm
+|-heal|p2a: Starmie|42/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728474998
+|switch|p1a: Blissey|Blissey, F|72/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|86/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Starmie|92/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728475006
+|switch|p2a: Jirachi|Jirachi|99/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728475013
+|switch|p1a: Swampert|Swampert, M|100/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728475024
+|switch|p2a: Porygon2|Porygon2|99/100
+|-ability|p2a: Porygon2|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: Porygon2|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728475029
+|switch|p1a: Blissey|Blissey, F|72/100
+|move|p2a: Porygon2|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728475036
+|move|p2a: Porygon2|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|59/100 par|[from] Sandstorm
+|-heal|p2a: Porygon2|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728475040
+|switch|p2a: Jirachi|Jirachi|97/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728475046
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|46/100 par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|96/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|90/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|84/100|[from] item: Leftovers
+|-heal|p1a: Blissey|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728475052
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|90/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728475060
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|-status|p2a: Tyranitar|par
+|
+|-heal|p2a: Tyranitar|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|90/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728475068
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|100/100 par
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|75/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728475071
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|cant|p1a: Swampert|par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728475076
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Swampert|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|move|p2a: Tyranitar|Focus Punch|p1a: Swampert
+|-damage|p1a: Swampert|63/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100 par|[from] item: Leftovers
+|-heal|p1a: Swampert|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728475083
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Surf|p2a: Porygon2
+|-damage|p2a: Porygon2|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100|[from] Sandstorm
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|-heal|p1a: Swampert|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728475089
+|switch|p2a: Jirachi|Jirachi|90/100
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: Swampert|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728475092
+|switch|p2a: Porygon2|Porygon2|76/100
+|-ability|p2a: Porygon2|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100|[from] Sandstorm
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|-heal|p1a: Swampert|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728475098
+|cant|p1a: Swampert|par
+|move|p2a: Porygon2|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|24/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100|[from] Sandstorm
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|-heal|p1a: Swampert|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1728475105
+|switch|p1a: Blissey|Blissey, F|96/100
+|move|p2a: Porygon2|Ice Beam|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728475110
+|move|p2a: Porygon2|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|72/100 par|[from] Sandstorm
+|-heal|p2a: Porygon2|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728475113
+|switch|p2a: Tyranitar|Tyranitar, M|94/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|72/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|99/100 par|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728475120
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, M|30/100 par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 par|[from] item: Leftovers
+|-heal|p1a: Swampert|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728475128
+|switch|p2a: Porygon2|Porygon2|76/100
+|-ability|p2a: Porygon2|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|move|p1a: Swampert|Earthquake|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|14/100|[from] Sandstorm
+|-heal|p2a: Porygon2|21/100|[from] item: Leftovers
+|-heal|p1a: Swampert|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728475150
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 frz
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|64/100|[from] Sandstorm
+|-heal|p2a: Porygon2|71/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728475162
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Jirachi|Jirachi|96/100
+|cant|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728475174
+|switch|p1a: Swampert|Swampert, M|43/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728475191
+|switch|p2a: Hariyama|Hariyama, F|47/100
+|move|p1a: Swampert|Earthquake|p2a: Hariyama
+|-damage|p2a: Hariyama|8/100
+|
+|-heal|p2a: Hariyama|58/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|52/100|[from] Sandstorm
+|-heal|p1a: Swampert|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728475200
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Hariyama|Hidden Power|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|46/100|[from] Sandstorm
+|-heal|p1a: Swampert|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728475208
+|switch|p2a: Porygon2|Porygon2|71/100
+|-ability|p2a: Porygon2|Torrent|[from] ability: Trace|[of] p1a: Swampert
+|switch|p1a: Skarmory|Skarmory, M|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|64/100|[from] Sandstorm
+|-heal|p1a: Skarmory|57/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|71/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728475220
+|move|p1a: Skarmory|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|cant|p2a: Porygon2|move: Taunt|Thunder Wave
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|64/100|[from] Sandstorm
+|-heal|p1a: Skarmory|63/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|71/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728475234
+|switch|p2a: Weezing|Weezing, F|67/100
+|move|p1a: Skarmory|Spikes|p2a: Weezing
+|-sidestart|p2: deno_nemesis|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p1a: Skarmory|69/100|[from] item: Leftovers
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728475240
+|switch|p1a: Swampert|Swampert, M|61/100 par
+|move|p2a: Weezing|Flamethrower|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|52/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|-heal|p1a: Swampert|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728475254
+|move|p2a: Weezing|Sludge Bomb|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|45/100 par
+|move|p1a: Swampert|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|-heal|p1a: Swampert|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728475263
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Weezing|Sludge Bomb|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|61/100|[from] Sandstorm
+|-heal|p2a: Weezing|67/100|[from] item: Leftovers
+|-heal|p1a: Swampert|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728475273
+|move|p2a: Weezing|Explosion|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p2a: Weezing
+|faint|p1a: Swampert
+|
+|t:|1728475283
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728475288
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Salamence|Flamethrower|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728475297
+|switch|p2a: Porygon2|Porygon2|71/100
+|-damage|p2a: Porygon2|58/100|[from] Spikes
+|-ability|p2a: Porygon2|Intimidate|[from] ability: Trace|[of] p1a: Salamence
+|move|p1a: Salamence|Flamethrower|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|t:|1728475312
+|switch|p2a: Starmie|Starmie|92/100
+|-damage|p2a: Starmie|80/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|73/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|80/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728475320
+|switch|p1a: Gengar|Gengar, F|17/100 par
+|move|p2a: Starmie|Rapid Spin|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|73/100|[from] Sandstorm
+|-damage|p1a: Gengar|10/100 par|[from] Sandstorm
+|-heal|p2a: Starmie|80/100|[from] item: Leftovers
+|-heal|p1a: Gengar|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728475332
+|move|p2a: Starmie|Surf|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|t:|1728475336
+|switch|p1a: Blissey|Blissey, F|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|73/100|[from] Sandstorm
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Starmie|80/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728475340
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728475345
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|-status|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|53/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728475349
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728475353
+|switch|p2a: Tyranitar|Tyranitar, M|100/100 par
+|-damage|p2a: Tyranitar|88/100 par|[from] Spikes
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|69/100
+|
+|-heal|p2a: Tyranitar|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728475363
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Starmie|Starmie|80/100
+|-damage|p2a: Starmie|67/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|61/100|[from] Sandstorm
+|-heal|p2a: Starmie|67/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728475370
+|move|p2a: Starmie|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|48/100
+|-sideend|p2: deno_nemesis|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Skarmory|Drill Peck|p2a: Starmie
+|-damage|p2a: Starmie|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|31/100|[from] Sandstorm
+|-heal|p2a: Starmie|37/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728475381
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|81/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728475391
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728475394
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728475396
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728475402
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728475407
+|switch|p2a: Tyranitar|Tyranitar, M|100/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100 par
+|
+|-heal|p2a: Tyranitar|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728475414
+|move|p1a: Blissey|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100 par
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|35/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1728475425
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Salamence|Salamence, F|100/100
+|move|p2a: Tyranitar|Focus Punch|p1a: Salamence
+|-resisted|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|27/100|[from] Sandstorm
+|-heal|p1a: Salamence|33/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728475438
+|move|p1a: Salamence|Dragon Claw|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|move|p2a: Tyranitar|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1728475443
+|switch|p1a: Blissey|Blissey, F|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728475447
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728475450
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|55/100|[from] Sandstorm
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728475453
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|-status|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Blissey|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728475457
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|90/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|84/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728475466
+|switch|p2a: Tyranitar|Tyranitar, M|53/100 par
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|54/100
+|
+|-heal|p2a: Tyranitar|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728475471
+|move|p1a: Skarmory|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|cant|p2a: Tyranitar|move: Taunt|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728475478
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: deno_nemesis|Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|36/100|[from] item: Leftovers
+|-end|p2a: Tyranitar|move: Taunt|[silent]
+|upkeep
+|turn|101
+|
+|t:|1728475481
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|cant|p2a: Tyranitar|par
+|move|p1a: Skarmory|Roar|p2a: Tyranitar
+|drag|p2a: Starmie|Starmie|87/100
+|-damage|p2a: Starmie|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|69/100|[from] Sandstorm
+|-heal|p2a: Starmie|75/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728475488
+|switch|p1a: Blissey|Blissey, F|90/100
+|move|p2a: Starmie|Rapid Spin|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|-sideend|p2: deno_nemesis|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|69/100|[from] Sandstorm
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Starmie|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728475494
+|switch|p2a: Hariyama|Hariyama, F|46/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-damage|p2a: Hariyama|40/100|[from] Sandstorm
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728475509
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 frz
+|move|p2a: Hariyama|Cross Chop|p1a: Tyranitar|[miss]
+|-miss|p2a: Hariyama|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|34/100|[from] Sandstorm
+|upkeep
+|turn|105
+|
+|t:|1728475517
+|cant|p1a: Tyranitar|frz
+|move|p2a: Hariyama|Cross Chop|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728475520
+|switch|p1a: Skarmory|Skarmory, M|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|28/100|[from] Sandstorm
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1728475531
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Skarmory|Drill Peck|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1728475534
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Skarmory|Spikes|p2a: Jirachi
+|-sidestart|p2: deno_nemesis|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728475542
+|move|p2a: Jirachi|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100
+|move|p1a: Skarmory|Roar|p2a: Jirachi
+|drag|p2a: Hariyama|Hariyama, F|28/100
+|-damage|p2a: Hariyama|15/100|[from] Spikes
+|
+|-heal|p2a: Hariyama|65/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hariyama|59/100|[from] Sandstorm
+|-heal|p1a: Skarmory|31/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1728475545
+|move|p1a: Skarmory|Drill Peck|p2a: Hariyama
+|-supereffective|p2a: Hariyama
+|-damage|p2a: Hariyama|12/100
+|move|p2a: Hariyama|Cross Chop|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728475549
+|switch|p1a: Blissey|Blissey, F|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-damage|p2a: Hariyama|6/100|[from] Sandstorm
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1728475556
+|move|p1a: Blissey|Thunderbolt|p2a: Hariyama
+|-crit|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|t:|1728475561
+|switch|p2a: Jirachi|Jirachi|97/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728475564
+|move|p2a: Jirachi|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728475568
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100 par|[from] Sandstorm
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1728475572
+|switch|p2a: Tyranitar|Tyranitar, M|100/100 par
+|-damage|p2a: Tyranitar|88/100 par|[from] Spikes
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Tyranitar|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728475578
+|move|p2a: Tyranitar|Rock Slide|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|win|deno_nemesis
+|player|p1|
+|c|☆deno_nemesis|gg
+|c|☆deno_nemesis|wp
+|player|p1|Capitao General ll|scientist-gen3|
+|c|☆Capitao General ll|Ty
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796603">
+{"id":"smogtours-gen3ou-796603","format":"[Gen 3] OU","players":["Capitao General ll","deno_nemesis"],"uploadtime":1728475578,"views":91,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

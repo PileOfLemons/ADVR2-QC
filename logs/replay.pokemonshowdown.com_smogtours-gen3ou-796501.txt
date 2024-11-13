@@ -1,0 +1,3306 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: FlappleFan20 vs. SlamonBBQ - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between FlappleFan20 and SlamonBBQ! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796501">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728422818
+|gametype|singles
+|player|p1|FlappleFan20|swimmer-gen1|
+|player|p2|SlamonBBQ|sage|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728422818
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆SlamonBBQ|hf
+|c|☆FlappleFan20|glhf
+|
+|t:|1728422839
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Tyranitar|Thunder Wave||[still]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728422855
+|move|p2a: Zapdos|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728422874
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|51/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|45/100|[from] Sandstorm
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728422880
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728422888
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728422896
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1728422911
+|switch|p2a: Zapdos|Zapdos|51/100
+|move|p1a: Skarmory|Spikes|p2a: Zapdos
+|-sidestart|p2: SlamonBBQ|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|45/100|[from] Sandstorm
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728422916
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|45/100|[from] Sandstorm
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728422925
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|26/100
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|20/100|[from] Sandstorm
+|-heal|p2a: Zapdos|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728422930
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|20/100|[from] Sandstorm
+|-heal|p2a: Zapdos|26/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1728422938
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728422945
+|switch|p1a: Blissey|Blissey, F|100/100
+|cant|p2a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728422966
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1728423005
+|move|p2a: Blissey|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|68/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1728423037
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|68/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|SlamonBBQ has 240 seconds left.
+|inactive|SlamonBBQ has 210 seconds left.
+|
+|t:|1728423078
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728423083
+|move|p1a: Blissey|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|10/100
+|move|p2a: Suicune|Roar|p1a: Blissey
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|drag|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|4/100|[from] Sandstorm
+|-heal|p2a: Suicune|10/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728423090
+|move|p1a: Dugtrio|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1728423098
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1728423105
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1728423109
+|move|p1a: Claydol|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728423116
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Claydol|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728423125
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Claydol|Hidden Power|p2a: Claydol
+|-damage|p2a: Claydol|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|99/100|[from] item: Leftovers
+|-heal|p2a: Claydol|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728423132
+|move|p1a: Claydol|Rapid Spin|p2a: Claydol
+|-damage|p2a: Claydol|94/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Claydol|Rapid Spin|p1a: Claydol
+|-damage|p1a: Claydol|97/100
+|-sideend|p2: SlamonBBQ|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728423145
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728423154
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1728423165
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728423170
+|move|p2a: Zapdos|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Thunderbolt|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|77/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1728423182
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|61/100 tox
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1728423200
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100|[from] Sandstorm
+|-heal|p2a: Zapdos|76/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|inactive|SlamonBBQ has 270 seconds left.
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1728423247
+|switch|p2a: Blissey|Blissey, F|75/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|68/100|[from] Sandstorm
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1728423269
+|switch|p1a: Blissey|Blissey, F|88/100
+|switch|p2a: Skarmory|Skarmory, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|SlamonBBQ has 210 seconds left.
+|
+|t:|1728423295
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Blissey|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|SlamonBBQ has 210 seconds left.
+|
+|t:|1728423315
+|move|p2a: Claydol|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|move|p1a: Blissey|Ice Beam|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: Claydol|69/100|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1728423352
+|move|p2a: Claydol|Explosion|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p2a: Claydol
+|faint|p1a: Blissey
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1728423364
+|switch|p2a: Dugtrio|Dugtrio, M|39/100
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1728423370
+|move|p2a: Dugtrio|Sunny Day|p2a: Dugtrio
+|-weather|SunnyDay
+|move|p1a: Skarmory|Drill Peck|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1728423388
+|switch|p2a: Zapdos|Zapdos|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728423403
+|move|p2a: Zapdos|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|23/100
+|-status|p1a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|SlamonBBQ has 180 seconds left.
+|inactive|FlappleFan20 has 270 seconds left.
+|inactive|SlamonBBQ has 150 seconds left.
+|
+|t:|1728423446
+|switch|p2a: Skarmory|Skarmory, M|95/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728423451
+|switch|p2a: Blissey|Blissey, F|75/100
+|move|p1a: Claydol|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728423465
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Zapdos|Zapdos|77/100
+|
+|-weather|none
+|-heal|p2a: Zapdos|83/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|SlamonBBQ has 150 seconds left.
+|
+|t:|1728423484
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|40
+|inactive|SlamonBBQ has 150 seconds left.
+|
+|t:|1728423494
+|move|p1a: Claydol|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|89/100
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|83/100
+|
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728423499
+|switch|p2a: Zapdos|Zapdos|83/100
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|-heal|p1a: Claydol|95/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728423514
+|switch|p2a: Skarmory|Skarmory, M|95/100
+|move|p1a: Claydol|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728423521
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Claydol|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728423532
+|switch|p2a: Zapdos|Zapdos|80/100
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728423542
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|42/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-heal|p2a: Zapdos|48/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728423563
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-heal|p2a: Zapdos|54/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1728423575
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|SlamonBBQ has 150 seconds left.
+|
+|t:|1728423595
+|switch|p1a: Skarmory|Skarmory, M|29/100 par
+|cant|p2a: Zapdos|slp
+|
+|-heal|p1a: Skarmory|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|SlamonBBQ has 150 seconds left.
+|
+|t:|1728423605
+|switch|p2a: Skarmory|Skarmory, M|82/100
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Skarmory|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728423612
+|switch|p2a: Skarmory|Skarmory, M|82/100
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Blissey|Blissey, F|74/100
+|
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728423624
+|switch|p2a: Skarmory|Skarmory, M|82/100
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728423629
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728423634
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1728423645
+|switch|p1a: Skarmory|Skarmory, M|47/100 par
+|cant|p2a: Zapdos|slp
+|
+|-heal|p1a: Skarmory|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728423651
+|switch|p1a: Claydol|Claydol|100/100
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|56
+|
+|t:|1728423662
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728423669
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|upkeep
+|turn|58
+|
+|t:|1728423672
+|switch|p1a: Skarmory|Skarmory, M|53/100 par
+|cant|p2a: Zapdos|slp
+|
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728423680
+|switch|p2a: Skarmory|Skarmory, M|94/100
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Skarmory|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728423689
+|switch|p2a: Skarmory|Skarmory, M|94/100
+|cant|p1a: Skarmory|par
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728423698
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: SlamonBBQ|Spikes
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728423703
+|switch|p2a: Blissey|Blissey, F|80/100
+|-damage|p2a: Blissey|68/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: SlamonBBQ|Spikes
+|
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728423715
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: SlamonBBQ|Spikes
+|
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728423728
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728423738
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728423748
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|67
+|
+|t:|1728423755
+|move|p1a: Milotic|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1728423763
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100 slp
+|
+|-heal|p2a: Zapdos|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728423768
+|switch|p1a: Skarmory|Skarmory, M|59/100 par
+|cant|p2a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|91/100 slp|[from] item: Leftovers
+|-heal|p1a: Skarmory|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728423777
+|switch|p2a: Skarmory|Skarmory, M|74/100
+|switch|p1a: Claydol|Claydol|82/100
+|
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728423789
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1728423815
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Skarmory|Drill Peck|p1a: Milotic
+|-damage|p1a: Milotic|84/100
+|
+|-heal|p1a: Milotic|90/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728423822
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Milotic|Surf|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728423835
+|switch|p2a: Zapdos|Zapdos|91/100 slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|43/100 slp
+|
+|-heal|p2a: Zapdos|49/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1728423848
+|switch|p1a: Claydol|Claydol|76/100
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|24/100
+|
+|-heal|p2a: Zapdos|30/100|[from] item: Leftovers
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728423861
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-heal|p2a: Zapdos|37/100|[from] item: Leftovers
+|-heal|p1a: Claydol|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Claydol|82/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|t:|1728423867
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728423883
+|switch|p2a: Skarmory|Skarmory, M|97/100
+|switch|p1a: Skarmory|Skarmory, M|65/100 par
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728423888
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1728423897
+|cant|p2a: Zapdos|slp
+|move|p1a: Skarmory|Roar|p2a: Zapdos
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-heal|p1a: Skarmory|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728423906
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Claydol|Claydol|88/100
+|
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728423911
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|75/100
+|
+|-heal|p1a: Claydol|81/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728423920
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|84
+|
+|t:|1728423935
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100 slp
+|
+|-heal|p2a: Zapdos|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728423946
+|cant|p2a: Zapdos|slp
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Zapdos|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728423953
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|81/100
+|
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728423959
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|69/100
+|
+|-heal|p1a: Claydol|75/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728423967
+|switch|p1a: Skarmory|Skarmory, M|83/100 par
+|move|p2a: Skarmory|Drill Peck|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|75/100 par
+|
+|-heal|p1a: Skarmory|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1728423972
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|61/100|[from] Spikes
+|
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728423996
+|switch|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|63/100
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728424009
+|move|p1a: Milotic|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-heal|p1a: Milotic|75/100|[from] item: Leftovers
+|-damage|p2a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|92
+|
+|t:|1728424017
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Zapdos|Zapdos|90/100 slp
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Zapdos|96/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728424027
+|switch|p1a: Claydol|Claydol|75/100
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Toxic|p1a: Claydol|[miss]
+|-miss|p2a: Zapdos|p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Claydol|81/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728424031
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728424048
+|switch|p1a: Milotic|Milotic, F|81/100
+|move|p2a: Skarmory|Drill Peck|p1a: Milotic
+|-damage|p1a: Milotic|64/100
+|
+|-heal|p1a: Milotic|70/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728424055
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|97
+|
+|t:|1728424061
+|move|p1a: Milotic|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100
+|move|p2a: Skarmory|Roar|p1a: Milotic
+|drag|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728424072
+|switch|p1a: Skarmory|Skarmory, M|87/100 par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728424079
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|
+|-heal|p2a: Zapdos|84/100|[from] item: Leftovers
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728424094
+|switch|p1a: Claydol|Claydol|88/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Zapdos|91/100|[from] item: Leftovers
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728424108
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|66/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|72/100|[from] item: Leftovers
+|-heal|p1a: Claydol|99/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728424117
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728424122
+|switch|p1a: Skarmory|Skarmory, M|87/100 par
+|cant|p2a: Zapdos|slp
+|
+|-heal|p1a: Skarmory|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728424127
+|cant|p2a: Zapdos|slp
+|move|p1a: Skarmory|Roar|p2a: Zapdos
+|drag|p2a: Blissey|Blissey, F|94/100
+|-damage|p2a: Blissey|69/100|[from] Spikes
+|
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1728424147
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|69/100 par
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Skarmory|Skarmory, M|82/100
+|
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1728424152
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Skarmory|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1728424160
+|switch|p2a: Skarmory|Skarmory, M|88/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728424165
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1728424175
+|switch|p2a: Skarmory|Skarmory, M|94/100
+|move|p1a: Claydol|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1728424186
+|switch|p1a: Dugtrio|Dugtrio, M|88/100
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|upkeep
+|turn|111
+|
+|t:|1728424196
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Skarmory|Skarmory, M|88/100
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728424209
+|switch|p1a: Milotic|Milotic, F|99/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1728424228
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|upkeep
+|turn|114
+|
+|t:|1728424239
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728424252
+|switch|p2a: Skarmory|Skarmory, M|99/100
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1728424262
+|switch|p2a: Zapdos|Zapdos|82/100
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-damage|p2a: Zapdos|73/100
+|
+|-heal|p2a: Zapdos|79/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728424269
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|81/100 par
+|
+|-heal|p1a: Skarmory|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1728424273
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|119
+|
+|t:|1728424277
+|switch|p2a: Zapdos|Zapdos|79/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|83/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1728424289
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|87/100 par
+|
+|-heal|p1a: Skarmory|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1728424295
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|122
+|
+|t:|1728424302
+|switch|p2a: Zapdos|Zapdos|83/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|80/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|86/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1728424314
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1728424319
+|switch|p1a: Skarmory|Skarmory, M|93/100 par
+|switch|p2a: Zapdos|Zapdos|86/100
+|
+|-heal|p2a: Zapdos|93/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1728424327
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|126
+|
+|t:|1728424332
+|switch|p1a: Skarmory|Skarmory, M|99/100 par
+|switch|p2a: Zapdos|Zapdos|93/100
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728424337
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|128
+|
+|t:|1728424340
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|129
+|
+|t:|1728424347
+|switch|p2a: Zapdos|Zapdos|99/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1728424359
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-damage|p1a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|131
+|
+|t:|1728424370
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1728424379
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|97/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728424384
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|upkeep
+|turn|134
+|
+|t:|1728424391
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|135
+|
+|t:|1728424397
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|136
+|
+|t:|1728424401
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|137
+|
+|t:|1728424411
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1728424419
+|move|p1a: Milotic|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|move|p2a: Skarmory|Roar|p1a: Milotic
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1728424430
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Milotic|Milotic, F|94/100
+|-damage|p1a: Milotic|82/100|[from] Spikes
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1728424435
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|
+|-heal|p2a: Zapdos|83/100|[from] item: Leftovers
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1728424440
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Zapdos|89/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1728424445
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|143
+|
+|t:|1728424452
+|switch|p2a: Skarmory|Skarmory, M|83/100
+|switch|p1a: Dugtrio|Dugtrio, M|88/100
+|
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1728424462
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|145
+|
+|t:|1728424470
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1728424478
+|switch|p2a: Skarmory|Skarmory, M|95/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1728424505
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|148
+|
+|t:|1728424508
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|97/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1728424516
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|150
+|
+|t:|1728424520
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|151
+|
+|t:|1728424525
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1728424531
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|153
+|
+|t:|1728424535
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|154
+|
+|t:|1728424543
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1728424552
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|156
+|
+|t:|1728424556
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|cant|p1a: Skarmory|par
+|
+|upkeep
+|turn|157
+|
+|t:|1728424561
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Dugtrio|Dugtrio, M|88/100
+|-damage|p1a: Dugtrio|76/100|[from] Spikes
+|
+|upkeep
+|turn|158
+|
+|t:|1728424566
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Dugtrio|Dugtrio, M|76/100
+|-damage|p1a: Dugtrio|64/100|[from] Spikes
+|
+|upkeep
+|turn|159
+|
+|t:|1728424573
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|84/100
+|
+|-heal|p1a: Claydol|90/100|[from] item: Leftovers
+|upkeep
+|turn|160
+|
+|t:|1728424577
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100 slp
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Claydol|96/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1728424590
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Milotic|Milotic, F|94/100
+|
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1728424597
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|76/100 slp
+|
+|-heal|p2a: Zapdos|82/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1728424603
+|cant|p2a: Zapdos|slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100 slp
+|
+|-heal|p2a: Zapdos|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1728424610
+|cant|p2a: Zapdos|slp
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|43/100 slp
+|
+|-heal|p2a: Zapdos|50/100 slp|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1728424620
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Milotic|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|79/100 slp
+|
+|-heal|p2a: Zapdos|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|166
+|
+|t:|1728424626
+|switch|p1a: Claydol|Claydol|96/100
+|cant|p2a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|91/100 slp|[from] item: Leftovers
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|167
+|
+|t:|1728424631
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|168
+|
+|t:|1728424639
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Zapdos|Zapdos|91/100 slp
+|
+|-heal|p2a: Zapdos|97/100 slp|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1728424645
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|upkeep
+|turn|170
+|
+|t:|1728424650
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|171
+|
+|t:|1728424657
+|switch|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|97/100 slp
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|172
+|
+|t:|1728424666
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|173
+|
+|t:|1728424669
+|switch|p1a: Milotic|Milotic, F|94/100
+|-damage|p1a: Milotic|82/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1728424674
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|175
+|
+|t:|1728424681
+|switch|p1a: Milotic|Milotic, F|88/100
+|-damage|p1a: Milotic|75/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|176
+|
+|t:|1728424688
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1728424696
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Milotic|Milotic, F|88/100
+|-damage|p1a: Milotic|75/100|[from] Spikes
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1728424702
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|179
+|
+|t:|1728424707
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|180
+|
+|t:|1728424711
+|switch|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1728424716
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|182
+|
+|t:|1728424720
+|switch|p1a: Milotic|Milotic, F|94/100
+|-damage|p1a: Milotic|82/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1728424724
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|184
+|
+|t:|1728424727
+|switch|p1a: Milotic|Milotic, F|88/100
+|-damage|p1a: Milotic|75/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1728424729
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|186
+|
+|t:|1728424732
+|switch|p1a: Milotic|Milotic, F|81/100
+|-damage|p1a: Milotic|69/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|75/100|[from] item: Leftovers
+|upkeep
+|turn|187
+|
+|t:|1728424734
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|188
+|
+|t:|1728424737
+|switch|p1a: Milotic|Milotic, F|75/100
+|-damage|p1a: Milotic|63/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|189
+|
+|t:|1728424740
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|190
+|
+|t:|1728424742
+|switch|p1a: Milotic|Milotic, F|69/100
+|-damage|p1a: Milotic|56/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|62/100|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1728424747
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|192
+|
+|t:|1728424750
+|switch|p1a: Milotic|Milotic, F|62/100
+|-damage|p1a: Milotic|50/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|56/100|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1728424754
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|194
+|
+|t:|1728424758
+|switch|p1a: Milotic|Milotic, F|56/100
+|-damage|p1a: Milotic|44/100|[from] Spikes
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|upkeep
+|turn|195
+|
+|t:|1728424766
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|196
+|
+|t:|1728424772
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Dugtrio|Dugtrio, M|64/100
+|-damage|p1a: Dugtrio|51/100|[from] Spikes
+|
+|upkeep
+|turn|197
+|
+|t:|1728424789
+|move|p1a: Dugtrio|Aerial Ace|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|move|p2a: Skarmory|Roar|p1a: Dugtrio
+|drag|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1728424797
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|199
+|
+|t:|1728424809
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|upkeep
+|turn|200
+|
+|t:|1728424816
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Dugtrio|Dugtrio, M|51/100
+|-damage|p1a: Dugtrio|39/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|201
+|
+|t:|1728424829
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1728424837
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100 slp
+|
+|upkeep
+|turn|203
+|
+|t:|1728424845
+|switch|p1a: Claydol|Claydol|100/100
+|cant|p2a: Zapdos|slp
+|
+|upkeep
+|turn|204
+|
+|t:|1728424856
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-activate|p2a: Zapdos|Substitute|[damage]
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|205
+|
+|t:|1728424862
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|206
+|
+|t:|1728424868
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|cant|p1a: Skarmory|par
+|
+|upkeep
+|turn|207
+|
+|t:|1728424872
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|208
+|
+|t:|1728424877
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|82/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|209
+|
+|t:|1728424883
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|210
+|
+|t:|1728424886
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|88/100
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|211
+|
+|t:|1728424891
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|212
+|
+|t:|1728424901
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|94/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|213
+|
+|t:|1728424909
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|214
+|
+|t:|1728424912
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|215
+|
+|t:|1728424914
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|216
+|
+|t:|1728424915
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|217
+|
+|t:|1728424920
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|218
+|
+|t:|1728424924
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|219
+|
+|t:|1728424927
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|220
+|
+|t:|1728424932
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|
+|-heal|p2a: Zapdos|97/100|[from] item: Leftovers
+|upkeep
+|turn|221
+|
+|t:|1728424954
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|222
+|
+|t:|1728424957
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|223
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1728424993
+|switch|p2a: Zapdos|Zapdos|97/100
+|move|p1a: Skarmory|Protect||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|224
+|
+|t:|1728424997
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|225
+|
+|t:|1728425000
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|226
+|
+|t:|1728425003
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|227
+|
+|t:|1728425007
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|228
+|
+|t:|1728425011
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|229
+|
+|t:|1728425014
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|230
+|
+|t:|1728425018
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|231
+|
+|t:|1728425021
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|232
+|
+|t:|1728425024
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|233
+|
+|t:|1728425033
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|234
+|
+|t:|1728425040
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|235
+|
+|t:|1728425045
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|236
+|
+|t:|1728425048
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|237
+|
+|t:|1728425053
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Dugtrio|Dugtrio, M|39/100
+|-damage|p1a: Dugtrio|27/100|[from] Spikes
+|
+|upkeep
+|turn|238
+|
+|t:|1728425060
+|move|p1a: Dugtrio|Aerial Ace|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|move|p2a: Skarmory|Roar|p1a: Dugtrio
+|drag|p1a: Milotic|Milotic, F|94/100
+|-damage|p1a: Milotic|82/100|[from] Spikes
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|239
+|
+|t:|1728425068
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Skarmory|Roar|p1a: Milotic
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|240
+|
+|t:|1728425076
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Milotic|Milotic, F|88/100
+|-damage|p1a: Milotic|75/100|[from] Spikes
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|241
+|
+|t:|1728425081
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|move|p2a: Skarmory|Roar|p1a: Milotic
+|drag|p1a: Dugtrio|Dugtrio, M|27/100
+|-damage|p1a: Dugtrio|14/100|[from] Spikes
+|
+|upkeep
+|turn|242
+|
+|t:|1728425089
+|move|p1a: Dugtrio|Aerial Ace|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|move|p2a: Skarmory|Drill Peck|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1728425095
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|243
+|
+|t:|1728425098
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|95/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|244
+|
+|t:|1728425103
+|switch|p2a: Skarmory|Skarmory, M|98/100
+|move|p1a: Claydol|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100
+|
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|245
+|
+|t:|1728425121
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|246
+|
+|t:|1728425126
+|switch|p2a: Skarmory|Skarmory, M|93/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|247
+|
+|t:|1728425131
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|248
+|
+|t:|1728425134
+|switch|p2a: Skarmory|Skarmory, M|99/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|249
+|
+|t:|1728425138
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|250
+|
+|t:|1728425142
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|251
+|
+|t:|1728425148
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|252
+|
+|t:|1728425151
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|253
+|
+|t:|1728425154
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|254
+|
+|t:|1728425159
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|255
+|
+|t:|1728425161
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|256
+|
+|t:|1728425172
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|257
+|
+|t:|1728425178
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|28/100 par
+|
+|-heal|p1a: Skarmory|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|258
+|
+|t:|1728425189
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|259
+|
+|t:|1728425194
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|260
+|
+|t:|1728425199
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|upkeep
+|turn|261
+|
+|t:|1728425203
+|switch|p1a: Skarmory|Skarmory, M|34/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Skarmory|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|262
+|
+|t:|1728425207
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|263
+|
+|t:|1728425210
+|switch|p1a: Skarmory|Skarmory, M|40/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p1a: Skarmory|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|264
+|
+|t:|1728425220
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Skarmory|Spikes||[still]
+|-fail|p1a: Skarmory
+|
+|-heal|p1a: Skarmory|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|265
+|
+|t:|1728425225
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|266
+|
+|t:|1728425229
+|switch|p1a: Skarmory|Skarmory, M|52/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|267
+|
+|t:|1728425232
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|268
+|
+|t:|1728425237
+|switch|p1a: Skarmory|Skarmory, M|59/100 par
+|switch|p2a: Blissey|Blissey, F|76/100
+|-damage|p2a: Blissey|51/100|[from] Spikes
+|
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|269
+|
+|t:|1728425251
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|upkeep
+|turn|270
+|
+|t:|1728425259
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|271
+|
+|t:|1728425264
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|65/100 par
+|
+|-heal|p1a: Skarmory|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|272
+|
+|t:|1728425269
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|273
+|
+|t:|1728425275
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|274
+|
+|t:|1728425282
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|98/100
+|-sideend|p1: FlappleFan20|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|275
+|
+|t:|1728425288
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|upkeep
+|turn|276
+|
+|t:|1728425293
+|switch|p1a: Skarmory|Skarmory, M|77/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p1a: Skarmory|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|277
+|
+|t:|1728425297
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|278
+|
+|t:|1728425303
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|83/100 par
+|
+|-heal|p1a: Skarmory|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|279
+|
+|t:|1728425307
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|upkeep
+|turn|280
+|
+|t:|1728425310
+|switch|p1a: Skarmory|Skarmory, M|89/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-heal|p1a: Skarmory|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|281
+|
+|t:|1728425322
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|282
+|
+|t:|1728425326
+|move|p1a: Claydol|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|90/100
+|-unboost|p2a: Skarmory|spd|1
+|move|p2a: Skarmory|Spikes|p1a: Claydol
+|-sidestart|p1: FlappleFan20|Spikes
+|
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|283
+|
+|t:|1728425331
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Hidden Power|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|82/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|284
+|
+|t:|1728425338
+|switch|p2a: Skarmory|Skarmory, M|96/100
+|switch|p1a: Skarmory|Skarmory, M|95/100 par
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|285
+|
+|t:|1728425349
+|switch|p2a: Zapdos|Zapdos|88/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|286
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1728425394
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|287
+|
+|t:|1728425401
+|switch|p2a: Zapdos|Zapdos|95/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|288
+|
+|t:|1728425409
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|289
+|
+|t:|1728425413
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Roar|p1a: Claydol
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|upkeep
+|turn|290
+|
+|t:|1728425418
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|291
+|
+|t:|1728425422
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|292
+|
+|t:|1728425429
+|move|p2a: Blissey|Thunder Wave|p1a: Skarmory
+|-fail|p1a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|293
+|
+|t:|1728425439
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|294
+|
+|t:|1728425451
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100 par
+|
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|295
+|
+|t:|1728425460
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|296
+|
+|t:|1728425471
+|switch|p1a: Milotic|Milotic, F|81/100
+|-damage|p1a: Milotic|56/100|[from] Spikes
+|move|p2a: Blissey|Thunder Wave|p1a: Milotic
+|-status|p1a: Milotic|par
+|
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|-heal|p1a: Milotic|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|297
+|
+|t:|1728425478
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Refresh|p1a: Milotic
+|-curestatus|p1a: Milotic|par|[msg]
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|298
+|
+|t:|1728425485
+|switch|p1a: Claydol|Claydol|76/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|299
+|
+|t:|1728425499
+|move|p2a: Zapdos|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|tox|[msg]
+|
+|-heal|p1a: Claydol|88/100|[from] item: Leftovers
+|upkeep
+|turn|300
+|
+|t:|1728425504
+|switch|p2a: Blissey|Blissey, F|92/100
+|-damage|p2a: Blissey|67/100|[from] Spikes
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|301
+|
+|t:|1728425509
+|switch|p1a: Milotic|Milotic, F|69/100
+|-damage|p1a: Milotic|44/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|18/100
+|
+|-heal|p1a: Milotic|24/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|302
+|
+|t:|1728425515
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|74/100
+|
+|-heal|p1a: Milotic|80/100|[from] item: Leftovers
+|upkeep
+|turn|303
+|
+|t:|1728425523
+|switch|p1a: Claydol|Claydol|94/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|304
+|
+|t:|1728425527
+|switch|p2a: Blissey|Blissey, F|79/100
+|-damage|p2a: Blissey|54/100|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|82/100 par
+|
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|305
+|
+|t:|1728425531
+|cant|p1a: Skarmory|par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|58/100 par
+|
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|306
+|
+|t:|1728425538
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|307
+|
+|t:|1728425544
+|switch|p1a: Milotic|Milotic, F|80/100
+|-damage|p1a: Milotic|55/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|30/100
+|
+|-heal|p1a: Milotic|36/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|308
+|
+|t:|1728425548
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|86/100
+|
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|upkeep
+|turn|309
+|
+|t:|1728425555
+|switch|p2a: Blissey|Blissey, F|79/100
+|-damage|p2a: Blissey|54/100|[from] Spikes
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Blissey|60/100|[from] item: Leftovers
+|upkeep
+|turn|310
+|
+|t:|1728425562
+|switch|p1a: Milotic|Milotic, F|92/100
+|-damage|p1a: Milotic|67/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Milotic
+|-damage|p1a: Milotic|42/100
+|
+|-heal|p1a: Milotic|48/100|[from] item: Leftovers
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|311
+|
+|t:|1728425568
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|-heal|p1a: Milotic|54/100|[from] item: Leftovers
+|upkeep
+|turn|312
+|
+|t:|1728425577
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|313
+|
+|t:|1728425584
+|switch|p1a: Skarmory|Skarmory, M|70/100 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728425588
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-heal|p2a: Zapdos|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 tox|[from] psn
+|upkeep
+|turn|314
+|
+|t:|1728425603
+|switch|p2a: Blissey|Blissey, F|67/100
+|-damage|p2a: Blissey|42/100|[from] Spikes
+|move|p1a: Claydol|Refresh||[still]
+|-fail|p1a: Claydol
+|
+|-heal|p2a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|315
+|
+|t:|1728425617
+|switch|p2a: Zapdos|Zapdos|76/100 tox
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|37/100 tox
+|
+|-heal|p2a: Zapdos|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|37/100 tox|[from] psn
+|upkeep
+|turn|316
+|
+|t:|1728425623
+|move|p2a: Zapdos|Rest|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Rest
+|-heal|p2a: Zapdos|100/100 slp|[silent]
+|move|p1a: Claydol|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|84/100 slp
+|
+|-heal|p2a: Zapdos|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|317
+|
+|t:|1728425633
+|switch|p1a: Milotic|Milotic, F|54/100
+|-damage|p1a: Milotic|29/100|[from] Spikes
+|cant|p2a: Zapdos|slp
+|
+|-heal|p2a: Zapdos|96/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|35/100|[from] item: Leftovers
+|upkeep
+|turn|318
+|
+|t:|1728425642
+|switch|p2a: Blissey|Blissey, F|48/100
+|-damage|p2a: Blissey|23/100|[from] Spikes
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|85/100
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|-heal|p2a: Blissey|29/100|[from] item: Leftovers
+|upkeep
+|turn|319
+|
+|t:|1728425647
+|move|p1a: Milotic|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|79/100 tox
+|
+|-heal|p1a: Milotic|97/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|79/100 tox|[from] psn
+|upkeep
+|turn|320
+|
+|t:|1728425655
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Zapdos|Zapdos|96/100 slp
+|move|p1a: Milotic|Refresh||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|321
+|c|☆FlappleFan20|yeah i dont see a path after skarm died
+|c|☆FlappleFan20|ggs
+|c|☆SlamonBBQ|gg
+|-message|FlappleFan20 forfeited.
+|
+|win|SlamonBBQ
+|player|p1|
+|player|p1|FlappleFan20|swimmer-gen1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796501">
+{"id":"smogtours-gen3ou-796501","format":"[Gen 3] OU","players":["FlappleFan20","SlamonBBQ"],"uploadtime":1728425676,"views":134,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

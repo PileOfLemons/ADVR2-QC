@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: NoBottlecapsBlisy vs. AC77 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between NoBottlecapsBlisy and AC77! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800403">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729436658
+|gametype|singles
+|player|p1|NoBottlecapsBlisy|alder|
+|player|p2|AC77|karen|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729436658
+|start
+|switch|p1a: DJ Nessy|Swampert, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|AC77 also wants the timer to be on.
+|c|☆AC77|hf
+|c|☆NoBottlecapsBlisy|u2
+|inactive|AC77 has 270 seconds left.
+|
+|t:|1729436714
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: DJ Nessy|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|75/100|[from] Sandstorm
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1729436724
+|switch|p1a: Transistor|Zapdos|100/100
+|move|p2a: Suicune|Surf|p1a: Transistor
+|-damage|p1a: Transistor|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|61/100|[from] Sandstorm
+|-damage|p2a: Suicune|75/100|[from] Sandstorm
+|-heal|p1a: Transistor|67/100|[from] item: Leftovers
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729436750
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Transistor|Baton Pass|p1a: Transistor
+|
+|t:|1729436757
+|switch|p1a: DJ Nessy|Swampert, F|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729436763
+|-singleturn|p1a: DJ Nessy|move: Focus Punch
+|switch|p2a: Suicune|Suicune|81/100
+|move|p1a: DJ Nessy|Focus Punch|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729436774
+|switch|p1a: Ice 2 Meet U|Regice, shiny|100/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|94/100 slp|[from] Sandstorm
+|-damage|p1a: Ice 2 Meet U|94/100|[from] Sandstorm
+|-heal|p2a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Ice 2 Meet U|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729436792
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: LRXC|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1729436799
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: LRXC|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1729436803
+|switch|p1a: CoolLilGuy|Charizard, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: CoolLilGuy
+|-sidestart|p1: NoBottlecapsBlisy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|94/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729436811
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: CoolLilGuy|Substitute|p1a: CoolLilGuy
+|-start|p1a: CoolLilGuy|Substitute
+|-damage|p1a: CoolLilGuy|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729436819
+|-singleturn|p1a: CoolLilGuy|move: Focus Punch
+|move|p2a: Blissey|Seismic Toss|p1a: CoolLilGuy
+|-end|p1a: CoolLilGuy|Substitute
+|move|p1a: CoolLilGuy|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729436832
+|-singleturn|p1a: CoolLilGuy|move: Focus Punch
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: CoolLilGuy|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729436849
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|69/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729436855
+|switch|p1a: DJ Nessy|Swampert, F|100/100
+|-damage|p1a: DJ Nessy|88/100|[from] Spikes
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: DJ Nessy|94/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729436860
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: DJ Nessy|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|move|p2a: Tyranitar|Focus Punch|p1a: DJ Nessy
+|-damage|p1a: DJ Nessy|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: DJ Nessy|48/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729436870
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: DJ Nessy|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|72/100|[from] Sandstorm
+|-heal|p2a: Suicune|78/100|[from] item: Leftovers
+|-heal|p1a: DJ Nessy|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729436877
+|switch|p1a: Ice 2 Meet U|Regice, shiny|100/100
+|-damage|p1a: Ice 2 Meet U|88/100|[from] Spikes
+|move|p2a: Suicune|Surf|p1a: Ice 2 Meet U
+|-damage|p1a: Ice 2 Meet U|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|72/100|[from] Sandstorm
+|-damage|p1a: Ice 2 Meet U|68/100|[from] Sandstorm
+|-heal|p2a: Suicune|78/100|[from] item: Leftovers
+|-heal|p1a: Ice 2 Meet U|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|NoBottlecapsBlisy has 270 seconds left.
+|
+|t:|1729436932
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Ice 2 Meet U|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ice 2 Meet U|68/100|[from] Sandstorm
+|-heal|p1a: Ice 2 Meet U|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729436953
+|switch|p1a: CoolLilGuy|Charizard, F|75/100
+|move|p2a: Jirachi|Toxic|p1a: CoolLilGuy
+|-status|p1a: CoolLilGuy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|69/100 tox|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|75/100 tox|[from] item: Leftovers
+|-damage|p1a: CoolLilGuy|69/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1729436961
+|switch|p2a: Suicune|Suicune|78/100
+|move|p1a: CoolLilGuy|Fire Blast|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|63/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|49/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|69/100 tox|[from] item: Leftovers
+|-damage|p1a: CoolLilGuy|57/100 tox|[from] psn
+|-heal|p2a: Suicune|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|NoBottlecapsBlisy has 240 seconds left.
+|
+|t:|1729436995
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: CoolLilGuy|Hidden Power|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|51/100 tox|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|57/100 tox|[from] item: Leftovers
+|-damage|p1a: CoolLilGuy|39/100 tox|[from] psn
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|NoBottlecapsBlisy has 240 seconds left.
+|
+|t:|1729437009
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: CoolLilGuy|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|33/100 tox|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|39/100 tox|[from] item: Leftovers
+|-damage|p1a: CoolLilGuy|15/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|AC77 has 270 seconds left.
+|inactive|AC77 has 240 seconds left.
+|
+|t:|1729437063
+|switch|p2a: Suicune|Suicune|55/100
+|move|p1a: CoolLilGuy|Fire Blast|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CoolLilGuy|9/100 tox|[from] Sandstorm
+|-damage|p2a: Suicune|13/100|[from] Sandstorm
+|-heal|p1a: CoolLilGuy|15/100 tox|[from] item: Leftovers
+|-damage|p1a: CoolLilGuy|0 fnt|[from] psn
+|faint|p1a: CoolLilGuy
+|-heal|p2a: Suicune|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1729437072
+|switch|p1a: Transistor|Zapdos|67/100
+|turn|22
+|
+|t:|1729437078
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Transistor|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|61/100|[from] Sandstorm
+|-heal|p1a: Transistor|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729437090
+|move|p1a: Transistor|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|move|p2a: Claydol|Shadow Ball|p1a: Transistor
+|-damage|p1a: Transistor|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|35/100|[from] Sandstorm
+|-heal|p1a: Transistor|42/100|[from] item: Leftovers
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|NoBottlecapsBlisy has 240 seconds left.
+|
+|t:|1729437114
+|move|p1a: Transistor|Agility|p1a: Transistor
+|-boost|p1a: Transistor|spe|2
+|move|p2a: Claydol|Shadow Ball|p1a: Transistor
+|-damage|p1a: Transistor|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|11/100|[from] Sandstorm
+|-heal|p1a: Transistor|18/100|[from] item: Leftovers
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1729437122
+|move|p1a: Transistor|Baton Pass|p1a: Transistor
+|
+|t:|1729437124
+|switch|p1a: LRXC|Metagross|100/100|[from] Baton Pass
+|-damage|p1a: LRXC|88/100|[from] Spikes
+|move|p2a: Claydol|Earthquake|p1a: LRXC
+|-supereffective|p1a: LRXC
+|-damage|p1a: LRXC|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|39/100|[from] item: Leftovers
+|-heal|p2a: Claydol|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1729437131
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: LRXC|Protect||[still]
+|-fail|p1a: LRXC
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|45/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729437137
+|move|p1a: LRXC|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|move|p2a: Skarmory|Spikes|p1a: LRXC
+|-sidestart|p1: NoBottlecapsBlisy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|51/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729437145
+|move|p1a: LRXC|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|move|p2a: Skarmory|Spikes|p1a: LRXC
+|-sidestart|p1: NoBottlecapsBlisy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|57/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729437152
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: LRXC|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|63/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729437154
+|move|p1a: LRXC|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|move|p2a: Skarmory|Roar|p1a: LRXC
+|drag|p1a: Ice 2 Meet U|Regice, shiny|74/100
+|-damage|p1a: Ice 2 Meet U|49/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ice 2 Meet U|43/100|[from] Sandstorm
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p1a: Ice 2 Meet U|49/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1729437163
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Ice 2 Meet U|Thunder Wave|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ice 2 Meet U|43/100|[from] Sandstorm
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|-heal|p1a: Ice 2 Meet U|49/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729437168
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|move|p1a: Ice 2 Meet U|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|78/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ice 2 Meet U|43/100|[from] Sandstorm
+|-heal|p1a: Ice 2 Meet U|49/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|NoBottlecapsBlisy has 270 seconds left.
+|
+|t:|1729437202
+|switch|p1a: LRXC|Metagross|63/100
+|-damage|p1a: LRXC|38/100|[from] Spikes
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: LRXC|44/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|NoBottlecapsBlisy has 270 seconds left.
+|
+|t:|1729437213
+|switch|p2a: Skarmory|Skarmory, F|68/100
+|move|p1a: LRXC|Explosion|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p1a: LRXC
+|faint|p2a: Skarmory
+|
+|t:|1729437225
+|switch|p2a: Suicune|Suicune|19/100
+|switch|p1a: Transistor|Zapdos|18/100
+|
+|-heal|p2a: Suicune|69/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|11/100|[from] Sandstorm
+|-damage|p2a: Suicune|63/100|[from] Sandstorm
+|-heal|p1a: Transistor|18/100|[from] item: Leftovers
+|-heal|p2a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729437231
+|switch|p2a: Claydol|Claydol|76/100 tox
+|move|p1a: Transistor|Thunderbolt|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|11/100|[from] Sandstorm
+|-heal|p1a: Transistor|18/100|[from] item: Leftovers
+|-heal|p2a: Claydol|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1729437239
+|move|p1a: Transistor|Baton Pass|p1a: Transistor
+|inactive|NoBottlecapsBlisy has 270 seconds left.
+|
+|t:|1729437272
+|switch|p1a: Ice 2 Meet U|Regice, shiny|49/100|[from] Baton Pass
+|-damage|p1a: Ice 2 Meet U|24/100|[from] Spikes
+|move|p2a: Claydol|Shadow Ball|p1a: Ice 2 Meet U
+|-damage|p1a: Ice 2 Meet U|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ice 2 Meet U|0 fnt|[from] Sandstorm
+|faint|p1a: Ice 2 Meet U
+|-heal|p2a: Claydol|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1729437279
+|switch|p1a: DJ Nessy|Swampert, F|54/100
+|-damage|p1a: DJ Nessy|30/100|[from] Spikes
+|turn|37
+|
+|t:|1729437284
+|switch|p2a: Suicune|Suicune|69/100
+|move|p1a: DJ Nessy|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p2a: Suicune|41/100|[from] item: Leftovers
+|-heal|p1a: DJ Nessy|36/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729437292
+|move|p2a: Suicune|Surf|p1a: DJ Nessy
+|-damage|p1a: DJ Nessy|0 fnt
+|faint|p1a: DJ Nessy
+|
+|t:|1729437298
+|switch|p1a: Dr. Rock|Tyranitar, M|100/100
+|-damage|p1a: Dr. Rock|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p2a: Suicune|41/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|AC77 has 270 seconds left.
+|
+|t:|1729437329
+|move|p1a: Dr. Rock|Dragon Dance|p1a: Dr. Rock
+|-boost|p1a: Dr. Rock|atk|1
+|-boost|p1a: Dr. Rock|spe|1
+|move|p2a: Suicune|Roar|p1a: Dr. Rock
+|drag|p1a: Transistor|Zapdos|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Transistor|11/100|[from] Sandstorm
+|-damage|p2a: Suicune|34/100|[from] Sandstorm
+|-heal|p1a: Transistor|18/100|[from] item: Leftovers
+|-heal|p2a: Suicune|41/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|AC77 has 270 seconds left.
+|
+|t:|1729437342
+|switch|p2a: Claydol|Claydol|70/100 tox
+|move|p1a: Transistor|Baton Pass|p1a: Transistor
+|
+|t:|1729437345
+|switch|p1a: Dr. Rock|Tyranitar, M|76/100|[from] Baton Pass
+|-damage|p1a: Dr. Rock|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|70/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1729437350
+|move|p1a: Dr. Rock|Hidden Power|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|16/100 tox
+|move|p2a: Claydol|Earthquake|p1a: Dr. Rock
+|-supereffective|p1a: Dr. Rock
+|-damage|p1a: Dr. Rock|0 fnt
+|faint|p1a: Dr. Rock
+|c|☆NoBottlecapsBlisy|gg
+|-message|NoBottlecapsBlisy forfeited.
+|
+|win|AC77
+|c|☆AC77|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800403">
+{"id":"smogtours-gen3ou-800403","format":"[Gen 3] OU","players":["NoBottlecapsBlisy","AC77"],"uploadtime":1729437357,"views":81,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

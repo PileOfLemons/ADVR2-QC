@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: zacpz vs. gorditoconbigote - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between zacpz and gorditoconbigote! Format: [Gen 3] OU; Date: Oct 29, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-803379">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1730243593
+|gametype|singles
+|player|p1|zacpz|#roaplxyorknewyanma|
+|player|p2|gorditoconbigote|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1730243593
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|c|☆gorditoconbigote|glhf!
+|c|☆zacpz|you too
+|
+|t:|1730243622
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|79/100
+|
+|-heal|p1a: Snorlax|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1730243639
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|69/100
+|-status|p2a: Snorlax|par
+|
+|-heal|p1a: Snorlax|91/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1730243648
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Snorlax|Double-Edge|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|79/100
+|-damage|p2a: Snorlax|70/100 par|[from] Recoil|[of] p1a: Metagross
+|
+|-heal|p2a: Snorlax|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1730243659
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|58/100
+|
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1730243670
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|24/100
+|move|p2a: Swampert|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|62/100
+|
+|-heal|p2a: Swampert|30/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1730243681
+|switch|p2a: gol de river 15´|Charizard, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: gol de river 15´
+|-resisted|p2a: gol de river 15´
+|-damage|p2a: gol de river 15´|37/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: gol de river 15´|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1730243687
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|move|p2a: gol de river 15´|Fire Blast|p1a: Houndoom
+|-start|p1a: Houndoom|ability: Flash Fire
+|
+|-heal|p2a: gol de river 15´|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1730243709
+|-activate|p2a: gol de river 15´|move: Pursuit
+|move|p1a: Houndoom|Pursuit|p2a: gol de river 15´|[from]Pursuit
+|-damage|p2a: gol de river 15´|0 fnt
+|faint|p2a: gol de river 15´
+|-hint|Previously chosen switches continue in Gen 2-4 after a Pursuit target faints.
+|switch|p2a: bratpz|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: bratpz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Houndoom|94/100|[from] Sandstorm
+|-heal|p1a: Houndoom|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆zacpz|:fire:
+|
+|t:|1730243720
+|-end|p1a: Houndoom|ability: Flash Fire|[silent]
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: bratpz|atk|1
+|move|p2a: bratpz|Brick Break|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|84/100|[from] Sandstorm
+|-heal|p1a: Salamence|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1730243730
+|move|p1a: Salamence|Brick Break|p2a: bratpz
+|-supereffective|p2a: bratpz
+|-crit|p2a: bratpz
+|-damage|p2a: bratpz|0 fnt
+|faint|p2a: bratpz
+|c|☆zacpz|my b
+|
+|t:|1730243739
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|84/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|90/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1730243756
+|switch|p1a: Snorlax|Snorlax, M|91/100
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-damage|p1a: Snorlax|85/100|[from] Sandstorm
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1730243762
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730243765
+|switch|p2a: Breloom|Breloom, M|100/100|[from] Baton Pass
+|move|p1a: Snorlax|Body Slam|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|85/100|[from] Sandstorm
+|-heal|p2a: Breloom|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1730243769
+|move|p2a: Breloom|Spore|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Spore
+|cant|p1a: Snorlax|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|85/100 slp|[from] Sandstorm
+|-heal|p2a: Breloom|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1730243773
+|switch|p2a: Snorlax|Snorlax, F|76/100 par
+|switch|p1a: Salamence|Salamence, M|90/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|84/100|[from] Sandstorm
+|-damage|p2a: Snorlax|70/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|90/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1730243777
+|switch|p1a: Metagross|Metagross|62/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|10/100
+|faint|p2a: Snorlax
+|
+|t:|1730243784
+|switch|p2a: Zapdos|Zapdos|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1730243788
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1730243790
+|switch|p1a: Exeggutor|Exeggutor, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|69/100|[from] Sandstorm
+|-damage|p1a: Exeggutor|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1730243796
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|50/100
+|move|p1a: Exeggutor|Sunny Day|p1a: Exeggutor
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1730243808
+|move|p1a: Exeggutor|Hidden Power|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1730243818
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos|[miss]
+|-miss|p1a: Exeggutor|p2a: Zapdos
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|69/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1730243834
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Exeggutor|Sleep Powder|p2a: Breloom
+|-status|p2a: Breloom|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|inactive|gorditoconbigote has 270 seconds left.
+|
+|t:|1730243859
+|switch|p1a: Salamence|Salamence, M|90/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|switch|p2a: Swampert|Swampert, M|30/100
+|
+|-weather|none
+|-heal|p1a: Salamence|96/100|[from] item: Leftovers
+|-heal|p2a: Swampert|36/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1730243866
+|move|p1a: Salamence|Dragon Claw|p2a: Swampert
+|-damage|p2a: Swampert|3/100
+|move|p2a: Swampert|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1730243872
+|switch|p1a: Heracross|Heracross, M|100/100
+|
+|-heal|p2a: Swampert|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1730243879
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|move|p2a: Swampert|Hydro Pump|p1a: Heracross
+|-damage|p1a: Heracross|14/100
+|
+|-enditem|p1a: Heracross|Salac Berry|[eat]
+|-boost|p1a: Heracross|spe|1|[from] item: Salac Berry
+|-heal|p2a: Swampert|15/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1730243886
+|move|p1a: Heracross|Megahorn|p2a: Swampert|[miss]
+|-miss|p1a: Heracross|p2a: Swampert
+|move|p2a: Swampert|Ice Beam|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|t:|1730243891
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|
+|-heal|p2a: Swampert|21/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆zacpz|this is the way the world ends
+|c|☆zacpz|not with a bang but a whimper
+|
+|t:|1730243919
+|move|p1a: Houndoom|Crunch|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1730243925
+|switch|p2a: Zapdos|Zapdos|69/100
+|
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1730243932
+|switch|p1a: Exeggutor|Exeggutor, F|40/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|12/100
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1730243939
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|t:|1730243942
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1730243946
+|move|p1a: Houndoom|Sunny Day|p1a: Houndoom
+|-weather|SunnyDay
+|move|p2a: Zapdos|Thunderbolt|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|t:|1730243948
+|switch|p1a: Snorlax|Snorlax, M|91/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1730243952
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|69/100
+|cant|p1a: Snorlax|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1730243956
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1730243959
+|switch|p2a: Breloom|Breloom, M|100/100 slp|[from] Baton Pass
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1730243966
+|cant|p2a: Breloom|slp
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1730243970
+|cant|p2a: Breloom|slp
+|move|p1a: Snorlax|Body Slam|p2a: Breloom
+|-damage|p2a: Breloom|11/100 slp
+|
+|-weather|none
+|-heal|p2a: Breloom|17/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1730243974
+|cant|p2a: Breloom|slp
+|move|p1a: Snorlax|Body Slam|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|t:|1730243977
+|switch|p2a: Zapdos|Zapdos|75/100
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1730243980
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|78/100
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: Snorlax|85/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1730243984
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|zacpz
+|c|☆zacpz|g
+|c|☆zacpz|gg
+|c|☆gorditoconbigote|ggwp
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-803379">
+{"id":"smogtours-gen3ou-803379","format":"[Gen 3] OU","players":["zacpz","gorditoconbigote"],"uploadtime":1730243984,"views":85,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

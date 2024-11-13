@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: msoft_j vs. OOF_MAXIMA - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between msoft_j and OOF_MAXIMA! Format: [Gen 3] OU; Date: Oct 5, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794874">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728130426
+|gametype|singles
+|player|p1|msoft_j|supernerd|
+|player|p2|OOF_MAXIMA|cress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728130426
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: zappy goober|Raikou|100/100
+|turn|1
+|c|☆OOF_MAXIMA|final bout
+|c|☆OOF_MAXIMA|gl chief
+|c|☆msoft_j|u2 mate
+|
+|t:|1728130452
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: zappy goober|Substitute|p2a: zappy goober
+|-start|p2a: zappy goober|Substitute
+|-damage|p2a: zappy goober|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|69/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1728130461
+|move|p2a: zappy goober|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|move|p1a: Tyranitar|Crunch|p2a: zappy goober
+|-end|p2a: zappy goober|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|63/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728130465
+|move|p2a: zappy goober|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|move|p1a: Tyranitar|Ice Beam|p2a: zappy goober
+|-damage|p2a: zappy goober|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|25/100|[from] Sandstorm
+|-enditem|p2a: zappy goober|Petaya Berry|[eat]
+|-boost|p2a: zappy goober|spa|1|[from] item: Petaya Berry
+|-heal|p1a: Tyranitar|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728130470
+|move|p2a: zappy goober|Thunderbolt|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728130472
+|switch|p1a: Breloom|Breloom, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|18/100|[from] Sandstorm
+|-damage|p1a: Breloom|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1728130475
+|switch|p2a: dragon goober|Salamence, M|100/100
+|-ability|p2a: dragon goober|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Mach Punch|p2a: dragon goober
+|-resisted|p2a: dragon goober
+|-damage|p2a: dragon goober|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dragon goober|85/100|[from] Sandstorm
+|-damage|p1a: Breloom|89/100|[from] Sandstorm
+|-heal|p2a: dragon goober|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728130486
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: dragon goober|Hidden Power|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|68/100|[from] Sandstorm
+|-damage|p2a: dragon goober|85/100|[from] Sandstorm
+|-heal|p1a: Zapdos|74/100|[from] item: Leftovers
+|-heal|p2a: dragon goober|91/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728130495
+|switch|p2a: zappy goober|Raikou|18/100
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1728130499
+|switch|p1a: Breloom|Breloom, F|89/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|12/100|[from] Sandstorm
+|-damage|p1a: Breloom|83/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1728130501
+|move|p2a: zappy goober|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|t:|1728130509
+|switch|p1a: Heracross|Heracross, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: zappy goober|6/100|[from] Sandstorm
+|-damage|p1a: Heracross|94/100|[from] Sandstorm
+|-heal|p1a: Heracross|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728130511
+|move|p2a: zappy goober|Thunderbolt|p1a: Heracross
+|-damage|p1a: Heracross|45/100
+|move|p1a: Heracross|Rock Slide|p2a: zappy goober
+|-damage|p2a: zappy goober|0 fnt
+|faint|p2a: zappy goober
+|
+|t:|1728130514
+|switch|p2a: dragon goober|Salamence, M|91/100
+|-ability|p2a: dragon goober|Intimidate|boost
+|-unboost|p1a: Heracross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|39/100|[from] Sandstorm
+|-damage|p2a: dragon goober|85/100|[from] Sandstorm
+|-heal|p1a: Heracross|45/100|[from] item: Leftovers
+|-heal|p2a: dragon goober|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728130524
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: dragon goober|atk|1
+|move|p2a: dragon goober|Dragon Dance|p2a: dragon goober
+|-boost|p2a: dragon goober|atk|1
+|-boost|p2a: dragon goober|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dragon goober|85/100|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: dragon goober|91/100|[from] item: Leftovers
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728130529
+|move|p2a: dragon goober|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|30/100
+|move|p1a: Salamence|Dragon Claw|p2a: dragon goober
+|-supereffective|p2a: dragon goober
+|-damage|p2a: dragon goober|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dragon goober|1/100|[from] Sandstorm
+|-damage|p1a: Salamence|24/100|[from] Sandstorm
+|-heal|p2a: dragon goober|7/100|[from] item: Leftovers
+|-heal|p1a: Salamence|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728130538
+|move|p2a: dragon goober|Hidden Power|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1728130542
+|switch|p1a: Zapdos|Zapdos|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dragon goober|1/100|[from] Sandstorm
+|-damage|p1a: Zapdos|68/100|[from] Sandstorm
+|-heal|p2a: dragon goober|7/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728130544
+|move|p2a: dragon goober|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|7/100
+|move|p1a: Zapdos|Thunderbolt|p2a: dragon goober
+|-damage|p2a: dragon goober|0 fnt
+|faint|p2a: dragon goober
+|
+|t:|1728130552
+|switch|p2a: sandy goober|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|1/100|[from] Sandstorm
+|-heal|p1a: Zapdos|7/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728130557
+|move|p1a: Zapdos|Thunderbolt|p2a: sandy goober
+|-damage|p2a: sandy goober|62/100
+|move|p2a: sandy goober|Dragon Dance|p2a: sandy goober
+|-boost|p2a: sandy goober|atk|1
+|-boost|p2a: sandy goober|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|1/100|[from] Sandstorm
+|-heal|p1a: Zapdos|7/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728130561
+|move|p1a: Zapdos|Thunderbolt|p2a: sandy goober
+|-damage|p2a: sandy goober|23/100
+|move|p2a: sandy goober|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1728130570
+|switch|p1a: Heracross|Heracross, M|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|39/100|[from] Sandstorm
+|-heal|p1a: Heracross|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728130572
+|move|p2a: sandy goober|Rock Slide|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|t:|1728130574
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1728130576
+|move|p2a: sandy goober|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|23/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728130579
+|move|p1a: Metagross|Meteor Mash|p2a: sandy goober
+|-supereffective|p2a: sandy goober
+|-damage|p2a: sandy goober|0 fnt
+|-boost|p1a: Metagross|atk|1
+|faint|p2a: sandy goober
+|
+|t:|1728130580
+|switch|p2a: muddy goober|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|35/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728130582
+|move|p1a: Metagross|Earthquake|p2a: muddy goober
+|-damage|p2a: muddy goober|50/100
+|move|p2a: muddy goober|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|win|OOF_MAXIMA
+|c|☆OOF_MAXIMA|ggs!
+|c|☆msoft_j|gg
+|player|p1|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794874">
+{"id":"smogtours-gen3ou-794874","format":"[Gen 3] OU","players":["msoft_j","OOF_MAXIMA"],"uploadtime":1728130582,"views":155,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

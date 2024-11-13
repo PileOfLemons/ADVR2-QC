@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: blavand vs. earl gr3y - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between blavand and earl gr3y! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798102">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728834437
+|gametype|singles
+|player|p1|blavand|1|
+|player|p2|earl gr3y|#roaplxyorknewyanma|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728834437
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|earl gr3y also wants the timer to be on.
+|c|☆earl gr3y|hf
+|inactive|earl gr3y has 270 seconds left.
+|c|☆blavand|gl
+|
+|t:|1728834479
+|switch|p1a: Hariyama|Hariyama, F|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|+zacpz|omg sick avatar
+|
+|t:|1728834501
+|move|p2a: Gengar|Will-O-Wisp|p1a: Hariyama
+|-status|p1a: Hariyama|brn
+|move|p1a: Hariyama|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|94/100
+|-enditem|p2a: Gengar|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|88/100|[from] Sandstorm
+|-damage|p1a: Hariyama|94/100 brn|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Hariyama|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆blavand|already wanted to say
+|c|☆blavand|looks awesome
+|inactive|earl gr3y has 270 seconds left.
+|c|☆earl gr3y|huh?
+|inactive|blavand has 270 seconds left.
+|c|☆blavand|your avatar
+|c|☆earl gr3y| oh ty
+|
+|t:|1728834545
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 brn|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|blavand has 270 seconds left.
+|
+|t:|1728834556
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Gengar|Taunt|p1a: Jirachi
+|-start|p1a: Jirachi|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|76/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|blavand has 270 seconds left.
+|
+|t:|1728834572
+|switch|p2a: Swampert|Swampert, M|100/100
+|switch|p1a: Blissey|Blissey, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728834584
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Suicune|Suicune|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728834604
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728834614
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|blavand has 270 seconds left.
+|inactive|earl gr3y has 270 seconds left.
+|
+|t:|1728834626
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-cureteam|p1a: Blissey|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|64/100|[from] Sandstorm
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728834635
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Swampert|Toxic|p1a: Suicune
+|-status|p1a: Suicune|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|blavand has 270 seconds left.
+|
+|t:|1728834650
+|switch|p1a: Hariyama|Hariyama, F|88/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728834668
+|switch|p2a: Gengar|Gengar, F|76/100
+|move|p1a: Hariyama|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|65/100|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728834677
+|switch|p1a: Blissey|Blissey, F|70/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|59/100|[from] Sandstorm
+|-damage|p1a: Blissey|64/100 brn|[from] Sandstorm
+|-heal|p1a: Blissey|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|58/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1728834684
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Gengar|Taunt|p1a: Claydol
+|-start|p1a: Claydol|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|52/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1728834704
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Hariyama|Hariyama, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728834707
+|switch|p2a: Gengar|Gengar, F|52/100
+|move|p1a: Hariyama|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|40/100|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728834716
+|switch|p1a: Suicune|Suicune|94/100 tox
+|move|p2a: Gengar|Will-O-Wisp|p1a: Suicune|[miss]
+|-miss|p2a: Gengar|p1a: Suicune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-damage|p1a: Suicune|88/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1728834729
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Gengar|Giga Drain|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|-heal|p2a: Gengar|51/100|[from] drain|[of] p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|45/100|[from] Sandstorm
+|-heal|p1a: Claydol|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|earl gr3y has 270 seconds left.
+|
+|t:|1728834761
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Hariyama|Hariyama, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728834766
+|switch|p2a: Gengar|Gengar, F|45/100
+|move|p1a: Hariyama|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|39/100|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|earl gr3y has 270 seconds left.
+|inactive|blavand has 270 seconds left.
+|
+|t:|1728834820
+|move|p2a: Gengar|Will-O-Wisp|p1a: Hariyama|[miss]
+|-miss|p2a: Gengar|p1a: Hariyama
+|move|p1a: Hariyama|Hidden Power|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|24/100|[from] Sandstorm
+|-damage|p1a: Hariyama|82/100|[from] Sandstorm
+|-heal|p1a: Hariyama|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728834828
+|move|p2a: Gengar|Giga Drain|p1a: Hariyama
+|-damage|p1a: Hariyama|70/100
+|-heal|p2a: Gengar|38/100|[from] drain|[of] p1a: Hariyama
+|move|p1a: Hariyama|Hidden Power|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|23/100|[from] Sandstorm
+|-damage|p1a: Hariyama|64/100|[from] Sandstorm
+|-heal|p1a: Hariyama|70/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728834833
+|switch|p1a: Blissey|Blissey, F|58/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|17/100|[from] Sandstorm
+|-damage|p1a: Blissey|51/100 brn|[from] Sandstorm
+|-heal|p1a: Blissey|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|45/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|earl gr3y has 270 seconds left.
+|
+|t:|1728834840
+|move|p2a: Gengar|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|11/100|[from] Sandstorm
+|-damage|p1a: Blissey|39/100 brn|[from] Sandstorm
+|-heal|p1a: Blissey|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|33/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1728834847
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1728834856
+|move|p1a: Jirachi|Toxic|p2a: Tyranitar|[miss]
+|-miss|p1a: Jirachi|p2a: Tyranitar
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1728834869
+|switch|p1a: Suicune|Suicune|88/100 tox
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|82/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|82/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1728834874
+|move|p2a: Tyranitar|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|36/100 tox
+|move|p1a: Suicune|Roar|p2a: Tyranitar
+|drag|p2a: Gengar|Gengar, F|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|5/100|[from] Sandstorm
+|-damage|p1a: Suicune|30/100 tox|[from] Sandstorm
+|-heal|p1a: Suicune|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|23/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1728834886
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Gengar|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|93/100
+|-heal|p2a: Gengar|10/100|[from] drain|[of] p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|4/100|[from] Sandstorm
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728834890
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Gengar|Will-O-Wisp|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|0 fnt|[from] Sandstorm
+|faint|p2a: Gengar
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728834892
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|turn|31
+|
+|t:|1728834922
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728834937
+|switch|p1a: Hariyama|Hariyama, F|70/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-heal|p1a: Hariyama|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|94/100|[from] Sandstorm
+|-heal|p1a: Hariyama|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728834944
+|move|p2a: Skarmory|Drill Peck|p1a: Hariyama
+|-supereffective|p1a: Hariyama
+|-crit|p1a: Hariyama
+|-damage|p1a: Hariyama|23/100
+|move|p1a: Hariyama|Knock Off|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Hariyama
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hariyama|17/100|[from] Sandstorm
+|-heal|p1a: Hariyama|23/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|earl gr3y has 270 seconds left.
+|
+|t:|1728834970
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Jirachi|Jirachi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728834980
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728834995
+|switch|p1a: Claydol|Claydol|77/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-heal|p1a: Claydol|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1728835000
+|move|p2a: Tyranitar|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|2/100
+|move|p1a: Claydol|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|10/100|[from] item: Leftovers
+|-heal|p1a: Claydol|9/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728835017
+|move|p2a: Tyranitar|Rock Slide|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1728835019
+|switch|p1a: Jirachi|Jirachi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|16/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728835022
+|move|p2a: Tyranitar|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|c|☆blavand|gg
+|c|☆earl gr3y|gg
+|-message|blavand forfeited.
+|
+|win|earl gr3y
+|c|☆blavand|If i hit the toxic
+|c|☆blavand|we would have had a game
+|c|☆earl gr3y|/log earl gr3y made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798102">
+{"id":"smogtours-gen3ou-798102","format":"[Gen 3] OU","players":["blavand","earl gr3y"],"uploadtime":1728835033,"views":105,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

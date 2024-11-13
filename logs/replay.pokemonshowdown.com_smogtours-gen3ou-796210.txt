@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: EternumTagerMain vs. Scansafatiche - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between EternumTagerMain and Scansafatiche! Format: [Gen 3] OU; Date: Oct 7, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796210">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728329017
+|gametype|singles
+|player|p1|EternumTagerMain|winona|
+|player|p2|Scansafatiche|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728329017
+|start
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|switch|p2a: SDJ|Salamence, M|100/100
+|-ability|p2a: SDJ|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|1
+|
+|t:|1728329028
+|switch|p2a: Umbr|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Umbr
+|move|p1a: Alakazam|Ice Punch|p2a: Umbr
+|-damage|p2a: Umbr|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|95/100|[from] Sandstorm
+|-heal|p2a: Umbr|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728329040
+|move|p1a: Alakazam|Hidden Power|p2a: Umbr
+|-supereffective|p2a: Umbr
+|-damage|p2a: Umbr|43/100
+|move|p2a: Umbr|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|31/100|[from] Sandstorm
+|-heal|p2a: Umbr|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728329054
+|switch|p2a: Lily|Blissey, F|100/100
+|move|p1a: Alakazam|Hidden Power|p2a: Lily
+|-damage|p2a: Lily|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|25/100|[from] Sandstorm
+|-damage|p2a: Lily|85/100|[from] Sandstorm
+|-heal|p2a: Lily|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728329060
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Lily|Seismic Toss|p1a: Swampert
+|-damage|p1a: Swampert|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|85/100|[from] Sandstorm
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|-heal|p2a: Lily|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728329067
+|move|p1a: Swampert|Toxic|p2a: Lily
+|-status|p2a: Lily|tox
+|move|p2a: Lily|Counter|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|85/100 tox|[from] Sandstorm
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|-heal|p2a: Lily|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Lily|85/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1728329074
+|-curestatus|p2a: Lily|tox|[from] ability: Natural Cure
+|switch|p2a: Fahey|Forretress, M|100/100
+|move|p1a: Swampert|Surf|p2a: Fahey
+|-damage|p2a: Fahey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|-heal|p2a: Fahey|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728329082
+|switch|p1a: Alakazam|Alakazam, M|25/100
+|move|p2a: Fahey|Spikes|p1a: Alakazam
+|-sidestart|p1: EternumTagerMain|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|19/100|[from] Sandstorm
+|-heal|p2a: Fahey|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728329092
+|switch|p2a: Lily|Blissey, F|85/100
+|move|p1a: Alakazam|Fire Punch|p2a: Lily
+|-damage|p2a: Lily|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|13/100|[from] Sandstorm
+|-damage|p2a: Lily|68/100|[from] Sandstorm
+|-heal|p2a: Lily|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728329099
+|move|p1a: Alakazam|Psychic|p2a: Lily
+|-damage|p2a: Lily|57/100
+|move|p2a: Lily|Soft-Boiled|p2a: Lily
+|-heal|p2a: Lily|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|7/100|[from] Sandstorm
+|-damage|p2a: Lily|94/100|[from] Sandstorm
+|-heal|p2a: Lily|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728329106
+|move|p1a: Alakazam|Psychic|p2a: Lily
+|-damage|p2a: Lily|84/100
+|move|p2a: Lily|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|t:|1728329112
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|78/100|[from] Sandstorm
+|-heal|p2a: Lily|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Scansafatiche has 270 seconds left.
+|
+|t:|1728329144
+|switch|p2a: rabit!|Jirachi|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: rabit!
+|-resisted|p2a: rabit!
+|-damage|p2a: rabit!|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728329151
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: rabit!|Wish|p2a: rabit!
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728329160
+|switch|p2a: Fahey|Forretress, M|84/100
+|move|p1a: Skarmory|Toxic|p2a: Fahey
+|-immune|p2a: Fahey
+|
+|-heal|p2a: Fahey|100/100|[from] move: Wish|[wisher] rabit!
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1728329165
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|move|p2a: Fahey|Spikes|p1a: Skarmory
+|-sidestart|p1: EternumTagerMain|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1728329175
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|-sideend|p2: Scansafatiche|Spikes|[from] move: Rapid Spin|[of] p2a: Fahey
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1728329183
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Fahey|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1728329191
+|move|p1a: Tyranitar|Rock Slide|p2a: Fahey
+|-crit|p2a: Fahey
+|-damage|p2a: Fahey|10/100
+|move|p2a: Fahey|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728329196
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fahey|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728329208
+|switch|p2a: SDJ|Salamence, M|100/100
+|-ability|p2a: SDJ|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Rock Slide|p2a: SDJ
+|-supereffective|p2a: SDJ
+|-damage|p2a: SDJ|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: SDJ|25/100|[from] Sandstorm
+|-heal|p2a: SDJ|31/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728329214
+|switch|p2a: rabit!|Jirachi|87/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: rabit!
+|-resisted|p2a: rabit!
+|-damage|p2a: rabit!|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728329224
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: rabit!|Wish|p2a: rabit!
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728329234
+|move|p2a: rabit!|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|66/100
+|move|p1a: Skarmory|Whirlwind|p2a: rabit!
+|drag|p2a: Umbr|Tyranitar, M|49/100
+|
+|-heal|p2a: Umbr|99/100|[from] move: Wish|[wisher] rabit!
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|-heal|p2a: Umbr|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728329244
+|switch|p2a: Fahey|Forretress, M|17/100
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|78/100|[from] item: Leftovers
+|-heal|p2a: Fahey|23/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728329250
+|switch|p1a: Metagross|Metagross|88/100
+|-damage|p1a: Metagross|72/100|[from] Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|70/100
+|-sideend|p2: Scansafatiche|Spikes|[from] move: Rapid Spin|[of] p2a: Fahey
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fahey|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Scansafatiche has 270 seconds left.
+|
+|t:|1728329281
+|switch|p2a: SDJ|Salamence, M|31/100
+|-ability|p2a: SDJ|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|move|p1a: Metagross|Meteor Mash|p2a: SDJ
+|-damage|p2a: SDJ|0 fnt
+|faint|p2a: SDJ
+|inactive|Scansafatiche has 270 seconds left.
+|
+|t:|1728329288
+|switch|p2a: rabit!|Jirachi|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|96/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728329294
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|move|p2a: rabit!|Fire Punch|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|89/100
+|-status|p1a: Aerodactyl|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|77/100 brn|[from] brn
+|-heal|p2a: rabit!|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728329313
+|move|p1a: Aerodactyl|Earthquake|p2a: rabit!
+|-supereffective|p2a: rabit!
+|-damage|p2a: rabit!|74/100
+|move|p2a: rabit!|Fire Punch|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|64/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aerodactyl|52/100 brn|[from] brn
+|-heal|p2a: rabit!|80/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆EternumTagerMain|Scald Flashbacks
+|c|☆Scansafatiche|fr
+|
+|t:|1728329320
+|switch|p1a: Swampert|Swampert, F|94/100
+|-damage|p1a: Swampert|78/100|[from] Spikes
+|move|p2a: rabit!|Wish|p2a: rabit!
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|86/100|[from] item: Leftovers
+|-heal|p1a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆Scansafatiche|scald rachi
+|
+|t:|1728329326
+|move|p2a: rabit!|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: rabit!
+|-damage|p2a: rabit!|62/100
+|
+|-heal|p2a: rabit!|100/100|[from] move: Wish|[wisher] rabit!
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|84/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1728329335
+|move|p2a: rabit!|Fire Punch|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|77/100 tox
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728329344
+|move|p2a: rabit!|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Surf|p2a: rabit!
+|-damage|p2a: rabit!|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|82/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|83/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1728329350
+|move|p2a: rabit!|Wish|p2a: rabit!
+|move|p1a: Swampert|Refresh|p1a: Swampert
+|-curestatus|p1a: Swampert|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|88/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728329360
+|switch|p2a: Fahey|Forretress, M|29/100
+|move|p1a: Swampert|Refresh||[still]
+|-fail|p1a: Swampert
+|
+|-heal|p2a: Fahey|79/100|[from] move: Wish|[wisher] rabit!
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|96/100|[from] item: Leftovers
+|-heal|p2a: Fahey|85/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728329364
+|move|p1a: Swampert|Surf|p2a: Fahey
+|-damage|p2a: Fahey|56/100
+|move|p2a: Fahey|Spikes|p1a: Swampert
+|-sidestart|p1: EternumTagerMain|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|-heal|p2a: Fahey|62/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728329368
+|switch|p2a: rabit!|Jirachi|88/100
+|move|p1a: Swampert|Surf|p2a: rabit!
+|-damage|p2a: rabit!|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|70/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728329373
+|switch|p1a: Metagross|Metagross|70/100
+|-damage|p1a: Metagross|45/100|[from] Spikes
+|move|p2a: rabit!|Wish|p2a: rabit!
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|76/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728329381
+|move|p2a: rabit!|Protect|p2a: rabit!
+|-singleturn|p2a: rabit!|Protect
+|move|p1a: Metagross|Earthquake|p2a: rabit!
+|-activate|p2a: rabit!|Protect
+|
+|-heal|p2a: rabit!|100/100|[from] move: Wish|[wisher] rabit!
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1728329387
+|switch|p2a: YUNGLE DIFF|Aerodactyl, F|100/100
+|move|p1a: Metagross|Earthquake|p2a: YUNGLE DIFF
+|-immune|p2a: YUNGLE DIFF
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1728329392
+|switch|p1a: Aerodactyl|Aerodactyl, F|52/100 brn
+|move|p2a: YUNGLE DIFF|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|t:|1728329396
+|switch|p1a: Skarmory|Skarmory, F|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728329409
+|move|p2a: YUNGLE DIFF|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|46/100
+|move|p1a: Skarmory|Spikes|p2a: YUNGLE DIFF
+|-sidestart|p2: Scansafatiche|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|52/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728329416
+|switch|p2a: Fahey|Forretress, M|62/100
+|-damage|p2a: Fahey|50/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p2a: Fahey|56/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728329420
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|-sideend|p2: Scansafatiche|Spikes|[from] move: Rapid Spin|[of] p2a: Fahey
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|-heal|p2a: Fahey|62/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728329438
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|-sideend|p2: Scansafatiche|Spikes|[from] move: Rapid Spin|[of] p2a: Fahey
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|-heal|p2a: Fahey|69/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728329444
+|move|p1a: Skarmory|Toxic|p2a: Fahey|[miss]
+|-miss|p1a: Skarmory|p2a: Fahey
+|move|p2a: Fahey|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|-heal|p2a: Fahey|75/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728329448
+|move|p1a: Skarmory|Spikes|p2a: Fahey
+|-sidestart|p2: Scansafatiche|Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100
+|-sideend|p2: Scansafatiche|Spikes|[from] move: Rapid Spin|[of] p2a: Fahey
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|76/100|[from] item: Leftovers
+|-heal|p2a: Fahey|81/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728329451
+|move|p1a: Skarmory|Toxic|p2a: Fahey
+|-immune|p2a: Fahey
+|move|p2a: Fahey|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|80/100|[from] item: Leftovers
+|-heal|p2a: Fahey|87/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728329458
+|switch|p1a: Metagross|Metagross|45/100
+|-damage|p1a: Metagross|20/100|[from] Spikes
+|move|p2a: Fahey|Rapid Spin|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fahey|93/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728329476
+|switch|p2a: rabit!|Jirachi|100/100
+|move|p1a: Metagross|Explosion|p2a: rabit!
+|-resisted|p2a: rabit!
+|-damage|p2a: rabit!|3/100
+|faint|p1a: Metagross
+|
+|t:|1728329483
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|9/100|[from] item: Leftovers
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728329489
+|move|p2a: rabit!|Protect|p2a: rabit!
+|-singleturn|p2a: rabit!|Protect
+|move|p1a: Swampert|Surf|p2a: rabit!
+|-activate|p2a: rabit!|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: rabit!|15/100|[from] item: Leftovers
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728329495
+|switch|p2a: Lily|Blissey, F|84/100
+|move|p1a: Swampert|Surf|p2a: Lily
+|-damage|p2a: Lily|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|68/100|[from] Sandstorm
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|-heal|p2a: Lily|74/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728329501
+|move|p1a: Swampert|Surf|p2a: Lily
+|-damage|p2a: Lily|63/100
+|move|p2a: Lily|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|57/100|[from] Sandstorm
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|-heal|p2a: Lily|63/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728329507
+|move|p1a: Swampert|Toxic|p2a: Lily
+|-status|p2a: Lily|tox
+|move|p2a: Lily|Soft-Boiled|p2a: Lily
+|-heal|p2a: Lily|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lily|94/100 tox|[from] Sandstorm
+|-heal|p2a: Lily|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lily|94/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1728329513
+|-curestatus|p2a: Lily|tox|[from] ability: Natural Cure
+|switch|p2a: Fahey|Forretress, M|93/100
+|move|p1a: Swampert|Surf|p2a: Fahey
+|-crit|p2a: Fahey
+|-damage|p2a: Fahey|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fahey|42/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728329526
+|move|p1a: Swampert|Surf|p2a: Fahey
+|-damage|p2a: Fahey|13/100
+|move|p2a: Fahey|Explosion|p1a: Swampert
+|-damage|p1a: Swampert|31/100
+|faint|p2a: Fahey
+|
+|t:|1728329545
+|switch|p2a: Umbr|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|37/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728329550
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Umbr|Crunch|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728329555
+|switch|p1a: Skarmory|Skarmory, F|80/100
+|move|p2a: Umbr|Crunch|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|48/100
+|-unboost|p1a: Skarmory|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728329561
+|move|p1a: Skarmory|Spikes|p2a: Umbr
+|-sidestart|p2: Scansafatiche|Spikes
+|move|p2a: Umbr|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728329564
+|switch|p1a: Swampert|Swampert, F|43/100
+|-damage|p1a: Swampert|18/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|25/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1728329568
+|move|p2a: Umbr|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|win|Scansafatiche
+|c|☆Scansafatiche|gg
+|c|☆EternumTagerMain|gg
+|c|☆Scansafatiche|super unlucky burns and crits
+|c|☆EternumTagerMain|I'm just here to play matches for content
+|c|☆Scansafatiche|yeah it was fun
+|c|☆EternumTagerMain|No hard feelings
+|c|☆Scansafatiche|did u have lum on alakazam?
+|c|☆EternumTagerMain|Yes
+|c|☆Scansafatiche|i've seen alakazam
+|c|☆Scansafatiche|with aromatherapy
+|c|☆Scansafatiche|blissey
+|c|☆Scansafatiche|so like if someone paras ala
+|c|☆EternumTagerMain|I just grabbed a sample replaced Celebi with Zam
+|c|☆Scansafatiche|thats hype
+|c|☆EternumTagerMain|BEcause I wanted to use Za
+|c|☆Scansafatiche|alakazam is really good
+|c|☆Scansafatiche|except into like blissey
+|c|☆EternumTagerMain|Prob gotta make use of it's unique tools instead of being a worse Celebi
+|c|☆Scansafatiche|u can go theif alakazam i think
+|c|☆EternumTagerMain|Encore notably
+|c|☆Scansafatiche|and steal blissey leftovers
+|c|☆EternumTagerMain|And the other team is purely a meme
+|c|☆Scansafatiche|yeah
+|c|☆EternumTagerMain|No spikes HO
+|c|☆Scansafatiche|yeah
+|c|☆EternumTagerMain|Salac Endure YOLO Skarn
+|c|☆Scansafatiche|yeah i saw the skarm die
+|c|☆Scansafatiche|and i was like ???
+|c|☆EternumTagerMain|Ladder and this are fairly different environments
+|c|☆Scansafatiche|yeah
+|c|☆Scansafatiche|ladder is a little easier tbh
+|c|☆EternumTagerMain|I can handle myself with these flawed teams on ladder but here
+|c|☆Scansafatiche|cuz if u get a bad matchup
+|c|☆Scansafatiche|u can just requeue
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796210">
+{"id":"smogtours-gen3ou-796210","format":"[Gen 3] OU","players":["EternumTagerMain","Scansafatiche"],"uploadtime":1728329568,"views":108,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

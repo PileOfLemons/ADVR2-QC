@@ -1,0 +1,3380 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: gthorpe vs. blundergoth - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between gthorpe and blundergoth! Format: [Gen 3] OU; Date: Oct 4, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794465">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728004445
+|gametype|singles
+|player|p1|gthorpe|169|
+|player|p2|blundergoth|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728004445
+|start
+|switch|p1a: Swampert|Swampert, F|100/100
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|100/100
+|turn|1
+|inactive|blundergoth has 270 seconds left.
+|c|☆gthorpe|glhf
+|
+|t:|1728004484
+|move|p2a: Mindo-T ☁️|Substitute|p2a: Mindo-T ☁️
+|-start|p2a: Mindo-T ☁️|Substitute
+|-damage|p2a: Mindo-T ☁️|75/100
+|move|p1a: Swampert|Earthquake|p2a: Mindo-T ☁️
+|-supereffective|p2a: Mindo-T ☁️
+|-end|p2a: Mindo-T ☁️|Substitute
+|
+|-heal|p2a: Mindo-T ☁️|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728004491
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728004493
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|100/100|[from] Baton Pass
+|move|p1a: Swampert|Earthquake|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|74/100
+|
+|-heal|p2a: 🌴ropical Sauropod|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728004519
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|82/100
+|-status|p1a: Swampert|par
+|move|p1a: Swampert|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|46/100
+|
+|-heal|p2a: 🌴ropical Sauropod|52/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728004526
+|move|p2a: 🌴ropical Sauropod|Milk Drink|p2a: 🌴ropical Sauropod
+|-heal|p2a: 🌴ropical Sauropod|100/100
+|move|p1a: Swampert|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|63/100
+|
+|-heal|p2a: 🌴ropical Sauropod|69/100|[from] item: Leftovers
+|-heal|p1a: Swampert|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728004533
+|move|p2a: 🌴ropical Sauropod|Curse|p2a: 🌴ropical Sauropod
+|-unboost|p2a: 🌴ropical Sauropod|spe|1
+|-boost|p2a: 🌴ropical Sauropod|atk|1
+|-boost|p2a: 🌴ropical Sauropod|def|1
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|82/100
+|
+|-heal|p2a: Mindo-T ☁️|88/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728004544
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728004545
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|69/100|[from] Baton Pass
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 🌴ropical Sauropod|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728004554
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|64/100 par
+|move|p1a: Swampert|Earthquake|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|48/100
+|
+|-heal|p2a: 🌴ropical Sauropod|54/100|[from] item: Leftovers
+|-heal|p1a: Swampert|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728004560
+|move|p2a: 🌴ropical Sauropod|Milk Drink|p2a: 🌴ropical Sauropod
+|-heal|p2a: 🌴ropical Sauropod|100/100
+|move|p1a: Swampert|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|66/100
+|
+|-heal|p2a: 🌴ropical Sauropod|72/100|[from] item: Leftovers
+|-heal|p1a: Swampert|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728004564
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|88/100
+|-status|p1a: Skarmory|par
+|
+|-heal|p2a: 🌴ropical Sauropod|78/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728004574
+|switch|p2a: Genevados 💯|Zapdos|100/100
+|move|p1a: Skarmory|Spikes|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Spikes
+|
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728004580
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|
+|upkeep
+|turn|12
+|
+|t:|1728004593
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1728004612
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|82/100
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|89/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1728004618
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|76/100 par
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|95/100|[from] item: Leftovers
+|-heal|p1a: Swampert|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728004628
+|switch|p2a: Genevados 💯|Zapdos|100/100
+|cant|p1a: Swampert|par
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p1a: Swampert|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728004634
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|80/100
+|
+|-heal|p2a: Genevados 💯|86/100|[from] item: Leftovers
+|-heal|p1a: Swampert|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728004648
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-heal|p2a: Genevados 💯|92/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1728004658
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|70/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|71/100
+|
+|-heal|p2a: Genevados 💯|77/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|64/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728004701
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|88/100
+|-damage|p2a: Mindo-T ☁️|75/100|[from] Spikes
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|95/100 par
+|
+|-heal|p2a: Mindo-T ☁️|82/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728004710
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728004712
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|78/100|[from] Baton Pass
+|-damage|p2a: 🌴ropical Sauropod|66/100|[from] Spikes
+|move|p1a: Swampert|Earthquake|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|39/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p2a: 🌴ropical Sauropod|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728004721
+|move|p2a: 🌴ropical Sauropod|Milk Drink|p2a: 🌴ropical Sauropod
+|-heal|p2a: 🌴ropical Sauropod|95/100
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 🌴ropical Sauropod|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728004741
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Michael Mencil 💯
+|-immune|p2a: Michael Mencil 💯
+|
+|upkeep
+|turn|23
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728004752
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|95/100
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|82/100|[from] Spikes
+|move|p1a: Swampert|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|74/100
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728004759
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|87/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728004763
+|switch|p2a: Genevados 💯|Zapdos|77/100
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|87/100
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|74/100|[from] Spikes
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|upkeep
+|turn|26
+|
+|t:|1728004772
+|switch|p2a: Genevados 💯|Zapdos|77/100
+|switch|p1a: Blissey|Blissey, F|64/100
+|
+|-heal|p2a: Genevados 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728004776
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Genevados 💯|89/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728004780
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Genevados 💯|Toxic||[still]
+|-fail|p2a: Genevados 💯
+|
+|-heal|p2a: Genevados 💯|95/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728004790
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|100/100
+|move|p1a: Swampert|Ice Beam|p2a: Influence. 👁️‍🗨️
+|-supereffective|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|83/100
+|
+|-heal|p2a: Influence. 👁️‍🗨️|89/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728004800
+|move|p2a: Influence. 👁️‍🗨️|Rapid Spin|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|94/100 par
+|-sideend|p2: blundergoth|Spikes|[from] move: Rapid Spin|[of] p2a: Influence. 👁️‍🗨️
+|move|p1a: Swampert|Surf|p2a: Influence. 👁️‍🗨️
+|-supereffective|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|61/100
+|
+|-heal|p2a: Influence. 👁️‍🗨️|67/100|[from] item: Leftovers
+|-heal|p1a: Swampert|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728004809
+|switch|p2a: Genevados 💯|Zapdos|95/100
+|cant|p1a: Swampert|par
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728004812
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|78/100
+|
+|-heal|p2a: Genevados 💯|84/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728004827
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|100/100
+|cant|p1a: Swampert|par
+|
+|upkeep
+|turn|34
+|
+|t:|1728004831
+|move|p2a: 🌴ropical Sauropod|Curse|p2a: 🌴ropical Sauropod
+|-unboost|p2a: 🌴ropical Sauropod|spe|1
+|-boost|p2a: 🌴ropical Sauropod|atk|1
+|-boost|p2a: 🌴ropical Sauropod|def|1
+|cant|p1a: Swampert|par
+|
+|upkeep
+|turn|35
+|
+|t:|1728004836
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|71/100 par
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Genevados 💯|Zapdos|84/100
+|
+|-heal|p2a: Genevados 💯|90/100|[from] item: Leftovers
+|-heal|p1a: Swampert|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728004862
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|82/100
+|move|p1a: Swampert|Ice Beam|p2a: Mindo-T ☁️
+|-damage|p2a: Mindo-T ☁️|72/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p2a: Mindo-T ☁️|79/100|[from] item: Leftovers
+|-heal|p1a: Swampert|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728004871
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728004873
+|switch|p2a: Genevados 💯|Zapdos|90/100|[from] Baton Pass
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|43/100
+|
+|-heal|p2a: Genevados 💯|49/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728004878
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|25/100
+|
+|-heal|p2a: Genevados 💯|32/100|[from] item: Leftovers
+|-heal|p1a: Swampert|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728004901
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Michael Mencil 💯
+|-immune|p2a: Michael Mencil 💯
+|
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728004913
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|cant|p1a: Swampert|par
+|
+|upkeep
+|turn|41
+|
+|t:|1728004918
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|cant|p1a: Swampert|par
+|
+|upkeep
+|turn|42
+|
+|t:|1728004921
+|switch|p2a: Genevados 💯|Zapdos|32/100
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: 🌴ropical Sauropod|Miltank, F|100/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|upkeep
+|turn|43
+|
+|t:|1728004931
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|move|p1a: Swampert|Earthquake|p2a: 👁️‍🗨️ .ecneulfnI
+|-supereffective|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|67/100
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|73/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728004938
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Protect||[still]
+|-fail|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|79/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728004953
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Leech Seed|p2a: Michael Mencil 💯
+|-start|p2a: Michael Mencil 💯|move: Leech Seed
+|
+|-damage|p2a: Michael Mencil 💯|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|46
+|
+|t:|1728004961
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|79/100
+|
+|-heal|p2a: Mindo-T ☁️|85/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728004967
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728004971
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|100/100|[from] Baton Pass
+|move|p1a: Swampert|Earthquake|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|73/100
+|
+|-heal|p2a: 🌴ropical Sauropod|79/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728004982
+|move|p2a: 🌴ropical Sauropod|Curse|p2a: 🌴ropical Sauropod
+|-unboost|p2a: 🌴ropical Sauropod|spe|1
+|-boost|p2a: 🌴ropical Sauropod|atk|1
+|-boost|p2a: 🌴ropical Sauropod|def|1
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 🌴ropical Sauropod|85/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1728004987
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|71/100 par
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Michael Mencil 💯|Salamence, M|88/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|
+|-heal|p2a: Michael Mencil 💯|94/100|[from] item: Leftovers
+|-heal|p1a: Swampert|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1728004996
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|79/100
+|move|p1a: Swampert|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|71/100
+|-status|p2a: 👁️‍🗨️ .ecneulfnI|frz
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|77/100 frz|[from] item: Leftovers
+|-heal|p1a: Swampert|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728005003
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|67/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Influence. 👁️‍🗨️|74/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728005011
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|85/100
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|
+|-heal|p2a: Mindo-T ☁️|91/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728005019
+|move|p2a: Mindo-T ☁️|Substitute|p2a: Mindo-T ☁️
+|-start|p2a: Mindo-T ☁️|Substitute
+|-damage|p2a: Mindo-T ☁️|66/100
+|move|p1a: Skarmory|Hidden Power|p2a: Mindo-T ☁️
+|-supereffective|p2a: Mindo-T ☁️
+|-end|p2a: Mindo-T ☁️|Substitute
+|
+|-heal|p2a: Mindo-T ☁️|72/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728005031
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005067
+|switch|p2a: Genevados 💯|Zapdos|32/100|[from] Baton Pass
+|
+|-heal|p2a: Genevados 💯|38/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728005080
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|72/100
+|move|p1a: Blissey|Ice Beam|p2a: Mindo-T ☁️
+|-damage|p2a: Mindo-T ☁️|57/100
+|
+|-heal|p2a: Mindo-T ☁️|63/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728005089
+|switch|p1a: Swampert|Swampert, F|84/100 par
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728005098
+|switch|p2a: Genevados 💯|Zapdos|38/100|[from] Baton Pass
+|
+|-heal|p2a: Genevados 💯|44/100|[from] item: Leftovers
+|-heal|p1a: Swampert|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005106
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|22/100
+|
+|-heal|p2a: Genevados 💯|28/100|[from] item: Leftovers
+|-heal|p1a: Swampert|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005118
+|switch|p2a: Michael Mencil 💯|Salamence, M|94/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Michael Mencil 💯
+|-immune|p2a: Michael Mencil 💯
+|
+|-heal|p2a: Michael Mencil 💯|99/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005134
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|85/100
+|move|p1a: Swampert|Ice Beam|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|79/100
+|
+|-heal|p2a: 🌴ropical Sauropod|85/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005157
+|switch|p2a: Genevados 💯|Zapdos|28/100
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|
+|-heal|p2a: Genevados 💯|34/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728005167
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p2a: Genevados 💯|40/100|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1728005175
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|63/100
+|move|p1a: Blissey|Ice Beam|p2a: Mindo-T ☁️
+|-damage|p2a: Mindo-T ☁️|46/100
+|
+|-heal|p2a: Mindo-T ☁️|52/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|63
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005182
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005188
+|switch|p2a: Genevados 💯|Zapdos|40/100|[from] Baton Pass
+|
+|-heal|p2a: Genevados 💯|47/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728005191
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: Genevados 💯|53/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728005196
+|switch|p2a: Michael Mencil 💯|Salamence, M|99/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728005202
+|switch|p2a: Genevados 💯|Zapdos|53/100
+|move|p1a: Swampert|Ice Beam|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|31/100
+|-message|Freeze Clause activated.
+|
+|-heal|p2a: Genevados 💯|37/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728005217
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Surf|p2a: Michael Mencil 💯
+|-resisted|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|92/100
+|
+|-heal|p2a: Michael Mencil 💯|98/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728005233
+|switch|p2a: Genevados 💯|Zapdos|37/100
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: 🌴ropical Sauropod|Miltank, F|85/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-heal|p2a: 🌴ropical Sauropod|91/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728005247
+|switch|p2a: Michael Mencil 💯|Salamence, M|98/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Celebi|Celebi|100/100
+|
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728005266
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|52/100
+|move|p1a: Celebi|Leech Seed|p2a: Mindo-T ☁️
+|-start|p2a: Mindo-T ☁️|move: Leech Seed
+|
+|-heal|p2a: Mindo-T ☁️|58/100|[from] item: Leftovers
+|-damage|p2a: Mindo-T ☁️|46/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|71
+|
+|t:|1728005272
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|77/100 frz
+|move|p1a: Celebi|Psychic|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|71/100 frz
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|77/100 frz|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728005285
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|74/100
+|move|p1a: Celebi|Leech Seed|p2a: Influence. 👁️‍🗨️
+|-start|p2a: Influence. 👁️‍🗨️|move: Leech Seed
+|
+|-heal|p2a: Influence. 👁️‍🗨️|80/100|[from] item: Leftovers
+|-damage|p2a: Influence. 👁️‍🗨️|67/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|73
+|
+|t:|1728005292
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|77/100 frz
+|move|p1a: Celebi|Giga Drain|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|68/100 frz
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728005308
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|c|☆gthorpe|turn 75 no attack
+|c|☆gthorpe|wtf are you doing
+|inactive|blundergoth has 270 seconds left.
+|c|☆blundergoth|dont be an ass
+|c|+ALlCE|LMFAO 
+|inactive|blundergoth has 240 seconds left.
+|inactive|blundergoth has 210 seconds left.
+|
+|t:|1728005396
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Michael Mencil 💯|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|75/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|c|+violet river|rapid spin is an attack
+|c|☆blundergoth|true
+|inactive|blundergoth has 210 seconds left.
+|c|☆blundergoth|same is body slam
+|c|+violet river|and toxic 
+|
+|t:|1728005420
+|move|p2a: Michael Mencil 💯|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|55/100 par
+|move|p1a: Swampert|Surf|p2a: Michael Mencil 💯
+|-resisted|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|78/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|c|+violet river|light screen is an attacking move if you think about it
+|
+|t:|1728005432
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|91/100
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|85/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|91/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728005448
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|67/100
+|move|p1a: Skarmory|Spikes|p2a: Influence. 👁️‍🗨️
+|-sidestart|p2: blundergoth|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|74/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1728005454
+|move|p2a: Influence. 👁️‍🗨️|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|98/100 par
+|-sideend|p2: blundergoth|Spikes|[from] move: Rapid Spin|[of] p2a: Influence. 👁️‍🗨️
+|move|p1a: Skarmory|Drill Peck|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|52/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|80
+|c|☆blundergoth|i attacked
+|
+|t:|1728005465
+|switch|p1a: Swampert|Swampert, F|61/100 par
+|move|p2a: Influence. 👁️‍🗨️|Rest|p2a: Influence. 👁️‍🗨️
+|-status|p2a: Influence. 👁️‍🗨️|slp|[from] move: Rest
+|-heal|p2a: Influence. 👁️‍🗨️|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|inactive|blundergoth has 210 seconds left.
+|
+|t:|1728005473
+|switch|p2a: Michael Mencil 💯|Salamence, M|84/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Surf|p2a: Michael Mencil 💯
+|-resisted|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|59/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|65/100|[from] item: Leftovers
+|-heal|p1a: Swampert|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728005477
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|91/100
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|39/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|46/100|[from] item: Leftovers
+|-heal|p1a: Swampert|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728005482
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728005485
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|91/100|[from] Baton Pass
+|move|p1a: Swampert|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|49/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|55/100|[from] item: Leftovers
+|-heal|p1a: Swampert|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1728005490
+|move|p2a: 🌴ropical Sauropod|Heal Bell|p2a: 🌴ropical Sauropod
+|-activate|p2a: 🌴ropical Sauropod|move: Heal Bell
+|-curestatus|p2: Influence. 👁️‍🗨️|slp|[silent]
+|-curestatus|p2: 👁️‍🗨️ .ecneulfnI|frz|[silent]
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|49/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|55/100|[from] item: Leftovers
+|-heal|p1a: Swampert|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|85
+|inactive|blundergoth has 240 seconds left.
+|
+|t:|1728005501
+|move|p2a: 🌴ropical Sauropod|Milk Drink|p2a: 🌴ropical Sauropod
+|-heal|p2a: 🌴ropical Sauropod|100/100
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Michael Mencil 💯|Salamence, M|65/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|59/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|65/100|[from] item: Leftovers
+|-heal|p1a: Swampert|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728005507
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|74/100
+|move|p1a: Swampert|Surf|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|57/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|87
+|c|☆gthorpe|nice wish stall again
+|c|☆blundergoth|do people like you
+|
+|t:|1728005527
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|64/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|c|+ALlCE|what is ur problem taylor LMAO
+|inactive|blundergoth has 240 seconds left.
+|c|☆blundergoth|HE'S BEING MEAN LOL
+|c|☆blundergoth|or they
+|c|☆blundergoth|idk
+|c|☆gthorpe|i think you are
+|inactive|gthorpe has 270 seconds left.
+|c|☆blundergoth|you literally asked what is wrong with me
+|c|+violet river|chill a bit lol
+|inactive|blundergoth has 210 seconds left.
+|
+|t:|1728005573
+|switch|p2a: Michael Mencil 💯|Salamence, M|65/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Michael Mencil 💯
+|-immune|p2a: Michael Mencil 💯
+|
+|-heal|p2a: Michael Mencil 💯|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|c|+xtina xendrix|yall chill this is r1
+|inactive|gthorpe has 270 seconds left.
+|inactive|blundergoth has 210 seconds left.
+|
+|t:|1728005598
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Michael Mencil 💯|Dragon Dance|p2a: Michael Mencil 💯
+|-boost|p2a: Michael Mencil 💯|atk|1
+|-boost|p2a: Michael Mencil 💯|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728005618
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|46/100
+|move|p1a: Suicune|Ice Beam|p2a: Mindo-T ☁️
+|-damage|p2a: Mindo-T ☁️|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|inactive|gthorpe has 270 seconds left.
+|
+|t:|1728005633
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Mindo-T ☁️|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|inactive|gthorpe has 270 seconds left.
+|
+|t:|1728005638
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|c|+ALlCE|Mindo-T 
+|
+|t:|1728005658
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|100/100|[from] Baton Pass
+|move|p1a: Swampert|Roar|p2a: 🌴ropical Sauropod
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|c|+ALlCE|thats such a good name
+|
+|t:|1728005667
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|c|☆blundergoth|this game would be a lot easier if i was allowed mud slap
+|
+|t:|1728005680
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|100/100|[from] Baton Pass
+|move|p1a: Swampert|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|61/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|67/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728005690
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: 🌴ropical Sauropod|Curse|p2a: 🌴ropical Sauropod
+|-unboost|p2a: 🌴ropical Sauropod|spe|1
+|-boost|p2a: 🌴ropical Sauropod|atk|1
+|-boost|p2a: 🌴ropical Sauropod|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|61/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|67/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728005696
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|64/100
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|70/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728005701
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|76/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|inactive|blundergoth has 210 seconds left.
+|inactive|blundergoth has 180 seconds left.
+|
+|t:|1728005751
+|switch|p2a: Genevados 💯|Zapdos|37/100
+|move|p1a: Swampert|Surf|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|6/100
+|
+|-heal|p2a: Genevados 💯|56/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|50/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|56/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728005769
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Surf|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|34/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|40/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728005782
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Michael Mencil 💯
+|-immune|p2a: Michael Mencil 💯
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728005787
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|76/100
+|move|p1a: Swampert|Roar|p2a: 👁️‍🗨️ .ecneulfnI
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728005791
+|move|p2a: Mindo-T ☁️|Encore|p1a: Swampert
+|-start|p1a: Swampert|Encore
+|move|p1a: Swampert|Roar|p2a: Mindo-T ☁️
+|drag|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|82/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728005797
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|inactive|blundergoth has 180 seconds left.
+|inactive|blundergoth has 150 seconds left.
+|
+|t:|1728005848
+|move|p1a: Celebi|Leech Seed|p2a: 👁️‍🗨️ .ecneulfnI
+|-start|p2a: 👁️‍🗨️ .ecneulfnI|move: Leech Seed
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|76/100
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|70/100|[from] Sandstorm
+|-heal|p1a: Celebi|76/100|[from] item: Leftovers
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|89/100|[silent]
+|upkeep
+|turn|104
+|inactive|blundergoth has 150 seconds left.
+|
+|t:|1728005862
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|100/100
+|move|p1a: Celebi|Hidden Power|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|89/100|[from] item: Leftovers
+|-heal|p2a: Influence. 👁️‍🗨️|92/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1728005865
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|88/100
+|move|p1a: Celebi|Leech Seed|p2a: 👁️‍🗨️ .ecneulfnI
+|-start|p2a: 👁️‍🗨️ .ecneulfnI|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|89/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|94/100|[from] item: Leftovers
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|82/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100|[silent]
+|upkeep
+|turn|106
+|
+|t:|1728005871
+|move|p1a: Celebi|Hidden Power|p2a: 👁️‍🗨️ .ecneulfnI
+|-supereffective|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|55/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|61/100|[from] item: Leftovers
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|49/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|107
+|
+|t:|1728005878
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Protect||[still]
+|-fail|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|99/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] Leech Seed|[of] p1a: Swampert
+|upkeep
+|turn|108
+|
+|t:|1728005883
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Celebi|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1728005885
+|move|p1a: Celebi|Leech Seed|p2a: Michael Mencil 💯
+|-start|p2a: Michael Mencil 💯|move: Leech Seed
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|32/100|[from] Sandstorm
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|38/100|[from] item: Leftovers
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-damage|p2a: Michael Mencil 💯|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|48/100|[silent]
+|upkeep
+|turn|110
+|
+|t:|1728005893
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|94/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728005901
+|switch|p2a: Michael Mencil 💯|Salamence, M|88/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Celebi|Celebi|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-damage|p2a: Michael Mencil 💯|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: Michael Mencil 💯|88/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728005910
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|75/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|82/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Swampert|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|113
+|inactive|blundergoth has 210 seconds left.
+|
+|t:|1728005915
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|55/100 par
+|move|p1a: Swampert|Surf|p2a: Michael Mencil 💯
+|-resisted|p2a: Michael Mencil 💯
+|-crit|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|49/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|55/100|[from] item: Leftovers
+|-heal|p1a: Swampert|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728005920
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|94/100
+|move|p1a: Swampert|Roar|p2a: 👁️‍🗨️ .ecneulfnI
+|drag|p2a: 🌴ropical Sauropod|Miltank, F|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|61/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|67/100|[from] item: Leftovers
+|-heal|p1a: Swampert|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728005924
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|50/100 par
+|move|p1a: Swampert|Earthquake|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|34/100|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|40/100|[from] item: Leftovers
+|-heal|p1a: Swampert|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1728005929
+|switch|p1a: Celebi|Celebi|48/100
+|move|p2a: 🌴ropical Sauropod|Milk Drink|p2a: 🌴ropical Sauropod
+|-heal|p2a: 🌴ropical Sauropod|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|42/100|[from] Sandstorm
+|-damage|p2a: 🌴ropical Sauropod|83/100|[from] Sandstorm
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|-heal|p2a: 🌴ropical Sauropod|89/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728005934
+|move|p1a: Celebi|Leech Seed|p2a: 🌴ropical Sauropod
+|-start|p2a: 🌴ropical Sauropod|move: Leech Seed
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Celebi
+|-damage|p1a: Celebi|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|20/100|[from] Sandstorm
+|-damage|p2a: 🌴ropical Sauropod|83/100|[from] Sandstorm
+|-heal|p1a: Celebi|26/100|[from] item: Leftovers
+|-heal|p2a: 🌴ropical Sauropod|89/100|[from] item: Leftovers
+|-damage|p2a: 🌴ropical Sauropod|77/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|37/100|[silent]
+|upkeep
+|turn|118
+|
+|t:|1728005941
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|94/100
+|move|p1a: Celebi|Psychic|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|31/100|[from] Sandstorm
+|-heal|p1a: Celebi|37/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|95/100|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1728005954
+|move|p1a: Celebi|Leech Seed|p2a: 👁️‍🗨️ .ecneulfnI
+|-start|p2a: 👁️‍🗨️ .ecneulfnI|move: Leech Seed
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|31/100|[from] Sandstorm
+|-heal|p1a: Celebi|37/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|50/100|[silent]
+|upkeep
+|turn|120
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005964
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Michael Mencil 💯|Salamence, M|55/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|-heal|p2a: Michael Mencil 💯|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728005990
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|88/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|94/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|94/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1728005995
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|90/100
+|-status|p1a: Suicune|par
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|84/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-heal|p1a: Suicune|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|123
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006030
+|switch|p2a: 🌴ropical Sauropod|Miltank, F|77/100
+|cant|p1a: Suicune|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|71/100|[from] Sandstorm
+|-damage|p1a: Suicune|84/100 par|[from] Sandstorm
+|-heal|p2a: 🌴ropical Sauropod|77/100|[from] item: Leftovers
+|-heal|p1a: Suicune|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|124
+|inactive|blundergoth has 240 seconds left.
+|
+|t:|1728006047
+|move|p2a: 🌴ropical Sauropod|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|74/100 par
+|move|p1a: Suicune|Surf|p2a: 🌴ropical Sauropod
+|-damage|p2a: 🌴ropical Sauropod|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 🌴ropical Sauropod|0 fnt|[from] Sandstorm
+|-damage|p1a: Suicune|68/100 par|[from] Sandstorm
+|faint|p2a: 🌴ropical Sauropod
+|-heal|p1a: Suicune|74/100 par|[from] item: Leftovers
+|upkeep
+|inactive|blundergoth has 240 seconds left.
+|
+|t:|1728006054
+|switch|p2a: Genevados 💯|Zapdos|40/100
+|turn|125
+|
+|t:|1728006057
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|37/100 par
+|cant|p1a: Suicune|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|34/100|[from] Sandstorm
+|-damage|p1a: Suicune|31/100 par|[from] Sandstorm
+|-heal|p2a: Genevados 💯|40/100|[from] item: Leftovers
+|-heal|p1a: Suicune|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|126
+|c|☆gthorpe|omg
+|
+|t:|1728006070
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1728006076
+|switch|p1a: Blissey|Blissey, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|34/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|40/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728006084
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1728006093
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|76/100
+|move|p1a: Blissey|Thunderbolt|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|70/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006101
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100 brn|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|93/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|60/100 brn|[from] brn
+|upkeep
+|turn|130
+|
+|t:|1728006104
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 brn|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|99/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|131
+|
+|t:|1728006116
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|56/100 par
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Swampert
+|-damage|p1a: Swampert|44/100 par
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1728006124
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Swampert|Earthquake|p2a: 👁️‍🗨️ .ecneulfnI
+|-supereffective|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|57/100|[from] item: Leftovers
+|-heal|p1a: Swampert|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728006132
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Protect|p2a: 👁️‍🗨️ .ecneulfnI
+|-singleturn|p2a: 👁️‍🗨️ .ecneulfnI|Protect
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1728006139
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Swampert|Surf|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1728006141
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|61/100 par
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|t:|1728006146
+|switch|p2a: Genevados 💯|Zapdos|40/100
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1728006153
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Swampert|Surf|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|84/100|[from] item: Leftovers
+|-heal|p1a: Swampert|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1728006157
+|switch|p2a: Genevados 💯|Zapdos|40/100
+|move|p1a: Swampert|Earthquake|p2a: Genevados 💯
+|-immune|p2a: Genevados 💯
+|
+|-heal|p2a: Genevados 💯|90/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|84/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|90/100|[from] item: Leftovers
+|-heal|p1a: Swampert|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1728006179
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: Michael Mencil 💯|Salamence, M|100/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1728006191
+|move|p2a: Michael Mencil 💯|Dragon Dance|p2a: Michael Mencil 💯
+|-boost|p2a: Michael Mencil 💯|atk|1
+|-boost|p2a: Michael Mencil 💯|spe|1
+|move|p1a: Swampert|Roar|p2a: Michael Mencil 💯
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Swampert|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1728006196
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006200
+|switch|p2a: Genevados 💯|Zapdos|90/100|[from] Baton Pass
+|move|p1a: Swampert|Earthquake|p2a: Genevados 💯
+|-immune|p2a: Genevados 💯
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|84/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|90/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1728006224
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|switch|p1a: Blissey|Blissey, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|
+|t:|1728006234
+|move|p2a: Mindo-T ☁️|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1728006238
+|move|p2a: Mindo-T ☁️|Encore|p1a: Blissey
+|-start|p1a: Blissey|Encore
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|145
+|
+|t:|1728006242
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006246
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100|[from] Baton Pass
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100 par|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1728006250
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Michael Mencil 💯|Dragon Dance|p2a: Michael Mencil 💯
+|-boost|p2a: Michael Mencil 💯|atk|1
+|-boost|p2a: Michael Mencil 💯|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1728006255
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|58/100 par
+|move|p1a: Swampert|Roar|p2a: Michael Mencil 💯
+|drag|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|90/100|[from] item: Leftovers
+|-heal|p1a: Swampert|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1728006268
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|96/100|[from] item: Leftovers
+|-heal|p1a: Swampert|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1728006273
+|switch|p2a: Genevados 💯|Zapdos|90/100
+|cant|p1a: Swampert|par
+|
+|-heal|p2a: Genevados 💯|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|150
+|inactive|gthorpe has 270 seconds left.
+|inactive|blundergoth has 270 seconds left.
+|inactive|gthorpe has 240 seconds left.
+|
+|t:|1728006337
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Swampert
+|-immune|p1a: Swampert
+|move|p1a: Swampert|Roar|p2a: Genevados 💯
+|drag|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|151
+|
+|t:|1728006347
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1728006356
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|t:|1728006361
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|51/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1728006364
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1728006371
+|move|p2a: Mindo-T ☁️|Encore|p1a: Blissey
+|-start|p1a: Blissey|Encore
+|move|p1a: Blissey|Soft-Boiled||[still]
+|-fail|p1a: Blissey|heal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1728006376
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006386
+|switch|p2a: Genevados 💯|Zapdos|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1728006394
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|158
+|
+|t:|1728006402
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|159
+|
+|t:|1728006407
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|160
+|
+|t:|1728006431
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Celebi|Celebi|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|44/100|[from] Sandstorm
+|-heal|p1a: Celebi|50/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1728006443
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|83/100|[from] Sandstorm
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006465
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|83/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1728006470
+|switch|p1a: Celebi|Celebi|50/100
+|move|p2a: Mindo-T ☁️|Encore||[still]
+|-fail|p2a: Mindo-T ☁️
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|44/100|[from] Sandstorm
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p1a: Celebi|50/100|[from] item: Leftovers
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1728006476
+|switch|p2a: Genevados 💯|Zapdos|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Genevados 💯|[miss]
+|-miss|p1a: Celebi|p2a: Genevados 💯
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|44/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|50/100|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1728006482
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Celebi|Leech Seed|p2a: Genevados 💯
+|-start|p2a: Genevados 💯|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|44/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|100/100|[from] item: Leftovers
+|-damage|p2a: Genevados 💯|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|53/100|[silent]
+|-heal|p1a: Celebi|60/100|[from] item: Leftovers
+|upkeep
+|turn|166
+|
+|t:|1728006501
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|92/100
+|switch|p1a: Swampert|Swampert, F|83/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|98/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|167
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006549
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|move|p1a: Swampert|Roar|p2a: 👁️‍🗨️ .ecneulfnI
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Swampert|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1728006555
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006559
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100|[from] Baton Pass
+|move|p1a: Swampert|Surf|p2a: 👁️‍🗨️ .ecneulfnI
+|-crit|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|61/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|169
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006570
+|switch|p1a: Celebi|Celebi|60/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|35/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|29/100|[from] Sandstorm
+|-heal|p1a: Celebi|35/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|68/100|[from] item: Leftovers
+|upkeep
+|turn|170
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728006579
+|switch|p1a: Blissey|Blissey, F|89/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|74/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1728006587
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|172
+|
+|t:|1728006592
+|move|p2a: Mindo-T ☁️|Encore|p1a: Blissey
+|-start|p1a: Blissey|Encore
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|173
+|
+|t:|1728006606
+|switch|p1a: Celebi|Celebi|35/100
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006608
+|switch|p2a: Michael Mencil 💯|Salamence, M|100/100|[from] Baton Pass
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|29/100|[from] Sandstorm
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|35/100|[from] item: Leftovers
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1728006617
+|switch|p1a: Swampert|Swampert, F|100/100 par
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|72/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|94/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|175
+|
+|t:|1728006624
+|move|p2a: Michael Mencil 💯|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|51/100 par
+|move|p1a: Swampert|Surf|p2a: Michael Mencil 💯
+|-resisted|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Swampert|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|176
+|
+|t:|1728006646
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: Michael Mencil 💯|Dragon Dance|p2a: Michael Mencil 💯
+|-boost|p2a: Michael Mencil 💯|atk|1
+|-boost|p2a: Michael Mencil 💯|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1728006652
+|move|p2a: Michael Mencil 💯|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100 par
+|move|p1a: Skarmory|Roar|p2a: Michael Mencil 💯
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1728006661
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006668
+|switch|p2a: Michael Mencil 💯|Salamence, M|83/100|[from] Baton Pass
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|179
+|c|+goldmasonvt|why is there a minun on my screen
+|c|☆blundergoth|good mon
+|c|+goldmasonvt|why was I told to hop in for this
+|c|☆blundergoth|this team was better with mud slap
+|c|☆blundergoth|LMFAO
+|c|+goldmasonvt|blundergoth you are a bad friend.
+|c|☆blundergoth|LOLLLL
+|c|+ALlCE|mason hop on voice
+|inactive|gthorpe has 270 seconds left.
+|c|+goldmasonvt|okeyyyyy
+|
+|t:|1728006711
+|switch|p1a: Swampert|Swampert, F|57/100 par
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|29/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Swampert|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|180
+|
+|t:|1728006723
+|move|p2a: Michael Mencil 💯|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|8/100 par
+|move|p1a: Swampert|Roar|p2a: Michael Mencil 💯
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|21/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|27/100|[from] item: Leftovers
+|-heal|p1a: Swampert|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1728006727
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006728
+|switch|p2a: Michael Mencil 💯|Salamence, M|83/100|[from] Baton Pass
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|cant|p1a: Swampert|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Swampert|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|182
+|
+|t:|1728006744
+|move|p2a: Michael Mencil 💯|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1728006751
+|switch|p1a: Blissey|Blissey, F|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1728006756
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|27/100
+|move|p1a: Blissey|Ice Beam|p2a: Mindo-T ☁️
+|-damage|p2a: Mindo-T ☁️|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|5/100|[from] Sandstorm
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|12/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|184
+|
+|t:|1728006762
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006767
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|74/100|[from] Baton Pass
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|80/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1728006770
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|61/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|86/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|186
+|
+|t:|1728006792
+|switch|p2a: Mindo-T ☁️|Minun, M, shiny|12/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|5/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|12/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|187
+|
+|t:|1728006799
+|move|p2a: Mindo-T ☁️|Encore|p1a: Blissey
+|-start|p1a: Blissey|Encore
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mindo-T ☁️|5/100|[from] Sandstorm
+|-damage|p1a: Blissey|61/100 par|[from] Sandstorm
+|-heal|p2a: Mindo-T ☁️|12/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|188
+|
+|t:|1728006802
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|71/100 par
+|move|p2a: Mindo-T ☁️|Baton Pass|p2a: Mindo-T ☁️
+|
+|t:|1728006811
+|switch|p2a: Genevados 💯|Zapdos|88/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|189
+|
+|t:|1728006814
+|switch|p1a: Blissey|Blissey, F|67/100
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|43/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|upkeep
+|turn|190
+|
+|t:|1728006818
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey|[miss]
+|-miss|p2a: Genevados 💯|p1a: Blissey
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|93/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1728006822
+|switch|p1a: Celebi|Celebi|35/100
+|move|p2a: Genevados 💯|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Celebi|29/100 tox|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Celebi|35/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|29/100 tox|[from] psn
+|upkeep
+|turn|192
+|
+|t:|1728006829
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Blissey|Blissey, F|99/100
+|move|p2a: Genevados 💯|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1728006838
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|85/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|194
+|
+|t:|1728006840
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|85/100 tox|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|85/100 tox|[from] psn
+|upkeep
+|turn|195
+|
+|t:|1728006842
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|86/100
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|79/100 tox|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|85/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|72/100 tox|[from] psn
+|upkeep
+|turn|196
+|
+|t:|1728006850
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|70/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|64/100 tox|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|84/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|51/100 tox|[from] psn
+|upkeep
+|turn|197
+|
+|t:|1728006855
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Celebi|Celebi|29/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|23/100|[from] Sandstorm
+|-heal|p1a: Celebi|29/100|[from] item: Leftovers
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|90/100|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1728006857
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Protect|p2a: 👁️‍🗨️ .ecneulfnI
+|-singleturn|p2a: 👁️‍🗨️ .ecneulfnI|Protect
+|move|p1a: Celebi|Leech Seed|p2a: 👁️‍🗨️ .ecneulfnI|[miss]
+|-miss|p1a: Celebi|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|23/100|[from] Sandstorm
+|-heal|p1a: Celebi|29/100|[from] item: Leftovers
+|upkeep
+|turn|199
+|
+|t:|1728006866
+|move|p1a: Celebi|Psychic|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|94/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|0 fnt|[from] Sandstorm
+|faint|p1a: Celebi
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1728006871
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|200
+|
+|t:|1728006880
+|switch|p2a: Michael Mencil 💯|Salamence, M|83/100
+|-ability|p2a: Michael Mencil 💯|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Michael Mencil 💯|77/100|[from] Sandstorm
+|-heal|p2a: Michael Mencil 💯|83/100|[from] item: Leftovers
+|upkeep
+|turn|201
+|inactive|blundergoth has 270 seconds left.
+|inactive|blundergoth has 240 seconds left.
+|
+|t:|1728006943
+|move|p1a: Tyranitar|Rock Slide|p2a: Michael Mencil 💯
+|-supereffective|p2a: Michael Mencil 💯
+|-damage|p2a: Michael Mencil 💯|0 fnt
+|faint|p2a: Michael Mencil 💯
+|
+|t:|1728006947
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|100/100|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1728006956
+|switch|p1a: Skarmory|Skarmory, F|77/100 par
+|move|p2a: Influence. 👁️‍🗨️|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|203
+|
+|t:|1728006963
+|switch|p2a: Genevados 💯|Zapdos|88/100
+|move|p1a: Skarmory|Spikes|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|204
+|
+|t:|1728006974
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|100/100
+|move|p1a: Skarmory|Roar|p2a: Influence. 👁️‍🗨️
+|drag|p2a: Mindo-T ☁️|Minun, M, shiny|12/100
+|-damage|p2a: Mindo-T ☁️|0 fnt|[from] Spikes
+|faint|p2a: Mindo-T ☁️
+|
+|t:|1728006978
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|205
+|
+|t:|1728006982
+|move|p2a: Influence. 👁️‍🗨️|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|94/100 par
+|-sideend|p2: blundergoth|Spikes|[from] move: Rapid Spin|[of] p2a: Influence. 👁️‍🗨️
+|move|p1a: Skarmory|Drill Peck|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|77/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|206
+|
+|t:|1728006986
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|99/100
+|move|p1a: Skarmory|Drill Peck|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|96/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|207
+|
+|t:|1728006990
+|switch|p1a: Blissey|Blissey, F|51/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|39/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|208
+|
+|t:|1728006999
+|switch|p2a: Genevados 💯|Zapdos|88/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|209
+|
+|t:|1728007001
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|89/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|210
+|
+|t:|1728007003
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|89/100 tox|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|95/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|89/100 tox|[from] psn
+|upkeep
+|turn|211
+|
+|t:|1728007007
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|83/100 tox|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|99/100|[from] item: Leftovers
+|-heal|p1a: Blissey|89/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|77/100 tox|[from] psn
+|upkeep
+|turn|212
+|
+|t:|1728007010
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|91/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|213
+|
+|t:|1728007013
+|switch|p1a: Blissey|Blissey, F|77/100
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|65/100|[from] Sandstorm
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|214
+|
+|t:|1728007022
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|49/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|215
+|
+|t:|1728007042
+|switch|p2a: Genevados 💯|Zapdos|88/100
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|49/100 par|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|216
+|
+|t:|1728007047
+|move|p2a: Genevados 💯|Light Screen|p2a: Genevados 💯
+|-sidestart|p2: blundergoth|Light Screen
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|217
+|
+|t:|1728007049
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|77/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: Influence. 👁️‍🗨️|84/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|218
+|
+|t:|1728007068
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|98/100 par
+|move|p2a: Influence. 👁️‍🗨️|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|90/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|219
+|
+|t:|1728007072
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|100/100
+|move|p1a: Skarmory|Drill Peck|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|96/100|[from] item: Leftovers
+|upkeep
+|turn|220
+|
+|t:|1728007083
+|switch|p2a: Genevados 💯|Zapdos|88/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-sideend|p2: blundergoth|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|221
+|
+|t:|1728007092
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: Genevados 💯|Toxic|p1a: Skarmory|[miss]
+|-miss|p2a: Genevados 💯|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|upkeep
+|turn|222
+|
+|t:|1728007095
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|76/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|223
+|
+|t:|1728007099
+|move|p2a: Genevados 💯|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-damage|p1a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|224
+|
+|t:|1728007103
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, F|100/100 par
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728007108
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|upkeep
+|turn|225
+|
+|t:|1728007112
+|move|p2a: Genevados 💯|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Genevados 💯|82/100|[from] Sandstorm
+|-heal|p2a: Genevados 💯|88/100|[from] item: Leftovers
+|upkeep
+|turn|226
+|
+|t:|1728007129
+|move|p1a: Tyranitar|Rock Slide|p2a: Genevados 💯
+|-supereffective|p2a: Genevados 💯
+|-damage|p2a: Genevados 💯|0 fnt
+|faint|p2a: Genevados 💯
+|
+|t:|1728007130
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Influence. 👁️‍🗨️|96/100|[from] item: Leftovers
+|upkeep
+|turn|227
+|
+|t:|1728007137
+|move|p1a: Tyranitar|Hidden Power|p2a: Influence. 👁️‍🗨️
+|-supereffective|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|28/100
+|move|p2a: Influence. 👁️‍🗨️|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728007140
+|switch|p1a: Blissey|Blissey, F|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|70/100|[from] Sandstorm
+|-heal|p2a: Influence. 👁️‍🗨️|34/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|228
+|
+|t:|1728007168
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|96/100
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|89/100
+|-status|p2a: 👁️‍🗨️ .ecneulfnI|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|70/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|96/100 frz|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|229
+|
+|t:|1728007174
+|-curestatus|p2a: 👁️‍🗨️ .ecneulfnI|frz|[msg]
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|230
+|
+|t:|1728007181
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|231
+|
+|t:|1728007185
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|97/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|91/100|[from] Sandstorm
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|232
+|
+|t:|1728007187
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|94/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|233
+|
+|t:|1728007189
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Fire Punch|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|move|p1a: Blissey|Thunderbolt|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|76/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|67/100|[from] item: Leftovers
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|234
+|
+|t:|1728007192
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|76/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|74/100|[from] item: Leftovers
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|235
+|
+|t:|1728007196
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Thunderbolt|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|32/100
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|82/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|236
+|
+|t:|1728007201
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|51/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|237
+|
+|t:|1728007203
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|83/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|57/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|238
+|
+|t:|1728007207
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Wish|p2a: 👁️‍🗨️ .ecneulfnI
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|63/100|[from] item: Leftovers
+|-heal|p1a: Blissey|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|239
+|
+|t:|1728007215
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|67/100 par
+|cant|p1a: Blissey|par
+|
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|100/100|[from] move: Wish|[wisher] 👁️‍🗨️ .ecneulfnI
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|61/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|240
+|
+|t:|1728007220
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|50/100 par
+|move|p1a: Blissey|Thunderbolt|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|58/100|[from] item: Leftovers
+|-heal|p1a: Blissey|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|241
+|
+|t:|1728007223
+|move|p2a: 👁️‍🗨️ .ecneulfnI|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|34/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|28/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|64/100|[from] item: Leftovers
+|-heal|p1a: Blissey|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|242
+|
+|t:|1728007233
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|34/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|84/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100 par|[from] Sandstorm
+|-heal|p2a: Influence. 👁️‍🗨️|40/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|243
+|inactive|blundergoth has 270 seconds left.
+|
+|t:|1728007266
+|switch|p2a: 👁️‍🗨️ .ecneulfnI|Jirachi|64/100
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-crit|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|14/100
+|-status|p2a: 👁️‍🗨️ .ecneulfnI|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100 par|[from] Sandstorm
+|-heal|p2a: 👁️‍🗨️ .ecneulfnI|20/100 frz|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|244
+|
+|t:|1728007275
+|cant|p2a: 👁️‍🗨️ .ecneulfnI|frz
+|move|p1a: Blissey|Ice Beam|p2a: 👁️‍🗨️ .ecneulfnI
+|-resisted|p2a: 👁️‍🗨️ .ecneulfnI
+|-damage|p2a: 👁️‍🗨️ .ecneulfnI|0 fnt
+|faint|p2a: 👁️‍🗨️ .ecneulfnI
+|
+|t:|1728007277
+|switch|p2a: Influence. 👁️‍🗨️|Claydol|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100 par|[from] Sandstorm
+|-heal|p2a: Influence. 👁️‍🗨️|46/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|245
+|
+|t:|1728007278
+|move|p2a: Influence. 👁️‍🗨️|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|55/100 par
+|move|p1a: Blissey|Ice Beam|p2a: Influence. 👁️‍🗨️
+|-supereffective|p2a: Influence. 👁️‍🗨️
+|-damage|p2a: Influence. 👁️‍🗨️|0 fnt
+|faint|p2a: Influence. 👁️‍🗨️
+|
+|win|gthorpe
+|c|☆blundergoth|gg
+|c|☆gthorpe|it wasnt
+|c|+ALlCE|LMAO
+|c|☆blundergoth|ok
+|c|+goldmasonvt|aksdjufghasidjfgas
+|c|+violet river|lmaoo
+|c|+violet river|OD
+|c|+zinnias|wtf
+|player|p2|
+|c|☆gthorpe|waiting a minuit between each turn is bm
+|c|+zinnias|lets be nice..
+|c|+xtina xendrix|sooo was that g1?
+|c|☆gthorpe|sorry i asked you to attack on turn 75
+|c|☆gthorpe|gg
+|player|p2|blundergoth|ingo|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794465">
+{"id":"smogtours-gen3ou-794465","format":"[Gen 3] OU","players":["gthorpe","blundergoth"],"uploadtime":1728007278,"views":243,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

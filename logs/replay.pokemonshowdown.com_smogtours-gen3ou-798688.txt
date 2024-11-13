@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Scurrying Snail vs. drogasas - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Scurrying Snail and drogasas! Format: [Gen 3] OU; Date: Oct 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-798688">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728929201
+|gametype|singles
+|player|p1|Scurrying Snail|2|
+|player|p2|drogasas|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728929201
+|start
+|switch|p1a: FBI|Zapdos|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|c|☆Scurrying Snail|gl 
+|c|☆drogasas|gl
+|
+|t:|1728929225
+|move|p1a: FBI|Baton Pass|p1a: FBI
+|
+|t:|1728929228
+|switch|p1a: Do it in the Dirt|Swampert, F|100/100|[from] Baton Pass
+|move|p2a: Tyranitar|Rock Slide|p1a: Do it in the Dirt
+|-resisted|p1a: Do it in the Dirt
+|-damage|p1a: Do it in the Dirt|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Do it in the Dirt|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728929244
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728929255
+|move|p1a: Exhaust Sniffa|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Spore
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728929263
+|-singleturn|p1a: Exhaust Sniffa|move: Focus Punch
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Exhaust Sniffa|Focus Punch|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728929270
+|switch|p1a: Rock Phone|Tyranitar, F|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Rock Phone
+|-status|p1a: Rock Phone|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-damage|p1a: Rock Phone|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1728929294
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Rock Phone|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|20/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Rock Phone|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Rock Phone|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1728929310
+|switch|p1a: FBI|Zapdos|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: FBI|[miss]
+|-miss|p2a: Swampert|p1a: FBI
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FBI|94/100|[from] Sandstorm
+|-heal|p1a: FBI|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728929315
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: FBI|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FBI|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|84/100|[from] Sandstorm
+|-heal|p1a: FBI|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728929326
+|move|p1a: FBI|Baton Pass|p1a: FBI
+|
+|t:|1728929336
+|switch|p1a: Red Aint Real|Charizard, M|100/100|[from] Baton Pass
+|move|p2a: Blissey|Ice Beam|p1a: Red Aint Real
+|-damage|p1a: Red Aint Real|70/100
+|-status|p1a: Red Aint Real|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Red Aint Real|64/100 frz|[from] Sandstorm
+|-damage|p2a: Blissey|84/100|[from] Sandstorm
+|-heal|p1a: Red Aint Real|70/100 frz|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆drogasas|mb
+|
+|t:|1728929352
+|switch|p2a: Starmie|Starmie|100/100
+|cant|p1a: Red Aint Real|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Red Aint Real|64/100 frz|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Red Aint Real|70/100 frz|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728929357
+|switch|p1a: Pigs in the Pit|Snorlax, F|100/100
+|move|p2a: Starmie|Hydro Pump|p1a: Pigs in the Pit|[miss]
+|-miss|p2a: Starmie|p1a: Pigs in the Pit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728929373
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Pigs in the Pit|Body Slam|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-status|p2a: Tyranitar|par
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pigs in the Pit|94/100|[from] Sandstorm
+|-heal|p1a: Pigs in the Pit|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728929382
+|switch|p2a: Gengar|Gengar, F|20/100
+|switch|p1a: Do it in the Dirt|Swampert, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|14/100|[from] Sandstorm
+|-heal|p2a: Gengar|20/100|[from] item: Leftovers
+|-heal|p1a: Do it in the Dirt|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728929392
+|move|p2a: Gengar|Giga Drain|p1a: Do it in the Dirt
+|-supereffective|p1a: Do it in the Dirt
+|-damage|p1a: Do it in the Dirt|26/100
+|-heal|p2a: Gengar|62/100|[from] drain|[of] p1a: Do it in the Dirt
+|move|p1a: Do it in the Dirt|Hydro Pump|p2a: Gengar|[miss]
+|-miss|p1a: Do it in the Dirt|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|56/100|[from] Sandstorm
+|-heal|p2a: Gengar|62/100|[from] item: Leftovers
+|-heal|p1a: Do it in the Dirt|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728929399
+|switch|p1a: FBI|Zapdos|100/100
+|move|p2a: Gengar|Giga Drain|p1a: FBI
+|-resisted|p1a: FBI
+|-damage|p1a: FBI|91/100
+|-heal|p2a: Gengar|66/100|[from] drain|[of] p1a: FBI
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FBI|85/100|[from] Sandstorm
+|-damage|p2a: Gengar|60/100|[from] Sandstorm
+|-heal|p1a: FBI|91/100|[from] item: Leftovers
+|-heal|p2a: Gengar|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728929404
+|switch|p2a: Blissey|Blissey, F|90/100
+|move|p1a: FBI|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FBI|85/100|[from] Sandstorm
+|-damage|p2a: Blissey|84/100 par|[from] Sandstorm
+|-heal|p1a: FBI|91/100|[from] item: Leftovers
+|-heal|p2a: Blissey|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728929408
+|move|p1a: FBI|Baton Pass|p1a: FBI
+|
+|t:|1728929409
+|switch|p1a: Red Aint Real|Charizard, M|70/100 frz|[from] Baton Pass
+|move|p2a: Blissey|Ice Beam|p1a: Red Aint Real
+|-crit|p1a: Red Aint Real
+|-damage|p1a: Red Aint Real|2/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Red Aint Real|0 fnt|[from] Sandstorm
+|-damage|p2a: Blissey|84/100 par|[from] Sandstorm
+|faint|p1a: Red Aint Real
+|-heal|p2a: Blissey|90/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1728929412
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|turn|18
+|
+|t:|1728929417
+|switch|p1a: Rock Phone|Tyranitar, F|82/100 brn
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Gengar|Gengar, F|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|60/100|[from] Sandstorm
+|-heal|p2a: Gengar|66/100|[from] item: Leftovers
+|-heal|p1a: Rock Phone|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Rock Phone|76/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1728929421
+|move|p2a: Gengar|Giga Drain|p1a: Rock Phone
+|-supereffective|p1a: Rock Phone
+|-damage|p1a: Rock Phone|46/100 brn
+|-heal|p2a: Gengar|85/100|[from] drain|[of] p1a: Rock Phone
+|move|p1a: Rock Phone|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|35/100|[from] Sandstorm
+|-heal|p2a: Gengar|42/100|[from] item: Leftovers
+|-heal|p1a: Rock Phone|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Rock Phone|40/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1728929437
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Rock Phone|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-hint|Previously chosen switches continue in Gen 2-4 after a Pursuit target faints.
+|switch|p2a: Tyranitar|Tyranitar, F|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Rock Phone|46/100 brn|[from] item: Leftovers
+|-damage|p1a: Rock Phone|33/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1728929466
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Rock Phone|Brick Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Rock Phone|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Rock Phone|27/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1728929471
+|move|p2a: Tyranitar|Earthquake|p1a: Rock Phone
+|-supereffective|p1a: Rock Phone
+|-damage|p1a: Rock Phone|0 fnt
+|faint|p1a: Rock Phone
+|
+|t:|1728929476
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728929478
+|move|p1a: Exhaust Sniffa|Mach Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|drogasas has 270 seconds left.
+|
+|t:|1728929508
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728929518
+|switch|p1a: Do it in the Dirt|Swampert, F|32/100
+|move|p2a: Swampert|Ice Beam|p1a: Do it in the Dirt
+|-damage|p1a: Do it in the Dirt|6/100
+|-status|p1a: Do it in the Dirt|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Do it in the Dirt|12/100 frz|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728929526
+|-singleturn|p2a: Swampert|move: Focus Punch
+|-curestatus|p1a: Do it in the Dirt|frz|[msg]
+|move|p1a: Do it in the Dirt|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|2/100
+|move|p2a: Swampert|Focus Punch||[still]
+|cant|p2a: Swampert|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|8/100|[from] item: Leftovers
+|-heal|p1a: Do it in the Dirt|18/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728929533
+|move|p2a: Swampert|Ice Beam|p1a: Do it in the Dirt
+|-damage|p1a: Do it in the Dirt|0 fnt
+|faint|p1a: Do it in the Dirt
+|
+|t:|1728929537
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|15/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728929548
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Exhaust Sniffa|Mach Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|77/100|[from] Sandstorm
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|83/100|[from] item: Leftovers
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728929567
+|switch|p1a: Pigs in the Pit|Snorlax, F|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Pigs in the Pit
+|-damage|p1a: Pigs in the Pit|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|77/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|78/100|[from] Sandstorm
+|-heal|p2a: Starmie|83/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728929571
+|switch|p2a: Skarmory|Skarmory, F|100/100 slp
+|move|p1a: Pigs in the Pit|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|84/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pigs in the Pit|78/100|[from] Sandstorm
+|-heal|p2a: Skarmory|90/100 slp|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|84/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728929582
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728929589
+|-singleturn|p1a: Exhaust Sniffa|move: Focus Punch
+|cant|p2a: Skarmory|slp
+|move|p1a: Exhaust Sniffa|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728929600
+|-singleturn|p1a: Exhaust Sniffa|move: Focus Punch
+|switch|p2a: Starmie|Starmie|83/100
+|move|p1a: Exhaust Sniffa|Focus Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Exhaust Sniffa|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Exhaust Sniffa|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728929618
+|switch|p1a: Pigs in the Pit|Snorlax, F|84/100
+|move|p2a: Starmie|Hydro Pump|p1a: Pigs in the Pit
+|-damage|p1a: Pigs in the Pit|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|47/100|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|53/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728929625
+|switch|p2a: Blissey|Blissey, F|90/100
+|move|p1a: Pigs in the Pit|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|43/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|47/100|[from] Sandstorm
+|-heal|p2a: Blissey|49/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|53/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728929651
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|move|p1a: Pigs in the Pit|Body Slam|p2a: Blissey
+|-damage|p2a: Blissey|11/100
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pigs in the Pit|47/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 par|[from] Sandstorm
+|-heal|p1a: Pigs in the Pit|53/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728929664
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|41/100
+|move|p1a: Pigs in the Pit|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pigs in the Pit|47/100|[from] Sandstorm
+|-heal|p2a: Skarmory|18/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|53/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728929673
+|-singleturn|p1a: Pigs in the Pit|move: Focus Punch
+|move|p2a: Skarmory|Spikes|p1a: Pigs in the Pit
+|-sidestart|p1: Scurrying Snail|Spikes
+|move|p1a: Pigs in the Pit|Focus Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728929678
+|switch|p2a: Swampert|Swampert, F|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pigs in the Pit|47/100|[from] Sandstorm
+|-heal|p2a: Swampert|21/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|53/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728929686
+|switch|p1a: FBI|Zapdos|91/100
+|move|p2a: Swampert|Hydro Pump|p1a: FBI
+|-damage|p1a: FBI|0 fnt
+|faint|p1a: FBI
+|
+|t:|1728929688
+|switch|p1a: Exhaust Sniffa|Breloom, F|100/100
+|-damage|p1a: Exhaust Sniffa|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|82/100|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|88/100|[from] item: Leftovers
+|-heal|p2a: Swampert|27/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728929695
+|switch|p2a: Blissey|Blissey, F|11/100
+|move|p1a: Exhaust Sniffa|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exhaust Sniffa|82/100|[from] Sandstorm
+|-damage|p2a: Blissey|5/100 slp|[from] Sandstorm
+|-heal|p1a: Exhaust Sniffa|88/100|[from] item: Leftovers
+|-heal|p2a: Blissey|11/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1728929699
+|-singleturn|p1a: Exhaust Sniffa|move: Focus Punch
+|cant|p2a: Blissey|slp
+|move|p1a: Exhaust Sniffa|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1728929701
+|switch|p2a: Starmie|Starmie|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Exhaust Sniffa|82/100|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Exhaust Sniffa|88/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728929705
+|switch|p1a: Pigs in the Pit|Snorlax, F|53/100
+|-damage|p1a: Pigs in the Pit|40/100|[from] Spikes
+|move|p2a: Starmie|Ice Beam|p1a: Pigs in the Pit
+|-damage|p1a: Pigs in the Pit|23/100
+|-status|p1a: Pigs in the Pit|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|17/100 frz|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|23/100 frz|[from] item: Leftovers
+|upkeep
+|turn|42
+|c|☆drogasas|mb
+|c|☆Scurrying Snail|all good
+|
+|t:|1728929721
+|move|p2a: Starmie|Hydro Pump|p1a: Pigs in the Pit|[miss]
+|-miss|p2a: Starmie|p1a: Pigs in the Pit
+|cant|p1a: Pigs in the Pit|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Pigs in the Pit|17/100 frz|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Pigs in the Pit|23/100 frz|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728929725
+|move|p2a: Starmie|Hydro Pump|p1a: Pigs in the Pit
+|-damage|p1a: Pigs in the Pit|0 fnt
+|faint|p1a: Pigs in the Pit
+|
+|t:|1728929727
+|switch|p1a: Exhaust Sniffa|Breloom, F|88/100
+|-damage|p1a: Exhaust Sniffa|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|13/100|[from] Sandstorm
+|-damage|p1a: Exhaust Sniffa|70/100|[from] Sandstorm
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|-heal|p1a: Exhaust Sniffa|76/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1728929729
+|move|p1a: Exhaust Sniffa|Mach Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|2/100
+|move|p2a: Starmie|Ice Beam|p1a: Exhaust Sniffa
+|-supereffective|p1a: Exhaust Sniffa
+|-damage|p1a: Exhaust Sniffa|0 fnt
+|faint|p1a: Exhaust Sniffa
+|
+|win|drogasas
+|c|☆Scurrying Snail|gg
+|c|☆drogasas|ggs
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798688">
+{"id":"smogtours-gen3ou-798688","format":"[Gen 3] OU","players":["Scurrying Snail","drogasas"],"uploadtime":1728929729,"views":87,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

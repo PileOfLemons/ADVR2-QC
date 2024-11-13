@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: kingkpak vs. SmoGonagall - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between kingkpak and SmoGonagall! Format: [Gen 3] OU; Date: Oct 8, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796364">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728400607
+|gametype|singles
+|player|p1|kingkpak|169|
+|player|p2|SmoGonagall|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728400607
+|start
+|switch|p1a: Mahcidem|Medicham, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1728400622
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Mahcidem|High Jump Kick|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Mahcidem|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728400633
+|switch|p1a: Da Big Show|Blissey, F|100/100
+|move|p2a: Gengar|Thunderbolt|p1a: Da Big Show
+|-damage|p1a: Da Big Show|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Da Big Show|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-heal|p1a: Da Big Show|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728400652
+|move|p2a: Gengar|Fire Punch|p1a: Da Big Show
+|-damage|p1a: Da Big Show|78/100
+|-status|p1a: Da Big Show|brn
+|move|p1a: Da Big Show|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Da Big Show|72/100 brn|[from] Sandstorm
+|-damage|p2a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p1a: Da Big Show|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Da Big Show|66/100 brn|[from] brn
+|-heal|p2a: Gengar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728400665
+|move|p1a: Da Big Show|Soft-Boiled|p1a: Da Big Show
+|-heal|p1a: Da Big Show|100/100 brn
+|move|p2a: Gengar|Explosion|p1a: Da Big Show
+|-damage|p1a: Da Big Show|35/100 brn
+|faint|p2a: Gengar
+|
+|t:|1728400680
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-damage|p1a: Da Big Show|29/100 brn|[from] Sandstorm
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|-heal|p1a: Da Big Show|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Da Big Show|22/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400700
+|-singleturn|p2a: Charizard|move: Focus Punch
+|-curestatus|p1a: Da Big Show|brn|[from] ability: Natural Cure
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Charizard|Focus Punch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400712
+|move|p2a: Charizard|Fire Blast|p1a: Celebi|[miss]
+|-miss|p2a: Charizard|p1a: Celebi
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728400715
+|switch|p1a: Some Spice|Octillery, M|100/100|[from] Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-damage|p1a: Some Spice|94/100|[from] Sandstorm
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆kingkpak|WHAT NOW?
+|c|☆kingkpak|FEAR HIM!
+|
+|t:|1728400732
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Some Spice|Rock Blast|p2a: Blissey|[miss]
+|-miss|p1a: Some Spice|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Some Spice|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆SmoGonagall|this is not what i expected lolol
+|
+|t:|1728400741
+|switch|p1a: Celebi|Celebi|88/100
+|move|p2a: Blissey|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|74/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728400750
+|move|p1a: Celebi|Substitute|p1a: Celebi
+|-start|p1a: Celebi|Substitute
+|-damage|p1a: Celebi|55/100
+|move|p2a: Blissey|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-end|p1a: Celebi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|49/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|55/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728400767
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|49/100|[from] Sandstorm
+|-heal|p1a: Celebi|55/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|65/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1728400775
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Skarmory|Spikes|p1a: Celebi
+|-sidestart|p1: kingkpak|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|59/100|[from] Sandstorm
+|-heal|p1a: Celebi|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|82/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|75/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1728400785
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Skarmory|Roar|p1a: Celebi
+|drag|p1a: Da Big Show|Blissey, F|22/100
+|-damage|p1a: Da Big Show|10/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Da Big Show|4/100|[from] Sandstorm
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|76/100|[from] Leech Seed|[of] p1a: Da Big Show
+|-heal|p1a: Da Big Show|9/100|[silent]
+|-heal|p1a: Da Big Show|15/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728400805
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Da Big Show|Soft-Boiled|p1a: Da Big Show
+|-heal|p1a: Da Big Show|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Da Big Show|59/100|[from] Sandstorm
+|-heal|p1a: Da Big Show|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728400812
+|move|p2a: Tyranitar|Brick Break|p1a: Da Big Show
+|-supereffective|p1a: Da Big Show
+|-damage|p1a: Da Big Show|29/100
+|move|p1a: Da Big Show|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Da Big Show|23/100|[from] Sandstorm
+|-heal|p1a: Da Big Show|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728400832
+|switch|p1a: Mahcidem|Medicham, F|94/100
+|-damage|p1a: Mahcidem|82/100|[from] Spikes
+|move|p2a: Tyranitar|Fire Blast|p1a: Mahcidem
+|-damage|p1a: Mahcidem|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mahcidem|19/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400860
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Mahcidem|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mahcidem|12/100|[from] Sandstorm
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|SmoGonagall has 270 seconds left.
+|
+|t:|1728400869
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Mahcidem|Rock Slide|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mahcidem|6/100|[from] Sandstorm
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728400878
+|move|p1a: Mahcidem|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|78/100
+|move|p2a: Swampert|Ice Beam|p1a: Mahcidem
+|-damage|p1a: Mahcidem|0 fnt
+|faint|p1a: Mahcidem
+|
+|t:|1728400885
+|switch|p1a: Overused|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728400895
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Overused|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728400905
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Overused|Overheat|p2a: Blissey
+|-damage|p2a: Blissey|73/100
+|-unboost|p1a: Overused|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728400922
+|switch|p1a: Da Big Show|Blissey, F|29/100
+|-damage|p1a: Da Big Show|17/100|[from] Spikes
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Da Big Show|11/100|[from] Sandstorm
+|-heal|p1a: Da Big Show|17/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728400934
+|move|p2a: Tyranitar|Brick Break|p1a: Da Big Show
+|-supereffective|p1a: Da Big Show
+|-damage|p1a: Da Big Show|0 fnt
+|faint|p1a: Da Big Show
+|
+|t:|1728400942
+|switch|p1a: Celebi|Celebi|75/100
+|-damage|p1a: Celebi|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728400948
+|move|p2a: Tyranitar|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|18/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|11/100|[from] Sandstorm
+|-heal|p1a: Celebi|18/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728400958
+|move|p2a: Tyranitar|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1728400973
+|switch|p1a: Some Spice|Octillery, M|88/100
+|-damage|p1a: Some Spice|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Some Spice|70/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1728400980
+|move|p2a: Tyranitar|Hidden Power|p1a: Some Spice
+|-supereffective|p1a: Some Spice
+|-damage|p1a: Some Spice|10/100
+|move|p1a: Some Spice|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728400988
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-damage|p1a: Some Spice|4/100|[from] Sandstorm
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆kingkpak|ayyy
+|
+|t:|1728400995
+|move|p2a: Charizard|Hidden Power|p1a: Some Spice
+|-supereffective|p1a: Some Spice
+|-damage|p1a: Some Spice|0 fnt
+|faint|p1a: Some Spice
+|
+|t:|1728401014
+|switch|p1a: Overused|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728401031
+|switch|p1a: boring guy|Tyranitar, M|100/100
+|-damage|p1a: boring guy|88/100|[from] Spikes
+|switch|p2a: Blissey|Blissey, F|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: boring guy|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728401045
+|switch|p2a: Skarmory|Skarmory, M|76/100
+|move|p1a: boring guy|Dragon Dance|p1a: boring guy
+|-boost|p1a: boring guy|atk|1
+|-boost|p1a: boring guy|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: boring guy|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728401052
+|move|p1a: boring guy|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100
+|move|p2a: Skarmory|Toxic|p1a: boring guy
+|-status|p1a: boring guy|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: boring guy|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|35/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728401062
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: boring guy|Dragon Dance|p1a: boring guy
+|-boost|p1a: boring guy|atk|1
+|-boost|p1a: boring guy|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: boring guy|100/100 tox|[from] item: Leftovers
+|-damage|p1a: boring guy|88/100 tox|[from] psn
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆SmoGonagall|i mighta screwed up
+|
+|t:|1728401076
+|move|p1a: boring guy|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|c|☆kingkpak|ye
+|
+|t:|1728401079
+|switch|p2a: Swampert|Swampert, M|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: boring guy|94/100 tox|[from] item: Leftovers
+|-damage|p1a: boring guy|76/100 tox|[from] psn
+|-heal|p2a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728401086
+|move|p1a: boring guy|Double-Edge|p2a: Swampert
+|-damage|p2a: Swampert|31/100
+|-damage|p1a: boring guy|50/100 tox|[from] Recoil|[of] p2a: Swampert
+|move|p2a: Swampert|Hydro Pump|p1a: boring guy
+|-supereffective|p1a: boring guy
+|-damage|p1a: boring guy|0 fnt
+|faint|p1a: boring guy
+|c|☆kingkpak|SEND IT!
+|
+|t:|1728401092
+|switch|p1a: Overused|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|37/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆kingkpak|nope
+|
+|t:|1728401098
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Overused|Hidden Power|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆kingkpak|unless
+|c|☆SmoGonagall|damn i was super worried for a sec when you d danced
+|
+|t:|1728401119
+|switch|p2a: Blissey|Blissey, F|73/100
+|move|p1a: Overused|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|58/100|[from] Sandstorm
+|-heal|p1a: Overused|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1728401128
+|move|p1a: Overused|Heat Wave|p2a: Blissey
+|-damage|p2a: Blissey|45/100
+|move|p2a: Blissey|Thunderbolt|p1a: Overused
+|-supereffective|p1a: Overused
+|-damage|p1a: Overused|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|39/100|[from] Sandstorm
+|-heal|p1a: Overused|31/100|[from] item: Leftovers
+|-heal|p2a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆kingkpak|their is still a chance
+|
+|t:|1728401140
+|move|p1a: Overused|Overheat|p2a: Blissey
+|-damage|p2a: Blissey|3/100
+|-unboost|p1a: Overused|spa|2
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overused|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-heal|p1a: Overused|31/100|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆kingkpak|missed the range lol
+|c|☆SmoGonagall|holy crap that was close lol
+|
+|t:|1728401155
+|move|p1a: Overused|Overheat|p2a: Blissey|[miss]
+|-miss|p1a: Overused|p2a: Blissey
+|move|p2a: Blissey|Thunderbolt|p1a: Overused
+|-supereffective|p1a: Overused
+|-damage|p1a: Overused|0 fnt
+|faint|p1a: Overused
+|
+|win|SmoGonagall
+|c|☆kingkpak|gg's!
+|c|☆SmoGonagall|gg though great games
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796364">
+{"id":"smogtours-gen3ou-796364","format":"[Gen 3] OU","players":["kingkpak","SmoGonagall"],"uploadtime":1728401155,"views":92,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

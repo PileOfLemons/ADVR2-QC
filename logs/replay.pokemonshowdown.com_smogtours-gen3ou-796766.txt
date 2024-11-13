@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Cakeconnesseur vs. MadelinMorningStar - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Cakeconnesseur and MadelinMorningStar! Format: [Gen 3] OU; Date: Oct 9, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796766">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728508538
+|gametype|singles
+|player|p1|Cakeconnesseur|lass-gen7|
+|player|p2|MadelinMorningStar|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728508538
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Callum|Skarmory, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Callum|atk|1
+|turn|1
+|inactive|Cakeconnesseur also wants the timer to be on.
+|c|☆MadelinMorningStar|glhf
+|c|☆Cakeconnesseur|hf
+|
+|t:|1728508566
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Callum|Toxic|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|2
+|
+|t:|1728508594
+|switch|p2a: Lord Verin|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Lord Verin
+|move|p1a: Gengar|Thunderbolt|p2a: Lord Verin
+|-damage|p2a: Lord Verin|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Lord Verin|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728508603
+|move|p1a: Gengar|Hidden Power|p2a: Lord Verin
+|-supereffective|p2a: Lord Verin
+|-damage|p2a: Lord Verin|34/100
+|move|p2a: Lord Verin|Pursuit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|34/100|[from] Sandstorm
+|-heal|p1a: Gengar|40/100|[from] item: Leftovers
+|-heal|p2a: Lord Verin|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1728508612
+|switch|p2a: Amaya|Blissey, F|100/100
+|move|p1a: Gengar|Hidden Power|p2a: Amaya
+|-damage|p2a: Amaya|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|34/100|[from] Sandstorm
+|-damage|p2a: Amaya|85/100|[from] Sandstorm
+|-heal|p1a: Gengar|40/100|[from] item: Leftovers
+|-heal|p2a: Amaya|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728508619
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Amaya|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amaya|85/100|[from] Sandstorm
+|-heal|p2a: Amaya|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728508645
+|switch|p2a: Callum|Skarmory, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728508662
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Callum|Spikes|p1a: Starmie
+|-sidestart|p1: Cakeconnesseur|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Callum|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728508673
+|move|p1a: Starmie|Rapid Spin|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|90/100
+|-sideend|p1: Cakeconnesseur|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Callum|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Callum|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728508677
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|40/100
+|move|p2a: Callum|Spikes|p1a: Gengar
+|-sidestart|p1: Cakeconnesseur|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|34/100|[from] Sandstorm
+|-heal|p1a: Gengar|40/100|[from] item: Leftovers
+|-heal|p2a: Callum|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728508683
+|switch|p2a: Amaya|Blissey, F|91/100
+|move|p1a: Gengar|Thunderbolt|p2a: Amaya
+|-damage|p2a: Amaya|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|34/100|[from] Sandstorm
+|-damage|p2a: Amaya|72/100|[from] Sandstorm
+|-heal|p1a: Gengar|40/100|[from] item: Leftovers
+|-heal|p2a: Amaya|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728508691
+|switch|p2a: Lord Verin|Tyranitar, M|40/100
+|move|p1a: Gengar|Explosion|p2a: Lord Verin
+|-resisted|p2a: Lord Verin
+|-damage|p2a: Lord Verin|13/100
+|faint|p1a: Gengar
+|inactive|Cakeconnesseur has 270 seconds left.
+|inactive|Cakeconnesseur has 240 seconds left.
+|inactive|Cakeconnesseur has 210 seconds left.
+|inactive|Cakeconnesseur has 180 seconds left.
+|inactive|Cakeconnesseur has 150 seconds left.
+|
+|t:|1728508842
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Lord Verin|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Lord Verin|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728508867
+|switch|p2a: Callum|Skarmory, M|100/100
+|move|p1a: Salamence|Brick Break|p2a: Callum
+|-damage|p2a: Callum|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-heal|p2a: Callum|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728508881
+|switch|p1a: Starmie|Starmie|94/100
+|-damage|p1a: Starmie|82/100|[from] Spikes
+|move|p2a: Callum|Protect||[still]
+|-fail|p2a: Callum
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100|[from] Sandstorm
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Callum|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1728508887
+|switch|p2a: Claudia|Gengar, F|100/100
+|move|p1a: Starmie|Thunderbolt|p2a: Claudia
+|-damage|p2a: Claudia|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100|[from] Sandstorm
+|-damage|p2a: Claudia|62/100|[from] Sandstorm
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Claudia|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1728508898
+|switch|p1a: Regice|Regice|100/100
+|-damage|p1a: Regice|88/100|[from] Spikes
+|move|p2a: Claudia|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Claudia|62/100|[from] Sandstorm
+|-damage|p1a: Regice|69/100|[from] Sandstorm
+|-heal|p2a: Claudia|68/100|[from] item: Leftovers
+|-heal|p1a: Regice|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728508915
+|move|p2a: Claudia|Explosion|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p2a: Claudia
+|faint|p1a: Regice
+|inactive|Cakeconnesseur has 180 seconds left.
+|
+|t:|1728508928
+|switch|p2a: Callum|Skarmory, M|81/100
+|switch|p1a: Salamence|Salamence, M|88/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Callum|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|82/100|[from] Sandstorm
+|-heal|p2a: Callum|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1728508934
+|switch|p1a: Starmie|Starmie|82/100
+|-damage|p1a: Starmie|70/100|[from] Spikes
+|move|p2a: Callum|Toxic|p1a: Starmie|[miss]
+|-miss|p2a: Callum|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|64/100|[from] Sandstorm
+|-heal|p1a: Starmie|70/100|[from] item: Leftovers
+|-heal|p2a: Callum|93/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728508940
+|switch|p2a: Amaya|Blissey, F|78/100
+|move|p1a: Starmie|Rapid Spin|p2a: Amaya
+|-damage|p2a: Amaya|76/100
+|-sideend|p1: Cakeconnesseur|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|64/100|[from] Sandstorm
+|-damage|p2a: Amaya|69/100|[from] Sandstorm
+|-heal|p1a: Starmie|70/100|[from] item: Leftovers
+|-heal|p2a: Amaya|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728508943
+|switch|p1a: Metagross|Metagross|88/100
+|move|p2a: Amaya|Soft-Boiled|p2a: Amaya
+|-heal|p2a: Amaya|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amaya|94/100|[from] Sandstorm
+|-heal|p2a: Amaya|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728508948
+|switch|p2a: Callum|Skarmory, M|93/100
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|70/100
+|-boost|p1a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728508954
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|43/100
+|-boost|p1a: Metagross|atk|1
+|move|p2a: Callum|Spikes|p1a: Metagross
+|-sidestart|p1: Cakeconnesseur|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|49/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728508961
+|move|p2a: Callum|Protect|p2a: Callum
+|-singleturn|p2a: Callum|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-activate|p2a: Callum|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|55/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728508971
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|7/100
+|move|p2a: Callum|Roar|p1a: Metagross
+|drag|p1a: Starmie|Starmie|70/100
+|-damage|p1a: Starmie|58/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|52/100|[from] Sandstorm
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|-heal|p2a: Callum|13/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Cakeconnesseur has 240 seconds left.
+|
+|t:|1728509001
+|move|p2a: Callum|Protect|p2a: Callum
+|-singleturn|p2a: Callum|Protect
+|move|p1a: Starmie|Thunderbolt|p2a: Callum
+|-activate|p2a: Callum|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|52/100|[from] Sandstorm
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|-heal|p2a: Callum|19/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728509006
+|switch|p2a: Zym|Zapdos|100/100
+|move|p1a: Starmie|Thunderbolt|p2a: Zym
+|-damage|p2a: Zym|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|52/100|[from] Sandstorm
+|-damage|p2a: Zym|75/100|[from] Sandstorm
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|-heal|p2a: Zym|81/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Cakeconnesseur has 240 seconds left.
+|
+|t:|1728509013
+|move|p1a: Starmie|Ice Beam|p2a: Zym
+|-supereffective|p2a: Zym
+|-damage|p2a: Zym|43/100
+|move|p2a: Zym|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|inactive|Cakeconnesseur has 240 seconds left.
+|inactive|Cakeconnesseur has 210 seconds left.
+|inactive|Cakeconnesseur has 180 seconds left.
+|
+|t:|1728509085
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zym|37/100|[from] Sandstorm
+|-heal|p2a: Zym|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728509089
+|switch|p2a: Ezran|Flygon, M|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1728509102
+|move|p1a: Tyranitar|Hidden Power|p2a: Ezran
+|-damage|p2a: Ezran|70/100
+|move|p2a: Ezran|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728509110
+|move|p1a: Tyranitar|Rock Slide|p2a: Ezran
+|-resisted|p2a: Ezran
+|-damage|p2a: Ezran|51/100
+|cant|p2a: Ezran|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728509122
+|move|p2a: Ezran|Protect|p2a: Ezran
+|-singleturn|p2a: Ezran|Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Ezran
+|-activate|p2a: Ezran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728509125
+|move|p1a: Tyranitar|Rock Slide|p2a: Ezran
+|-resisted|p2a: Ezran
+|-damage|p2a: Ezran|41/100
+|move|p2a: Ezran|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1728509148
+|switch|p1a: Metagross|Metagross|88/100
+|-damage|p1a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|47/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728509157
+|move|p2a: Ezran|Protect|p2a: Ezran
+|-singleturn|p2a: Ezran|Protect
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|53/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728509178
+|switch|p2a: Lord Verin|Tyranitar, M|19/100
+|move|p1a: Metagross|Meteor Mash|p2a: Lord Verin
+|-supereffective|p2a: Lord Verin
+|-damage|p2a: Lord Verin|0 fnt
+|-boost|p1a: Metagross|atk|1
+|faint|p2a: Lord Verin
+|
+|t:|1728509182
+|switch|p2a: Ezran|Flygon, M|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ezran|59/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728509190
+|move|p1a: Metagross|Meteor Mash|p2a: Ezran
+|-damage|p2a: Ezran|0 fnt
+|-boost|p1a: Metagross|atk|1
+|faint|p2a: Ezran
+|
+|t:|1728509200
+|switch|p2a: Zym|Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zym|37/100|[from] Sandstorm
+|-heal|p2a: Zym|43/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|Cakeconnesseur has 210 seconds left.
+|
+|t:|1728509222
+|move|p1a: Metagross|Meteor Mash|p2a: Zym
+|-resisted|p2a: Zym
+|-damage|p2a: Zym|0 fnt
+|faint|p2a: Zym
+|
+|t:|1728509228
+|switch|p2a: Callum|Skarmory, M|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|25/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1728509235
+|move|p2a: Callum|Protect|p2a: Callum
+|-singleturn|p2a: Callum|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-activate|p2a: Callum|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Callum|31/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728509239
+|move|p1a: Metagross|Meteor Mash|p2a: Callum
+|-resisted|p2a: Callum
+|-damage|p2a: Callum|0 fnt
+|faint|p2a: Callum
+|
+|t:|1728509242
+|switch|p2a: Amaya|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amaya|94/100|[from] Sandstorm
+|-heal|p2a: Amaya|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728509245
+|move|p1a: Metagross|Explosion|p2a: Amaya
+|-damage|p2a: Amaya|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Amaya
+|
+|win|Cakeconnesseur
+|c|☆Cakeconnesseur|gg
+|c|☆MadelinMorningStar|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796766">
+{"id":"smogtours-gen3ou-796766","format":"[Gen 3] OU","players":["Cakeconnesseur","MadelinMorningStar"],"uploadtime":1728509245,"views":126,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

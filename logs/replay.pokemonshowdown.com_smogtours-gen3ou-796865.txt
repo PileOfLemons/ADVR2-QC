@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: RenegadeVictini vs. duckstroyer - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between RenegadeVictini and duckstroyer! Format: [Gen 3] OU; Date: Oct 10, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-796865">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728534468
+|gametype|singles
+|player|p1|RenegadeVictini|gambler|
+|player|p2|duckstroyer|wallace|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728534468
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|turn|1
+|
+|t:|1728534479
+|move|p2a: Celebi|Light Screen|p2a: Celebi
+|-sidestart|p2: duckstroyer|Light Screen
+|move|p1a: Zapdos|Light Screen|p1a: Zapdos
+|-sidestart|p1: RenegadeVictini|Light Screen
+|
+|upkeep
+|turn|2
+|c|☆duckstroyer|spiderman pointing meme
+|
+|t:|1728534489
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos|[miss]
+|-miss|p2a: Celebi|p1a: Zapdos
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1728534499
+|switch|p1a: Celebi|Celebi|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|3
+|
+|t:|1728534509
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1728534517
+|move|p1a: Celebi|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100
+|move|p2a: Skarmory|Whirlwind|p1a: Celebi
+|drag|p1a: Kingdra|Kingdra, F|100/100
+|
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728534527
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: RenegadeVictini|Spikes
+|
+|-sideend|p2: duckstroyer|Light Screen
+|-sideend|p1: RenegadeVictini|Light Screen
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1728534535
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: RenegadeVictini|Spikes
+|move|p1a: Metagross|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1728534542
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Psychic|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1728534552
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Metagross|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|65/100
+|
+|-heal|p2a: Celebi|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1728534566
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|84/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Magneton|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1728534589
+|move|p2a: Magneton|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|45/100
+|move|p1a: Metagross|Explosion|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Magneton
+|
+|t:|1728534600
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728534611
+|move|p1a: Zapdos|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100
+|move|p2a: Tyranitar|Crunch|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728534622
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Zapdos|Light Screen|p1a: Zapdos
+|-sidestart|p1: RenegadeVictini|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100|[from] Sandstorm
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728534631
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1728534633
+|switch|p1a: Celebi|Celebi|100/100|[from] Baton Pass
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|move|p2a: Swampert|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|78/100 tox|[from] Sandstorm
+|-heal|p1a: Celebi|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|78/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1728534645
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Celebi|Calm Mind|p1a: Celebi
+|-boost|p1a: Celebi|spa|1
+|-boost|p1a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|72/100 tox|[from] Sandstorm
+|-heal|p1a: Celebi|78/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|65/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1728534654
+|switch|p2a: Celebi|Celebi|71/100
+|move|p1a: Celebi|Giga Drain|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|56/100
+|-heal|p1a: Celebi|73/100 tox|[from] drain|[of] p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|50/100|[from] Sandstorm
+|-damage|p1a: Celebi|67/100 tox|[from] Sandstorm
+|-heal|p1a: Celebi|73/100 tox|[from] item: Leftovers
+|-heal|p2a: Celebi|56/100|[from] item: Leftovers
+|-damage|p1a: Celebi|54/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1728534670
+|move|p2a: Celebi|Light Screen|p2a: Celebi
+|-sidestart|p2: duckstroyer|Light Screen
+|move|p1a: Celebi|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|34/100
+|
+|-sideend|p1: RenegadeVictini|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|48/100 tox|[from] Sandstorm
+|-damage|p2a: Celebi|28/100|[from] Sandstorm
+|-heal|p1a: Celebi|54/100 tox|[from] item: Leftovers
+|-heal|p2a: Celebi|34/100|[from] item: Leftovers
+|-damage|p1a: Celebi|29/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1728534680
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1728534686
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Dugtrio|Dugtrio, F, shiny|100/100|[from] Baton Pass
+|-damage|p1a: Dugtrio|84/100|[from] Spikes
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|78/100|[from] Sandstorm
+|-heal|p2a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1728534697
+|move|p1a: Dugtrio|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|8/100
+|move|p2a: Celebi|Hidden Power|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|2/100|[from] Sandstorm
+|-heal|p2a: Celebi|8/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|RenegadeVictini disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|RenegadeVictini has 270 seconds to reconnect!
+|inactive|RenegadeVictini reconnected and has 280 seconds left.
+|player|p1|RenegadeVictini|gambler|
+|
+|t:|1728534755
+|move|p1a: Dugtrio|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|c|☆RenegadeVictini|dunno how i dced there, my b
+|
+|t:|1728534780
+|switch|p2a: Skarmory|Skarmory, M|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆duckstroyer|no worries
+|
+|t:|1728534786
+|switch|p1a: Zapdos|Zapdos|63/100
+|move|p2a: Skarmory|Whirlwind|p1a: Zapdos
+|drag|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|84/100|[from] Spikes
+|
+|-sideend|p2: duckstroyer|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|78/100|[from] Sandstorm
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728534796
+|move|p1a: Kingdra|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|15/100
+|move|p2a: Skarmory|Toxic|p1a: Kingdra|[miss]
+|-miss|p2a: Skarmory|p1a: Kingdra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|72/100|[from] Sandstorm
+|-heal|p2a: Skarmory|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1728534806
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Kingdra|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|66/100|[from] Sandstorm
+|-heal|p2a: Skarmory|27/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728534815
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728534821
+|move|p1a: Kingdra|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1728534826
+|switch|p2a: Tyranitar|Tyranitar, F|65/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|60/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|71/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1728534835
+|move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+|-weather|RainDance
+|move|p2a: Tyranitar|Pursuit|p1a: Kingdra
+|-damage|p1a: Kingdra|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1728534841
+|move|p1a: Kingdra|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1728534846
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1728534853
+|move|p1a: Kingdra|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|32/100
+|move|p2a: Swampert|Toxic|p1a: Kingdra
+|-status|p1a: Kingdra|tox
+|-enditem|p1a: Kingdra|Lum Berry|[eat]
+|-curestatus|p1a: Kingdra|tox|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Swampert|38/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728534862
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Kingdra|Hydro Pump|p2a: Swampert|[miss]
+|-miss|p1a: Kingdra|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Swampert|45/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728534876
+|move|p1a: Kingdra|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1728534879
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|30
+|
+|t:|1728534894
+|move|p2a: Aerodactyl|Rock Slide|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|t:|1728534898
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1728534903
+|move|p2a: Aerodactyl|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|55/100
+|move|p1a: Suicune|Hydro Pump|p2a: Aerodactyl|[miss]
+|-miss|p1a: Suicune|p2a: Aerodactyl
+|
+|-heal|p1a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728534910
+|move|p2a: Aerodactyl|Rock Slide|p1a: Suicune
+|-damage|p1a: Suicune|25/100
+|move|p1a: Suicune|Hydro Pump|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|win|RenegadeVictini
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-796865">
+{"id":"smogtours-gen3ou-796865","format":"[Gen 3] OU","players":["RenegadeVictini","duckstroyer"],"uploadtime":1728534910,"views":81,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

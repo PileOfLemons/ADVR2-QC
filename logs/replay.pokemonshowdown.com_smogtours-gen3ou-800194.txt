@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: SgtPingwen vs. AnotherAshenSoul - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between SgtPingwen and AnotherAshenSoul! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800194">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729384304
+|gametype|singles
+|player|p1|SgtPingwen|falkner|
+|player|p2|AnotherAshenSoul|lady-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729384304
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: 1337x|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: 1337x
+|turn|1
+|
+|t:|1729384321
+|switch|p2a: Fitgirl Repacks|Swampert, M|100/100
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Fitgirl Repacks|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆AnotherAshenSoul|glhf btw
+|c|☆AnotherAshenSoul|forgot to say
+|c|☆SgtPingwen|you too
+|
+|t:|1729384332
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Fitgirl Repacks|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|63/100|[from] Sandstorm
+|-heal|p1a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1729384337
+|move|p2a: Fitgirl Repacks|Protect|p2a: Fitgirl Repacks
+|-singleturn|p2a: Fitgirl Repacks|Protect
+|move|p1a: Celebi|Leech Seed|p2a: Fitgirl Repacks
+|-activate|p2a: Fitgirl Repacks|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|63/100|[from] Sandstorm
+|-heal|p1a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1729384349
+|switch|p2a: Kazaa|Zapdos|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Kazaa
+|-resisted|p2a: Kazaa
+|-damage|p2a: Kazaa|91/100
+|-heal|p1a: Celebi|74/100|[from] drain|[of] p2a: Kazaa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|68/100|[from] Sandstorm
+|-damage|p2a: Kazaa|85/100|[from] Sandstorm
+|-heal|p1a: Celebi|74/100|[from] item: Leftovers
+|-heal|p2a: Kazaa|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729384356
+|move|p1a: Celebi|Psychic|p2a: Kazaa
+|-damage|p2a: Kazaa|61/100
+|move|p2a: Kazaa|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|68/100 tox|[from] Sandstorm
+|-damage|p2a: Kazaa|55/100|[from] Sandstorm
+|-heal|p1a: Celebi|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|68/100 tox|[from] psn
+|-heal|p2a: Kazaa|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729384376
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Napster|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1729384392
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Napster|Spikes|p1a: Tyranitar
+|-sidestart|p1: SgtPingwen|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1729384396
+|move|p1a: Tyranitar|Rock Slide|p2a: Napster|[miss]
+|-miss|p1a: Tyranitar|p2a: Napster
+|move|p2a: Napster|Roar|p1a: Tyranitar
+|drag|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1729384403
+|move|p1a: Starmie|Rapid Spin|p2a: Napster
+|-resisted|p2a: Napster
+|-damage|p2a: Napster|99/100
+|-sideend|p1: SgtPingwen|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Napster|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|82/100 tox|[from] psn
+|-heal|p2a: Napster|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729384409
+|switch|p2a: Limewire|Blissey, F|100/100
+|move|p1a: Starmie|Thunderbolt|p2a: Limewire
+|-damage|p2a: Limewire|91/100
+|-status|p2a: Limewire|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|76/100 tox|[from] Sandstorm
+|-damage|p2a: Limewire|85/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|70/100 tox|[from] psn
+|-heal|p2a: Limewire|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729384430
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Limewire|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|85/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|-heal|p2a: Limewire|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|SgtPingwen has 270 seconds left.
+|
+|t:|1729384473
+|-curestatus|p2a: Limewire|par|[from] ability: Natural Cure
+|switch|p2a: Kazaa|Zapdos|61/100
+|move|p1a: Skarmory|Toxic|p2a: Kazaa
+|-status|p2a: Kazaa|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|55/100 tox|[from] Sandstorm
+|-heal|p2a: Kazaa|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Kazaa|55/100 tox|[from] psn
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729384508
+|move|p2a: Kazaa|Rest|p2a: Kazaa
+|-status|p2a: Kazaa|slp|[from] move: Rest
+|-heal|p2a: Kazaa|100/100 slp|[silent]
+|move|p1a: Skarmory|Spikes|p2a: Kazaa
+|-sidestart|p2: AnotherAshenSoul|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|94/100 slp|[from] Sandstorm
+|-heal|p2a: Kazaa|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729384514
+|switch|p2a: Pirate Bay|Charizard, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Pirate Bay
+|-sidestart|p2: AnotherAshenSoul|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pirate Bay|94/100|[from] Sandstorm
+|-heal|p2a: Pirate Bay|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729384519
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pirate Bay|atk|1
+|move|p2a: Pirate Bay|Fire Blast|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pirate Bay|94/100|[from] Sandstorm
+|-damage|p1a: Salamence|59/100|[from] Sandstorm
+|-heal|p2a: Pirate Bay|100/100|[from] item: Leftovers
+|-heal|p1a: Salamence|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|SgtPingwen has 270 seconds left.
+|
+|t:|1729384527
+|switch|p2a: Fitgirl Repacks|Swampert, M|100/100
+|-damage|p2a: Fitgirl Repacks|84/100|[from] Spikes
+|move|p1a: Salamence|Dragon Claw|p2a: Fitgirl Repacks
+|-damage|p2a: Fitgirl Repacks|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|59/100|[from] Sandstorm
+|-heal|p1a: Salamence|65/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|51/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729384531
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Fitgirl Repacks|Protect||[still]
+|-fail|p2a: Fitgirl Repacks
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fitgirl Repacks|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729384538
+|switch|p2a: Limewire|Blissey, F|91/100
+|-damage|p2a: Limewire|75/100|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Limewire
+|drag|p2a: Kazaa|Zapdos|100/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|94/100 slp|[from] Sandstorm
+|-heal|p2a: Kazaa|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729384543
+|cant|p2a: Kazaa|slp
+|move|p1a: Skarmory|Spikes|p2a: Kazaa
+|-sidestart|p2: AnotherAshenSoul|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|94/100 slp|[from] Sandstorm
+|-heal|p2a: Kazaa|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1729384546
+|cant|p2a: Kazaa|slp
+|move|p1a: Skarmory|Roar|p2a: Kazaa
+|drag|p2a: Limewire|Blissey, F|75/100
+|-damage|p2a: Limewire|50/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|44/100|[from] Sandstorm
+|-heal|p2a: Limewire|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729384549
+|move|p1a: Skarmory|Toxic|p2a: Limewire
+|-status|p2a: Limewire|tox
+|move|p2a: Limewire|Soft-Boiled|p2a: Limewire
+|-heal|p2a: Limewire|99/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|94/100 tox|[from] Sandstorm
+|-heal|p2a: Limewire|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Limewire|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1729384554
+|move|p1a: Skarmory|Drill Peck|p2a: Limewire
+|-damage|p2a: Limewire|74/100 tox
+|move|p2a: Limewire|Aromatherapy|p2a: Limewire
+|-cureteam|p2a: Limewire|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|68/100|[from] Sandstorm
+|-heal|p2a: Limewire|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729384559
+|move|p2a: Limewire|Soft-Boiled|p2a: Limewire
+|-heal|p2a: Limewire|100/100
+|move|p1a: Skarmory|Roar|p2a: Limewire
+|drag|p2a: Fitgirl Repacks|Swampert, M|57/100
+|-damage|p2a: Fitgirl Repacks|33/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fitgirl Repacks|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729384562
+|move|p2a: Fitgirl Repacks|Protect|p2a: Fitgirl Repacks
+|-singleturn|p2a: Fitgirl Repacks|Protect
+|move|p1a: Skarmory|Roar|p2a: Fitgirl Repacks
+|-activate|p2a: Fitgirl Repacks|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fitgirl Repacks|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1729384566
+|move|p1a: Skarmory|Toxic|p2a: Fitgirl Repacks
+|-status|p2a: Fitgirl Repacks|tox
+|move|p2a: Fitgirl Repacks|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Fitgirl Repacks|45/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1729384572
+|move|p2a: Fitgirl Repacks|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|38/100
+|move|p1a: Skarmory|Roar|p2a: Fitgirl Repacks
+|drag|p2a: 1337x|Tyranitar, M|100/100
+|-damage|p2a: 1337x|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1729384580
+|move|p2a: 1337x|Dragon Dance|p2a: 1337x
+|-boost|p2a: 1337x|atk|1
+|-boost|p2a: 1337x|spe|1
+|move|p1a: Skarmory|Roar|p2a: 1337x
+|drag|p2a: Kazaa|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|94/100|[from] Sandstorm
+|-heal|p2a: Kazaa|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729384584
+|switch|p1a: Celebi|Celebi|68/100
+|move|p2a: Kazaa|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|45/100|[from] Sandstorm
+|-damage|p2a: Kazaa|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|52/100|[from] item: Leftovers
+|-heal|p2a: Kazaa|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729384589
+|move|p1a: Celebi|Psychic|p2a: Kazaa
+|-damage|p2a: Kazaa|71/100
+|move|p2a: Kazaa|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|45/100 tox|[from] Sandstorm
+|-damage|p2a: Kazaa|64/100|[from] Sandstorm
+|-heal|p1a: Celebi|52/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|45/100 tox|[from] psn
+|-heal|p2a: Kazaa|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729384599
+|move|p1a: Celebi|Leech Seed|p2a: Kazaa
+|-start|p2a: Kazaa|move: Leech Seed
+|move|p2a: Kazaa|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|27/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|21/100 tox|[from] Sandstorm
+|-damage|p2a: Kazaa|64/100|[from] Sandstorm
+|-heal|p1a: Celebi|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|15/100 tox|[from] psn
+|-heal|p2a: Kazaa|71/100|[from] item: Leftovers
+|-damage|p2a: Kazaa|58/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|27/100 tox|[silent]
+|upkeep
+|turn|31
+|
+|t:|1729384609
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Kazaa|Rest|p2a: Kazaa
+|-status|p2a: Kazaa|slp|[from] move: Rest
+|-heal|p2a: Kazaa|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|94/100 slp|[from] Sandstorm
+|-heal|p2a: Kazaa|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Kazaa|88/100 slp|[from] Leech Seed|[of] p1a: Metagross
+|upkeep
+|turn|32
+|
+|t:|1729384614
+|switch|p2a: Napster|Skarmory, M|100/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1729384621
+|move|p1a: Metagross|Meteor Mash|p2a: Napster
+|-resisted|p2a: Napster
+|-damage|p2a: Napster|79/100
+|move|p2a: Napster|Roar|p1a: Metagross
+|drag|p1a: Celebi|Celebi|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|21/100|[from] Sandstorm
+|-heal|p1a: Celebi|27/100|[from] item: Leftovers
+|-heal|p2a: Napster|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729384625
+|move|p1a: Celebi|Hidden Power|p2a: Napster
+|-supereffective|p2a: Napster
+|-damage|p2a: Napster|43/100
+|move|p2a: Napster|Roar|p1a: Celebi
+|drag|p1a: Skarmory|Skarmory, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Napster|49/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729384628
+|move|p2a: Napster|Spikes|p1a: Skarmory
+|-sidestart|p1: SgtPingwen|Spikes
+|move|p1a: Skarmory|Roar|p2a: Napster
+|drag|p2a: Pirate Bay|Charizard, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pirate Bay|94/100|[from] Sandstorm
+|-heal|p2a: Pirate Bay|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729384633
+|move|p2a: Pirate Bay|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1729384636
+|switch|p1a: Starmie|Starmie|70/100
+|-damage|p1a: Starmie|58/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|52/100|[from] Sandstorm
+|-damage|p2a: Pirate Bay|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|-heal|p2a: Pirate Bay|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729384641
+|switch|p2a: Limewire|Blissey, F|100/100
+|-damage|p2a: Limewire|75/100|[from] Spikes
+|move|p1a: Starmie|Hydro Pump|p2a: Limewire|[miss]
+|-miss|p1a: Starmie|p2a: Limewire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|52/100|[from] Sandstorm
+|-damage|p2a: Limewire|69/100|[from] Sandstorm
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|-heal|p2a: Limewire|75/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729384646
+|move|p1a: Starmie|Rapid Spin|p2a: Limewire
+|-damage|p2a: Limewire|73/100
+|-sideend|p1: SgtPingwen|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Limewire|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|67/100|[from] Sandstorm
+|-damage|p1a: Starmie|52/100 par|[from] Sandstorm
+|-heal|p2a: Limewire|73/100|[from] item: Leftovers
+|-heal|p1a: Starmie|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1729384652
+|-curestatus|p1a: Starmie|par|[from] ability: Natural Cure
+|switch|p1a: Salamence|Salamence, F|65/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Limewire|atk|1
+|move|p2a: Limewire|Soft-Boiled|p2a: Limewire
+|-heal|p2a: Limewire|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|59/100|[from] Sandstorm
+|-damage|p2a: Limewire|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|65/100|[from] item: Leftovers
+|-heal|p2a: Limewire|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729384659
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Limewire|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|94/100|[from] Sandstorm
+|-heal|p1a: Metagross|97/100|[from] item: Leftovers
+|-heal|p2a: Limewire|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729384664
+|switch|p2a: Napster|Skarmory, M|49/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|-heal|p2a: Napster|55/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729384669
+|move|p1a: Metagross|Rock Slide|p2a: Napster
+|-damage|p2a: Napster|34/100
+|move|p2a: Napster|Roar|p1a: Metagross
+|drag|p1a: Salamence|Salamence, F|65/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Napster|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|59/100|[from] Sandstorm
+|-heal|p1a: Salamence|65/100|[from] item: Leftovers
+|-heal|p2a: Napster|40/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729384678
+|move|p1a: Salamence|Brick Break|p2a: Napster
+|-damage|p2a: Napster|23/100
+|move|p2a: Napster|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|59/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|59/100 tox|[from] psn
+|-heal|p2a: Napster|29/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1729384688
+|switch|p2a: Kazaa|Zapdos|88/100 slp
+|move|p1a: Salamence|Refresh|p1a: Salamence
+|-curestatus|p1a: Salamence|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|52/100|[from] Sandstorm
+|-damage|p2a: Kazaa|82/100 slp|[from] Sandstorm
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|-heal|p2a: Kazaa|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729384700
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Limewire|Blissey, F|100/100
+|-damage|p2a: Limewire|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|69/100|[from] Sandstorm
+|-heal|p2a: Limewire|75/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729384714
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Limewire|Aromatherapy|p2a: Limewire
+|-cureteam|p2a: Limewire|[from] move: Aromatherapy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|69/100|[from] Sandstorm
+|-heal|p2a: Limewire|75/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1729384718
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Limewire|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|-enditem|p1a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p1a: Tyranitar|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|69/100|[from] Sandstorm
+|-heal|p2a: Limewire|75/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729384722
+|move|p1a: Tyranitar|Double-Edge|p2a: Limewire
+|-damage|p2a: Limewire|8/100
+|-damage|p1a: Tyranitar|55/100|[from] Recoil|[of] p2a: Limewire
+|move|p2a: Limewire|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Limewire|2/100|[from] Sandstorm
+|-heal|p2a: Limewire|8/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729384729
+|move|p2a: Limewire|Soft-Boiled|p2a: Limewire
+|-heal|p2a: Limewire|58/100
+|move|p1a: Tyranitar|Double-Edge|p2a: Limewire
+|-damage|p2a: Limewire|0 fnt
+|-damage|p1a: Tyranitar|17/100 par|[from] Recoil|[of] p2a: Limewire
+|faint|p2a: Limewire
+|
+|t:|1729384751
+|switch|p2a: Fitgirl Repacks|Swampert, M|45/100
+|-damage|p2a: Fitgirl Repacks|20/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fitgirl Repacks|26/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729384759
+|move|p2a: Fitgirl Repacks|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1729384769
+|switch|p1a: Metagross|Metagross|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Fitgirl Repacks|33/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729384773
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|move|p2a: Fitgirl Repacks|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|48/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|39/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729384789
+|switch|p1a: Celebi|Celebi|27/100
+|move|p2a: Fitgirl Repacks|Protect||[still]
+|-fail|p2a: Fitgirl Repacks
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|21/100|[from] Sandstorm
+|-heal|p1a: Celebi|27/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|45/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729384798
+|switch|p1a: Starmie|Starmie|58/100
+|move|p2a: Fitgirl Repacks|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|39/100|[from] Sandstorm
+|-heal|p1a: Starmie|45/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|51/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729384805
+|move|p1a: Starmie|Hydro Pump|p2a: Fitgirl Repacks
+|-damage|p2a: Fitgirl Repacks|7/100
+|move|p2a: Fitgirl Repacks|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1729384809
+|switch|p1a: Salamence|Salamence, F|59/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Fitgirl Repacks|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|52/100|[from] Sandstorm
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|14/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729384814
+|move|p2a: Fitgirl Repacks|Protect|p2a: Fitgirl Repacks
+|-singleturn|p2a: Fitgirl Repacks|Protect
+|move|p1a: Salamence|Dragon Claw|p2a: Fitgirl Repacks
+|-activate|p2a: Fitgirl Repacks|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|52/100|[from] Sandstorm
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|-heal|p2a: Fitgirl Repacks|20/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729384819
+|switch|p2a: Kazaa|Zapdos|88/100
+|move|p1a: Salamence|Dragon Claw|p2a: Kazaa
+|-damage|p2a: Kazaa|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|52/100|[from] Sandstorm
+|-damage|p2a: Kazaa|55/100|[from] Sandstorm
+|-heal|p1a: Salamence|59/100|[from] item: Leftovers
+|-heal|p2a: Kazaa|61/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729384824
+|switch|p1a: Metagross|Metagross|48/100
+|move|p2a: Kazaa|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kazaa|55/100|[from] Sandstorm
+|-heal|p2a: Kazaa|61/100|[from] item: Leftovers
+|-heal|p1a: Metagross|13/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|-message|SgtPingwen forfeited.
+|
+|win|AnotherAshenSoul
+|player|p1|
+|c|☆AnotherAshenSoul|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800194">
+{"id":"smogtours-gen3ou-800194","format":"[Gen 3] OU","players":["SgtPingwen","AnotherAshenSoul"],"uploadtime":1729384830,"views":82,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

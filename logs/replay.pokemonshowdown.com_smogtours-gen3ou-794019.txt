@@ -1,0 +1,3095 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: jeem16 vs. ProfessorKid - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between jeem16 and ProfessorKid! Format: [Gen 3] OU; Date: Oct 2, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-794019">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1727897789
+|gametype|singles
+|player|p1|jeem16|alder|
+|player|p2|ProfessorKid|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1727897789
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|c|☆jeem16|glhf!
+|
+|t:|1727897804
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|76/100
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆ProfessorKid|u2
+|
+|t:|1727897811
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1727897822
+|switch|p1a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p2a: Blissey|Seismic Toss|p1a: Metagross
+|-end|p1a: Metagross|Substitute
+|
+|upkeep
+|turn|3
+|
+|t:|1727897848
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1727897857
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|57/100
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-heal|p2a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1727897870
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Metagross|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|73/100
+|
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1727897882
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|60/100
+|
+|-heal|p2a: Suicune|86/100|[from] item: Leftovers
+|-heal|p1a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1727897893
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|27/100
+|move|p1a: Swampert|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-heal|p2a: Suicune|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|86/100 tox|[from] psn
+|-heal|p1a: Swampert|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1727897905
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|79/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1727897923
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1727897938
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Breloom|Spore|p1a: Forretress
+|-status|p1a: Forretress|slp|[from] move: Spore
+|
+|upkeep
+|turn|11
+|
+|t:|1727897960
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100
+|cant|p1a: Forretress|slp
+|
+|-heal|p2a: Breloom|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1727897968
+|-singleturn|p2a: Breloom|move: Focus Punch
+|cant|p1a: Forretress|slp
+|move|p2a: Breloom|Focus Punch|p1a: Forretress
+|-damage|p1a: Forretress|58/100 slp
+|
+|-heal|p2a: Breloom|88/100|[from] item: Leftovers
+|-heal|p1a: Forretress|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|jeem16 has 270 seconds left.
+|
+|t:|1727898027
+|-singleturn|p2a: Breloom|move: Focus Punch
+|-curestatus|p1a: Forretress|slp|[msg]
+|move|p1a: Forretress|Protect|p1a: Forretress
+|-singleturn|p1a: Forretress|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Forretress
+|-activate|p1a: Forretress|Protect
+|
+|-heal|p2a: Breloom|94/100|[from] item: Leftovers
+|-heal|p1a: Forretress|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1727898033
+|move|p2a: Breloom|Spore|p1a: Forretress
+|-status|p1a: Forretress|slp|[from] move: Spore
+|cant|p1a: Forretress|slp
+|
+|-heal|p2a: Breloom|99/100|[from] item: Leftovers
+|-heal|p1a: Forretress|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1727898042
+|-singleturn|p2a: Breloom|move: Focus Punch
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Breloom|Focus Punch|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Breloom|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1727898056
+|move|p1a: Gengar|Ice Punch|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Leech Seed|p1a: Gengar
+|-start|p1a: Gengar|move: Leech Seed
+|
+|-damage|p1a: Gengar|88/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|17
+|
+|t:|1727898065
+|switch|p2a: Jirachi|Jirachi|64/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Jirachi|[miss]
+|-miss|p1a: Gengar|p2a: Jirachi
+|
+|-heal|p1a: Gengar|94/100|[from] item: Leftovers
+|-damage|p1a: Gengar|82/100|[from] Leech Seed|[of] p2a: Jirachi
+|-heal|p2a: Jirachi|73/100|[silent]
+|-heal|p2a: Jirachi|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1727898089
+|move|p1a: Gengar|Will-O-Wisp|p2a: Jirachi|[miss]
+|-miss|p1a: Gengar|p2a: Jirachi
+|move|p2a: Jirachi|Fire Punch|p1a: Gengar
+|-damage|p1a: Gengar|50/100
+|
+|-heal|p1a: Gengar|56/100|[from] item: Leftovers
+|-damage|p1a: Gengar|44/100|[from] Leech Seed|[of] p2a: Jirachi
+|-heal|p2a: Jirachi|88/100|[silent]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1727898105
+|switch|p2a: Suicune|Suicune|79/100 tox
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|
+|-heal|p1a: Gengar|50/100|[from] item: Leftovers
+|-damage|p1a: Gengar|37/100|[from] Leech Seed|[of] p2a: Suicune
+|-heal|p2a: Suicune|89/100 tox|[silent]
+|-heal|p2a: Suicune|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|89/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727898124
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|
+|upkeep
+|turn|21
+|inactive|jeem16 has 270 seconds left.
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727898158
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1727898172
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1727898193
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|24/100
+|
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1727898213
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|
+|-heal|p1a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 tox|[from] psn
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1727898219
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-damage|p1a: Blissey|76/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|jeem16 has 240 seconds left.
+|
+|t:|1727898252
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Jirachi|Jirachi|94/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|27
+|
+|t:|1727898258
+|move|p2a: Jirachi|Fire Punch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|46/100
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|32/100
+|
+|-heal|p2a: Jirachi|38/100|[from] item: Leftovers
+|-heal|p1a: Metagross|52/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1727898268
+|switch|p1a: Blissey|Blissey, F|76/100
+|move|p2a: Jirachi|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727898281
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727898297
+|switch|p1a: Gengar|Gengar, M|37/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p1a: Gengar|43/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727898308
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Gengar|49/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|ProfessorKid has 270 seconds left.
+|c|☆ProfessorKid|is that four misses, thats brutl
+|c|☆ProfessorKid|brutal
+|c|☆jeem16|I'm crying lmao
+|
+|t:|1727898332
+|switch|p2a: Jirachi|Jirachi|44/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Jirachi
+|-status|p2a: Jirachi|brn
+|
+|-heal|p2a: Jirachi|94/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Gengar|55/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|33
+|c|☆jeem16|finally
+|inactive|jeem16 has 240 seconds left.
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898380
+|switch|p1a: Blissey|Blissey, F|79/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-heal|p2a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|82/100 brn|[from] brn
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898399
+|move|p2a: Jirachi|Fire Punch|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|75/100 brn|[from] brn
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1727898408
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898425
+|switch|p2a: Suicune|Suicune|89/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100 tox
+|
+|-heal|p2a: Suicune|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|79/100 tox|[from] psn
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1727898434
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1727898438
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|jeem16 has 240 seconds left.
+|inactive|jeem16 has 210 seconds left.
+|
+|t:|1727898497
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Metagross|Metagross|52/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Metagross|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1727898508
+|switch|p2a: Jirachi|Jirachi|75/100 brn
+|move|p1a: Metagross|Meteor Mash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|50/100 brn
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Jirachi|99/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Jirachi|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|-heal|p1a: Metagross|64/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1727898524
+|move|p2a: Jirachi|Fire Punch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|8/100
+|move|p1a: Metagross|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898545
+|switch|p2a: Aerodactyl|Aerodactyl, M|24/100
+|
+|-heal|p1a: Metagross|14/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898562
+|move|p2a: Aerodactyl|Rock Slide|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|inactive|jeem16 has 180 seconds left.
+|
+|t:|1727898599
+|switch|p1a: Swampert|Swampert, M|33/100
+|
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898609
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Swampert|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|-heal|p1a: Swampert|46/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898628
+|switch|p1a: Gengar|Gengar, M|55/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Gengar|61/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|jeem16 has 180 seconds left.
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898638
+|switch|p2a: Suicune|Suicune|79/100 tox
+|move|p1a: Gengar|Will-O-Wisp|p2a: Suicune|[miss]
+|-miss|p1a: Gengar|p2a: Suicune
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Gengar|67/100|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898648
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727898674
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|jeem16 has 180 seconds left.
+|
+|t:|1727898690
+|switch|p1a: Gengar|Gengar, M|67/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p1a: Gengar|73/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1727898697
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Gengar|79/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1727898711
+|switch|p2a: Suicune|Suicune|88/100 tox
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Gengar|85/100|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1727898738
+|switch|p1a: Blissey|Blissey, F|97/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|24/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1727898745
+|move|p2a: Aerodactyl|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|move|p1a: Blissey|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|t:|1727898756
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|jeem16 has 210 seconds left.
+|inactive|jeem16 has 180 seconds left.
+|inactive|jeem16 has 150 seconds left.
+|
+|t:|1727898837
+|switch|p1a: Gengar|Gengar, M|85/100
+|move|p2a: Salamence|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|36/100
+|
+|-heal|p1a: Gengar|42/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|jeem16 has 120 seconds left.
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1727898904
+|switch|p2a: Suicune|Suicune|94/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|86/100 tox
+|
+|-heal|p1a: Gengar|48/100|[from] item: Leftovers
+|-heal|p2a: Suicune|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|86/100 tox|[from] psn
+|upkeep
+|turn|55
+|inactive|ProfessorKid has 210 seconds left.
+|
+|t:|1727898921
+|switch|p1a: Blissey|Blissey, F|65/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1727898942
+|move|p2a: Salamence|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|cant|p1a: Blissey|flinch
+|
+|-heal|p1a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|ProfessorKid has 210 seconds left.
+|
+|t:|1727898966
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p1a: Blissey|60/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|inactive|ProfessorKid has 210 seconds left.
+|inactive|jeem16 has 60 seconds left.
+|
+|t:|1727898991
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1727899005
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|48/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Gengar|54/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1727899011
+|switch|p2a: Suicune|Suicune|86/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|77/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Gengar|60/100|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|61
+|inactive|ProfessorKid has 210 seconds left.
+|inactive|ProfessorKid has 180 seconds left.
+|
+|t:|1727899053
+|switch|p1a: Blissey|Blissey, F|94/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|inactive|ProfessorKid has 180 seconds left.
+|
+|t:|1727899064
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100
+|move|p1a: Blissey|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-heal|p2a: Breloom|82/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|inactive|ProfessorKid has 180 seconds left.
+|
+|t:|1727899086
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1727899095
+|switch|p1a: Gengar|Gengar, M|60/100
+|switch|p2a: Suicune|Suicune|94/100 tox
+|
+|-heal|p1a: Gengar|66/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|65
+|inactive|ProfessorKid has 180 seconds left.
+|
+|t:|1727899105
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1727899113
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|inactive|jeem16 has 90 seconds left.
+|
+|t:|1727899119
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1727899127
+|switch|p2a: Suicune|Suicune|88/100 tox
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100 tox
+|
+|-heal|p2a: Suicune|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|79/100 tox|[from] psn
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|t:|1727899145
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Forretress|Forretress, F|76/100 slp
+|move|p2a: Suicune|Surf|p1a: Forretress
+|-damage|p1a: Forretress|10/100 slp
+|
+|-heal|p2a: Suicune|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|-heal|p1a: Forretress|17/100 slp|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1727899155
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|
+|-heal|p2a: Suicune|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|60/100 tox|[from] psn
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1727899172
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1727899183
+|switch|p1a: Gengar|Gengar, M|66/100
+|move|p2a: Blissey|Toxic|p1a: Gengar|[miss]
+|-miss|p2a: Blissey|p1a: Gengar
+|
+|-heal|p1a: Gengar|72/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1727899197
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Gengar|78/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1727899206
+|switch|p2a: Suicune|Suicune|60/100 tox
+|move|p1a: Gengar|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|41/100 tox
+|
+|-heal|p2a: Suicune|91/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Gengar|84/100|[from] item: Leftovers
+|-heal|p2a: Suicune|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|91/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|t:|1727899216
+|switch|p1a: Blissey|Blissey, F|85/100
+|switch|p2a: Blissey|Blissey, F|97/100
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1727899230
+|switch|p1a: Gengar|Gengar, M|84/100
+|switch|p2a: Suicune|Suicune|91/100 tox
+|
+|-heal|p1a: Gengar|90/100|[from] item: Leftovers
+|-heal|p2a: Suicune|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|91/100 tox|[from] psn
+|upkeep
+|turn|77
+|inactive|jeem16 has 120 seconds left.
+|
+|t:|1727899243
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|-heal|p2a: Suicune|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|85/100 tox|[from] psn
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1727899256
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Forretress|Forretress, F|17/100 slp
+|
+|-heal|p2a: Suicune|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|-heal|p1a: Forretress|23/100 slp|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|t:|1727899272
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Blissey|Blissey, F|87/100
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1727899285
+|switch|p1a: Gengar|Gengar, M|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p1a: Gengar|96/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1727899294
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1727899313
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1727899325
+|switch|p2a: Suicune|Suicune|73/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|64/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|84
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727899340
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727899350
+|switch|p2a: Blissey|Blissey, F|98/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1727899359
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|87
+|
+|t:|1727899366
+|switch|p2a: Suicune|Suicune|88/100 tox
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|88
+|
+|t:|1727899374
+|switch|p1a: Blissey|Blissey, F|95/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1727899380
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|90
+|inactive|jeem16 has 180 seconds left.
+|
+|t:|1727899387
+|switch|p2a: Suicune|Suicune|88/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|upkeep
+|turn|91
+|
+|t:|1727899392
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|92
+|c|☆jeem16|rough matchup lol
+|
+|t:|1727899396
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|upkeep
+|turn|93
+|
+|t:|1727899403
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|94
+|c|☆ProfessorKid|lol
+|
+|t:|1727899408
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|upkeep
+|turn|95
+|
+|t:|1727899413
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|96
+|c|☆ProfessorKid|what do we do now
+|
+|t:|1727899419
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|upkeep
+|turn|97
+|c|☆jeem16|we pray
+|c|☆ProfessorKid|for?
+|c|☆ProfessorKid|lol is this a draw, or win or
+|c|☆ProfessorKid|hahaha
+|c|☆jeem16|one of us to fall asleep I guess lmao
+|
+|t:|1727899439
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|98
+|inactive|jeem16 has 240 seconds left.
+|c|☆ProfessorKid|is there a rule for this
+|
+|t:|1727899460
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|upkeep
+|turn|99
+|c|☆jeem16|I don't think so, I'm trying to find another pivot point
+|c|☆ProfessorKid|me too
+|
+|t:|1727899480
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|100
+|
+|t:|1727899486
+|switch|p1a: Swampert|Swampert, M|46/100
+|switch|p2a: Suicune|Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|-heal|p1a: Swampert|52/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|inactive|ProfessorKid has 270 seconds left.
+|c|☆jeem16|ok strat acquired lol
+|
+|t:|1727899524
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|74/100 tox|[from] psn
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727899529
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1727899535
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1727899541
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|74/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|105
+|
+|t:|1727899546
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|97/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1727899552
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|94/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|107
+|
+|t:|1727899557
+|switch|p1a: Swampert|Swampert, M|52/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|inactive|ProfessorKid has 270 seconds left.
+|c|☆jeem16|this is going to be a 200 turn game I think lol
+|c|☆ProfessorKid|but can we make progress
+|c|☆jeem16|yeah, I have a win condition in mind
+|c|☆ProfessorKid|ok
+|inactive|ProfessorKid has 240 seconds left.
+|c|☆jeem16|I think you have one too
+|
+|t:|1727899620
+|switch|p2a: Suicune|Suicune|94/100 tox
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|109
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727899644
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|110
+|
+|t:|1727899651
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Toxic|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|111
+|inactive|ProfessorKid has 240 seconds left.
+|
+|t:|1727899664
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1727899676
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|113
+|
+|t:|1727899683
+|switch|p1a: Blissey|Blissey, F|100/100
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|94/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|114
+|
+|t:|1727899686
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1727899690
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1727899697
+|switch|p2a: Suicune|Suicune|94/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|80/100 tox
+|
+|-heal|p2a: Suicune|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|80/100 tox|[from] psn
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|117
+|
+|t:|1727899712
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|81/100 tox
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|
+|-heal|p2a: Suicune|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|74/100 tox|[from] psn
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|118
+|
+|t:|1727899727
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|66/100 tox
+|
+|-heal|p2a: Suicune|73/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|54/100 tox|[from] psn
+|-heal|p1a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|64/100 tox|[from] psn
+|upkeep
+|turn|119
+|
+|t:|1727899738
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|52/100 tox
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|
+|-heal|p2a: Suicune|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|35/100 tox|[from] psn
+|-damage|p1a: Blissey|70/100 tox|[from] psn
+|upkeep
+|turn|120
+|
+|t:|1727899746
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|
+|-damage|p1a: Blissey|64/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1727899753
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|upkeep
+|turn|122
+|
+|t:|1727899770
+|switch|p1a: Jolteon|Jolteon, M|82/100
+|switch|p2a: Suicune|Suicune|35/100 tox
+|
+|-heal|p2a: Suicune|85/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|-heal|p2a: Suicune|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|85/100 tox|[from] psn
+|upkeep
+|turn|123
+|
+|t:|1727899778
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|63/100
+|
+|-heal|p1a: Jolteon|69/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1727899792
+|move|p1a: Jolteon|Baton Pass|p1a: Jolteon
+|
+|t:|1727899794
+|switch|p1a: Gengar|Gengar, M|100/100|[from] Baton Pass
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|125
+|
+|t:|1727899805
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1727899810
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1727899817
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|88/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1727899824
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1727899829
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1727899835
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1727899842
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1727899847
+|switch|p2a: Suicune|Suicune|85/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|77/100 tox
+|
+|-heal|p2a: Suicune|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|77/100 tox|[from] psn
+|upkeep
+|turn|133
+|
+|t:|1727899860
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|80/100
+|
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1727899867
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|78/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1727899880
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|t:|1727899896
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1727899920
+|switch|p2a: Suicune|Suicune|77/100 tox
+|move|p1a: Gengar|Hidden Power|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|69/100 tox
+|
+|-heal|p2a: Suicune|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|69/100 tox|[from] psn
+|upkeep
+|turn|138
+|
+|t:|1727899931
+|move|p1a: Gengar|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|47/100 tox
+|move|p2a: Suicune|Roar|p1a: Gengar
+|drag|p1a: Forretress|Forretress, F|23/100 slp
+|
+|-heal|p2a: Suicune|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|41/100 tox|[from] psn
+|-heal|p1a: Forretress|29/100 slp|[from] item: Leftovers
+|upkeep
+|turn|139
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727899968
+|switch|p2a: Breloom|Breloom, F|82/100
+|switch|p1a: Blissey|Blissey, F|64/100
+|
+|-heal|p2a: Breloom|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1727899978
+|switch|p2a: Suicune|Suicune|41/100 tox
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|34/100 tox
+|
+|-heal|p2a: Suicune|40/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|34/100 tox|[from] psn
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1727899987
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1727899994
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|143
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727900009
+|switch|p2a: Suicune|Suicune|34/100 tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Suicune|84/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Suicune|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|84/100 tox|[from] psn
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|144
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727900021
+|move|p1a: Blissey|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|49/100 tox
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Jolteon|Jolteon, M|69/100
+|
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|-heal|p2a: Suicune|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|43/100 tox|[from] psn
+|upkeep
+|turn|145
+|
+|t:|1727900030
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1727900038
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|57/100
+|move|p2a: Blissey|Seismic Toss|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-heal|p1a: Jolteon|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1727900056
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1727900071
+|switch|p1a: Swampert|Swampert, M|58/100
+|switch|p2a: Suicune|Suicune|43/100 tox
+|
+|-heal|p2a: Suicune|93/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Suicune|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|93/100 tox|[from] psn
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|149
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727900097
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Blissey|Blissey, F|94/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|150
+|
+|t:|1727900103
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Toxic|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|151
+|
+|t:|1727900120
+|switch|p2a: Suicune|Suicune|93/100 tox
+|move|p1a: Gengar|Hidden Power|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|85/100 tox
+|
+|-heal|p2a: Suicune|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|85/100 tox|[from] psn
+|upkeep
+|turn|152
+|
+|t:|1727900131
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|153
+|
+|t:|1727900139
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|
+|upkeep
+|turn|154
+|
+|t:|1727900163
+|switch|p2a: Suicune|Suicune|85/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|76/100 tox
+|
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|76/100 tox|[from] psn
+|upkeep
+|turn|155
+|c|☆jeem16|we clearly both care about the tournament hahah
+|
+|t:|1727900179
+|switch|p1a: Swampert|Swampert, M|64/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1727900198
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|157
+|
+|t:|1727900207
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|upkeep
+|turn|158
+|
+|t:|1727900214
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|93/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|159
+|
+|t:|1727900225
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|160
+|
+|t:|1727900237
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1727900243
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1727900254
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|move|p1a: Gengar|Hidden Power|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|87/100
+|
+|-heal|p2a: Salamence|93/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1727900262
+|switch|p2a: Suicune|Suicune|76/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|67/100 tox
+|
+|-heal|p2a: Suicune|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|67/100 tox|[from] psn
+|upkeep
+|turn|164
+|
+|t:|1727900269
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|98/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1727900280
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|166
+|
+|t:|1727900296
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|167
+|
+|t:|1727900303
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1727900313
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1727900322
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|170
+|inactive|jeem16 has 270 seconds left.
+|
+|t:|1727900356
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 brn|[from] brn
+|upkeep
+|turn|171
+|
+|t:|1727900363
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Suicune|Suicune|67/100 tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|172
+|
+|t:|1727900374
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Jolteon|Jolteon, M|63/100
+|
+|-heal|p1a: Jolteon|69/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|173
+|
+|t:|1727900379
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|82/100
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1727900389
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Salamence|Salamence, M|93/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|
+|-heal|p2a: Salamence|99/100|[from] item: Leftovers
+|upkeep
+|turn|175
+|
+|t:|1727900403
+|switch|p2a: Suicune|Suicune|88/100 tox
+|move|p1a: Gengar|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100 tox
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|79/100 tox|[from] psn
+|upkeep
+|turn|176
+|
+|t:|1727900420
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Forretress|Forretress, F|29/100 slp
+|
+|-heal|p2a: Suicune|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|-heal|p1a: Forretress|35/100 slp|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1727900437
+|switch|p2a: Blissey|Blissey, F|88/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1727900445
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Toxic|p1a: Blissey|[miss]
+|-miss|p2a: Blissey|p1a: Blissey
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|179
+|
+|t:|1727900456
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|180
+|
+|t:|1727900474
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Salamence|Salamence, M|99/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1727900486
+|switch|p2a: Suicune|Suicune|73/100 tox
+|move|p1a: Gengar|Will-O-Wisp||[still]
+|-fail|p1a: Gengar
+|
+|-heal|p2a: Suicune|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|upkeep
+|turn|182
+|
+|t:|1727900496
+|switch|p1a: Blissey|Blissey, F|94/100
+|switch|p2a: Blissey|Blissey, F|97/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1727900504
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|73/100 tox
+|
+|-heal|p2a: Suicune|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|73/100 tox|[from] psn
+|upkeep
+|turn|184
+|
+|t:|1727900518
+|switch|p1a: Swampert|Swampert, M|70/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1727900539
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|upkeep
+|turn|186
+|c|☆ProfessorKid|i dont think we ca progress
+|inactive|jeem16 has 270 seconds left.
+|c|☆jeem16|we can I promise
+|
+|t:|1727900579
+|switch|p2a: Suicune|Suicune|73/100 tox
+|move|p1a: Gengar|Psychic|p2a: Suicune
+|-damage|p2a: Suicune|51/100 tox
+|
+|-heal|p2a: Suicune|57/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|51/100 tox|[from] psn
+|upkeep
+|turn|187
+|
+|t:|1727900590
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|188
+|inactive|jeem16 has 270 seconds left.
+|
+|t:|1727900596
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|upkeep
+|turn|189
+|
+|t:|1727900605
+|switch|p1a: Swampert|Swampert, M|77/100
+|switch|p2a: Suicune|Suicune|51/100 tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|-heal|p1a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|190
+|
+|t:|1727900621
+|switch|p2a: Breloom|Breloom, F|88/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Breloom|94/100|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1727900632
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|69/100
+|move|p1a: Blissey|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-heal|p2a: Breloom|75/100|[from] item: Leftovers
+|upkeep
+|turn|192
+|
+|t:|1727900645
+|switch|p2a: Suicune|Suicune|94/100 tox
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|89/100 tox
+|
+|-heal|p2a: Suicune|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|89/100 tox|[from] psn
+|upkeep
+|turn|193
+|
+|t:|1727900664
+|switch|p2a: Breloom|Breloom, F|75/100
+|switch|p1a: Swampert|Swampert, M|83/100
+|
+|-heal|p2a: Breloom|81/100|[from] item: Leftovers
+|-heal|p1a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|194
+|
+|t:|1727900683
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|57/100
+|move|p1a: Swampert|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-crit|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-heal|p2a: Breloom|63/100|[from] item: Leftovers
+|-heal|p1a: Swampert|95/100|[from] item: Leftovers
+|upkeep
+|turn|195
+|
+|t:|1727900691
+|move|p2a: Breloom|Leech Seed|p1a: Swampert
+|-start|p1a: Swampert|move: Leech Seed
+|move|p1a: Swampert|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|34/100
+|
+|-heal|p2a: Breloom|40/100|[from] item: Leftovers
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|59/100|[silent]
+|upkeep
+|turn|196
+|
+|t:|1727900704
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|34/100
+|
+|-heal|p2a: Breloom|40/100|[from] item: Leftovers
+|upkeep
+|turn|197
+|
+|t:|1727900708
+|move|p1a: Gengar|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-crit|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Leech Seed|p1a: Gengar
+|-start|p1a: Gengar|move: Leech Seed
+|
+|-damage|p1a: Gengar|88/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|54/100|[silent]
+|-heal|p2a: Breloom|60/100|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1727900725
+|switch|p2a: Suicune|Suicune|89/100 tox
+|move|p1a: Gengar|Will-O-Wisp|p2a: Suicune|[miss]
+|-miss|p1a: Gengar|p2a: Suicune
+|
+|-heal|p1a: Gengar|94/100|[from] item: Leftovers
+|-damage|p1a: Gengar|82/100|[from] Leech Seed|[of] p2a: Suicune
+|-heal|p2a: Suicune|98/100 tox|[silent]
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|199
+|
+|t:|1727900738
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Breloom|Breloom, F|60/100
+|
+|-heal|p2a: Breloom|67/100|[from] item: Leftovers
+|upkeep
+|turn|200
+|
+|t:|1727900748
+|switch|p2a: Suicune|Suicune|94/100 tox
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|87/100 tox
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|87/100 tox|[from] psn
+|upkeep
+|turn|201
+|
+|t:|1727900761
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Swampert|Swampert, M|88/100
+|
+|-heal|p1a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1727900766
+|switch|p1a: Gengar|Gengar, M|82/100
+|move|p2a: Blissey|Toxic|p1a: Gengar|[miss]
+|-miss|p2a: Blissey|p1a: Gengar
+|
+|-heal|p1a: Gengar|88/100|[from] item: Leftovers
+|upkeep
+|turn|203
+|
+|t:|1727900775
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Blissey|Protect||[still]
+|-fail|p2a: Blissey
+|
+|upkeep
+|turn|204
+|
+|t:|1727900778
+|switch|p1a: Gengar|Gengar, M|88/100
+|switch|p2a: Suicune|Suicune|87/100 tox
+|
+|-heal|p1a: Gengar|94/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|87/100 tox|[from] psn
+|upkeep
+|turn|205
+|
+|t:|1727900781
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|206
+|
+|t:|1727900786
+|switch|p1a: Gengar|Gengar, M|94/100
+|switch|p2a: Suicune|Suicune|87/100 tox
+|
+|-heal|p1a: Gengar|99/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|87/100 tox|[from] psn
+|upkeep
+|turn|207
+|
+|t:|1727900790
+|switch|p1a: Swampert|Swampert, M|94/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|208
+|
+|t:|1727900795
+|switch|p2a: Suicune|Suicune|87/100 tox
+|switch|p1a: Gengar|Gengar, M|99/100
+|
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|87/100 tox|[from] psn
+|upkeep
+|turn|209
+|
+|t:|1727900800
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|210
+|
+|t:|1727900804
+|switch|p2a: Suicune|Suicune|87/100 tox
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|87/100 tox|[from] psn
+|upkeep
+|turn|211
+|
+|t:|1727900813
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Breloom|Breloom, F|67/100
+|
+|-heal|p2a: Breloom|73/100|[from] item: Leftovers
+|upkeep
+|turn|212
+|c|☆jeem16|300 turns maybe? haha
+|
+|t:|1727900820
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|48/100
+|move|p1a: Blissey|Flamethrower|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-heal|p2a: Breloom|54/100|[from] item: Leftovers
+|upkeep
+|turn|213
+|
+|t:|1727900833
+|switch|p2a: Suicune|Suicune|87/100 tox
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|74/100 tox
+|
+|-heal|p2a: Suicune|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|74/100 tox|[from] psn
+|upkeep
+|turn|214
+|
+|t:|1727900842
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|215
+|
+|t:|1727900852
+|switch|p2a: Breloom|Breloom, F|54/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Breloom|60/100|[from] item: Leftovers
+|upkeep
+|turn|216
+|
+|t:|1727900861
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|upkeep
+|turn|217
+|
+|t:|1727900865
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Suicune|Suicune|74/100 tox
+|
+|-heal|p2a: Suicune|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|74/100 tox|[from] psn
+|upkeep
+|turn|218
+|
+|t:|1727900869
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Swampert|Swampert, M|100/100
+|
+|upkeep
+|turn|219
+|
+|t:|1727900874
+|switch|p2a: Suicune|Suicune|74/100 tox
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|13/100 tox
+|
+|-heal|p2a: Suicune|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|13/100 tox|[from] psn
+|upkeep
+|turn|220
+|c|☆ProfessorKid|well
+|c|☆jeem16|there's progress lol
+|inactive|jeem16 has 270 seconds left.
+|
+|t:|1727900906
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|221
+|c|☆ProfessorKid|thats a fked up way for progress though ngl
+|
+|t:|1727900922
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|222
+|c|☆jeem16|some game do be like that D;
+|
+|t:|1727900930
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|223
+|
+|t:|1727900949
+|switch|p1a: Jolteon|Jolteon, M|69/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Jolteon|atk|1
+|
+|-heal|p1a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|224
+|
+|t:|1727900962
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|225
+|c|☆ProfessorKid|think this is gg
+|c|☆jeem16|:P
+|inactive|ProfessorKid has 270 seconds left.
+|
+|t:|1727900991
+|move|p2a: Salamence|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|62/100
+|move|p1a: Swampert|Roar|p2a: Salamence
+|drag|p2a: Suicune|Suicune|13/100 tox
+|
+|-heal|p2a: Suicune|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|13/100 tox|[from] psn
+|-heal|p1a: Swampert|68/100|[from] item: Leftovers
+|upkeep
+|turn|226
+|
+|t:|1727901005
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Earthquake|p2a: Salamence
+|-immune|p2a: Salamence
+|
+|-heal|p1a: Swampert|74/100|[from] item: Leftovers
+|upkeep
+|turn|227
+|
+|t:|1727901012
+|move|p2a: Salamence|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|47/100
+|move|p1a: Swampert|Roar|p2a: Salamence
+|drag|p2a: Suicune|Suicune|13/100 tox
+|
+|-heal|p2a: Suicune|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|13/100 tox|[from] psn
+|-heal|p1a: Swampert|53/100|[from] item: Leftovers
+|upkeep
+|turn|228
+|
+|t:|1727901019
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Jolteon|Jolteon, M|76/100
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|229
+|
+|t:|1727901030
+|switch|p1a: Swampert|Swampert, M|53/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-heal|p1a: Swampert|59/100|[from] item: Leftovers
+|upkeep
+|turn|230
+|
+|t:|1727901035
+|move|p2a: Salamence|Hidden Power|p1a: Swampert
+|-damage|p1a: Swampert|20/100
+|move|p1a: Swampert|Roar|p2a: Salamence
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|26/100|[from] item: Leftovers
+|upkeep
+|turn|231
+|
+|t:|1727901051
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|upkeep
+|turn|232
+|
+|t:|1727901062
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|233
+|
+|t:|1727901072
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|move|p1a: Gengar|Will-O-Wisp|p2a: Salamence
+|-status|p2a: Salamence|brn
+|
+|-damage|p2a: Salamence|88/100 brn|[from] brn
+|upkeep
+|turn|234
+|
+|t:|1727901097
+|switch|p1a: Swampert|Swampert, M|26/100
+|switch|p2a: Blissey|Blissey, F|98/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|32/100|[from] item: Leftovers
+|upkeep
+|turn|235
+|
+|t:|1727901103
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|236
+|
+|t:|1727901111
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|93/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|237
+|
+|t:|1727901123
+|switch|p2a: Breloom|Breloom, F|60/100
+|move|p1a: Gengar|Psychic|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|t:|1727901128
+|switch|p2a: Suicune|Suicune|13/100 tox
+|
+|-heal|p2a: Suicune|63/100 tox|[from] move: Wish|[wisher] Blissey
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|upkeep
+|turn|238
+|
+|t:|1727901136
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Blissey|Blissey, F|99/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|239
+|
+|t:|1727901143
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Toxic|p1a: Gengar|[miss]
+|-miss|p2a: Blissey|p1a: Gengar
+|
+|upkeep
+|turn|240
+|
+|t:|1727901157
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Blissey|Protect||[still]
+|-fail|p2a: Blissey
+|
+|upkeep
+|turn|241
+|
+|t:|1727901165
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Salamence|Salamence, M|88/100 brn
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|
+|-heal|p2a: Salamence|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|82/100 brn|[from] brn
+|upkeep
+|turn|242
+|
+|t:|1727901176
+|switch|p1a: Swampert|Swampert, M|32/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Swampert|38/100|[from] item: Leftovers
+|upkeep
+|turn|243
+|
+|t:|1727901185
+|switch|p2a: Salamence|Salamence, M|82/100 brn
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-heal|p2a: Salamence|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|75/100 brn|[from] brn
+|upkeep
+|turn|244
+|
+|t:|1727901191
+|switch|p1a: Swampert|Swampert, M|38/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-heal|p2a: Salamence|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|69/100 brn|[from] brn
+|-heal|p1a: Swampert|45/100|[from] item: Leftovers
+|upkeep
+|turn|245
+|
+|t:|1727901209
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Swampert|Roar|p2a: Salamence
+|drag|p2a: Suicune|Suicune|63/100 tox
+|
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|-heal|p1a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|246
+|
+|t:|1727901234
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|247
+|
+|t:|1727901242
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|248
+|
+|t:|1727901250
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Suicune|Suicune|63/100 tox
+|
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|upkeep
+|turn|249
+|
+|t:|1727901259
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Suicune|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|57/100 tox|[from] psn
+|-heal|p1a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|250
+|
+|t:|1727901269
+|switch|p2a: Salamence|Salamence, M|69/100 brn
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Salamence|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|63/100 brn|[from] brn
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|251
+|
+|t:|1727901280
+|switch|p2a: Suicune|Suicune|57/100 tox
+|switch|p1a: Swampert|Swampert, M|51/100
+|
+|-heal|p2a: Suicune|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|57/100 tox|[from] psn
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|252
+|
+|t:|1727901287
+|move|p2a: Suicune|Surf|p1a: Swampert
+|-damage|p1a: Swampert|21/100
+|move|p1a: Swampert|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|30/100 tox
+|
+|-heal|p2a: Suicune|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|24/100 tox|[from] psn
+|-heal|p1a: Swampert|27/100|[from] item: Leftovers
+|upkeep
+|turn|253
+|
+|t:|1727901294
+|switch|p1a: Blissey|Blissey, F|97/100
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|-heal|p2a: Suicune|30/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|11/100 tox|[from] psn
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|254
+|
+|t:|1727901304
+|switch|p2a: Salamence|Salamence, M|63/100 brn
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Flamethrower|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|52/100 brn
+|
+|-heal|p2a: Salamence|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|46/100 brn|[from] brn
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|255
+|
+|t:|1727901314
+|move|p2a: Salamence|Rock Slide|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|move|p1a: Blissey|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1727901319
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|256
+|
+|t:|1727901323
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|257
+|
+|t:|1727901327
+|switch|p2a: Suicune|Suicune|11/100 tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p2a: Suicune|17/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|11/100 tox|[from] psn
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|258
+|
+|t:|1727901330
+|move|p1a: Blissey|Flamethrower|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1727901333
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|259
+|
+|t:|1727901341
+|move|p1a: Blissey|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|88/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|260
+|
+|t:|1727901344
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|move|p2a: Blissey|Toxic|p1a: Blissey
+|-fail|p1a: Blissey|tox
+|
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|261
+|
+|t:|1727901348
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Blissey|Protect||[still]
+|-fail|p2a: Blissey
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|262
+|
+|t:|1727901350
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|263
+|
+|t:|1727901352
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|264
+|
+|t:|1727901354
+|move|p2a: Blissey|Protect||[still]
+|-fail|p2a: Blissey
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey|[miss]
+|-miss|p1a: Gengar|p2a: Blissey
+|
+|upkeep
+|turn|265
+|
+|t:|1727901358
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-activate|p2a: Blissey|Protect
+|
+|upkeep
+|turn|266
+|
+|t:|1727901360
+|move|p2a: Blissey|Protect||[still]
+|-fail|p2a: Blissey
+|move|p1a: Gengar|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|267
+|
+|t:|1727901365
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|78/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|71/100 brn|[from] brn
+|upkeep
+|turn|268
+|
+|t:|1727901367
+|move|p1a: Gengar|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|60/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|54/100 brn|[from] brn
+|upkeep
+|turn|269
+|
+|t:|1727901369
+|move|p1a: Gengar|Ice Punch|p2a: Blissey
+|-damage|p2a: Blissey|46/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|39/100 brn|[from] brn
+|upkeep
+|turn|270
+|
+|t:|1727901371
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|32/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|25/100 brn|[from] brn
+|upkeep
+|turn|271
+|
+|t:|1727901379
+|move|p1a: Gengar|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|17/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-heal|p2a: Blissey|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|11/100 brn|[from] brn
+|upkeep
+|turn|272
+|c|☆jeem16|ggwp honestly, crazy game bro!
+|c|☆ProfessorKid|not gonna lie i dont feel like this was a justified wini
+|c|☆ProfessorKid|for the game to be decided by crits is just dumb
+|inactive|ProfessorKid has 270 seconds left.
+|c|☆jeem16|some match ups are pretty bad annoyingly
+|c|☆ProfessorKid|ggwp, we are both skillful but for it to come to this
+|c|☆jeem16|and yeah crits are really annoying sometimes
+|inactive|ProfessorKid has 240 seconds left.
+|c|☆ProfessorKid|if i got the crit i would have felt equally cheated
+|-message|ProfessorKid forfeited.
+|
+|win|jeem16
+|player|p2|
+|c|☆jeem16|for sure, but that's the game I guess
+|c|☆jeem16|otherwise literally never ending
+|c|☆jeem16|I had fun, you're a good player, ggwp!
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794019">
+{"id":"smogtours-gen3ou-794019","format":"[Gen 3] OU","players":["jeem16","ProfessorKid"],"uploadtime":1727901460,"views":127,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

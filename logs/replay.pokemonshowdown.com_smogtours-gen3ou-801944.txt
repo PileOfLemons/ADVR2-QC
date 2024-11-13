@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: asbolus verrucosus vs. Drekt93 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between asbolus verrucosus and Drekt93! Format: [Gen 3] OU; Date: Oct 25, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-801944">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729892824
+|gametype|singles
+|player|p1|asbolus verrucosus|bugsy-gen2|
+|player|p2|Drekt93|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729892824
+|start
+|switch|p1a: Machamp|Machamp, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1729892840
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|2
+|
+|t:|1729892846
+|switch|p1a: Machamp|Machamp, F|100/100
+|move|p2a: Zapdos|Roar|p1a: Machamp
+|drag|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1729892854
+|switch|p1a: Machamp|Machamp, F|100/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Machamp
+|-status|p1a: Machamp|par
+|
+|upkeep
+|turn|4
+|
+|t:|1729892859
+|move|p2a: Zapdos|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|43/100 par
+|move|p1a: Machamp|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|18/100
+|
+|-heal|p2a: Zapdos|24/100|[from] item: Leftovers
+|-heal|p1a: Machamp|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1729892868
+|switch|p1a: Snorlax|Snorlax, M|100/100 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|72/100 par
+|
+|-heal|p2a: Zapdos|31/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1729892875
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|89/100
+|
+|-heal|p2a: Forretress|95/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1729892883
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|move|p2a: Forretress|Spikes|p1a: Houndoom
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729892890
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Houndoom|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1729892897
+|move|p1a: Houndoom|Beat Up|p2a: Blissey
+|-damage|p2a: Blissey|79/100 brn
+|-damage|p2a: Blissey|71/100 brn
+|-damage|p2a: Blissey|57/100 brn
+|-damage|p2a: Blissey|42/100 brn
+|-hitcount|p2a: Blissey|4
+|move|p2a: Blissey|Toxic|p1a: Houndoom
+|-status|p1a: Houndoom|tox
+|
+|-damage|p1a: Houndoom|94/100 tox|[from] psn
+|-heal|p2a: Blissey|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|35/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1729892909
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Houndoom|atk|1
+|move|p1a: Houndoom|Fire Blast|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|58/100
+|
+|-heal|p2a: Salamence|64/100|[from] item: Leftovers
+|-heal|p1a: Houndoom|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1729892930
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|-heal|p2a: Salamence|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729892939
+|switch|p2a: Blissey|Blissey, F|35/100
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|13/100
+|
+|-heal|p2a: Blissey|63/100|[from] move: Wish|[wisher] Salamence
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729892955
+|switch|p1a: Snorlax|Snorlax, M|84/100 par
+|-damage|p1a: Snorlax|72/100 par|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Snorlax|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1729892963
+|switch|p2a: Forretress|Forretress, F|100/100
+|switch|p1a: Houndoom|Houndoom, F|88/100 tox
+|-damage|p1a: Houndoom|76/100 tox|[from] Spikes
+|
+|-heal|p1a: Houndoom|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1729892971
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Houndoom|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-heal|p1a: Houndoom|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|70/100 tox|[from] psn
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1729892980
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|move|p2a: Blissey|Toxic|p1a: Breloom
+|-status|p1a: Breloom|tox
+|
+|-heal|p1a: Breloom|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|88/100 tox|[from] psn
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1729892989
+|move|p1a: Breloom|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|cant|p2a: Blissey|slp
+|
+|-heal|p1a: Breloom|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|82/100 tox|[from] psn
+|-heal|p2a: Blissey|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1729892997
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Breloom|Spore|p2a: Gengar
+|-status|p2a: Gengar|slp|[from] move: Spore
+|
+|-heal|p1a: Breloom|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1729893008
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|cant|p2a: Gengar|slp
+|
+|upkeep
+|turn|20
+|
+|t:|1729893014
+|switch|p2a: Blissey|Blissey, F|96/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729893029
+|switch|p1a: Snorlax|Snorlax, M|78/100 par
+|-damage|p1a: Snorlax|65/100 par|[from] Spikes
+|move|p2a: Blissey|Toxic|p1a: Snorlax|[miss]
+|-miss|p2a: Blissey|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1729893038
+|move|p2a: Blissey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|52/100 par
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729893046
+|switch|p2a: Gengar|Gengar, M|100/100 slp
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1729893060
+|switch|p1a: Houndoom|Houndoom, F|70/100 tox
+|-damage|p1a: Houndoom|57/100 tox|[from] Spikes
+|cant|p2a: Gengar|slp
+|
+|-heal|p1a: Houndoom|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|57/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1729893068
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Houndoom|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|10/100 slp
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Houndoom|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|51/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1729893077
+|switch|p2a: Salamence|Salamence, F|70/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Houndoom|atk|1
+|move|p1a: Houndoom|Will-O-Wisp|p2a: Salamence
+|-status|p2a: Salamence|brn
+|
+|-heal|p2a: Salamence|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|64/100 brn|[from] brn
+|-heal|p1a: Houndoom|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|39/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1729893091
+|move|p2a: Salamence|Wish|p2a: Salamence
+|move|p1a: Houndoom|Fire Blast|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|21/100 brn
+|
+|-heal|p2a: Salamence|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|14/100 brn|[from] brn
+|-heal|p1a: Houndoom|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Houndoom|20/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1729893104
+|move|p2a: Salamence|Dragon Claw|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|t:|1729893125
+|switch|p1a: Machamp|Machamp, F|49/100 par
+|-damage|p1a: Machamp|36/100 par|[from] Spikes
+|
+|-heal|p2a: Salamence|64/100 brn|[from] move: Wish|[wisher] Salamence
+|-heal|p2a: Salamence|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|58/100 brn|[from] brn
+|-heal|p1a: Machamp|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729893135
+|move|p2a: Salamence|Dragon Claw|p1a: Machamp
+|-damage|p1a: Machamp|2/100 par
+|move|p1a: Machamp|Rock Slide|p2a: Salamence|[miss]
+|-miss|p1a: Machamp|p2a: Salamence
+|
+|-heal|p2a: Salamence|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|52/100 brn|[from] brn
+|-heal|p1a: Machamp|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729893144
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-heal|p1a: Starmie|30/100|[from] item: Leftovers
+|-heal|p2a: Salamence|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Salamence|45/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1729893155
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|88/100
+|
+|-heal|p1a: Starmie|36/100|[from] item: Leftovers
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1729893163
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|86/100
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Aromatherapy
+|
+|-heal|p1a: Starmie|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1729893170
+|move|p1a: Starmie|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|-status|p2a: Blissey|frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|-heal|p2a: Blissey|95/100 frz|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729893180
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Forretress|[miss]
+|-miss|p1a: Starmie|p2a: Forretress
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729893190
+|move|p1a: Starmie|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|99/100
+|-sideend|p1: asbolus verrucosus|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Forretress|Spikes|p1a: Starmie
+|-sidestart|p1: asbolus verrucosus|Spikes
+|
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729893199
+|switch|p2a: Blissey|Blissey, F|95/100
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey|[miss]
+|-miss|p1a: Starmie|p2a: Blissey
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1729893205
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|98/100
+|-sideend|p1: asbolus verrucosus|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1729893215
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Breloom|Breloom, M|70/100 tox
+|switch|p2a: Salamence|Salamence, F|45/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|
+|-heal|p2a: Salamence|51/100|[from] item: Leftovers
+|-heal|p1a: Breloom|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|70/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1729893234
+|switch|p1a: Snorlax|Snorlax, M|64/100 par
+|move|p2a: Salamence|Wish|p2a: Salamence
+|
+|-heal|p2a: Salamence|57/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1729893243
+|switch|p2a: Gengar|Gengar, M|10/100
+|switch|p1a: Starmie|Starmie|94/100
+|
+|-heal|p2a: Gengar|60/100|[from] move: Wish|[wisher] Salamence
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Gengar|66/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1729893265
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|80/100
+|
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1729893276
+|switch|p1a: Breloom|Breloom, M|70/100 tox
+|move|p2a: Blissey|Toxic|p1a: Breloom
+|-fail|p1a: Breloom|tox
+|
+|-heal|p1a: Breloom|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|70/100 tox|[from] psn
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1729893284
+|move|p1a: Breloom|Sky Uppercut|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1729893293
+|switch|p2a: Salamence|Salamence, F|57/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|
+|-heal|p2a: Salamence|63/100|[from] item: Leftovers
+|-heal|p1a: Breloom|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|64/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1729893300
+|move|p2a: Salamence|Hidden Power|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|43/100 tox
+|move|p1a: Breloom|Spore|p2a: Salamence
+|-status|p2a: Salamence|slp|[from] move: Spore
+|
+|-heal|p2a: Salamence|69/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|31/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1729893310
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|cant|p2a: Salamence|slp
+|
+|-heal|p2a: Salamence|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1729893317
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|47
+|
+|t:|1729893326
+|switch|p1a: Machamp|Machamp, F|8/100 par
+|move|p2a: Forretress|Explosion|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p2a: Forretress
+|faint|p1a: Machamp
+|
+|t:|1729893333
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Salamence|Salamence, F|75/100 slp
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|
+|-heal|p2a: Salamence|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1729893340
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Swampert
+|-damage|p2a: Swampert|75/100
+|
+|-heal|p2a: Swampert|82/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1729893348
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|79/100
+|
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|-heal|p2a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1729893359
+|switch|p1a: Snorlax|Snorlax, M|70/100 par
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1729893369
+|switch|p2a: Zapdos|Zapdos|31/100
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-heal|p2a: Zapdos|37/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1729893377
+|move|p1a: Starmie|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|t:|1729893384
+|switch|p2a: Swampert|Swampert, F|94/100
+|
+|-heal|p2a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1729893411
+|move|p1a: Starmie|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|52/100
+|move|p2a: Swampert|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|87/100
+|
+|-heal|p1a: Starmie|93/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1729893420
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Starmie|Ice Beam|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-heal|p1a: Starmie|99/100|[from] item: Leftovers
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1729893428
+|move|p2a: Swampert|Protect||[still]
+|-fail|p2a: Swampert
+|move|p1a: Starmie|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|14/100
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|20/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1729893438
+|move|p1a: Starmie|Ice Beam|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1729893444
+|switch|p2a: Gengar|Gengar, M|66/100
+|
+|-heal|p2a: Gengar|73/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1729893449
+|move|p1a: Starmie|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|39/100
+|move|p2a: Gengar|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Starmie
+|
+|t:|1729893455
+|switch|p1a: Salamence|Salamence, F|85/100
+|switch|p2a: Salamence|Salamence, F|81/100 slp
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|
+|-heal|p2a: Salamence|88/100 slp|[from] item: Leftovers
+|-heal|p1a: Salamence|91/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1729893463
+|cant|p2a: Salamence|slp
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p1a: Salamence|97/100|[from] item: Leftovers
+|-heal|p2a: Salamence|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1729893470
+|move|p1a: Salamence|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|14/100 slp
+|cant|p2a: Salamence|slp
+|
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Salamence|20/100 slp|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1729893478
+|move|p1a: Salamence|Hidden Power|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|asbolus verrucosus
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-801944">
+{"id":"smogtours-gen3ou-801944","format":"[Gen 3] OU","players":["asbolus verrucosus","Drekt93"],"uploadtime":1729893478,"views":76,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

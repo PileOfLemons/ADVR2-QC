@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: themessiah1 vs. swordpeaceAD - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between themessiah1 and swordpeaceAD! Format: [Gen 3] OU; Date: Oct 20, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-800432">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1729437865
+|gametype|singles
+|player|p1|themessiah1|2|
+|player|p2|swordpeaceAD|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1729437865
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|1
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1729437923
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729437925
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from] Baton Pass
+|move|p2a: Heracross|Rock Slide|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|46/100
+|
+|upkeep
+|turn|2
+|
+|t:|1729437938
+|move|p1a: Dugtrio|Aerial Ace|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|t:|1729437955
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1729437967
+|move|p2a: Dugtrio|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|t:|1729437977
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1729437990
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Zapdos|Baton Pass|p1a: Zapdos
+|
+|t:|1729438008
+|switch|p1a: Metagross|Metagross|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|5
+|
+|t:|1729438023
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Moltres|[miss]
+|-miss|p1a: Metagross|p2a: Moltres
+|
+|upkeep
+|turn|6
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1729438071
+|switch|p1a: Raikou|Raikou|100/100
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|75/100
+|
+|-heal|p2a: Moltres|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|swordpeaceAD has 270 seconds left.
+|
+|t:|1729438109
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76/100
+|
+|-heal|p1a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1729438130
+|move|p1a: Raikou|Hidden Power|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|12/100
+|move|p2a: Dugtrio|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|swordpeaceAD has 240 seconds left.
+|
+|t:|1729438152
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Raikou|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-heal|p1a: Raikou|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1729438161
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1729438173
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Metagross|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|91/100
+|
+|-heal|p2a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1729438181
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Swampert|Toxic|p1a: Breloom
+|-status|p1a: Breloom|tox
+|
+|-damage|p1a: Breloom|94/100 tox|[from] psn
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1729438200
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|62/100
+|
+|-heal|p2a: Celebi|68/100|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1729438224
+|switch|p1a: Raikou|Raikou|94/100
+|move|p2a: Celebi|Leech Seed|p1a: Raikou
+|-start|p1a: Raikou|move: Leech Seed
+|
+|-heal|p1a: Raikou|100/100|[from] item: Leftovers
+|-damage|p1a: Raikou|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|79/100|[silent]
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1729438238
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Celebi|Psychic|p1a: Metagross
+|-resisted|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|82/100
+|
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|-heal|p1a: Metagross|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|swordpeaceAD has 240 seconds left.
+|
+|t:|1729438271
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|81/100
+|
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|themessiah1 has 270 seconds left.
+|inactive|swordpeaceAD has 210 seconds left.
+|
+|t:|1729438313
+|move|p1a: Metagross|Rock Slide|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|78/100
+|move|p2a: Swampert|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|84/100
+|
+|-heal|p1a: Metagross|90/100|[from] item: Leftovers
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|themessiah1 has 270 seconds left.
+|inactive|themessiah1 has 240 seconds left.
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729438367
+|move|p1a: Metagross|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|59/100
+|move|p2a: Swampert|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|80/100
+|
+|-heal|p1a: Metagross|86/100|[from] item: Leftovers
+|-heal|p2a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1729438376
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Swampert|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|87/100
+|
+|-heal|p1a: Suicune|93/100|[from] item: Leftovers
+|-heal|p2a: Swampert|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729438392
+|move|p1a: Suicune|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729438406
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1729438413
+|switch|p1a: Metagross|Metagross|86/100
+|switch|p2a: Moltres|Moltres|82/100
+|
+|-heal|p2a: Moltres|88/100|[from] item: Leftovers
+|-heal|p1a: Metagross|92/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|themessiah1 has 240 seconds left.
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729438455
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|63/100
+|
+|-heal|p2a: Moltres|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1729438459
+|move|p1a: Zapdos|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|move|p2a: Moltres|Flamethrower|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|
+|-heal|p1a: Zapdos|49/100|[from] item: Leftovers
+|-heal|p2a: Moltres|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|swordpeaceAD has 180 seconds left.
+|
+|t:|1729438503
+|switch|p2a: Celebi|Celebi|91/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|70/100
+|
+|-heal|p1a: Zapdos|55/100|[from] item: Leftovers
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1729438541
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|34/100
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-heal|p1a: Zapdos|61/100|[from] item: Leftovers
+|-heal|p2a: Celebi|40/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|49/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|52/100|[silent]
+|upkeep
+|turn|26
+|inactive|swordpeaceAD has 150 seconds left.
+|
+|t:|1729438578
+|switch|p1a: Raikou|Raikou|88/100
+|move|p2a: Celebi|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|66/100
+|
+|-heal|p1a: Raikou|72/100|[from] item: Leftovers
+|-heal|p2a: Celebi|58/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|swordpeaceAD has 120 seconds left.
+|
+|t:|1729438626
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Celebi|Psychic|p1a: Raikou
+|-damage|p1a: Raikou|44/100
+|
+|-heal|p1a: Raikou|50/100|[from] item: Leftovers
+|-heal|p2a: Celebi|64/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1729438634
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|25/100
+|move|p2a: Celebi|Leech Seed||[still]
+|-fail|p2a: Celebi
+|
+|-heal|p1a: Raikou|31/100|[from] item: Leftovers
+|-heal|p2a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1729438638
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|37/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1729438641
+|move|p1a: Raikou|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p1a: Raikou|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|swordpeaceAD has 120 seconds left.
+|
+|t:|1729438654
+|switch|p1a: Metagross|Metagross|92/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Metagross|98/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|swordpeaceAD has 120 seconds left.
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1729438691
+|switch|p2a: Moltres|Moltres|75/100
+|move|p1a: Metagross|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1729438695
+|switch|p2a: Dugtrio|Dugtrio, F|12/100
+|
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|themessiah1 has 210 seconds left.
+|
+|t:|1729438700
+|move|p2a: Dugtrio|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|19/100
+|move|p1a: Metagross|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729438737
+|switch|p2a: Blissey|Blissey, F|73/100
+|
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|-heal|p1a: Metagross|25/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1729438748
+|switch|p1a: Breloom|Breloom, F|88/100 tox
+|move|p2a: Blissey|Thunderbolt|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|70/100 tox
+|
+|-heal|p1a: Breloom|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|70/100 tox|[from] psn
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1729438757
+|move|p1a: Breloom|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|cant|p2a: Blissey|slp
+|
+|-heal|p1a: Breloom|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|64/100 tox|[from] psn
+|-heal|p2a: Blissey|91/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1729438762
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Celebi|Celebi|70/100
+|move|p1a: Breloom|Spore|p2a: Celebi
+|-status|p2a: Celebi|slp|[from] move: Spore
+|
+|-heal|p2a: Celebi|76/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|52/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1729438772
+|-singleturn|p1a: Breloom|move: Focus Punch
+|cant|p2a: Celebi|slp
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|41/100 slp
+|
+|-heal|p2a: Celebi|47/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|33/100 tox|[from] psn
+|upkeep
+|turn|38
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729438805
+|-curestatus|p2a: Celebi|slp|[msg]
+|move|p2a: Celebi|Psychic|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|t:|1729438809
+|switch|p1a: Suicune|Suicune|99/100
+|
+|-heal|p2a: Celebi|53/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729438819
+|move|p2a: Celebi|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|8/100
+|-heal|p2a: Celebi|97/100|[from] drain|[of] p1a: Suicune
+|move|p1a: Suicune|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|43/100
+|
+|-heal|p2a: Celebi|49/100|[from] item: Leftovers
+|-heal|p1a: Suicune|14/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729438836
+|move|p2a: Celebi|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-heal|p2a: Celebi|56/100|[from] drain|[of] p1a: Suicune
+|faint|p1a: Suicune
+|
+|t:|1729438838
+|switch|p1a: Zapdos|Zapdos|49/100
+|
+|-heal|p2a: Celebi|62/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|55/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|swordpeaceAD has 90 seconds left.
+|
+|t:|1729438874
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|18/100
+|move|p2a: Celebi|Hidden Power|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|14/100
+|
+|-heal|p2a: Celebi|24/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|20/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|themessiah1 has 270 seconds left.
+|
+|t:|1729438898
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|t:|1729438902
+|switch|p2a: Blissey|Blissey, F|91/100
+|
+|-heal|p1a: Zapdos|26/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|14/100|[from] Leech Seed|[of] p2a: Blissey
+|-heal|p2a: Blissey|98/100|[silent]
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆themessiah1|gg
+|inactive|swordpeaceAD has 60 seconds left.
+|
+|t:|1729438947
+|move|p1a: Zapdos|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p1a: Zapdos|20/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|8/100|[from] Leech Seed|[of] p2a: Blissey
+|upkeep
+|turn|44
+|inactive|swordpeaceAD has 30 seconds left.
+|
+|t:|1729438965
+|move|p1a: Zapdos|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|88/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1729438968
+|switch|p1a: Metagross|Metagross|25/100
+|
+|-heal|p1a: Metagross|32/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1729438970
+|move|p1a: Metagross|Explosion|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Blissey
+|
+|win|themessiah1
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-800432">
+{"id":"smogtours-gen3ou-800432","format":"[Gen 3] OU","players":["themessiah1","swordpeaceAD"],"uploadtime":1729438970,"views":108,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

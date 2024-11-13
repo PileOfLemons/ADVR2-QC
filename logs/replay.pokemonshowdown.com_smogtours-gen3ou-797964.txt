@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: aahaahaah vs. FunkyCop1998 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between aahaahaah and FunkyCop1998! Format: [Gen 3] OU; Date: Oct 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-797964">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1728806815
+|gametype|singles
+|player|p1|aahaahaah|101|
+|player|p2|FunkyCop1998|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1728806815
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|c|☆FunkyCop1998|gl hf
+|c|☆aahaahaah|u2
+|
+|t:|1728806828
+|switch|p2a: Armaldo|Armaldo, F|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Armaldo
+|-damage|p2a: Armaldo|87/100
+|
+|-heal|p2a: Armaldo|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1728806835
+|move|p1a: Jirachi|Toxic|p2a: Armaldo|[miss]
+|-miss|p1a: Jirachi|p2a: Armaldo
+|move|p2a: Armaldo|Knock Off|p1a: Jirachi
+|-damage|p1a: Jirachi|98/100
+|-enditem|p1a: Jirachi|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-heal|p2a: Armaldo|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1728806846
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Jirachi|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: Jirachi|p2a: Blissey
+|
+|upkeep
+|turn|4
+|
+|t:|1728806859
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Armaldo|Armaldo, F|99/100
+|
+|-heal|p2a: Armaldo|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1728806866
+|switch|p1a: Jirachi|Jirachi|98/100
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1728806881
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1728806888
+|switch|p2a: Armaldo|Armaldo, F|100/100
+|move|p1a: Celebi|Leech Seed|p2a: Armaldo
+|-start|p2a: Armaldo|move: Leech Seed
+|
+|-damage|p2a: Armaldo|88/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|8
+|
+|t:|1728806897
+|switch|p1a: Jirachi|Jirachi|66/100
+|move|p2a: Armaldo|Knock Off|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|60/100
+|
+|-heal|p2a: Armaldo|94/100|[from] item: Leftovers
+|-damage|p2a: Armaldo|82/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|71/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1728806906
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1728806912
+|switch|p2a: Armaldo|Armaldo, F|82/100
+|move|p1a: Skarmory|Spikes|p2a: Armaldo
+|-sidestart|p2: FunkyCop1998|Spikes
+|
+|-heal|p2a: Armaldo|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1728806917
+|switch|p1a: Jirachi|Jirachi|71/100
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|38/100
+|
+|-heal|p2a: Armaldo|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1728806924
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Armaldo|Knock Off|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|32/100
+|
+|-heal|p2a: Armaldo|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1728806930
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Armaldo|Knock Off|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|82/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|14
+|
+|t:|1728806938
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Jirachi|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|upkeep
+|turn|15
+|
+|t:|1728806943
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Jirachi|Fire Punch|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1728806956
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Jirachi|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1728806963
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Claydol|Psychic|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|92/100
+|
+|-heal|p1a: Celebi|98/100|[from] item: Leftovers
+|-heal|p2a: Claydol|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1728806968
+|switch|p2a: Armaldo|Armaldo, F|100/100
+|-damage|p2a: Armaldo|88/100|[from] Spikes
+|move|p1a: Celebi|Hidden Power|p2a: Armaldo
+|-damage|p2a: Armaldo|69/100
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1728806975
+|switch|p1a: Jirachi|Jirachi|82/100
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|
+|-heal|p2a: Armaldo|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1728806993
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100
+|
+|-heal|p2a: Armaldo|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1728807004
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|64/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|22
+|
+|t:|1728807009
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1728807015
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1728807021
+|switch|p2a: Claydol|Claydol|88/100 tox
+|move|p1a: Jirachi|Fire Punch|p2a: Claydol
+|-damage|p2a: Claydol|76/100 tox
+|
+|-heal|p2a: Claydol|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1728807024
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Claydol|Rapid Spin|p1a: Celebi
+|-damage|p1a: Celebi|86/100
+|-sideend|p2: FunkyCop1998|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|-heal|p2a: Claydol|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|70/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1728807036
+|switch|p2a: Armaldo|Armaldo, F|88/100
+|move|p1a: Celebi|Hidden Power|p2a: Armaldo
+|-damage|p2a: Armaldo|65/100
+|
+|-heal|p1a: Celebi|98/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|72/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1728807055
+|switch|p1a: Milotic|Milotic, M|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Armaldo|Knock Off|p1a: Milotic
+|-damage|p1a: Milotic|86/100
+|-enditem|p1a: Milotic|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|78/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1728807071
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Milotic|Surf|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1728807079
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1728807086
+|switch|p2a: Claydol|Claydol|70/100 tox
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: FunkyCop1998|Spikes
+|
+|-heal|p2a: Claydol|100/100 tox|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1728807103
+|switch|p2a: Armaldo|Armaldo, F|78/100
+|-damage|p2a: Armaldo|65/100|[from] Spikes
+|move|p1a: Skarmory|Roar|p2a: Armaldo
+|drag|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1728807114
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: FunkyCop1998|Spikes
+|move|p2a: Metagross|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|
+|-heal|p1a: Skarmory|46/100|[from] item: Leftovers
+|-heal|p2a: Metagross|99/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1728807122
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|52/100|[from] item: Leftovers
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1728807128
+|switch|p1a: Milotic|Milotic, M|86/100
+|-damage|p1a: Milotic|73/100|[from] Spikes
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|46/100
+|
+|upkeep
+|turn|35
+|
+|t:|1728807134
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|96/100
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|68/100
+|
+|upkeep
+|turn|36
+|
+|t:|1728807147
+|move|p1a: Milotic|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|66/100
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|40/100
+|
+|-heal|p2a: Metagross|72/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1728807163
+|switch|p2a: Blissey|Blissey, F|88/100
+|-damage|p2a: Blissey|71/100|[from] Spikes
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|90/100
+|
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1728807172
+|switch|p1a: Celebi|Celebi|98/100
+|-damage|p1a: Celebi|86/100|[from] Spikes
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1728807180
+|switch|p2a: Armaldo|Armaldo, F|65/100
+|-damage|p2a: Armaldo|49/100|[from] Spikes
+|move|p1a: Celebi|Leech Seed|p2a: Armaldo
+|-start|p2a: Armaldo|move: Leech Seed
+|
+|-heal|p2a: Armaldo|99/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Celebi|98/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|100/100|[from] item: Leftovers
+|-damage|p2a: Armaldo|88/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|100/100|[silent]
+|upkeep
+|turn|40
+|
+|t:|1728807203
+|switch|p1a: Jirachi|Jirachi|64/100
+|-damage|p1a: Jirachi|52/100|[from] Spikes
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|67/100|[from] Spikes
+|
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1728807211
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|27/100
+|
+|-heal|p2a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1728807215
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Jirachi|77/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1728807236
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Metagross|Metagross|72/100
+|-damage|p2a: Metagross|55/100|[from] Spikes
+|
+|-heal|p2a: Metagross|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|44
+|
+|t:|1728807254
+|switch|p1a: Jirachi|Jirachi|77/100
+|-damage|p1a: Jirachi|65/100|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, M|79/100
+|
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1728807262
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1728807270
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Armaldo|Armaldo, F|88/100
+|-damage|p2a: Armaldo|71/100|[from] Spikes
+|
+|-heal|p2a: Armaldo|78/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1728807277
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|move|p2a: Armaldo|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|78/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|84/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1728807286
+|move|p1a: Celebi|Leech Seed|p2a: Armaldo
+|-start|p2a: Armaldo|move: Leech Seed
+|move|p2a: Armaldo|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1728807291
+|switch|p1a: Jirachi|Jirachi|65/100
+|-damage|p1a: Jirachi|48/100|[from] Spikes
+|
+|-heal|p2a: Armaldo|90/100|[from] item: Leftovers
+|-damage|p2a: Armaldo|78/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|59/100|[silent]
+|upkeep
+|turn|49
+|
+|t:|1728807301
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|26/100
+|
+|-heal|p2a: Armaldo|84/100|[from] item: Leftovers
+|-damage|p2a: Armaldo|71/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|37/100|[silent]
+|upkeep
+|turn|50
+|
+|t:|1728807310
+|switch|p2a: Skarmory|Skarmory, M|58/100
+|move|p1a: Jirachi|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p1a: Jirachi|87/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1728807313
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1728807318
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|-sideend|p1: aahaahaah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|76/100
+|
+|-heal|p1a: Claydol|83/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1728807325
+|switch|p1a: Jirachi|Jirachi|87/100
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1728807329
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1728807344
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1728807349
+|switch|p2a: Claydol|Claydol|94/100 tox
+|move|p1a: Jirachi|Fire Punch|p2a: Claydol
+|-damage|p2a: Claydol|83/100 tox
+|
+|-heal|p2a: Claydol|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|83/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1728807355
+|switch|p1a: Milotic|Milotic, M|90/100
+|-damage|p1a: Milotic|74/100|[from] Spikes
+|move|p2a: Claydol|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|71/100
+|-sideend|p2: FunkyCop1998|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-heal|p2a: Claydol|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1728807363
+|switch|p2a: Blissey|Blissey, F|85/100
+|move|p1a: Milotic|Surf|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1728807373
+|switch|p1a: Claydol|Claydol|83/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1728807387
+|switch|p2a: Skarmory|Skarmory, M|55/100
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|53/100
+|-sideend|p1: aahaahaah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Claydol|95/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1728807397
+|switch|p1a: Skarmory|Skarmory, F|52/100
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p1a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1728807403
+|switch|p2a: Armaldo|Armaldo, F|71/100
+|move|p1a: Skarmory|Spikes|p2a: Armaldo
+|-sidestart|p2: FunkyCop1998|Spikes
+|
+|-heal|p1a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|78/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1728807410
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Armaldo|Earthquake|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|70/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|84/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1728807432
+|switch|p1a: Jirachi|Jirachi|87/100
+|-damage|p1a: Jirachi|75/100|[from] Spikes
+|move|p2a: Armaldo|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|65/100
+|
+|-heal|p2a: Armaldo|90/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1728807452
+|move|p1a: Jirachi|Toxic|p2a: Armaldo|[miss]
+|-miss|p1a: Jirachi|p2a: Armaldo
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|33/100
+|
+|-heal|p2a: Armaldo|96/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1728807464
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Armaldo|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1728807483
+|switch|p1a: Milotic|Milotic, M|71/100
+|-damage|p1a: Milotic|58/100|[from] Spikes
+|
+|-heal|p2a: Armaldo|100/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1728807494
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|71/100|[from] Spikes
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1728807500
+|switch|p1a: Skarmory|Skarmory, F|70/100
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|
+|-heal|p1a: Skarmory|46/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1728807507
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: FunkyCop1998|Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|
+|-heal|p1a: Skarmory|22/100|[from] item: Leftovers
+|-heal|p2a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1728807511
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|28/100|[from] item: Leftovers
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1728807523
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1728807531
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100
+|
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1728807550
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|84/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|71/100
+|
+|-heal|p2a: Metagross|100/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1728807561
+|switch|p1a: Milotic|Milotic, M|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|72/100
+|
+|upkeep
+|turn|75
+|
+|t:|1728807570
+|move|p1a: Milotic|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|67/100
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+|-unboost|p1a: Milotic|spd|1
+|
+|-heal|p2a: Metagross|73/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1728807580
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|94/100
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|51/100
+|
+|-heal|p2a: Metagross|79/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1728807593
+|switch|p1a: Blissey|Blissey, F|91/100
+|-damage|p1a: Blissey|79/100|[from] Spikes
+|move|p2a: Metagross|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|
+|-heal|p2a: Metagross|85/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1728807601
+|switch|p1a: Milotic|Milotic, M|51/100
+|-damage|p1a: Milotic|39/100|[from] Spikes
+|move|p2a: Metagross|Meteor Mash|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|23/100
+|
+|-heal|p2a: Metagross|91/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|inactive|FunkyCop1998 has 270 seconds left.
+|
+|t:|1728807647
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|73/100
+|
+|upkeep
+|turn|80
+|
+|t:|1728807654
+|move|p1a: Milotic|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1728807661
+|switch|p1a: Skarmory|Skarmory, F|28/100
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|34/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1728807668
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|84/100|[from] Spikes
+|
+|-heal|p2a: Suicune|90/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|40/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1728807676
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Suicune|96/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|inactive|aahaahaah has 270 seconds left.
+|
+|t:|1728807710
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|6/100
+|move|p1a: Skarmory|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1728807716
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|-heal|p1a: Skarmory|18/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1728807720
+|switch|p1a: Blissey|Blissey, F|68/100
+|-damage|p1a: Blissey|43/100|[from] Spikes
+|move|p2a: Suicune|Surf|p1a: Blissey
+|-damage|p1a: Blissey|23/100
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|76/100 tox|[from] psn
+|-heal|p1a: Blissey|29/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1728807726
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|79/100
+|
+|-heal|p2a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|57/100 tox|[from] psn
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1728807731
+|move|p1a: Blissey|Seismic Toss|p2a: Suicune
+|-damage|p2a: Suicune|32/100 tox
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Milotic|Milotic, M|73/100
+|-damage|p1a: Milotic|48/100|[from] Spikes
+|
+|-heal|p2a: Suicune|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|8/100 tox|[from] psn
+|upkeep
+|turn|89
+|
+|t:|1728807742
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Milotic|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|78/100 slp
+|
+|-heal|p2a: Suicune|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1728807747
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|98/100
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1728807751
+|switch|p1a: Blissey|Blissey, F|85/100
+|-damage|p1a: Blissey|61/100|[from] Spikes
+|cant|p2a: Suicune|slp
+|
+|-heal|p2a: Suicune|96/100 slp|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1728807758
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-heal|p2a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1728807767
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Blissey|Seismic Toss|p2a: Suicune
+|-damage|p2a: Suicune|70/100 tox
+|
+|-heal|p2a: Suicune|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1728807774
+|move|p1a: Blissey|Seismic Toss|p2a: Suicune
+|-damage|p2a: Suicune|39/100 tox
+|move|p2a: Suicune|Roar|p1a: Blissey
+|drag|p1a: Skarmory|Skarmory, F|18/100
+|
+|-heal|p2a: Suicune|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|26/100 tox|[from] psn
+|-heal|p1a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1728807789
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Suicune|Surf|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p2a: Suicune|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|8/100 tox|[from] psn
+|-heal|p1a: Skarmory|30/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1728807798
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|move|p1a: Skarmory|Roar|p2a: Suicune
+|drag|p2a: Armaldo|Armaldo, F|100/100
+|-damage|p2a: Armaldo|84/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|36/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|90/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1728807808
+|switch|p1a: Milotic|Milotic, M|98/100
+|-damage|p1a: Milotic|73/100|[from] Spikes
+|move|p2a: Armaldo|Knock Off|p1a: Milotic
+|-damage|p1a: Milotic|71/100
+|
+|-heal|p2a: Armaldo|96/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1728807818
+|switch|p2a: Blissey|Blissey, F|91/100
+|-damage|p2a: Blissey|75/100|[from] Spikes
+|move|p1a: Milotic|Surf|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|
+|-heal|p2a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1728807823
+|switch|p1a: Claydol|Claydol|95/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1728807833
+|move|p1a: Claydol|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|96/100
+|-sideend|p1: aahaahaah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Blissey|Ice Beam|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|57/100
+|
+|-heal|p1a: Claydol|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1728807843
+|switch|p1a: Blissey|Blissey, F|79/100
+|switch|p2a: Skarmory|Skarmory, M|82/100
+|
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1728807849
+|switch|p1a: Skarmory|Skarmory, F|36/100
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1728807853
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Claydol|Claydol|76/100 tox
+|
+|-heal|p2a: Claydol|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1728807864
+|switch|p2a: Metagross|Metagross|91/100
+|-damage|p2a: Metagross|75/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: FunkyCop1998|Spikes
+|
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p2a: Metagross|81/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1728807870
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Hidden Power|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|-heal|p2a: Metagross|87/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1728807876
+|switch|p1a: Milotic|Milotic, M|71/100
+|-damage|p1a: Milotic|54/100|[from] Spikes
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|24/100
+|
+|-heal|p2a: Metagross|93/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|inactive|FunkyCop1998 has 270 seconds left.
+|
+|t:|1728807920
+|switch|p1a: Claydol|Claydol|63/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|
+|-heal|p1a: Claydol|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1728807927
+|move|p1a: Claydol|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|-sideend|p1: aahaahaah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Blissey|Ice Beam|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|26/100
+|
+|-heal|p1a: Claydol|33/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|109
+|inactive|FunkyCop1998 has 270 seconds left.
+|
+|t:|1728807939
+|switch|p1a: Milotic|Milotic, M|24/100
+|switch|p2a: Skarmory|Skarmory, M|94/100
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1728807943
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|74/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1728807950
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|58/100|[from] Spikes
+|move|p1a: Milotic|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|51/100
+|
+|-heal|p2a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1728807958
+|switch|p1a: Skarmory|Skarmory, F|60/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1728807966
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1728807970
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Suicune|Suicune|100/100 slp
+|-damage|p2a: Suicune|75/100 slp|[from] Spikes
+|
+|-heal|p2a: Suicune|82/100 slp|[from] item: Leftovers
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1728807979
+|cant|p2a: Suicune|slp
+|move|p1a: Skarmory|Roar|p2a: Suicune
+|drag|p2a: Armaldo|Armaldo, F|96/100
+|-damage|p2a: Armaldo|71/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|54/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|78/100|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1728807990
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Armaldo|Rock Slide|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|84/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1728808006
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Skarmory|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p1a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1728808009
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|move|p1a: Skarmory|Roar|p2a: Skarmory
+|drag|p2a: Claydol|Claydol|76/100 tox
+|
+|-heal|p2a: Claydol|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Claydol|76/100 tox|[from] psn
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1728808016
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|-sideend|p2: FunkyCop1998|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Roar|p2a: Claydol
+|drag|p2a: Armaldo|Armaldo, F|84/100
+|
+|-heal|p1a: Skarmory|77/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|90/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1728808037
+|switch|p1a: Milotic|Milotic, M|74/100
+|-damage|p1a: Milotic|58/100|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|121
+|
+|t:|1728808045
+|move|p1a: Milotic|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|move|p2a: Skarmory|Spikes|p1a: Milotic
+|-sidestart|p1: aahaahaah|Spikes
+|
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1728808056
+|move|p1a: Milotic|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|37/100
+|move|p2a: Skarmory|Roar|p1a: Milotic
+|drag|p1a: Claydol|Claydol|33/100
+|
+|-heal|p1a: Claydol|39/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|43/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1728808063
+|move|p1a: Claydol|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|41/100
+|-sideend|p1: aahaahaah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|move|p2a: Skarmory|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|13/100
+|
+|-heal|p1a: Claydol|20/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1728808078
+|switch|p1a: Skarmory|Skarmory, F|77/100
+|switch|p2a: Armaldo|Armaldo, F|90/100
+|
+|-heal|p1a: Skarmory|83/100|[from] item: Leftovers
+|-heal|p2a: Armaldo|96/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1728808094
+|switch|p2a: Skarmory|Skarmory, M|47/100
+|move|p1a: Skarmory|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|53/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1728808098
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: aahaahaah|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: FunkyCop1998|Spikes
+|
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1728808108
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: FunkyCop1998|Spikes
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Milotic|Milotic, M|58/100
+|-damage|p1a: Milotic|45/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1728808114
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Milotic|Hidden Power|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1728808119
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|95/100
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1728808126
+|switch|p1a: Skarmory|Skarmory, F|95/100
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1728808135
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Metagross|Metagross|93/100
+|-damage|p2a: Metagross|76/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|48/100|[from] item: Leftovers
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1728808144
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-heal|p1a: Skarmory|53/100|[from] item: Leftovers
+|-heal|p2a: Metagross|88/100|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1728808156
+|move|p1a: Skarmory|Spikes|p2a: Metagross
+|-sidestart|p2: FunkyCop1998|Spikes
+|move|p2a: Metagross|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1728808164
+|switch|p1a: Milotic|Milotic, M|95/100
+|-damage|p1a: Milotic|83/100|[from] Spikes
+|
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1728808178
+|move|p1a: Milotic|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|59/100
+|move|p2a: Metagross|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|52/100
+|
+|-heal|p2a: Metagross|65/100|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1728808188
+|move|p1a: Milotic|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|32/100
+|move|p2a: Metagross|Explosion|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p2a: Metagross
+|faint|p1a: Milotic
+|c|☆aahaahaah|gg
+|-message|aahaahaah forfeited.
+|
+|win|FunkyCop1998
+|c|☆FunkyCop1998|gg im sorry about those toxic misses and the crit
+|c|☆aahaahaah|it is annoying
+|c|☆aahaahaah|but its part of the game not your fault
+|c|☆FunkyCop1998|yeah those toxics wouldve made a huge difference
+|c|☆FunkyCop1998|since it was early on
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797964">
+{"id":"smogtours-gen3ou-797964","format":"[Gen 3] OU","players":["aahaahaah","FunkyCop1998"],"uploadtime":1728808200,"views":72,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>
