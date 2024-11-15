@@ -356,8 +356,16 @@ class Lemons:
             game_list = row['game_list']
 
             # Check if game_list contains 'act' and skip if it does
-            if game_list.strip().lower() == 'act':
-                num_players_list.append(0)
+            try:
+                # Check if game_list contains 'act' and skip if it does
+                if game_list.strip().lower() == 'act':
+                    num_players_list.append(0)
+                    continue
+            except AttributeError:
+
+                self.add_to_log(
+                    f"AttributeError: game_list value is {game_list}, which is of type {type(game_list)} \n Problematic row:\n{row}")
+                num_players_list.append(99)
                 continue
 
             # Split game_list into individual game IDs
@@ -437,7 +445,10 @@ if __name__ == "__main__":
 
     # Call the function with the path to your Excel file
     # noinspection SpellCheckingInspection
-    sheet_id = '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
+    test = True
+    sheet_id = '1VAFXclvNu1edSAI0XbGX_iGAEehXNDWLA9xgnFvGLbM' if test else '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
+
+    lemon.add_to_log(f"Test: {test} Sheet ID: {sheet_id}")
     sheet_name = "current.xlsx"
     boo = True
     if boo:
@@ -475,9 +486,10 @@ if __name__ == "__main__":
 888 "Y8888 888  888  888 "Y88P" 888  888     
 
     '''
-# TODO Add way to just pass dataframes around and only save/ access csvs once
-# TODO stop passing file paths around. just put all that up in the init
-# TODO make it so anytime something is passed to the log. if its empty there is a way to store that as well. So empty logs dont have to be joined with it.
-# TODO Fix the Failed to retrieve log from https://match.conceeded.to.pkLeech: with some kind of whitelist or something. its annoying
+# TODO Add way to just pass dataframes around and only save/ access csvs once TODO stop passing file paths around.
+#  just put all that up in the init TODO make it so anytime something is passed to the log. if its empty there is a
+#   way to store that as well. So empty logs dont have to be joined with it. TODO Fix the Failed to retrieve log from
+#    https://match.conceeded.to.pkLeech: with some kind of whitelist or something. its annoying
 
 # TODO stop the blank html file being downloaded in logs called http. I think its from blank line at end of importer?
+#  TODO have it check to see if there are any more games or whatever and report how many games have been added

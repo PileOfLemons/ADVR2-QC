@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: OOF_MAXIMA vs. Pak - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between OOF_MAXIMA and Pak! Format: [Gen 3] OU; Date: Nov 12, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806112">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731450889
+|gametype|singles
+|player|p1|OOF_MAXIMA|cress|
+|player|p2|Pak|#pak|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731450889
+|start
+|switch|p1a: sandy goober|Tyranitar, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: sandy goober
+|turn|1
+|c|☆Pak|hf
+|c|☆OOF_MAXIMA|one sec lemme link
+|c|☆OOF_MAXIMA|Gl hf
+|inactive|Pak has 270 seconds left.
+|
+|t:|1731450922
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1731450923
+|switch|p2a: Metagross|Metagross|100/100|[from] Baton Pass
+|move|p1a: sandy goober|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1731450946
+|switch|p1a: metal goober|Metagross|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: metal goober
+|-resisted|p1a: metal goober
+|-damage|p1a: metal goober|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: metal goober|91/100|[from] item: Leftovers
+|-heal|p2a: Metagross|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1731450957
+|switch|p1a: bird goober|Skarmory, M|100/100
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: bird goober|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1731450961
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: bird goober|Spikes|p2a: Magneton
+|-sidestart|p2: Pak|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1731450965
+|move|p2a: Magneton|Thunderbolt|p1a: bird goober
+|-supereffective|p1a: bird goober
+|-damage|p1a: bird goober|0 fnt
+|faint|p1a: bird goober
+|
+|t:|1731450975
+|switch|p1a: sandy goober|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1731450989
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: sandy goober|atk|1
+|move|p1a: sandy goober|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731451000
+|switch|p2a: Metagross|Metagross|98/100
+|-damage|p2a: Metagross|86/100|[from] Spikes
+|switch|p1a: metal goober|Metagross|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: metal goober|97/100|[from] item: Leftovers
+|-heal|p2a: Metagross|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731451018
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: metal goober|Light Screen|p1a: metal goober
+|-sidestart|p1: OOF_MAXIMA|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: metal goober|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|OOF_MAXIMA has 270 seconds left.
+|
+|t:|1731451046
+|move|p2a: Zapdos|Thunderbolt|p1a: metal goober
+|-damage|p1a: metal goober|76/100
+|-status|p1a: metal goober|par
+|cant|p1a: metal goober|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: metal goober|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|OOF_MAXIMA has 270 seconds left.
+|
+|t:|1731451060
+|switch|p1a: sandy goober|Tyranitar, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: sandy goober
+|-damage|p1a: sandy goober|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: sandy goober|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|OOF_MAXIMA has 270 seconds left.
+|
+|t:|1731451083
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1731451091
+|switch|p2a: Metagross|Metagross|92/100|[from] Baton Pass
+|-damage|p2a: Metagross|80/100|[from] Spikes
+|move|p1a: sandy goober|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: sandy goober|92/100|[from] item: Leftovers
+|-heal|p2a: Metagross|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|OOF_MAXIMA has 270 seconds left.
+|
+|t:|1731451112
+|switch|p1a: metal goober|Metagross|82/100 par
+|move|p2a: Metagross|Meteor Mash|p1a: metal goober
+|-resisted|p1a: metal goober
+|-damage|p1a: metal goober|65/100 par
+|
+|-sideend|p1: OOF_MAXIMA|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|76/100|[from] item: Leftovers
+|-heal|p1a: metal goober|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|OOF_MAXIMA has 270 seconds left.
+|
+|t:|1731451129
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: metal goober|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p1a: metal goober
+|faint|p2a: Zapdos
+|inactive|OOF_MAXIMA has 270 seconds left.
+|inactive|OOF_MAXIMA has 240 seconds left.
+|
+|t:|1731451181
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|switch|p1a: devious goober|Gengar, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: devious goober|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: devious goober|94/100|[from] Sandstorm
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: devious goober|100/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Pak has 270 seconds left.
+|
+|t:|1731451223
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|88/100|[from] Spikes
+|move|p1a: devious goober|Will-O-Wisp|p2a: Magneton
+|-status|p2a: Magneton|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: devious goober|94/100|[from] Sandstorm
+|-heal|p1a: devious goober|100/100|[from] item: Leftovers
+|-damage|p2a: Magneton|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1731451245
+|switch|p1a: desert goober|Flygon, M|100/100
+|move|p2a: Magneton|Thunder Wave|p1a: desert goober
+|-immune|p1a: desert goober
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Magneton|64/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|Pak has 270 seconds left.
+|inactive|OOF_MAXIMA has 210 seconds left.
+|
+|t:|1731451270
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: desert goober|atk|1
+|move|p1a: desert goober|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|OOF_MAXIMA has 210 seconds left.
+|
+|t:|1731451276
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: desert goober|Toxic|p2a: Snorlax|[miss]
+|-miss|p1a: desert goober|p2a: Snorlax
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731451283
+|switch|p1a: sandy goober|Tyranitar, F|92/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p1a: sandy goober|98/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731451288
+|move|p1a: sandy goober|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|move|p2a: Snorlax|Shadow Ball|p1a: sandy goober
+|-resisted|p1a: sandy goober
+|-damage|p1a: sandy goober|85/100
+|-unboost|p1a: sandy goober|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p1a: sandy goober|91/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731451293
+|switch|p1a: devious goober|Gengar, M|100/100
+|move|p2a: Snorlax|Shadow Ball|p1a: devious goober
+|-supereffective|p1a: devious goober
+|-damage|p1a: devious goober|0 fnt
+|faint|p1a: devious goober
+|
+|t:|1731451301
+|switch|p1a: floating goober|Tentacruel, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: floating goober|95/100|[from] Sandstorm
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|-end|p2a: Snorlax|move: Taunt|[silent]
+|upkeep
+|turn|21
+|
+|t:|1731451310
+|move|p1a: floating goober|Thief|p2a: Snorlax
+|-damage|p2a: Snorlax|83/100
+|-enditem|p2a: Snorlax|Leftovers|[silent]|[from] move: Thief|[of] p1a: floating goober
+|-item|p1a: floating goober|Leftovers|[from] move: Thief|[of] p2a: Snorlax
+|move|p2a: Snorlax|Earthquake|p1a: floating goober
+|-supereffective|p1a: floating goober
+|-damage|p1a: floating goober|0 fnt
+|faint|p1a: floating goober
+|
+|t:|1731451316
+|switch|p1a: sandy goober|Tyranitar, F|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|77/100|[from] Sandstorm
+|-heal|p1a: sandy goober|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆OOF_MAXIMA|gg
+|-message|OOF_MAXIMA forfeited.
+|
+|win|Pak
+|c|☆Pak|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806112">
+{"id":"smogtours-gen3ou-806112","format":"[Gen 3] OU","players":["OOF_MAXIMA","Pak"],"uploadtime":1731451321,"views":46,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Xurkiyee vs. klird - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Xurkiyee and klird! Format: [Gen 3] OU; Date: Nov 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806195">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731540420
+|gametype|singles
+|player|p1|Xurkiyee|169|
+|player|p2|klird|giovanni|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731540420
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Johannes|Salamence, M|100/100
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|turn|1
+|c|☆Xurkiyee|Hf
+|c|☆klird|glhf
+|
+|t:|1731540447
+|switch|p2a: P9iedra|Magneton|100/100
+|switch|p1a: Starmie|Starmie|100/100
+|
+|upkeep
+|turn|2
+|c|☆klird|damn hydro miss
+|
+|t:|1731540465
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Andrea|Blissey, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1731540473
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Andrea|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100
+|
+|upkeep
+|turn|4
+|inactive|klird has 270 seconds left.
+|inactive|klird has 240 seconds left.
+|
+|t:|1731540538
+|move|p2a: Andrea|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|move|p1a: Skarmory|Roar|p2a: Andrea
+|drag|p2a: Peter|Celebi|100/100
+|
+|upkeep
+|turn|5
+|inactive|klird has 240 seconds left.
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731540590
+|switch|p2a: P9iedra|Magneton|100/100
+|move|p1a: Skarmory|Roar|p2a: P9iedra
+|drag|p2a: Andrea|Blissey, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1731540597
+|switch|p2a: P9iedra|Magneton|100/100
+|move|p1a: Skarmory|Thief|p2a: P9iedra
+|-resisted|p2a: P9iedra
+|-crit|p2a: P9iedra
+|-damage|p2a: P9iedra|92/100
+|-enditem|p2a: P9iedra|Magnet|[silent]|[from] move: Thief|[of] p1a: Skarmory
+|-item|p1a: Skarmory|Magnet|[from] move: Thief|[of] p2a: P9iedra
+|
+|upkeep
+|turn|7
+|
+|t:|1731540607
+|move|p2a: P9iedra|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1731540616
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1731540637
+|switch|p2a: SwatPert|Swampert, M|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: SwatPert
+|-damage|p2a: SwatPert|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SwatPert|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|klird has 210 seconds left.
+|inactive|Xurkiyee has 270 seconds left.
+|
+|t:|1731540670
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: SwatPert|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|53/100|[from] Sandstorm
+|-heal|p1a: Starmie|59/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731540696
+|switch|p2a: Peter|Celebi|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Peter|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Peter|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731540708
+|move|p1a: Starmie|Thunder Wave|p2a: Peter
+|-status|p2a: Peter|par
+|move|p2a: Peter|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Peter|94/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-damage|p1a: Starmie|88/100|[from] Leech Seed|[of] p2a: Peter
+|-heal|p2a: Peter|100/100 par|[silent]
+|upkeep
+|turn|12
+|
+|t:|1731540714
+|switch|p1a: Metagross|Metagross|100/100
+|-curestatus|p2a: Peter|par|[from] ability: Natural Cure
+|switch|p2a: SwatPert|Swampert, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SwatPert|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731540723
+|move|p2a: SwatPert|Protect|p2a: SwatPert
+|-singleturn|p2a: SwatPert|Protect
+|move|p1a: Metagross|Psychic|p2a: SwatPert
+|-activate|p2a: SwatPert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SwatPert|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540730
+|switch|p2a: Peter|Celebi|100/100
+|move|p1a: Metagross|Psychic|p2a: Peter
+|-resisted|p2a: Peter
+|-damage|p2a: Peter|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Peter|79/100|[from] Sandstorm
+|-heal|p2a: Peter|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731540736
+|move|p2a: Peter|Leech Seed|p1a: Metagross
+|-start|p1a: Metagross|move: Leech Seed
+|move|p1a: Metagross|Hidden Power|p2a: Peter
+|-supereffective|p2a: Peter
+|-damage|p2a: Peter|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Peter|46/100|[from] Sandstorm
+|-heal|p2a: Peter|52/100|[from] item: Leftovers
+|-damage|p1a: Metagross|88/100|[from] Leech Seed|[of] p2a: Peter
+|-heal|p2a: Peter|64/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1731540746
+|switch|p2a: P9iedra|Magneton|92/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1731540765
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Johannes|Salamence, M|100/100
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Johannes|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540788
+|switch|p2a: Andrea|Blissey, F|100/100
+|switch|p1a: Metagross|Metagross|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Andrea|94/100|[from] Sandstorm
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Andrea|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540796
+|move|p1a: Metagross|Hidden Power|p2a: Andrea
+|-damage|p2a: Andrea|91/100
+|move|p2a: Andrea|Counter|p1a: Metagross
+|-damage|p1a: Metagross|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Andrea|85/100|[from] Sandstorm
+|-heal|p1a: Metagross|67/100|[from] item: Leftovers
+|-heal|p2a: Andrea|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|klird has 210 seconds left.
+|c|☆klird|mision failed succesfully
+|
+|t:|1731540824
+|switch|p2a: Pietas|Dugtrio, M|100/100
+|move|p1a: Metagross|Psychic|p2a: Pietas
+|-damage|p2a: Pietas|3/100
+|-unboost|p2a: Pietas|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731540830
+|move|p2a: Pietas|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|t:|1731540835
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pietas|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540850
+|switch|p2a: Andrea|Blissey, F|91/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Andrea|85/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Andrea|91/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540862
+|switch|p2a: P9iedra|Magneton|92/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731540867
+|move|p2a: P9iedra|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1731540871
+|switch|p2a: Andrea|Blissey, F|91/100
+|move|p1a: Blissey|Ice Beam|p2a: Andrea
+|-damage|p2a: Andrea|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Andrea|65/100|[from] Sandstorm
+|-damage|p1a: Blissey|88/100 tox|[from] Sandstorm
+|-heal|p2a: Andrea|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540898
+|switch|p2a: P9iedra|Magneton|92/100
+|move|p1a: Blissey|Ice Beam|p2a: P9iedra
+|-resisted|p2a: P9iedra
+|-damage|p2a: P9iedra|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|64/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1731540904
+|move|p2a: P9iedra|Substitute|p2a: P9iedra
+|-start|p2a: P9iedra|Substitute
+|-damage|p2a: P9iedra|17/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1731540911
+|move|p2a: P9iedra|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|64/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: P9iedra
+|-resisted|p2a: P9iedra
+|-crit|p2a: P9iedra
+|-end|p2a: P9iedra|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|58/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|34/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1731540924
+|move|p2a: P9iedra|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|23/100 tox
+|move|p1a: Blissey|Ice Beam|p2a: P9iedra
+|-resisted|p2a: P9iedra
+|-damage|p2a: P9iedra|0 fnt
+|faint|p2a: P9iedra
+|
+|t:|1731540937
+|switch|p2a: SwatPert|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|17/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|23/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|0 fnt|[from] psn
+|faint|p1a: Blissey
+|upkeep
+|
+|t:|1731540941
+|switch|p1a: Starmie|Starmie|88/100
+|turn|30
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540962
+|switch|p2a: Peter|Celebi|64/100
+|move|p1a: Starmie|Surf|p2a: Peter
+|-resisted|p2a: Peter
+|-damage|p2a: Peter|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Peter|45/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Peter|51/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1731540969
+|move|p1a: Starmie|Thunder Wave|p2a: Peter
+|-status|p2a: Peter|par
+|cant|p2a: Peter|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Peter|45/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Peter|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1731540981
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-curestatus|p2a: Peter|par|[from] ability: Natural Cure
+|switch|p2a: SwatPert|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|inactive|klird has 210 seconds left.
+|
+|t:|1731540997
+|switch|p1a: Starmie|Starmie|88/100
+|move|p2a: SwatPert|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|41/100|[from] Sandstorm
+|-heal|p1a: Starmie|47/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|klird has 210 seconds left.
+|
+|t:|1731541012
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|97/100
+|move|p2a: SwatPert|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|48/100|[from] Sandstorm
+|-heal|p1a: Starmie|55/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|klird has 210 seconds left.
+|
+|t:|1731541020
+|switch|p2a: Andrea|Blissey, F|72/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Andrea|65/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Andrea|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1731541028
+|move|p1a: Starmie|Thunder Wave|p2a: Andrea
+|-status|p2a: Andrea|par
+|cant|p2a: Andrea|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Andrea|65/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Andrea|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731541038
+|move|p1a: Starmie|Surf|p2a: Andrea
+|-damage|p2a: Andrea|58/100 par
+|move|p2a: Andrea|Soft-Boiled|p2a: Andrea
+|-heal|p2a: Andrea|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Andrea|94/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Andrea|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1731541044
+|move|p1a: Starmie|Surf|p2a: Andrea
+|-damage|p2a: Andrea|87/100 par
+|move|p2a: Andrea|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|85/100
+|-status|p1a: Starmie|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100 frz|[from] Sandstorm
+|-damage|p2a: Andrea|81/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|85/100 frz|[from] item: Leftovers
+|-heal|p2a: Andrea|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆klird|mb
+|
+|t:|1731541054
+|-curestatus|p2a: Andrea|par|[from] ability: Natural Cure
+|switch|p2a: Johannes|Salamence, M|94/100
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|-curestatus|p1a: Starmie|frz|[msg]
+|move|p1a: Starmie|Surf|p2a: Johannes
+|-resisted|p2a: Johannes
+|-damage|p2a: Johannes|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Johannes|67/100|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆Xurkiyee|all g
+|inactive|klird has 210 seconds left.
+|
+|t:|1731541082
+|switch|p2a: Andrea|Blissey, F|87/100
+|move|p1a: Starmie|Thunder Wave|p2a: Andrea
+|-status|p2a: Andrea|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Andrea|81/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: Andrea|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1731541086
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|cant|p2a: Andrea|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Andrea|81/100 par|[from] Sandstorm
+|-heal|p2a: Andrea|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1731541091
+|-curestatus|p2a: Andrea|par|[from] ability: Natural Cure
+|switch|p2a: SwatPert|Swampert, M|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|
+|t:|1731541097
+|move|p1a: Tyranitar|Earthquake|p2a: SwatPert
+|-damage|p2a: SwatPert|61/100
+|move|p2a: SwatPert|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|31/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|67/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1731541105
+|move|p2a: SwatPert|Protect|p2a: SwatPert
+|-singleturn|p2a: SwatPert|Protect
+|move|p1a: Tyranitar|Earthquake|p2a: SwatPert
+|-activate|p2a: SwatPert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|37/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|73/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1731541113
+|move|p1a: Tyranitar|Earthquake|p2a: SwatPert
+|-damage|p2a: SwatPert|36/100
+|move|p2a: SwatPert|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1731541118
+|switch|p1a: Starmie|Starmie|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|42/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1731541121
+|move|p2a: SwatPert|Protect|p2a: SwatPert
+|-singleturn|p2a: SwatPert|Protect
+|move|p1a: Starmie|Surf|p2a: SwatPert
+|-activate|p2a: SwatPert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|49/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1731541127
+|switch|p2a: Peter|Celebi|51/100
+|move|p1a: Starmie|Surf|p2a: Peter
+|-resisted|p2a: Peter
+|-damage|p2a: Peter|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Peter|31/100|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: Peter|37/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1731541134
+|move|p1a: Starmie|Thunder Wave|p2a: Peter
+|-status|p2a: Peter|par
+|move|p2a: Peter|Recover|p2a: Peter
+|-heal|p2a: Peter|87/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Peter|81/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: Peter|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1731541140
+|move|p1a: Starmie|Surf|p2a: Peter
+|-resisted|p2a: Peter
+|-damage|p2a: Peter|74/100 par
+|cant|p2a: Peter|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Peter|67/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-heal|p2a: Peter|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1731541144
+|move|p1a: Starmie|Surf|p2a: Peter
+|-resisted|p2a: Peter
+|-damage|p2a: Peter|60/100 par
+|move|p2a: Peter|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|79/100|[from] Sandstorm
+|-damage|p2a: Peter|54/100 par|[from] Sandstorm
+|-heal|p1a: Starmie|85/100|[from] item: Leftovers
+|-damage|p1a: Starmie|73/100|[from] Leech Seed|[of] p2a: Peter
+|-heal|p2a: Peter|64/100 par|[silent]
+|-heal|p2a: Peter|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1731541152
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Peter|atk|1
+|-curestatus|p2a: Peter|par|[from] ability: Natural Cure
+|switch|p2a: SwatPert|Swampert, M|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|55/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1731541159
+|switch|p1a: Starmie|Starmie|73/100
+|move|p2a: SwatPert|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|55/100|[from] Sandstorm
+|-heal|p1a: Starmie|61/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|61/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1731541164
+|move|p1a: Starmie|Surf|p2a: SwatPert
+|-damage|p2a: SwatPert|34/100
+|move|p2a: SwatPert|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|8/100|[from] Sandstorm
+|-heal|p1a: Starmie|14/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|40/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1731541174
+|switch|p2a: Pietas|Dugtrio, M|3/100
+|move|p1a: Starmie|Surf|p2a: Pietas
+|-supereffective|p2a: Pietas
+|-damage|p2a: Pietas|0 fnt
+|faint|p2a: Pietas
+|
+|t:|1731541177
+|switch|p2a: Johannes|Salamence, M|67/100
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|8/100|[from] Sandstorm
+|-damage|p2a: Johannes|61/100|[from] Sandstorm
+|-heal|p1a: Starmie|14/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1731541190
+|move|p1a: Starmie|Thunder Wave|p2a: Johannes
+|-status|p2a: Johannes|par
+|move|p2a: Johannes|Hidden Power|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|t:|1731541192
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Johannes|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Johannes|55/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1731541200
+|switch|p2a: Andrea|Blissey, F|87/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Andrea|81/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Andrea|87/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|klird has 270 seconds left.
+|
+|t:|1731541241
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Andrea|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|1/100|[from] Sandstorm
+|-damage|p2a: Andrea|81/100|[from] Sandstorm
+|-heal|p1a: Salamence|7/100|[from] item: Leftovers
+|-heal|p2a: Andrea|87/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1731541251
+|switch|p2a: Johannes|Salamence, M|55/100 par
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Brick Break|p2a: Johannes
+|-resisted|p2a: Johannes
+|-damage|p2a: Johannes|32/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|1/100|[from] Sandstorm
+|-damage|p2a: Johannes|26/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|7/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1731541263
+|switch|p2a: Peter|Celebi|70/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|1/100|[from] Sandstorm
+|-damage|p2a: Peter|64/100|[from] Sandstorm
+|-heal|p1a: Salamence|7/100|[from] item: Leftovers
+|-heal|p2a: Peter|70/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1731541269
+|switch|p2a: Johannes|Salamence, M|26/100 par
+|-ability|p2a: Johannes|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Hidden Power|p2a: Johannes
+|-damage|p2a: Johannes|0 fnt
+|faint|p2a: Johannes
+|
+|t:|1731541296
+|switch|p2a: SwatPert|Swampert, M|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|1/100|[from] Sandstorm
+|-heal|p1a: Salamence|7/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|46/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1731541308
+|move|p2a: SwatPert|Protect|p2a: SwatPert
+|-singleturn|p2a: SwatPert|Protect
+|move|p1a: Salamence|Hidden Power|p2a: SwatPert
+|-activate|p2a: SwatPert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|1/100|[from] Sandstorm
+|-heal|p1a: Salamence|7/100|[from] item: Leftovers
+|-heal|p2a: SwatPert|52/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1731541315
+|move|p1a: Salamence|Hidden Power|p2a: SwatPert
+|-damage|p2a: SwatPert|15/100
+|move|p2a: SwatPert|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|klird
+|c|☆klird|gg
+|c|☆Xurkiyee|gg 
+|c|☆klird|i was scared jajaj
+|c|☆klird|thought i chocked
+|player|p2|
+|c|☆Xurkiyee|man if only i had the guts to dd again
+|player|p1|
+|player|p2|klird|giovanni|
+|player|p2|
+|player|p2|klird|giovanni|
+|player|p2|
+|player|p2|klird|giovanni|
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806195">
+{"id":"smogtours-gen3ou-806195","format":"[Gen 3] OU","players":["Xurkiyee","klird"],"uploadtime":1731541315,"views":15,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

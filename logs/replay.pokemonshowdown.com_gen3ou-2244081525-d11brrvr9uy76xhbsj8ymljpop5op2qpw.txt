@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: denizzz vs. Cyberodin - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between denizzz and Cyberodin! Format: [Gen 3] OU; Date: Nov 15, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-gen3ou-2244081525-d11brrvr9uy76xhbsj8ymljpop5op2qpw">
+|j|☆denizzz
+|j|☆Cyberodin
+|t:|1731629167
+|gametype|singles
+|player|p1|denizzz|dawn|
+|player|p2|Cyberodin|#wcop2020latinamerica|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731629167
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1731629171
+|switch|p2a: Swampert|Swampert, M|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1731629175
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|79/100
+|-status|p2a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|72/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cyberodin)
+|
+|t:|1731629182
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|72/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|95/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1731629197
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|72/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|92/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1731629204
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Swampert|[miss]
+|-miss|p1a: Tyranitar|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1731629208
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Swampert|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|67/100|[from] Sandstorm
+|-heal|p1a: Zapdos|73/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731629213
+|switch|p2a: Snorlax|Snorlax, M|79/100 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|54/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|67/100|[from] Sandstorm
+|-damage|p2a: Snorlax|48/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|73/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731629215
+|switch|p1a: Jirachi|Jirachi|95/100
+|cant|p2a: Snorlax|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|48/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731629219
+|switch|p1a: Tyranitar|Tyranitar, F|99/100
+|move|p2a: Snorlax|Self-Destruct|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|faint|p2a: Snorlax
+|
+|t:|1731629224
+|switch|p2a: Swampert|Swampert, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731629232
+|switch|p1a: Zapdos|Zapdos|73/100
+|move|p2a: Swampert|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|40/100|[from] Sandstorm
+|-heal|p1a: Zapdos|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731629242
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731629251
+|switch|p1a: Tyranitar|Tyranitar, F|34/100
+|move|p2a: Aerodactyl|Double-Edge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|21/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731629255
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Tyranitar|Focus Punch|p2a: Swampert
+|-damage|p2a: Swampert|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|27/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731629261
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|move|p2a: Swampert|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1731629263
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731629270
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Metagross
+|-status|p2a: Metagross|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-damage|p2a: Metagross|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1731629273
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Metagross|Meteor Mash|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Metagross|76/100 brn|[from] brn
+|-heal|p1a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731629276
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: Cyberodin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Salamence|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731629278
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|23/100
+|move|p1a: Skarmory|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731629282
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|88/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|82/100 tox|[from] psn
+|-heal|p1a: Skarmory|35/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731629289
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|18/100
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: Cyberodin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|76/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|64/100 tox|[from] psn
+|-heal|p1a: Skarmory|24/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731629292
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|6/100
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: Cyberodin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|58/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|40/100 tox|[from] psn
+|-heal|p1a: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731629294
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Salamence|Dragon Claw|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|34/100 tox|[from] Sandstorm
+|-heal|p2a: Salamence|40/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|10/100 tox|[from] psn
+|-heal|p1a: Skarmory|18/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731629300
+|move|p2a: Salamence|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1731629304
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Salamence|4/100 tox|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Salamence|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Salamence|0 fnt|[from] psn
+|faint|p2a: Salamence
+|upkeep
+|
+|t:|1731629314
+|switch|p2a: Swampert|Swampert, M|42/100
+|-damage|p2a: Swampert|17/100|[from] Spikes
+|turn|24
+|
+|t:|1731629320
+|move|p1a: Gengar|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1731629324
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1731629327
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1731629329
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: Aerodactyl
+|-immune|p2a: Aerodactyl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1731629333
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Double-Edge|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1731629336
+|switch|p2a: Metagross|Metagross|76/100 brn
+|-damage|p2a: Metagross|51/100 brn|[from] Spikes
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-damage|p2a: Metagross|39/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1731629340
+|move|p1a: Gengar|Thunderbolt|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1731629343
+|switch|p2a: Tyranitar|Tyranitar, M|76/100
+|-damage|p2a: Tyranitar|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1731629344
+|move|p1a: Gengar|Explosion|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|faint|p1a: Gengar
+|
+|t:|1731629346
+|switch|p1a: Flygon|Flygon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1731629348
+|move|p1a: Flygon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1731629349
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1731629352
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1731629354
+|move|p2a: Aerodactyl|Rock Slide|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|80/100
+|cant|p1a: Flygon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|86/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1731629356
+|move|p1a: Flygon|Protect|p1a: Flygon
+|-singleturn|p1a: Flygon|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Flygon
+|-activate|p1a: Flygon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Flygon|92/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆Cyberodin|gg
+|c|☆denizzz|gg
+|-message|Cyberodin forfeited.
+|
+|win|denizzz
+|l|☆Cyberodin
+|player|p2|
+|j|☆Cyberodin
+|player|p2|Cyberodin|#wcop2020latinamerica|
+
+</script>
+<script type="application/json" class="data" id="replaydata-gen3ou-2244081525-d11brrvr9uy76xhbsj8ymljpop5op2qpw">
+{"id":"gen3ou-2244081525","format":"[Gen 3] OU","players":["denizzz","Cyberodin"],"uploadtime":1731629370,"views":10,"formatid":"gen3ou","rating":null,"private":1,"password":"d11brrvr9uy76xhbsj8ymljpop5op2q"}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

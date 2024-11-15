@@ -1,0 +1,2934 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Hydreigon &gt; Latias vs. no more bad dreams - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Hydreigon &gt; Latias and no more bad dreams! Format: [Gen 3] OU; Date: Nov 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806155">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|badge|p1|bronze|gen9uu|100-3
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.<\/a><\/div>
+|t:|1731522729
+|gametype|singles
+|player|p1|Hydreigon > Latias|guitarist|
+|player|p2|no more bad dreams|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731522729
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1731522741
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100
+|move|p1a: Tyranitar|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1731522745
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1731522772
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1731522777
+|move|p1a: Starmie|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|move|p2a: Skarmory|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100 tox|[from] Sandstorm
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1731522783
+|-curestatus|p1a: Starmie|tox|[from] ability: Natural Cure
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Skarmory|Protect||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|57/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1731522786
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Blissey|Thunder Wave|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1731522790
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731522805
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731522808
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|73/100|[from] Sandstorm
+|-heal|p2a: Milotic|79/100|[from] item: Leftovers
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731522818
+|move|p2a: Milotic|Surf|p1a: Metagross
+|-damage|p1a: Metagross|68/100
+|move|p1a: Metagross|Meteor Mash|p2a: Milotic|[miss]
+|-miss|p1a: Metagross|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|73/100|[from] Sandstorm
+|-heal|p2a: Milotic|79/100|[from] item: Leftovers
+|-heal|p1a: Metagross|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731522836
+|switch|p2a: Skarmory|Skarmory, F|63/100
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|80/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731522841
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|26/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|86/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|32/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731522843
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|92/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731522845
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Tyranitar|Tyranitar, F|12/100
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|
+|t:|1731522853
+|switch|p1a: Metagross|Metagross|92/100
+|-damage|p1a: Metagross|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731522854
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory|[miss]
+|-miss|p1a: Metagross|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|88/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731522858
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|7/100
+|move|p2a: Skarmory|Roar|p1a: Metagross
+|drag|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731522865
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Salamence|Brick Break|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731522872
+|switch|p1a: Metagross|Metagross|88/100
+|-damage|p1a: Metagross|71/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Metagross|64/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731522875
+|switch|p2a: Milotic|Milotic, F|79/100
+|move|p1a: Metagross|Meteor Mash|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|51/100|[from] Sandstorm
+|-heal|p2a: Milotic|57/100|[from] item: Leftovers
+|-heal|p1a: Metagross|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731522882
+|move|p2a: Milotic|Surf|p1a: Metagross
+|-damage|p1a: Metagross|36/100
+|move|p1a: Metagross|Explosion|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Milotic
+|
+|t:|1731522896
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|switch|p1a: Blissey|Blissey, F|88/100
+|-damage|p1a: Blissey|71/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|65/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731522900
+|move|p1a: Blissey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|36/100
+|-status|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|30/100 par|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|36/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731522905
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|86/100 par
+|move|p2a: Snorlax|Body Slam|p1a: Blissey
+|-damage|p1a: Blissey|50/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100 par|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731522911
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|93/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731522918
+|switch|p2a: Skarmory|Skarmory, F|13/100
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|11/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731522924
+|switch|p1a: Starmie|Starmie|94/100
+|-damage|p1a: Starmie|78/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Starmie
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|17/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1731522927
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Starmie|Thunderbolt|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1731522929
+|switch|p2a: Blissey|Blissey, F|62/100
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|-sideend|p1: Hydreigon > Latias|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|72/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1731522933
+|switch|p1a: Blissey|Blissey, F|50/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1731522937
+|switch|p2a: Snorlax|Snorlax, F|100/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|80/100 par
+|
+|-heal|p2a: Snorlax|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1731522943
+|switch|p1a: Skarmory|Skarmory, M|99/100
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|85/100
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|94/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|91/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1731522950
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|switch|p2a: Skarmory|Skarmory, F|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1731522953
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Salamence|Fire Blast|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|35/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1731522956
+|switch|p2a: Snorlax|Snorlax, F|100/100 par
+|move|p1a: Salamence|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|66/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|60/100 par|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1731522960
+|move|p1a: Salamence|Brick Break|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|31/100 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Salamence
+|
+|t:|1731522974
+|switch|p1a: Blissey|Blissey, F|50/100
+|switch|p2a: Skarmory|Skarmory, F|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1731522977
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Blissey|Thunder Wave|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-heal|p2a: Skarmory|47/100|[from] item: Leftovers
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1731522980
+|switch|p2a: Blissey|Blissey, F|57/100
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|44/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1731522983
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731522987
+|switch|p1a: Skarmory|Skarmory, M|91/100 par
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|47/100
+|
+|-heal|p2a: Skarmory|97/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1731522989
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1731522991
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|40
+|
+|t:|1731522993
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|
+|t:|1731522999
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Skarmory|Roar|p2a: Claydol
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|42
+|
+|t:|1731523004
+|switch|p2a: Claydol|Claydol|100/100
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|
+|t:|1731523007
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100 par
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Toxic|p2a: Claydol
+|-status|p2a: Claydol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Claydol|94/100 tox|[from] psn
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1731523009
+|move|p2a: Claydol|Refresh|p2a: Claydol
+|-curestatus|p2a: Claydol|tox|[msg]
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1731523011
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100 par
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Drill Peck|p2a: Claydol
+|-damage|p2a: Claydol|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|85/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1731523015
+|switch|p2a: Blissey|Blissey, F|57/100
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|10/100|[from] Sandstorm
+|-heal|p2a: Blissey|16/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1731523020
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|66/100
+|move|p1a: Skarmory|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|60/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|60/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1731523023
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1731523027
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Claydol|Claydol|85/100
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|91/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1731523029
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100 par
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Drill Peck|p2a: Claydol
+|-damage|p2a: Claydol|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|77/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1731523033
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|52
+|
+|t:|1731523035
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: no more bad dreams|Spikes
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Blissey|Blissey, F|99/100
+|-damage|p1a: Blissey|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-heal|p1a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1731523039
+|move|p2a: Skarmory|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|69/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1731523043
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100 par
+|move|p2a: Skarmory|Roar|p1a: Blissey
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|drag|p1a: Skarmory|Skarmory, M|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1731523048
+|switch|p2a: Claydol|Claydol|77/100
+|move|p1a: Skarmory|Drill Peck|p2a: Claydol
+|-damage|p2a: Claydol|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|61/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1731523051
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100 par
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Skarmory|Drill Peck|p2a: Claydol
+|-damage|p2a: Claydol|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|46/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1731523058
+|switch|p2a: Blissey|Blissey, F|88/100
+|switch|p1a: Blissey|Blissey, F|69/100
+|-damage|p1a: Blissey|44/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1731523062
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|94/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1731523064
+|switch|p2a: Claydol|Claydol|46/100
+|move|p1a: Blissey|Ice Beam|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|14/100
+|
+|-heal|p2a: Claydol|64/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-heal|p2a: Claydol|70/100|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1731523068
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|79/100
+|-status|p2a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|88/100|[from] Sandstorm
+|-damage|p2a: Blissey|72/100 frz|[from] Sandstorm
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100 frz|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1731523073
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|63/100 frz
+|-curestatus|p2a: Blissey|frz|[msg]
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-damage|p2a: Blissey|57/100|[from] Sandstorm
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1731523076
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|72/100|[from] Sandstorm
+|-damage|p2a: Blissey|57/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-heal|p2a: Blissey|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1731523078
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|48/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|57/100|[from] Sandstorm
+|-damage|p2a: Blissey|42/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1731523090
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|42/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1731523094
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|26/100 par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|70/100 par|[from] Sandstorm
+|-heal|p2a: Blissey|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1731523097
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|56/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|50/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1731523099
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|36/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|30/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|60/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1731523101
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|77/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|66/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1731523106
+|switch|p2a: Blissey|Blissey, F|36/100
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|30/100|[from] Sandstorm
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1731523109
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|86/100
+|move|p1a: Skarmory|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|80/100 tox|[from] psn
+|-heal|p1a: Skarmory|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1731523113
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|74/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1731523121
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|90/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1731523123
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|96/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1731523127
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1731523130
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Blissey|Blissey, F|63/100
+|-damage|p1a: Blissey|38/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|32/100|[from] Sandstorm
+|-heal|p1a: Blissey|38/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1731523134
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|88/100
+|move|p2a: Skarmory|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 tox|[from] psn
+|-heal|p2a: Skarmory|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1731523137
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|63/100 par
+|move|p2a: Skarmory|Toxic|p1a: Blissey
+|-fail|p1a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|76/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|70/100 tox|[from] psn
+|-heal|p2a: Skarmory|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|t:|1731523139
+|switch|p2a: Claydol|Claydol|70/100
+|move|p1a: Blissey|Seismic Toss|p2a: Claydol
+|-damage|p2a: Claydol|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|64/100 tox|[from] Sandstorm
+|-heal|p2a: Claydol|46/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|51/100 tox|[from] psn
+|upkeep
+|turn|79
+|
+|t:|1731523143
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Claydol|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99/100 par
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|52/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1731523149
+|switch|p2a: Skarmory|Skarmory, F|69/100 par
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|t:|1731523154
+|switch|p2a: Claydol|Claydol|52/100
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|58/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|t:|1731523157
+|switch|p2a: Skarmory|Skarmory, F|75/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1731523162
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Blissey|Blissey, F|51/100
+|-damage|p1a: Blissey|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|20/100|[from] Sandstorm
+|-heal|p1a: Blissey|26/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1731523164
+|switch|p2a: Claydol|Claydol|58/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|70/100|[from] Sandstorm
+|-heal|p2a: Claydol|64/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|t:|1731523167
+|move|p2a: Claydol|Rapid Spin|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|-sideend|p2: no more bad dreams|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|move|p1a: Blissey|Ice Beam|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Claydol|35/100|[from] item: Leftovers
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1731523174
+|switch|p2a: Blissey|Blissey, F|80/100
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1731523177
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|64/100 par
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|58/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|t:|1731523179
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|79/100 par
+|move|p1a: Blissey|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100 par
+|
+|-heal|p2a: Skarmory|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|t:|1731523183
+|switch|p2a: Blissey|Blissey, F|64/100
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|43/100|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|49/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1731523186
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|99/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|t:|1731523188
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|83/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|77/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1731523190
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|68/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|62/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1731523192
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|53/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|-status|p1a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|43/100 frz|[from] Sandstorm
+|-damage|p2a: Blissey|47/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100 frz|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1731523197
+|-curestatus|p1a: Blissey|frz|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|47/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1731523202
+|cant|p1a: Skarmory|par
+|move|p2a: Blissey|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|47/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|60/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1731523205
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|100/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|66/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1731523208
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Starmie|Starmie|78/100
+|-damage|p1a: Starmie|53/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|47/100|[from] Sandstorm
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1731523212
+|switch|p2a: Blissey|Blissey, F|53/100
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|47/100|[from] Sandstorm
+|-damage|p2a: Blissey|26/100|[from] Sandstorm
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-heal|p2a: Blissey|32/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1731523218
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|30/100
+|-sideend|p1: Hydreigon > Latias|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|47/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1731523221
+|switch|p1a: Blissey|Blissey, F|50/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|43/100|[from] Sandstorm
+|-damage|p2a: Blissey|73/100|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1731523225
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1731523227
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|90/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|84/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|90/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|t:|1731523229
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|104
+|
+|t:|1731523233
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|t:|1731523244
+|switch|p1a: Skarmory|Skarmory, M|66/100 par
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|t:|1731523250
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|t:|1731523251
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: no more bad dreams|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|t:|1731523253
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|109
+|
+|t:|1731523255
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|110
+|
+|t:|1731523259
+|move|p2a: Blissey|Wish|p2a: Blissey
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|111
+|
+|t:|1731523263
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100 par
+|move|p1a: Skarmory|Roar|p2a: Blissey
+|drag|p2a: Skarmory|Skarmory, F|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|t:|1731523270
+|switch|p2a: Claydol|Claydol|35/100
+|move|p1a: Skarmory|Spikes|p2a: Claydol
+|-sidestart|p2: no more bad dreams|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|41/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|113
+|
+|t:|1731523273
+|switch|p2a: Skarmory|Skarmory, F|100/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|89/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|114
+|
+|t:|1731523278
+|cant|p1a: Skarmory|par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|95/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|115
+|
+|t:|1731523280
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100 par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Starmie|Starmie|53/100
+|-damage|p1a: Starmie|28/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|22/100|[from] Sandstorm
+|-heal|p1a: Starmie|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|t:|1731523287
+|move|p1a: Starmie|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100 par
+|-sideend|p1: Hydreigon > Latias|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Skarmory|Roar|p1a: Starmie
+|drag|p1a: Blissey|Blissey, F|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|t:|1731523290
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100 par
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|118
+|
+|t:|1731523293
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|47/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|119
+|
+|t:|1731523295
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|23/100 par
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|120
+|
+|t:|1731523302
+|switch|p2a: Blissey|Blissey, F|88/100
+|-damage|p2a: Blissey|63/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|49/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|t:|1731523304
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|90/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|t:|1731523306
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|43/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|t:|1731523309
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|78/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|43/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|
+|t:|1731523313
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|34/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|28/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|34/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|125
+|
+|t:|1731523315
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|84/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|t:|1731523322
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|75/100
+|
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|127
+|
+|t:|1731523325
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|-status|p1a: Blissey|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100 frz|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100 frz|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|128
+|
+|t:|1731523334
+|-curestatus|p1a: Blissey|frz|[from] ability: Natural Cure
+|switch|p1a: Skarmory|Skarmory, M|95/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|71/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|129
+|
+|t:|1731523342
+|switch|p1a: Blissey|Blissey, F|66/100
+|-damage|p1a: Blissey|50/100|[from] Spikes
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|43/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|130
+|
+|t:|1731523345
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|
+|-heal|p2a: Blissey|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|33/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|131
+|
+|t:|1731523350
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100 par
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|33/100|[from] Sandstorm
+|-damage|p2a: Blissey|79/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|t:|1731523354
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|76/100 par
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|29/100
+|
+|-heal|p2a: Blissey|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|23/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|29/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|133
+|
+|t:|1731523358
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|79/100
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|73/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|134
+|
+|t:|1731523360
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|85/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|58/100|[from] Sandstorm
+|-damage|p2a: Blissey|79/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|-heal|p2a: Blissey|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|135
+|
+|t:|1731523362
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|70/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|42/100|[from] Sandstorm
+|-damage|p2a: Blissey|64/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|t:|1731523366
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|54/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|42/100|[from] Sandstorm
+|-damage|p2a: Blissey|48/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|137
+|
+|t:|1731523370
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|39/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|42/100|[from] Sandstorm
+|-damage|p2a: Blissey|33/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|138
+|
+|t:|1731523372
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|24/100 par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|74/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|42/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|139
+|
+|t:|1731523375
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|58/100 par
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|42/100|[from] Sandstorm
+|-damage|p2a: Blissey|52/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|-heal|p2a: Blissey|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|140
+|
+|t:|1731523378
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|49/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|33/100
+|
+|-heal|p2a: Blissey|99/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|27/100|[from] Sandstorm
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|33/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|141
+|
+|t:|1731523379
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|83/100
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|77/100|[from] Sandstorm
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|142
+|
+|t:|1731523381
+|switch|p1a: Skarmory|Skarmory, M|71/100 par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|143
+|
+|t:|1731523384
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|29/100 par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|20/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|83/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|144
+|
+|t:|1731523393
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100 par
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|89/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|145
+|
+|t:|1731523395
+|cant|p2a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|13/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|95/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|t:|1731523397
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|-heal|p2a: Skarmory|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|147
+|
+|t:|1731523401
+|cant|p2a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|16/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|148
+|
+|t:|1731523403
+|cant|p2a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|14/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|149
+|
+|t:|1731523410
+|cant|p2a: Skarmory|par
+|move|p1a: Skarmory|Drill Peck|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|12/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|18/100 par|[from] item: Leftovers
+|upkeep
+|turn|150
+|
+|t:|1731523416
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Roar|p1a: Skarmory
+|drag|p1a: Starmie|Starmie|28/100
+|-damage|p1a: Starmie|3/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|0 fnt|[from] Sandstorm
+|faint|p1a: Starmie
+|-heal|p2a: Skarmory|24/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1731523418
+|switch|p1a: Blissey|Blissey, F|83/100
+|-damage|p1a: Blissey|58/100|[from] Spikes
+|turn|151
+|
+|t:|1731523422
+|switch|p2a: Blissey|Blissey, F|99/100
+|-damage|p2a: Blissey|74/100|[from] Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|58/100|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|
+|t:|1731523427
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|t:|1731523430
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|71/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|154
+|
+|t:|1731523431
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|79/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|47/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|72/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|53/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|155
+|
+|t:|1731523433
+|move|p1a: Skarmory|Drill Peck|p2a: Blissey
+|-damage|p2a: Blissey|56/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|23/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|50/100 par|[from] Sandstorm
+|-heal|p1a: Skarmory|29/100 par|[from] item: Leftovers
+|-heal|p2a: Blissey|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|156
+|
+|t:|1731523443
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Claydol|Claydol|41/100
+|move|p1a: Skarmory|Drill Peck|p2a: Claydol
+|-crit|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1731523451
+|switch|p2a: Blissey|Blissey, F|56/100
+|-damage|p2a: Blissey|31/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|25/100|[from] Sandstorm
+|-heal|p2a: Blissey|31/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|157
+|
+|t:|1731523459
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|81/100
+|move|p1a: Skarmory|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|75/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|75/100 tox|[from] psn
+|-heal|p1a: Skarmory|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|158
+|
+|t:|1731523462
+|switch|p1a: Blissey|Blissey, F|58/100
+|-damage|p1a: Blissey|33/100|[from] Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|12/100|[from] Sandstorm
+|-damage|p2a: Blissey|68/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|18/100|[from] item: Leftovers
+|-heal|p2a: Blissey|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|62/100 tox|[from] psn
+|upkeep
+|turn|159
+|
+|t:|1731523465
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|68/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-damage|p2a: Blissey|56/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|-heal|p2a: Blissey|62/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|44/100 tox|[from] psn
+|upkeep
+|turn|160
+|
+|t:|1731523471
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, F|24/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1731523472
+|switch|p2a: Blissey|Blissey, F|44/100
+|-damage|p2a: Blissey|19/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-damage|p2a: Blissey|13/100|[from] Sandstorm
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|-heal|p2a: Blissey|19/100|[from] item: Leftovers
+|upkeep
+|turn|161
+|
+|t:|1731523476
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|4/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-damage|p2a: Blissey|47/100|[from] Sandstorm
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|162
+|
+|t:|1731523484
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|38/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-damage|p2a: Blissey|32/100|[from] Sandstorm
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|38/100|[from] item: Leftovers
+|upkeep
+|turn|163
+|
+|t:|1731523488
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|23/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|38/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Blissey|44/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|164
+|
+|t:|1731523493
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|94/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|165
+|
+|t:|1731523495
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Blissey|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|166
+|
+|t:|1731523498
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|36/100|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|167
+|
+|t:|1731523501
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|27/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|70/100|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|168
+|
+|t:|1731523521
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|50/100|[from] Sandstorm
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|169
+|
+|t:|1731523524
+|move|p1a: Blissey|Seismic Toss|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|50/100|[from] Sandstorm
+|-damage|p2a: Blissey|40/100|[from] Sandstorm
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|-heal|p2a: Blissey|46/100|[from] item: Leftovers
+|upkeep
+|turn|170
+|
+|t:|1731523529
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|-status|p2a: Blissey|frz
+|-curestatus|p2a: Blissey|frz|[msg]
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|
+|-heal|p2a: Blissey|87/100|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|34/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|171
+|
+|t:|1731523531
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|90/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|69/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Blissey|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|172
+|
+|t:|1731523542
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p1a: Blissey|65/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|173
+|
+|t:|1731523545
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|79/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-heal|p1a: Blissey|85/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|174
+|
+|t:|1731523553
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|64/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|175
+|
+|t:|1731523555
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|48/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|54/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|176
+|
+|t:|1731523556
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|33/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|39/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|177
+|
+|t:|1731523558
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|18/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|178
+|
+|t:|1731523560
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|74/100
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|179
+|
+|t:|1731523563
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|67/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|180
+|
+|t:|1731523565
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|181
+|
+|t:|1731523567
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|71/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|182
+|
+|t:|1731523571
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-heal|p2a: Blissey|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|183
+|
+|t:|1731523573
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|184
+|
+|t:|1731523579
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|185
+|
+|t:|1731523584
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|37/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|43/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|186
+|
+|t:|1731523591
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|21/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|28/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|187
+|
+|t:|1731523603
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|6/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|12/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|188
+|
+|t:|1731523605
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|62/100
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|41/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|47/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|189
+|
+|t:|1731523608
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|25/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|31/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|190
+|
+|t:|1731523611
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|10/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|16/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|191
+|
+|t:|1731523613
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|66/100
+|move|p2a: Blissey|Soft-Boiled||[still]
+|-fail|p2a: Blissey|heal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|192
+|
+|t:|1731523615
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled||[still]
+|-fail|p2a: Blissey|heal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|193
+|
+|t:|1731523616
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled||[still]
+|-fail|p2a: Blissey|heal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|194
+|
+|t:|1731523618
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|195
+|
+|t:|1731523621
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|196
+|
+|t:|1731523623
+|move|p1a: Blissey|Thunder Wave|p2a: Blissey
+|-fail|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|197
+|
+|t:|1731523624
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-damage|p2a: Blissey|99/100 par
+|-damage|p1a: Blissey|66/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|59/100|[from] Sandstorm
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|198
+|
+|t:|1731523625
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-damage|p2a: Blissey|98/100 par
+|-damage|p1a: Blissey|65/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|-damage|p2a: Blissey|98/100 par|[from] Recoil|[of] p1a: Blissey
+|
+|-heal|p2a: Blissey|100/100 par|[from] move: Wish|[wisher] Blissey
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|58/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|199
+|
+|t:|1731523627
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-damage|p2a: Blissey|99/100 par
+|-damage|p1a: Blissey|64/100|[from] Recoil|[of] p2a: Blissey
+|cant|p2a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|58/100|[from] Sandstorm
+|-damage|p2a: Blissey|93/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|200
+|
+|t:|1731523628
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|97/100 par
+|-damage|p1a: Blissey|63/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|-damage|p2a: Blissey|96/100 par|[from] Recoil|[of] p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|56/100|[from] Sandstorm
+|-damage|p2a: Blissey|90/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|-heal|p2a: Blissey|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|201
+|
+|t:|1731523629
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-damage|p2a: Blissey|95/100 par
+|-damage|p1a: Blissey|62/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|-damage|p2a: Blissey|95/100 par|[from] Recoil|[of] p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|54/100|[from] Sandstorm
+|-damage|p2a: Blissey|89/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|61/100|[from] item: Leftovers
+|-heal|p2a: Blissey|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|202
+|
+|t:|1731523630
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-damage|p2a: Blissey|93/100 par
+|-damage|p1a: Blissey|60/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|-damage|p2a: Blissey|93/100 par|[from] Recoil|[of] p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|53/100|[from] Sandstorm
+|-damage|p2a: Blissey|87/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|-heal|p2a: Blissey|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|203
+|
+|t:|1731523632
+|move|p1a: Blissey|Struggle|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|91/100 par
+|-damage|p1a: Blissey|59/100|[from] Recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|-damage|p2a: Blissey|91/100 par|[from] Recoil|[of] p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|51/100|[from] Sandstorm
+|-damage|p2a: Blissey|84/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|-heal|p2a: Blissey|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|204
+|-message|no more bad dreams forfeited.
+|
+|win|Hydreigon > Latias
+|player|p2|
+|c|☆Hydreigon > Latias|/log Hydreigon > Latias made the replay of this battle unlisted.
+|player|p1|
+|player|p2|no more bad dreams|265|
+|player|p2|
+|player|p1|Hydreigon > Latias|guitarist|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806155">
+{"id":"smogtours-gen3ou-806155","format":"[Gen 3] OU","players":["Hydreigon > Latias","no more bad dreams"],"uploadtime":1731523635,"views":34,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

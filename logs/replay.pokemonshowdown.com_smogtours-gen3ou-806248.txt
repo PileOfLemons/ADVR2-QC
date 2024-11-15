@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Churielix vs. 3 blades - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Churielix and 3 blades! Format: [Gen 3] OU; Date: Nov 14, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806248">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731610321
+|gametype|singles
+|player|p1|Churielix|blackbelt|
+|player|p2|3 blades|guzma|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731610321
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|100/100
+|turn|1
+|c|☆3 blades|hf
+|c|☆Churielix|u2
+|inactive|Churielix has 270 seconds left.
+|inactive|3 blades has 270 seconds left.
+|
+|t:|1731610361
+|move|p1a: Zapdos|Thunderbolt|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|75/100
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1731610378
+|move|p1a: Zapdos|Toxic|p2a: GOLDEN EXPERIENCE
+|-status|p2a: GOLDEN EXPERIENCE|tox
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|48/100
+|
+|-heal|p1a: Zapdos|54/100|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|87/100 tox|[from] item: Leftovers
+|-damage|p2a: GOLDEN EXPERIENCE|81/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1731610395
+|move|p1a: Zapdos|Thunderbolt|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|52/100 tox
+|move|p2a: GOLDEN EXPERIENCE|Rest|p2a: GOLDEN EXPERIENCE
+|-status|p2a: GOLDEN EXPERIENCE|slp|[from] move: Rest
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[silent]
+|
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1731610424
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1731610428
+|-singleturn|p1a: Tyranitar|move: Focus Punch
+|switch|p2a: STAR PLATINUM|Swampert, M|100/100
+|move|p1a: Tyranitar|Focus Punch|p2a: STAR PLATINUM
+|-damage|p2a: STAR PLATINUM|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: STAR PLATINUM|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1731610444
+|switch|p1a: Zapdos|Zapdos|60/100
+|move|p2a: STAR PLATINUM|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|32/100|[from] Sandstorm
+|-heal|p1a: Zapdos|39/100|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|3 blades has 270 seconds left.
+|
+|t:|1731610474
+|move|p2a: STAR PLATINUM|Protect|p2a: STAR PLATINUM
+|-singleturn|p2a: STAR PLATINUM|Protect
+|move|p1a: Zapdos|Hidden Power|p2a: STAR PLATINUM
+|-activate|p2a: STAR PLATINUM|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|32/100|[from] Sandstorm
+|-heal|p1a: Zapdos|39/100|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731610478
+|switch|p2a: LOVE DELUXE|Blissey, F|100/100
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731610484
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: STAR PLATINUM|Swampert, M|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: STAR PLATINUM|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731610490
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: STAR PLATINUM|Protect||[still]
+|-fail|p2a: STAR PLATINUM
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: STAR PLATINUM|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731610497
+|switch|p2a: BALL BREAKER|Forretress, M|100/100
+|move|p1a: Swampert|Toxic|p2a: BALL BREAKER
+|-immune|p2a: BALL BREAKER
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1731610503
+|move|p1a: Swampert|Surf|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|75/100
+|move|p2a: BALL BREAKER|Spikes|p1a: Swampert
+|-sidestart|p1: Churielix|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731610515
+|switch|p2a: LOVE DELUXE|Blissey, F|100/100
+|move|p1a: Swampert|Surf|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|82/100|[from] Sandstorm
+|-heal|p2a: LOVE DELUXE|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731610519
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|100/100 slp
+|move|p1a: Swampert|Toxic|p2a: GOLDEN EXPERIENCE|[miss]
+|-miss|p1a: Swampert|p2a: GOLDEN EXPERIENCE
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731610530
+|switch|p2a: LOVE DELUXE|Blissey, F|88/100
+|move|p1a: Swampert|Surf|p2a: LOVE DELUXE
+|-crit|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|59/100|[from] Sandstorm
+|-heal|p2a: LOVE DELUXE|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731610534
+|move|p1a: Swampert|Toxic|p2a: LOVE DELUXE
+|-status|p2a: LOVE DELUXE|tox
+|move|p2a: LOVE DELUXE|Soft-Boiled|p2a: LOVE DELUXE
+|-heal|p2a: LOVE DELUXE|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] Sandstorm
+|-heal|p2a: LOVE DELUXE|100/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1731610541
+|-curestatus|p2a: LOVE DELUXE|tox|[from] ability: Natural Cure
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|100/100 slp
+|move|p1a: Swampert|Surf|p2a: GOLDEN EXPERIENCE
+|-crit|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|57/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731610547
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|57/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731610553
+|switch|p2a: BALL BREAKER|Forretress, M|81/100
+|move|p1a: Tyranitar|Double-Edge|p2a: BALL BREAKER
+|-resisted|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|56/100
+|-damage|p1a: Tyranitar|81/100|[from] Recoil|[of] p2a: BALL BREAKER
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731610563
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|move|p2a: BALL BREAKER|Spikes|p1a: Metagross
+|-sidestart|p1: Churielix|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|68/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731610567
+|move|p1a: Metagross|Meteor Mash|p2a: BALL BREAKER
+|-resisted|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|37/100
+|move|p2a: BALL BREAKER|Counter|p1a: Metagross
+|-damage|p1a: Metagross|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731610576
+|move|p1a: Metagross|Meteor Mash|p2a: BALL BREAKER
+|-resisted|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|15/100
+|move|p2a: BALL BREAKER|Spikes|p1a: Metagross
+|-sidestart|p1: Churielix|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|21/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|+Sheik|No avisas churioix
+|c|+Sheik|churielix
+|
+|t:|1731610584
+|move|p1a: Metagross|Meteor Mash|p2a: BALL BREAKER|[miss]
+|-miss|p1a: Metagross|p2a: BALL BREAKER
+|move|p2a: BALL BREAKER|Counter|p1a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: BALL BREAKER|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731610590
+|move|p1a: Metagross|Meteor Mash|p2a: BALL BREAKER
+|-resisted|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|0 fnt
+|faint|p2a: BALL BREAKER
+|
+|t:|1731610592
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|63/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|57/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Churielix|sheik se me saturaron los games jajaja
+|c|☆Churielix|tengo como 3 sets mañana
+|
+|t:|1731610612
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|-curestatus|p2a: GOLDEN EXPERIENCE|slp|[msg]
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|65/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|57/100|[from] Sandstorm
+|-heal|p1a: Zapdos|71/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1731610622
+|cant|p1a: Zapdos|slp
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|35/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|57/100|[from] Sandstorm
+|-heal|p1a: Zapdos|41/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|63/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1731610627
+|cant|p1a: Zapdos|slp
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|7/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|57/100|[from] Sandstorm
+|-heal|p1a: Zapdos|13/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1731610632
+|switch|p2a: STAR PLATINUM|Swampert, M|74/100
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|80/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1731610637
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|move|p2a: STAR PLATINUM|Surf|p1a: Swampert
+|-damage|p1a: Swampert|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|50/100|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|86/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|3 blades has 270 seconds left.
+|c|+Sheik|Terrible, yo gane revival hoy
+|c|+Sheik|suerte
+|
+|t:|1731610681
+|switch|p2a: LOVE DELUXE|Blissey, F|94/100
+|move|p1a: Swampert|Surf|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|76/100|[from] Sandstorm
+|-heal|p1a: Swampert|56/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|82/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1731610685
+|move|p1a: Swampert|Toxic|p2a: LOVE DELUXE
+|-status|p2a: LOVE DELUXE|tox
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|76/100 tox|[from] Sandstorm
+|-heal|p1a: Swampert|39/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|82/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|76/100 tox|[from] psn
+|upkeep
+|turn|32
+|c|☆Churielix|garcias bb
+|
+|t:|1731610701
+|-curestatus|p2a: LOVE DELUXE|tox|[from] ability: Natural Cure
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|63/100
+|move|p1a: Swampert|Surf|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|37/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|43/100|[from] item: Leftovers
+|-heal|p1a: Swampert|46/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1731610708
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Swampert
+|-activate|p1a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|37/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|43/100|[from] item: Leftovers
+|-heal|p1a: Swampert|52/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1731610716
+|switch|p1a: Metagross|Metagross|25/100
+|-damage|p1a: Metagross|0 fnt|[from] Spikes
+|faint|p1a: Metagross
+|
+|t:|1731610727
+|switch|p1a: Tyranitar|Tyranitar, F|81/100
+|-damage|p1a: Tyranitar|56/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|37/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|43/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1731610736
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|c|☆3 blades|sry
+|
+|t:|1731610744
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|37/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|43/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1731610747
+|switch|p2a: CRAZY DIAMOND|Tyranitar, M|100/100
+|move|p1a: Aerodactyl|Double-Edge|p2a: CRAZY DIAMOND
+|-resisted|p2a: CRAZY DIAMOND
+|-damage|p2a: CRAZY DIAMOND|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: CRAZY DIAMOND|86/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1731610751
+|-activate|p1a: Aerodactyl|move: Pursuit
+|move|p2a: CRAZY DIAMOND|Pursuit|p1a: Aerodactyl|[from]Pursuit
+|-damage|p1a: Aerodactyl|49/100
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|-damage|p1a: Dugtrio|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: CRAZY DIAMOND|92/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1731610773
+|move|p1a: Dugtrio|Earthquake|p2a: CRAZY DIAMOND
+|-supereffective|p2a: CRAZY DIAMOND
+|-damage|p2a: CRAZY DIAMOND|0 fnt
+|faint|p2a: CRAZY DIAMOND
+|
+|t:|1731610780
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|37/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|43/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1731610785
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|move|p2a: GOLDEN EXPERIENCE|Rest|p2a: GOLDEN EXPERIENCE
+|-status|p2a: GOLDEN EXPERIENCE|slp|[from] move: Rest
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1731610795
+|switch|p1a: Dugtrio|Dugtrio, F|76/100
+|-damage|p1a: Dugtrio|51/100|[from] Spikes
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|move|p2a: GOLDEN EXPERIENCE|Sleep Talk|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Rest|p2a: GOLDEN EXPERIENCE|[from]Sleep Talk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1731610800
+|switch|p1a: Aerodactyl|Aerodactyl, F|49/100
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|move|p2a: GOLDEN EXPERIENCE|Sleep Talk|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Aerodactyl|[from]Sleep Talk
+|drag|p1a: Dugtrio|Dugtrio, F|51/100
+|-damage|p1a: Dugtrio|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1731610812
+|switch|p2a: STAR PLATINUM|Swampert, M|86/100
+|move|p1a: Dugtrio|Rock Slide|p2a: STAR PLATINUM
+|-resisted|p2a: STAR PLATINUM
+|-damage|p2a: STAR PLATINUM|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: STAR PLATINUM|82/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1731610816
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|move|p2a: STAR PLATINUM|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|77/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100 slp|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|88/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1731610821
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|100/100 slp
+|cant|p1a: Zapdos|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1731610826
+|cant|p1a: Zapdos|slp
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|move|p2a: GOLDEN EXPERIENCE|Sleep Talk|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Zapdos|[from]Sleep Talk
+|drag|p1a: Dugtrio|Dugtrio, F|26/100
+|-damage|p1a: Dugtrio|1/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1731610832
+|move|p1a: Dugtrio|Earthquake|p2a: GOLDEN EXPERIENCE
+|-immune|p2a: GOLDEN EXPERIENCE
+|cant|p2a: GOLDEN EXPERIENCE|slp
+|move|p2a: GOLDEN EXPERIENCE|Sleep Talk|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Rest|p2a: GOLDEN EXPERIENCE|[from]Sleep Talk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100 slp|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1731610835
+|move|p1a: Dugtrio|Earthquake|p2a: GOLDEN EXPERIENCE
+|-immune|p2a: GOLDEN EXPERIENCE
+|-curestatus|p2a: GOLDEN EXPERIENCE|slp|[msg]
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1731610838
+|move|p1a: Dugtrio|Earthquake|p2a: GOLDEN EXPERIENCE
+|-immune|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Dugtrio
+|drag|p1a: Swampert|Swampert, M|52/100
+|-damage|p1a: Swampert|27/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|33/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1731610841
+|move|p1a: Swampert|Toxic|p2a: GOLDEN EXPERIENCE|[miss]
+|-miss|p1a: Swampert|p2a: GOLDEN EXPERIENCE
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Swampert
+|drag|p1a: Zapdos|Zapdos|77/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100 slp|[from] Sandstorm
+|-damage|p2a: GOLDEN EXPERIENCE|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100 slp|[from] item: Leftovers
+|-heal|p2a: GOLDEN EXPERIENCE|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1731610846
+|switch|p2a: LOVE DELUXE|Blissey, F|76/100
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Thunderbolt|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|60/100
+|-status|p2a: LOVE DELUXE|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|54/100 par|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1731610861
+|switch|p1a: Dugtrio|Dugtrio, F|1/100
+|-damage|p1a: Dugtrio|0 fnt|[from] Spikes
+|faint|p1a: Dugtrio
+|
+|t:|1731610863
+|switch|p1a: Aerodactyl|Aerodactyl, F|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|54/100 par|[from] Sandstorm
+|-heal|p2a: LOVE DELUXE|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1731610876
+|-curestatus|p2a: LOVE DELUXE|par|[from] ability: Natural Cure
+|switch|p2a: THE LOCK|Dugtrio, F|100/100
+|move|p1a: Aerodactyl|Double-Edge|p2a: THE LOCK
+|-damage|p2a: THE LOCK|0 fnt
+|faint|p2a: THE LOCK
+|
+|t:|1731610880
+|switch|p2a: GOLDEN EXPERIENCE|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1731610882
+|switch|p1a: Swampert|Swampert, M|33/100
+|-damage|p1a: Swampert|8/100|[from] Spikes
+|move|p2a: GOLDEN EXPERIENCE|Thunderbolt|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|94/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|15/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1731610885
+|move|p1a: Swampert|Surf|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|72/100
+|move|p2a: GOLDEN EXPERIENCE|Roar|p1a: Swampert
+|drag|p1a: Aerodactyl|Aerodactyl, F|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GOLDEN EXPERIENCE|66/100|[from] Sandstorm
+|-heal|p2a: GOLDEN EXPERIENCE|72/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1731610889
+|move|p1a: Aerodactyl|Rock Slide|p2a: GOLDEN EXPERIENCE
+|-supereffective|p2a: GOLDEN EXPERIENCE
+|-damage|p2a: GOLDEN EXPERIENCE|0 fnt
+|faint|p2a: GOLDEN EXPERIENCE
+|
+|t:|1731610893
+|switch|p2a: STAR PLATINUM|Swampert, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: STAR PLATINUM|95/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1731610899
+|switch|p1a: Swampert|Swampert, M|15/100
+|-damage|p1a: Swampert|0 fnt|[from] Spikes
+|faint|p1a: Swampert
+|
+|t:|1731610902
+|switch|p1a: Zapdos|Zapdos|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p2a: STAR PLATINUM|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1731610905
+|move|p2a: STAR PLATINUM|Protect|p2a: STAR PLATINUM
+|-singleturn|p2a: STAR PLATINUM|Protect
+|move|p1a: Zapdos|Toxic|p2a: STAR PLATINUM|[miss]
+|-miss|p1a: Zapdos|p2a: STAR PLATINUM
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1731610907
+|switch|p2a: LOVE DELUXE|Blissey, F|60/100
+|move|p1a: Zapdos|Hidden Power|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|47/100|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|53/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1731610910
+|move|p1a: Zapdos|Toxic|p2a: LOVE DELUXE
+|-status|p2a: LOVE DELUXE|tox
+|move|p2a: LOVE DELUXE|Soft-Boiled|p2a: LOVE DELUXE
+|-heal|p2a: LOVE DELUXE|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|71/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|77/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|100/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1731610915
+|move|p1a: Zapdos|Thunderbolt|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|79/100 tox
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|73/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|79/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|67/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|t:|1731610923
+|-curestatus|p2a: LOVE DELUXE|tox|[from] ability: Natural Cure
+|switch|p2a: STAR PLATINUM|Swampert, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: STAR PLATINUM
+|-immune|p2a: STAR PLATINUM
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-heal|p1a: Zapdos|42/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1731610926
+|switch|p2a: LOVE DELUXE|Blissey, F|67/100
+|move|p1a: Zapdos|Hidden Power|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|52/100|[from] Sandstorm
+|-heal|p1a: Zapdos|42/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|59/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1731610931
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|61/100 slp|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|52/100|[from] Sandstorm
+|-heal|p1a: Zapdos|67/100 slp|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|59/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1731610935
+|cant|p1a: Zapdos|slp
+|move|p2a: LOVE DELUXE|Calm Mind|p2a: LOVE DELUXE
+|-boost|p2a: LOVE DELUXE|spa|1
+|-boost|p2a: LOVE DELUXE|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|61/100 slp|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|52/100|[from] Sandstorm
+|-heal|p1a: Zapdos|67/100 slp|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|59/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1731610939
+|cant|p1a: Zapdos|slp
+|move|p2a: LOVE DELUXE|Soft-Boiled|p2a: LOVE DELUXE
+|-heal|p2a: LOVE DELUXE|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|61/100 slp|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|67/100 slp|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|100/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1731610941
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Toxic|p2a: LOVE DELUXE
+|-status|p2a: LOVE DELUXE|tox
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|7/100|[from] Sandstorm
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|13/100|[from] item: Leftovers
+|-heal|p2a: LOVE DELUXE|100/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|94/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1731610945
+|move|p1a: Zapdos|Thunderbolt|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|84/100 tox
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1731610970
+|switch|p1a: Aerodactyl|Aerodactyl, F|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: LOVE DELUXE|77/100 tox|[from] Sandstorm
+|-heal|p2a: LOVE DELUXE|84/100 tox|[from] item: Leftovers
+|-damage|p2a: LOVE DELUXE|71/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1731610974
+|move|p1a: Aerodactyl|Double-Edge|p2a: LOVE DELUXE
+|-damage|p2a: LOVE DELUXE|13/100 tox
+|move|p2a: LOVE DELUXE|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|3 blades
+|c|☆3 blades|gg
+|c|☆Churielix|gg
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806248">
+{"id":"smogtours-gen3ou-806248","format":"[Gen 3] OU","players":["Churielix","3 blades"],"uploadtime":1731610974,"views":7,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: a plague doc vs. FaceOFF3141 - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between a plague doc and FaceOFF3141! Format: [Gen 3] OU; Date: Nov 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806186">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731535476
+|gametype|singles
+|player|p1|a plague doc|#scl4shoguns2|
+|player|p2|FaceOFF3141|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731535476
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆FaceOFF3141|glhf
+|inactive|a plague doc has 270 seconds left.
+|inactive|a plague doc has 240 seconds left.
+|c|☆a plague doc|HF
+|
+|t:|1731535549
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1731535568
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1731535581
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: FaceOFF3141|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1731535594
+|move|p1a: Skarmory|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|cant|p2a: Forretress|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|inactive|a plague doc has 270 seconds left.
+|inactive|a plague doc has 240 seconds left.
+|
+|t:|1731535664
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Forretress|Rapid Spin|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|99/100
+|-sideend|p2: FaceOFF3141|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Metagross|100/100|[from] item: Leftovers
+|-end|p2a: Forretress|move: Taunt|[silent]
+|upkeep
+|turn|5
+|inactive|a plague doc has 240 seconds left.
+|
+|t:|1731535693
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Metagross|Hidden Power|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|87/100|[from] Sandstorm
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1731535708
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|switch|p1a: Celebi|Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731535713
+|move|p2a: Dugtrio|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1731535721
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731535728
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey|[miss]
+|-miss|p1a: Starmie|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731535735
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731535746
+|switch|p2a: Suicune|Suicune|93/100
+|cant|p1a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|87/100|[from] Sandstorm
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731535761
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|cant|p1a: Metagross|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|87/100|[from] Sandstorm
+|-heal|p2a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731535763
+|move|p2a: Suicune|Surf|p1a: Metagross
+|-damage|p1a: Metagross|42/100 par
+|move|p1a: Metagross|Explosion|p2a: Suicune
+|-damage|p2a: Suicune|6/100
+|faint|p1a: Metagross
+|
+|t:|1731535771
+|switch|p1a: Starmie|Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Suicune|0 fnt|[from] Sandstorm
+|faint|p2a: Suicune
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1731535775
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|13
+|
+|t:|1731535781
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731535791
+|move|p2a: Blissey|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100 par
+|move|p1a: Skarmory|Spikes|p2a: Blissey
+|-sidestart|p2: FaceOFF3141|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1731535800
+|move|p2a: Blissey|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|8/100 par
+|move|p1a: Skarmory|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: Skarmory|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731535810
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Spikes
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731535818
+|move|p2a: Forretress|Spikes|p1a: Skarmory
+|-sidestart|p1: a plague doc|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: FaceOFF3141|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731535824
+|move|p2a: Forretress|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100 par
+|-sideend|p2: FaceOFF3141|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|cant|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731535827
+|move|p2a: Forretress|Spikes|p1a: Skarmory
+|-sidestart|p1: a plague doc|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: FaceOFF3141|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731535829
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|84/100|[from] Spikes
+|move|p2a: Forretress|Rapid Spin|p1a: Starmie
+|-damage|p1a: Starmie|78/100
+|-sideend|p2: FaceOFF3141|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731535837
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|97/100
+|-sideend|p1: a plague doc|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|71/100|[from] Sandstorm
+|-damage|p2a: Blissey|91/100|[from] Sandstorm
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731535847
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|move|p2a: Blissey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|3/100
+|-status|p1a: Starmie|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|71/100|[from] Sandstorm
+|-damage|p1a: Starmie|0 fnt|[from] Sandstorm
+|faint|p1a: Starmie
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1731535851
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|turn|23
+|
+|t:|1731535871
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2a: Forretress
+|-damage|p2a: Forretress|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731535877
+|move|p1a: Aerodactyl|Rock Slide|p2a: Forretress
+|-damage|p2a: Forretress|32/100
+|move|p2a: Forretress|Explosion|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p2a: Forretress
+|faint|p1a: Aerodactyl
+|c|☆a plague doc|Gg
+|-message|a plague doc forfeited.
+|
+|win|FaceOFF3141
+|c|☆FaceOFF3141|gg
+|player|p2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806186">
+{"id":"smogtours-gen3ou-806186","format":"[Gen 3] OU","players":["a plague doc","FaceOFF3141"],"uploadtime":1731535886,"views":29,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

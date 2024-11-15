@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: Vermillion Gangsta vs. VZR - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between Vermillion Gangsta and VZR! Format: [Gen 3] OU; Date: Nov 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806162">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731524929
+|gametype|singles
+|player|p1|Vermillion Gangsta|2|
+|player|p2|VZR|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731524929
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Swampert|Swampert, M|100/100
+|turn|1
+|c|☆VZR|hf
+|c|☆Vermillion Gangsta|u2
+|
+|t:|1731524944
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1731524962
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Metagross|Explosion|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Skarmory
+|
+|t:|1731524984
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1731524997
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525019
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Swampert|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|-heal|p1a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525029
+|move|p2a: Celebi|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|t:|1731525037
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525055
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731525063
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Swampert|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525084
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Jirachi|Hidden Power|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Magneton|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525094
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Magneton|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p2a: Magneton|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|VZR has 270 seconds left.
+|
+|t:|1731525110
+|move|p1a: Jirachi|Fire Punch|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1731525112
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731525124
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Aerodactyl|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731525136
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731525157
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-heal|p1a: Salamence|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731525166
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Swampert|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|95/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1731525178
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|52/100
+|move|p2a: Swampert|Roar|p1a: Salamence
+|drag|p1a: Jirachi|Jirachi|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731525191
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731525209
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731525217
+|move|p1a: Jirachi|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1731525221
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Vermillion Gangsta|mb
+|
+|t:|1731525231
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1731525238
+|switch|p1a: Salamence|Salamence, F|95/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|89/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|95/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|89/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1731525243
+|switch|p2a: Swampert|Swampert, M|58/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|83/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|89/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|77/100 tox|[from] psn
+|-heal|p2a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731525250
+|move|p1a: Salamence|Hidden Power|p2a: Swampert
+|-damage|p2a: Swampert|26/100
+|move|p2a: Swampert|Surf|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|58/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|52/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|40/100 tox|[from] psn
+|-heal|p2a: Swampert|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731525264
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Swampert|Surf|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|20/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|14/100 tox|[from] Sandstorm
+|-heal|p1a: Salamence|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|0 fnt|[from] psn
+|faint|p1a: Salamence
+|-heal|p2a: Swampert|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1731525274
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|t:|1731525282
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Zapdos|Toxic|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|45/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731525290
+|switch|p2a: Celebi|Celebi|63/100
+|move|p1a: Zapdos|Hidden Power|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|51/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1731525300
+|move|p1a: Zapdos|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Zapdos|p2a: Celebi
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1731525305
+|move|p1a: Zapdos|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Zapdos|p2a: Celebi
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1731525309
+|move|p1a: Zapdos|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|move|p2a: Celebi|Light Screen|p2a: Celebi
+|-sidestart|p2: VZR|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|76/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1731525317
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Celebi|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|88/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1731525334
+|move|p2a: Celebi|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|76/100 tox|[from] Sandstorm
+|-heal|p2a: Celebi|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|63/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1731525347
+|move|p1a: Tyranitar|Rock Slide|p2a: Celebi|[miss]
+|-miss|p1a: Tyranitar|p2a: Celebi
+|move|p2a: Celebi|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1731525352
+|switch|p1a: Zapdos|Zapdos|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-damage|p2a: Celebi|57/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Celebi|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|39/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1731525363
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, M|45/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|-sideend|p2: VZR|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1731525371
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Zapdos|Toxic|p2a: Swampert
+|-activate|p2a: Swampert|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1731525376
+|move|p1a: Zapdos|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Toxic|p1a: Zapdos|[miss]
+|-miss|p2a: Swampert|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Swampert|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|57/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1731525382
+|move|p1a: Zapdos|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|t:|1731525385
+|switch|p2a: Celebi|Celebi|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-damage|p2a: Celebi|32/100|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Celebi|39/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1731525391
+|move|p1a: Zapdos|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|89/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-damage|p2a: Celebi|82/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-heal|p2a: Celebi|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1731525396
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|69/100 tox
+|move|p2a: Celebi|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|70/100|[from] Sandstorm
+|-damage|p2a: Celebi|63/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|64/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|75/100 tox|[silent]
+|-heal|p2a: Celebi|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|69/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1731525403
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|56/100 tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|58/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|64/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|51/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1731525410
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|69/100 tox
+|move|p2a: Celebi|Light Screen|p2a: Celebi
+|-sidestart|p2: VZR|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|45/100|[from] Sandstorm
+|-damage|p2a: Celebi|62/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|51/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|39/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|74/100 tox|[silent]
+|-heal|p2a: Celebi|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Celebi|55/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1731525416
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|49/100 tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|99/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|33/100|[from] Sandstorm
+|-damage|p2a: Celebi|93/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|39/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|27/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|70/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1731525429
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|62/100 tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|21/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|27/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|15/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|63/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1731525435
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|57/100 tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|9/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|-heal|p1a: Zapdos|15/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|2/100|[from] Leech Seed|[of] p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox|[silent]
+|-damage|p2a: Celebi|57/100 tox|[from] psn
+|upkeep
+|turn|42
+|c|☆VZR|gg
+|c|☆Vermillion Gangsta|gg
+|
+|t:|1731525447
+|move|p1a: Zapdos|Thunderbolt|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|50/100 tox
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|99/100 tox
+|
+|-sideend|p2: VZR|Light Screen
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|0 fnt|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 tox|[from] Sandstorm
+|faint|p1a: Zapdos
+|
+|win|VZR
+|upkeep
+|player|p2|
+|player|p1|
+|player|p1|Vermillion Gangsta|2|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806162">
+{"id":"smogtours-gen3ou-806162","format":"[Gen 3] OU","players":["Vermillion Gangsta","VZR"],"uploadtime":1731525447,"views":4,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

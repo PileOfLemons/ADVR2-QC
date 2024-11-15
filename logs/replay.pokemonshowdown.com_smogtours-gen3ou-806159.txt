@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: no more bad dreams vs. Hydreigon &gt; Latias - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between no more bad dreams and Hydreigon &gt; Latias! Format: [Gen 3] OU; Date: Nov 13, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806159">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|badge|p2|bronze|gen9uu|100-3
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.<\/a><\/div>
+|t:|1731523951
+|gametype|singles
+|player|p1|no more bad dreams|265|
+|player|p2|Hydreigon > Latias|guitarist|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731523951
+|start
+|switch|p1a: BKCdroning time|Hariyama, F|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|
+|t:|1731523964
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Metagross|Psychic|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|92/100
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1731523978
+|move|p1a: Jirachi|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|26/100
+|-status|p2a: Metagross|brn
+|move|p2a: Metagross|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|-heal|p2a: Metagross|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|20/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1731523990
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1731523993
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gengar|Fire Punch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|
+|-heal|p1a: Tyranitar|100/100|[from] move: Wish|[wisher] Jirachi
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1731524002
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-hint|Previously chosen switches continue in Gen 2-4 after a Pursuit target faints.
+|switch|p2a: Swampert|Swampert, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1731524010
+|switch|p1a: BKCdroning time|Hariyama, F|100/100
+|move|p2a: Swampert|Earthquake|p1a: BKCdroning time
+|-damage|p1a: BKCdroning time|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: BKCdroning time|62/100|[from] Sandstorm
+|-heal|p1a: BKCdroning time|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1731524017
+|move|p2a: Swampert|Hydro Pump|p1a: BKCdroning time
+|-damage|p1a: BKCdroning time|19/100
+|move|p1a: BKCdroning time|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|98/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: BKCdroning time
+|-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: BKCdroning time|13/100|[from] Sandstorm
+|-heal|p1a: BKCdroning time|19/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1731524026
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Swampert|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1731524030
+|move|p2a: Swampert|Hydro Pump|p1a: Forretress
+|-damage|p1a: Forretress|44/100
+|move|p1a: Forretress|Spikes|p2a: Swampert
+|-sidestart|p2: Hydreigon > Latias|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1731524037
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Swampert|Hydro Pump|p1a: Blissey|[miss]
+|-miss|p2a: Swampert|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1731524046
+|move|p2a: Swampert|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731524048
+|-singleturn|p2a: Swampert|move: Focus Punch
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Focus Punch|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731524055
+|switch|p2a: Metagross|Metagross|20/100 brn
+|-damage|p2a: Metagross|8/100 brn|[from] Spikes
+|move|p1a: Salamence|Hidden Power|p2a: Metagross
+|-resisted|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1731524064
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731524068
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1731524071
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100
+|move|p1a: Tyranitar|Roar|p2a: Tyranitar
+|drag|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|82/100|[from] Sandstorm
+|-heal|p2a: Raikou|88/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|16/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731524078
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|move|p1a: Tyranitar|Crunch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|22/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731524081
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1731524082
+|switch|p1a: Salamence|Salamence, F|85/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731524086
+|switch|p2a: Regice|Regice|100/100
+|-damage|p2a: Regice|88/100|[from] Spikes
+|move|p1a: Salamence|Brick Break|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-damage|p2a: Regice|38/100|[from] Sandstorm
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|-heal|p2a: Regice|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731524089
+|switch|p1a: Blissey|Blissey, F|66/100
+|move|p2a: Regice|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regice|38/100|[from] Sandstorm
+|-damage|p1a: Blissey|60/100 par|[from] Sandstorm
+|-heal|p2a: Regice|44/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1731524093
+|move|p2a: Regice|Explosion|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p2a: Regice
+|faint|p1a: Blissey
+|
+|t:|1731524105
+|switch|p1a: Jirachi|Jirachi|78/100
+|switch|p2a: Tyranitar|Tyranitar, F|56/100
+|-damage|p2a: Tyranitar|43/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1731524115
+|move|p1a: Jirachi|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|37/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1731524121
+|switch|p1a: Salamence|Salamence, F|85/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|25/100 tox|[from] psn
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731524128
+|switch|p1a: BKCdroning time|Hariyama, F|19/100
+|move|p2a: Tyranitar|Rock Slide|p1a: BKCdroning time
+|-resisted|p1a: BKCdroning time
+|-damage|p1a: BKCdroning time|0 fnt
+|faint|p1a: BKCdroning time
+|
+|t:|1731524130
+|switch|p1a: Jirachi|Jirachi|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-enditem|p2a: Tyranitar|Salac Berry|[eat]
+|-boost|p2a: Tyranitar|spe|1|[from] item: Salac Berry
+|-damage|p2a: Tyranitar|7/100 tox|[from] psn
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731524132
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Tyranitar|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1731524134
+|switch|p2a: Raikou|Raikou|88/100
+|-damage|p2a: Raikou|76/100|[from] Spikes
+|turn|25
+|
+|t:|1731524135
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|51/100
+|move|p1a: Jirachi|Toxic|p2a: Raikou|[miss]
+|-miss|p1a: Jirachi|p2a: Raikou
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|45/100|[from] Sandstorm
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1731524137
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Jirachi|Fire Punch|p2a: Raikou
+|-activate|p2a: Raikou|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|45/100|[from] Sandstorm
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1731524139
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Jirachi|Fire Punch|p2a: Raikou
+|-activate|p2a: Raikou|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|45/100|[from] Sandstorm
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1731524151
+|move|p2a: Raikou|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1731524154
+|switch|p1a: Salamence|Salamence, F|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|45/100|[from] Sandstorm
+|-damage|p1a: Salamence|79/100|[from] Sandstorm
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Salamence|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1731524156
+|move|p2a: Raikou|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|t:|1731524157
+|switch|p1a: Forretress|Forretress, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|45/100|[from] Sandstorm
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Forretress|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆no more bad dreams|ggs
+|
+|t:|1731524161
+|move|p2a: Raikou|Thunderbolt|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|win|Hydreigon > Latias
+|player|p1|
+|c|☆Hydreigon > Latias|/log Hydreigon > Latias made the replay of this battle unlisted.
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806159">
+{"id":"smogtours-gen3ou-806159","format":"[Gen 3] OU","players":["no more bad dreams","Hydreigon > Latias"],"uploadtime":1731524161,"views":38,"formatid":"gen3ou","rating":null,"private":1,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>

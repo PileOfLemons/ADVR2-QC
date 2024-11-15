@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>[Gen 3] OU: jank_city.mp4 vs. SlamonBBQ - Replays - Pok&eacute;mon Showdown!</title>
+
+<meta name="description" content="Watch a replay of a Pok&eacute;mon battle between jank_city.mp4 and SlamonBBQ! Format: [Gen 3] OU; Date: Nov 15, 2024" />
+<!--
+
+Hey, you! Looking in the source for the replay log?
+
+You can find them in JSON format, just add `.json` at the end of a replay URL.
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.json
+
+Or, if you only need the log itself, add `.log` instead:
+
+https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
+
+-->
+
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26211653-1');
+</script>
+<!-- End Google Analytics -->
+<!-- Venatus Ad Manager - Install in <HEAD> of page -->
+	<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="642aba63ec9a7b11c3c9c1be" data-mode="scan" async></script>
+<!-- / Venatus Ad Manager -->
+
+<style>
+	@media (max-width:820px) {
+		.battle {
+			margin: 0 auto;
+		}
+		.battle-log {
+			margin: 7px auto 0;
+			max-width: 640px;
+			height: 300px;
+			position: static;
+		}
+	}
+	.optgroup {
+		display: inline-block;
+		line-height: 22px;
+		font-size: 10pt;
+	}
+	.optgroup .button {
+		height: 25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.optgroup button.button {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.linklist {
+		list-style: none;
+		margin: 0.5em 0;
+		padding: 0;
+	}
+	.linklist li {
+		padding: 2px 0;
+	}
+	.sidebar {
+		float: left;
+		width: 320px;
+	}
+	.bar-wrapper {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.bar-wrapper.has-sidebar {
+		max-width: 1430px;
+	}
+	.mainbar {
+		margin: 0;
+		padding-right: 1px;
+	}
+	.mainbar.has-sidebar {
+		margin-left: 330px;
+	}
+	@media (min-width: 1511px) {
+		.sidebar {
+			width: 400px;
+		}
+		.bar-wrapper.has-sidebar {
+			max-width: 1510px;
+		}
+		.mainbar.has-sidebar {
+			margin-left: 410px;
+		}
+	}
+	.section.first-section {
+		margin-top: 9px;
+	}
+	.blocklink small {
+		white-space: normal;
+	}
+	.button {
+		vertical-align: middle;
+	}
+	.replay-controls {
+		padding-top: 10px;
+	}
+	.replay-controls h1 {
+		font-size: 16pt;
+		font-weight: normal;
+		color: #CCC;
+	}
+	.pagelink {
+		text-align: center;
+	}
+	.pagelink a {
+		width: 150px;
+	}
+	.textbox, .button {
+		font-size: 11pt;
+		vertical-align: middle;
+	}
+	@media (max-width: 450px) {
+		.button {
+			font-size: 9pt;
+		}
+	}
+</style>
+
+<div>
+
+	<header>
+		<div class="nav-wrapper"><ul class="nav">
+			<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png" srcset="//pokemonshowdown.com/images/pokemonshowdownbeta.png 1x, //pokemonshowdown.com/images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/dex/">Pok&eacute;dex</a></li>
+			<li><a class="button cur" href="/">Replays</a></li>
+			<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
+			<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+			<li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
+		</ul></div>
+	</header>
+
+	<div class="main" id="main">
+
+		<noscript><section class="section">You need to enable JavaScript to use this page; sorry!</section></noscript>
+
+	</div>
+
+</div>
+
+<script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
+
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
+
+<script defer src="js/utils.js?e31f9a17"></script>
+<script defer src="js/replays-battle.js?7008c182"></script>
+
+<!-- don't scrape this data! just add .json or .log after the URL!
+Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB-API.md -->
+<script type="text/plain" class="log" id="replaylog-smogtours-gen3ou-806310">
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1731644304
+|gametype|singles
+|player|p1|jank_city.mp4|workerice|
+|player|p2|SlamonBBQ|sage|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1731644304
+|start
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|inactive|jank_city.mp4 has 270 seconds left.
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1731644335
+|move|p1a: Smeargle|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Spore
+|cant|p2a: Skarmory|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1731644343
+|move|p1a: Smeargle|Spikes|p2a: Skarmory
+|-sidestart|p2: SlamonBBQ|Spikes
+|cant|p2a: Skarmory|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1731644363
+|move|p1a: Smeargle|Spikes|p2a: Skarmory
+|-sidestart|p2: SlamonBBQ|Spikes
+|cant|p2a: Skarmory|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1731644368
+|move|p1a: Smeargle|Spikes|p2a: Skarmory
+|-sidestart|p2: SlamonBBQ|Spikes
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Spikes|p1a: Smeargle
+|-sidestart|p1: jank_city.mp4|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1731644382
+|move|p1a: Smeargle|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp|[from] move: Spore
+|cant|p2a: Skarmory|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1731644390
+|switch|p1a: Gengar|Gengar, M|100/100
+|cant|p2a: Skarmory|slp
+|
+|upkeep
+|turn|7
+|inactive|SlamonBBQ has 270 seconds left.
+|
+|t:|1731644422
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|76/100|[from] Spikes
+|move|p1a: Gengar|Thunderbolt|p2a: Jolteon
+|-heal|p2a: Jolteon|100/100|[from] ability: Volt Absorb|[of] p1a: Gengar
+|
+|upkeep
+|turn|8
+|inactive|SlamonBBQ has 270 seconds left.
+|inactive|jank_city.mp4 has 270 seconds left.
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1731644476
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|-damage|p1a: Smeargle|88/100|[from] Spikes
+|move|p2a: Jolteon|Thunder Wave|p1a: Smeargle
+|-status|p1a: Smeargle|par
+|
+|upkeep
+|turn|9
+|inactive|SlamonBBQ has 240 seconds left.
+|
+|t:|1731644489
+|switch|p2a: Skarmory|Skarmory, F|100/100 slp
+|move|p1a: Smeargle|Explosion|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100 slp
+|faint|p1a: Smeargle
+|inactive|jank_city.mp4 has 240 seconds left.
+|
+|t:|1731644518
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|SlamonBBQ has 240 seconds left.
+|inactive|SlamonBBQ has 210 seconds left.
+|
+|t:|1731644569
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|76/100|[from] Spikes
+|move|p1a: Swampert|Roar|p2a: Starmie
+|drag|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|inactive|SlamonBBQ has 180 seconds left.
+|
+|t:|1731644616
+|switch|p2a: Skarmory|Skarmory, F|86/100 slp
+|move|p1a: Swampert|Substitute|p1a: Swampert
+|-start|p1a: Swampert|Substitute
+|-damage|p1a: Swampert|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|92/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1731644622
+|move|p1a: Swampert|Surf|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100 slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1731644632
+|move|p1a: Swampert|Roar|p2a: Skarmory
+|drag|p2a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1731644646
+|move|p2a: Gengar|Giga Drain|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-end|p1a: Swampert|Substitute
+|move|p1a: Swampert|Surf|p2a: Gengar
+|-damage|p2a: Gengar|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|51/100|[from] Sandstorm
+|-heal|p2a: Gengar|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|jank_city.mp4 has 270 seconds left.
+|
+|t:|1731644674
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|move|p2a: Gengar|Giga Drain|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|74/100
+|-heal|p2a: Gengar|70/100|[from] drain|[of] p1a: Aerodactyl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|63/100|[from] Sandstorm
+|-heal|p2a: Gengar|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1731644685
+|switch|p2a: Skarmory|Skarmory, F|30/100 slp
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|36/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1731644689
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|11/100 slp
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Roar|p1a: Aerodactyl
+|drag|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1731644698
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Skarmory|Roar|p1a: Tyranitar
+|drag|p1a: Aerodactyl|Aerodactyl, M|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1731644723
+|move|p1a: Aerodactyl|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|inactive|SlamonBBQ has 150 seconds left.
+|inactive|SlamonBBQ has 120 seconds left.
+|
+|t:|1731644795
+|switch|p2a: Gengar|Gengar, M|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|63/100|[from] Sandstorm
+|-heal|p2a: Gengar|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|SlamonBBQ has 90 seconds left.
+|
+|t:|1731644823
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|24/100
+|move|p2a: Gengar|Ice Punch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|63/100|[from] Sandstorm
+|-enditem|p1a: Aerodactyl|Liechi Berry|[eat]
+|-boost|p1a: Aerodactyl|atk|1|[from] item: Liechi Berry
+|-heal|p2a: Gengar|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|SlamonBBQ has 60 seconds left.
+|inactive|SlamonBBQ has 30 seconds left.
+|inactive|SlamonBBQ has 20 seconds left.
+|
+|t:|1731644894
+|move|p1a: Aerodactyl|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|SlamonBBQ has 25 seconds left this turn.
+|
+|t:|1731644897
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|-damage|p2a: Metagross|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1731644903
+|move|p1a: Aerodactyl|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|13/100
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|19/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1731644906
+|move|p2a: Metagross|Meteor Mash|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|t:|1731644916
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|25/100|[from] item: Leftovers
+|-heal|p1a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1731644927
+|move|p2a: Metagross|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|30/100
+|move|p1a: Metagross|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|inactive|SlamonBBQ has 30 seconds left.
+|inactive|SlamonBBQ has 20 seconds left.
+|inactive|SlamonBBQ has 15 seconds left.
+|
+|t:|1731644967
+|switch|p2a: Starmie|Starmie|76/100
+|-damage|p2a: Starmie|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|45/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: Metagross|36/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|SlamonBBQ has 25 seconds left this turn.
+|
+|t:|1731644975
+|move|p2a: Starmie|Hydro Pump|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|inactive|SlamonBBQ has 30 seconds left this turn.
+|
+|t:|1731644993
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|45/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|SlamonBBQ has 30 seconds left.
+|inactive|SlamonBBQ has 20 seconds left.
+|inactive|jank_city.mp4 has 270 seconds left.
+|inactive|SlamonBBQ has 15 seconds left.
+|inactive|jank_city.mp4 has 240 seconds left.
+|
+|t:|1731645060
+|move|p2a: Starmie|Hydro Pump|p1a: Gengar
+|-damage|p1a: Gengar|15/100
+|move|p1a: Gengar|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p1a: Gengar
+|faint|p2a: Starmie
+|inactive|SlamonBBQ has 25 seconds left this turn.
+|inactive|jank_city.mp4 has 240 seconds left.
+|inactive|SlamonBBQ has 20 seconds left.
+|inactive|SlamonBBQ has 15 seconds left.
+|inactive|SlamonBBQ has 10 seconds left.
+|
+|t:|1731645077
+|switch|p2a: Tyranitar|Tyranitar, M|76/100
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p2a: Tyranitar|51/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|inactive|SlamonBBQ has 20 seconds left this turn.
+|inactive|jank_city.mp4 has 240 seconds left.
+|inactive|SlamonBBQ has 15 seconds left.
+|
+|t:|1731645094
+|move|p1a: Tyranitar|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|inactive|SlamonBBQ has 20 seconds left this turn.
+|
+|t:|1731645096
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|70/100|[from] Sandstorm
+|-heal|p2a: Jolteon|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|SlamonBBQ has 30 seconds left this turn.
+|inactive|jank_city.mp4 has 240 seconds left.
+|
+|t:|1731645103
+|move|p2a: Jolteon|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|23/100
+|move|p1a: Tyranitar|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|jank_city.mp4
+|inactive|SlamonBBQ has 30 seconds left this turn.
+|c|☆SlamonBBQ|gg
+|c|☆jank_city.mp4|gg
+|player|p2|
+|player|p1|
+|player|p2|SlamonBBQ|sage|
+
+</script>
+<script type="application/json" class="data" id="replaydata-smogtours-gen3ou-806310">
+{"id":"smogtours-gen3ou-806310","format":"[Gen 3] OU","players":["jank_city.mp4","SlamonBBQ"],"uploadtime":1731645103,"views":20,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+</script>
+
+<script defer src="js/replays.js?9d40a366"></script>
