@@ -19,10 +19,10 @@ https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
 
 -->
 
-<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.023195364461161105" />
-<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.13261647063804238" />
-<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.8753245789963631" />
-<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8627959624976733" />
+<link rel="stylesheet" href="//pokemonshowdown.com/style/global.css?0.767286132409787" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?0.9266228007934947" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?0.7924700842790926" />
+<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?0.8777417872839479" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-1"></script>
@@ -159,21 +159,21 @@ https://replay.pokemonshowdown.com/gen7randomdoublesbattle-865046831.log
 <script defer nomodule src="//play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
 <script defer src="//play.pokemonshowdown.com/js/lib/preact.min.js"></script>
 
-<script defer src="//play.pokemonshowdown.com/config/config.js?2bddbc15"></script>
+<script defer src="//play.pokemonshowdown.com/config/config.js?6dec07f6"></script>
 <script defer src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
 <script defer src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
 <script defer src="//play.pokemonshowdown.com/js/battle-sound.js"></script>
-<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.7209276989879541"></script>
-<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.6111056340867951"></script>
-<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.3532142036491459"></script>
-<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.24223875632456182"></script>
-<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.38839984266356864"></script>
-<script defer src="//play.pokemonshowdown.com/data/moves.js?0.21866028504024015"></script>
-<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.2005157953846628"></script>
-<script defer src="//play.pokemonshowdown.com/data/items.js?0.9894211263848525"></script>
-<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.6008791140282215"></script>
-<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.7580118955022959"></script>
-<script defer src="//play.pokemonshowdown.com/js/battle.js?0.6057722274234274"></script>
+<script defer src="//play.pokemonshowdown.com/js/battledata.js?0.6315294753075389"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini.js?0.7603743185311358"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?0.030888842834281283"></script>
+<script defer src="//play.pokemonshowdown.com/data/graphics.js?0.05593094747507488"></script>
+<script defer src="//play.pokemonshowdown.com/data/pokedex.js?0.47064822249611904"></script>
+<script defer src="//play.pokemonshowdown.com/data/moves.js?0.8583693120512459"></script>
+<script defer src="//play.pokemonshowdown.com/data/abilities.js?0.16017181182386842"></script>
+<script defer src="//play.pokemonshowdown.com/data/items.js?0.4163379185673943"></script>
+<script defer src="//play.pokemonshowdown.com/data/teambuilder-tables.js?0.31075597372830477"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle-tooltips.js?0.6536193500708172"></script>
+<script defer src="//play.pokemonshowdown.com/js/battle.js?0.1916591943277901"></script>
 
 <script defer src="js/utils.js?e31f9a17"></script>
 <script defer src="js/replays-battle.js?7008c182"></script>
@@ -605,7 +605,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798312">
-{"id":"smogtours-gen3ou-798312","format":"[Gen 3] OU","players":["Lunarvania","Wolf Turds"],"uploadtime":1728848628,"views":127,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+{"id":"smogtours-gen3ou-798312","format":"[Gen 3] OU","players":["Lunarvania","Wolf Turds"],"uploadtime":1728848628,"views":132,"formatid":"gen3ou","rating":null,"private":0,"password":null}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

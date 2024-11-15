@@ -445,7 +445,7 @@ if __name__ == "__main__":
 
     # Call the function with the path to your Excel file
     # noinspection SpellCheckingInspection
-    test = True
+    test = False
     sheet_id = '1VAFXclvNu1edSAI0XbGX_iGAEehXNDWLA9xgnFvGLbM' if test else '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
 
     lemon.add_to_log(f"Test: {test} Sheet ID: {sheet_id}")
