@@ -67,18 +67,25 @@ def extract_lines_from_log(log_text):
 
 
 class Lemons:
-    def __init__(self):
+    def __init__(self, doc_id, importer_path="importer.csv", processed_importer_path="processed_logs.csv",
+                 rounds_path="rounds.csv", allow_path="allow.txt", xcl_path="current.xlsx", logs_direct="logs"):
         # initialize attributes here
         self.log = []
+        self.sheet_id = doc_id
         self.duplicated_games = []
         self.missing_games = []
         self.all_rows = []
         self.confirmed_mess = []
-        self.whitelist = []
-        self.whitelist_filepath = "games_to_ignore.txt"
-        self.fill_whitelist()
+        self.allow_list = []
+        self.allow_list_filepath = allow_path
+        self.fill_allow_list()
         self.rows_with_excess_players = []
-        self.add_to_log("Program Start")
+        self.importer_sheet_path = importer_path
+        self.processed_importer_sheet_path = processed_importer_path
+        self.rounds_sheet_path = rounds_path
+        self.xcl_file_path = xcl_path
+        self.logs_directory = logs_direct
+        # self.add_to_log("Program Start")
 
         pass
 
@@ -88,12 +95,12 @@ class Lemons:
         # Add the time to the entry
         self.log.append(f"[{current_time}] {entry}")
 
-    def fetch_and_save_log(self, link, download_dir="logs"):
+    def fetch_and_save_log(self, link):
         # Ensure download directory exists
-        os.makedirs(download_dir, exist_ok=True)
+        os.makedirs(self.logs_directory, exist_ok=True)
         # Extract file name from link
         filename = link.replace("https://", "").replace("/", "_") + ".txt"
-        file_path = os.path.join(download_dir, filename)
+        file_path = os.path.join(self.logs_directory, filename)
 
         # Check if log file has already been downloaded
         if os.path.exists(file_path):
@@ -111,15 +118,15 @@ class Lemons:
                 file.write(log_text)
             return log_text
         except requests.RequestException as e:
-            self.add_to_log(f"Failed to retrieve log from {link}: {e}")
+            self.add_to_log(f"Failed to retrieve log from {link}")
             return None
 
-    def process_csv(self, sub_input_csv, sub_output_csv, download_dir="logs"):
+    def process_csv(self):
         link_cache = {}  # Cache to store already processed links
         rows_to_write = []  # Buffer for rows to be written in bulk
 
-        with open(sub_input_csv, mode='r', newline='', encoding='utf-8', errors='replace') as csv_file, \
-                open(sub_output_csv, mode='w', newline='', encoding='utf-8') as output_file:
+        with open(self.importer_sheet_path, mode='r', newline='', encoding='utf-8', errors='replace') as csv_file, \
+                open(self.processed_importer_sheet_path, mode='w', newline='', encoding='utf-8') as output_file:
 
             reader = csv.DictReader(csv_file)
             if reader.fieldnames is None:
@@ -146,7 +153,7 @@ class Lemons:
 
             with ThreadPoolExecutor(max_workers=10) as executor:
                 # Schedule fetch tasks only for unique links that need to be fetched
-                futures = {executor.submit(self.fetch_and_save_log, link, download_dir): link for link in
+                futures = {executor.submit(self.fetch_and_save_log, link): link for link in
                            links_to_fetch}
 
                 for future in as_completed(futures):
@@ -182,24 +189,24 @@ class Lemons:
 
         # print(f"Total unique links processed: {len(link_cache)}")
 
-    def download_xcl(self, sub_sheet_id, sub_sheet_name):
-        url = f'https://docs.google.com/spreadsheets/d/{sub_sheet_id}/export?format=xlsx'
+    def download_xcl(self):
+        url = f'https://docs.google.com/spreadsheets/d/{lemon.sheet_id}/export?format=xlsx'
 
         # Download the Excel file
         response = requests.get(url)
 
         # Save to a file
         if response.status_code == 200:
-            with open(sub_sheet_name, 'wb') as file:
+            with open(lemon.xcl_file_path, 'wb') as file:
                 file.write(response.content)
             self.add_to_log("File downloaded successfully as 'downloaded_sheet.xlsx'")
 
         else:
             self.add_to_log(f"Failed to download file. Status code: {response.status_code}")
 
-    def process_excel_file(self, file_path):
+    def process_excel_file(self):
         # Load the Excel file
-        excel_data = pd.ExcelFile(file_path)
+        excel_data = pd.ExcelFile(self.xcl_file_path)
 
         # Save the Importer sheet directly as a CSV
         importer_df = excel_data.parse("Importer")
@@ -210,7 +217,7 @@ class Lemons:
             "https://replay.pokemonshowdown.com/smogtours-",
             regex=True
         )
-        importer_df.to_csv("importer.csv", index=False)
+        importer_df.to_csv(self.importer_sheet_path, index=False)
 
         # Initialize an empty list to hold each round's DataFrame
         rounds_data = []
@@ -238,7 +245,7 @@ class Lemons:
 
         cleaned_rounds_df = self.clean_rounds(pd.concat(rounds_data, ignore_index=True))
         # Save the combined rounds data as a CSV
-        cleaned_rounds_df.to_csv("rounds.csv", index=False)
+        cleaned_rounds_df.to_csv(self.rounds_sheet_path, index=False)
 
     def clean_rounds(self, df):
         # Filter out rows where only one item exists in 'sheet_name'
@@ -280,7 +287,7 @@ class Lemons:
             # print("The following rows had issues with divisibility into groups of 4 digits:")
             # print(df.loc[problematic_rows])
             subx = df.loc[problematic_rows]
-            self.add_to_log(subx)
+            self.add_to_log(f"Rows with r columns with messed up digits\n {subx}")
 
         # Filter out rows where both 'winner' and 'game_list' are null
         df = df[~df[['winner', 'game_list']].isnull().all(axis=1)]
@@ -288,11 +295,11 @@ class Lemons:
         # Select the relevant columns to return
         return df[['player_a', 'player_b', 'winner', 'game_list', 'sheet_name']]
 
-    def analyze_csv(self, file_path):
+    def analyze_csv(self):
         all_numbers = []
 
         # Read the CSV and extract numbers
-        with open(file_path, mode='r') as file:
+        with open(self.rounds_sheet_path, mode='r') as file:
             csv_reader = csv.DictReader(file)
             for row in csv_reader:
                 game_list = row['game_list']
@@ -310,7 +317,8 @@ class Lemons:
         if duplicates:
             self.add_to_log(f"Duplicates found in replay numbers: {duplicates}")
         else:
-            self.add_to_log("No duplicates found in replay numbers")
+            # self.add_to_log("No duplicates found in replay numbers")
+            pass
         # Convert all_numbers to integers
         all_numbers = list(map(int, all_numbers))
 
@@ -321,15 +329,15 @@ class Lemons:
         full_range = set(range(1, max_number + 1))
         present_numbers = set(all_numbers)
         missing_numbers = sorted(full_range - present_numbers)
-        missing_numbers = sorted(set(missing_numbers) - set(self.whitelist))
+        missing_numbers = sorted(set(missing_numbers) - set(self.allow_list))
         self.missing_games = missing_numbers
         if missing_numbers:
             self.add_to_log(f"Sorted missing replay numbers: {missing_numbers}")
         else:
             self.add_to_log("No missing replay numbers")
 
-    def fill_whitelist(self):
-        with open(self.whitelist_filepath, 'r') as file:
+    def fill_allow_list(self):
+        with open(self.allow_list_filepath, 'r') as file:
             for line in file:
                 # Remove leading/trailing whitespace, including spaces and tabs
                 stripped_line = line.strip()
@@ -338,18 +346,18 @@ class Lemons:
                 if not stripped_line.startswith("#"):
                     # Remove any commas and split the line by whitespace
                     numbers = [int(num) for num in stripped_line.replace(',', '').split()]
-                    # Extend the whitelist with these numbers
-                    self.whitelist.extend(numbers)
+                    # Extend the allow_list with these numbers
+                    self.allow_list.extend(numbers)
 
     def check_num_players(self):
 
-        rounds_df = pd.read_csv('rounds.csv')
-        logs_df = pd.read_csv('processed_logs_optimized.csv')
+        rounds_df = pd.read_csv(self.rounds_sheet_path)
+        logs_df = pd.read_csv(self.processed_importer_sheet_path)
         # Convert replay_num to a dictionary for quick lookup
         logs_dict = logs_df.set_index('replay_num')[['player_p1', 'player_p2']].to_dict('index')
         # Initialize a list to store num_players for each row in rounds_df
         num_players_list = []
-
+        temp_log = ""
         # Iterate over each row in rounds_df
         for _, row in rounds_df.iterrows():
             # Extract the game_list
@@ -363,16 +371,17 @@ class Lemons:
                     continue
             except AttributeError:
 
-                self.add_to_log(
-                    f"AttributeError: game_list value is {game_list}, which is of type {type(game_list)} \n Problematic row:\n{row}")
+                temp_log += (
+                    f"\nAttributeError: game_list value is {game_list}, which is of type {type(game_list)} \n"
+                    f"\tProblematic row: player_a: {row['player_a']}, player_b: {row['player_b']}, sheet_name: {row['sheet_name']}")
                 num_players_list.append(99)
                 continue
 
             # Split game_list into individual game IDs
             game_list = [int(game) for game in game_list.split()]
 
-            # Check if any game in game_list is in the whitelist and skip the row if so
-            if any(game in self.whitelist for game in game_list):
+            # Check if any game in game_list is in the allow_list and skip the row if so
+            if any(game in self.allow_list for game in game_list):
                 num_players_list.append(0)  # or any placeholder value for skipped rows
                 continue
 
@@ -392,7 +401,8 @@ class Lemons:
 
             # Append the number of unique players to num_players_list
             num_players_list.append(len(players_set))
-
+        if not temp_log == "":
+            self.add_to_log(temp_log)
         # Add num_players as a new column in rounds_df
         rounds_df['num_players'] = num_players_list
 
@@ -406,22 +416,22 @@ class Lemons:
             self.add_to_log("No rows with num_players greater than 2.")
 
         # Save the updated DataFrame to a new CSV
-        rounds_df.to_csv('rounds.csv', index=False)
+        rounds_df.to_csv(self.rounds_sheet_path, index=False)
 
     def check_dupes(self):
-        df = pd.read_csv('processed_logs_optimized.csv')
+        df = pd.read_csv(self.processed_importer_sheet_path)
         # Step 1: Find duplicate entries in the 'replay_link' column
         duplicates = df[df.duplicated(subset=['replay_link'], keep=False)]
 
-        # Step 2: Find groups of duplicates where none of the 'replay_num' values are in the whitelist
+        # Step 2: Find groups of duplicates where none of the 'replay_num' values are in the allow_list
         filtered_duplicates = duplicates.groupby('replay_link').filter(
-            lambda group: not any(group['replay_num'].isin(lemon.whitelist))
+            lambda group: not any(group['replay_num'].isin(lemon.allow_list))
         )
 
         # Check if there are any duplicates left after filtering
         if not filtered_duplicates.empty:
             log_message = "Grouped duplicates by 'replay_link' with associated 'replay_num' values (excluding " \
-                          "whitelist):\n "
+                          "allow_list):\n "
 
             # Group duplicates by 'replay_link' and collect 'replay_num' values
             grouped_duplicates = filtered_duplicates.groupby('replay_link')['replay_num'].apply(list)
@@ -429,46 +439,43 @@ class Lemons:
             # Append each replay link and its list of replay numbers to the log message
             for replay_link, replay_nums in grouped_duplicates.items():
                 log_message += f"Replay Link: {replay_link}\n"
-                log_message += f"Associated Replay Numbers: {replay_nums}\n\n"
+                log_message += f"Associated Replay Numbers: {replay_nums}\n"
 
             # Add the final message to the log
             self.add_to_log(log_message)
         else:
             # No duplicates found message
-            self.add_to_log("No duplicates found in 'replay_link' column or all duplicates are in the whitelist.")
+            # self.add_to_log("No duplicates found in 'replay_link' column or all duplicates are in the allow_list.")
+            pass
 
 
 if __name__ == "__main__":
     start_time = time.perf_counter()
 
-    lemon = Lemons()
-
     # Call the function with the path to your Excel file
     # noinspection SpellCheckingInspection
+    basic_test = '1VAFXclvNu1edSAI0XbGX_iGAEehXNDWLA9xgnFvGLbM'
+    temp_test = '1Pbb5gvvV3u2ckk4LDI6sYzb7fPXqd_9M-_6tNzobsv4'
+    real_sheet_id = '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
     test = False
-    sheet_id = '1VAFXclvNu1edSAI0XbGX_iGAEehXNDWLA9xgnFvGLbM' if test else '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
-
-    lemon.add_to_log(f"Test: {test} Sheet ID: {sheet_id}")
+    sheet_id = temp_test if test else real_sheet_id
+    lemon = Lemons(doc_id=sheet_id)
+    lemon.add_to_log(f"Test: {test} Sheet ID: {lemon.sheet_id}")
     sheet_name = "current.xlsx"
     boo = True
     if boo:
-        lemon.download_xcl(sheet_id, sheet_name)
+        lemon.download_xcl()
 
-    lemon.process_excel_file(sheet_name)
-    lemon.analyze_csv("rounds.csv")
+    lemon.process_excel_file()
+    lemon.analyze_csv()
 
     if boo:
-        input_csv = 'importer.csv'  # Input CSV with links under the header "link"
-        output_csv = 'processed_logs_optimized.csv'  # Output CSV to store results
-        lemon.add_to_log("Start link download")
-        lemon.process_csv(input_csv, output_csv)
-        lemon.add_to_log("End link download")
-
+        # lemon.add_to_log("Start link download")
+        lemon.process_csv()
+        # lemon.add_to_log("End link download")
     lemon.check_dupes()
-
     # Load the CSVs
     lemon.check_num_players()
-
     for x in lemon.log:
         print(x)
         print("-" * 40)
@@ -486,10 +493,12 @@ if __name__ == "__main__":
 888 "Y8888 888  888  888 "Y88P" 888  888     
 
     '''
-# TODO Add way to just pass dataframes around and only save/ access csvs once TODO stop passing file paths around.
-#  just put all that up in the init TODO make it so anytime something is passed to the log. if its empty there is a
-#   way to store that as well. So empty logs dont have to be joined with it. TODO Fix the Failed to retrieve log from
-#    https://match.conceeded.to.pkLeech: with some kind of whitelist or something. its annoying
+# TODO Add way to just pass dataframes around and only save/ access csvs once
+#  TODO make it so anytime something is passed to the log. if its empty there is a
+#   way to store that as well. So empty logs dont have to be joined with it.
+#  TODO Fix the Failed to retrieve log from
+#   https://match.conceeded.to.pkLeech: with some kind of allow_list or something. its annoying
 
 # TODO stop the blank html file being downloaded in logs called http. I think its from blank line at end of importer?
-#  TODO have it check to see if there are any more games or whatever and report how many games have been added
+# TODO have it check to see if there are any more games or whatever and report how many games have been added
+# TODO have anything that can add a log be its own method/function. To make everything more compact and easier

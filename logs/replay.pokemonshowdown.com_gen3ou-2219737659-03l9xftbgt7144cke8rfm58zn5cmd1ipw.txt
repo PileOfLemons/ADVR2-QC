@@ -628,7 +628,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-gen3ou-2219737659-03l9xftbgt7144cke8rfm58zn5cmd1ipw">
-{"id":"gen3ou-2219737659","format":"[Gen 3] OU","players":["Hydreigon > Latias","her lips"],"uploadtime":1728527504,"views":163,"formatid":"gen3ou","rating":null,"private":1,"password":"03l9xftbgt7144cke8rfm58zn5cmd1i"}
+{"id":"gen3ou-2219737659","format":"[Gen 3] OU","players":["Hydreigon > Latias","her lips"],"uploadtime":1728527504,"views":164,"formatid":"gen3ou","rating":null,"private":1,"password":"03l9xftbgt7144cke8rfm58zn5cmd1i"}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

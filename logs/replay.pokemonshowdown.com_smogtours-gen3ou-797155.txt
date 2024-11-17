@@ -779,7 +779,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-smogtours-gen3ou-797155">
-{"id":"smogtours-gen3ou-797155","format":"[Gen 3] OU","players":["deno_nemesis","deckline"],"uploadtime":1728654085,"views":86,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+{"id":"smogtours-gen3ou-797155","format":"[Gen 3] OU","players":["deno_nemesis","deckline"],"uploadtime":1728654085,"views":87,"formatid":"gen3ou","rating":null,"private":0,"password":null}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

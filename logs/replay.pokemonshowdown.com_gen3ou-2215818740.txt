@@ -639,7 +639,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-gen3ou-2215818740">
-{"id":"gen3ou-2215818740","format":"[Gen 3] OU","players":["DiegoIn","roofb"],"uploadtime":1728053820,"views":135,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+{"id":"gen3ou-2215818740","format":"[Gen 3] OU","players":["DiegoIn","roofb"],"uploadtime":1728053820,"views":137,"formatid":"gen3ou","rating":null,"private":0,"password":null}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

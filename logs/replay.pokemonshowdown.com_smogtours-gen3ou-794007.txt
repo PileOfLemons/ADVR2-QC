@@ -602,7 +602,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-smogtours-gen3ou-794007">
-{"id":"smogtours-gen3ou-794007","format":"[Gen 3] OU","players":["emma_emma_emma","Tasmanian Demon"],"uploadtime":1727896288,"views":118,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+{"id":"smogtours-gen3ou-794007","format":"[Gen 3] OU","players":["emma_emma_emma","Tasmanian Demon"],"uploadtime":1727896288,"views":120,"formatid":"gen3ou","rating":null,"private":0,"password":null}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

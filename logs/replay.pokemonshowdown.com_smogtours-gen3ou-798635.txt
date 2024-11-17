@@ -606,7 +606,7 @@ Full API docs: https://github.com/smogon/pokemon-showdown-client/blob/master/WEB
 
 </script>
 <script type="application/json" class="data" id="replaydata-smogtours-gen3ou-798635">
-{"id":"smogtours-gen3ou-798635","format":"[Gen 3] OU","players":["Darth33","kittencel"],"uploadtime":1728916671,"views":140,"formatid":"gen3ou","rating":null,"private":0,"password":null}
+{"id":"smogtours-gen3ou-798635","format":"[Gen 3] OU","players":["Darth33","kittencel"],"uploadtime":1728916671,"views":141,"formatid":"gen3ou","rating":null,"private":0,"password":null}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>

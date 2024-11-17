@@ -573,7 +573,7 @@ No Pokémon, item, move, ability or nature named 'beatip' was found in Gen 3. Sh
 
 </script>
 <script type="application/json" class="data" id="replaydata-gen3ou-2221527659-gab7w67wruinn9wq7vpzunbwoeev8qfpw">
-{"id":"gen3ou-2221527659","format":"[Gen 3] OU","players":["KeshBa45","fayestra"],"uploadtime":1728756135,"views":85,"formatid":"gen3ou","rating":null,"private":1,"password":"gab7w67wruinn9wq7vpzunbwoeev8qf"}
+{"id":"gen3ou-2221527659","format":"[Gen 3] OU","players":["KeshBa45","fayestra"],"uploadtime":1728756135,"views":86,"formatid":"gen3ou","rating":null,"private":1,"password":"gab7w67wruinn9wq7vpzunbwoeev8qf"}
 </script>
 
 <script defer src="js/replays.js?9d40a366"></script>
