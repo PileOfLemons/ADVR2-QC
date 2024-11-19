@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\filestosave\discord.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\grouped_winners.csv">
           <value>
             <Attribute>
@@ -60,6 +67,27 @@
           </value>
         </entry>
         <entry key="\rounds.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\trial\mismatch.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\trial\processed_logs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\trial\processed_rounds.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

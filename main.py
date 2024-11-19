@@ -108,7 +108,7 @@ def extract_lines_from_log(log_text):
 class Lemons:
     def __init__(self, doc_id, importer_path="importer.csv", processed_importer_path="processed_logs.csv",
                  rounds_path="rounds.csv", allow_path="allow.txt", xcl_path="current.xlsx", logs_direct="logs",
-                 processed_rounds_path="processed_rounds.csv", alias_path="merged_file.json",
+                 processed_rounds_path="processed_rounds.csv", alias_path="alias.json",
                  mismatched_path="mismatch.csv"):
         # initialize attributes here
         self.log = []
@@ -772,129 +772,12 @@ if __name__ == "__main__":
         print(x)
         print("-" * 40)
 
-    # x = lemon.get_winner_from_replay(7)
-    # print(x)
 
     lemon.process_all_rounds_and_add_winners()
 
-    mismatches = count_mismatched_winners()
-    print("Number of mismatched rows:", mismatches)
-
-    mismatches = lemon.count_mismatched_winners_with_aliases()
-    print("Number of mismatched rows:", mismatches)
-
     lemon.save_mismatched_winners_to_csv()
     print(f"Execution time: {time.perf_counter() - start_time:.4f} seconds")  # End timing and print the result
-    lemon.save_grouped_winners_to_json()
 
-    # Initialize an empty dictionary
-    grouped_winners = {}
-
-    # Read the CSV file
-    with open('grouped_winners.csv', mode='r') as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            round_number = row['rounds']
-            importer = row['importer']
-
-            # If the round number already exists in the dictionary, append the importer
-            if round_number in grouped_winners:
-                grouped_winners[round_number].append(importer)
-            else:
-                # Otherwise, create a new entry with a list containing the importer
-                grouped_winners[round_number] = [importer]
-
-    # Save the dictionary to a file called temp_json
-    with open('temp_json.json', 'w') as json_file:
-        json.dump(grouped_winners, json_file, indent=4)
-
-    print("JSON data saved to 'temp_json.json'")
-
-    with open('mismatch.csv', mode='r') as infile:
-        csv_reader = csv.DictReader(infile)
-
-        # Define the fieldnames (columns you want to keep)
-        fieldnames = ['winner_from_rounds', 'winner_from_importer', 'game_list', "other_player", "sheet_name"]
-
-        # Open the reduced_mismatch.csv file in write mode
-        with open('reduced_mismatch.csv', mode='w', newline='') as outfile:
-            csv_writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-
-            # Write the header
-            csv_writer.writeheader()
-            other_player = ""
-            # Iterate over the rows of the original file and write the reduced rows
-            for row in csv_reader:
-                other_player = row['player_b'] if row['player_a'] == row['normalized_winner_from_rounds'] else row[
-                    'player_a']
-                reduced_row = {
-                    'winner_from_rounds': row['normalized_winner_from_rounds'],
-                    'winner_from_importer': row['normalized_winner_from_importer'],
-                    'game_list': row['game_list'],
-                    'other_player': other_player,
-                    'sheet_name': row['sheet_name']
-
-                }
-                csv_writer.writerow(reduced_row)
-
-    print("Reduced CSV saved to 'reduced_mismatch.csv'")
-
-    '''with open('reduced_mismatch.csv', mode='r') as infile:
-        csv_reader = csv.DictReader(infile)
-
-        # Create a list to store the rows where winner_from_importer == other_player
-        matching_rows = []
-
-        # Iterate over each row in the CSV
-        for row in csv_reader:
-            if row['winner_from_importer'] == row['other_player']:
-                matching_rows.append(row)
-
-    # Print the matching rows or save them to a new CSV if needed
-    if matching_rows:
-        print("Matching rows found:")
-        for row in matching_rows:
-            print(row)
-
-        # Optionally, write the matching rows to a new CSV
-        with open('matching_rows.csv', mode='w', newline='') as outfile:
-            fieldnames = csv_reader.fieldnames  # Use the original headers
-            csv_writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-
-            # Write the header and then the matching rows
-            csv_writer.writeheader()
-            csv_writer.writerows(matching_rows)
-
-        print("Matching rows saved to 'matching_rows.csv'")
-    else:
-        print("No matching rows found.")'''
-
-    '''import json
-
-    # Load the JSON data from both files
-    with open('temp_json.json', 'r') as f1:
-        data1 = json.load(f1)
-
-    with open('alias.json', 'r') as f2:
-        data2 = json.load(f2)
-
-    # Merge the dictionaries
-    merged_data = data1.copy()  # Start with data1
-
-    # Loop through the second dictionary and merge
-    for key, value in data2.items():
-        if key in merged_data:
-            # If the key exists in both, merge the lists
-            merged_data[key].extend(value)  # Add values from data2 to data1
-        else:
-            # If the key only exists in data2, add it
-            merged_data[key] = value
-
-    # Save the merged data back to a JSON file
-    with open('merged_file.json', 'w') as output_file:
-        json.dump(merged_data, output_file, indent=4)
-
-    print("Files merged successfully!")'''
 
     '''
 888                                      
