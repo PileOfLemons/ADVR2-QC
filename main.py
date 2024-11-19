@@ -1,4 +1,5 @@
 import csv
+import json
 import os
 import re
 import time
@@ -10,6 +11,44 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 import requests
+
+
+def load_aliases(json_path):
+    """Load aliases from a JSON file."""
+    with open(json_path, 'r') as f:
+        alias_mapping = json.load(f)
+    return alias_mapping
+
+
+def normalize_name(name, alias_mapping):
+    """Normalize a name to its canonical form using alias mapping."""
+    normalized_name = name.strip().lower()  # Normalize input name
+    for canonical, aliases in alias_mapping.items():
+        if normalized_name in [alias.lower() for alias in aliases]:
+            return canonical
+    return name  # Return the original name if no alias matches
+
+
+def count_mismatched_winners(csv_path='processed_rounds.csv'):
+    try:
+        # Load the processed rounds CSV file
+        df = pd.read_csv(csv_path)
+
+        # Normalize the columns by stripping whitespace and converting to lowercase
+        df['winner_from_importer'] = df['winner_from_importer'].str.strip().str.lower()
+        df['winner_from_rounds'] = df['winner_from_rounds'].str.strip().str.lower()
+
+        # Count rows where the two columns do not match
+        mismatched_count = (df['winner_from_importer'] != df['winner_from_rounds']).sum()
+
+        return mismatched_count
+
+    except FileNotFoundError:
+        return "CSV file not found."
+    except KeyError as e:
+        return f"Missing column in the CSV: {e}"
+    except Exception as e:
+        return f"An error occurred: {e}"
 
 
 def determine_winner(extracted_lines):
@@ -68,7 +107,9 @@ def extract_lines_from_log(log_text):
 
 class Lemons:
     def __init__(self, doc_id, importer_path="importer.csv", processed_importer_path="processed_logs.csv",
-                 rounds_path="rounds.csv", allow_path="allow.txt", xcl_path="current.xlsx", logs_direct="logs"):
+                 rounds_path="rounds.csv", allow_path="allow.txt", xcl_path="current.xlsx", logs_direct="logs",
+                 processed_rounds_path="processed_rounds.csv", alias_path="merged_file.json",
+                 mismatched_path="mismatch.csv"):
         # initialize attributes here
         self.log = []
         self.sheet_id = doc_id
@@ -85,6 +126,9 @@ class Lemons:
         self.rounds_sheet_path = rounds_path
         self.xcl_file_path = xcl_path
         self.logs_directory = logs_direct
+        self.processed_rounds_sheet_path = processed_rounds_path
+        self.alias_file_path = alias_path
+        self.mismatched_winners_file_path = mismatched_path
         # self.add_to_log("Program Start")
 
         pass
@@ -448,20 +492,268 @@ class Lemons:
             # self.add_to_log("No duplicates found in 'replay_link' column or all duplicates are in the allow_list.")
             pass
 
+    def get_winner_from_replay(self, replay_num):
+        try:
+            csv_path = self.processed_importer_sheet_path
+            # Load the CSV file
+            df = pd.read_csv(csv_path)
+
+            # Find the row with the specified replay_num
+            row = df[df['replay_num'] == replay_num]
+
+            # If the replay_num is not found
+            if row.empty:
+                return "Replay number not found in the CSV."
+
+            # Extract winner and player information
+            winner = row.iloc[0]['winner']
+            player_p1 = row.iloc[0]['player_p1']
+            player_p2 = row.iloc[0]['player_p2']
+
+            # Determine the winner
+            if winner == 1:
+                return player_p1
+            elif winner == 2:
+                return player_p2
+            else:
+                return "Problem in assigning winner."
+
+        except FileNotFoundError:
+            return "CSV file not found."
+        except KeyError as e:
+            return f"Missing column in the CSV: {e}"
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+    def process_rounds_and_determine_winners(self):
+        try:
+            csv_path = self.rounds_sheet_path
+            # Load the rounds CSV file
+            df = pd.read_csv(self.rounds_sheet_path)
+
+            # Get the first non-header row
+            first_row = df.iloc[0]
+
+            # Extract the game_list and split into game numbers
+            game_list = first_row['game_list']
+            game_numbers = map(int, game_list.split())
+
+            # Collect winners from games using get_winner_from_replay
+            winners = []
+            for game in game_numbers:
+                winner = lemon.get_winner_from_replay(game)
+                winners.append(winner)
+
+            # Determine the most common winner
+            winner_from_importer = Counter(winners).most_common(1)[0][0]
+
+            # Determine the winner_from_rounds
+            winner_col = first_row['winner']
+            if winner_col == 'a':
+                winner_from_rounds = first_row['player_a']
+            else:
+                winner_from_rounds = first_row['player_b']
+
+            return winner_from_importer, winner_from_rounds
+
+        except FileNotFoundError:
+            return "CSV file not found."
+        except KeyError as e:
+            return f"Missing column in the CSV: {e}"
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+    def process_all_rounds_and_add_winners(self):
+        try:
+            # Load the rounds CSV file
+            df = pd.read_csv(self.rounds_sheet_path)
+
+            # Initialize new columns
+            df['winner_from_importer'] = None
+            df['winner_from_rounds'] = None
+
+            # Iterate over each row in the DataFrame
+            for index, row in df.iterrows():
+                # Extract the game_list and split into game numbers
+                game_list = row['game_list']
+                if game_list.startswith("act"):
+                    df.at[index, 'winner_from_importer'] = "act"
+                    df.at[index, 'winner_from_rounds'] = "act"
+                    continue  # Skip further processing for this row
+                game_numbers = map(int, game_list.split())
+
+                # Collect winners from games using get_winner_from_replay
+                winners = []
+                for game in game_numbers:
+                    winner = self.get_winner_from_replay(game)
+                    winners.append(winner)
+
+                # Determine the most common winner for this round
+                winner_from_importer = Counter(winners).most_common(1)[0][0] if winners else "No winners found"
+
+                # Determine the winner_from_rounds
+                winner_col = row['winner']
+                if winner_col.lower() == 'a':
+                    winner_from_rounds = row['player_a']
+                elif winner_col.lower() == 'b':
+                    winner_from_rounds = row['player_b']
+                else:
+                    winner_from_rounds = "Invalid winner column value"
+
+                # Update the DataFrame with the new values
+                df.at[index, 'winner_from_importer'] = winner_from_importer
+                df.at[index, 'winner_from_rounds'] = winner_from_rounds
+
+            # Save the updated DataFrame back to the CSV
+            df.to_csv(self.processed_rounds_sheet_path, index=False)
+
+            print(f"Updated {self.processed_rounds_sheet_path} with winner_from_importer and winner_from_rounds.")
+
+        except FileNotFoundError:
+            print("CSV file not found.")
+        except KeyError as e:
+            print(f"Missing column in the CSV: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+    def count_mismatched_winners_with_aliases(self):
+        try:
+            # Load the processed rounds CSV file
+            df = pd.read_csv(self.processed_rounds_sheet_path)
+
+            # Load alias mapping from JSON
+            alias_mapping = load_aliases(self.alias_file_path)
+
+            # Normalize columns by resolving aliases
+            df['winner_from_importer'] = df['winner_from_importer'].apply(lambda x: normalize_name(x, alias_mapping))
+            df['winner_from_rounds'] = df['winner_from_rounds'].apply(lambda x: normalize_name(x, alias_mapping))
+
+            # Count rows where the two columns do not match
+            mismatched_count = (df['winner_from_importer'] != df['winner_from_rounds']).sum()
+
+            return mismatched_count
+
+        except FileNotFoundError:
+            return "CSV file not found."
+        except KeyError as e:
+            return f"Missing column in the CSV: {e}"
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+    def save_mismatched_winners_to_csv(self):
+        try:
+            csv_path = self.processed_rounds_sheet_path
+            alias_json = self.alias_file_path
+            output_path = self.mismatched_winners_file_path
+            # Load the processed rounds CSV file
+            df = pd.read_csv(csv_path)
+
+            for column in df.select_dtypes(include=['object']):  # Select columns with string data types
+                df[column] = df[column].apply(lambda x: x.strip().lower() if isinstance(x, str) else x)
+
+            # Load alias mapping from JSON
+            alias_mapping = load_aliases(alias_json)
+
+            # Normalize columns by resolving aliases
+            df['normalized_winner_from_importer'] = df['winner_from_importer'].apply(
+                lambda x: normalize_name(x, alias_mapping))
+            df['normalized_winner_from_rounds'] = df['winner_from_rounds'].apply(
+                lambda x: normalize_name(x, alias_mapping))
+
+            # Filter out the rows where the winners don't match
+            mismatched_rows = df[df['normalized_winner_from_importer'] != df['normalized_winner_from_rounds']]
+
+            # If there are mismatched rows, save them to a CSV
+            # Check if mismatched rows exist
+            if not mismatched_rows.empty:
+                # Group by 'normalized_winner_from_rounds' and sort by the size of each group
+                grouped = mismatched_rows.groupby('normalized_winner_from_rounds').size().reset_index(name='group_size')
+                grouped = grouped.sort_values(by='group_size', ascending=False)
+
+                # Sort the original DataFrame by the group sizes and 'normalized_winner_from_rounds'
+                sorted_rows = mismatched_rows.set_index('normalized_winner_from_rounds').loc[
+                    grouped['normalized_winner_from_rounds']].reset_index()
+
+                # Save the sorted mismatched rows to CSV
+                sorted_rows.to_csv(output_path, index=False)
+                print(f"Saved sorted mismatched rows to {output_path}")
+            else:
+                print("No mismatched rows found.")
+
+        except FileNotFoundError:
+            print("CSV file not found.")
+        except KeyError as e:
+            print(f"Missing column in the CSV: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+    def save_grouped_winners_to_json(self):
+        mismatch_csv = "mismatch.csv"
+        output_json = 'grouped_winners.json'
+        try:
+            # Load the mismatched winners CSV file
+            df = pd.read_csv(mismatch_csv)
+
+            # Group by both 'normalized_winner_from_rounds' and 'normalized_winner_from_importer'
+            grouped = df.groupby(
+                ['normalized_winner_from_rounds', 'normalized_winner_from_importer']).size().reset_index(
+                name='group_size')
+
+            # Filter out the groups that have exactly 2 entries
+            exact_two_groups = grouped[grouped['group_size'] == 2]
+
+            # Dictionary to store unique winners by normalized winner from rounds
+            winners_dict = {}
+
+            # For each group, find all the rows in that group
+            for _, row in exact_two_groups.iterrows():
+                winner_from_round = row['normalized_winner_from_rounds'].lower()
+                winner_from_importer = row['normalized_winner_from_importer'].lower()
+
+                # Add to the dictionary if not already present
+                if winner_from_round not in winners_dict:
+                    winners_dict[winner_from_round] = {}
+
+                if winner_from_importer not in winners_dict[winner_from_round]:
+                    winners_dict[winner_from_round][winner_from_importer] = 0
+
+                winners_dict[winner_from_round][winner_from_importer] += 1
+
+            # Convert dictionary to a structure suitable for JSON output
+            for round_key in winners_dict:
+                winners_dict[round_key] = list(winners_dict[round_key].keys())
+
+            # Save the result to a JSON file
+            with open(output_json, 'w', encoding='utf-8') as f:
+                json.dump(winners_dict, f, indent=4)
+
+            print(f"Grouped winners saved to {output_json}")
+
+        except FileNotFoundError:
+            print("Mismatched winners CSV file not found.")
+        except KeyError as e:
+            print(f"Missing column in the CSV: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     start_time = time.perf_counter()
 
     # Call the function with the path to your Excel file
     # noinspection SpellCheckingInspection
+    # basic_test is a copy of ADVR2 doc with errors I put in myself. but only a few
+    # temp_test is a copy of the doc from the past. lots of errors
+    # real_sheet_id should be self explanatory
     basic_test = '1VAFXclvNu1edSAI0XbGX_iGAEehXNDWLA9xgnFvGLbM'
     temp_test = '1Pbb5gvvV3u2ckk4LDI6sYzb7fPXqd_9M-_6tNzobsv4'
     real_sheet_id = '12PyGiciXTqEj1ARWD-cM37l3mOoCgUsnUKqT5fpklgA'
+    temp_temp_test = '1qhS1QSBnPoCG6S5wcXV-TzoagRqmHyjqTctIiBTDkFM'
     test = False
     sheet_id = temp_test if test else real_sheet_id
+    # sheet_id = basic_test
+    # sheet_id = temp_temp_test
     lemon = Lemons(doc_id=sheet_id)
     lemon.add_to_log(f"Test: {test} Sheet ID: {lemon.sheet_id}")
-    sheet_name = "current.xlsx"
     boo = True
     if boo:
         lemon.download_xcl()
@@ -480,7 +772,129 @@ if __name__ == "__main__":
         print(x)
         print("-" * 40)
 
+    # x = lemon.get_winner_from_replay(7)
+    # print(x)
+
+    lemon.process_all_rounds_and_add_winners()
+
+    mismatches = count_mismatched_winners()
+    print("Number of mismatched rows:", mismatches)
+
+    mismatches = lemon.count_mismatched_winners_with_aliases()
+    print("Number of mismatched rows:", mismatches)
+
+    lemon.save_mismatched_winners_to_csv()
     print(f"Execution time: {time.perf_counter() - start_time:.4f} seconds")  # End timing and print the result
+    lemon.save_grouped_winners_to_json()
+
+    # Initialize an empty dictionary
+    grouped_winners = {}
+
+    # Read the CSV file
+    with open('grouped_winners.csv', mode='r') as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            round_number = row['rounds']
+            importer = row['importer']
+
+            # If the round number already exists in the dictionary, append the importer
+            if round_number in grouped_winners:
+                grouped_winners[round_number].append(importer)
+            else:
+                # Otherwise, create a new entry with a list containing the importer
+                grouped_winners[round_number] = [importer]
+
+    # Save the dictionary to a file called temp_json
+    with open('temp_json.json', 'w') as json_file:
+        json.dump(grouped_winners, json_file, indent=4)
+
+    print("JSON data saved to 'temp_json.json'")
+
+    with open('mismatch.csv', mode='r') as infile:
+        csv_reader = csv.DictReader(infile)
+
+        # Define the fieldnames (columns you want to keep)
+        fieldnames = ['winner_from_rounds', 'winner_from_importer', 'game_list', "other_player", "sheet_name"]
+
+        # Open the reduced_mismatch.csv file in write mode
+        with open('reduced_mismatch.csv', mode='w', newline='') as outfile:
+            csv_writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+
+            # Write the header
+            csv_writer.writeheader()
+            other_player = ""
+            # Iterate over the rows of the original file and write the reduced rows
+            for row in csv_reader:
+                other_player = row['player_b'] if row['player_a'] == row['normalized_winner_from_rounds'] else row[
+                    'player_a']
+                reduced_row = {
+                    'winner_from_rounds': row['normalized_winner_from_rounds'],
+                    'winner_from_importer': row['normalized_winner_from_importer'],
+                    'game_list': row['game_list'],
+                    'other_player': other_player,
+                    'sheet_name': row['sheet_name']
+
+                }
+                csv_writer.writerow(reduced_row)
+
+    print("Reduced CSV saved to 'reduced_mismatch.csv'")
+
+    '''with open('reduced_mismatch.csv', mode='r') as infile:
+        csv_reader = csv.DictReader(infile)
+
+        # Create a list to store the rows where winner_from_importer == other_player
+        matching_rows = []
+
+        # Iterate over each row in the CSV
+        for row in csv_reader:
+            if row['winner_from_importer'] == row['other_player']:
+                matching_rows.append(row)
+
+    # Print the matching rows or save them to a new CSV if needed
+    if matching_rows:
+        print("Matching rows found:")
+        for row in matching_rows:
+            print(row)
+
+        # Optionally, write the matching rows to a new CSV
+        with open('matching_rows.csv', mode='w', newline='') as outfile:
+            fieldnames = csv_reader.fieldnames  # Use the original headers
+            csv_writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+
+            # Write the header and then the matching rows
+            csv_writer.writeheader()
+            csv_writer.writerows(matching_rows)
+
+        print("Matching rows saved to 'matching_rows.csv'")
+    else:
+        print("No matching rows found.")'''
+
+    '''import json
+
+    # Load the JSON data from both files
+    with open('temp_json.json', 'r') as f1:
+        data1 = json.load(f1)
+
+    with open('alias.json', 'r') as f2:
+        data2 = json.load(f2)
+
+    # Merge the dictionaries
+    merged_data = data1.copy()  # Start with data1
+
+    # Loop through the second dictionary and merge
+    for key, value in data2.items():
+        if key in merged_data:
+            # If the key exists in both, merge the lists
+            merged_data[key].extend(value)  # Add values from data2 to data1
+        else:
+            # If the key only exists in data2, add it
+            merged_data[key] = value
+
+    # Save the merged data back to a JSON file
+    with open('merged_file.json', 'w') as output_file:
+        json.dump(merged_data, output_file, indent=4)
+
+    print("Files merged successfully!")'''
 
     '''
 888                                      
